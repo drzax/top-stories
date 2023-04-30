@@ -14,8 +14,24 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=national | jq . > top-stories-national.json
-        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=national | jq . > features-national.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=national | jq . > data/top-stories-national.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=national | jq . > data/features-national.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=act | jq . > data/top-stories-act.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=act | jq . > data/features-act.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=nsw | jq . > data/top-stories-nsw.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=nsw | jq . > data/features-nsw.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=nt | jq . > data/top-stories-nt.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=nt | jq . > data/features-nt.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=qld | jq . > data/top-stories-qld.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=qld | jq . > data/features-qld.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=sa | jq . > data/top-stories-sa.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=sa | jq . > data/features-sa.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=tas | jq . > data/top-stories-tas.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=tas | jq . > data/features-tas.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=vic | jq . > data/top-stories-vic.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=vic | jq . > data/features-vic.json
+        curl https://www.abc.net.au/news-web/api/loader/newshometopstories?edition=wa | jq . > data/top-stories-wa.json
+        curl https://www.abc.net.au/news-web/api/loader/newshomefeatures?edition=wa | jq . > data/features-wa.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
