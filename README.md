@@ -1,15 +1,5 @@
-# Simple GitHub scraper
+# ABC News Top Stories Archive
 
-This is a template repository for a simple [GitHub scraper](https://simonwillison.net/2020/Oct/9/git-scraping/) pioneered by Simon Wilson.
+This is a simple [GitHub scraper](https://simonwillison.net/2020/Oct/9/git-scraping/) that archives a JSON feed of the top stories at [ABC News](https://www.abc.net.au/news).
 
-## The 'simple' part
-
-At this point the template only supports very simple fetching and committing of a JSON data file from somewhere on the internet.
-
-Replace `https://www.example.com/data.json` in the [.github/workflows/scrape.yaml] file with the URL of the data you want to scrape.
-
-Commit and push the repo to GitHub and you're ready to go.
-
-By default the scraper will run [once per week](https://crontab.guru/#6_16_*_*_0), but you can change the cron schedule in the [.github/workflows/scrape.yaml] file.
-
-Data is stored in [data.json](data.json).
+It uses this [simple get scraper](https://github.com/drzax/simple-scrape-template) template repository.
