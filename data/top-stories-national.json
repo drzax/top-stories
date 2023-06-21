@@ -40,6 +40,9 @@
           "uri": "coremedia://article/102506864"
         },
         {
+          "uri": "coremedia://article/102506380"
+        },
+        {
           "uri": "coremedia://article/102507204"
         },
         {
@@ -426,15 +429,15 @@
         "headingClassNames": [],
         "id": "102503170",
         "imagePosition": {
-          "mobile": "top",
-          "tablet": "top",
-          "desktop": "top"
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
         },
         "isMajor": false,
         "image": {
           "altText": "Jarome Luai and Reece Walsh come together",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/98ce736db608ccb4e00b60ae3e1e9b6e?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485",
-          "imgRatio": "16x9"
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/98ce736db608ccb4e00b60ae3e1e9b6e?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
+          "imgRatio": "3x2"
         },
         "link": {
           "to": "/news/2023-06-21/state-of-origin-game-ii-five-things-qld-vs-nsw/102503170"
@@ -447,7 +450,9 @@
         "title": {
           "children": "Five quick hits — DCE's Scott Sattler moment and a late-game brawl highlight Queensland's Origin-sealing win"
         },
-        "imageContainerClassNames": [],
+        "imageContainerClassNames": [
+          "imageHalf"
+        ],
         "subjects": [
           {
             "id": "2482",
@@ -493,7 +498,7 @@
         "reactKey": "national-102506864-1",
         "synopsis": "The news Australia is searching for, and all the news that happened while you snoozed: This is The Loop, your quick catch-up for this morning's stories as they happen.",
         "title": {
-          "children": "NSW police investigating alleged $5.5m crypto scam seize Ferrari, and Dark Mofo strips down for solstice swim. Catch up with The Loop"
+          "children": "NSW police investigating alleged $5.5m crypto scam seize Ferrari, as Melbourne climbs livable city rankings. Catch up with The Loop"
         },
         "imageContainerClassNames": [
           "imageHalf"
@@ -512,7 +517,7 @@
                 "id": "117",
                 "name": "Jessica Riga"
               },
-              "dateModified": "2023-06-21T22:13:23.000Z",
+              "dateModified": "2023-06-21T22:28:54.000Z",
               "datePublished": "2023-06-21T22:13:16.000Z",
               "id": "32412",
               "url": "https://www.abc.net.au/news/2023-06-22/the-loop-live-news-submersible-noises-dark-mofo-naked-swim/102506864#live-blog-post-32412",
@@ -521,7 +526,7 @@
               "isHidden": false,
               "isKeyEvent": true,
               "isPinned": false,
-              "plaintext": "Melbourne has jumped up the ranks to become the third Most Liveable City in the world. The latest global liveability index puts Melbourne above Sydney, which is at number four, mostly due to culture and environment. Last year, Melbourne came in at number 10. Vienna reigns supreme though thanks to its \"stability, good culture and entertainment, reliable infrastructure, and exemplary education and health service.\" Here's how the top 10 shakes out: Vienna, Austria Copenhagen, Denmark Melbourne, Australia Sydney, Australia Vancouver, Canada Zurich, Switzerland Calgary, Canada Geneva, Switzerland Toronto, Canada Osaka, Japan Auckland, New Zealand Alright. What do we think? Does Melbourne really deserve third spot? And over Sydney? What about Brisbane? First Taylor Swift snubs us and now this .",
+              "plaintext": "Melbourne has jumped up the ranks to become the third Most Liveable City in the world. The latest global liveability index puts Melbourne above Sydney, which is at number four, mostly due to culture and environment. Last year, Melbourne came in at number 10. Vienna reigns supreme though thanks to its \"stability, good culture and entertainment, reliable infrastructure, and exemplary education and health service.\" Here's how the top 10 positions shake out: Vienna, Austria Copenhagen, Denmark Melbourne, Australia Sydney, Australia Vancouver, Canada Zurich, Switzerland Calgary, Canada (tied with Geneva) Geneva, Switzerland (tied with Calgary) Toronto, Canada Osaka, Japan (tied with Auckland) Auckland, New Zealand (tied with Osaka) Alright. What do we think? Does Melbourne really deserve third spot? And over Sydney? What about Brisbane? First Taylor Swift snubs us and now this .",
               "system": "norkon",
               "tags": [],
               "title": "Melbourne jumps ranks to become third most liveable city",
@@ -682,7 +687,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "content": "Here's how the top 10 shakes out:"
+                          "content": "Here's how the top 10 positions shake out:"
                         }
                       ]
                     },
@@ -766,7 +771,18 @@
                           "children": [
                             {
                               "type": "text",
-                              "content": "Calgary, Canada"
+                              "content": "Calgary, Canada "
+                            },
+                            {
+                              "type": "tagname",
+                              "key": "i",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "(tied with Geneva)"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -777,7 +793,18 @@
                           "children": [
                             {
                               "type": "text",
-                              "content": "Geneva, Switzerland"
+                              "content": "Geneva, Switzerland "
+                            },
+                            {
+                              "type": "tagname",
+                              "key": "i",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "(tied with Calgary)"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -799,7 +826,18 @@
                           "children": [
                             {
                               "type": "text",
-                              "content": "Osaka, Japan"
+                              "content": "Osaka, Japan "
+                            },
+                            {
+                              "type": "tagname",
+                              "key": "i",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "(tied with Auckland)"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -810,7 +848,18 @@
                           "children": [
                             {
                               "type": "text",
-                              "content": "Auckland, New Zealand"
+                              "content": "Auckland, New Zealand "
+                            },
+                            {
+                              "type": "tagname",
+                              "key": "i",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "(tied with Osaka)"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -1215,6 +1264,44 @@
           {
             "id": "1574",
             "title": "World Politics"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102506380",
+        "imagePosition": {
+          "mobile": "top",
+          "tablet": "top",
+          "desktop": "top"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "Two Dark Mofo nude swim participants.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71642a1898a63ab067fe5a8c57dee260?impolicy=wcms_crop_resize&cropH=2807&cropW=4989&xPos=11&yPos=53&width=862&height=485",
+          "imgRatio": "16x9"
+        },
+        "link": {
+          "to": "/news/2023-06-22/dark-mofo-nude-midwinter-swim-2023/102506380"
+        },
+        "contentUri": "coremedia://article/102506380",
+        "canonicalURL": "https://www.abc.net.au/news/2023-06-22/dark-mofo-nude-midwinter-swim-2023/102506380",
+        "video": null,
+        "reactKey": "national-102506380-1",
+        "synopsis": "With the air temperature dipping to just 3 degrees Celsius, it was a bracing start for the 2,000 people who ditched their gear and pitched into the River Derwent for the annual Dark Mofo nude swim. ",
+        "title": {
+          "children": "Thousands brave morning freeze to bare all at Dark Mofo nude swim"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "536",
+            "title": "Carnivals and Festivals"
+          },
+          {
+            "id": "2762",
+            "title": "Weather"
           }
         ]
       },
@@ -1647,6 +1734,182 @@
                 "id": "167",
                 "name": "Kate Ainsworth"
               },
+              "dateModified": "2023-06-21T22:30:51.000Z",
+              "datePublished": "2023-06-21T22:30:51.000Z",
+              "id": "32414",
+              "url": "https://www.abc.net.au/news/2023-06-22/asx-markets-business-live-news-june-22/102508906#live-blog-post-32414",
+              "isHighlightedComment": false,
+              "isMarkedAsComment": false,
+              "isHidden": false,
+              "isKeyEvent": true,
+              "isPinned": false,
+              "plaintext": "If you missed this last night, car giant Ford is slashing 400 job s in the coming months, with the majority of those impacting workers at its factory in Geelong. It amounts to the company shedding 22% of its workforce, with workers in its product development and design roles being made redundant. Ford employs around 1,800 people in Australia, and says the changes are about efficiency. \"The changes are part of Ford's global drive to improve efficiency and transform its operations to meet future needs,\" Ford said in a statement. The Australian Manufacturing Workers' Union (AMWU) says most of the job losses won't come into effect until September. Ford's Australian operations are the latest to undergo job cuts, with around 3,800 jobs to go across its Europe sites as it shifts towards electric vehicle manufacturing. You can read more about the developments below:",
+              "system": "norkon",
+              "tags": [
+                "Business news"
+              ],
+              "title": "ICYMI: Ford has cut 400 jobs in Australia",
+              "featuredLink": {
+                "href": "https://www.abc.net.au/news/2023-06-21/car-giant-ford-set-to-cut-400-jobs-geelong-victoria/102507662",
+                "image": "https://live-production.wcms.abc-cdn.net.au/3d1968cedbb040b070f55240d53935b7?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=300&width=862&height=485",
+                "title": "Ford set to axe 400 jobs, with Geelong workers facing biggest cuts"
+              },
+              "type": "HTML",
+              "prepared": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "If you missed this last night, car giant "
+                        },
+                        {
+                          "type": "tagname",
+                          "key": "b",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "Ford is slashing 400 job"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "s in the coming months, with the majority of those impacting workers at its factory in Geelong."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "It amounts to the "
+                        },
+                        {
+                          "type": "tagname",
+                          "key": "b",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "company shedding 22% of its workforce"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": ", with workers in its product development and design roles being made redundant."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Ford employs around 1,800 people in Australia, and says the changes are about efficiency."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "blockquote",
+                      "props": {
+                        "alignment": "outdent"
+                      },
+                      "children": [
+                        {
+                          "type": "tagname",
+                          "key": "p",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "\"The changes are part of Ford's global drive to improve efficiency and transform its operations to meet future needs,\" Ford said in a statement."
+                            },
+                            {
+                              "type": "tagname",
+                              "key": "br",
+                              "props": {},
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "The Australian Manufacturing Workers' Union (AMWU) says most of the job losses "
+                        },
+                        {
+                          "type": "tagname",
+                          "key": "b",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "won't come into effect until September"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Ford's Australian operations are the latest to undergo job cuts, with around 3,800 jobs to go across its Europe sites as it shifts towards electric vehicle manufacturing."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "tagname",
+                      "key": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "You can read more about the developments below:"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "liveBlogPostPrepared": {
+              "author": {
+                "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-65fc6cc2-fa8b-4586-aedd-6974ec02707e.jpg",
+                "id": "167",
+                "name": "Kate Ainsworth"
+              },
               "dateModified": "2023-06-21T21:56:53.000Z",
               "datePublished": "2023-06-21T21:56:37.000Z",
               "id": "32409",
@@ -1862,275 +2125,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "liveBlogPostPrepared": {
-              "author": {
-                "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-65fc6cc2-fa8b-4586-aedd-6974ec02707e.jpg",
-                "id": "167",
-                "name": "Kate Ainsworth"
-              },
-              "dateModified": "2023-06-21T21:55:35.000Z",
-              "datePublished": "2023-06-21T21:55:35.000Z",
-              "id": "32408",
-              "url": "https://www.abc.net.au/news/2023-06-22/asx-markets-business-live-news-june-22/102508906#live-blog-post-32408",
-              "isHighlightedComment": false,
-              "isMarkedAsComment": false,
-              "isHidden": false,
-              "isKeyEvent": true,
-              "isPinned": false,
-              "plaintext": "Good morning, it's Thursday June 22 and you're reading the ABC's markets and business blog. Not only have we gotten through the shortest day of the year overnight (shoutout to the winter solstice) but we've had an interesting night on the global financial front, too. Let's get the big news out of the way first — the UK's latest inflation figures have been released, which has pretty much guaranteed that the Bank of England is going to raise rates at its meeting tonight. Inflation in the UK remained unchanged at 8.7%, surprising forecasters who had expected a small drop to 8.4%. But the UK's core (or underlying) inflation figure has risen to 7.1%, up from 6.8% — making it the highest rate since 1992. As for what economists are predicting the BoE to do tonight? Another hike of 0.25 percentage points is all but certain. Across the Atlantic, and the US Federal Reserve chair has used his appearance at a House Financial Committee hearing to reiterate the FOMC's comments last week — that more monetary tightening (aka interest rate rises) are on the way. Jerome Powell said additional hikes of 0.5 percentage points are \"a pretty good guess\", saying there are likely two more rate increases of 0.25 percentage points by the end of the year. Somewhat unsurprisingly, US markets finished lower, while the US dollar fell around half a percent in response. Back home and Wall Street's slower finish looks set to translate on the local markets, with futures slightly down this morning. It's early days, but grab a coffee and let's see how the day transpires, shall we?",
-              "system": "norkon",
-              "tags": [],
-              "title": "ASX set for slower start as Federal Reserve all but confirms more rate hikes",
-              "type": "HTML",
-              "prepared": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": " "
-                        },
-                        {
-                          "type": "text",
-                          "content": "Good morning, it's "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "Thursday June 22"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": " and you're reading the ABC's markets and business blog."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Not only have we gotten through the shortest day of the year overnight (shoutout to the winter solstice) but we've had an interesting night on the global financial front, too."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Let's get the big news out of the way first — the UK's latest inflation figures have been released, which has pretty much guaranteed that the "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "Bank of England is going to raise rates"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": " at its meeting tonight."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "Inflation in the UK remained unchanged at 8.7%"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": ", surprising forecasters who had expected a small drop to 8.4%."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "But the UK's "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "core (or underlying) inflation figure has risen to 7.1%"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": ", up from 6.8% — making it the "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "highest rate since 1992"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": "."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "As for what economists are predicting the BoE to do tonight? "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "Another hike of 0.25 percentage points "
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": "is all but certain."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Across the Atlantic, and the US Federal Reserve chair has used his appearance at a House Financial Committee hearing to reiterate the FOMC's comments last week — that more monetary tightening (aka interest rate rises) are on the way."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Jerome Powell said additional hikes of 0.5 percentage points are \"a pretty good guess\", saying there are likely "
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "b",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": "two more rate increases of 0.25 percentage points by the end of the year"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": "."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Somewhat unsurprisingly, US markets finished lower, while the US dollar fell around half a percent in response."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Back home and Wall Street's slower finish looks set to translate on the local markets, with futures slightly down this morning."
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "It's early days, but grab a coffee and let's see how the day transpires, shall we?"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "img",
-                      "props": {
-                        "alt": "",
-                        "height": "249",
-                        "src": "https://media4.giphy.com/media/xUOrwpPFzqDh48XEek/giphy-downsized.gif?cid=a381073cqcxxl1boynttd7uwnz8aho6b62qliu2toa6e7ef6&ep=v1_gifs_search&rid=giphy-downsized.gif&ct=g",
-                        "width": "250"
-                      },
-                      "children": []
                     }
                   ]
                 }
