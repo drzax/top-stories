@@ -159,7 +159,7 @@
                 "id": "226",
                 "name": "Brianna Morris-Grant"
               },
-              "dateModified": "2023-06-24T14:06:21.000Z",
+              "dateModified": "2023-06-24T14:22:33.000Z",
               "datePublished": "2023-06-24T14:00:59.000Z",
               "id": "32787",
               "url": "https://www.abc.net.au/news/2023-06-24/live-wanger-mercenaries-russia-rostov-yevgeny-prigozhin-mutiny/102519712#live-blog-post-32787",
@@ -278,13 +278,45 @@
                       ]
                     },
                     {
-                      "type": "fallback",
-                      "key": "",
-                      "props": {
-                        "docType": "Interactive",
-                        "tagname": "@@embed-inline"
-                      },
-                      "children": []
+                      "type": "tagname",
+                      "key": "figure",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "tagname",
+                          "key": "img",
+                          "props": {
+                            "alt": "A map of Moscow with markers showing Moscow, Lipetsk, Voronezh and Rostov-on-Don",
+                            "height": "340",
+                            "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-0ff9a626-945b-4ca5-ab13-1d995391685a.png",
+                            "width": "420"
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "tagname",
+                          "key": "figcaption",
+                          "props": {
+                            "element": "figcaption",
+                            "letterSpacing": "sm",
+                            "lineHeightMobile": 20,
+                            "sizeMobile": 12
+                          },
+                          "children": [
+                            {
+                              "type": "tagname",
+                              "key": "cite",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "(ABC News)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
