@@ -155,14 +155,7 @@
         ]
       },
       {
-        "contentLabels": [
-          {
-            "labelText": "live moment",
-            "contentType": "moment",
-            "contentStatus": "live",
-            "lang": "en"
-          }
-        ],
+        "contentLabels": [],
         "headingClassNames": [],
         "id": "102561482",
         "imagePosition": {
@@ -185,24 +178,11 @@
         "reactKey": "qld-102561482-1",
         "synopsis": "Indigenous Australians Minister Linda Burney names four priorities for the proposed Voice to Parliament in a speech to the National Press Club, after growing pressure to detail how it would benefit First Nations people.",
         "title": {
-          "children": "Linda Burney says gaps in health and education are among key priorities for the Voice"
+          "children": "Linda Burney says there is everything to gain and nothing to lose by supporting the Voice"
         },
         "imageContainerClassNames": [
           "imageHalf"
         ],
-        "liveBlogClientContext": {
-          "status": "ended",
-          "type": "moment",
-          "countdowns": [
-            {
-              "title": "Live Moments",
-              "showTime": 5400000,
-              "time": "2023-07-05T02:30:00.000Z"
-            }
-          ],
-          "isLiveMoment": true
-        },
-        "liveBlogKeyEvents": [],
         "subjects": [
           {
             "id": "1142",
@@ -1451,7 +1431,7 @@
                 "id": "236",
                 "name": "Sue Lannin"
               },
-              "dateModified": "2023-07-05T05:48:02.000Z",
+              "dateModified": "2023-07-05T05:55:35.000Z",
               "datePublished": "2023-07-05T05:48:02.000Z",
               "id": "33963",
               "url": "https://www.abc.net.au/news/2023-07-05/asx-markets-business-live-news-date-year/102562306#live-blog-post-33963",
@@ -1460,7 +1440,7 @@
               "isHidden": false,
               "isKeyEvent": true,
               "isPinned": false,
-              "plaintext": "Moody's Investor Services expects the number of borrowers falling behind on their mortgage repayments to rise despite the RBA's pause in interest rate rises this month. The credit ratings agency says high interest rates and inflation will continue to push up mortgage delinquencies over the next 12 months. Analysts Helen Liu and Alena Chen say most at risk are borrowers who took out mortgages at very low interest rates. This includes the hundreds of thousands of borrowers on low fixed rate loans, who are facing much higher rates when their fixed term ends over the next year. Nearly half of home loans were fixed term by July 2021, compared to one fifth before 2020. Moody's says 1.26 per cent of home loans were at least 30 days in arrears over March, up from 1.05 per cent in December. But 4.04 per cent of riskier loans were behind in repayments in March. \"The combination of high interest rates and inflation will continue to weaken mortgage borrowers' abilities to pay monthly home loan instalments.\" \"The fixed-rate period for a large number of mortgages will end over the next 6-12 months, which will add to home loan delinquencies.\" \"However, Australia's unemployment rate is low (3.6 per cent in May), so we expect mortgage delinquencies will only rise moderately.\"",
+              "plaintext": "Moody's Investor Services expects the number of borrowers falling behind on their mortgage repayments to rise despite the RBA's pause in interest rate rises this month. The credit ratings agency says high interest rates and inflation will continue to push up mortgage delinquencies over the next 12 months. Analysts Helen Liu and Alena Chen say most at risk are borrowers who took out mortgages at very low interest rates. This includes the hundreds of thousands of borrowers on low fixed rate loans, who are facing much higher rates when their fixed term ends over the next year. Nearly half of home loans were fixed term by July 2021, compared to one fifth before 2020. Moody's says 1.26 per cent of home loans were at least 30 days in arrears over March, up from 1.05 per cent in December. But 4.04 per cent of riskier loans were behind in repayments in March. \"The combination of high interest rates and inflation will continue to weaken mortgage borrowers' abilities to pay monthly home loan instalments,\" they said. \"The fixed-rate period for a large number of mortgages will end over the next 6-12 months, which will add to home loan delinquencies.\" \"However, Australia's unemployment rate is low (3.6 per cent in May), so we expect mortgage delinquencies will only rise moderately.\"",
               "system": "norkon",
               "tags": [],
               "title": "Mortgage arrears expected to increase",
@@ -1550,34 +1530,43 @@
                     },
                     {
                       "type": "tagname",
-                      "key": "p",
-                      "props": {},
+                      "key": "blockquote",
+                      "props": {
+                        "alignment": "outdent"
+                      },
                       "children": [
                         {
-                          "type": "text",
-                          "content": "\"The combination of high interest rates and inflation will continue to weaken mortgage borrowers' abilities to pay monthly home loan instalments.\""
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
+                          "type": "tagname",
+                          "key": "p",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "\"The combination of high interest rates and inflation will continue to weaken mortgage borrowers' abilities to pay monthly home loan instalments,\" they said."
+                            }
+                          ]
+                        },
                         {
-                          "type": "text",
-                          "content": "\"The fixed-rate period for a large number of mortgages will end over the next 6-12 months, which will add to home loan delinquencies.\""
-                        }
-                      ]
-                    },
-                    {
-                      "type": "tagname",
-                      "key": "p",
-                      "props": {},
-                      "children": [
+                          "type": "tagname",
+                          "key": "p",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "\"The fixed-rate period for a large number of mortgages will end over the next 6-12 months, which will add to home loan delinquencies.\""
+                            }
+                          ]
+                        },
                         {
-                          "type": "text",
-                          "content": "\"However, Australia's unemployment rate is low (3.6 per cent in May), so we expect mortgage delinquencies will only rise moderately.\""
+                          "type": "tagname",
+                          "key": "p",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "\"However, Australia's unemployment rate is low (3.6 per cent in May), so we expect mortgage delinquencies will only rise moderately.\""
+                            }
+                          ]
                         }
                       ]
                     },
