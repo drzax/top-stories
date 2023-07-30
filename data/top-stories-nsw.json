@@ -37,6 +37,9 @@
           "uri": "coremedia://article/102630908"
         },
         {
+          "uri": "coremedia://article/102666174"
+        },
+        {
           "uri": "coremedia://article/102650204"
         },
         {
@@ -103,7 +106,14 @@
     },
     "items": [
       {
-        "contentLabels": [],
+        "contentLabels": [
+          {
+            "labelText": "live moment",
+            "contentType": "moment",
+            "contentStatus": "live",
+            "lang": "en"
+          }
+        ],
         "headingClassNames": [
           "headingBigDesktop"
         ],
@@ -133,6 +143,13 @@
         "imageContainerClassNames": [
           "imageHalf"
         ],
+        "liveBlogClientContext": {
+          "status": "live",
+          "type": "moment",
+          "countdowns": null,
+          "isLiveMoment": true
+        },
+        "liveBlogKeyEvents": [],
         "subjects": [
           {
             "id": "1224",
@@ -441,6 +458,48 @@
           {
             "id": "1314",
             "title": "Driver Education"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102666174",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "A Dolphins' NRL player screams out as he celebrates scoring the club's first try.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d929618d3b1aa0438d7770b90a7a53d9?impolicy=wcms_crop_resize&cropH=794&cropW=1191&xPos=1641&yPos=246&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-07-30/nrl-live-score-dolphins-bulldogs-titans-cowboys/102666174"
+        },
+        "contentUri": "coremedia://article/102666174",
+        "canonicalURL": "https://www.abc.net.au/news/2023-07-30/nrl-live-score-dolphins-bulldogs-titans-cowboys/102666174",
+        "video": null,
+        "reactKey": "nsw-102666174-1",
+        "synopsis": "The NRL heads to Bundaberg for the first match of the afternoon, with the Bulldogs meeting the Dolphins. Later, the Titans host the Cowboys in a Queensland derby on the Gold Coast. Follow our ScoreCentre for all the live scores and stats.",
+        "title": {
+          "children": "NRL live: Dolphins face Bulldogs in bid to keep slim finals hopes alive"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "2486",
+            "title": "NRL"
+          },
+          {
+            "id": "2480",
+            "title": "Rugby League"
+          },
+          {
+            "id": "2478",
+            "title": "Sport"
           }
         ]
       },
