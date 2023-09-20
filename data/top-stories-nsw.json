@@ -19,10 +19,16 @@
           "uri": "coremedia://article/102882504"
         },
         {
+          "uri": "coremedia://article/102882616"
+        },
+        {
           "uri": "coremedia://article/102880084"
         },
         {
           "uri": "coremedia://article/102882482"
+        },
+        {
+          "uri": "coremedia://article/102882620"
         },
         {
           "uri": "coremedia://article/102882162"
@@ -53,6 +59,9 @@
         },
         {
           "uri": "coremedia://article/102882466"
+        },
+        {
+          "uri": "coremedia://article/102880880"
         },
         {
           "uri": "coremedia://article/102881586"
@@ -88,19 +97,10 @@
           "uri": "coremedia://article/102881804"
         },
         {
-          "uri": "coremedia://article/102881332"
-        },
-        {
           "uri": "coremedia://article/102882028"
         },
         {
-          "uri": "coremedia://article/102861930"
-        },
-        {
           "uri": "coremedia://article/102863040"
-        },
-        {
-          "uri": "coremedia://article/102880880"
         },
         {
           "uri": "coremedia://article/102881874"
@@ -205,6 +205,51 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "102882616",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Peopole of all ages are walking outdoors, wearing blue surgical masks.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8fe3daeafcd883c1da58ba8d8e0fb20e?impolicy=wcms_crop_resize&cropH=2528&cropW=3792&xPos=71&yPos=370&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-09-21/inquiry-to-be-announced-into-aus-government-covid-19-response/102882616"
+          },
+          "contentUri": "coremedia://article/102882616",
+          "canonicalURL": "https://www.abc.net.au/news/2023-09-21/inquiry-to-be-announced-into-aus-government-covid-19-response/102882616",
+          "video": null,
+          "reactKey": "nsw-102882616-1",
+          "synopsis": "An inquiry is set to be announced into the state, territory and federal governments' response to the COVID-19 pandemic.",
+          "title": {
+            "children": "Government to launch inquiry into federal, state and territory response to pandemic"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "12067544",
+              "title": "COVID-19"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis"
@@ -300,7 +345,7 @@
                   "id": "344",
                   "name": "Audrey Courty"
                 },
-                "dateModified": "2023-09-20T22:23:56.000Z",
+                "dateModified": "2023-09-20T22:30:59.000Z",
                 "datePublished": "2023-09-20T22:23:56.000Z",
                 "id": "46613",
                 "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46613",
@@ -309,7 +354,7 @@
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "Authorities in New South Wales say it will take several days to bring fires under control as a cool change moves through the state. The north-western region of the state is under a total fire bin today, with hot and windy conditions forecast. More than 60 fires are still burning following above-average September heat during the first half of the week. Meanwhile, fire crews in Queensland are on stand-by for worsening conditions today, with parts of the coast expecting record temperatures of 40C. There are total fire bans for the Barcoo shire in the state's south-west. Queensland firefighters have been battling multiple bushfires since the weekend, with a helicopter pilot having a lucky escape after crashing into a dam while fighting a fire.",
+                "plaintext": "Authorities in New South Wales say it will take several days to bring fires under control as a cool change moves through the state. The north-western region of the state is under a total fire ban today, with hot and windy conditions forecast. More than 60 fires are still burning following above-average September heat during the first half of the week. Meanwhile, fire crews in Queensland are on stand-by for worsening conditions today, with parts of the coast expecting record temperatures of 40C. There are total fire bans for the Barcoo shire in the state's south-west. Queensland has been battling multiple bushfires since the weekend, with a firefighting helicopter pilot having a lucky escape after crashing into a dam.",
                 "system": "norkon",
                 "tags": [],
                 "title": "Fire authorities in Queensland and NSW still on high alert",
@@ -379,7 +424,24 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "The north-western region of the state is under a total fire bin today, with hot and windy conditions forecast."
+                            "content": "The "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "a",
+                            "props": {
+                              "href": "https://www.abc.net.au/news/2023-09-21/nsw-weather-cool-reprieve-heatwave-fires/102881124"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "north-western region of the state is under a total fire ban today"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": ", with hot and windy conditions forecast."
                           }
                         ]
                       },
@@ -401,7 +463,24 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Meanwhile, fire crews in Queensland are on stand-by for worsening conditions today, with parts of the coast expecting record temperatures of 40C."
+                            "content": "Meanwhile, fire crews in "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "a",
+                            "props": {
+                              "href": "https://www.abc.net.au/news/2023-09-21/qld-heat-and-bushfire-threat-qfes-power-supply-el-nino-warning/102876686"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Queensland are on stand-by for worsening conditions today"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": ", with parts of the coast expecting record temperatures of 40C."
                           }
                         ]
                       },
@@ -423,7 +502,24 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Queensland firefighters have been battling multiple bushfires since the weekend, with a helicopter pilot having a lucky escape after crashing into a dam while fighting a fire."
+                            "content": "Queensland has been battling multiple bushfires since the weekend, with "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "a",
+                            "props": {
+                              "href": "https://www.abc.net.au/news/2023-09-20/firefighting-helicopter-crashed-in-tarome-scenic-rim-qfes/102880658"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "a firefighting helicopter pilot having a lucky escape"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " after crashing into a dam."
                           }
                         ]
                       }
@@ -563,56 +659,6 @@
                                   {
                                     "cropHeight": 576,
                                     "cropWidth": 864,
-                                    "height": 575,
-                                    "ratio": "3x2",
-                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=862&height=575",
-                                    "width": 862,
-                                    "x": 80,
-                                    "y": 0
-                                  },
-                                  {
-                                    "cropHeight": 576,
-                                    "cropWidth": 768,
-                                    "height": 647,
-                                    "ratio": "4x3",
-                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=768&xPos=128&yPos=0&width=862&height=647",
-                                    "width": 862,
-                                    "x": 128,
-                                    "y": 0
-                                  },
-                                  {
-                                    "cropHeight": 576,
-                                    "cropWidth": 576,
-                                    "height": 862,
-                                    "ratio": "1x1",
-                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=576&xPos=224&yPos=0&width=862&height=862",
-                                    "width": 862,
-                                    "x": 224,
-                                    "y": 0
-                                  },
-                                  {
-                                    "cropHeight": 576,
-                                    "cropWidth": 1024,
-                                    "height": 485,
-                                    "ratio": "16x9",
-                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=0&width=862&height=485",
-                                    "width": 862,
-                                    "x": 0,
-                                    "y": 0
-                                  },
-                                  {
-                                    "cropHeight": 576,
-                                    "cropWidth": 432,
-                                    "height": 1149,
-                                    "ratio": "3x4",
-                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=432&xPos=296&yPos=0&width=862&height=1149",
-                                    "width": 862,
-                                    "x": 296,
-                                    "y": 0
-                                  },
-                                  {
-                                    "cropHeight": 576,
-                                    "cropWidth": 864,
                                     "height": 107,
                                     "ratio": "3x2",
                                     "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
@@ -657,6 +703,56 @@
                                     "ratio": "3x4",
                                     "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=432&xPos=296&yPos=0&width=160&height=213",
                                     "width": 160,
+                                    "x": 296,
+                                    "y": 0
+                                  },
+                                  {
+                                    "cropHeight": 576,
+                                    "cropWidth": 864,
+                                    "height": 575,
+                                    "ratio": "3x2",
+                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=862&height=575",
+                                    "width": 862,
+                                    "x": 80,
+                                    "y": 0
+                                  },
+                                  {
+                                    "cropHeight": 576,
+                                    "cropWidth": 768,
+                                    "height": 647,
+                                    "ratio": "4x3",
+                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=768&xPos=128&yPos=0&width=862&height=647",
+                                    "width": 862,
+                                    "x": 128,
+                                    "y": 0
+                                  },
+                                  {
+                                    "cropHeight": 576,
+                                    "cropWidth": 576,
+                                    "height": 862,
+                                    "ratio": "1x1",
+                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=576&xPos=224&yPos=0&width=862&height=862",
+                                    "width": 862,
+                                    "x": 224,
+                                    "y": 0
+                                  },
+                                  {
+                                    "cropHeight": 576,
+                                    "cropWidth": 1024,
+                                    "height": 485,
+                                    "ratio": "16x9",
+                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=0&width=862&height=485",
+                                    "width": 862,
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  {
+                                    "cropHeight": 576,
+                                    "cropWidth": 432,
+                                    "height": 1149,
+                                    "ratio": "3x4",
+                                    "url": "https://live-production.wcms.abc-cdn.net.au/39923647cddc544ecae3b33428c06223?impolicy=wcms_crop_resize&cropH=576&cropW=432&xPos=296&yPos=0&width=862&height=1149",
+                                    "width": 862,
                                     "x": 296,
                                     "y": 0
                                   }
@@ -1292,6 +1388,51 @@
             }
           ],
           "subjects": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "102882620",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Eddie Jones looks pensive after the Wallabies lost to Fiji at the 2023 Rugby World Cup.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/13a349a0345644d9c4c7048f964b0ec0?impolicy=wcms_crop_resize&cropH=2575&cropW=3862&xPos=0&yPos=41&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-09-21/rugby-world-cup-eddie-jones-slammed-by-drew-mitchell/102882620"
+          },
+          "contentUri": "coremedia://article/102882620",
+          "canonicalURL": "https://www.abc.net.au/news/2023-09-21/rugby-world-cup-eddie-jones-slammed-by-drew-mitchell/102882620",
+          "video": null,
+          "reactKey": "nsw-102882620-1",
+          "synopsis": "Retired Test winger Drew Mitchell blames veteran coach Eddie Jones for putting the Wallabies in danger of missing the Rugby World Cup quarterfinals for the first time.",
+          "title": {
+            "children": "Ex-Wallaby unloads expletive-loaded criticism on Eddie Jones as World Cup campaign hangs by a thread"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2670",
+              "title": "Rugby Union"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2676",
+              "title": "Rugby Union World Cup"
+            }
+          ]
         }
       },
       {
@@ -2005,6 +2146,53 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "102880880",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman looks out to the distance wearing a black wide brimmed hat.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/998f9fe7e5c1895041d4ab8f7fc81a4e?impolicy=wcms_crop_resize&cropH=667&cropW=1000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-09-20/rachel-perkins-the-voice-campaign-alarming/102880880"
+          },
+          "contentUri": "coremedia://article/102880880",
+          "canonicalURL": "https://www.abc.net.au/news/2023-09-20/rachel-perkins-the-voice-campaign-alarming/102880880",
+          "video": null,
+          "reactKey": "nsw-102880880-1",
+          "synopsis": "Speaking at an event in honour of her late father, the activist Charles Perkins, filmmaker Rachel Perkins says it's \"depressing\" how many people still don't know what the Voice is.",
+          "title": {
+            "children": "Lack of understanding about the Voice 'alarming' as referendum approaches, filmmaker says"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1596",
+              "title": "Indigenous Policy"
+            },
+            {
+              "id": "1164",
+              "title": "Indigenous Culture"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "102881586",
           "imagePosition": {
             "mobile": "right",
@@ -2486,51 +2674,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "102881332",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two AFL players come together in a melee, showing anger with each other.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2b56d077885e375acfa71b4071141ce7?impolicy=wcms_crop_resize&cropH=482&cropW=723&xPos=86&yPos=31&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-09-20/brayden-maynard-wont-hold-back-in-collingwood-preliminary-final/102881332"
-          },
-          "contentUri": "coremedia://article/102881332",
-          "canonicalURL": "https://www.abc.net.au/news/2023-09-20/brayden-maynard-wont-hold-back-in-collingwood-preliminary-final/102881332",
-          "video": null,
-          "reactKey": "nsw-102881332-1",
-          "synopsis": "Collingwood coach Craig McRae does not want defender Brayden Maynard to change his \"hard, uncompromising\" approach, despite only getting to play in the preliminary finals after beating a rough conduct charge.",
-          "title": {
-            "children": "Fresh off beating a rough conduct charge, Brayden Maynard will line up against Toby Greene"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "13594712",
-              "title": "AFL"
-            },
-            {
-              "id": "2650",
-              "title": "Australian Rules Football"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "102882028",
           "imagePosition": {
             "mobile": "right",
@@ -2567,51 +2710,6 @@
             {
               "id": "1048",
               "title": "Religion and Beliefs"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "102861930",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "close up of packets of lamb cutlets on Coles shelf ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/488f3150af409b34da7501af30e172d2?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=331&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/rural/2023-09-20/mla-lamb-prices-plummet-supermarket-consumers-missing-out/102861930"
-          },
-          "contentUri": "coremedia://article/102861930",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2023-09-20/mla-lamb-prices-plummet-supermarket-consumers-missing-out/102861930",
-          "video": null,
-          "reactKey": "nsw-102861930-1",
-          "synopsis": "With some lambs and sheep selling for as little as $2 a head, why are consumers only just starting to see minor price cuts at the supermarket?",
-          "title": {
-            "children": "Why are consumers missing out as lamb prices plummet at the saleyards?"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2286",
-              "title": "Sheep Production"
-            },
-            {
-              "id": "2252",
-              "title": "Agricultural Prices"
-            },
-            {
-              "id": "2250",
-              "title": "Food Processing"
             }
           ]
         }
@@ -2659,53 +2757,6 @@
             {
               "id": "1606",
               "title": "Constitution"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "102880880",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman looks out to the distance wearing a black wide brimmed hat.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/998f9fe7e5c1895041d4ab8f7fc81a4e?impolicy=wcms_crop_resize&cropH=667&cropW=1000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-09-20/rachel-perkins-the-voice-campaign-alarming/102880880"
-          },
-          "contentUri": "coremedia://article/102880880",
-          "canonicalURL": "https://www.abc.net.au/news/2023-09-20/rachel-perkins-the-voice-campaign-alarming/102880880",
-          "video": null,
-          "reactKey": "nsw-102880880-1",
-          "synopsis": "Speaking at an event in honour of her late father, the activist Charles Perkins, filmmaker Rachel Perkins says it's \"depressing\" how many people still don't know what the Voice is.",
-          "title": {
-            "children": "Lack of understanding about the Voice 'alarming' as referendum approaches, filmmaker says"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            },
-            {
-              "id": "1596",
-              "title": "Indigenous Policy"
-            },
-            {
-              "id": "1164",
-              "title": "Indigenous Culture"
             }
           ]
         }
