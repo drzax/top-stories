@@ -204,7 +204,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "102882616",
           "imagePosition": {
@@ -225,11 +232,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-09-21/inquiry-to-be-announced-into-aus-government-covid-19-response/102882616",
           "video": null,
           "reactKey": "nt-102882616-1",
-          "synopsis": "An inquiry is set to be announced into the state, territory and federal governments' response to the COVID-19 pandemic.",
+          "synopsis": "An inquiry has been announced into the state, territory and federal governments' response to the COVID-19 pandemic.",
           "title": {
-            "children": "Government to launch inquiry into federal, state and territory response to pandemic"
+            "children": "Government announces inquiry into federal, state and territory response to pandemic"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1546",
@@ -270,9 +284,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-09-21/rodeo-rider-william-reynolds-from-sydney-success-in-us/102855808",
           "video": null,
           "reactKey": "nt-102855808-1",
-          "synopsis": "A gap year on a Top End cattle station opened the gate to a career as a professional rodeo rider for Will Reynolds — and an extensive list of injuries hasn't deterred him.",
+          "synopsis": "Will Reynolds was a Sydney surfer when a gap year on a Top End cattle station opened the gate to a rodeo career in America and changed his life.",
           "title": {
-            "children": "From Sydney surfer to US cowboy: How Will Reynolds fell in love with life in the ring"
+            "children": "'I just ticked every box and gave it a crack': How a Sydney surfer became a US cowboy"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -569,19 +583,19 @@
                   "id": "344",
                   "name": "Audrey Courty"
                 },
-                "dateModified": "2023-09-20T23:28:25.000Z",
-                "datePublished": "2023-09-20T23:25:27.000Z",
-                "id": "46640",
-                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46640",
+                "dateModified": "2023-09-21T00:42:46.000Z",
+                "datePublished": "2023-09-21T00:42:46.000Z",
+                "id": "46668",
+                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46668",
                 "isHighlightedComment": false,
                 "isMarkedAsComment": false,
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "Experts are warning people to be more cautious of scammers, after nearly 200,000 Pizza Hut Australia customers have had their data leaked in a cyber attack. A spokesperson says they became aware of the hack — where an unauthorised third party accessed some of the company's data — earlier this month. Pizza Hut says it believes the data stolen includes customers' names, delivery address and instructions, email address and contact number — but no payment details. Stan Gallo is a forensic services partner at consultancy firm BDO, and says it's likely people will see more text messages and emails from scammers. \"And that won't necessarily come from someone pretending to be Pizza Hut,\" he says. \"If they've got your contact details I might get a message that purports to come from you for example. So, those sorts of thing will rise and people need to be cautious of those.\" Mr Gallo suggests setting up a separate email address as one way to thwart scammers. \"You can redirect some of that unwanted traffic, and one that you wouldn't use elsewhere. And I'd tie that to the old addage of not using the same password,\" he says. \"In this case, I don't believe passwords were affected. But you could also tie that with using a card for those purchases with a very low balance.\"",
+                "plaintext": "By David Speers Former Liberal Treasurer Josh Frydenberg is expected to confirm today he is not seeking a return to politics at the next election. He has taken a new position as the chair of investment bank Goldman Sachs for Australia and New Zealand. Frydenberg has been with Goldman Sachs as senior regional adviser for the Asia Pacific since 2022, after he lost the Melbourne seat of Kooyong to Independent Monique Ryan.",
                 "system": "norkon",
                 "tags": [],
-                "title": "Pizza Hut Australia customers warned about scammers after cyber attack",
+                "title": "Former treasurer Josh Frydenberg set to announce decision not to run at next election",
                 "type": "HTML",
                 "prepared": {
                   "descriptor": {
@@ -591,38 +605,22 @@
                     "children": [
                       {
                         "type": "tagname",
-                        "key": "figure",
+                        "key": "@@standfirst",
                         "props": {},
                         "children": [
                           {
                             "type": "tagname",
-                            "key": "img",
-                            "props": {
-                              "alt": "",
-                              "height": "627",
-                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-4f5483d6-84d6-492a-a65f-8470fcc69487.jpeg",
-                              "width": "940"
-                            },
-                            "children": []
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "figcaption",
-                            "props": {
-                              "element": "figcaption",
-                              "letterSpacing": "sm",
-                              "lineHeightMobile": 20,
-                              "sizeMobile": 12
-                            },
+                            "key": "b",
+                            "props": {},
                             "children": [
                               {
                                 "type": "tagname",
-                                "key": "cite",
+                                "key": "i",
                                 "props": {},
                                 "children": [
                                   {
                                     "type": "text",
-                                    "content": "(ABC News: Andrea Mayes)"
+                                    "content": "By David Speers"
                                   }
                                 ]
                               }
@@ -632,298 +630,15 @@
                       },
                       {
                         "type": "tagname",
-                        "key": "@@standfirst",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Experts are warning people to be more cautious of scammers, after nearly 200,000 Pizza Hut Australia customers have had their data leaked in a cyber attack."
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "br",
-                            "props": {},
-                            "children": []
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
                         "key": "p",
                         "props": {},
                         "children": [
                           {
                             "type": "text",
-                            "content": "A spokesperson says they became aware of the hack — where an unauthorised third party accessed some of the company's data — earlier this month."
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "br",
-                            "props": {},
-                            "children": []
+                            "content": "Former Liberal Treasurer Josh Frydenberg is expected to confirm today he is not seeking a return to politics at the next election. "
                           }
                         ]
                       },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Pizza Hut says it believes the data stolen includes customers' names, delivery address and instructions, email address and contact number — but no payment details."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Stan Gallo is a forensic services partner at consultancy firm BDO, and says it's likely people will see more text messages and emails from scammers."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "blockquote",
-                        "props": {
-                          "alignment": "outdent"
-                        },
-                        "children": [
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"And that won't necessarily come from someone pretending to be Pizza Hut,\" he says."
-                              }
-                            ]
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"If they've got your contact details I might get a message that purports to come from you for example. So, those sorts of thing will rise and people need to be cautious of those.\""
-                              },
-                              {
-                                "type": "tagname",
-                                "key": "br",
-                                "props": {},
-                                "children": []
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Mr Gallo suggests setting up a separate email address as one way to thwart scammers."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "blockquote",
-                        "props": {
-                          "alignment": "outdent"
-                        },
-                        "children": [
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"You can redirect some of that unwanted traffic, and one that you wouldn't use elsewhere. And I'd tie that to the old addage of not using the same password,\" he says."
-                              }
-                            ]
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"In this case, I don't believe passwords were affected. But you could also tie that with using a card for those purchases with a very low balance.\""
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              }
-            },
-            {
-              "liveBlogPostPrepared": {
-                "author": {
-                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-da5d2608-ee39-4a74-ba48-8568c67c0787.jpeg",
-                  "id": "344",
-                  "name": "Audrey Courty"
-                },
-                "dateModified": "2023-09-20T23:16:30.000Z",
-                "datePublished": "2023-09-20T22:52:00.000Z",
-                "id": "46627",
-                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46627",
-                "isHighlightedComment": false,
-                "isMarkedAsComment": false,
-                "isHidden": false,
-                "isKeyEvent": true,
-                "isPinned": false,
-                "plaintext": "An inquiry is set to be announced into the state, territory and federal governments' response to the COVID-19 pandemic. Prime Minister Anthony Albanese and Health Minister Mark Butler will announce the inquiry in Adelaide this morning. The ABC understands the inquiry will not have the same powers as a royal commission but will be able to call witnesses and examine the response of federal, state and territory governments during the pandemic. The inquiry will cover all responses since the COVID-19 pandemic began in January 2020. The terms of the inquiry will be further fleshed out by the prime minister and Mr Butler but the ABC understands the probe will be led by medical experts. You can follow the latest updates on this below:",
-                "system": "norkon",
-                "tags": [],
-                "title": "Anthony Albanese to announce inquiry into COVID-19 response",
-                "featuredLink": {
-                  "href": "https://www.abc.net.au/news/2023-09-21/inquiry-to-be-announced-into-aus-government-covid-19-response/102882616",
-                  "image": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-978e687a-dd67-4259-a601-7764b3cbffc8.jpg",
-                  "title": "Government to launch inquiry into federal, state and territory response to pandemic"
-                },
-                "type": "HTML",
-                "prepared": {
-                  "descriptor": {
-                    "type": "tagname",
-                    "key": "div",
-                    "props": {},
-                    "children": [
-                      {
-                        "type": "tagname",
-                        "key": "@@standfirst",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "An inquiry is set to be announced into the state, territory and federal governments' response to the COVID-19 pandemic."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Prime Minister Anthony Albanese and Health Minister Mark Butler will"
-                          },
-                          {
-                            "type": "text",
-                            "content": " "
-                          },
-                          {
-                            "type": "text",
-                            "content": "announce the inquiry in Adelaide this morning."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "The ABC understands the inquiry will not have the same powers as a royal commission but will be able to call witnesses and examine the response of federal, state and territory governments during the"
-                          },
-                          {
-                            "type": "text",
-                            "content": " "
-                          },
-                          {
-                            "type": "text",
-                            "content": "pandemic."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "The inquiry will cover all responses since the COVID-19 pandemic began in January 2020."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "The terms of the inquiry will be further fleshed out by the prime minister and Mr Butler but the ABC understands the probe"
-                          },
-                          {
-                            "type": "text",
-                            "content": " "
-                          },
-                          {
-                            "type": "text",
-                            "content": "will be led by medical experts."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "You can follow the latest updates on this below:"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              }
-            },
-            {
-              "liveBlogPostPrepared": {
-                "author": {
-                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-da5d2608-ee39-4a74-ba48-8568c67c0787.jpeg",
-                  "id": "344",
-                  "name": "Audrey Courty"
-                },
-                "dateModified": "2023-09-20T22:30:59.000Z",
-                "datePublished": "2023-09-20T22:23:56.000Z",
-                "id": "46613",
-                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46613",
-                "isHighlightedComment": false,
-                "isMarkedAsComment": false,
-                "isHidden": false,
-                "isKeyEvent": true,
-                "isPinned": false,
-                "plaintext": "Authorities in New South Wales say it will take several days to bring fires under control as a cool change moves through the state. The north-western region of the state is under a total fire ban today, with hot and windy conditions forecast. More than 60 fires are still burning following above-average September heat during the first half of the week. Meanwhile, fire crews in Queensland are on stand-by for worsening conditions today, with parts of the coast expecting record temperatures of 40C. There are total fire bans for the Barcoo shire in the state's south-west. Queensland has been battling multiple bushfires since the weekend, with a firefighting helicopter pilot having a lucky escape after crashing into a dam.",
-                "system": "norkon",
-                "tags": [],
-                "title": "Fire authorities in Queensland and NSW still on high alert",
-                "type": "HTML",
-                "prepared": {
-                  "descriptor": {
-                    "type": "tagname",
-                    "key": "div",
-                    "props": {},
-                    "children": [
                       {
                         "type": "tagname",
                         "key": "figure",
@@ -934,8 +649,8 @@
                             "key": "img",
                             "props": {
                               "alt": "",
-                              "height": "1462",
-                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-5f32b5e3-b71a-4c51-b92c-f1260493d8a8.jpeg",
+                              "height": "1332",
+                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-4d4b6436-1d68-4f26-9690-ff6a1591e240.jpeg",
                               "width": "2000"
                             },
                             "children": []
@@ -957,7 +672,7 @@
                                 "children": [
                                   {
                                     "type": "text",
-                                    "content": "(Supplied: QFES)"
+                                    "content": "(AAP: James Ross)"
                                   }
                                 ]
                               }
@@ -967,12 +682,66 @@
                       },
                       {
                         "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "He has taken a new position as the chair of investment bank Goldman Sachs for Australia and New Zealand. "
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "Frydenberg has been with Goldman Sachs as senior regional adviser for the Asia Pacific since 2022, after he lost the Melbourne seat of Kooyong to Independent Monique Ryan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "liveBlogPostPrepared": {
+                "author": {
+                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-da5d2608-ee39-4a74-ba48-8568c67c0787.jpeg",
+                  "id": "344",
+                  "name": "Audrey Courty"
+                },
+                "dateModified": "2023-09-21T00:41:03.000Z",
+                "datePublished": "2023-09-21T00:34:04.000Z",
+                "id": "46664",
+                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46664",
+                "isHighlightedComment": false,
+                "isMarkedAsComment": false,
+                "isHidden": false,
+                "isKeyEvent": true,
+                "isPinned": false,
+                "plaintext": "What would Bob Ross think? The artist who brought painting to the people, with works completed for TV viewers in less than 30 minutes with little more than a bristle brush and palette knife, certainly wouldn't have envisioned one of his works going up for sale for nearly $US10 million ($A16 million). But that's the price a Minneapolis gallery in the US is asking for A Walk In The Woods — the first of more than 400 paintings Ross produced on-air for his PBS series The Joy Of Painting. \"It is season one, episode one of what you would call the rookie card for Bob Ross,\" Ryan Nelson, who owns the gallery, Modern Artifact, said of the work created in the show's debut in 1983. He says he doesn't expect a quick sale given the high asking price, which he sees as an opportunity to display the painting for a larger audience. \"What this piece represents is the people's artist,\" Mr Nelson says. \"This isn't an institution that's telling you that Bob Ross is great. It's not some high-brow gallery telling you that Bob Ross is great. This is the masses, the population in the world that are saying that Bob Ross is great.\" On that first show, Ross — sporting his beloved perm, full beard and unbuttoned shirt — stressed that painting didn't need to be pretentious: Ross, who died in 1995, hosted the show until 1994.",
+                "system": "norkon",
+                "tags": [],
+                "title": "'The people's artist': First Bob Ross TV painting goes on sale for nearly $16 million",
+                "type": "HTML",
+                "prepared": {
+                  "descriptor": {
+                    "type": "tagname",
+                    "key": "div",
+                    "props": {},
+                    "children": [
+                      {
+                        "type": "tagname",
                         "key": "@@standfirst",
                         "props": {},
                         "children": [
                           {
                             "type": "text",
-                            "content": "Authorities in New South Wales say it will take several days to bring fires under control as a cool change moves through the state."
+                            "content": "What would Bob Ross think?"
                           }
                         ]
                       },
@@ -983,24 +752,69 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "The "
+                            "content": "The artist who brought painting to the people, with works completed for TV viewers in less than 30 minutes with little more than a bristle brush and palette knife, certainly wouldn't have envisioned one of his works going up for sale for nearly $US10 million ($A16 million)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "But that's the price a Minneapolis gallery in the US is asking for A Walk In The Woods — the first of more than 400 paintings Ross produced on-air for his PBS series The Joy Of Painting."
                           },
                           {
                             "type": "tagname",
-                            "key": "a",
+                            "key": "br",
+                            "props": {},
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "figure",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "img",
                             "props": {
-                              "href": "https://www.abc.net.au/news/2023-09-21/nsw-weather-cool-reprieve-heatwave-fires/102881124"
+                              "alt": "",
+                              "height": "1080",
+                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-a28c3e74-0451-47fc-ba1c-b34afafbf55f.jpeg",
+                              "width": "1920"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "figcaption",
+                            "props": {
+                              "element": "figcaption",
+                              "letterSpacing": "sm",
+                              "lineHeightMobile": 20,
+                              "sizeMobile": 12
                             },
                             "children": [
                               {
                                 "type": "text",
-                                "content": "north-western region of the state is under a total fire ban today"
+                                "content": "A Walk in the Woods was Bob Ross' first painting for his iconic TV show."
+                              },
+                              {
+                                "type": "tagname",
+                                "key": "cite",
+                                "props": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "content": "(AP Photo: Mark Vancleave)"
+                                  }
+                                ]
                               }
                             ]
-                          },
-                          {
-                            "type": "text",
-                            "content": ", with hot and windy conditions forecast."
                           }
                         ]
                       },
@@ -1011,7 +825,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "More than 60 fires are still burning following above-average September heat during the first half of the week."
+                            "content": "\"It is season one, episode one of what you would call the rookie card for Bob Ross,\" Ryan Nelson, who owns the gallery, Modern Artifact, said of the work created in the show's debut in 1983."
                           }
                         ]
                       },
@@ -1022,63 +836,153 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Meanwhile, fire crews in "
-                          },
+                            "content": "He says he doesn't expect a quick sale given the high asking price, which he sees as an opportunity to display the painting for a larger audience."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "blockquote",
+                        "props": {
+                          "alignment": "outdent"
+                        },
+                        "children": [
                           {
                             "type": "tagname",
-                            "key": "a",
-                            "props": {
-                              "href": "https://www.abc.net.au/news/2023-09-21/qld-heat-and-bushfire-threat-qfes-power-supply-el-nino-warning/102876686"
-                            },
+                            "key": "p",
+                            "props": {},
                             "children": [
                               {
                                 "type": "text",
-                                "content": "Queensland are on stand-by for worsening conditions today"
+                                "content": "\"What this piece represents is the people's artist,\" Mr Nelson says."
                               }
                             ]
-                          },
-                          {
-                            "type": "text",
-                            "content": ", with parts of the coast expecting record temperatures of 40C."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "There are total fire bans for the Barcoo shire in the state's south-west."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Queensland has been battling multiple bushfires since the weekend, with "
                           },
                           {
                             "type": "tagname",
-                            "key": "a",
-                            "props": {
-                              "href": "https://www.abc.net.au/news/2023-09-20/firefighting-helicopter-crashed-in-tarome-scenic-rim-qfes/102880658"
-                            },
+                            "key": "p",
+                            "props": {},
                             "children": [
                               {
                                 "type": "text",
-                                "content": "a firefighting helicopter pilot having a lucky escape"
+                                "content": "\"This isn't an institution that's telling you that Bob Ross is great. It's not some high-brow gallery telling you that Bob Ross is great. This is the masses, the population in the world that are saying that Bob Ross is great.\""
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
                           {
                             "type": "text",
-                            "content": " after crashing into a dam."
+                            "content": "On that first show, Ross — sporting his beloved perm, full beard and unbuttoned shirt — stressed that painting didn't need to be pretentious:"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "interactive",
+                        "key": "youtube",
+                        "props": {
+                          "alignment": "outdentDesktop",
+                          "embedURL": "https://www.youtube.com/watch?v=oh5p5f5_-7A",
+                          "providerType": "youtube",
+                          "rootMargin": "0px"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "Ross, who died in 1995, hosted the show until 1994."
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "br",
+                            "props": {},
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "liveBlogPostPrepared": {
+                "author": {
+                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-da5d2608-ee39-4a74-ba48-8568c67c0787.jpeg",
+                  "id": "344",
+                  "name": "Audrey Courty"
+                },
+                "dateModified": "2023-09-21T00:44:07.000Z",
+                "datePublished": "2023-09-21T00:15:06.000Z",
+                "id": "46652",
+                "url": "https://www.abc.net.au/news/2023-09-21/live-news-blog-the-loop-george-martin-openai-julian-assange/102882482#live-blog-post-46652",
+                "isHighlightedComment": false,
+                "isMarkedAsComment": false,
+                "isHidden": false,
+                "isKeyEvent": true,
+                "isPinned": false,
+                "plaintext": "Prime Minister Anthony Albanese has announced an inquiry into the state, territory and federal governments' response to the COVID-19 pandemic. Mr Albanese and Health Minister Mark Butler are speaking from Adelaide right now. You can join my colleague, Claudia Williams, as she live blogs the moment here:",
+                "system": "norkon",
+                "tags": [],
+                "title": "BREAKING: Federal government launches inquiry into COVID response",
+                "featuredLink": {
+                  "href": "https://www.abc.net.au/news/2023-09-21/inquiry-to-be-announced-into-aus-government-covid-19-response/102882616",
+                  "image": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-1b65c9f6-5458-4387-862a-1898087dd82f.jpg",
+                  "title": "Live moment: Government to launch inquiry into federal, state and territory response to pandemic"
+                },
+                "type": "HTML",
+                "prepared": {
+                  "descriptor": {
+                    "type": "tagname",
+                    "key": "div",
+                    "props": {},
+                    "children": [
+                      {
+                        "type": "tagname",
+                        "key": "@@standfirst",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "Prime Minister Anthony Albanese has announced an inquiry into the state, territory and federal governments' response to the COVID-19 pandemic."
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "br",
+                            "props": {},
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "Mr Albanese and Health Minister Mark Butler are speaking from Adelaide right now."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "You can join my colleague, Claudia Williams, as she live blogs the moment here:"
                           }
                         ]
                       }
@@ -1115,9 +1019,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-09-21/western-australia-emissions-reduction-target-2030/102881586",
           "video": null,
           "reactKey": "nt-102881586-1",
-          "synopsis": "Despite being the only state where carbon emissions have increased since 2005, WA confirms it will also be the only state without an emissions reduction target for 2030. ",
+          "synopsis": "Western Australia confirms it will be the only state to not set an emissions reduction target for 2030, despite having the most work to do to bring its carbon output down.",
           "title": {
-            "children": "Why WA will be the only state without an emissions reduction target for 2030"
+            "children": "There's one state where carbon emissions have risen since 2005. It's also the only one with no 2030 reduction target"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1282,8 +1186,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Jerome Powell stands at a podium behind a wall of American flags. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1180c1d82972fa1c0efe7b8fb1b648f0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "a man in an office with documents ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7acac666b5624652cdf039e6be59534?impolicy=wcms_crop_resize&cropH=2800&cropW=4200&xPos=399&yPos=303&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1293,9 +1197,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548",
           "video": null,
           "reactKey": "nt-102882548-1",
-          "synopsis": "Former chair of the ACCC to oversee an inquiry into Price Gouging and Unfair Pricing Practices, while a fall on Wall Street is likely to send Australian stocks lower today. Follow the latest updates in our live blog.",
+          "synopsis": "Former chair of the ACCC to oversee an inquiry into Price Gouging and Unfair Pricing Practices, while a fall on Wall Street sends Australian stocks lower today. Follow the latest updates in our live blog.",
           "title": {
-            "children": "Former ACCC chair Fels probes price gouging, US Fed holds interest rates steady, ASX to fall"
+            "children": "Former ACCC chair Fels probes price gouging, US Fed holds interest rates steady, ASX falls"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -1312,19 +1216,19 @@
                   "id": "235",
                   "name": "Rachel Pupazzoni"
                 },
-                "dateModified": "2023-09-20T23:45:16.000Z",
-                "datePublished": "2023-09-20T23:45:16.000Z",
-                "id": "46644",
-                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46644",
+                "dateModified": "2023-09-21T00:45:13.000Z",
+                "datePublished": "2023-09-21T00:45:13.000Z",
+                "id": "46669",
+                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46669",
                 "isHighlightedComment": false,
                 "isMarkedAsComment": false,
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "Professor Allan Fels is chairing the ACTU hearing to examine Price Gouging and Unfair Pricing Practices. He's addressed the media ahead of the start of the inquiry. Professor Fels said they've have 600 submissions. Food and drink, energy and banking and insurance are among the most common issues brought up in those submissions. He said he he was keen to do the inquiry because there hasn't bene enough consideration on how prices are set by business and the impact of those rising prices on consumers. He said there's evidence profit markups have gone up and competition has been reduced, both here ad overseas. He says that gives him cause for concern.",
+                "plaintext": "Mr Jericho is making the case profits have been widespread across industries. He told the hearing wholesale trade profits have risen 56 per cent since December 2019, manufacturing profits have gone up 38 per cent in that time, construction is up 37 per cent. He noted these are all outside mining profits, which were the leading sector, up 48 per cent. \"This confirmed that firms across these sectors have more than simply passed on higher import costs to consumers, they were actually amplifying the costs ,\" he said. \"You do expect prices to rise,\" he told the inquiry. \"In fact we'd expect profits and wages to rise consistent with a 2.5 per cent inflation growth which is what the RBA targets, so our research took that as a base and considered what has caused inflation above that level. \"Our conclusion is that 56 per cent of the increase above 2.5 per cent is due to profits.\" \"While 35 per cent, or a third, is due to labour costs.\" He noted the contribution of profits has decreased 'a little' bit in the last six months due to a moderation in profits.",
                 "system": "norkon",
                 "tags": [],
-                "title": "Former ACCC chair Professor Allan Fels is speaking ahead of the inquiry",
+                "title": "Australia Institute modelling shows 56% of price increases are due to profits",
                 "type": "HTML",
                 "prepared": {
                   "descriptor": {
@@ -1344,13 +1248,24 @@
                             "children": [
                               {
                                 "type": "text",
-                                "content": "Professor Allan Fels"
+                                "content": "Mr Jericho"
                               }
                             ]
                           },
                           {
                             "type": "text",
-                            "content": " is chairing the ACTU hearing to examine "
+                            "content": " is making the case profits have been widespread across industries."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "He told the hearing "
                           },
                           {
                             "type": "tagname",
@@ -1359,46 +1274,85 @@
                             "children": [
                               {
                                 "type": "text",
-                                "content": "Price Gouging and Unfair Pricing Practices"
+                                "content": "wholesale trade profits have risen 56 per cent since December 2019,"
+                              },
+                              {
+                                "type": "text",
+                                "content": " "
+                              },
+                              {
+                                "type": "text",
+                                "content": "manufacturing"
                               }
                             ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "profits "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "have gone up "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "38 per cent"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " in that time, "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "construction "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "is up "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "37 per cent"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " "
                           },
                           {
                             "type": "text",
                             "content": "."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "He's addressed the media ahead of the start of the inquiry."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Professor Fels said they've have "
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "b",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "600 submissions."
-                              }
-                            ]
                           },
                           {
                             "type": "tagname",
@@ -1414,19 +1368,38 @@
                         "props": {},
                         "children": [
                           {
+                            "type": "text",
+                            "content": "He noted these are all outside "
+                          },
+                          {
                             "type": "tagname",
                             "key": "b",
                             "props": {},
                             "children": [
                               {
                                 "type": "text",
-                                "content": "Food and drink, energy and banking and insurance"
+                                "content": "mining profits"
                               }
                             ]
                           },
                           {
                             "type": "text",
-                            "content": " are among the most common issues brought up in those submissions."
+                            "content": ", which were the leading sector, up "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "48 per cent"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " ."
                           }
                         ]
                       },
@@ -1437,7 +1410,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "He said he he was keen to do the inquiry because "
+                            "content": "\"This confirmed that firms across these sectors "
                           },
                           {
                             "type": "tagname",
@@ -1446,13 +1419,28 @@
                             "children": [
                               {
                                 "type": "text",
-                                "content": "there hasn't bene enough consideration on how prices are set by business and the impact of those rising prices on consumers"
+                                "content": "have more than simply passed on higher import costs"
                               }
                             ]
                           },
                           {
                             "type": "text",
-                            "content": "."
+                            "content": " to consumers, they "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "were actually amplifying the costs"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": ",\" he said."
                           }
                         ]
                       },
@@ -1463,37 +1451,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "He said there's"
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "b",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": " evidence profit markups have gone up"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "content": " and "
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "b",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "competition has been reduced"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "content": ", both here ad overseas."
+                            "content": "\"You do expect prices to rise,\" he told the inquiry."
                           }
                         ]
                       },
@@ -1504,7 +1462,69 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "He says that gives him cause for concern."
+                            "content": "\"In fact "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "we'd expect profits and wages to rise consistent with a 2.5 per cent inflation growth"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " which is what the RBA targets, so our research took that as a base and considered what has caused inflation above that level."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "\"Our conclusion is that 56 per cent of the increase above 2.5 per cent is due to profits.\""
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "\"While 35 per cent, or a third, is due to labour costs.\""
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "He noted the contribution of profits has decreased 'a little' bit in the last six months due to a moderation in profits."
                           }
                         ]
                       }
@@ -1520,19 +1540,19 @@
                   "id": "235",
                   "name": "Rachel Pupazzoni"
                 },
-                "dateModified": "2023-09-20T23:40:40.000Z",
-                "datePublished": "2023-09-20T23:27:03.000Z",
-                "id": "46641",
-                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46641",
+                "dateModified": "2023-09-21T00:35:14.000Z",
+                "datePublished": "2023-09-21T00:35:14.000Z",
+                "id": "46665",
+                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46665",
                 "isHighlightedComment": false,
                 "isMarkedAsComment": false,
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "Hi blog readers. I'm jumping in here to help out Sam cover the ACTU inquiry. We're a team of multitaskers and Sam has a few other things to get on with so you've got me for the rest of the day. Thanks for following along so far. I hope you'll stay with me. As always, we love to hear from you, so please pop any questions or comments into the box at the top. I'll be back in just a moment with more activity from price-gouging inquiry.",
+                "plaintext": "Greg Jericho says inflation had been under 2 per cent in the years prior to this current inflation period. The Reserve Bank's target is 2-3 per cent. He argues, as wages have not increased rapidly, this inflation period has not been driven by higher wages, as has historically been the case.",
                 "system": "norkon",
                 "tags": [],
-                "title": "Hello it's me",
+                "title": "Current inlfation not driven by higher wages",
                 "type": "HTML",
                 "prepared": {
                   "descriptor": {
@@ -1546,8 +1566,34 @@
                         "props": {},
                         "children": [
                           {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Greg Jericho "
+                              }
+                            ]
+                          },
+                          {
                             "type": "text",
-                            "content": "Hi blog readers. I'm jumping in here to help out Sam cover the ACTU inquiry."
+                            "content": "says "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "inflation had been under 2 per cent in the years prior to this current inflation period"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "."
                           }
                         ]
                       },
@@ -1558,7 +1604,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "We're a team of multitaskers and Sam has a few other things to get on with so you've got me for the rest of the day."
+                            "content": "The Reserve Bank's target is 2-3 per cent."
                           }
                         ]
                       },
@@ -1569,29 +1615,22 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Thanks for following along so far. I hope you'll stay with me."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
+                            "content": "He argues, as wages have not increased rapidly, "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "this inflation period has not been driven by higher wages"
+                              }
+                            ]
+                          },
                           {
                             "type": "text",
-                            "content": "As always, we love to hear from you, so please pop any questions or comments into the box at the top."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "I'll be back in just a moment with more activity from price-gouging inquiry."
+                            "content": ", as has historically been the case."
                           }
                         ]
                       }
@@ -1603,23 +1642,23 @@
             {
               "liveBlogPostPrepared": {
                 "author": {
-                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-d3d216a8-a143-497a-b9b2-61cad8fc52fd.jpeg",
-                  "id": "221",
-                  "name": "Samuel Yang"
+                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-5721a740-238c-416a-a88a-af8a5ca12fea.jpeg",
+                  "id": "235",
+                  "name": "Rachel Pupazzoni"
                 },
-                "dateModified": "2023-09-20T23:41:25.000Z",
-                "datePublished": "2023-09-20T23:24:04.000Z",
-                "id": "46637",
-                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46637",
+                "dateModified": "2023-09-21T00:30:08.000Z",
+                "datePublished": "2023-09-21T00:30:08.000Z",
+                "id": "46662",
+                "url": "https://www.abc.net.au/news/2023-09-21/asx-markets-business-live-news-october-21-2023/102882548#live-blog-post-46662",
                 "isHighlightedComment": false,
                 "isMarkedAsComment": false,
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "The ACTU has commissioned an inquiry into price gouging and unfair pricing practices, chaired by Allan Fels, a former chair of the ACCC. This is the first day of hearings and will cover a number of industries including petrol, energy, insurance and groceries. Professor Fels will speak at 9:30am AEST at a press conference in Melbourne. We will cover this inquiry for you as it happens. Stay tuned.",
+                "plaintext": "Dr Stanford has told the hearing; when consumers see prices everywhere rising rapidly, they may not realise some of those price rises are not legitimate - and therefore not push back and shop around. He added there have been strong criticisms of his research into pointing to consumer prices being a big contributor of inflation. But he says he's very confident in the role of profits in this current inflation period.",
                 "system": "norkon",
                 "tags": [],
-                "title": "Upcoming inquiry into price gouging and unfair pricing practices",
+                "title": "Dr Stanford says consumers may not realise the widespread inflation",
                 "type": "HTML",
                 "prepared": {
                   "descriptor": {
@@ -1634,18 +1673,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "The ACTU has commissioned an inquiry into price gouging and unfair pricing practices, chaired by Allan Fels, a former chair of the ACCC."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "This is the first day of hearings and will cover a number of industries including "
+                            "content": "Dr Stanford has told the hearing; when consumers see prices everywhere rising rapidly, they "
                           },
                           {
                             "type": "tagname",
@@ -1654,19 +1682,13 @@
                             "children": [
                               {
                                 "type": "text",
-                                "content": "petrol, energy, insurance and groceries"
+                                "content": "may not realise some of those price rises are not legitimate "
                               }
                             ]
                           },
                           {
                             "type": "text",
-                            "content": "."
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "br",
-                            "props": {},
-                            "children": []
+                            "content": "- and therefore not push back and shop around."
                           }
                         ]
                       },
@@ -1677,7 +1699,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Professor Fels will speak at 9:30am AEST at a press conference in Melbourne."
+                            "content": "He added there have been strong criticisms of his research into pointing to consumer prices being a big contributor of inflation."
                           }
                         ]
                       },
@@ -1688,7 +1710,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "We will cover this inquiry for you as it happens. Stay tuned."
+                            "content": "But he says he's very confident in the role of profits in this current inflation period."
                           }
                         ]
                       }
@@ -1969,7 +1991,7 @@
           "reactKey": "nt-102882162-1",
           "synopsis": "Ukraine President Volodymyr Zelenskyy takes the floor at the UN Security Council to lash 'criminal' Russia before foreign secretary Sergei Lavrov unloads for Russia.",
           "title": {
-            "children": "As Russia ignores Zelenskyy at UN they're reminded they 'can stop the war' any time they like"
+            "children": "As Russia ignores Zelenskyy at UN, Ukraine calls for stripping of Russia's veto power"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -2161,8 +2183,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Joanne Baker stacking a fridge with soft drinks",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ff5c06646e286b34da584e3db7bd6e3c?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Lindsay May looking up at the camera holding a painted abalone shell ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c6fe4efe58e732524fcc74b90790b4b0?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
