@@ -1114,7 +1114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "102910082",
           "imagePosition": {
@@ -1137,9 +1144,16 @@
           "reactKey": "wa-102910082-1",
           "synopsis": "Jacinta Allan will look to assemble her ministry, set her policy priorities and silence her opponents in her first weeks in the top job.",
           "title": {
-            "children": "Premier Jacinta Allan to shake up ministry ahead of Victorian parliament's return next week"
+            "children": "Jacinta Allan in sit-down radio interview on first day as Victorian premier"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1580",
