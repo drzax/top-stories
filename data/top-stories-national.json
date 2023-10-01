@@ -13,9 +13,6 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/102916238"
-        },
-        {
           "uri": "coremedia://article/102921872"
         },
         {
@@ -26,6 +23,9 @@
         },
         {
           "uri": "coremedia://article/102922014"
+        },
+        {
+          "uri": "coremedia://article/102916238"
         },
         {
           "uri": "coremedia://article/102922250"
@@ -114,52 +114,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [
-            "headingBigDesktop"
-          ],
-          "id": "102916238",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman in traditional Uyghur garb poses for a photo ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06578955334387a9b3df9e5d21fe5db9?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-10-01/ccp-invites-journalists-to-tour-xinjiang/102916238"
-          },
-          "contentUri": "coremedia://article/102916238",
-          "canonicalURL": "https://www.abc.net.au/news/2023-10-01/ccp-invites-journalists-to-tour-xinjiang/102916238",
-          "video": null,
-          "reactKey": "national-102916238-1",
-          "synopsis": "For several years, the region of Xinjiang has been shut off from most of the world's media. The ABC got to go inside, but all was not as it seemed.",
-          "title": {
-            "children": "China gave the ABC a tightly controlled tour of Xinjiang. Here's what we saw"
-          },
-          "imageContainerClassNames": [
-            "imageHalf",
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1048",
-              "title": "Religion and Beliefs"
-            },
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -167,7 +121,9 @@
               "lang": "en"
             }
           ],
-          "headingClassNames": [],
+          "headingClassNames": [
+            "headingBigDesktop"
+          ],
           "id": "102921872",
           "imagePosition": {
             "mobile": "right",
@@ -177,7 +133,7 @@
           "isMajor": false,
           "image": {
             "altText": "Knights players celebrate winning the NRLW grand final",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/225835489c2572b5fc88a93b9ec17948?impolicy=wcms_crop_resize&cropH=1600&cropW=2400&xPos=339&yPos=36&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/225835489c2572b5fc88a93b9ec17948?impolicy=wcms_crop_resize&cropH=2276&cropW=3414&xPos=31&yPos=29&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -191,7 +147,9 @@
           "title": {
             "children": "Knights claim consecutive NRLW premierships after fighting back to beat Titans"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -562,6 +520,49 @@
             {
               "id": "1280",
               "title": "Bushfires"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "102916238",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman in traditional Uyghur garb poses for a photo ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06578955334387a9b3df9e5d21fe5db9?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-10-01/ccp-invites-journalists-to-tour-xinjiang/102916238"
+          },
+          "contentUri": "coremedia://article/102916238",
+          "canonicalURL": "https://www.abc.net.au/news/2023-10-01/ccp-invites-journalists-to-tour-xinjiang/102916238",
+          "video": null,
+          "reactKey": "national-102916238-1",
+          "synopsis": "For several years, the region of Xinjiang has been shut off from most of the world's media. The ABC got to go inside, but all was not as it seemed.",
+          "title": {
+            "children": "China gave the ABC a tightly controlled tour of Xinjiang. Here's what we saw"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1048",
+              "title": "Religion and Beliefs"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
             }
           ]
         }
