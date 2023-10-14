@@ -16,10 +16,13 @@
           "uri": "coremedia://article/102969568"
         },
         {
+          "uri": "coremedia://article/102975892"
+        },
+        {
           "uri": "coremedia://article/102938722"
         },
         {
-          "uri": "coremedia://article/102975892"
+          "uri": "coremedia://article/102975718"
         },
         {
           "uri": "coremedia://article/102976466"
@@ -28,16 +31,13 @@
           "uri": "coremedia://article/102975816"
         },
         {
-          "uri": "coremedia://article/102975718"
-        },
-        {
-          "uri": "coremedia://article/102976642"
-        },
-        {
           "uri": "coremedia://article/102971804"
         },
         {
           "uri": "coremedia://article/102953522"
+        },
+        {
+          "uri": "coremedia://article/102976642"
         },
         {
           "uri": "coremedia://article/102975264"
@@ -49,6 +49,15 @@
           "uri": "coremedia://article/102976644"
         },
         {
+          "uri": "coremedia://article/102937260"
+        },
+        {
+          "uri": "coremedia://article/102968666"
+        },
+        {
+          "uri": "coremedia://article/102937262"
+        },
+        {
           "uri": "coremedia://article/102951088"
         },
         {
@@ -58,16 +67,7 @@
           "uri": "coremedia://article/102974498"
         },
         {
-          "uri": "coremedia://article/102937260"
-        },
-        {
-          "uri": "coremedia://article/102937262"
-        },
-        {
           "uri": "coremedia://article/102972172"
-        },
-        {
-          "uri": "coremedia://article/102968666"
         },
         {
           "uri": "coremedia://article/102972138"
@@ -156,7 +156,7 @@
                 "id": "393",
                 "name": "Casey Briggs"
               },
-              "dateModified": "2023-10-14T06:07:41.000Z",
+              "dateModified": "2023-10-14T06:22:56.000Z",
               "datePublished": "2023-10-14T06:06:52.000Z",
               "id": "52885",
               "url": "https://www.abc.net.au/news/2023-10-14/live-updates-voice-to-parliament-referendum-latest-news/102969568#live-blog-post-52885",
@@ -168,7 +168,7 @@
               "plaintext": "Voting ends at 6pm wherever you are. That comes first on Norfolk Island, where voters are counted in the ACT federal electorate of Bean. An hour later, polls close in NSW, Vic, Tas and the ACT. Then comes SA, then Qld, then the NT, and finally WA. If it's not close, it's likely we'll know whether the referendum has passed or failed before WA voters put their pencils down. Here's your form guide on what to expect as the count begins tonight.",
               "system": "norkon",
               "tags": [],
-              "title": "Voting will end progressively across the country, over several hours",
+              "title": "Votes will be counted in eastern states while other states are still voting",
               "type": "HTML",
               "prepared": {
                 "descriptor": {
@@ -181,6 +181,10 @@
                       "key": "@@standfirst",
                       "props": {},
                       "children": [
+                        {
+                          "type": "text",
+                          "content": " "
+                        },
                         {
                           "type": "text",
                           "content": "Voting ends at 6pm wherever you are."
@@ -210,11 +214,12 @@
                       ]
                     },
                     {
-                      "type": "fallback",
-                      "key": "",
+                      "type": "embed",
+                      "key": "@@Iframe",
                       "props": {
-                        "docType": "Interactive",
-                        "tagname": "@@embed-inline"
+                        "alignment": "outdentDesktop",
+                        "embedURL": "//datawrapper.dwcdn.net/2sjkC/2/?abcnewsembedheight=430",
+                        "height": "430"
                       },
                       "children": []
                     },
@@ -622,48 +627,6 @@
         ]
       },
       {
-        "contentLabels": [],
-        "headingClassNames": [],
-        "id": "102938722",
-        "imagePosition": {
-          "mobile": "top",
-          "tablet": "top",
-          "desktop": "top"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "Barnaby Joyce, Michaelia Cash and Bridget McKenzie sitting in front of protesters at the national press club",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c37ec7bd829deeb2614287fc0a7b4977?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-          "imgRatio": "16x9"
-        },
-        "link": {
-          "to": "/news/2023-10-14/indigenous-voice-to-parliament-debate-2023-in-pictures/102938722"
-        },
-        "contentUri": "coremedia://article/102938722",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/indigenous-voice-to-parliament-debate-2023-in-pictures/102938722",
-        "video": null,
-        "reactKey": "national-102938722-1",
-        "synopsis": "As Australians hit the polls to have their say in the Indigenous Voice to Parliament referendum, here's a look back — in pictures — at how we got here.",
-        "title": {
-          "children": "In pictures: The Indigenous Voice to Parliament debate of 2023"
-        },
-        "imageContainerClassNames": [],
-        "subjects": [
-          {
-            "id": "9329080",
-            "title": "Politics and Government"
-          },
-          {
-            "id": "1582",
-            "title": "Federal Parliament"
-          },
-          {
-            "id": "1142",
-            "title": "Indigenous (Aboriginal and Torres Strait Islander)"
-          }
-        ]
-      },
-      {
         "contentLabels": [
           {
             "labelText": "live",
@@ -1000,6 +963,94 @@
       {
         "contentLabels": [],
         "headingClassNames": [],
+        "id": "102938722",
+        "imagePosition": {
+          "mobile": "top",
+          "tablet": "top",
+          "desktop": "top"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "Barnaby Joyce, Michaelia Cash and Bridget McKenzie sitting in front of protesters at the national press club",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c37ec7bd829deeb2614287fc0a7b4977?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+          "imgRatio": "16x9"
+        },
+        "link": {
+          "to": "/news/2023-10-14/indigenous-voice-to-parliament-debate-2023-in-pictures/102938722"
+        },
+        "contentUri": "coremedia://article/102938722",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/indigenous-voice-to-parliament-debate-2023-in-pictures/102938722",
+        "video": null,
+        "reactKey": "national-102938722-1",
+        "synopsis": "As Australians hit the polls to have their say in the Indigenous Voice to Parliament referendum, here's a look back — in pictures — at how we got here.",
+        "title": {
+          "children": "In pictures: The Indigenous Voice to Parliament debate of 2023"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "9329080",
+            "title": "Politics and Government"
+          },
+          {
+            "id": "1582",
+            "title": "Federal Parliament"
+          },
+          {
+            "id": "1142",
+            "title": "Indigenous (Aboriginal and Torres Strait Islander)"
+          }
+        ]
+      },
+      {
+        "contentLabels": [
+          {
+            "labelText": "analysis"
+          }
+        ],
+        "headingClassNames": [],
+        "id": "102975718",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "A person in a crowd holds up a sign with the Aboriginal flag and the words \"Voice to Parliament\". ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/711b62f5798b8e059ec3d91b97be8154?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-10-14/the-unloving-message-of-the-voice-referendum/102975718"
+        },
+        "contentUri": "coremedia://article/102975718",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/the-unloving-message-of-the-voice-referendum/102975718",
+        "video": null,
+        "reactKey": "national-102975718-1",
+        "synopsis": "A No vote — and how we got to one — will change the way we see ourselves, and send the most unloving of messages to Indigenous Australians, writes Laura Tingle.",
+        "title": {
+          "children": "The public sentiment shift that turned the tide of the Voice referendum"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "1546",
+            "title": "Federal Government"
+          },
+          {
+            "id": "1582",
+            "title": "Federal Parliament"
+          },
+          {
+            "id": "1534",
+            "title": "Government and Politics"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
         "id": "102976466",
         "imagePosition": {
           "mobile": "right",
@@ -1090,90 +1141,6 @@
           }
         ],
         "headingClassNames": [],
-        "id": "102975718",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "A person in a crowd holds up a sign with the Aboriginal flag and the words \"Voice to Parliament\". ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/711b62f5798b8e059ec3d91b97be8154?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/news/2023-10-14/the-unloving-message-of-the-voice-referendum/102975718"
-        },
-        "contentUri": "coremedia://article/102975718",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/the-unloving-message-of-the-voice-referendum/102975718",
-        "video": null,
-        "reactKey": "national-102975718-1",
-        "synopsis": "A No vote — and how we got to one — will change the way we see ourselves, and send the most unloving of messages to Indigenous Australians, writes Laura Tingle.",
-        "title": {
-          "children": "The public sentiment shift that turned the tide of the Voice referendum"
-        },
-        "imageContainerClassNames": [],
-        "subjects": [
-          {
-            "id": "1546",
-            "title": "Federal Government"
-          },
-          {
-            "id": "1582",
-            "title": "Federal Parliament"
-          },
-          {
-            "id": "1534",
-            "title": "Government and Politics"
-          }
-        ]
-      },
-      {
-        "contentLabels": [],
-        "headingClassNames": [],
-        "id": "102976642",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "Signs for Yes and No seen at a voting centre in Brisbane.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7684ea097300836ad54963dd334f97a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/news/2023-10-14/nine-million-australians-still-to-vote-in-voice-referendum/102976642"
-        },
-        "contentUri": "coremedia://article/102976642",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/nine-million-australians-still-to-vote-in-voice-referendum/102976642",
-        "video": null,
-        "reactKey": "national-102976642-1",
-        "synopsis": "The prime minister delivers his most fervent plea yet for the Yes campaign, as more than 9 million people head to the polls to vote in the Voice to Parliament referendum.",
-        "title": {
-          "children": "PM makes impassioned final Voice plea, Dutton repeats 'risky' claim as country votes"
-        },
-        "imageContainerClassNames": [],
-        "subjects": [
-          {
-            "id": "1546",
-            "title": "Federal Government"
-          },
-          {
-            "id": "1534",
-            "title": "Government and Politics"
-          }
-        ]
-      },
-      {
-        "contentLabels": [
-          {
-            "labelText": "analysis"
-          }
-        ],
-        "headingClassNames": [],
         "id": "102971804",
         "imagePosition": {
           "mobile": "right",
@@ -1252,6 +1219,44 @@
           {
             "id": "1554",
             "title": "Public Sector"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102976642",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "Signs for Yes and No seen at a voting centre in Brisbane.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7684ea097300836ad54963dd334f97a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-10-14/nine-million-australians-still-to-vote-in-voice-referendum/102976642"
+        },
+        "contentUri": "coremedia://article/102976642",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/nine-million-australians-still-to-vote-in-voice-referendum/102976642",
+        "video": null,
+        "reactKey": "national-102976642-1",
+        "synopsis": "The prime minister delivers his most fervent plea yet for the Yes campaign, as more than 9 million people head to the polls to vote in the Voice to Parliament referendum.",
+        "title": {
+          "children": "PM makes impassioned final Voice plea, Dutton repeats 'risky' claim as country votes"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "1546",
+            "title": "Federal Government"
+          },
+          {
+            "id": "1534",
+            "title": "Government and Politics"
           }
         ]
       },
@@ -1381,121 +1386,6 @@
       {
         "contentLabels": [],
         "headingClassNames": [],
-        "id": "102951088",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "Long purple petals opening up from the yellow centre of a flower.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3765e5f9dfbf740f463d58af780c438c?impolicy=wcms_crop_resize&cropH=1289&cropW=1934&xPos=57&yPos=0&width=862&height=575",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/news/2023-10-14/purple-banksia-spinulosa-native-plant-discovered-braidwood-nsw/102951088"
-        },
-        "contentUri": "coremedia://article/102951088",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/purple-banksia-spinulosa-native-plant-discovered-braidwood-nsw/102951088",
-        "video": null,
-        "reactKey": "national-102951088-1",
-        "synopsis": "Indigenous horticulturalists have taken 21 cuttings of the first known purple Banksia spinulosa. But it remains to be seen whether they will flower, and what colour the petals will be.",
-        "title": {
-          "children": "Discovery of 'one in a billion' native plant sparks hope for more purple flowers"
-        },
-        "imageContainerClassNames": [
-          "imageHalf"
-        ],
-        "subjects": [
-          {
-            "id": "9325118",
-            "title": "Native Species"
-          },
-          {
-            "id": "9324674",
-            "title": "Botanical Gardens"
-          },
-          {
-            "id": "9324732",
-            "title": "Private Gardens"
-          }
-        ]
-      },
-      {
-        "contentLabels": [],
-        "headingClassNames": [],
-        "id": "102976844",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "Costa, who has long hair and a bushy beard, smiles against a blue backdrop, with images of a cheese toastie and kimchi.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ebcb2a6ff9d5a7b5ab1e81c7891de68?impolicy=wcms_crop_resize&cropH=675&cropW=1013&xPos=23&yPos=0&width=160&height=107",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/everyday/chit-chat-costa-georgiadis-opens-up-about-killing-house-plants/102973740"
-        },
-        "contentUri": "coremedia://article/102976844",
-        "canonicalURL": "https://www.abc.net.au/everyday/chit-chat-costa-georgiadis-opens-up-about-killing-house-plants/102973740",
-        "video": null,
-        "reactKey": "national-102976844-1",
-        "synopsis": "If we're being honest, Costa's known for one thing: the delightfully enormous beard covering half his face. We sat down with the Gardening Australia host to find out if his big beard really is full of secrets.",
-        "title": {
-          "children": "Eating burgers with a knife and fork and even killing houseplants: Costa reveals his darkest secrets"
-        },
-        "imageContainerClassNames": [],
-        "subjects": []
-      },
-      {
-        "contentLabels": [],
-        "headingClassNames": [],
-        "id": "102974498",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "A woman walks past \"vote yes\" and \"vote no\" signs on a fence. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76ac894d23f6768456e758d134c2d3b2?impolicy=wcms_crop_resize&cropH=2660&cropW=3989&xPos=82&yPos=0&width=160&height=107",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/news/2023-10-14/australians-prepare-to-vote-on-voice-to-parliament-referendum/102974498"
-        },
-        "contentUri": "coremedia://article/102974498",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/australians-prepare-to-vote-on-voice-to-parliament-referendum/102974498",
-        "video": null,
-        "reactKey": "national-102974498-1",
-        "synopsis": "The nation is bound for the ballot box today to cast their vote in a referendum that could shape the country for generations to come — but the path to this poll has been a rocky one. ",
-        "title": {
-          "children": "It once seemed unlikely to ever happen, but today Australians will vote on an Indigenous Voice to Parliament"
-        },
-        "imageContainerClassNames": [],
-        "subjects": [
-          {
-            "id": "1534",
-            "title": "Government and Politics"
-          },
-          {
-            "id": "1546",
-            "title": "Federal Government"
-          },
-          {
-            "id": "1614",
-            "title": "Referendums"
-          }
-        ]
-      },
-      {
-        "contentLabels": [],
-        "headingClassNames": [],
         "id": "102937260",
         "imagePosition": {
           "mobile": "right",
@@ -1528,6 +1418,44 @@
           {
             "id": "1606",
             "title": "Constitution"
+          },
+          {
+            "id": "1596",
+            "title": "Indigenous Policy"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102968666",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "a ballot paper is dropping in a sealed ballot box with a purple lid",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46409e610b06d4a7e8d4d2f6b3b33745?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-10-14/what-is-the-voice-to-parliament-how-to-vote-open-close-times/102968666"
+        },
+        "contentUri": "coremedia://article/102968666",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/what-is-the-voice-to-parliament-how-to-vote-open-close-times/102968666",
+        "video": null,
+        "reactKey": "national-102968666-1",
+        "synopsis": "Today, millions will go to the polling booths to cast their votes in the Voice to Parliament referendum. Let's cover the basics before you get into the booth. ",
+        "title": {
+          "children": "When will we know the results of the Voice vote?"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "1614",
+            "title": "Referendums"
           },
           {
             "id": "1596",
@@ -2117,6 +2045,121 @@
       {
         "contentLabels": [],
         "headingClassNames": [],
+        "id": "102951088",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "Long purple petals opening up from the yellow centre of a flower.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3765e5f9dfbf740f463d58af780c438c?impolicy=wcms_crop_resize&cropH=1289&cropW=1934&xPos=57&yPos=0&width=862&height=575",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-10-14/purple-banksia-spinulosa-native-plant-discovered-braidwood-nsw/102951088"
+        },
+        "contentUri": "coremedia://article/102951088",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/purple-banksia-spinulosa-native-plant-discovered-braidwood-nsw/102951088",
+        "video": null,
+        "reactKey": "national-102951088-1",
+        "synopsis": "Indigenous horticulturalists have taken 21 cuttings of the first known purple Banksia spinulosa. But it remains to be seen whether they will flower, and what colour the petals will be.",
+        "title": {
+          "children": "Discovery of 'one in a billion' native plant sparks hope for more purple flowers"
+        },
+        "imageContainerClassNames": [
+          "imageHalf"
+        ],
+        "subjects": [
+          {
+            "id": "9325118",
+            "title": "Native Species"
+          },
+          {
+            "id": "9324674",
+            "title": "Botanical Gardens"
+          },
+          {
+            "id": "9324732",
+            "title": "Private Gardens"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102976844",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "Costa, who has long hair and a bushy beard, smiles against a blue backdrop, with images of a cheese toastie and kimchi.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ebcb2a6ff9d5a7b5ab1e81c7891de68?impolicy=wcms_crop_resize&cropH=675&cropW=1013&xPos=23&yPos=0&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/everyday/chit-chat-costa-georgiadis-opens-up-about-killing-house-plants/102973740"
+        },
+        "contentUri": "coremedia://article/102976844",
+        "canonicalURL": "https://www.abc.net.au/everyday/chit-chat-costa-georgiadis-opens-up-about-killing-house-plants/102973740",
+        "video": null,
+        "reactKey": "national-102976844-1",
+        "synopsis": "If we're being honest, Costa's known for one thing: the delightfully enormous beard covering half his face. We sat down with the Gardening Australia host to find out if his big beard really is full of secrets.",
+        "title": {
+          "children": "Eating burgers with a knife and fork and even killing houseplants: Costa reveals his darkest secrets"
+        },
+        "imageContainerClassNames": [],
+        "subjects": []
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
+        "id": "102974498",
+        "imagePosition": {
+          "mobile": "right",
+          "tablet": "left",
+          "desktop": "left"
+        },
+        "isMajor": false,
+        "image": {
+          "altText": "A woman walks past \"vote yes\" and \"vote no\" signs on a fence. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76ac894d23f6768456e758d134c2d3b2?impolicy=wcms_crop_resize&cropH=2660&cropW=3989&xPos=82&yPos=0&width=160&height=107",
+          "imgRatio": "3x2"
+        },
+        "link": {
+          "to": "/news/2023-10-14/australians-prepare-to-vote-on-voice-to-parliament-referendum/102974498"
+        },
+        "contentUri": "coremedia://article/102974498",
+        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/australians-prepare-to-vote-on-voice-to-parliament-referendum/102974498",
+        "video": null,
+        "reactKey": "national-102974498-1",
+        "synopsis": "The nation is bound for the ballot box today to cast their vote in a referendum that could shape the country for generations to come — but the path to this poll has been a rocky one. ",
+        "title": {
+          "children": "It once seemed unlikely to ever happen, but today Australians will vote on an Indigenous Voice to Parliament"
+        },
+        "imageContainerClassNames": [],
+        "subjects": [
+          {
+            "id": "1534",
+            "title": "Government and Politics"
+          },
+          {
+            "id": "1546",
+            "title": "Federal Government"
+          },
+          {
+            "id": "1614",
+            "title": "Referendums"
+          }
+        ]
+      },
+      {
+        "contentLabels": [],
+        "headingClassNames": [],
         "id": "102972172",
         "imagePosition": {
           "mobile": "right",
@@ -2149,44 +2192,6 @@
           {
             "id": "1534",
             "title": "Government and Politics"
-          }
-        ]
-      },
-      {
-        "contentLabels": [],
-        "headingClassNames": [],
-        "id": "102968666",
-        "imagePosition": {
-          "mobile": "right",
-          "tablet": "left",
-          "desktop": "left"
-        },
-        "isMajor": false,
-        "image": {
-          "altText": "a ballot paper is dropping in a sealed ballot box with a purple lid",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46409e610b06d4a7e8d4d2f6b3b33745?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
-          "imgRatio": "3x2"
-        },
-        "link": {
-          "to": "/news/2023-10-14/what-is-the-voice-to-parliament-how-to-vote-open-close-times/102968666"
-        },
-        "contentUri": "coremedia://article/102968666",
-        "canonicalURL": "https://www.abc.net.au/news/2023-10-14/what-is-the-voice-to-parliament-how-to-vote-open-close-times/102968666",
-        "video": null,
-        "reactKey": "national-102968666-1",
-        "synopsis": "Today, millions will go to the polling booths to cast their votes in the Voice to Parliament referendum. Let's cover the basics before you get into the booth. ",
-        "title": {
-          "children": "When will we know the results of the Voice vote?"
-        },
-        "imageContainerClassNames": [],
-        "subjects": [
-          {
-            "id": "1614",
-            "title": "Referendums"
-          },
-          {
-            "id": "1596",
-            "title": "Indigenous Policy"
           }
         ]
       },

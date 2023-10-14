@@ -156,7 +156,7 @@
                 "id": "393",
                 "name": "Casey Briggs"
               },
-              "dateModified": "2023-10-14T06:07:41.000Z",
+              "dateModified": "2023-10-14T06:22:56.000Z",
               "datePublished": "2023-10-14T06:06:52.000Z",
               "id": "52885",
               "url": "https://www.abc.net.au/news/2023-10-14/live-updates-voice-to-parliament-referendum-latest-news/102969568#live-blog-post-52885",
@@ -168,7 +168,7 @@
               "plaintext": "Voting ends at 6pm wherever you are. That comes first on Norfolk Island, where voters are counted in the ACT federal electorate of Bean. An hour later, polls close in NSW, Vic, Tas and the ACT. Then comes SA, then Qld, then the NT, and finally WA. If it's not close, it's likely we'll know whether the referendum has passed or failed before WA voters put their pencils down. Here's your form guide on what to expect as the count begins tonight.",
               "system": "norkon",
               "tags": [],
-              "title": "Voting will end progressively across the country, over several hours",
+              "title": "Votes will be counted in eastern states while other states are still voting",
               "type": "HTML",
               "prepared": {
                 "descriptor": {
@@ -181,6 +181,10 @@
                       "key": "@@standfirst",
                       "props": {},
                       "children": [
+                        {
+                          "type": "text",
+                          "content": " "
+                        },
                         {
                           "type": "text",
                           "content": "Voting ends at 6pm wherever you are."
@@ -210,11 +214,12 @@
                       ]
                     },
                     {
-                      "type": "fallback",
-                      "key": "",
+                      "type": "embed",
+                      "key": "@@Iframe",
                       "props": {
-                        "docType": "Interactive",
-                        "tagname": "@@embed-inline"
+                        "alignment": "outdentDesktop",
+                        "embedURL": "//datawrapper.dwcdn.net/2sjkC/2/?abcnewsembedheight=430",
+                        "height": "430"
                       },
                       "children": []
                     },
