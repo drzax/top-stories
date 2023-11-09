@@ -58,6 +58,9 @@
           "uri": "coremedia://article/103075342"
         },
         {
+          "uri": "coremedia://article/103083086"
+        },
+        {
           "uri": "coremedia://article/103082610"
         },
         {
@@ -150,7 +153,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103083212",
           "imagePosition": {
@@ -176,6 +186,19 @@
             "children": "Body found, schools in lockdown amid manhunt for shooting spree suspect"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "M1 shooting press conference",
+                "showTime": 300,
+                "time": "2023-11-09T03:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
@@ -310,7 +333,7 @@
           "reactKey": "nsw-103038230-1",
           "synopsis": "When life wasn't quite working for Sydney parents of four Jodi and Daniel, they decided to take a road trip. It proved to be a life-changing act.",
           "title": {
-            "children": "Jodi and her partner spent their house deposit on a family holiday. It changed their lives"
+            "children": "This family spent their house deposit on a family holiday. It changed their lives"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1216,6 +1239,47 @@
             {
               "id": "102993112",
               "title": "Body Image"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103083086",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "woman with pink hair sits in dark room with Virgin Mary statue",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9486d5adc80df606278b927f2b1270fe?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-09/gothic-subculture-helps-brain-cancer-patient-face-death/103083086"
+          },
+          "contentUri": "coremedia://article/103083086",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-09/gothic-subculture-helps-brain-cancer-patient-face-death/103083086",
+          "video": null,
+          "reactKey": "nsw-103083086-1",
+          "synopsis": "Once a fearless \"door bitch\" at Sydney's Sanctuary nightclub, Sarah Frare is now staring down terminal cancer, and finding solace in styling her own gothic funeral.  ",
+          "title": {
+            "children": "How Sarah's gothic glory days have helped guide her on a journey towards death"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1212",
+              "title": "Death and Dying"
+            },
+            {
+              "id": "670",
+              "title": "Gothic"
             }
           ]
         }

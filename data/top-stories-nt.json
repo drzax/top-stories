@@ -910,7 +910,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103083212",
           "imagePosition": {
@@ -936,6 +943,19 @@
             "children": "Body found, schools in lockdown amid manhunt for shooting spree suspect"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "M1 shooting press conference",
+                "showTime": 300,
+                "time": "2023-11-09T03:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
@@ -1072,7 +1092,7 @@
           "reactKey": "nt-103038230-1",
           "synopsis": "When life wasn't quite working for Sydney parents of four Jodi and Daniel, they decided to take a road trip. It proved to be a life-changing act.",
           "title": {
-            "children": "Jodi and her partner spent their house deposit on a family holiday. It changed their lives"
+            "children": "This family spent their house deposit on a family holiday. It changed their lives"
           },
           "imageContainerClassNames": [],
           "subjects": [
