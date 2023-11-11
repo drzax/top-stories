@@ -58,6 +58,12 @@
           "uri": "coremedia://article/103091444"
         },
         {
+          "uri": "coremedia://article/103093892"
+        },
+        {
+          "uri": "coremedia://article/103078970"
+        },
+        {
           "uri": "coremedia://article/103068106"
         },
         {
@@ -82,9 +88,6 @@
           "uri": "coremedia://article/103093872"
         },
         {
-          "uri": "coremedia://article/103079552"
-        },
-        {
           "uri": "coremedia://article/103093300"
         },
         {
@@ -94,10 +97,10 @@
           "uri": "coremedia://article/102981388"
         },
         {
-          "uri": "coremedia://article/103089408"
+          "uri": "coremedia://article/103079552"
         },
         {
-          "uri": "coremedia://article/103093796"
+          "uri": "coremedia://article/103089408"
         },
         {
           "uri": "coremedia://article/103089198"
@@ -109,9 +112,6 @@
           "uri": "coremedia://article/103090294"
         },
         {
-          "uri": "coremedia://article/103091490"
-        },
-        {
           "uri": "coremedia://article/103090556"
         }
       ]
@@ -120,7 +120,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -150,6 +156,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1212",
@@ -801,6 +814,92 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103093892",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The Sydney Opera House projected with poppies.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b9e27604ed21a1608a59c2799f6b0125?impolicy=wcms_crop_resize&cropH=1987&cropW=2981&xPos=1048&yPos=1207&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/remembrance-day-crowds-gather-across-australia-honour-fallen/103093892"
+          },
+          "contentUri": "coremedia://article/103093892",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/remembrance-day-crowds-gather-across-australia-honour-fallen/103093892",
+          "video": null,
+          "reactKey": "qld-103093892-1",
+          "synopsis": "Australians around the country gather today to commemorate Remembrance Day, honouring those who died serving in conflicts and peace-keeping operations.",
+          "title": {
+            "children": "Crowds gather across Australia to honour the fallen on Remembrance Day"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1016",
+              "title": "World War 1"
+            },
+            {
+              "id": "1226",
+              "title": "Veterans"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103078970",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A black and white picture of people in front of a brick building being held up in front of the same building.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0482ef0aa90f47ef7fe51be5b5045a1b?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=209&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/bathurst-war-memorial-carillon-celebrates-90-years/103078970"
+          },
+          "contentUri": "coremedia://article/103078970",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/bathurst-war-memorial-carillon-celebrates-90-years/103078970",
+          "video": null,
+          "reactKey": "qld-103078970-1",
+          "synopsis": "When Anthony Hicks came home from World War I, he wanted to commemorate fellow local soldiers who hadn't returned. Today, his granddaughter is still ringing the bells at this unique war memorial landmark.",
+          "title": {
+            "children": "Denise's grandfather helped build Bathurst's carillon. Ninety years on, she's keeping his legacy chiming"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1008",
+              "title": "History"
+            },
+            {
+              "id": "1016",
+              "title": "World War 1"
+            },
+            {
+              "id": "1924",
+              "title": "People"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103068106",
           "imagePosition": {
             "mobile": "right",
@@ -1113,8 +1212,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The Beatles pose in the window of train at Paddington Station in London",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e3f357e35ee25725eb73364864b4630?impolicy=wcms_crop_resize&cropH=1997&cropW=3000&xPos=0&yPos=325&width=862&height=575",
+            "altText": "A photo of the Beatles band playing on a rooftop beneath grey skies",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/295f838cef660b8b08442d0e0b0c629f?impolicy=wcms_crop_resize&cropH=2302&cropW=3453&xPos=0&yPos=91&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1143,51 +1242,6 @@
             {
               "id": "930",
               "title": "Music Industry"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103079552",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Dried slices of pink oranges in a tub.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0314a99465d6254e67ef2a744bf4fda5?impolicy=wcms_crop_resize&cropH=897&cropW=1346&xPos=128&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/farm-waste-into-food-business/103079552"
-          },
-          "contentUri": "coremedia://article/103079552",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/farm-waste-into-food-business/103079552",
-          "video": null,
-          "reactKey": "qld-103079552-1",
-          "synopsis": "A South Australian woman is turning farm waste into a sustainable food business by making meals out of second-grade fruit and veggies.",
-          "title": {
-            "children": "How one woman turned farm waste into a sustainable food business"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "946",
-              "title": "Environmentally Sustainable Business"
-            },
-            {
-              "id": "2250",
-              "title": "Food Processing"
-            },
-            {
-              "id": "2082",
-              "title": "Food and Cooking"
             }
           ]
         }
@@ -1338,6 +1392,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103079552",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Dried slices of pink oranges in a tub.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0314a99465d6254e67ef2a744bf4fda5?impolicy=wcms_crop_resize&cropH=897&cropW=1346&xPos=128&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/farm-waste-into-food-business/103079552"
+          },
+          "contentUri": "coremedia://article/103079552",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/farm-waste-into-food-business/103079552",
+          "video": null,
+          "reactKey": "qld-103079552-1",
+          "synopsis": "A South Australian woman is turning farm waste into a sustainable food business by making meals out of second-grade fruit and veggies.",
+          "title": {
+            "children": "How one woman turned farm waste into a sustainable food business"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "946",
+              "title": "Environmentally Sustainable Business"
+            },
+            {
+              "id": "2250",
+              "title": "Food Processing"
+            },
+            {
+              "id": "2082",
+              "title": "Food and Cooking"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103089408",
           "imagePosition": {
             "mobile": "right",
@@ -1370,47 +1469,6 @@
             {
               "id": "2298",
               "title": "Science and Technology"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103093796",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Generic image of a Sri Lanka cricketer at the men's World Cup",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc46415a8748c2a434ebc397ff099a0d?impolicy=wcms_crop_resize&cropH=879&cropW=1319&xPos=1319&yPos=1387&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/cricet-icc-supends-sri-lanka-membership/103093796"
-          },
-          "contentUri": "coremedia://article/103093796",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/cricet-icc-supends-sri-lanka-membership/103093796",
-          "video": null,
-          "reactKey": "qld-103093796-1",
-          "synopsis": "The International Cricket Council determines that Sri Lanka Cricket is in serious breach of its obligations as a member, issuing a suspension with immediate effect.",
-          "title": {
-            "children": "ICC suspends Sri Lanka's membership over government interference"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2488",
-              "title": "Cricket"
-            },
-            {
-              "id": "2478",
-              "title": "Sport"
             }
           ]
         }
@@ -1548,51 +1606,6 @@
             {
               "id": "102273020",
               "title": "Disaster and Emergency Response"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103091490",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A photo of a young boy in a broken frame, draped in a Western Bulldogs scarf",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e67df8dda296c1612ed298c191afd9d?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/western-bulldogs-could-face-more-sexual-abuse-charges/103091490"
-          },
-          "contentUri": "coremedia://article/103091490",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/western-bulldogs-could-face-more-sexual-abuse-charges/103091490",
-          "video": null,
-          "reactKey": "qld-103091490-1",
-          "synopsis": "The Western Bulldogs sexual abuse scandal could widen, after survivor Adam Kneale was awarded the highest compensation payout in history.",
-          "title": {
-            "children": "The Western Bulldogs were hit with an 'earthquake' legal judgement. The aftershocks could follow"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "13493466",
-              "title": "Child Sexual Abuse"
-            },
-            {
-              "id": "2650",
-              "title": "Australian Rules Football"
             }
           ]
         }

@@ -34,6 +34,9 @@
           "uri": "coremedia://article/103078970"
         },
         {
+          "uri": "coremedia://article/103090714"
+        },
+        {
           "uri": "coremedia://article/103091402"
         },
         {
@@ -41,6 +44,12 @@
         },
         {
           "uri": "coremedia://article/103093892"
+        },
+        {
+          "uri": "coremedia://article/103093918"
+        },
+        {
+          "uri": "coremedia://article/103083626"
         },
         {
           "uri": "coremedia://article/103093298"
@@ -79,12 +88,6 @@
           "uri": "coremedia://article/103068106"
         },
         {
-          "uri": "coremedia://article/103090556"
-        },
-        {
-          "uri": "coremedia://article/103077732"
-        },
-        {
           "uri": "coremedia://article/103088912"
         },
         {
@@ -97,13 +100,10 @@
           "uri": "coremedia://article/103084072"
         },
         {
-          "uri": "coremedia://article/103079552"
-        },
-        {
           "uri": "coremedia://article/103089408"
         },
         {
-          "uri": "coremedia://article/103090096"
+          "uri": "coremedia://article/103079552"
         }
       ]
     },
@@ -346,7 +346,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103093978",
           "imagePosition": {
@@ -372,6 +378,13 @@
             "children": "Two toddlers found dead at same Queensland address"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1212",
@@ -423,6 +436,51 @@
             {
               "id": "1924",
               "title": "People"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103090714",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Aerial view of the aged care home and the coast",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/adc07381d28138e8855548dfb1aaf572?impolicy=wcms_crop_resize&cropH=781&cropW=1172&xPos=164&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/kiama-municipal-council-fire-sale-nsw-minister-budget-estimates/103090714"
+          },
+          "contentUri": "coremedia://article/103090714",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/kiama-municipal-council-fire-sale-nsw-minister-budget-estimates/103090714",
+          "video": null,
+          "reactKey": "nsw-103090714-1",
+          "synopsis": "Concerns have been raised at a NSW budget estimates hearing about the proposed sale by the Kiama Municipal Council of one of the state's largest publicly owned aged-care centres.",
+          "title": {
+            "children": "NSW minister questions if embattled seaside council has undertaken 'fire sale' of assets"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1604",
+              "title": "Local Government"
+            },
+            {
+              "id": "2184",
+              "title": "Community Development"
+            },
+            {
+              "id": "1588",
+              "title": "State and Territory Government"
             }
           ]
         }
@@ -554,6 +612,90 @@
             {
               "id": "1226",
               "title": "Veterans"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103093918",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A composite image of Troye Sivan and Kylie Mingoue",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea17d1c1de55453d393318a88ebee7c2?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/grammy-award-nominations-kylie-minogue-troye-sivan/103093918"
+          },
+          "contentUri": "coremedia://article/103093918",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/grammy-award-nominations-kylie-minogue-troye-sivan/103093918",
+          "video": null,
+          "reactKey": "nsw-103093918-1",
+          "synopsis": "Minogue and Sivan are both up for the same award, in the Best Pop Dance Recording category.",
+          "title": {
+            "children": "Australian artists Kylie Minogue, Troye Sivan and Dom Dolla up for Grammy awards"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "664",
+              "title": "Music Awards"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103083626",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Man runs across salt plains. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8e311da568da2016a38fcd7c8da56f30?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-11/alex-cleary-to-run-marathon-in-antarctica-for-suicide-prevention/103083626"
+          },
+          "contentUri": "coremedia://article/103083626",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/alex-cleary-to-run-marathon-in-antarctica-for-suicide-prevention/103083626",
+          "video": null,
+          "reactKey": "nsw-103083626-1",
+          "synopsis": "When Alex Cleary was 19, his 28-year-old sister Meghan took her own life. Now he is preparing to run a marathon in Antarctica, dedicating his journey to those affected by suicide.",
+          "title": {
+            "children": "Runner to trade red-dirt tracks for icy desert in memory of his sister"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1828",
+              "title": "Mental Health"
+            },
+            {
+              "id": "1028",
+              "title": "Suicide"
+            },
+            {
+              "id": "1924",
+              "title": "People"
             }
           ]
         }
@@ -1011,8 +1153,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The Beatles pose in the window of train at Paddington Station in London",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e3f357e35ee25725eb73364864b4630?impolicy=wcms_crop_resize&cropH=1680&cropW=2983&xPos=17&yPos=582&width=862&height=485",
+            "altText": "A photo of the Beatles band playing on a rooftop beneath grey skies",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/295f838cef660b8b08442d0e0b0c629f?impolicy=wcms_crop_resize&cropH=1942&cropW=3453&xPos=0&yPos=270&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -1084,96 +1226,6 @@
             {
               "id": "2184",
               "title": "Community Development"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103090556",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two women and a man dressed in traditional Samoan attire",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad78cd6a11574260c36d2dbb8369dfbf?impolicy=wcms_crop_resize&cropH=609&cropW=913&xPos=0&yPos=294&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/fa-alavelave-a-manifestation-of-love-or-uneccessary-burden-samoa/103090556"
-          },
-          "contentUri": "coremedia://article/103090556",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/fa-alavelave-a-manifestation-of-love-or-uneccessary-burden-samoa/103090556",
-          "video": null,
-          "reactKey": "nsw-103090556-1",
-          "synopsis": "Pasifika people are generous people – their commitment to serving and supporting others is central to their identities. But that generosity comes at a cost.",
-          "title": {
-            "children": "'They don't want to be burdened with it': The changing nature of fa'alavelave obligations"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "954",
-              "title": "Community and Society"
-            },
-            {
-              "id": "1300",
-              "title": "Education"
-            },
-            {
-              "id": "1220",
-              "title": "Community Organisations"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103077732",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "young models wearing Aboriginal designs on the catwalk",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73b65f6696477b8781cb04ae7c4ba1b5?impolicy=wcms_crop_resize&cropH=1508&cropW=2261&xPos=6&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/coolgardie-fashion-show-features-clothes-with-aboriginal-designs/103077732"
-          },
-          "contentUri": "coremedia://article/103077732",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/coolgardie-fashion-show-features-clothes-with-aboriginal-designs/103077732",
-          "video": null,
-          "reactKey": "nsw-103077732-1",
-          "synopsis": "Previously, when tourists stopped at Coolgardie's visitor centre for souvenirs, there were none. It gave Rose Mitchell the idea of making some. Then, with her town's support, her dream of creating wearable art, and a high-end fashion show, became a reality.",
-          "title": {
-            "children": "High fashion hits the stage in tiny outback town better known for gold mining"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "484",
-              "title": "Fashion"
-            },
-            {
-              "id": "1144",
-              "title": "Aboriginal"
-            },
-            {
-              "id": "1036",
-              "title": "Regional Communities"
             }
           ]
         }
@@ -1354,51 +1406,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103079552",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Dried slices of pink oranges in a tub.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0314a99465d6254e67ef2a744bf4fda5?impolicy=wcms_crop_resize&cropH=897&cropW=1346&xPos=128&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-11/farm-waste-into-food-business/103079552"
-          },
-          "contentUri": "coremedia://article/103079552",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/farm-waste-into-food-business/103079552",
-          "video": null,
-          "reactKey": "nsw-103079552-1",
-          "synopsis": "A South Australian woman is turning farm waste into a sustainable food business by making meals out of second-grade fruit and veggies.",
-          "title": {
-            "children": "How one woman turned farm waste into a sustainable food business"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "946",
-              "title": "Environmentally Sustainable Business"
-            },
-            {
-              "id": "2250",
-              "title": "Food Processing"
-            },
-            {
-              "id": "2082",
-              "title": "Food and Cooking"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103089408",
           "imagePosition": {
             "mobile": "right",
@@ -1440,7 +1447,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103090096",
+          "id": "103079552",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -1448,30 +1455,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Sally, left, smiles as she prepares clay in her hands on a table, next to Eden, who laughs as she looks down doing the same.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1cfc5ff654538df2ea45b04f6c964215?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=0&width=862&height=485",
+            "altText": "Dried slices of pink oranges in a tub.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0314a99465d6254e67ef2a744bf4fda5?impolicy=wcms_crop_resize&cropH=897&cropW=1595&xPos=3&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2023-11-11/old-peoples-home-for-teenagers-passing-down-ceramics-generations/103090096"
+            "to": "/news/2023-11-11/farm-waste-into-food-business/103079552"
           },
-          "contentUri": "coremedia://article/103090096",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/old-peoples-home-for-teenagers-passing-down-ceramics-generations/103090096",
+          "contentUri": "coremedia://article/103079552",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-11/farm-waste-into-food-business/103079552",
           "video": null,
-          "reactKey": "nsw-103090096-1",
-          "synopsis": "Old People's Home for Teenagers brings 91-year-old Sally and 19-year-old Eden together to make pinch pots — helping to ensure this important practice and its lessons don't end when the clay of the master sets in the kiln.",
+          "reactKey": "nsw-103079552-1",
+          "synopsis": "A South Australian woman is turning farm waste into a sustainable food business by making meals out of second-grade fruit and veggies.",
           "title": {
-            "children": "'Growing old allows me to be more confident' says 91-year-old ceramicist Sally as she passes on the art"
+            "children": "How one woman turned farm waste into a sustainable food business"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "488",
-              "title": "Ceramic"
+              "id": "946",
+              "title": "Environmentally Sustainable Business"
             },
             {
-              "id": "804",
-              "title": "Television"
+              "id": "2250",
+              "title": "Food Processing"
+            },
+            {
+              "id": "2082",
+              "title": "Food and Cooking"
             }
           ]
         }
