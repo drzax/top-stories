@@ -19,7 +19,7 @@
           "uri": "coremedia://article/103116168"
         },
         {
-          "uri": "coremedia://article/103116314"
+          "uri": "coremedia://article/103117056"
         },
         {
           "uri": "coremedia://article/103114084"
@@ -29,6 +29,9 @@
         },
         {
           "uri": "coremedia://article/103117000"
+        },
+        {
+          "uri": "coremedia://article/103116314"
         },
         {
           "uri": "coremedia://article/103113758"
@@ -98,9 +101,6 @@
         },
         {
           "uri": "coremedia://article/103112782"
-        },
-        {
-          "uri": "coremedia://article/103113892"
         },
         {
           "uri": "coremedia://article/103116272"
@@ -195,9 +195,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103116314",
+          "id": "103117056",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -205,36 +211,52 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a soldier looks out at the port of gaza allegedly",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5088e781535cbfd98dffabf3bc2b5ae7?impolicy=wcms_crop_resize&cropH=535&cropW=803&xPos=86&yPos=0&width=862&height=575",
+            "altText": "A crowd of women and children reach buckets and bowls towards the camera, a hand in the left corner reaches to give a metal bowl",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/327129a33209e9a5707daab635092139?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-11-17/israel-gaza-war-latest-updates-israel-takes-gaza-port/103116314"
+            "to": "/news/2023-11-17/israel-gaza-war-live-updates-hamas-hunger-supply-shortage/103117056"
           },
-          "contentUri": "coremedia://article/103116314",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/israel-gaza-war-latest-updates-israel-takes-gaza-port/103116314",
+          "contentUri": "coremedia://article/103117056",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/israel-gaza-war-live-updates-hamas-hunger-supply-shortage/103117056",
           "video": null,
-          "reactKey": "nsw-103116314-1",
-          "synopsis": "Video published by the IDF shows what it says is soldiers engaging in combat with Hamas militants in the port of Gaza.",
+          "reactKey": "nsw-103117056-1",
+          "synopsis": "Humanitarian agencies have issued some of their direst warnings about the harm Israel's war in Gaza was causing to civilians, with the World Food Programme (WFP) saying that the Gaza Strip faced widespread hunger as supplies of food and water are almost exhausted. Follow live.",
           "title": {
-            "children": "Israeli Army says troops have taken 'operational control' of Gaza port"
+            "children": "Gaza faces widespread hunger as winter approaches, aid organisation warns"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "60031",
+              "date": "2023-11-16T21:36:24.000Z",
+              "title": "Israel says it found body of hostage at Al-Shifa"
+            },
+            {
+              "id": "60026",
+              "date": "2023-11-16T20:55:43.000Z",
+              "title": "Gaza faces widepsread hunger, the World Food Programme says"
+            }
           ],
           "subjects": [
             {
-              "id": "1574",
-              "title": "World Politics"
+              "id": "102064440",
+              "title": "War"
             },
             {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
+              "id": "1974",
+              "title": "International Law"
             },
             {
-              "id": "2014",
-              "title": "Human Rights"
+              "id": "1556",
+              "title": "Foreign Affairs"
             }
           ]
         }
@@ -371,6 +393,53 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103116314",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a soldier looks out at the port of gaza allegedly",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5088e781535cbfd98dffabf3bc2b5ae7?impolicy=wcms_crop_resize&cropH=535&cropW=803&xPos=86&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-17/israel-gaza-war-latest-updates-israel-takes-gaza-port/103116314"
+          },
+          "contentUri": "coremedia://article/103116314",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/israel-gaza-war-latest-updates-israel-takes-gaza-port/103116314",
+          "video": null,
+          "reactKey": "nsw-103116314-1",
+          "synopsis": "Video published by the IDF shows what it says is soldiers engaging in combat with Hamas militants in the port of Gaza.",
+          "title": {
+            "children": "Israeli Army says troops have taken 'operational control' of Gaza port"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "2014",
+              "title": "Human Rights"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103113758",
           "imagePosition": {
             "mobile": "right",
@@ -392,7 +461,7 @@
           "reactKey": "nsw-103113758-1",
           "synopsis": "Prime Minister Anthony Albanese has been under attack since he took office from the Coalition and some sections of the media for the number of international trips he has taken. But how does he compare to other recent prime ministers?",
           "title": {
-            "children": "Are the Coalition's claims about 'Airbus Albo's' international travel warranted?"
+            "children": "How does Anthony Albanese's international travel stack up against other recent prime ministers?"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -636,9 +705,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "60032",
+              "date": "2023-11-16T21:44:29.000Z",
+              "title": "Who is appearing at the Optus outage inquiry?"
+            },
+            {
               "id": "60030",
               "date": "2023-11-16T21:33:10.000Z",
               "title": "Optus and Singtel's blame game to be scrutinised at Senate inquiry"
+            },
+            {
+              "id": "60029",
+              "date": "2023-11-16T21:23:05.000Z",
+              "title": "Why interest rates could rise in Australia in 2024"
             }
           ],
           "subjects": [
@@ -1386,51 +1465,6 @@
             {
               "id": "12067544",
               "title": "COVID-19"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103113892",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Puppies lay on a blanket",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dea7753bfaf900cd856c2272716fcc41?impolicy=wcms_crop_resize&cropH=1102&cropW=1653&xPos=187&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-16/police-return-allegedly-stolen-puppies-after-cairns-break-in/103113892"
-          },
-          "contentUri": "coremedia://article/103113892",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-16/police-return-allegedly-stolen-puppies-after-cairns-break-in/103113892",
-          "video": null,
-          "reactKey": "nsw-103113892-1",
-          "synopsis": "Four newborn puppies have been returned to their distraught owner after they were allegedly stolen from a home in Cairns on Wednesday. ",
-          "title": {
-            "children": "Police locate four puppies, one hidden under a bed, allegedly stolen by teenagers in Cairns"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1978",
-              "title": "Police"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "1934",
-              "title": "Animals"
             }
           ]
         }
