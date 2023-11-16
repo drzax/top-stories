@@ -79,15 +79,6 @@
           "uri": "coremedia://article/103111510"
         },
         {
-          "uri": "coremedia://article/103033464"
-        },
-        {
-          "uri": "coremedia://article/103107810"
-        },
-        {
-          "uri": "coremedia://article/103111712"
-        },
-        {
           "uri": "coremedia://article/103107180"
         },
         {
@@ -106,6 +97,15 @@
           "uri": "coremedia://article/103083250"
         },
         {
+          "uri": "coremedia://article/103111712"
+        },
+        {
+          "uri": "coremedia://article/103033464"
+        },
+        {
+          "uri": "coremedia://article/103107810"
+        },
+        {
           "uri": "coremedia://article/103108058"
         }
       ]
@@ -114,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -137,13 +144,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-11-16/queensland-infrastructure-funding-projects-cancelled-/103112730",
           "video": null,
           "reactKey": "qld-103112730-1",
-          "synopsis": "Nine Queensland infrastructure projects have been cancelled and several others have had federal funding paused after a budget blowout on Commonwealth spending.",
+          "synopsis": "Nine Queensland infrastructure projects have been cancelled and several others have had federal funding paused after a budget blowout on Commonwealth spending. Follow the live updates.",
           "title": {
-            "children": "'Does not have our cooperation': Queensland premier hits out at federal government over axing of infrastructure projects"
+            "children": "Queensland government hits out at federal counterparts over 'body blow' axing of infrastructure projects"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1038",
@@ -577,7 +591,7 @@
                   "id": "356",
                   "name": "Nelli Saarinen"
                 },
-                "dateModified": "2023-11-16T01:52:29.000Z",
+                "dateModified": "2023-11-16T02:07:21.000Z",
                 "datePublished": "2023-11-16T01:44:23.000Z",
                 "id": "59801",
                 "url": "https://www.abc.net.au/news/2023-11-16/israel-gaza-blog-hamas-uk-vote-ceasefire-un-resolution/103111194#live-blog-post-59801",
@@ -586,7 +600,7 @@
                 "isHidden": false,
                 "isKeyEvent": true,
                 "isPinned": false,
-                "plaintext": "Israeli Defence Forces have withdrew from Al-Shifa hospital hours after raiding it, a journalist inside the compound told AFP and the BBC. The ABC was not able to independently verify the situation. No comment was immediately available from the IDF. WAFA, the official Palestinian news agency, had earlier reported that Israeli forces raided the Shifa complex on Wednesday evening local time \"for the second time in 24 hours\". Bulldozers and military vehicles were used, the agency said, citing local sources. Hamas-affiliated Shehab news agency reported early on Thursday that Israeli tanks raided Al Shifa from the complex's southern side and that gunfire was heard in the area. The Israeli army said it found military equipment including weapons in their raid on the hospital. A video shared by the IDF on X showed automatic weapons, grenades, ammunition and flak jackets it said were recovered from a hospital building. The ABC could not verify the claims made in the video. \"The troops continue to search the hospital in a precise, intelligence-based, manner,\" army spokesperson Rear Admiral Daniel Hagari had said at a press briefing late on Wednesday. \"We will continue to do so, in order to gather further information, to discover additional assets, and to expose the terror activities within the hospital.\" The director of the health ministry in Gaza rejected the Israeli claims, saying in a statement there were no weapons at the facility. The Israeli military made no mention of finding any tunnel entrances in Al Shifa. It previously said Hamas had built a network of tunnels under the hospital, which Hamas has denied, alongside the latest IDF statements. \"The occupation forces are still lying … as they brought some weapons, clothes and tools and placed them in the hospital in a scandalous manner,\" Qatar-based Hamas senior member Ezzat El Rashq said. \"We have repeatedly called for a committee from the United Nations, the World Health Organization and the Red Cross to verify the lies of the occupation.\" The Qatari foreign ministry denounced the raid as a \"war crime\", and called for \"an urgent international investigation\" into \"the targeting of hospitals by the Israeli occupation army\".",
+                "plaintext": "Israeli Defense Forces have withdrew from Al-Shifa hospital hours after raiding it, a journalist inside the compound told AFP and the BBC. The ABC was not able to independently verify the situation. No comment was immediately available from the IDF. WAFA, the official Palestinian news agency, had earlier reported that Israeli forces raided the Shifa complex on Wednesday evening local time \"for the second time in 24 hours\". Bulldozers and military vehicles were used, the agency said, citing local sources. Hamas-affiliated Shehab news agency reported early on Thursday that Israeli tanks raided Al Shifa from the complex's southern side and that gunfire was heard in the area. The Israeli army said it found military equipment including weapons in their raid on the hospital. A video shared by the IDF on X showed automatic weapons, grenades, ammunition and flak jackets it said were recovered from a hospital building. The ABC could not verify the claims made in the video. \"The troops continue to search the hospital in a precise, intelligence-based, manner,\" army spokesperson Rear Admiral Daniel Hagari had said at a press briefing late on Wednesday. \"We will continue to do so, in order to gather further information, to discover additional assets, and to expose the terror activities within the hospital.\" The director of the health ministry in Gaza rejected the Israeli claims, saying in a statement there were no weapons at the facility. The Israeli military made no mention of finding any tunnel entrances in Al Shifa. It previously said Hamas had built a network of tunnels under the hospital, which Hamas has denied, alongside the latest IDF statements. \"The occupation forces are still lying … as they brought some weapons, clothes and tools and placed them in the hospital in a scandalous manner,\" Qatar-based Hamas senior member Ezzat El Rashq said. \"We have repeatedly called for a committee from the United Nations, the World Health Organization and the Red Cross to verify the lies of the occupation.\" The Qatari foreign ministry denounced the raid as a \"war crime\", and called for \"an urgent international investigation\" into \"the targeting of hospitals by the Israeli occupation army\".",
                 "system": "norkon",
                 "tags": [],
                 "title": "Israeli forces have withdrawn from Al-Shifa, journalist inside the hospital says",
@@ -604,7 +618,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "content": "Israeli Defence Forces have withdrew from Al-Shifa hospital hours after raiding it, a journalist inside the compound told AFP and "
+                            "content": "Israeli Defense Forces have withdrew from Al-Shifa hospital hours after raiding it, a journalist inside the compound told AFP and "
                           },
                           {
                             "type": "tagname",
@@ -644,6 +658,51 @@
                           {
                             "type": "text",
                             "content": "WAFA, the official Palestinian news agency, had earlier reported that Israeli forces raided the Shifa complex on Wednesday evening local time \"for the second time in 24 hours\"."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "figure",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "img",
+                            "props": {
+                              "alt": "Medical staff wearing scrubs walk down a hazy hospital hallway",
+                              "height": "1125",
+                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-a838ba41-9de7-4717-b660-d2009a607fab.jpeg",
+                              "width": "2000"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "figcaption",
+                            "props": {
+                              "element": "figcaption",
+                              "letterSpacing": "sm",
+                              "lineHeightMobile": 20,
+                              "sizeMobile": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Medics inside a smoke-filled ward at Al Shifa hospital."
+                              },
+                              {
+                                "type": "tagname",
+                                "key": "cite",
+                                "props": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "content": "(Gaza Ministry Of Health via Reuters)"
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       },
@@ -752,6 +811,51 @@
                       },
                       {
                         "type": "tagname",
+                        "key": "figure",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "img",
+                            "props": {
+                              "alt": "A man wearing combat gear and uniform points at a grenade on a table laid out with military equipment",
+                              "height": "1125",
+                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-dbbd4bc2-b491-42a7-b7c7-91781b3a76da.jpeg",
+                              "width": "2000"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "figcaption",
+                            "props": {
+                              "element": "figcaption",
+                              "letterSpacing": "sm",
+                              "lineHeightMobile": 20,
+                              "sizeMobile": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "An Israeli officer points at equipment that he says was discovered in a bag at the Al Shifa hospital complex."
+                              },
+                              {
+                                "type": "tagname",
+                                "key": "cite",
+                                "props": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "content": "(Israeli Army via Reuters)"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
                         "key": "p",
                         "props": {},
                         "children": [
@@ -780,6 +884,51 @@
                           {
                             "type": "text",
                             "content": "The Israeli military made no mention of finding any tunnel entrances in Al Shifa. It previously said Hamas had built a network of tunnels under the hospital, which Hamas has denied, alongside the latest IDF statements."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "figure",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "img",
+                            "props": {
+                              "alt": "Three cars are parked outside a hospital building, the ground littered with trash and debris, makeshift tents are alongside the walls",
+                              "height": "1200",
+                              "src": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-8b1238a6-6c5b-4ab0-891e-c14ad9a31388.jpeg",
+                              "width": "1600"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "figcaption",
+                            "props": {
+                              "element": "figcaption",
+                              "letterSpacing": "sm",
+                              "lineHeightMobile": 20,
+                              "sizeMobile": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Al Shifa hospital during the Israeli ground operation around the hospital, November 12."
+                              },
+                              {
+                                "type": "tagname",
+                                "key": "cite",
+                                "props": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "content": "( Ahmed El Mokhallalati via Reuters)"
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       },
@@ -1179,7 +1328,7 @@
           "isMajor": false,
           "image": {
             "altText": "Obstetrician George Campbell Du Toit smiling in an undated profile picture",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eb0447c2390344c657afb052f92a906b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=224&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eb0447c2390344c657afb052f92a906b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=224&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1193,7 +1342,9 @@
           "title": {
             "children": "Suspended obstetrician says he was 'wrongly accused' of misconduct after tribunal rules he can return to clinical practice"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1616",
@@ -1375,6 +1526,477 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "liveBlogPostPrepared": {
+                "author": {
+                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-a4cf4c8e-2bf2-4a3a-93fe-50e0732e565e.jpeg",
+                  "id": "167",
+                  "name": "Kate Ainsworth"
+                },
+                "dateModified": "2023-11-16T02:02:54.000Z",
+                "datePublished": "2023-11-16T02:02:54.000Z",
+                "id": "59803",
+                "url": "https://www.abc.net.au/news/2023-11-16/asx-markets-business-live-news-unemployment-november-16/103111866#live-blog-post-59803",
+                "isHighlightedComment": false,
+                "isMarkedAsComment": false,
+                "isHidden": false,
+                "isKeyEvent": true,
+                "isPinned": false,
+                "plaintext": "After a subdued start, the ASX trading lower, down 0.5% to 7,072 points as of 1pm AEDT. (For the latest figures, head to the top of the blog.) Looking at the sectors, seven are in the red: academic and eduational services (-1.6%), energy (-0.8%), real estate (-0.6%), financials (-0.5%), basic materials (-0.3%), technology (-0.2%) and consumer cyclicals (-0.1%). In terms of sector gains, consumer non-cyclicals and utilities are both up 0.4%, followed by industrials at 0.2%. Healthcare is flat. The biggest mover in either direction is AMP, which has fallen by 15% so far today after it downgraded its margin expectations. Graincorp is continuing to rally throughout the session, after announcing a $50 million buyback and reporting a smaller profit of $250 million in the year to September 30. The top movers so far: A2 Milk Company +4.1% Graincorp +3.8% Cromwell Property Group +3.7% IPH +3.4% Aristocrat Leisure +3.3% And the bottom movers: AMP -15% Life360 -5.7% Sonic Healthcare -4.4% Alumina -4.2% Nufarm -4.2%",
+                "system": "norkon",
+                "tags": [
+                  "Markets"
+                ],
+                "title": "ASX falls after jobs data beats expectations, AMP tumbles after flagging lower margins",
+                "type": "HTML",
+                "prepared": {
+                  "descriptor": {
+                    "type": "tagname",
+                    "key": "div",
+                    "props": {},
+                    "children": [
+                      {
+                        "type": "tagname",
+                        "key": "@@standfirst",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "After a subdued start, the ASX trading lower, down "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "0.5% to 7,072 points as of 1pm AEDT"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "(For the latest figures, head to the top of the blog.)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "Looking at the sectors, seven are in the red: "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "academic and eduational services"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " (-1.6%), "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "energy "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "(-0.8%), "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "real estate"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " (-0.6%), "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "financials "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "(-0.5%), "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "basic materials"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " (-0.3%), "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "technology "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "(-0.2%) and "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "consumer cyclicals"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " (-0.1%)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "In terms of sector gains, "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "consumer non-cyclicals"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " and "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "utilities "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "are both up 0.4%, followed by "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "industrials "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "at 0.2%. "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Healthcare "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "is flat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "The biggest mover in either direction is "
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "AMP"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": ","
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": " which has fallen by 15%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": " so far today after it downgraded its margin expectations."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "b",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Graincorp "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "content": "is continuing to rally throughout the session, after announcing a $50 million buyback and reporting a smaller profit of $250 million in the year to September 30."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "The top movers so far:"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "ul",
+                        "props": {
+                          "type": "unordered"
+                        },
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "A2 Milk Company +4.1%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Graincorp +3.8%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Cromwell Property Group +3.7%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "IPH +3.4%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Aristocrat Leisure +3.3%"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "p",
+                        "props": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "content": "And the bottom movers:"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tagname",
+                        "key": "ul",
+                        "props": {
+                          "type": "unordered"
+                        },
+                        "children": [
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "AMP -15%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Life360 -5.7%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Sonic Healthcare -4.4%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Alumina -4.2%"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tagname",
+                            "key": "li",
+                            "props": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "content": "Nufarm -4.2%"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            },
             {
               "liveBlogPostPrepared": {
                 "author": {
@@ -1882,141 +2504,6 @@
                   }
                 }
               }
-            },
-            {
-              "liveBlogPostPrepared": {
-                "author": {
-                  "avatar": "https://livecenter-aus-hpc9audwdke2c0fm.z01.azurefd.net/lc-aus-images/lcimg-a4cf4c8e-2bf2-4a3a-93fe-50e0732e565e.jpeg",
-                  "id": "167",
-                  "name": "Kate Ainsworth"
-                },
-                "dateModified": "2023-11-16T00:52:18.000Z",
-                "datePublished": "2023-11-16T00:43:12.000Z",
-                "id": "59796",
-                "url": "https://www.abc.net.au/news/2023-11-16/asx-markets-business-live-news-unemployment-november-16/103111866#live-blog-post-59796",
-                "isHighlightedComment": false,
-                "isMarkedAsComment": false,
-                "isHidden": false,
-                "isKeyEvent": true,
-                "isPinned": false,
-                "plaintext": "Qantas has just released a statement in response to the NSW District Court's ruling. A spokesperson for the company says it acknowledges the ruling and will review the judgment in full before making any further comment. Here's the complete statement they've issued: \"Qantas acknowledges the findings of the NSW District Court, which upheld one of three charges brought by SafeWork NSW, and will review the judgment before commenting on it further. \"We recognise that the initial stages of the pandemic caused a lot of uncertainty for our people, customers and the business more broadly. \"Our medical and safety teams worked tirelessly to provide daily updates to employees and to put effective controls and procedures in place to help protect our people and customers.\"",
-                "system": "norkon",
-                "tags": [
-                  "Business news"
-                ],
-                "title": "Qantas acknowledges criminal charge finding by NSW court",
-                "type": "HTML",
-                "prepared": {
-                  "descriptor": {
-                    "type": "tagname",
-                    "key": "div",
-                    "props": {},
-                    "children": [
-                      {
-                        "type": "tagname",
-                        "key": "@@standfirst",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "tagname",
-                            "key": "b",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "Qantas "
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "content": "has just released a statement in response to the NSW District Court's ruling."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "A spokesperson for the company says it acknowledges the ruling and will "
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "b",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "review the judgment in full"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "content": " before making any further comment."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "p",
-                        "props": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "content": "Here's the complete statement they've issued:"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "tagname",
-                        "key": "blockquote",
-                        "props": {
-                          "alignment": "outdent"
-                        },
-                        "children": [
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"Qantas acknowledges the findings of the NSW District Court, which upheld one of three charges brought by SafeWork NSW, and will review the judgment before commenting on it further."
-                              }
-                            ]
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"We recognise that the initial stages of the pandemic caused a lot of uncertainty for our people, customers and the business more broadly."
-                              }
-                            ]
-                          },
-                          {
-                            "type": "tagname",
-                            "key": "p",
-                            "props": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "content": "\"Our medical and safety teams worked tirelessly to provide daily updates to employees and to put effective controls and procedures in place to help protect our people and customers.\""
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              }
             }
           ],
           "subjects": [
@@ -2240,137 +2727,6 @@
             {
               "id": "102064440",
               "title": "War"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103033464",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An asian woman sits on a lounge holding her sleeping baby and laughing at something on her phone",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e718ac500a4cbcf39ee0e192d29b979?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/health/2023-11-16/social-media-new-others-fourth-trimester/103033464"
-          },
-          "contentUri": "coremedia://article/103033464",
-          "canonicalURL": "https://www.abc.net.au/news/health/2023-11-16/social-media-new-others-fourth-trimester/103033464",
-          "video": null,
-          "reactKey": "qld-103033464-1",
-          "synopsis": "Many perinatal specialists believe that new mothers need more support in the fourth trimester — the 12 weeks after birth. They're turning to social media for it.",
-          "title": {
-            "children": "The '4th trimester' can be a hard, lonely time for mothers. Social media can help but it can also make things worse"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1902",
-              "title": "Breastfeeding"
-            },
-            {
-              "id": "1894",
-              "title": "Pregnancy and Childbirth"
-            },
-            {
-              "id": "1768",
-              "title": "Doctors and Medical Professionals"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103107810",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Diana looks pointedly at the Queen, who looks worried.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e29d0b687558a98b7977098c6164b2e5?impolicy=wcms_crop_resize&cropH=1920&cropW=2880&xPos=960&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-16/the-crown-season-6-princess-diana-death-elizabeth-debicki/103107810"
-          },
-          "contentUri": "coremedia://article/103107810",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-16/the-crown-season-6-princess-diana-death-elizabeth-debicki/103107810",
-          "video": null,
-          "reactKey": "qld-103107810-1",
-          "synopsis": "Set in 1997, the new episodes will dramatise the final weeks of Princess Diana's life — and the ramifications for the royal family.",
-          "title": {
-            "children": "The first four episodes of The Crown's final series drop later today. Here's what we know about them"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1928",
-              "title": "Royalty"
-            },
-            {
-              "id": "804",
-              "title": "Television"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103111712",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Crime scene tape outside a home.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/23c8ba7a32e61b3a9ecb8bf1e27be741?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-16/woman-arrested-in-palau-over-alleged-attempted-murder/103111712"
-          },
-          "contentUri": "coremedia://article/103111712",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-16/woman-arrested-in-palau-over-alleged-attempted-murder/103111712",
-          "video": null,
-          "reactKey": "qld-103111712-1",
-          "synopsis": "A woman has been arrested in Palau in relation to an alleged violent incident in the Adelaide Hills in which one man was allegedly attacked with an axe and another shot, police have said.",
-          "title": {
-            "children": "Woman arrested in Palau to face attempted murder charges, SA Police says"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1982",
-              "title": "Crime"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
             }
           ]
         }
@@ -2637,6 +2993,137 @@
             {
               "id": "1922",
               "title": "Human Interest"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103111712",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Crime scene tape outside a home.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/23c8ba7a32e61b3a9ecb8bf1e27be741?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-16/woman-arrested-in-palau-over-alleged-attempted-murder/103111712"
+          },
+          "contentUri": "coremedia://article/103111712",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-16/woman-arrested-in-palau-over-alleged-attempted-murder/103111712",
+          "video": null,
+          "reactKey": "qld-103111712-1",
+          "synopsis": "A woman has been arrested in Palau in relation to an alleged violent incident in the Adelaide Hills in which one man was allegedly attacked with an axe and another shot, police have said.",
+          "title": {
+            "children": "Woman arrested in Palau to face attempted murder charges, SA Police says"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103033464",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An asian woman sits on a lounge holding her sleeping baby and laughing at something on her phone",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e718ac500a4cbcf39ee0e192d29b979?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/health/2023-11-16/social-media-new-others-fourth-trimester/103033464"
+          },
+          "contentUri": "coremedia://article/103033464",
+          "canonicalURL": "https://www.abc.net.au/news/health/2023-11-16/social-media-new-others-fourth-trimester/103033464",
+          "video": null,
+          "reactKey": "qld-103033464-1",
+          "synopsis": "Many perinatal specialists believe that new mothers need more support in the fourth trimester — the 12 weeks after birth. They're turning to social media for it.",
+          "title": {
+            "children": "The '4th trimester' can be a hard, lonely time for mothers. Social media can help but it can also make things worse"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1902",
+              "title": "Breastfeeding"
+            },
+            {
+              "id": "1894",
+              "title": "Pregnancy and Childbirth"
+            },
+            {
+              "id": "1768",
+              "title": "Doctors and Medical Professionals"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103107810",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Diana looks pointedly at the Queen, who looks worried.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e29d0b687558a98b7977098c6164b2e5?impolicy=wcms_crop_resize&cropH=1920&cropW=2880&xPos=960&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-16/the-crown-season-6-princess-diana-death-elizabeth-debicki/103107810"
+          },
+          "contentUri": "coremedia://article/103107810",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-16/the-crown-season-6-princess-diana-death-elizabeth-debicki/103107810",
+          "video": null,
+          "reactKey": "qld-103107810-1",
+          "synopsis": "Set in 1997, the new episodes will dramatise the final weeks of Princess Diana's life — and the ramifications for the royal family.",
+          "title": {
+            "children": "The first four episodes of The Crown's final series drop later today. Here's what we know about them"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1928",
+              "title": "Royalty"
+            },
+            {
+              "id": "804",
+              "title": "Television"
             }
           ]
         }
