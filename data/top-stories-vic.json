@@ -46,13 +46,19 @@
           "uri": "coremedia://article/103113758"
         },
         {
+          "uri": "coremedia://article/103117000"
+        },
+        {
+          "uri": "coremedia://article/103107482"
+        },
+        {
           "uri": "coremedia://article/103115518"
         },
         {
           "uri": "coremedia://article/103109242"
         },
         {
-          "uri": "coremedia://article/103117000"
+          "uri": "coremedia://article/103112376"
         },
         {
           "uri": "coremedia://article/103091838"
@@ -356,7 +362,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103116822",
           "imagePosition": {
@@ -382,6 +395,13 @@
             "children": "Police officer shot dead, two people with gunshot wounds after incident on regional SA property"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -621,6 +641,92 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103117000",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An elderly couple in formal black attire smile as they pose for a photo.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f8cb108b0d43908b99ab19efc31b518?impolicy=wcms_crop_resize&cropH=2111&cropW=3167&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-17/man-who-attacked-nancy-pelosi-husband-convicted/103117000"
+          },
+          "contentUri": "coremedia://article/103117000",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/man-who-attacked-nancy-pelosi-husband-convicted/103117000",
+          "video": null,
+          "reactKey": "vic-103117000-1",
+          "synopsis": "A jury has convicted the man who broke into former US house speaker Nancy Pelosi's San Francisco home after he held her hostage and attacked her husband with a hammer. ",
+          "title": {
+            "children": "Man who attacked Nancy Pelosi's husband with a hammer convicted of attempted kidnapping and assault"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1970",
+              "title": "Law, Crime and Justice"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103107482",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a woman with red hair wearing a pink jumper.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f304d1acc187eb46c8eebc1534512d00?impolicy=wcms_crop_resize&cropH=1893&cropW=2839&xPos=425&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-17/bias-in-regional-recruitment-hurting-diverse-job-seekers/103107482"
+          },
+          "contentUri": "coremedia://article/103107482",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/bias-in-regional-recruitment-hurting-diverse-job-seekers/103107482",
+          "video": null,
+          "reactKey": "vic-103107482-1",
+          "synopsis": "More than 20 per cent of businesses across Australia currently have at least one job vacancy, but experts say excellent candidates are often overlooked.",
+          "title": {
+            "children": "Recruitment bias shutting diverse candidates with 'huge value' out of jobs, experts say"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1222",
+              "title": "Discrimination"
+            },
+            {
+              "id": "1034",
+              "title": "Work"
+            },
+            {
+              "id": "13771156",
+              "title": "Employment Statistics"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -661,6 +767,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "60050",
+              "date": "2023-11-16T22:57:13.000Z",
+              "title": "Optus says 228 Triple-0 calls were unable to be made during the outage"
+            },
+            {
               "id": "60046",
               "date": "2023-11-16T22:45:39.000Z",
               "title": "Reason for outage was misinterpreted in Optus statement, no dispute with Singtel"
@@ -669,11 +780,6 @@
               "id": "60044",
               "date": "2023-11-16T22:32:09.000Z",
               "title": "Optus boss was given no advice from legal team not to speak publicly"
-            },
-            {
-              "id": "60043",
-              "date": "2023-11-16T22:25:11.000Z",
-              "title": "Optus was only 'pretty confident' cyber attack not to blame six hours after outage"
             }
           ],
           "subjects": [
@@ -738,7 +844,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103117000",
+          "id": "103112376",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -746,30 +852,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An elderly couple in formal black attire smile as they pose for a photo.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f8cb108b0d43908b99ab19efc31b518?impolicy=wcms_crop_resize&cropH=2111&cropW=3167&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Glittery high heel boots",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5727855fd93e582863788b39057b1e5e?impolicy=wcms_crop_resize&cropH=2216&cropW=3324&xPos=306&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-11-17/man-who-attacked-nancy-pelosi-husband-convicted/103117000"
+            "to": "/news/2023-11-17/emberz-strip-club-proposal-mixed-reaction-albury-residents/103112376"
           },
-          "contentUri": "coremedia://article/103117000",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/man-who-attacked-nancy-pelosi-husband-convicted/103117000",
+          "contentUri": "coremedia://article/103112376",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-17/emberz-strip-club-proposal-mixed-reaction-albury-residents/103112376",
           "video": null,
-          "reactKey": "vic-103117000-1",
-          "synopsis": "A jury has convicted the man who broke into former US house speaker Nancy Pelosi's San Francisco home after he held her hostage and attacked her husband with a hammer. ",
+          "reactKey": "vic-103112376-1",
+          "synopsis": "More than 1,000 signatures have been added to call for a strip club to be stopped from opening in the heart of Albury. But its would-be proprietor says the town \"really needs one\".",
           "title": {
-            "children": "Man who attacked Nancy Pelosi's husband with a hammer convicted of attempted kidnapping and assault"
+            "children": "Sex worker advocate says everyone deserves safe place as town fires up over strip club"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1970",
-              "title": "Law, Crime and Justice"
+              "id": "1604",
+              "title": "Local Government"
             },
             {
-              "id": "1574",
-              "title": "World Politics"
+              "id": "1038",
+              "title": "Urban Development and Planning"
+            },
+            {
+              "id": "1036",
+              "title": "Regional Communities"
             }
           ]
         }

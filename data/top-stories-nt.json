@@ -270,7 +270,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103116822",
           "imagePosition": {
@@ -296,6 +303,13 @@
             "children": "Police officer shot dead, two people with gunshot wounds after incident on regional SA property"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -625,6 +639,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "60050",
+              "date": "2023-11-16T22:57:13.000Z",
+              "title": "Optus says 228 Triple-0 calls were unable to be made during the outage"
+            },
+            {
               "id": "60046",
               "date": "2023-11-16T22:45:39.000Z",
               "title": "Reason for outage was misinterpreted in Optus statement, no dispute with Singtel"
@@ -633,11 +652,6 @@
               "id": "60044",
               "date": "2023-11-16T22:32:09.000Z",
               "title": "Optus boss was given no advice from legal team not to speak publicly"
-            },
-            {
-              "id": "60043",
-              "date": "2023-11-16T22:25:11.000Z",
-              "title": "Optus was only 'pretty confident' cyber attack not to blame six hours after outage"
             }
           ],
           "subjects": [
