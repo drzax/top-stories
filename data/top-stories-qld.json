@@ -100,13 +100,13 @@
           "uri": "coremedia://article/103111094"
         },
         {
-          "uri": "coremedia://article/103112256"
-        },
-        {
           "uri": "coremedia://article/103121984"
         },
         {
           "uri": "coremedia://article/103119960"
+        },
+        {
+          "uri": "coremedia://article/103112256"
         }
       ]
     },
@@ -1421,53 +1421,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103112256",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a forest trail at dusk with bright yellow lights flying around.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36060353be7418369a5a998c31f8a08b?impolicy=wcms_crop_resize&cropH=2333&cropW=3499&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-18/firefly-season-begins-in-nsw-with-magical-bioluminescent-display/103112256"
-          },
-          "contentUri": "coremedia://article/103112256",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-18/firefly-season-begins-in-nsw-with-magical-bioluminescent-display/103112256",
-          "video": null,
-          "reactKey": "qld-103112256-1",
-          "synopsis": "Now is the time to see fireflies in New South Wales, as the bioluminescent beetles take flight for their spectacular, but brief, mating dance with pulsing yellow lights.",
-          "title": {
-            "children": "Seeing fireflies for the first time — it's a stunning display of one of nature's many magic tricks"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2368",
-              "title": "Animal Science"
-            },
-            {
-              "id": "790",
-              "title": "Photography"
-            },
-            {
-              "id": "2388",
-              "title": "Invertebrates - Insects and Arachnids"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103121984",
           "imagePosition": {
             "mobile": "right",
@@ -1522,7 +1475,7 @@
           "isMajor": false,
           "image": {
             "altText": "a couple stands under an umbrella overlooking the sydney harbour bridge as strom clouds brew",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/087c04d3b1ab0e4b88a2bd6bd23e68f8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/087c04d3b1ab0e4b88a2bd6bd23e68f8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1536,7 +1489,9 @@
           "title": {
             "children": "Major storm event on the horizon across Australia as El Niño takes a raincheck"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2762",
@@ -1549,6 +1504,51 @@
             {
               "id": "1248",
               "title": "Storms"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103112256",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a forest trail at dusk with bright yellow lights flying around.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36060353be7418369a5a998c31f8a08b?impolicy=wcms_crop_resize&cropH=1969&cropW=3500&xPos=0&yPos=182&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-11-18/firefly-season-begins-in-nsw-with-magical-bioluminescent-display/103112256"
+          },
+          "contentUri": "coremedia://article/103112256",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-18/firefly-season-begins-in-nsw-with-magical-bioluminescent-display/103112256",
+          "video": null,
+          "reactKey": "qld-103112256-1",
+          "synopsis": "Now is the time to see fireflies in New South Wales, as the bioluminescent beetles take flight for their spectacular, but brief, mating dance with pulsing yellow lights.",
+          "title": {
+            "children": "Seeing fireflies for the first time — it's a stunning display of one of nature's many magic tricks"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2368",
+              "title": "Animal Science"
+            },
+            {
+              "id": "790",
+              "title": "Photography"
+            },
+            {
+              "id": "2388",
+              "title": "Invertebrates - Insects and Arachnids"
             }
           ]
         }
