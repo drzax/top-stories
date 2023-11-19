@@ -22,10 +22,10 @@
           "uri": "coremedia://article/103122356"
         },
         {
-          "uri": "coremedia://article/103123226"
+          "uri": "coremedia://article/103122468"
         },
         {
-          "uri": "coremedia://article/103122468"
+          "uri": "coremedia://article/103123226"
         },
         {
           "uri": "coremedia://article/103098588"
@@ -41,6 +41,9 @@
         },
         {
           "uri": "coremedia://article/103123278"
+        },
+        {
+          "uri": "coremedia://article/103061418"
         },
         {
           "uri": "coremedia://article/103107872"
@@ -62,9 +65,6 @@
         },
         {
           "uri": "coremedia://article/103102134"
-        },
-        {
-          "uri": "coremedia://article/103061418"
         },
         {
           "uri": "coremedia://article/103123342"
@@ -218,7 +218,7 @@
           "isMajor": false,
           "image": {
             "altText": "three teenagers at the check in for schoolies",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea17575fbc7dbcb7b2d2ad8179abbf68?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=76&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea17575fbc7dbcb7b2d2ad8179abbf68?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=38&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -232,7 +232,9 @@
           "title": {
             "children": "'I want to remember it': Schoolies subdued on first night of annual celebrations"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1376",
@@ -245,53 +247,6 @@
             {
               "id": "1300",
               "title": "Education"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103123226",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Nicola Forrest, Stephen Keir and his sisters Nikki McLeod and Stacey McIntyre stand inside the Kempsey Akubra factory.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/93b2ec9306f85dc8d79f6c000e575cb9?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-19/andrew-twiggy-forrest-buys-akubra-hat-company/103123226"
-          },
-          "contentUri": "coremedia://article/103123226",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-19/andrew-twiggy-forrest-buys-akubra-hat-company/103123226",
-          "video": null,
-          "reactKey": "national-103123226-1",
-          "synopsis": "The family that's made the famed headwear for 147 years says a promise by mining magnates Andrew and Nicola Forrest to keep the brand in Australian hands convinced them to sell.",
-          "title": {
-            "children": "Akubra owners tip their hats to billionaire 'Twiggy' Forrest after selling him iconic brand"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "13771068",
-              "title": "Businesses"
-            },
-            {
-              "id": "2164",
-              "title": "Rural"
-            },
-            {
-              "id": "812",
-              "title": "Regional Development and Planning"
             }
           ]
         }
@@ -343,6 +298,53 @@
             {
               "id": "102065512",
               "title": "War Crimes"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103123226",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Nicola Forrest, Stephen Keir and his sisters Nikki McLeod and Stacey McIntyre stand inside the Kempsey Akubra factory.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/93b2ec9306f85dc8d79f6c000e575cb9?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-19/andrew-twiggy-forrest-buys-akubra-hat-company/103123226"
+          },
+          "contentUri": "coremedia://article/103123226",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-19/andrew-twiggy-forrest-buys-akubra-hat-company/103123226",
+          "video": null,
+          "reactKey": "national-103123226-1",
+          "synopsis": "The family that's made the famed headwear for 147 years says a promise by mining magnates Andrew and Nicola Forrest to keep the brand in Australian hands convinced them to sell.",
+          "title": {
+            "children": "Akubra owners tip their hats to billionaire 'Twiggy' Forrest after selling him iconic brand"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "13771068",
+              "title": "Businesses"
+            },
+            {
+              "id": "2164",
+              "title": "Rural"
+            },
+            {
+              "id": "812",
+              "title": "Regional Development and Planning"
             }
           ]
         }
@@ -558,6 +560,47 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103061418",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A green pub, which has been hollowed out by fire, face's a small regional Victorian town's main square.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ecb8ede6e7f483156d858ac3e30cd569?impolicy=wcms_crop_resize&cropH=2641&cropW=3961&xPos=543&yPos=65&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-19/locals-demand-restoration-robinvale-hotel-destroyed-by-fire/103061418"
+          },
+          "contentUri": "coremedia://article/103061418",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-19/locals-demand-restoration-robinvale-hotel-destroyed-by-fire/103061418",
+          "video": null,
+          "reactKey": "national-103061418-1",
+          "synopsis": "Once an impressive and stylish regional Victorian venue, fire destroyed Robinvale's only hotel in 2015 and it has sat derelict in the centre of town since. It's high time that changed, say residents.",
+          "title": {
+            "children": "8,000 residents and the only pub's a burnt-out ruin. And the locals are sick of the sight of it  "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1038",
+              "title": "Urban Development and Planning"
+            },
+            {
+              "id": "812",
+              "title": "Regional Development and Planning"
             }
           ]
         }
@@ -869,47 +912,6 @@
             {
               "id": "2022",
               "title": "Laws"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103061418",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A green pub, which has been hollowed out by fire, face's a small regional Victorian town's main square.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ecb8ede6e7f483156d858ac3e30cd569?impolicy=wcms_crop_resize&cropH=2641&cropW=3961&xPos=543&yPos=65&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-19/locals-demand-restoration-robinvale-hotel-destroyed-by-fire/103061418"
-          },
-          "contentUri": "coremedia://article/103061418",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-19/locals-demand-restoration-robinvale-hotel-destroyed-by-fire/103061418",
-          "video": null,
-          "reactKey": "national-103061418-1",
-          "synopsis": "Once an impressive and stylish regional Victorian venue, fire destroyed Robinvale's only hotel in 2015 and it has sat derelict in the centre of town since. It's high time that changed, say residents.",
-          "title": {
-            "children": "8,000 residents and the only pub's a burnt-out ruin. And the locals are sick of the sight of it  "
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1038",
-              "title": "Urban Development and Planning"
-            },
-            {
-              "id": "812",
-              "title": "Regional Development and Planning"
             }
           ]
         }
