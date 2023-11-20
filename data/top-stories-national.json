@@ -85,6 +85,9 @@
           "uri": "coremedia://article/103123870"
         },
         {
+          "uri": "coremedia://article/103126088"
+        },
+        {
           "uri": "coremedia://article/103119460"
         },
         {
@@ -368,6 +371,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "60419",
+              "date": "2023-11-20T03:28:29.000Z",
+              "title": "Disabled Palestinian killed in West Bank clashes"
+            },
+            {
               "id": "60416",
               "date": "2023-11-20T02:46:09.000Z",
               "title": "What else we know about the premature babies evacuated from Al-Shifa"
@@ -376,11 +384,6 @@
               "id": "60412",
               "date": "2023-11-20T02:00:43.000Z",
               "title": "'No definitive evidence' of Hamas control centre: ABC's global affairs editor"
-            },
-            {
-              "id": "60409",
-              "date": "2023-11-20T01:16:41.000Z",
-              "title": "31 more Australians evacuate Gaza into Egypt"
             }
           ],
           "subjects": [
@@ -536,7 +539,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103126366",
           "imagePosition": {
@@ -562,6 +572,13 @@
             "children": "Thousands more serious crime cases reviewed as findings into Queensland DNA lab revealed"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2300",
@@ -1247,6 +1264,51 @@
             {
               "id": "1228",
               "title": "Defence Forces"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103126088",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Sydney United fans hold up Croatia themed banners",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31acdce0942a9a370b2060d5ebaf162e?impolicy=wcms_crop_resize&cropH=2704&cropW=4056&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-20/sydney-united-included-in-national-second-division-to-launch-in-/103126088"
+          },
+          "contentUri": "coremedia://article/103126088",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-20/sydney-united-included-in-national-second-division-to-launch-in-/103126088",
+          "video": null,
+          "reactKey": "national-103126088-1",
+          "synopsis": "Sydney United were punished after some fans were caught last year performing Nazi salutes, waving flags, and chanting slogans associated with the Croatian fascist movement.",
+          "title": {
+            "children": "Sydney United included in National Second Division to launch in 2025"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2572",
+              "title": "Soccer"
+            },
+            {
+              "id": "102271688",
+              "title": "Australia Soccer"
             }
           ]
         }
