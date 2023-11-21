@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103116938"
+          "uri": "coremedia://article/103134236"
         },
         {
-          "uri": "coremedia://article/103134236"
+          "uri": "coremedia://article/103116938"
         },
         {
           "uri": "coremedia://article/103004012"
@@ -117,51 +117,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [
-            "headingBigDesktop"
-          ],
-          "id": "103116938",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A composite image of a young man, an older man and a woman",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d223bfd260ca45e6fe5a48364929371?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938"
-          },
-          "contentUri": "coremedia://article/103116938",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938",
-          "video": null,
-          "reactKey": "national-103116938-1",
-          "synopsis": "The Netanyahu family has towered over Israeli politics for more than two decades. Now, the prime minister's popularity is plummeting and some people are questioning if his relatives are pulling the strings.",
-          "title": {
-            "children": "The angry nanny, the flying bed, and the powerful family hanging by a thread"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "102064440",
-              "title": "War"
-            },
-            {
-              "id": "1574",
-              "title": "World Politics"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -169,7 +124,9 @@
               "lang": "en"
             }
           ],
-          "headingClassNames": [],
+          "headingClassNames": [
+            "headingBigDesktop"
+          ],
           "id": "103134236",
           "imagePosition": {
             "mobile": "right",
@@ -179,7 +136,7 @@
           "isMajor": false,
           "image": {
             "altText": "Families friends about hostages held Hamas Israel Palestinians",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36a8f1c0c86f6dab666da40319f0152f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36a8f1c0c86f6dab666da40319f0152f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -189,11 +146,13 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-11-22/israel-hamas-hostage-deal-close-us-says-live-updates/103134236",
           "video": null,
           "reactKey": "national-103134236-1",
-          "synopsis": "Israel's Prime Minister Benjamin Netanyahu meets with his war cabinet amid comments from the US and mediator country Qatar that a ceasefire deal with Hamas in exchange for the release of hostages is close. Follow live.",
+          "synopsis": "Israel's Prime Minister Benjamin Netanyahu meets with his cabinet for an expected vote on a deal that could see Hamas release some Israeli hostages and a potential ceasefire. Follow live.",
           "title": {
-            "children": "Israeli war cabinet meets as US says hostage deal 'close but not final'"
+            "children": "Israeli cabinet to vote on hostage deal as Netanyahu says war will continue even if ceasefire reached"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -201,6 +160,11 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "60685",
+              "date": "2023-11-21T20:23:05.000Z",
+              "title": "How would a hostage release work?"
+            },
             {
               "id": "60683",
               "date": "2023-11-21T20:14:51.000Z",
@@ -224,6 +188,47 @@
             {
               "id": "1556",
               "title": "Foreign Affairs"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103116938",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A composite image of a young man, an older man and a woman",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d223bfd260ca45e6fe5a48364929371?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938"
+          },
+          "contentUri": "coremedia://article/103116938",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938",
+          "video": null,
+          "reactKey": "national-103116938-1",
+          "synopsis": "The Netanyahu family has towered over Israeli politics for more than two decades. Now, the prime minister's popularity is plummeting and some people are questioning if his relatives are pulling the strings.",
+          "title": {
+            "children": "The angry nanny, the flying bed, and the powerful family hanging by a thread"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102064440",
+              "title": "War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
             }
           ]
         }
@@ -1178,8 +1183,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Harry Souttar celebrates with his teammates",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/276e4f6258b0a15eeb448dde60ad0aef?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Harry Souttar heads the ball",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78a809866c05ac423375d5481422438c?impolicy=wcms_crop_resize&cropH=2666&cropW=3999&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
