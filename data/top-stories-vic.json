@@ -19,16 +19,13 @@
           "uri": "coremedia://article/103135486"
         },
         {
-          "uri": "coremedia://article/103134762"
+          "uri": "coremedia://article/103134236"
         },
         {
           "uri": "coremedia://article/103133396"
         },
         {
-          "uri": "coremedia://article/103134236"
-        },
-        {
-          "uri": "coremedia://article/103116938"
+          "uri": "coremedia://article/103134762"
         },
         {
           "uri": "coremedia://article/103135096"
@@ -46,6 +43,9 @@
           "uri": "coremedia://article/103134554"
         },
         {
+          "uri": "coremedia://article/103132476"
+        },
+        {
           "uri": "coremedia://article/103131088"
         },
         {
@@ -61,7 +61,7 @@
           "uri": "coremedia://article/103124930"
         },
         {
-          "uri": "coremedia://article/103126900"
+          "uri": "coremedia://article/103116938"
         },
         {
           "uri": "coremedia://article/103130998"
@@ -77,6 +77,9 @@
         },
         {
           "uri": "coremedia://article/103129774"
+        },
+        {
+          "uri": "coremedia://article/103130558"
         },
         {
           "uri": "coremedia://article/103132360"
@@ -199,9 +202,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103134762",
+          "id": "103134236",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -209,30 +218,57 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Bruce Lehrmann and Lisa Wilkinson.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c185c1df6960dc4276608c3a35b38b?impolicy=wcms_crop_resize&cropH=443&cropW=664&xPos=172&yPos=19&width=160&height=107",
+            "altText": "Israeli Prime Minister Benjamin Netanyahu speaks during a press conference. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/50d0b47dcd3bf41bd53fd51c69ef6092?impolicy=wcms_crop_resize&cropH=3217&cropW=4826&xPos=6&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762"
+            "to": "/news/2023-11-22/israel-hamas-hostage-deal-live-updates/103134236"
           },
-          "contentUri": "coremedia://article/103134762",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762",
+          "contentUri": "coremedia://article/103134236",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/israel-hamas-hostage-deal-live-updates/103134236",
           "video": null,
-          "reactKey": "vic-103134762-1",
-          "synopsis": "Before settling, Bruce Lehrmann was due to take on the ABC in the Federal Court in Sydney today. The former Liberal staffer's defamation action against Network Ten and journalist Lisa Wilkinson continues.",
+          "reactKey": "vic-103134236-1",
+          "synopsis": "Israeli Prime Minister Benjamin Netanyahu's cabinet agrees to a deal with Hamas that would see a pause on fighting in Gaza in exchange for the release of 50 hostages. Follow live.",
           "title": {
-            "children": "Bruce Lehrmann's defamation action against Lisa Wilkinson, Network Ten begins after ABC settlement"
+            "children": "Israel and Hamas agree to Gaza ceasefire in exchange for release of some hostages"
           },
           "imageContainerClassNames": [],
-          "subjects": [
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
             {
-              "id": "2018",
-              "title": "Courts and Trials"
+              "id": "60728",
+              "date": "2023-11-22T02:25:17.000Z",
+              "title": "Official statement from the Israeli government"
             },
             {
-              "id": "926",
-              "title": "Media Industry"
+              "id": "60726",
+              "date": "2023-11-22T02:14:06.000Z",
+              "title": "Three Americans expected to be included in hostage deal"
+            },
+            {
+              "id": "60725",
+              "date": "2023-11-22T01:52:50.000Z",
+              "title": "Hamas agrees to Gaza ceasefire in exchange for 150 Palestinian prisoners"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "1556",
+              "title": "Foreign Affairs"
             }
           ]
         }
@@ -287,83 +323,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103134236",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Israeli Prime Minister Benjamin Netanyahu speaks during a press conference. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/50d0b47dcd3bf41bd53fd51c69ef6092?impolicy=wcms_crop_resize&cropH=3217&cropW=4826&xPos=6&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-22/israel-hamas-hostage-deal-live-updates/103134236"
-          },
-          "contentUri": "coremedia://article/103134236",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/israel-hamas-hostage-deal-live-updates/103134236",
-          "video": null,
-          "reactKey": "vic-103134236-1",
-          "synopsis": "Israeli Prime Minister Benjamin Netanyahu's cabinet approves a deal for a four-day ceasefire on Gaza in exchange for the release of 50 Hamas-held hostages. Follow live.",
-          "title": {
-            "children": "Israeli cabinet approves Gaza ceasefire in exchange for release of some hostages"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "60725",
-              "date": "2023-11-22T01:52:50.000Z",
-              "title": "Hamas agrees to Gaza ceasefire in exchange 150 Palestinian prisoners"
-            },
-            {
-              "id": "60720",
-              "date": "2023-11-22T01:25:28.000Z",
-              "title": "Israeli cabinet approves Gaza ceasefire in exchange for release of some hostages"
-            },
-            {
-              "id": "60714",
-              "date": "2023-11-22T00:45:21.000Z",
-              "title": "Jordan's PM says Palestinian displacement into nation would be 'declaration of war'"
-            }
-          ],
-          "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "1556",
-              "title": "Foreign Affairs"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103116938",
+          "id": "103134762",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -371,30 +333,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A composite image of a young man, an older man and a woman",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d223bfd260ca45e6fe5a48364929371?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Bruce Lehrmann and Lisa Wilkinson.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c185c1df6960dc4276608c3a35b38b?impolicy=wcms_crop_resize&cropH=443&cropW=664&xPos=172&yPos=19&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938"
+            "to": "/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762"
           },
-          "contentUri": "coremedia://article/103116938",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938",
+          "contentUri": "coremedia://article/103134762",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762",
           "video": null,
-          "reactKey": "vic-103116938-1",
-          "synopsis": "The Netanyahu family has towered over Israeli politics for more than two decades. Now, the prime minister's popularity is plummeting and some people are questioning if his relatives are pulling the strings.",
+          "reactKey": "vic-103134762-1",
+          "synopsis": "Before settling, Bruce Lehrmann was due to take on the ABC in the Federal Court in Sydney today. The former Liberal staffer's defamation action against Network Ten and journalist Lisa Wilkinson continues.",
           "title": {
-            "children": "The angry nanny, the flying bed, and the powerful family hanging by a thread"
+            "children": "Bruce Lehrmann's defamation action against Lisa Wilkinson, Network Ten begins after ABC settlement"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "102064440",
-              "title": "War"
+              "id": "2018",
+              "title": "Courts and Trials"
             },
             {
-              "id": "1574",
-              "title": "World Politics"
+              "id": "926",
+              "title": "Media Industry"
             }
           ]
         }
@@ -627,6 +589,47 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103132476",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A split image showing two young heat-exhausted women and the pop star Taylor Swift performing.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9fed7252cac7e5040bae9458333ae735?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=149&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-22/heatwave-humidity-warnings-follow-brazil-taylor-swift-fan-death/103132476"
+          },
+          "contentUri": "coremedia://article/103132476",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/heatwave-humidity-warnings-follow-brazil-taylor-swift-fan-death/103132476",
+          "video": null,
+          "reactKey": "vic-103132476-1",
+          "synopsis": "The heat index – or \"feels like\" – temperature reportedly reached 59C in Rio de Janeiro as thousands of fans queued up for Taylor Swift's performance.",
+          "title": {
+            "children": "The heat was brutal at Taylor Swift's tragic Rio concert. One factor made it even more dangerous"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102821970",
+              "title": "Weather Warnings"
+            },
+            {
+              "id": "102909144",
+              "title": "Extreme Weather Events"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103131088",
           "imagePosition": {
             "mobile": "right",
@@ -848,7 +851,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103126900",
+          "id": "103116938",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -856,34 +859,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A building construction site. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72c6305e087b0e52f38bebc8674b83bf?impolicy=wcms_crop_resize&cropH=1344&cropW=2016&xPos=0&yPos=84&width=160&height=107",
+            "altText": "A composite image of a young man, an older man and a woman",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d223bfd260ca45e6fe5a48364929371?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-11-22/facadism-archeticture-discouraged-national-trust-ballarat/103126900"
+            "to": "/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938"
           },
-          "contentUri": "coremedia://article/103126900",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/facadism-archeticture-discouraged-national-trust-ballarat/103126900",
+          "contentUri": "coremedia://article/103116938",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/netanyahu-family-in-popularity-decline-after-october-7-attack/103116938",
           "video": null,
-          "reactKey": "vic-103126900-1",
-          "synopsis": "Supporters say facadism helps preserve a building's history while making it accessible, cost-effective and better for the environment. To its detractors, it's \"a very sad thing\" that must be stamped out.",
+          "reactKey": "vic-103116938-1",
+          "synopsis": "The Netanyahu family has towered over Israeli politics for more than two decades. Now, the prime minister's popularity is plummeting and some people are questioning if his relatives are pulling the strings.",
           "title": {
-            "children": "Preservation or destruction? The controversial architectural practice of facadism"
+            "children": "The angry nanny, the flying bed, and the powerful family hanging by a thread"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "492",
-              "title": "Architecture"
+              "id": "102064440",
+              "title": "War"
             },
             {
-              "id": "1008",
-              "title": "History"
-            },
-            {
-              "id": "1038",
-              "title": "Urban Development and Planning"
+              "id": "1574",
+              "title": "World Politics"
             }
           ]
         }
@@ -1111,6 +1110,51 @@
             {
               "id": "1492",
               "title": "Environmental Management"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103130558",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Five ducks walking in between green vineyard row.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f446f8d4940d6e0d5fe64b412087e322?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=577&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-11-22/ducks-for-snail-pest-management-at-wa-vineyard/103130558"
+          },
+          "contentUri": "coremedia://article/103130558",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/ducks-for-snail-pest-management-at-wa-vineyard/103130558",
+          "video": null,
+          "reactKey": "vic-103130558-1",
+          "synopsis": "After introducing the birds last growing season as a trial, Castle Rock Estate is using them again this year with hopes to grow the flock.",
+          "title": {
+            "children": "Winery deploys ducks to help reduce vineyard snails and cut input costs"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2212",
+              "title": "Viticulture"
+            },
+            {
+              "id": "2296",
+              "title": "Pest Management"
+            },
+            {
+              "id": "9323806",
+              "title": "Pest Control"
             }
           ]
         }
