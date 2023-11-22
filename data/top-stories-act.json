@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103134762"
+          "uri": "coremedia://article/103134236"
         },
         {
-          "uri": "coremedia://article/103134236"
+          "uri": "coremedia://article/103134762"
         },
         {
           "uri": "coremedia://article/103134746"
@@ -111,51 +111,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [
-            "headingBigDesktop"
-          ],
-          "id": "103134762",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Bruce Lehrmann and Lisa Wilkinson.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c185c1df6960dc4276608c3a35b38b?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762"
-          },
-          "contentUri": "coremedia://article/103134762",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762",
-          "video": null,
-          "reactKey": "act-103134762-1",
-          "synopsis": "Before settling, Bruce Lehrmann was due to take on the ABC in the Federal Court in Sydney today. The former Liberal staffer's defamation action against Network Ten and journalist Lisa Wilkinson continues.",
-          "title": {
-            "children": "Bruce Lehrmann's defamation action against Lisa Wilkinson, Network Ten begins after ABC settlement"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "926",
-              "title": "Media Industry"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -163,7 +118,9 @@
               "lang": "en"
             }
           ],
-          "headingClassNames": [],
+          "headingClassNames": [
+            "headingBigDesktop"
+          ],
           "id": "103134236",
           "imagePosition": {
             "mobile": "right",
@@ -173,7 +130,7 @@
           "isMajor": false,
           "image": {
             "altText": "a man with grey hair and blue shirt stands in front of israel flag",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1f3c5d603ebb747b2e73ff873fdd1df?impolicy=wcms_crop_resize&cropH=829&cropW=1244&xPos=104&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1f3c5d603ebb747b2e73ff873fdd1df?impolicy=wcms_crop_resize&cropH=829&cropW=1244&xPos=118&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -187,7 +144,9 @@
           "title": {
             "children": "Israel and Hamas agree to Gaza ceasefire in exchange for release of some hostages"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -195,6 +154,11 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "60740",
+              "date": "2023-11-22T03:38:37.000Z",
+              "title": "Government grants hundreds of temporary visas to Palestinians in Gaza"
+            },
             {
               "id": "60735",
               "date": "2023-11-22T02:56:12.000Z",
@@ -204,11 +168,6 @@
               "id": "60732",
               "date": "2023-11-22T02:44:48.000Z",
               "title": "Hamas releases statement on hostage deal"
-            },
-            {
-              "id": "60728",
-              "date": "2023-11-22T02:25:17.000Z",
-              "title": "Official statement from the Israeli government"
             }
           ],
           "subjects": [
@@ -223,6 +182,47 @@
             {
               "id": "1556",
               "title": "Foreign Affairs"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103134762",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Bruce Lehrmann and Lisa Wilkinson.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c185c1df6960dc4276608c3a35b38b?impolicy=wcms_crop_resize&cropH=443&cropW=664&xPos=172&yPos=19&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762"
+          },
+          "contentUri": "coremedia://article/103134762",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-22/abc-settles-bruce-lehrmann-defamation-action/103134762",
+          "video": null,
+          "reactKey": "act-103134762-1",
+          "synopsis": "Before settling, Bruce Lehrmann was due to take on the ABC in the Federal Court in Sydney today. The former Liberal staffer's defamation action against Network Ten and journalist Lisa Wilkinson continues.",
+          "title": {
+            "children": "Bruce Lehrmann's defamation action against Lisa Wilkinson, Network Ten begins after ABC settlement"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "926",
+              "title": "Media Industry"
             }
           ]
         }
@@ -754,7 +754,7 @@
           "reactKey": "act-103133396-1",
           "synopsis": "The Australian Bureau of Statistics survey finds around 16 per cent of women have experienced some form of economic abuse. A leading women's advocate says it's a form of abuse that too often is flying under the radar.",
           "title": {
-            "children": "Economic abuse affects about 16 per cent of Australian women. For some, it takes years to recover"
+            "children": "Linda's relationship 'didn't feel bad enough to leave' — but she was experiencing economic abuse"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -1346,6 +1346,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "60741",
+              "date": "2023-11-22T03:40:50.000Z",
+              "title": "Binance's $US4b fine unlikely to affect Australian crypto investors, experts say"
+            },
+            {
               "id": "60736",
               "date": "2023-11-22T02:58:11.000Z",
               "title": "Long-term study shows record low economic satisfaction and growing generational divide"
@@ -1354,11 +1359,6 @@
               "id": "60722",
               "date": "2023-11-22T01:36:27.000Z",
               "title": "ASX fairly flat as more sectors gain"
-            },
-            {
-              "id": "60715",
-              "date": "2023-11-22T00:49:50.000Z",
-              "title": "Will the federal government miss its own fuel efficiency target?"
             }
           ],
           "subjects": [
