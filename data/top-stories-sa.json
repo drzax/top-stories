@@ -19,6 +19,9 @@
           "uri": "coremedia://article/103144028"
         },
         {
+          "uri": "coremedia://article/103140730"
+        },
+        {
           "uri": "coremedia://article/103147486"
         },
         {
@@ -26,9 +29,6 @@
         },
         {
           "uri": "coremedia://article/103147982"
-        },
-        {
-          "uri": "coremedia://article/103140730"
         },
         {
           "uri": "coremedia://article/103148050"
@@ -211,6 +211,51 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103140730",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An artists impression of a large energy battery storage area. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8b2a07c2b33ce5040cdd498eb7a3eaa?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-24/pacific-green-australia-launches-limes-coast-battery-park-sa/103140730"
+          },
+          "contentUri": "coremedia://article/103140730",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-24/pacific-green-australia-launches-limes-coast-battery-park-sa/103140730",
+          "video": null,
+          "reactKey": "sa-103140730-1",
+          "synopsis": "A multi-national energy company has announced plans for a renewable energy battery park near Mount Gambier which it says will reduce electricity price volatility. ",
+          "title": {
+            "children": "SA's largest battery park worth 'several hundred million dollars' slated for Limestone Coast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2360",
+              "title": "Energy"
+            },
+            {
+              "id": "1408",
+              "title": "Alternative Energy"
+            },
+            {
+              "id": "1414",
+              "title": "Solar Energy"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -325,6 +370,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "61115",
+              "date": "2023-11-24T05:25:36.000Z",
+              "title": "Media reports Israeli sirens warning of possible rocket attacks from Gaza"
+            },
+            {
               "id": "61106",
               "date": "2023-11-24T05:00:05.000Z",
               "title": "It is now 7am in Israel and Gaza, meaning the ceasefire is in effect"
@@ -333,11 +383,6 @@
               "id": "61101",
               "date": "2023-11-24T04:40:39.000Z",
               "title": "Hundreds of protesters gather across NSW as part of student strike"
-            },
-            {
-              "id": "61073",
-              "date": "2023-11-24T02:25:45.000Z",
-              "title": "Just catching up?"
             }
           ],
           "subjects": [
@@ -393,51 +438,6 @@
             {
               "id": "1574",
               "title": "World Politics"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103140730",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An artists impression of a large energy battery storage area. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8b2a07c2b33ce5040cdd498eb7a3eaa?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-24/pacific-green-australia-launches-limes-coast-battery-park-sa/103140730"
-          },
-          "contentUri": "coremedia://article/103140730",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-24/pacific-green-australia-launches-limes-coast-battery-park-sa/103140730",
-          "video": null,
-          "reactKey": "sa-103140730-1",
-          "synopsis": "A multi-national energy company has announced plans for a renewable energy battery park near Mount Gambier which it says will reduce electricity price volatility. ",
-          "title": {
-            "children": "SA's largest battery park worth 'several hundred million dollars' slated for Limestone Coast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2360",
-              "title": "Energy"
-            },
-            {
-              "id": "1408",
-              "title": "Alternative Energy"
-            },
-            {
-              "id": "1414",
-              "title": "Solar Energy"
             }
           ]
         }
@@ -834,7 +834,7 @@
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
-            "status": "live",
+            "status": "ended",
             "type": "moment",
             "countdowns": null,
             "isLiveMoment": true
