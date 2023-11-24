@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103147486"
+        },
+        {
           "uri": "coremedia://article/103143928"
         },
         {
@@ -108,11 +111,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103143928",
+          "id": "103147486",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -120,9 +129,74 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Scorched earth and trees in a park after a bushfire.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988c0c5b7b30e3c79afd544f2bf464a6?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=0&width=862&height=485",
+            "altText": "An aerial shot of a destroyed farm property",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd633cff63ed75099970b2c3109b0f8d?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-11-24/perth-bushfire-updates-live-wanneroo-fires-emergency/103147486"
+          },
+          "contentUri": "coremedia://article/103147486",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-24/perth-bushfire-updates-live-wanneroo-fires-emergency/103147486",
+          "video": null,
+          "reactKey": "wa-103147486-1",
+          "synopsis": "The bushfire emergency that has caused widespread destruction to homes and infrastructure in Perth's north-east continues as an unseasonal heatwave rolls into a fourth day. Follow live.",
+          "title": {
+            "children": "Fears more homes lost as aerial photos lay bare ferocious Perth bushfire's path of destruction"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "61080",
+              "date": "2023-11-24T03:09:38.000Z",
+              "title": "Aerial pictures show extent of damage"
+            },
+            {
+              "id": "61078",
+              "date": "2023-11-24T03:00:48.000Z",
+              "title": "The latest on the northern Perth bushfires"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "1280",
+              "title": "Bushfires"
+            },
+            {
+              "id": "1268",
+              "title": "Emergency Incidents"
+            },
+            {
+              "id": "12551200",
+              "title": "Emergency Services"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103143928",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Scorched earth and trees in a park after a bushfire.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988c0c5b7b30e3c79afd544f2bf464a6?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2023-11-24/perth-bushfire-emergency-crews-spend-second-night-battling-blaze/103143928"
@@ -133,7 +207,7 @@
           "reactKey": "wa-103143928-1",
           "synopsis": "Fire crews spend a second night battling a large bushfire in Perth's north-east, with better conditions offering some respite for residents and authorities — but a forecast wind change is raising concerns.",
           "title": {
-            "children": "'Critical' morning looms in Perth bushfire emergency with expected wind change as temperatures ease"
+            "children": "'Critical' morning for Perth bushfire emergency with likely wind change as temperatures ease"
           },
           "imageContainerClassNames": [
             "imageHalf"
