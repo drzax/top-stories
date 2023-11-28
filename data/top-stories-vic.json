@@ -91,6 +91,9 @@
           "uri": "coremedia://article/103159860"
         },
         {
+          "uri": "coremedia://article/103079646"
+        },
+        {
           "uri": "coremedia://article/103156040"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103157132"
-        },
-        {
-          "uri": "coremedia://article/103161410"
         }
       ]
     },
@@ -249,7 +249,7 @@
           "isMajor": false,
           "image": {
             "altText": "A burst of flame outside a tobacco shop.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/506b3a53ecf7732855f0985d37d17c26?impolicy=wcms_crop_resize&cropH=234&cropW=351&xPos=102&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/506b3a53ecf7732855f0985d37d17c26?impolicy=wcms_crop_resize&cropH=234&cropW=351&xPos=102&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -263,7 +263,9 @@
           "title": {
             "children": "Police release vision of vape shop arson attack in Melbourne's north-west"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2000",
@@ -1239,7 +1241,7 @@
           "reactKey": "vic-103162026-1",
           "synopsis": "The 14-year-old girl from Casino High School, who was sitting on the bus with about 20 others, sprung into action when she noticed it moving without anybody in the driver's seat, narrowly preventing what could have been a major disaster.",
           "title": {
-            "children": "Quick thinking teenage girl saves runaway bus from crashing into New South Wales petrol station"
+            "children": "Quick-thinking teenage girl saves runaway bus from crashing into New South Wales petrol station"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1299,6 +1301,51 @@
             {
               "id": "102821970",
               "title": "Weather Warnings"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103079646",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Farmer Craige Kennedy, wearing a blue collared shirt, stands with his hands on his hips in front of a header in a cereal crop",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12296286353837afd22826bbfd90b5dd?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-11-29/swan-hill-farmers-concerns-impact-vhm-goschen-mineral-sands-mine/103079646"
+          },
+          "contentUri": "coremedia://article/103079646",
+          "canonicalURL": "https://www.abc.net.au/news/2023-11-29/swan-hill-farmers-concerns-impact-vhm-goschen-mineral-sands-mine/103079646",
+          "video": null,
+          "reactKey": "vic-103079646-1",
+          "synopsis": "Farmers in the middle of harvest say they have not been given enough time to review more than 3,200 pages of technical information about a mineral sands mine proposal.",
+          "title": {
+            "children": "Farmers swamped by sand mine proposal while harvest in full swing"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2292",
+              "title": "Mining (Rural)"
+            },
+            {
+              "id": "882",
+              "title": "Mineral Sands"
+            },
+            {
+              "id": "1440",
+              "title": "Mining Environmental Issues"
             }
           ]
         }
@@ -1653,51 +1700,6 @@
             {
               "id": "12551174",
               "title": "Learning Disabilities"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103161410",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Glenelg Shire Council",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72de359b768129dfc067a24ad1ed7eb3?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-11-29/glenelg-shire-council-struggles-to-get-councillors/103161410"
-          },
-          "contentUri": "coremedia://article/103161410",
-          "canonicalURL": "https://www.abc.net.au/news/2023-11-29/glenelg-shire-council-struggles-to-get-councillors/103161410",
-          "video": null,
-          "reactKey": "vic-103161410-1",
-          "synopsis": "The embattled Glenelg Shire Council has had five resignations and four failed countbacks in the past year, but the Victorian Electoral Commission is charging ahead in an effort to fill two councillor roles in a dwindling pool of eligible candidates.",
-          "title": {
-            "children": "What happens when no-one wants a seat on a local council?"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1604",
-              "title": "Local Government"
-            },
-            {
-              "id": "13989460",
-              "title": "Political Candidates"
-            },
-            {
-              "id": "1220",
-              "title": "Community Organisations"
             }
           ]
         }
