@@ -111,7 +111,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -141,6 +147,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1616",
@@ -177,9 +190,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-11-28/tiny-pinder-perth-wildcats-lawsuit-over-sexual-assault/102958610",
           "video": null,
           "reactKey": "qld-102958610-1",
-          "synopsis": "In the early 1990s, the Perth Wildcats were the sporting kings of the city. But that rockstar status may have helped a brutal sexual predator hide in plain sight. WARNING: This story contains details of child sexual abuse.",
+          "synopsis": "In the early 1990s, the Perth Wildcats were the sporting kings of the city. But that rockstar status may have helped one of their players hide his brutal offending. WARNING: This story contains details of child sexual abuse.",
           "title": {
-            "children": "The Perth Wildcats' star basketball player who was also a brutal sex offender hiding in plain sight"
+            "children": "He was a star basketball player for the Perth Wildcats — and a brutal sex offender hiding in plain sight"
           },
           "imageContainerClassNames": [],
           "subjects": [
