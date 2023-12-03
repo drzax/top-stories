@@ -13,9 +13,6 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103177262"
-        },
-        {
           "uri": "coremedia://article/103182210"
         },
         {
@@ -23,6 +20,9 @@
         },
         {
           "uri": "coremedia://article/103174444"
+        },
+        {
+          "uri": "coremedia://article/103177262"
         },
         {
           "uri": "coremedia://article/103179568"
@@ -120,62 +120,10 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorName": "Matt Garrick"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103177262",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A bottle shop worker leaning against a wall next to a poster promoting Jack Daniels.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10cf7e0d4cdb90dede7b1ec4caf4061a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-03/nt-alcohol-policy-changes-prompt-backlash/103177262"
-          },
-          "contentUri": "coremedia://article/103177262",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/nt-alcohol-policy-changes-prompt-backlash/103177262",
-          "video": null,
-          "reactKey": "nt-103177262-1",
-          "synopsis": "The Northern Territory government is describing itself as \"dynamic and agile\" for its snap decision to tighten liquor laws. Others say NT Labor's only taking action to win an election, writes Matt Garrick.",
-          "title": {
-            "children": "Booze law backlash in Top End as NT government accused of turning police into 'political pawns'"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
-            },
-            {
-              "id": "1580",
-              "title": "State and Territory Parliament"
-            },
-            {
-              "id": "1982",
-              "title": "Crime"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103182210",
           "imagePosition": {
             "mobile": "right",
@@ -185,7 +133,7 @@
           "isMajor": false,
           "image": {
             "altText": "a red ute driving past a reduce speed sign",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/256da08bc6561c5924b7b69396c50500?impolicy=wcms_crop_resize&cropH=2404&cropW=3606&xPos=95&yPos=134&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/256da08bc6561c5924b7b69396c50500?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -199,7 +147,9 @@
           "title": {
             "children": "Boy, 15, dies in car crash on Stuart Highway, south of Darwin"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1284",
@@ -302,6 +252,56 @@
             {
               "id": "9320320",
               "title": "Communication Impact"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorName": "Matt Garrick"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103177262",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A bottle shop worker leaning against a wall next to a poster promoting Jack Daniels.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10cf7e0d4cdb90dede7b1ec4caf4061a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-03/nt-alcohol-policy-changes-prompt-backlash/103177262"
+          },
+          "contentUri": "coremedia://article/103177262",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/nt-alcohol-policy-changes-prompt-backlash/103177262",
+          "video": null,
+          "reactKey": "nt-103177262-1",
+          "synopsis": "The Northern Territory government is describing itself as \"dynamic and agile\" for its snap decision to tighten liquor laws. Others say NT Labor's only taking action to win an election, writes Matt Garrick.",
+          "title": {
+            "children": "Booze law backlash in Top End as NT government accused of turning police into 'political pawns'"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1588",
+              "title": "State and Territory Government"
+            },
+            {
+              "id": "1580",
+              "title": "State and Territory Parliament"
+            },
+            {
+              "id": "1982",
+              "title": "Crime"
             }
           ]
         }
