@@ -13,16 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103098422"
-        },
-        {
           "uri": "coremedia://article/103182692"
         },
         {
-          "uri": "coremedia://article/103108220"
+          "uri": "coremedia://article/103184240"
+        },
+        {
+          "uri": "coremedia://article/103098422"
         },
         {
           "uri": "coremedia://article/103176606"
+        },
+        {
+          "uri": "coremedia://article/103108220"
         },
         {
           "uri": "coremedia://article/103123682"
@@ -41,6 +44,9 @@
         },
         {
           "uri": "coremedia://article/103103554"
+        },
+        {
+          "uri": "coremedia://article/103152854"
         },
         {
           "uri": "coremedia://article/103183558"
@@ -101,21 +107,6 @@
         },
         {
           "uri": "coremedia://article/103176234"
-        },
-        {
-          "uri": "coremedia://article/103183142"
-        },
-        {
-          "uri": "coremedia://article/103182062"
-        },
-        {
-          "uri": "coremedia://article/103182446"
-        },
-        {
-          "uri": "coremedia://article/103103600"
-        },
-        {
-          "uri": "coremedia://article/103182708"
         }
       ]
     },
@@ -123,57 +114,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103098422",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two images put together, left side Richard in work uniform, right side Richard in a hospital gown.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e6c289fab57f1c65c47b174a3871de2?impolicy=wcms_crop_resize&cropH=1922&cropW=2883&xPos=0&yPos=26&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-04/richard-scolyer-experimental-treatment-australian-story/103098422"
-          },
-          "contentUri": "coremedia://article/103098422",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/richard-scolyer-experimental-treatment-australian-story/103098422",
-          "video": null,
-          "reactKey": "sa-103098422-1",
-          "synopsis": "Pathologist Richard Scolyer's colleagues have designed a high-stakes experiment to fight his brain tumour, using the very treatment they pioneered for melanoma.  ",
-          "title": {
-            "children": "Faced with 'certain death', pathologist Richard Scolyer is undergoing an experimental treatment"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1720",
-              "title": "Brain Tumor"
-            },
-            {
-              "id": "1670",
-              "title": "Cancer"
-            },
-            {
-              "id": "1834",
-              "title": "Medical Research"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103182692",
           "imagePosition": {
             "mobile": "right",
@@ -183,7 +134,7 @@
           "isMajor": false,
           "image": {
             "altText": "Police officers carrying a coffin.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f9e5f2af867280a68756e8f54753f03?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f9e5f2af867280a68756e8f54753f03?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -195,9 +146,18 @@
           "reactKey": "sa-103182692-1",
           "synopsis": "While today's funeral for SA Police Brevet Sergeant Jason Doig will commemorate the life of an officer shot dead in the line of duty, the premier says it will also provide an opportunity to acknowledge the risks taken by those who \"put themselves in harm's way\" to protect the community.",
           "title": {
-            "children": "'Extraordinary sacrifice' of SA police officer killed in line of duty to be commemorated at public funeral"
+            "children": "'Extraordinary sacrifice' of SA police officer killed in line of duty commemorated at public funeral"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -219,7 +179,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103108220",
+          "id": "103184240",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -227,34 +187,79 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Anna Hennessy and Aiden Marks",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb73cf249a1049a7a88a80b37a4f7892?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Two chefs smiling with food",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5b5bbd9848c8952c488b727e214bdc08?impolicy=wcms_crop_resize&cropH=459&cropW=688&xPos=0&yPos=39&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-04/busting-myths-around-autism-spectrum-disorder/103108220"
+            "to": "/news/2023-12-04/91-year-old-man-charged-with-murder-of-maria-dimasi/103184240"
           },
-          "contentUri": "coremedia://article/103108220",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/busting-myths-around-autism-spectrum-disorder/103108220",
+          "contentUri": "coremedia://article/103184240",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/91-year-old-man-charged-with-murder-of-maria-dimasi/103184240",
           "video": null,
-          "reactKey": "sa-103108220-1",
-          "synopsis": "Busting myths and stereotypes about Autism Spectrum Disorder (ASD) is important as it helps people to avoid making assumptions, write Anna Hennessy and Aiden Marks.",
+          "reactKey": "sa-103184240-1",
+          "synopsis": "A 91-year-old man has been charged with murder and refused bail after his wife was found dead at a home in Adelaide's western suburbs over the weekend.",
           "title": {
-            "children": "'You don't look autistic': The reality of Autism Spectrum Disorder"
+            "children": "91-year-old man charged over alleged murder of 'loved' nonna"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1662",
-              "title": "Autism Spectrum Disorder"
+              "id": "1982",
+              "title": "Crime"
             },
             {
-              "id": "1616",
-              "title": "Health"
+              "id": "1220",
+              "title": "Community Organisations"
             },
             {
-              "id": "1922",
-              "title": "Human Interest"
+              "id": "1212",
+              "title": "Death and Dying"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103098422",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two images put together, left side Richard in work uniform, right side Richard in a hospital gown.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e6c289fab57f1c65c47b174a3871de2?impolicy=wcms_crop_resize&cropH=1922&cropW=2883&xPos=0&yPos=26&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-04/richard-scolyer-experimental-treatment-australian-story/103098422"
+          },
+          "contentUri": "coremedia://article/103098422",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/richard-scolyer-experimental-treatment-australian-story/103098422",
+          "video": null,
+          "reactKey": "sa-103098422-1",
+          "synopsis": "Pathologist Richard Scolyer's colleagues have designed a high-stakes experiment to fight his brain tumour, using the very treatment they pioneered for melanoma.  ",
+          "title": {
+            "children": "Faced with 'certain death', pathologist Richard Scolyer is undergoing an experimental treatment"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1720",
+              "title": "Brain Tumor"
+            },
+            {
+              "id": "1670",
+              "title": "Cancer"
+            },
+            {
+              "id": "1834",
+              "title": "Medical Research"
             }
           ]
         }
@@ -300,6 +305,51 @@
             {
               "id": "13771180",
               "title": "Property Prices"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103108220",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Anna Hennessy and Aiden Marks",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb73cf249a1049a7a88a80b37a4f7892?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-04/busting-myths-around-autism-spectrum-disorder/103108220"
+          },
+          "contentUri": "coremedia://article/103108220",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/busting-myths-around-autism-spectrum-disorder/103108220",
+          "video": null,
+          "reactKey": "sa-103108220-1",
+          "synopsis": "Busting myths and stereotypes about Autism Spectrum Disorder (ASD) is important as it helps people to avoid making assumptions, write Anna Hennessy and Aiden Marks.",
+          "title": {
+            "children": "'You don't look autistic': The reality of Autism Spectrum Disorder"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1662",
+              "title": "Autism Spectrum Disorder"
+            },
+            {
+              "id": "1616",
+              "title": "Health"
+            },
+            {
+              "id": "1922",
+              "title": "Human Interest"
             }
           ]
         }
@@ -446,7 +496,7 @@
           "isMajor": false,
           "image": {
             "altText": "Smoke rises over buildings in the Gaza strip, as seen from Israel",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca095dac1510e77f551400f25a888cae?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca095dac1510e77f551400f25a888cae?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -460,7 +510,9 @@
           "title": {
             "children": "Israel expands offensive to Gaza's south, says efforts will be 'no less strength' than in north"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -503,15 +555,15 @@
           "headingClassNames": [],
           "id": "103164510",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "Couple in wedding outfits stands in the doorway ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b915955ccc35efe5a2496f6cda292c59?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b915955ccc35efe5a2496f6cda292c59?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=508&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2023-12-04/max-simensen-earshot-insights-gained-from-being-trans-man/103164510"
@@ -548,15 +600,15 @@
           "headingClassNames": [],
           "id": "103103554",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A person pouring coffee and milk into a white coffee cup to make latte art.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8738f60200fb80e08def952012d5a996?impolicy=wcms_crop_resize&cropH=2797&cropW=4196&xPos=506&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8738f60200fb80e08def952012d5a996?impolicy=wcms_crop_resize&cropH=2797&cropW=4972&xPos=28&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/everyday/plant-based-milk-popularity-in-regional-australia/103103554"
@@ -591,6 +643,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103152854",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An older woman passing a netball on an outdoor netball court. Behind her the sky is blue. She has white hair.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e2f6c915ac7349357330747319b88cd?impolicy=wcms_crop_resize&cropH=1002&cropW=1502&xPos=0&yPos=78&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-04/walking-netball-modified-sport-healthy-happy-ageing/103152854"
+          },
+          "contentUri": "coremedia://article/103152854",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/walking-netball-modified-sport-healthy-happy-ageing/103152854",
+          "video": null,
+          "reactKey": "sa-103152854-1",
+          "synopsis": "Walking netball is enabling people of all ages and abilities to get on the court. But it could also be a key to tackling loneliness, especially in regional Australia.",
+          "title": {
+            "children": "Rule changes let netballers 'never laugh so much' as they play the game they love"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2570",
+              "title": "Netball"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "1760",
+              "title": "Sports injuries"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103183558",
           "imagePosition": {
             "mobile": "right",
@@ -600,7 +697,7 @@
           "isMajor": false,
           "image": {
             "altText": "Erling Haaland looks unhinged",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ae0a237bf59f8e8d5b44d1c5e74aba3?impolicy=wcms_crop_resize&cropH=1034&cropW=1551&xPos=1523&yPos=47&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ae0a237bf59f8e8d5b44d1c5e74aba3?impolicy=wcms_crop_resize&cropH=956&cropW=1435&xPos=1570&yPos=86&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -614,7 +711,9 @@
           "title": {
             "children": "Manchester City fume as Spurs secure stunning point after controversial finish"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2694",
@@ -657,7 +756,7 @@
           "reactKey": "sa-103183616-1",
           "synopsis": "The \"unplanned demonstration\" took place as the city was celebrating the 169th anniversary of the Eureka Stockade.",
           "title": {
-            "children": "Outrage in Ballarat at white supremacists march, 15yo questioned over banned Nazi salute"
+            "children": "Outrage in Ballarat at white supremacist march, 15yo questioned over banned Nazi salute"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -700,7 +799,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-04/josh-taylor-buried-alive-sand-bribie-island-moreton-bay/103183644",
           "video": null,
           "reactKey": "sa-103183644-1",
-          "synopsis": "The 25-year-old man who was buried by sand on Bribie Island, in Queensland's Moreton Bay, on Sunday afternoon has been identified.",
+          "synopsis": "The 25-year-old man who was buried by sand on Bribie Island, in Queensland's Moreton Bay, on Saturday afternoon has been identified.",
           "title": {
             "children": "Man remains in critical condition after being buried alive in sand on Bribie Island"
           },
@@ -772,7 +871,7 @@
           "isMajor": false,
           "image": {
             "altText": "palestinian men and boys stand on a heap of rubble looking for survivors",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a65aaf72f0ac778dfb8549307df14b72?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a65aaf72f0ac778dfb8549307df14b72?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -786,7 +885,9 @@
           "title": {
             "children": "Civilians flee to south in search of safety as 'every part' of Gaza strip comes under attack"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "102064380",
@@ -968,9 +1069,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-04/daniel-john-ridgers-charged-khaylan-shane-butler-death/103183686",
           "video": null,
           "reactKey": "sa-103183686-1",
-          "synopsis": "A 25-year-old Tasmanian man is charged after allegedly causing grievous bodily harm to a baby boy by violently shaking him.",
+          "synopsis": "A 25-year-old Tasmanian man is charged with murder after allegedly causing grievous bodily harm to a baby boy by violently shaking him.",
           "title": {
-            "children": "Man charged after 10-month-old baby dies following alleged 'shaking' assault"
+            "children": "Man charged with murder after 10-month-old baby dies"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1032,19 +1133,19 @@
           },
           "liveBlogKeyEvents": [
             {
-              "id": "61916",
-              "date": "2023-12-03T23:33:36.000Z",
-              "title": "ASX jumps at open as miners surge"
+              "id": "61927",
+              "date": "2023-12-04T00:42:21.000Z",
+              "title": "Job ads post biggest non-lockdown decline in five years"
             },
             {
-              "id": "61912",
-              "date": "2023-12-03T22:42:40.000Z",
-              "title": "RBA likely to give borrowers a summer holiday interest rate reprieve"
+              "id": "61921",
+              "date": "2023-12-04T00:08:30.000Z",
+              "title": "Grattan throws water on hydrogen's use in homes and cars"
             },
             {
-              "id": "61907",
-              "date": "2023-12-03T21:47:12.000Z",
-              "title": "Markets set for Monday bounce on Wall Street's fifth week of gains"
+              "id": "61920",
+              "date": "2023-12-04T00:00:25.000Z",
+              "title": "Gold hits a record high despite broad optimism across markets"
             }
           ],
           "subjects": [
@@ -1077,7 +1178,7 @@
           "isMajor": false,
           "image": {
             "altText": "A young women with blonde hair and a pink tshirt smiles at the camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f68236cf4994f1e3490d50a40865c8d?impolicy=wcms_crop_resize&cropH=449&cropW=674&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f68236cf4994f1e3490d50a40865c8d?impolicy=wcms_crop_resize&cropH=449&cropW=674&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1091,7 +1192,9 @@
           "title": {
             "children": "'Out of step with expectations': The rules allowing insurers to discriminate on mental health grounds"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "924",
@@ -1111,15 +1214,15 @@
           "headingClassNames": [],
           "id": "103161974",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A collage of images: A microphone, and four live gigs, including a woman singing and a man sitting and playing guitar ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e4d8ce3729f1c0380482a71ffd1cbd5?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=88&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e4d8ce3729f1c0380482a71ffd1cbd5?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2023-12-04/australian-live-music-venues-struggling-closing-down/103161974"
@@ -1163,7 +1266,7 @@
           "isMajor": false,
           "image": {
             "altText": "Meran wears a purple shirt and looks at the camera with a humorous but apprehensive expression as a lady orders her pantry",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7883c47049460d1864283d408f72a9bb?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7883c47049460d1864283d408f72a9bb?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1177,7 +1280,9 @@
           "title": {
             "children": "Meran beat her clutter problem. She asks herself three key questions whenever she's at the shops"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1918",
@@ -1342,7 +1447,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man stands in camouflaged gear looking at a burnt out building.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dbbec281a0044f74dd0353dfecc15ac2?impolicy=wcms_crop_resize&cropH=3323&cropW=4985&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dbbec281a0044f74dd0353dfecc15ac2?impolicy=wcms_crop_resize&cropH=3323&cropW=4985&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1356,7 +1461,9 @@
           "title": {
             "children": "Ukraine claims surrendering soldiers were 'executed' by Russian troops"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2008",
@@ -1387,7 +1494,7 @@
           "isMajor": false,
           "image": {
             "altText": "A farmer in a blue shirt and shorts cuddles a cow around its head",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b088eb797f17805bb0d5ab75558f2492?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=300&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b088eb797f17805bb0d5ab75558f2492?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=300&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1401,7 +1508,9 @@
           "title": {
             "children": "The 'soul-destroying' situation behind Australia's shrinking dairy industry"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2280",
@@ -1477,7 +1586,7 @@
           "isMajor": false,
           "image": {
             "altText": "Leroy Johnson Performing",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15aea8e4e47741d9ee115a84272db770?impolicy=wcms_crop_resize&cropH=1600&cropW=2400&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15aea8e4e47741d9ee115a84272db770?impolicy=wcms_crop_resize&cropH=1600&cropW=2400&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1491,7 +1600,9 @@
           "title": {
             "children": "Indigenous musician performs song in Barkindji language at Sydney Youth Orchestra birthday gala"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "686",
@@ -1504,213 +1615,6 @@
             {
               "id": "706",
               "title": "Indigenous Music"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103183142",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Dozens of Chinese ships chase Philippine coast guard",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/898ba82106a1c1babc83a4a689072435?impolicy=wcms_crop_resize&cropH=2581&cropW=3872&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-03/philippines-monitor-chinese-maritime-vessels-in-whitsun-reef/103183142"
-          },
-          "contentUri": "coremedia://article/103183142",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/philippines-monitor-chinese-maritime-vessels-in-whitsun-reef/103183142",
-          "video": null,
-          "reactKey": "sa-103183142-1",
-          "synopsis": "The Philippines Coast Guard says the maritime vessels were \"scattered\" within Whitsun Reef, about 320 kilometres west of Palawan Island and more than 1,000 kilometres from China's Hainan Island.",
-          "title": {
-            "children": "Philippines coast guard says presence of more than 135 Chinese maritime vessels is 'alarming'"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1454",
-              "title": "Oceans and Reefs"
-            },
-            {
-              "id": "1236",
-              "title": "Navy"
-            },
-            {
-              "id": "928",
-              "title": "Marine Transport Industry"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103182062",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Police tape stretching from a stobie pole across a road. In the background a group of police officers are standing together",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c46b32f6cb07843c1a3fdb50dde66b8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=300&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-03/wedding-guests-struck-by-car-parafield-gardens/103182062"
-          },
-          "contentUri": "coremedia://article/103182062",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/wedding-guests-struck-by-car-parafield-gardens/103182062",
-          "video": null,
-          "reactKey": "sa-103182062-1",
-          "synopsis": "SA Police say a teenage girl was taken to hospital while two other people sustained minor injuries after they were struck by a car leaving a wedding.",
-          "title": {
-            "children": "Wedding guests injured after being struck by car in Adelaide's north"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1284",
-              "title": "Road Accidents and Incidents"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103182446",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A hand holding three tobacconist leaflets.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc13cd704780c554faa47085a653f1f5?impolicy=wcms_crop_resize&cropH=988&cropW=1482&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-03/tobacco-shop-shuts-after-cigarette-flyers-distributed/103182446"
-          },
-          "contentUri": "coremedia://article/103182446",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/tobacco-shop-shuts-after-cigarette-flyers-distributed/103182446",
-          "video": null,
-          "reactKey": "sa-103182446-1",
-          "synopsis": "After an Adelaide suburban tobacco shop was featured in flyers advertising cigarettes for less than half the normal price, health authorities launched an investigation — and the shop now appears to have shut its doors. ",
-          "title": {
-            "children": "Tobacco shop named in cigarette flyers appears to shut doors day after investigation launched"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1848",
-              "title": "Smoking"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103103600",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Simon Mallender portrait 2023-11-16 11:11:00",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3bda7e8e672781748bd5702e62ab4a9e?impolicy=wcms_crop_resize&cropH=3067&cropW=4601&xPos=368&yPos=95&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-04/soft-plastics-redcycle-program-collapse/103103600"
-          },
-          "contentUri": "coremedia://article/103103600",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-04/soft-plastics-redcycle-program-collapse/103103600",
-          "video": null,
-          "reactKey": "sa-103103600-1",
-          "synopsis": "Simon Mallender is determined not to let a single piece of recyclable soft plastic he has used make it into landfill.",
-          "title": {
-            "children": "People wanting to recycle soft plastics left with few options as REDcycle replacement delayed"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1490",
-              "title": "Recycling and Waste Management"
-            },
-            {
-              "id": "1470",
-              "title": "Environmental Impact"
-            },
-            {
-              "id": "1492",
-              "title": "Environmental Management"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103182708",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Police stand in a gymnasium covered in light debris ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8b04c15d9e9b34b1477d4014fafd164?impolicy=wcms_crop_resize&cropH=1360&cropW=2040&xPos=0&yPos=85&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-03/philippines-gym-blast-bomb-catholic-mass-marawi/103182708"
-          },
-          "contentUri": "coremedia://article/103182708",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-03/philippines-gym-blast-bomb-catholic-mass-marawi/103182708",
-          "video": null,
-          "reactKey": "sa-103182708-1",
-          "synopsis": "Islamic State militants claim responsibility for a bomb attack on a Catholic mass at a university in southern Philippines that killed at least four people and injured 50 others. ",
-          "title": {
-            "children": "Islamic State claims responsibility for deadly bomb attack on Catholic mass in Philippines"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "102810432",
-              "title": "Explosions"
             }
           ]
         }
