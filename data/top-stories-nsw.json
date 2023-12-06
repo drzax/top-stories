@@ -55,6 +55,9 @@
           "uri": "coremedia://article/103193858"
         },
         {
+          "uri": "coremedia://article/103193778"
+        },
+        {
           "uri": "coremedia://article/103190950"
         },
         {
@@ -74,9 +77,6 @@
         },
         {
           "uri": "coremedia://article/103190382"
-        },
-        {
-          "uri": "coremedia://article/103193864"
         },
         {
           "uri": "coremedia://article/103188252"
@@ -103,7 +103,7 @@
           "uri": "coremedia://article/103193806"
         },
         {
-          "uri": "coremedia://article/103193258"
+          "uri": "coremedia://article/103193864"
         }
       ]
     },
@@ -379,7 +379,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103193740",
           "imagePosition": {
@@ -405,6 +412,13 @@
             "children": "Tropical Cyclone Jasper expected to intensify to category three today as it tracks towards Queensland coast"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -700,6 +714,51 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103193778",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A Norfolk Pine decorated with dim, rather sad-looking Christmas lights.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f50201c744ce06698d3bacaea55717ff?impolicy=wcms_crop_resize&cropH=891&cropW=1336&xPos=0&yPos=103&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-06/council-gives-up-after-forster-christmas-tree-fail/103193778"
+          },
+          "contentUri": "coremedia://article/103193778",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/council-gives-up-after-forster-christmas-tree-fail/103193778",
+          "video": null,
+          "reactKey": "nsw-103193778-1",
+          "synopsis": "Forster resident Adam Fitzroy says MidCoast Council's Christmas tree decorations reminded him of a \"spider doing its business\". The council has admitted to falling short and will let the locals handle the Yuletide displays from now on.",
+          "title": {
+            "children": "Self-styled vigilante elf seizes control after council's 'absolutely pathetic' Christmas effort goes viral"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102993348",
+              "title": "Christmas"
+            },
+            {
+              "id": "1604",
+              "title": "Local Government"
+            },
+            {
+              "id": "1926",
+              "title": "Offbeat"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -742,19 +801,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62296",
+              "date": "2023-12-06T04:12:17.000Z",
+              "title": "Half-time: Canada 1 - 0 Australia"
+            },
+            {
+              "id": "62287",
+              "date": "2023-12-06T04:06:11.000Z",
+              "title": "39' GOAL CANADA"
+            },
+            {
               "id": "62258",
               "date": "2023-12-06T03:24:48.000Z",
               "title": "Kick-off!"
-            },
-            {
-              "id": "62247",
-              "date": "2023-12-06T03:07:47.000Z",
-              "title": "Pre-game ceremony begins"
-            },
-            {
-              "id": "62238",
-              "date": "2023-12-06T02:50:59.000Z",
-              "title": "Line-ups!"
             }
           ],
           "subjects": [
@@ -1040,8 +1099,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of animated astronauts stand to attention underneath a giant starship",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59ae552ccdf0ae3a38f89f34bb5dc0ca?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "altText": "A screenshot from Jumplight Odyssey, showing the destruction of a planet",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e0049acc212f1266c503a160d070825b?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -1068,43 +1127,6 @@
             {
               "id": "732",
               "title": "Interactive Games Industry"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103193864",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Sarah Snook, Bluey and Tom Hiddlestone.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/288988a009225fb1f5ba789aaeb4c3ec?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-06/critics-choice-awards-nominations-2024/103193864"
-          },
-          "contentUri": "coremedia://article/103193864",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/critics-choice-awards-nominations-2024/103193864",
-          "video": null,
-          "reactKey": "nsw-103193864-1",
-          "synopsis": "Succession's Sarah Snook and everyone's favourite blue heeler Bluey and are among the nominees for the top TV awards.",
-          "title": {
-            "children": "These are the nominees for the best TV shows of the year, according to critics"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "804",
-              "title": "Television"
             }
           ]
         }
@@ -1475,7 +1497,7 @@
           "reactKey": "nsw-103193806-1",
           "synopsis": "Queensland's workplace safety regulator has urged the increased vigilance of dive operators after the deaths of two tourists in their 70s on snorkelling trips in a matter of weeks.",
           "title": {
-            "children": "Second tourist in their 70s dies snorkelling on Great Barrier Reef within three weeks"
+            "children": "Tourism body defends safety record after death of second tourist in their 70s on Great Barrier Reef"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -1501,7 +1523,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103193258",
+          "id": "103193864",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -1509,30 +1531,26 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The female British pop group, \" Spice Girls\" perform at a sold-out Madison Square Garden.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e87a5385ff998483e2e33ee122b77258?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=96&width=862&height=485",
+            "altText": "Sarah Snook, Bluey and Tom Hiddlestone.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/288988a009225fb1f5ba789aaeb4c3ec?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2023-12-06/news-corp-settles-phone-hacking-claims/103193258"
+            "to": "/news/2023-12-06/critics-choice-awards-nominations-2024/103193864"
           },
-          "contentUri": "coremedia://article/103193258",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/news-corp-settles-phone-hacking-claims/103193258",
+          "contentUri": "coremedia://article/103193864",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/critics-choice-awards-nominations-2024/103193864",
           "video": null,
-          "reactKey": "nsw-103193258-1",
-          "synopsis": "The Sun and defunct News of the World publisher News Group Newspapers had given public apologies and paid out \"substantial damages\" to the claimants, according to their lawyers.",
+          "reactKey": "nsw-103193864-1",
+          "synopsis": "Succession's Sarah Snook and everyone's favourite blue heeler Bluey and are among the nominees for the top TV awards.",
           "title": {
-            "children": "Spice Girl, boy band star and former UK MP settle decades-old phone hacking claims"
+            "children": "These are the nominees for the best TV shows of the year, according to critics"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "926",
-              "title": "Media Industry"
-            },
-            {
-              "id": "1982",
-              "title": "Crime"
+              "id": "804",
+              "title": "Television"
             }
           ]
         }

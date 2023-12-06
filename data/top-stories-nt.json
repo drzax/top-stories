@@ -197,7 +197,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103193740",
           "imagePosition": {
@@ -223,6 +230,13 @@
             "children": "Tropical Cyclone Jasper expected to intensify to category three today as it tracks towards Queensland coast"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -885,7 +899,7 @@
           "reactKey": "nt-103193806-1",
           "synopsis": "Queensland's workplace safety regulator has urged the increased vigilance of dive operators after the deaths of two tourists in their 70s on snorkelling trips in a matter of weeks.",
           "title": {
-            "children": "Second tourist in their 70s dies snorkelling on Great Barrier Reef within three weeks"
+            "children": "Tourism body defends safety record after death of second tourist in their 70s on Great Barrier Reef"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1036,8 +1050,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of animated astronauts stand to attention underneath a giant starship",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59ae552ccdf0ae3a38f89f34bb5dc0ca?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "A screenshot from Jumplight Odyssey, showing the destruction of a planet",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e0049acc212f1266c503a160d070825b?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1485,7 +1499,7 @@
           "reactKey": "nt-103189612-1",
           "synopsis": "What is so satisfying about \"oddly satisfying\" videos on YouTube and TikTok? And who is watching them?",
           "title": {
-            "children": "Why are we so drawn to 'oddly satisfying' videos?"
+            "children": "What's an 'oddly satisfying' video and why do millions of people watch them?"
           },
           "imageContainerClassNames": [
             "imageHalf"
