@@ -204,7 +204,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103196120",
           "imagePosition": {
@@ -225,11 +232,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-06/qld-wieambilla-shooting-arrest-arizona-queensland-police/103196120",
           "video": null,
           "reactKey": "sa-103196120-1",
-          "synopsis": "A man has been arrested by the FBI in the US state of Arizona in connection to the shooting of two young police officers and a civilian neighbour in the rural Queensland community of Wieambilla last year.",
+          "synopsis": "A man has been arrested in the US state of Arizona in connection with the shooting of two young police officers and a civilian neighbour in the rural Queensland community of Wieambilla last year. Follow live.",
           "title": {
             "children": "Man arrested in Arizona over shooting of two police officers and neighbour in Wieambilla"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -652,8 +666,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two women soccer players, one wearing red and the other wearing yellow and green, run during a match",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf6a6c397dd58f384f1ea9591fd0be29?impolicy=wcms_crop_resize&cropH=1819&cropW=2729&xPos=0&yPos=20&width=862&height=575",
+            "altText": "Kyra Cooney-Cross protects the ball from Nichelle Prince on the touchline",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4f40a069a430e2a02d7819abc2e61bc4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -665,7 +679,7 @@
           "reactKey": "sa-103190950-1",
           "synopsis": "After getting thumped 5-0 on Saturday, the Matildas are hoping to end 2023 on a more positive note as they face old foes Canada in their last friendly of the year.",
           "title": {
-            "children": "Matildas face Canada in final friendly of 2023"
+            "children": "Matildas trail Canada in final friendly of 2023"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -678,6 +692,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62310",
+              "date": "2023-12-06T04:27:44.000Z",
+              "title": "Second half kick-off!"
+            },
+            {
               "id": "62296",
               "date": "2023-12-06T04:12:17.000Z",
               "title": "Half-time: Canada 1 - 0 Australia"
@@ -686,11 +705,6 @@
               "id": "62287",
               "date": "2023-12-06T04:06:11.000Z",
               "title": "39' GOAL CANADA"
-            },
-            {
-              "id": "62258",
-              "date": "2023-12-06T03:24:48.000Z",
-              "title": "Kick-off!"
             }
           ],
           "subjects": [
