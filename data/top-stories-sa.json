@@ -461,7 +461,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103194868",
           "imagePosition": {
@@ -482,11 +489,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-06/truck-bus-crash-pacific-motorway-southbound-stapylton/103194868",
           "video": null,
           "reactKey": "sa-103194868-1",
-          "synopsis": "Paramedics have assessed at least 60 people after a truck and bus collided on the Pacific Motorway at Stapylton this morning.",
+          "synopsis": "Paramedics have assessed at least 60 people after a truck and bus collided on the Pacific Motorway south of Brisbane this morning.",
           "title": {
             "children": "Sixty people assessed by paramedics, traffic backed up after truck and bus crash on Pacific Motorway"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "11161432",
@@ -570,7 +584,7 @@
           "reactKey": "sa-103194724-1",
           "synopsis": "Australia's economy barely grew over the three months to September 30, with economic output going backwards by half a per cent per person.",
           "title": {
-            "children": "Australia's per capita recession deepens as output per person shrinks over past year"
+            "children": "Economy has ‘hit the wall’ as consumer spending plunges amid interest rate, tax surge"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -910,6 +924,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62228",
+              "date": "2023-12-06T02:34:55.000Z",
+              "title": "Aussie dollar edges up as markets bet on interest rate cuts in 2024"
+            },
+            {
               "id": "62213",
               "date": "2023-12-06T02:05:57.000Z",
               "title": "Chance of another rate hike has disappeared"
@@ -918,11 +937,6 @@
               "id": "62210",
               "date": "2023-12-06T01:54:45.000Z",
               "title": "Australia's economy starting to feel the toll"
-            },
-            {
-              "id": "62209",
-              "date": "2023-12-06T01:46:46.000Z",
-              "title": "Households are under 'intense pressure' as real disposable income collapses"
             }
           ],
           "subjects": [

@@ -22,6 +22,9 @@
           "uri": "coremedia://article/103194868"
         },
         {
+          "uri": "coremedia://article/103194524"
+        },
+        {
           "uri": "coremedia://article/103193806"
         },
         {
@@ -29,6 +32,9 @@
         },
         {
           "uri": "coremedia://article/103193858"
+        },
+        {
+          "uri": "coremedia://article/103190950"
         },
         {
           "uri": "coremedia://article/103190352"
@@ -70,10 +76,10 @@
           "uri": "coremedia://article/103186220"
         },
         {
-          "uri": "coremedia://article/103192800"
+          "uri": "coremedia://article/103188252"
         },
         {
-          "uri": "coremedia://article/103190906"
+          "uri": "coremedia://article/103192800"
         },
         {
           "uri": "coremedia://article/103192898"
@@ -94,9 +100,6 @@
           "uri": "coremedia://article/103161184"
         },
         {
-          "uri": "coremedia://article/103188252"
-        },
-        {
           "uri": "coremedia://article/103189612"
         },
         {
@@ -106,7 +109,7 @@
           "uri": "coremedia://article/103193560"
         },
         {
-          "uri": "coremedia://article/103193464"
+          "uri": "coremedia://article/103190906"
         }
       ]
     },
@@ -200,7 +203,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103194868",
           "imagePosition": {
@@ -221,13 +231,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-06/truck-bus-crash-pacific-motorway-southbound-stapylton/103194868",
           "video": null,
           "reactKey": "qld-103194868-1",
-          "synopsis": "Paramedics have assessed at least 60 people after a truck and bus collided on the Pacific Motorway at Stapylton this morning.",
+          "synopsis": "Paramedics have assessed at least 60 people after a truck and bus collided on the Pacific Motorway south of Brisbane this morning.",
           "title": {
             "children": "Sixty people assessed by paramedics, traffic backed up after truck and bus crash on Pacific Motorway"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "11161432",
@@ -236,6 +253,47 @@
             {
               "id": "1284",
               "title": "Road Accidents and Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103194524",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Dreyfus, O'Neil and Giles standing at a press conference. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4275b73b87502c5386ed898ebe78b6ac?impolicy=wcms_crop_resize&cropH=5506&cropW=8259&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-06/government-refuses-to-say-preventative-number/103194524"
+          },
+          "contentUri": "coremedia://article/103194524",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/government-refuses-to-say-preventative-number/103194524",
+          "video": null,
+          "reactKey": "qld-103194524-1",
+          "synopsis": "An at-times-firey media conference marks the first time the attorney-general, immigration minister and home affairs minister have faced journalists together since the landmark High Court ruling that found indefinite detention to be illegal. ",
+          "title": {
+            "children": "Government refuses to say how many released detainees would go back to detention"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
             }
           ]
         }
@@ -367,6 +425,80 @@
             {
               "id": "1562",
               "title": "ALP"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103190950",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two women soccer players, one wearing red and the other wearing yellow and green, run during a match",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf6a6c397dd58f384f1ea9591fd0be29?impolicy=wcms_crop_resize&cropH=1819&cropW=2729&xPos=0&yPos=20&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-06/matildas-vs-canada-december-6-friendly-live-blog/103190950"
+          },
+          "contentUri": "coremedia://article/103190950",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/matildas-vs-canada-december-6-friendly-live-blog/103190950",
+          "video": null,
+          "reactKey": "qld-103190950-1",
+          "synopsis": "After getting thumped 5-0 on Saturday, the Matildas are hoping to end 2023 on a more positive note as they face old foes Canada in their last friendly of the year.",
+          "title": {
+            "children": "Matildas face Canada in final friendly of 2023"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "62231",
+              "date": "2023-12-06T02:36:36.000Z",
+              "title": "Farewell to a legend"
+            },
+            {
+              "id": "62220",
+              "date": "2023-12-06T02:25:02.000Z",
+              "title": "Pitch imperfect"
+            },
+            {
+              "id": "62214",
+              "date": "2023-12-06T02:08:35.000Z",
+              "title": "Previously, on Matildas v Canada"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2572",
+              "title": "Soccer"
+            },
+            {
+              "id": "102272974",
+              "title": "Matildas"
             }
           ]
         }
@@ -614,7 +746,7 @@
           "reactKey": "qld-103194724-1",
           "synopsis": "Australia's economy barely grew over the three months to September 30, with economic output going backwards by half a per cent per person.",
           "title": {
-            "children": "Australia's per capita recession deepens as output per person shrinks over past year"
+            "children": "Economy has ‘hit the wall’ as consumer spending plunges amid interest rate, tax surge"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -926,6 +1058,80 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103188252",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A teenage boy carrying a backpack pushes a cabinet on wheels as a younger boy walks next to him, rubble in background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/537af645ace01b09ee7a8852270b970d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-06/israel-gaza-war-live-updates-december-6/103188252"
+          },
+          "contentUri": "coremedia://article/103188252",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/israel-gaza-war-live-updates-december-6/103188252",
+          "video": null,
+          "reactKey": "qld-103188252-1",
+          "synopsis": "Israeli Prime Minister Benjamin Netanyahu accuses international human rights groups of turning a blind eye to rapes that Israel says were committed by Hamas militants during their October 7 cross-border rampage. Follow live. ",
+          "title": {
+            "children": "Israel considers flooding Gaza tunnels as organisations warn of worsening humanitarian crisis"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "62204",
+              "date": "2023-12-06T01:17:09.000Z",
+              "title": "Netanyahu accuses the international community of playing down Hamas attacks"
+            },
+            {
+              "id": "62192",
+              "date": "2023-12-06T00:13:01.000Z",
+              "title": "Israel considers flooding Gaza tunnels"
+            },
+            {
+              "id": "62178",
+              "date": "2023-12-05T21:23:37.000Z",
+              "title": "Relatives of remaining hostages label meeting with Israeli PM a 'disgrace'"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "2758",
+              "title": "Terrorism"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103192800",
@@ -964,53 +1170,6 @@
             {
               "id": "102135316",
               "title": "Infrastructure"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103190906",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "person in a wheelchair",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/545ca4eab5c1d75ceb5060ffae65977a?impolicy=wcms_crop_resize&cropH=1720&cropW=2580&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-06/boccia-interschool-sport-brisbane-primary-school-paralympic/103190906"
-          },
-          "contentUri": "coremedia://article/103190906",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/boccia-interschool-sport-brisbane-primary-school-paralympic/103190906",
-          "video": null,
-          "reactKey": "qld-103190906-1",
-          "synopsis": "A Brisbane primary school wanted more students with and without a disability to play sports together, and now they are on the lookout for more competitors from other schools.",
-          "title": {
-            "children": "'Eye on the prize': Queensland primary school calling for challengers in Paralympic sport"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1918",
-              "title": "Disabilities"
-            },
-            {
-              "id": "1300",
-              "title": "Education"
-            },
-            {
-              "id": "2478",
-              "title": "Sport"
             }
           ]
         }
@@ -1282,80 +1441,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103188252",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A teenage boy carrying a backpack pushes a cabinet on wheels as a younger boy walks next to him, rubble in background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/537af645ace01b09ee7a8852270b970d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-06/israel-gaza-war-live-updates-december-6/103188252"
-          },
-          "contentUri": "coremedia://article/103188252",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/israel-gaza-war-live-updates-december-6/103188252",
-          "video": null,
-          "reactKey": "qld-103188252-1",
-          "synopsis": "Israeli Prime Minister Benjamin Netanyahu accuses international human rights groups of turning a blind eye to rapes that Israel says were committed by Hamas militants during their October 7 cross-border rampage. Follow live. ",
-          "title": {
-            "children": "Israel considers flooding Gaza tunnels as organisations warn of worsening humanitarian crisis"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "62204",
-              "date": "2023-12-06T01:17:09.000Z",
-              "title": "Netanyahu accuses the international community of playing down Hamas attacks"
-            },
-            {
-              "id": "62192",
-              "date": "2023-12-06T00:13:01.000Z",
-              "title": "Israel considers flooding Gaza tunnels"
-            },
-            {
-              "id": "62178",
-              "date": "2023-12-05T21:23:37.000Z",
-              "title": "Relatives of remaining hostages label meeting with Israeli PM a 'disgrace'"
-            }
-          ],
-          "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "2758",
-              "title": "Terrorism"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103189612",
@@ -1488,6 +1573,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62228",
+              "date": "2023-12-06T02:34:55.000Z",
+              "title": "Aussie dollar edges up as markets bet on interest rate cuts in 2024"
+            },
+            {
               "id": "62213",
               "date": "2023-12-06T02:05:57.000Z",
               "title": "Chance of another rate hike has disappeared"
@@ -1496,11 +1586,6 @@
               "id": "62210",
               "date": "2023-12-06T01:54:45.000Z",
               "title": "Australia's economy starting to feel the toll"
-            },
-            {
-              "id": "62209",
-              "date": "2023-12-06T01:46:46.000Z",
-              "title": "Households are under 'intense pressure' as real disposable income collapses"
             }
           ],
           "subjects": [
@@ -1524,34 +1609,40 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103193464",
+          "id": "103190906",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
-            "altText": "A Canadian player contests for the ball alongside a Matildas opponent in an international women's friendly.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/13f644024afb39c261cda73335587a5b?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=126&width=862&height=485",
-            "imgRatio": "16x9"
+            "altText": "person in a wheelchair",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/545ca4eab5c1d75ceb5060ffae65977a?impolicy=wcms_crop_resize&cropH=1720&cropW=2580&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-06/football-matildas-canada-international-friendly/103193464"
+            "to": "/news/2023-12-06/boccia-interschool-sport-brisbane-primary-school-paralympic/103190906"
           },
-          "contentUri": "coremedia://article/103193464",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/football-matildas-canada-international-friendly/103193464",
+          "contentUri": "coremedia://article/103190906",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-06/boccia-interschool-sport-brisbane-primary-school-paralympic/103190906",
           "video": null,
-          "reactKey": "qld-103193464-1",
-          "synopsis": "Coming off a 5-0 thrashing, the Matildas are prepared to risk conceding goals in the second friendly with Canada, if it means nailing down their focus on building up in possession.",
+          "reactKey": "qld-103190906-1",
+          "synopsis": "A Brisbane primary school wanted more students with and without a disability to play sports together, and now they are on the lookout for more competitors from other schools.",
           "title": {
-            "children": "Matildas to change line-up, not style against Canada"
+            "children": "'Eye on the prize': Queensland primary school calling for challengers in Paralympic sport"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
-              "id": "2572",
-              "title": "Soccer"
+              "id": "1918",
+              "title": "Disabilities"
+            },
+            {
+              "id": "1300",
+              "title": "Education"
             },
             {
               "id": "2478",
