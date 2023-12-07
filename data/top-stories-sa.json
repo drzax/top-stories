@@ -309,7 +309,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103202728",
           "imagePosition": {
@@ -330,11 +337,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-08/tropical-cyclone-jasper-queensland-coast-this-weekend-weather/103202728",
           "video": null,
           "reactKey": "sa-103202728-1",
-          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast.",
+          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast. Follow live.",
           "title": {
             "children": "Tropical Cyclone Jasper continues gradual march towards north Queensland coast"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -475,7 +489,7 @@
           "reactKey": "sa-103202208-1",
           "synopsis": "Liquidators will sell reality TV star Teddy Briggs's prized Mercedes-Benz as part of their efforts to claw back more than $600,000 owed to creditors of his online business.",
           "title": {
-            "children": "Reality star's luxury car to be sold to help pay back creditors of online business"
+            "children": "Reality star's Mercedes-Benz to be sold off to help pay debts after business goes into liquidation"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -565,7 +579,7 @@
           "reactKey": "sa-103177568-1",
           "synopsis": "Antoni Gaudí's La Sagrada Família Basilica in Barcelona still has no firm completion date 140 years after construction started. This is what it's like trying to carry on the visionary's legacy.",
           "title": {
-            "children": "Work on this Gaudi masterpiece is still unfinished 140 years after it began. For some, that's the best part "
+            "children": "'An impossible dream': What it's like building Barcelona's La Sagrada Família 140 years on"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -700,7 +714,7 @@
           "reactKey": "sa-103173730-1",
           "synopsis": "If you're a regular coffee drinker, you may have experienced the dreaded caffeine withdrawal headache. It's a painful reminder that caffeine is a drug that changes your brain.",
           "title": {
-            "children": "Do you get a headache if you skip your morning coffee? It's not in your head — caffeine withdrawal is real"
+            "children": "Skipped your morning coffee? This is why you might be feeling off"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1180,6 +1194,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62565",
+              "date": "2023-12-07T22:09:22.000Z",
+              "title": "Merger talks between Woodside and Santos makes sense, corporate analyst says"
+            },
+            {
               "id": "62559",
               "date": "2023-12-07T21:30:48.000Z",
               "title": "ICYMI: Woodside and Santos confirm $80b merger talks to create oil and gas giant"
@@ -1188,11 +1207,6 @@
               "id": "62555",
               "date": "2023-12-07T20:58:50.000Z",
               "title": "Fortescue takes out full-page ads in major papers as climate messaging ramps up"
-            },
-            {
-              "id": "62554",
-              "date": "2023-12-07T20:50:44.000Z",
-              "title": "ASX likely to open lower despite Alphabet leading tech rally on Wall Street"
             }
           ],
           "subjects": [
@@ -1282,7 +1296,7 @@
           "reactKey": "sa-103203370-1",
           "synopsis": "Daily highs to soar up to 15 degrees Celsius above average for December around Sydney tomorrow, climbing well above 40C for inland suburbs and 39C in the city.",
           "title": {
-            "children": "Early summer heatwave to bake NSW in hottest weather in nearly four years"
+            "children": "Sydney and regional NSW to bake in hottest weather in nearly 4 years"
           },
           "imageContainerClassNames": [],
           "subjects": [

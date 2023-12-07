@@ -22,16 +22,16 @@
           "uri": "coremedia://article/103202728"
         },
         {
-          "uri": "coremedia://article/103201864"
-        },
-        {
-          "uri": "coremedia://article/103201728"
-        },
-        {
           "uri": "coremedia://article/103201414"
         },
         {
           "uri": "coremedia://article/103199794"
+        },
+        {
+          "uri": "coremedia://article/103201864"
+        },
+        {
+          "uri": "coremedia://article/103201728"
         },
         {
           "uri": "coremedia://article/103202208"
@@ -109,13 +109,13 @@
           "uri": "coremedia://article/103203514"
         },
         {
-          "uri": "coremedia://article/103098860"
-        },
-        {
-          "uri": "coremedia://article/103203240"
+          "uri": "coremedia://article/103199826"
         },
         {
           "uri": "coremedia://article/103204746"
+        },
+        {
+          "uri": "coremedia://article/103199128"
         }
       ]
     },
@@ -217,7 +217,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103202728",
           "imagePosition": {
@@ -238,11 +245,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-08/tropical-cyclone-jasper-queensland-coast-this-weekend-weather/103202728",
           "video": null,
           "reactKey": "tas-103202728-1",
-          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast.",
+          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast. Follow live.",
           "title": {
             "children": "Tropical Cyclone Jasper continues gradual march towards north Queensland coast"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -255,6 +269,88 @@
             {
               "id": "9320694",
               "title": "Climate Change - Disasters"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103201414",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Anna Reynolds and Louise Elliot composite thumbnail.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca770d596f713a7c040fb12f1b1f0e0a?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-07/hobart-mayor-anna-reynolds-louise-elliot-code-of-conduct-breach/103201414"
+          },
+          "contentUri": "coremedia://article/103201414",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/hobart-mayor-anna-reynolds-louise-elliot-code-of-conduct-breach/103201414",
+          "video": null,
+          "reactKey": "tas-103201414-1",
+          "synopsis": "Hobart's lord mayor is cautioned by a code of conduct panel for making \"intentional physical contact\" with a now-fellow councillor, who says the mayor would be \"gone within 24 hours\" if they were male.",
+          "title": {
+            "children": "Hobart lord mayor cautioned over code of conduct breach"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1604",
+              "title": "Local Government"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103199794",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Car on mountain road during Targa Tasmania event.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4f12cf16deb60152f6f2eee7e19f6b9?impolicy=wcms_crop_resize&cropH=439&cropW=781&xPos=0&yPos=232&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-07/tasmania-targa-postponed-until-2025/103199794"
+          },
+          "contentUri": "coremedia://article/103199794",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/tasmania-targa-postponed-until-2025/103199794",
+          "video": null,
+          "reactKey": "tas-103199794-1",
+          "synopsis": "Targa Australia has moved to postpone the Tasmanian leg of the rally for another 12 months, saying that staging the event would be an \"unachievable task\" in light of the safety changes which have to be implemented after recent event fatalities.",
+          "title": {
+            "children": "Targa Tasmania to be postponed until 2025, with new safety measures an 'unachievable task', say organisers"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2618",
+              "title": "Motor Sports"
+            },
+            {
+              "id": "2628",
+              "title": "Rallying"
+            },
+            {
+              "id": "2582",
+              "title": "Sports Organisations"
             }
           ]
         }
@@ -360,88 +456,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103201414",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anna Reynolds and Louise Elliot composite thumbnail.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca770d596f713a7c040fb12f1b1f0e0a?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-07/hobart-mayor-anna-reynolds-louise-elliot-code-of-conduct-breach/103201414"
-          },
-          "contentUri": "coremedia://article/103201414",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/hobart-mayor-anna-reynolds-louise-elliot-code-of-conduct-breach/103201414",
-          "video": null,
-          "reactKey": "tas-103201414-1",
-          "synopsis": "Hobart's lord mayor is cautioned by a code of conduct panel for making \"intentional physical contact\" with a now-fellow councillor, who says the mayor would be \"gone within 24 hours\" if they were male.",
-          "title": {
-            "children": "Hobart lord mayor cautioned over code of conduct breach"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1604",
-              "title": "Local Government"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103199794",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Car on mountain road during Targa Tasmania event.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4f12cf16deb60152f6f2eee7e19f6b9?impolicy=wcms_crop_resize&cropH=439&cropW=781&xPos=0&yPos=232&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2023-12-07/tasmania-targa-postponed-until-2025/103199794"
-          },
-          "contentUri": "coremedia://article/103199794",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/tasmania-targa-postponed-until-2025/103199794",
-          "video": null,
-          "reactKey": "tas-103199794-1",
-          "synopsis": "Targa Australia has moved to postpone the Tasmanian leg of the rally for another 12 months, saying that staging the event would be an \"unachievable task\" in light of the safety changes which have to be implemented after recent event fatalities.",
-          "title": {
-            "children": "Targa Tasmania to be postponed until 2025, with new safety measures an 'unachievable task', say organisers"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2618",
-              "title": "Motor Sports"
-            },
-            {
-              "id": "2628",
-              "title": "Rallying"
-            },
-            {
-              "id": "2582",
-              "title": "Sports Organisations"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103202208",
           "imagePosition": {
             "mobile": "right",
@@ -463,7 +477,7 @@
           "reactKey": "tas-103202208-1",
           "synopsis": "Liquidators will sell reality TV star Teddy Briggs's prized Mercedes-Benz as part of their efforts to claw back more than $600,000 owed to creditors of his online business.",
           "title": {
-            "children": "Reality star's luxury car to be sold to help pay back creditors of online business"
+            "children": "Reality star's Mercedes-Benz to be sold off to help pay debts after business goes into liquidation"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -508,7 +522,7 @@
           "reactKey": "tas-103177568-1",
           "synopsis": "Antoni Gaudí's La Sagrada Família Basilica in Barcelona still has no firm completion date 140 years after construction started. This is what it's like trying to carry on the visionary's legacy.",
           "title": {
-            "children": "Work on this Gaudi masterpiece is still unfinished 140 years after it began. For some, that's the best part "
+            "children": "'An impossible dream': What it's like building Barcelona's La Sagrada Família 140 years on"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -643,7 +657,7 @@
           "reactKey": "tas-103173730-1",
           "synopsis": "If you're a regular coffee drinker, you may have experienced the dreaded caffeine withdrawal headache. It's a painful reminder that caffeine is a drug that changes your brain.",
           "title": {
-            "children": "Do you get a headache if you skip your morning coffee? It's not in your head — caffeine withdrawal is real"
+            "children": "Skipped your morning coffee? This is why you might be feeling off"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1121,6 +1135,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62565",
+              "date": "2023-12-07T22:09:22.000Z",
+              "title": "Merger talks between Woodside and Santos makes sense, corporate analyst says"
+            },
+            {
               "id": "62559",
               "date": "2023-12-07T21:30:48.000Z",
               "title": "ICYMI: Woodside and Santos confirm $80b merger talks to create oil and gas giant"
@@ -1129,11 +1148,6 @@
               "id": "62555",
               "date": "2023-12-07T20:58:50.000Z",
               "title": "Fortescue takes out full-page ads in major papers as climate messaging ramps up"
-            },
-            {
-              "id": "62554",
-              "date": "2023-12-07T20:50:44.000Z",
-              "title": "ASX likely to open lower despite Alphabet leading tech rally on Wall Street"
             }
           ],
           "subjects": [
@@ -1268,7 +1282,7 @@
           "reactKey": "tas-103203370-1",
           "synopsis": "Daily highs to soar up to 15 degrees Celsius above average for December around Sydney tomorrow, climbing well above 40C for inland suburbs and 39C in the city.",
           "title": {
-            "children": "Early summer heatwave to bake NSW in hottest weather in nearly four years"
+            "children": "Sydney and regional NSW to bake in hottest weather in nearly 4 years"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1444,7 +1458,7 @@
           "reactKey": "tas-103189624-1",
           "synopsis": "Gaynor Williams hasn't slept much much since intruders broke into her family's Townsville home in the dead of night in November.",
           "title": {
-            "children": "When the Williams family's car was stolen, their sense of safety and security left with it"
+            "children": "'None of us feel safe': A group broke into Gaynor's home and threatened to run her over"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1601,7 +1615,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103098860",
+          "id": "103199826",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1609,71 +1623,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Silhouettes of children read and throw a ball on a peach-coloured background. Houses and upward trending arrows are also seen",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f50d7920ee54aac35d944a6e6193b237?impolicy=wcms_crop_resize&cropH=1058&cropW=1587&xPos=147&yPos=0&width=160&height=107",
+            "altText": "Bowen Yang looks into the camera wearing a gold, glittering headpiece and cap",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd3acd2651097d5331a339d5a4e249da?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-07/ndis-disability-announcement-bill-shorten-national-press-club/103098860"
+            "to": "/news/2023-12-08/dicks-musical-interview-aaron-jackson-josh-sharp/103199826"
           },
-          "contentUri": "coremedia://article/103098860",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/ndis-disability-announcement-bill-shorten-national-press-club/103098860",
+          "contentUri": "coremedia://article/103199826",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-08/dicks-musical-interview-aaron-jackson-josh-sharp/103199826",
           "video": null,
-          "reactKey": "tas-103098860-1",
-          "synopsis": "The final report from the NDIS review has made 26 recommendations and detailed close to 140 \"actions\" it says are needed to transform the scheme over the next five years. Here are the biggest takeaways.",
+          "reactKey": "tas-103199826-1",
+          "synopsis": "Irreverent, absurd and starring Bowen Yang as an extremely gay God, Dicks: The Musical is a balls-to-the-wall parody of toxic masculinity. ",
           "title": {
-            "children": "'The moment has come': The biggest changes flagged in the NDIS review"
+            "children": "An adults-only take on the classic Parent Trap plotline: Is this the most unhinged film of 2023?"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1918",
-              "title": "Disabilities"
+              "id": "524",
+              "title": "Comedy (Film)"
             },
             {
-              "id": "1616",
-              "title": "Health"
+              "id": "958",
+              "title": "LGBT"
             },
             {
-              "id": "1588",
-              "title": "State and Territory Government"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103203240",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Josh Taylor holds up a fish",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/380e8d62416f2a1dd669d3c7bb38fd5a?impolicy=wcms_crop_resize&cropH=503&cropW=754&xPos=0&yPos=125&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-07/qld-bribie-island-sand-death-josh-taylor/103203240"
-          },
-          "contentUri": "coremedia://article/103203240",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/qld-bribie-island-sand-death-josh-taylor/103203240",
-          "video": null,
-          "reactKey": "tas-103203240-1",
-          "synopsis": "Josh Taylor, 23, died in hospital five days after he was buried under more than a metre of sand on Bribie Island.",
-          "title": {
-            "children": "Man buried in sand on Bribie Island dies in hospital as police appeal for dash-cam footage"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1212",
-              "title": "Death and Dying"
+              "id": "618",
+              "title": "Music (Arts and Entertainment)"
             }
           ]
         }
@@ -1719,6 +1696,51 @@
             {
               "id": "2478",
               "title": "Sport"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103199128",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An artistic portrait of Maggie Beer, featuring a pheasant, pomegranate, flowers and leaves.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f83e9c3320038139e62e987ba64c21ec?impolicy=wcms_crop_resize&cropH=2413&cropW=4290&xPos=142&yPos=205&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-07/maggie-beer-del-kathryn-barton-national-portrait-gallery/103199128"
+          },
+          "contentUri": "coremedia://article/103199128",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/maggie-beer-del-kathryn-barton-national-portrait-gallery/103199128",
+          "video": null,
+          "reactKey": "tas-103199128-1",
+          "synopsis": "Two of Australia's most remarkable women have joined forces for a new portrait, unveiled at the National Portrait Gallery.",
+          "title": {
+            "children": "Celebrity cook Maggie Beer reveals favourite fruits and vegetables in 'absolutely psychedelic fantasy' portrait"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "772",
+              "title": "Painting"
+            },
+            {
+              "id": "782",
+              "title": "Libraries, Museums and Galleries"
+            },
+            {
+              "id": "2082",
+              "title": "Food and Cooking"
             }
           ]
         }

@@ -70,6 +70,12 @@
           "uri": "coremedia://article/103204802"
         },
         {
+          "uri": "coremedia://article/103200376"
+        },
+        {
+          "uri": "coremedia://article/103204800"
+        },
+        {
           "uri": "coremedia://article/103200968"
         },
         {
@@ -136,7 +142,7 @@
           "reactKey": "nsw-103203370-1",
           "synopsis": "Daily highs to soar up to 15 degrees Celsius above average for December around Sydney tomorrow, climbing well above 40C for inland suburbs and 39C in the city.",
           "title": {
-            "children": "Early summer heatwave to bake NSW in hottest weather in nearly four years"
+            "children": "Sydney and regional NSW to bake in hottest weather in nearly 4 years"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -348,7 +354,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103202728",
           "imagePosition": {
@@ -369,11 +382,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-08/tropical-cyclone-jasper-queensland-coast-this-weekend-weather/103202728",
           "video": null,
           "reactKey": "nsw-103202728-1",
-          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast.",
+          "synopsis": "Cyclone Jasper intensifies to a category four system, continuing its gradual march towards the north Queensland coast. Follow live.",
           "title": {
             "children": "Tropical Cyclone Jasper continues gradual march towards north Queensland coast"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -461,7 +481,7 @@
           "reactKey": "nsw-103202208-1",
           "synopsis": "Liquidators will sell reality TV star Teddy Briggs's prized Mercedes-Benz as part of their efforts to claw back more than $600,000 owed to creditors of his online business.",
           "title": {
-            "children": "Reality star's luxury car to be sold to help pay back creditors of online business"
+            "children": "Reality star's Mercedes-Benz to be sold off to help pay debts after business goes into liquidation"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -553,7 +573,7 @@
           "reactKey": "nsw-103173730-1",
           "synopsis": "If you're a regular coffee drinker, you may have experienced the dreaded caffeine withdrawal headache. It's a painful reminder that caffeine is a drug that changes your brain.",
           "title": {
-            "children": "Do you get a headache if you skip your morning coffee? It's not in your head — caffeine withdrawal is real"
+            "children": "Skipped your morning coffee? This is why you might be feeling off"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -879,7 +899,7 @@
           "reactKey": "nsw-103177568-1",
           "synopsis": "Antoni Gaudí's La Sagrada Família Basilica in Barcelona still has no firm completion date 140 years after construction started. This is what it's like trying to carry on the visionary's legacy.",
           "title": {
-            "children": "Work on this Gaudi masterpiece is still unfinished 140 years after it began. For some, that's the best part "
+            "children": "'An impossible dream': What it's like building Barcelona's La Sagrada Família 140 years on"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -986,6 +1006,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62565",
+              "date": "2023-12-07T22:09:22.000Z",
+              "title": "Merger talks between Woodside and Santos makes sense, corporate analyst says"
+            },
+            {
               "id": "62559",
               "date": "2023-12-07T21:30:48.000Z",
               "title": "ICYMI: Woodside and Santos confirm $80b merger talks to create oil and gas giant"
@@ -994,11 +1019,6 @@
               "id": "62555",
               "date": "2023-12-07T20:58:50.000Z",
               "title": "Fortescue takes out full-page ads in major papers as climate messaging ramps up"
-            },
-            {
-              "id": "62554",
-              "date": "2023-12-07T20:50:44.000Z",
-              "title": "ASX likely to open lower despite Alphabet leading tech rally on Wall Street"
             }
           ],
           "subjects": [
@@ -1013,6 +1033,92 @@
             {
               "id": "826",
               "title": "Financial Markets"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103200376",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Smiling residents hold the keys to their new homes",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56befad1060a889f5efd77bc8238e011?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-08/nt-remote-housing-gapuwiyak-aboriginal-homeland/103200376"
+          },
+          "contentUri": "coremedia://article/103200376",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-08/nt-remote-housing-gapuwiyak-aboriginal-homeland/103200376",
+          "video": null,
+          "reactKey": "nsw-103200376-1",
+          "synopsis": "The NT government is trying to convince the Commonwealth to split funding on a new round of remote public housing, this time taking in communities on traditional Aboriginal homelands.",
+          "title": {
+            "children": "As one remote housing target is met, the NT government turns its attention to Aboriginal homelands"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1608",
+              "title": "Housing Policy"
+            },
+            {
+              "id": "13493394",
+              "title": "Public Housing"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103204800",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A blonde caucasian woman holds her hand to her stomach.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a269d587fc07040c958ac3c3d41f2ebc?impolicy=wcms_crop_resize&cropH=824&cropW=1236&xPos=5&yPos=100&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-08/texas-court-allows-first-abortion-since-ban/103204800"
+          },
+          "contentUri": "coremedia://article/103204800",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-08/texas-court-allows-first-abortion-since-ban/103204800",
+          "video": null,
+          "reactKey": "nsw-103204800-1",
+          "synopsis": "A Texas judge rules that a woman with a complicated, likely non-viable pregnancy can get an abortion.",
+          "title": {
+            "children": "Texas court allows first abortion since ban"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1890",
+              "title": "Abortion"
+            },
+            {
+              "id": "1618",
+              "title": "Women's Health"
+            },
+            {
+              "id": "1894",
+              "title": "Pregnancy and Childbirth"
             }
           ]
         }
@@ -1139,7 +1245,7 @@
           "reactKey": "nsw-103189624-1",
           "synopsis": "Gaynor Williams hasn't slept much much since intruders broke into her family's Townsville home in the dead of night in November.",
           "title": {
-            "children": "When the Williams family's car was stolen, their sense of safety and security left with it"
+            "children": "'None of us feel safe': A group broke into Gaynor's home and threatened to run her over"
           },
           "imageContainerClassNames": [],
           "subjects": [
