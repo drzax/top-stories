@@ -445,8 +445,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Side-profile mid-close-up of a white man in a light blue collared shirt, walking past a big news camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c72d041650dd6e8c2ad5f01e5828e8af?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=1&width=160&height=107",
+            "altText": "Matt Wright walks while surrounded by people holding cameras and microphones outside the Darwin Local Court.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/170de40d68512be6fa93aa8d4895b3fe?impolicy=wcms_crop_resize&cropH=2462&cropW=3693&xPos=1290&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -560,7 +560,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103199330",
           "imagePosition": {
@@ -586,6 +593,13 @@
             "children": "Tropical Cyclone Jasper could intensify to category five overnight, forecast to hit north of Mackay"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -939,7 +953,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-07/simon-birmingham-leads-cross-party-delegation-to-israel/103199726",
           "video": null,
           "reactKey": "nsw-103199726-1",
-          "synopsis": "The shadow minister for home affairs will lead a cross-party delegation to Israel, meeting with Palestinian and Israeli officials. ",
+          "synopsis": "The shadow minister for foreign affairs will lead a cross-party delegation to Israel, meeting with Palestinian and Israeli officials.",
           "title": {
             "children": "Simon Birmingham to lead cross-party delegation to Israel"
           },
@@ -1087,6 +1101,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "62508",
+              "date": "2023-12-07T03:39:07.000Z",
+              "title": "Shadow minister for home affairs leads cross-party delegation to Israel"
+            },
+            {
               "id": "62420",
               "date": "2023-12-06T23:23:56.000Z",
               "title": "Major humanitarian groups unable to function in Gaza"
@@ -1095,11 +1114,6 @@
               "id": "62384",
               "date": "2023-12-06T22:00:06.000Z",
               "title": "Israel approves 'minimal' fuel entry increase for Gaza"
-            },
-            {
-              "id": "62374",
-              "date": "2023-12-06T20:33:31.000Z",
-              "title": "Israeli military says they are encircling Hamas leader's house"
             }
           ],
           "subjects": [
