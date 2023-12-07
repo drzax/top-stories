@@ -97,9 +97,6 @@
           "uri": "coremedia://article/103199118"
         },
         {
-          "uri": "coremedia://article/103200928"
-        },
-        {
           "uri": "coremedia://article/103173100"
         },
         {
@@ -247,7 +244,7 @@
           "isMajor": false,
           "image": {
             "altText": "A close up of a middle-aged man in a high-viz polo shirt and padded vest, speaking outside and gesturing with one hand",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ad605582c3a1907b4c3b56d9db72569?impolicy=wcms_crop_resize&cropH=3103&cropW=4654&xPos=346&yPos=230&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ad605582c3a1907b4c3b56d9db72569?impolicy=wcms_crop_resize&cropH=3145&cropW=4717&xPos=283&yPos=188&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -261,7 +258,9 @@
           "title": {
             "children": "Andrew Forrest calls for fossil fuel bosses' 'heads on spikes' in extraordinary outburst"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1406",
@@ -596,7 +595,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103199330",
           "imagePosition": {
@@ -622,6 +628,13 @@
             "children": "Tropical Cyclone Jasper could intensify to category five overnight, forecast to hit north of Mackay"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -854,8 +867,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Man wearing overalls in a garden.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97fb75b2f28661e1b1238bde1ff4b9aa?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "Man and woman sit on a seat in a garden.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/605c3560cf7c046d0ed1040a433de3f9?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1422,55 +1435,6 @@
             }
           ],
           "subjects": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103200928",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man looks on during a rugby match",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6db71ee862af0efb6985edf252a291f0?impolicy=wcms_crop_resize&cropH=2921&cropW=4382&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-07/mark-nawaqanitawase-wallabies-sydney-roosters-nrl/103200928"
-          },
-          "contentUri": "coremedia://article/103200928",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-07/mark-nawaqanitawase-wallabies-sydney-roosters-nrl/103200928",
-          "video": null,
-          "reactKey": "wa-103200928-1",
-          "synopsis": "Given it's been almost three decades since a top-line Wallaby without league experience switched to rugby league, Mark Nawaqanitawase's move to the Roosters is the ultimate wildcard for both codes. ",
-          "title": {
-            "children": "Wallaby flyer Mark Nawaqanitawase's move to the NRL is a link to the past and a leap into the unknown"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2486",
-              "title": "NRL"
-            },
-            {
-              "id": "2670",
-              "title": "Rugby Union"
-            },
-            {
-              "id": "2480",
-              "title": "Rugby League"
-            }
-          ]
         }
       },
       {
