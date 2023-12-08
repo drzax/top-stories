@@ -333,7 +333,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103203704",
           "imagePosition": {
@@ -359,6 +366,13 @@
             "children": "Firefighters, water bombers respond to multiple fires in SA as temperatures surpass 40 degrees "
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1280",
@@ -1394,9 +1408,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-08/asx-markets-business-live-news-december-8/103204802",
           "video": null,
           "reactKey": "nsw-103204802-1",
-          "synopsis": "The ASX is trading lower despite a tech rally on Wall Street and Santos's share price surging in response to merger talks with Woodside Energy. Meanwhile, the RBA says it will maintain its current inflation target range under its new structure. Follow live.",
+          "synopsis": "A surge in Santos shares is helping to lift the ASX higher. Meanwhile, the federal government has struck a fresh agreement with the Reserve Bank about how it conducts monetary policy. Follow live.",
           "title": {
-            "children": "Santos hits five-week high after merger talks with Woodside, RBA to keep same inflation target under new structure, ASX down"
+            "children": "Jobs market gets worse, RBA strikes new deal with government, ASX gains on Santos surge"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
