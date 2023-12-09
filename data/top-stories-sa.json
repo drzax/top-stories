@@ -91,9 +91,6 @@
           "uri": "coremedia://article/103208704"
         },
         {
-          "uri": "coremedia://article/103195412"
-        },
-        {
           "uri": "coremedia://article/103185260"
         },
         {
@@ -408,7 +405,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103207442",
           "imagePosition": {
@@ -434,6 +437,13 @@
             "children": "Queensland communities brace for possible impact as Tropical Cyclone Jasper moves closer"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -1282,53 +1292,6 @@
             {
               "id": "1588",
               "title": "State and Territory Government"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103195412",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Ayman Dhlan ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bf8d9d94749af2742337968573e850fa?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=1&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-09/desperate-scramble-to-get-australians-out-of-gaza/103195412"
-          },
-          "contentUri": "coremedia://article/103195412",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/desperate-scramble-to-get-australians-out-of-gaza/103195412",
-          "video": null,
-          "reactKey": "sa-103195412-1",
-          "synopsis": "Ayman Dhlan says he feels a responsibility to answer every message in his WhatsApp chat from people trying to get their family out of Gaza. He's still waiting for news of whether his own mother, brother and sisters have made the list.",
-          "title": {
-            "children": "How this Melbourne dad became a one-man consulate, helping Australians and their families get out of Gaza"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "102064440",
-              "title": "War"
-            },
-            {
-              "id": "964",
-              "title": "Refugees"
-            },
-            {
-              "id": "1556",
-              "title": "Foreign Affairs"
             }
           ]
         }
