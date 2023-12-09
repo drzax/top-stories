@@ -82,13 +82,13 @@
           "uri": "coremedia://article/103207224"
         },
         {
+          "uri": "coremedia://article/103177116"
+        },
+        {
           "uri": "coremedia://article/103207442"
         },
         {
           "uri": "coremedia://article/103205378"
-        },
-        {
-          "uri": "coremedia://article/103177116"
         },
         {
           "uri": "coremedia://article/103159456"
@@ -856,7 +856,7 @@
           "isMajor": false,
           "image": {
             "altText": "A lamprey with its mouth open with rows and rows of teeth",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b5dc1841e0e5ca8b36b35cfde1e69b2?impolicy=wcms_crop_resize&cropH=887&cropW=1330&xPos=73&yPos=146&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b5dc1841e0e5ca8b36b35cfde1e69b2?impolicy=wcms_crop_resize&cropH=868&cropW=1302&xPos=96&yPos=146&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -870,7 +870,9 @@
           "title": {
             "children": "SA flood flows help toothy fish travel 825km in annual migration"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2394",
@@ -1164,6 +1166,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103177116",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A child sitting in front of a TV screen, looking towards the screen.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4754f8c7b651fd5db3502e5e72bfc90f?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=105&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-09/families-left-with-no-choice-but-to-live-in-tents-in-the-bush/103177116"
+          },
+          "contentUri": "coremedia://article/103177116",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/families-left-with-no-choice-but-to-live-in-tents-in-the-bush/103177116",
+          "video": null,
+          "reactKey": "national-103177116-1",
+          "synopsis": "While their parents try their hardest to keep them safe, fed and at school, children are sleeping in tents in the dry ironbark forest of central Victoria, where the extremes of homelessness and bushfire risk are converging.",
+          "title": {
+            "children": "'I don't want to raise my kids into this': Families left with no choice but to live in tents in the bush"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1204",
+              "title": "Homelessness"
+            },
+            {
+              "id": "1280",
+              "title": "Bushfires"
+            },
+            {
+              "id": "1608",
+              "title": "Housing Policy"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103207442",
           "imagePosition": {
             "mobile": "right",
@@ -1245,51 +1292,6 @@
             {
               "id": "2282",
               "title": "Livestock Health and Welfare"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103177116",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A child sitting in front of a TV screen, looking towards the screen.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4754f8c7b651fd5db3502e5e72bfc90f?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=105&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2023-12-09/families-left-with-no-choice-but-to-live-in-tents-in-the-bush/103177116"
-          },
-          "contentUri": "coremedia://article/103177116",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/families-left-with-no-choice-but-to-live-in-tents-in-the-bush/103177116",
-          "video": null,
-          "reactKey": "national-103177116-1",
-          "synopsis": "While their parents try their hardest to keep them safe, fed and at school, children are sleeping in tents in the dry ironbark forest of central Victoria, where the extremes of homelessness and bushfire risk are converging.",
-          "title": {
-            "children": "'I don't want to raise my kids into this': Families left with no choice but to live in tents in the bush"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1204",
-              "title": "Homelessness"
-            },
-            {
-              "id": "1280",
-              "title": "Bushfires"
-            },
-            {
-              "id": "1608",
-              "title": "Housing Policy"
             }
           ]
         }
