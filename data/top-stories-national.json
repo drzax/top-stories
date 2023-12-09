@@ -28,13 +28,13 @@
           "uri": "coremedia://article/103209660"
         },
         {
+          "uri": "coremedia://article/103207442"
+        },
+        {
           "uri": "coremedia://article/103207224"
         },
         {
           "uri": "coremedia://article/103205378"
-        },
-        {
-          "uri": "coremedia://article/103207442"
         },
         {
           "uri": "coremedia://article/103206658"
@@ -308,7 +308,7 @@
           "isMajor": false,
           "image": {
             "altText": "families at Sydney Olympic Aquatic Centre swim try to avoid heatwave in new south wales",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1a303878d562170442654db5a74ba702?impolicy=wcms_crop_resize&cropH=774&cropW=1161&xPos=0&yPos=97&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1a303878d562170442654db5a74ba702?impolicy=wcms_crop_resize&cropH=774&cropW=1161&xPos=0&yPos=97&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -322,7 +322,9 @@
           "title": {
             "children": "NSW residents hit swimming spots early to cool off amid heatwave"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2762",
@@ -331,6 +333,51 @@
             {
               "id": "102821956",
               "title": "Weather Forecasts"
+            },
+            {
+              "id": "102909144",
+              "title": "Extreme Weather Events"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103207442",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Severe Tropical Cyclone Jasper, a category 4 system, is moving to the south through the northeastern Coral Sea",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/62494d85864b1770be79c66e4fdcbd76?impolicy=wcms_crop_resize&cropH=349&cropW=524&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-09/tropical-cyclone-jasper-tracking-queensland-bom-updates/103207442"
+          },
+          "contentUri": "coremedia://article/103207442",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/tropical-cyclone-jasper-tracking-queensland-bom-updates/103207442",
+          "video": null,
+          "reactKey": "national-103207442-1",
+          "synopsis": "Jasper remains a category four system but is expected to drop to a category three this evening, and further weaken to category two by late Sunday or Monday. ",
+          "title": {
+            "children": "Cyclone Jasper is 'unusually slow' but could re-intensify as it crosses the Queensland coast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1296",
+              "title": "Cyclones"
+            },
+            {
+              "id": "102273020",
+              "title": "Disaster and Emergency Response"
             },
             {
               "id": "102909144",
@@ -427,51 +474,6 @@
             {
               "id": "2282",
               "title": "Livestock Health and Welfare"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103207442",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Severe Tropical Cyclone Jasper, a category 4 system, is moving to the south through the northeastern Coral Sea",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/62494d85864b1770be79c66e4fdcbd76?impolicy=wcms_crop_resize&cropH=349&cropW=524&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-09/tropical-cyclone-jasper-tracking-queensland-bom-updates/103207442"
-          },
-          "contentUri": "coremedia://article/103207442",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/tropical-cyclone-jasper-tracking-queensland-bom-updates/103207442",
-          "video": null,
-          "reactKey": "national-103207442-1",
-          "synopsis": "Jasper remains a category four system but is expected to drop to a category three this evening, and further weaken to category two by late Sunday or Monday. ",
-          "title": {
-            "children": "Cyclone Jasper is 'unusually slow' but could re-intensify as it crosses the Queensland coast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1296",
-              "title": "Cyclones"
-            },
-            {
-              "id": "102273020",
-              "title": "Disaster and Emergency Response"
-            },
-            {
-              "id": "102909144",
-              "title": "Extreme Weather Events"
             }
           ]
         }
