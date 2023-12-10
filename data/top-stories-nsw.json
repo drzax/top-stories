@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103211112"
+        },
+        {
           "uri": "coremedia://article/103210808"
         },
         {
@@ -98,9 +101,6 @@
         },
         {
           "uri": "coremedia://article/103208046"
-        },
-        {
-          "uri": "coremedia://article/103192128"
         }
       ]
     },
@@ -108,10 +108,63 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103211112",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A middle-aged woman in a suit speaks behind a lectern in Queensland's Parliament House.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c617f26e66e4627e6c1bb5d19ce0b7c7?impolicy=wcms_crop_resize&cropH=2893&cropW=4340&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-10/annastacia-palaszczuk-resigning-as-queensland-premier/103211112"
+          },
+          "contentUri": "coremedia://article/103211112",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-10/annastacia-palaszczuk-resigning-as-queensland-premier/103211112",
+          "video": null,
+          "reactKey": "nsw-103211112-1",
+          "synopsis": "Queensland Premier Annastacia Palaszczuk says she will resign as premier at the end of the week, and will leave parliament at the end of the year. Follow live. ",
+          "title": {
+            "children": "Annastacia Palaszczuk is retiring as Queensland premier"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "62910",
+              "date": "2023-12-10T01:32:23.000Z",
+              "title": "Annastacia Palaszczuk to finish up as premier at the end of the week"
+            }
+          ],
+          "subjects": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103210808",
           "imagePosition": {
             "mobile": "right",
@@ -121,7 +174,7 @@
           "isMajor": false,
           "image": {
             "altText": "A sticker that reads 'SOLD' on a real estate sign outside a property.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a74b3b7c0cfb2e7a435ffcc508b7ea0e?impolicy=wcms_crop_resize&cropH=3075&cropW=4613&xPos=173&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a74b3b7c0cfb2e7a435ffcc508b7ea0e?impolicy=wcms_crop_resize&cropH=2732&cropW=4098&xPos=677&yPos=60&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -135,9 +188,7 @@
           "title": {
             "children": "Foreign investors to be slapped with huge penalties for leaving homes vacant"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1546",
@@ -1390,51 +1441,6 @@
             {
               "id": "1446",
               "title": "Rivers"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103192128",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Gangsta Granny 2",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1aa3527447896533060f8c64787118b?impolicy=wcms_crop_resize&cropH=582&cropW=873&xPos=0&yPos=99&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-09/gangsta-granny-viral-on-tiktok/103192128"
-          },
-          "contentUri": "coremedia://article/103192128",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-09/gangsta-granny-viral-on-tiktok/103192128",
-          "video": null,
-          "reactKey": "nsw-103192128-1",
-          "synopsis": "Gangsta Granny now has more than 1.7 million followers on TikTok, making her one of Australia's \"mega influencers\".",
-          "title": {
-            "children": "When Judy's grandson told her she'd gone viral, she thought she'd made people sick"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "44536",
-              "title": "Social Media"
-            },
-            {
-              "id": "1806",
-              "title": "Older People"
-            },
-            {
-              "id": "778",
-              "title": "Comedy (Humour)"
             }
           ]
         }
