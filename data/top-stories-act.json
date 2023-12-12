@@ -25,25 +25,28 @@
           "uri": "coremedia://article/103194892"
         },
         {
+          "uri": "coremedia://article/103213800"
+        },
+        {
           "uri": "coremedia://article/103216764"
         },
         {
           "uri": "coremedia://article/103217814"
         },
         {
-          "uri": "coremedia://article/103217840"
-        },
-        {
-          "uri": "coremedia://article/103219040"
-        },
-        {
-          "uri": "coremedia://article/103218264"
+          "uri": "coremedia://article/103217270"
         },
         {
           "uri": "coremedia://article/103059696"
         },
         {
-          "uri": "coremedia://article/103212652"
+          "uri": "coremedia://article/103219040"
+        },
+        {
+          "uri": "coremedia://article/103217840"
+        },
+        {
+          "uri": "coremedia://article/103218264"
         },
         {
           "uri": "coremedia://article/103218140"
@@ -53,6 +56,9 @@
         },
         {
           "uri": "coremedia://article/103216730"
+        },
+        {
+          "uri": "coremedia://article/103212652"
         },
         {
           "uri": "coremedia://article/103218822"
@@ -67,7 +73,7 @@
           "uri": "coremedia://article/103214566"
         },
         {
-          "uri": "coremedia://article/103217270"
+          "uri": "coremedia://article/103213974"
         },
         {
           "uri": "coremedia://article/103217640"
@@ -88,22 +94,16 @@
           "uri": "coremedia://article/103218728"
         },
         {
-          "uri": "coremedia://article/103217428"
-        },
-        {
-          "uri": "coremedia://article/103217254"
+          "uri": "coremedia://article/103217110"
         },
         {
           "uri": "coremedia://article/103217710"
         },
         {
-          "uri": "coremedia://article/103214876"
-        },
-        {
-          "uri": "coremedia://article/103217502"
-        },
-        {
           "uri": "coremedia://article/103218174"
+        },
+        {
+          "uri": "coremedia://article/103217656"
         },
         {
           "uri": "coremedia://article/103217232"
@@ -193,7 +193,7 @@
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
-            "status": "pending",
+            "status": "live",
             "type": "moment",
             "countdowns": null,
             "isLiveMoment": true
@@ -225,7 +225,7 @@
           "isMajor": false,
           "image": {
             "altText": "Street sign reading Alfred Hill Drive. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4327b131ba6186dbd59695cd486258fb?impolicy=wcms_crop_resize&cropH=1031&cropW=1547&xPos=143&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4327b131ba6186dbd59695cd486258fb?impolicy=wcms_crop_resize&cropH=1031&cropW=1547&xPos=143&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -239,9 +239,7 @@
           "title": {
             "children": "Mother of Canberra woman murdered by partner tells court every day she wakes to the realisation her daughter is dead"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2018",
@@ -297,6 +295,51 @@
             {
               "id": "1468",
               "title": "Water Management"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103213800",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A map showing a cyclone off the north-east coast of Australia.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3bb385a5ccc9c7f66310159ae6318a89?impolicy=wcms_crop_resize&cropH=945&cropW=1418&xPos=210&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-12/what-is-controlling-the-path-of-tropical-cyclone-jasper/103213800"
+          },
+          "contentUri": "coremedia://article/103213800",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/what-is-controlling-the-path-of-tropical-cyclone-jasper/103213800",
+          "video": null,
+          "reactKey": "act-103213800-1",
+          "synopsis": "Tropical Cyclone Jasper is expected to cross the Queensland coast within 24 hours, but there is a \"cone of uncertainty\" as to where it will make landfall, the Bureau of Meteorology says.",
+          "title": {
+            "children": "What is controlling Tropical Cyclone Jasper's path?"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102909144",
+              "title": "Extreme Weather Events"
+            },
+            {
+              "id": "102821956",
+              "title": "Weather Forecasts"
+            },
+            {
+              "id": "1296",
+              "title": "Cyclones"
             }
           ]
         }
@@ -423,9 +466,16 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103217840",
+          "id": "103217270",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -433,115 +483,43 @@
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ae8f72010c091ab5561b21c7ccad5c5?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "altText": "The wing of light plane that crashed at Lilydale, near Grafton is visible behind an emergency vehicle.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ca2ce8e0058509c5b93274a8043f4a7?impolicy=wcms_crop_resize&cropH=544&cropW=816&xPos=28&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-12/nsw-sydney-grose-vale-house-fire/103217840"
+            "to": "/news/2023-12-12/plane-crash-near-grafton/103217270"
           },
-          "contentUri": "coremedia://article/103217840",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/nsw-sydney-grose-vale-house-fire/103217840",
+          "contentUri": "coremedia://article/103217270",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/plane-crash-near-grafton/103217270",
           "video": null,
-          "reactKey": "act-103217840-1",
-          "synopsis": "The 51-year-old on-call firefighter was among the first crews responding to the Grose Vale house, which became engulfed in flames, just before 8am.",
+          "reactKey": "act-103217270-1",
+          "synopsis": "Police say the crash at Lilydale north west of Grafton in northern NSW was reported around 9am. It is believed the plane may have flown into powerlines.  ",
           "title": {
-            "children": "Firefighter dies after being hit by falling beam during Airbnb house blaze north-west of Sydney"
+            "children": "Witnesses being offered support after two die in light plane crash in northern NSW"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Lilydale plane crash press conference",
+                "showTime": 300,
+                "time": "2023-12-12T04:30:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
-              "id": "1276",
-              "title": "House Fires"
-            },
-            {
-              "id": "1252",
-              "title": "Fires"
+              "id": "102273020",
+              "title": "Disaster and Emergency Response"
             },
             {
               "id": "1268",
               "title": "Emergency Incidents"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103219040",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Crash investigators at scene of a car crash into a medical centre.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/410161b041a4f46fa115ee11638789a6?impolicy=wcms_crop_resize&cropH=590&cropW=885&xPos=91&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-12/tas-car-crashes-into-kingborough-medical-centre/103219040"
-          },
-          "contentUri": "coremedia://article/103219040",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/tas-car-crashes-into-kingborough-medical-centre/103219040",
-          "video": null,
-          "reactKey": "act-103219040-1",
-          "synopsis": "A person has been injured after a car crashed into a medical centre at Kingston, south of Hobart.",
-          "title": {
-            "children": "Car crashes into Tasmanian medical centre, injures one person"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1284",
-              "title": "Road Accidents and Incidents"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103218264",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Mark Dreyfus, Clare O'Neil and Andrew Giles press conference.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fe23bba471b231f2ad9be25db2e1373?impolicy=wcms_crop_resize&cropH=4764&cropW=7146&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-12/board-announced-to-manage-released-detainees/103218264"
-          },
-          "contentUri": "coremedia://article/103218264",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/board-announced-to-manage-released-detainees/103218264",
-          "video": null,
-          "reactKey": "act-103218264-1",
-          "synopsis": "The government has assembled a board of officials to manage the detainees released by the High Court's decision ruling indefinite detention to be illegal. ",
-          "title": {
-            "children": "Government assembles board to manage detainees released by High Court decision"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "962",
-              "title": "Immigration"
             }
           ]
         }
@@ -596,7 +574,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103212652",
+          "id": "103219040",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -604,34 +582,115 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a girl holding a mobile phone",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/22d0afcce2f6ecac3f65140d0a11ae87?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Crash investigators at scene of a car crash into a medical centre.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/410161b041a4f46fa115ee11638789a6?impolicy=wcms_crop_resize&cropH=590&cropW=885&xPos=91&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-12/influencers-and-businesses-found-posting-misleading-content/103212652"
+            "to": "/news/2023-12-12/tas-car-crashes-into-kingborough-medical-centre/103219040"
           },
-          "contentUri": "coremedia://article/103212652",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/influencers-and-businesses-found-posting-misleading-content/103212652",
+          "contentUri": "coremedia://article/103219040",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/tas-car-crashes-into-kingborough-medical-centre/103219040",
           "video": null,
-          "reactKey": "act-103212652-1",
-          "synopsis": "Of the influencers reviewed, the ACCC said 81 per cent were found to have posted something \"that raised concerns\" — one of the most identified issues being influencers not disclosing brand sponsorships or paid partnerships.",
+          "reactKey": "act-103219040-1",
+          "synopsis": "A person has been injured after a car crashed into a medical centre at Kingston, south of Hobart.",
           "title": {
-            "children": "ACCC reviews more than 100 online influencers in social media crackdown "
+            "children": "Car crashes into Tasmanian medical centre, injures one person"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "44536",
-              "title": "Social Media"
+              "id": "1284",
+              "title": "Road Accidents and Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103217840",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ae8f72010c091ab5561b21c7ccad5c5?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-12/nsw-sydney-grose-vale-house-fire/103217840"
+          },
+          "contentUri": "coremedia://article/103217840",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/nsw-sydney-grose-vale-house-fire/103217840",
+          "video": null,
+          "reactKey": "act-103217840-1",
+          "synopsis": "The 51-year-old on-call firefighter was among the first crews responding to the Grose Vale house, which became engulfed in flames, just before 8am.",
+          "title": {
+            "children": "Firefighter dies after being hit by falling beam during Airbnb house blaze north-west of Sydney"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1276",
+              "title": "House Fires"
             },
             {
-              "id": "11176832",
-              "title": "Influencers"
+              "id": "1252",
+              "title": "Fires"
             },
             {
-              "id": "1958",
-              "title": "Advertising (Information and Communication)"
+              "id": "1268",
+              "title": "Emergency Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103218264",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Mark Dreyfus, Clare O'Neil and Andrew Giles press conference.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fe23bba471b231f2ad9be25db2e1373?impolicy=wcms_crop_resize&cropH=4764&cropW=7146&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-12/board-announced-to-manage-released-detainees/103218264"
+          },
+          "contentUri": "coremedia://article/103218264",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/board-announced-to-manage-released-detainees/103218264",
+          "video": null,
+          "reactKey": "act-103218264-1",
+          "synopsis": "The government has assembled a board of officials to manage the detainees released by the High Court's decision ruling indefinite detention to be illegal. ",
+          "title": {
+            "children": "Government assembles board to manage detainees released by High Court decision"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "962",
+              "title": "Immigration"
             }
           ]
         }
@@ -643,15 +702,15 @@
           "headingClassNames": [],
           "id": "103218140",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "the corner of a building hangs of its edge a wifeshot with rubble down below ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/815a406303c770bbf6caa22f75ef9341?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=50&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/815a406303c770bbf6caa22f75ef9341?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2023-12-12/bronx-building-collapse-partial-violations-recorded/103218140"
@@ -664,7 +723,9 @@
           "title": {
             "children": "Firefighters scour rubble for trapped tenants after partial building collapse in New York City"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1246",
@@ -801,6 +862,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103212652",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a girl holding a mobile phone",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/22d0afcce2f6ecac3f65140d0a11ae87?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-12/influencers-and-businesses-found-posting-misleading-content/103212652"
+          },
+          "contentUri": "coremedia://article/103212652",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/influencers-and-businesses-found-posting-misleading-content/103212652",
+          "video": null,
+          "reactKey": "act-103212652-1",
+          "synopsis": "Of the influencers reviewed, the ACCC said 81 per cent were found to have posted something \"that raised concerns\" — one of the most identified issues being influencers not disclosing brand sponsorships or paid partnerships.",
+          "title": {
+            "children": "ACCC reviews more than 100 online influencers in social media crackdown "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "44536",
+              "title": "Social Media"
+            },
+            {
+              "id": "11176832",
+              "title": "Influencers"
+            },
+            {
+              "id": "1958",
+              "title": "Advertising (Information and Communication)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103218822",
           "imagePosition": {
             "mobile": "right",
@@ -899,15 +1005,15 @@
           "headingClassNames": [],
           "id": "103213708",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A composite image of Sarah Snook in Succession, Margot Robbie as Barbie and Cillian Murphy in Oppenheimer.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/199ef23849445aa5192db76f3db49ea2?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/199ef23849445aa5192db76f3db49ea2?impolicy=wcms_crop_resize&cropH=540&cropW=960&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2023-12-12/golden-globes-2024-nominations-list-margot-robbie-sarah-snook/103213708"
@@ -920,9 +1026,7 @@
           "title": {
             "children": "Here are all the nominations for the Golden Globes — plus we unpack the biggest snubs and surprises"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "494",
@@ -987,16 +1091,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "103217270",
+          "id": "103213974",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1004,43 +1101,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The wing of light plane that crashed at Lilydale, near Grafton is visible behind an emergency vehicle.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ca2ce8e0058509c5b93274a8043f4a7?impolicy=wcms_crop_resize&cropH=544&cropW=816&xPos=28&yPos=0&width=160&height=107",
+            "altText": "Sydney Mardi Gras",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3f0873656f51cddef7d0095fd6949a74?impolicy=wcms_crop_resize&cropH=1950&cropW=2915&xPos=42&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-12/plane-crash-near-grafton/103217270"
+            "to": "/news/2023-12-12/mardi-gras-agm-police/103213974"
           },
-          "contentUri": "coremedia://article/103217270",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/plane-crash-near-grafton/103217270",
+          "contentUri": "coremedia://article/103213974",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/mardi-gras-agm-police/103213974",
           "video": null,
-          "reactKey": "act-103217270-1",
-          "synopsis": "Police say the crash at Lilydale north west of Grafton in northern NSW was reported around 9am. It is believed the plane may have flown into powerlines.  ",
+          "reactKey": "act-103213974-1",
+          "synopsis": "Members of the Sydney Gay and Lesbian Mardi Gras have voted to cancel a deal with police to conduct 'public decency inspections' on those marching in the annual pride parade.",
           "title": {
-            "children": "Witnesses being offered support after two die in light plane crash in northern NSW"
+            "children": "Mardi Gras members vote to cancel police 'decency checks' at parade"
           },
           "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "moment",
-            "countdowns": [
-              {
-                "title": "Lilydale plane crash press conference",
-                "showTime": 300,
-                "time": "2023-12-12T04:30:00.000Z"
-              }
-            ],
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
           "subjects": [
             {
-              "id": "102273020",
-              "title": "Disaster and Emergency Response"
+              "id": "958",
+              "title": "LGBT"
             },
             {
-              "id": "1268",
-              "title": "Emergency Incidents"
+              "id": "1978",
+              "title": "Police"
             }
           ]
         }
@@ -1264,15 +1348,15 @@
           "headingClassNames": [],
           "id": "103218728",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "A young man with short brown hair in a check tshirt and jeans, sitting perched on a fence in a paddock. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f2d38f695c56cda1e0320a853e32868c?impolicy=wcms_crop_resize&cropH=853&cropW=1516&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f2d38f695c56cda1e0320a853e32868c?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=103&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/heywire/heywire-2024-winners-launch-article/103138388"
@@ -1285,7 +1369,9 @@
           "title": {
             "children": "Heywire winner tells of fear — then relief — when he came out as transgender in a small town"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": []
         }
       },
@@ -1294,7 +1380,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103217428",
+          "id": "103217110",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1302,79 +1388,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Joe Biden puts his arm around Zelenskyy on a previous visit ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46a0442f0406dbbddbfb1ba56ebc6ba8?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=1&width=160&height=107",
+            "altText": "A blonde caucasian woman holds her hand to her stomach.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a269d587fc07040c958ac3c3d41f2ebc?impolicy=wcms_crop_resize&cropH=824&cropW=1236&xPos=5&yPos=100&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-12/zelenskyy-says-funding-for-ukraine-critical-to-us-security/103217428"
+            "to": "/news/2023-12-12/texas-woman-to-leave-state-for-emergency-abortion/103217110"
           },
-          "contentUri": "coremedia://article/103217428",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/zelenskyy-says-funding-for-ukraine-critical-to-us-security/103217428",
+          "contentUri": "coremedia://article/103217110",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/texas-woman-to-leave-state-for-emergency-abortion/103217110",
           "video": null,
-          "reactKey": "act-103217428-1",
-          "synopsis": "The Ukrainian president is meeting with his US counterpart as part of a last-minute push to convince American politicians to pass a bill to fund Kyiv's war effort. ",
+          "reactKey": "act-103217110-1",
+          "synopsis": "Kate Cox, a woman who had asked a court for an exception to get an emergency abortion, will leave Texas to receive care while the US state's highest court considers her case.",
           "title": {
-            "children": "Zelenskyy visits Washington, says funding for Ukraine critical to US security"
+            "children": "Texas woman to leave state for emergency abortion following Supreme Court appeal"
           },
           "imageContainerClassNames": [],
           "subjects": [
+            {
+              "id": "1890",
+              "title": "Abortion"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
             {
               "id": "1574",
               "title": "World Politics"
-            },
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "102064380",
-              "title": "Armed Conflict"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103217254",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Ellie Carpenter has the ball between her legs with Lauren Hemp running behind her",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e372cc9d6386bd095fd7f9d9b871528c?impolicy=wcms_crop_resize&cropH=2563&cropW=3845&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-12/fifa-fifpro-report-women-world-cup-players-targeted-online-abuse/103217254"
-          },
-          "contentUri": "coremedia://article/103217254",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/fifa-fifpro-report-women-world-cup-players-targeted-online-abuse/103217254",
-          "video": null,
-          "reactKey": "act-103217254-1",
-          "synopsis": "Over 5 million posts were analysed using a new AI-powered filtering tool, revealing one in five World Cup players received \"discriminatory, abusive or threatening messaging\".",
-          "title": {
-            "children": "1 in 5 Women's World Cup players targeted by online abuse during tournament, report finds"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "2572",
-              "title": "Soccer"
-            },
-            {
-              "id": "102271688",
-              "title": "Australia Soccer"
             }
           ]
         }
@@ -1425,102 +1466,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/90cafbb72bdbbd27ff7018c769df1c23?impolicy=wcms_crop_resize&cropH=263&cropW=263&xPos=0&yPos=10&width=160&height=160",
-              "authorName": "Nassim Khadem"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103214876",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Aerial shot of dozens of houses in neat rows in a new outer-suburban housing estate.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64b96bb41395ca9301d3256473514489?impolicy=wcms_crop_resize&cropH=1754&cropW=2631&xPos=245&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-12/immigration-house-prices-jobs-economic-growth-migration-review/103214876"
-          },
-          "contentUri": "coremedia://article/103214876",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/immigration-house-prices-jobs-economic-growth-migration-review/103214876",
-          "video": null,
-          "reactKey": "act-103214876-1",
-          "synopsis": "It is not surprising that a population surge that's contributing to higher rents and house prices has created heated political debate. Cutting net migration might help ease pressure, writes Nassim Khadem. ",
-          "title": {
-            "children": "Do migrants push up house prices and compete for jobs, or pay economic dividends?"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "808",
-              "title": "Business, Economics and Finance"
-            },
-            {
-              "id": "10962512",
-              "title": "Immigration Policy"
-            },
-            {
-              "id": "962",
-              "title": "Immigration"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103217502",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Abattoir staff in white hard hats, grey overalls and blue aprons process meat hanging from the roof of a large room",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/94543352396b84252ef3fc02af0dddc3?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=300&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-12/china-lifts-restrictions-on-australian-abattoirs/103217502"
-          },
-          "contentUri": "coremedia://article/103217502",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/china-lifts-restrictions-on-australian-abattoirs/103217502",
-          "video": null,
-          "reactKey": "act-103217502-1",
-          "synopsis": "Analysts say the protracted bans were part of a campaign of economic punishment conducted by China against Australia due to political tensions.",
-          "title": {
-            "children": "China lifts restrictions on Australian abattoirs as trade tensions ease"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "814",
-              "title": "Trade"
-            },
-            {
-              "id": "2250",
-              "title": "Food Processing"
-            },
-            {
-              "id": "2284",
-              "title": "Beef Cattle"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103218174",
@@ -1559,6 +1504,47 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103217656",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An excavator on a mine with many people standing around. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/389d56fad2e665c6c3dec1ca3f507452?impolicy=wcms_crop_resize&cropH=2581&cropW=3872&xPos=0&yPos=5&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-12/death-toll-expected-to-rise-at-zambia-mine-11-bodies-recovered/103217656"
+          },
+          "contentUri": "coremedia://article/103217656",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-12/death-toll-expected-to-rise-at-zambia-mine-11-bodies-recovered/103217656",
+          "video": null,
+          "reactKey": "act-103217656-1",
+          "synopsis": "The bodies of eleven informal miners have been retrieved from an open-pit copper mine in Zambia where landslides buried them last month.",
+          "title": {
+            "children": "Death toll expected to rise at Zambia mine where more than 11 bodies recovered after landslides"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1246",
+              "title": "Disasters, Accidents and Emergency Incidents"
+            },
+            {
+              "id": "1290",
+              "title": "Workplace Accidents and Incidents"
             }
           ]
         }
