@@ -22,7 +22,7 @@
           "uri": "coremedia://article/103196032"
         },
         {
-          "uri": "coremedia://article/103220130"
+          "uri": "coremedia://article/103226492"
         },
         {
           "uri": "coremedia://article/103221738"
@@ -64,7 +64,16 @@
           "uri": "coremedia://article/103194692"
         },
         {
+          "uri": "coremedia://article/103199202"
+        },
+        {
+          "uri": "coremedia://article/103226564"
+        },
+        {
           "uri": "coremedia://article/103226594"
+        },
+        {
+          "uri": "coremedia://article/103226148"
         },
         {
           "uri": "coremedia://article/103215606"
@@ -85,13 +94,7 @@
           "uri": "coremedia://article/103183896"
         },
         {
-          "uri": "coremedia://article/103226148"
-        },
-        {
           "uri": "coremedia://article/103224376"
-        },
-        {
-          "uri": "coremedia://article/103226564"
         },
         {
           "uri": "coremedia://article/103226538"
@@ -103,10 +106,7 @@
           "uri": "coremedia://article/103222730"
         },
         {
-          "uri": "coremedia://article/103223120"
-        },
-        {
-          "uri": "coremedia://article/103225786"
+          "uri": "coremedia://article/103199230"
         }
       ]
     },
@@ -248,40 +248,63 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103220130",
+          "id": "103226492",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
-            "altText": "Large wave.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5604a3ca171c9da62b36a2dbff36f389?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "altText": "a group of people take to fallen branches blocking a road with a chainsaw",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae648c753f6292ad1441d4f212a3b2a7?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=352&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2023-12-13/qld-tropical-cyclone-jasper-weather-pattern-warning-bom/103220130"
+            "to": "/news/2023-12-14/tropical-cyclone-jasper-live-updates-tropical-low-clean-up/103226492"
           },
-          "contentUri": "coremedia://article/103220130",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-13/qld-tropical-cyclone-jasper-weather-pattern-warning-bom/103220130",
+          "contentUri": "coremedia://article/103226492",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/tropical-cyclone-jasper-live-updates-tropical-low-clean-up/103226492",
           "video": null,
-          "reactKey": "act-103220130-1",
-          "synopsis": "Tropical Cyclone Jasper has made landfall, bringing large swells, storms and the risk of life-threatening flash flooding. ",
+          "reactKey": "act-103226492-1",
+          "synopsis": "The system has been slowly tracking inland with concerns it could re-intensify as it moves towards the Gulf of Carpentaria over the weekend. Follow live.",
           "title": {
-            "children": "Tropical Cyclone Jasper crosses the coast north of Cairns"
+            "children": "Far North Queenslanders begin to assess the damage as ex-Tropical Cyclone Jasper tracks inland"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "63436",
+              "date": "2023-12-13T20:09:08.000Z",
+              "title": "Eighteen people safe after swift water rescue in Mossman"
+            }
+          ],
           "subjects": [
             {
               "id": "1296",
               "title": "Cyclones"
             },
             {
-              "id": "2762",
-              "title": "Weather"
+              "id": "102821970",
+              "title": "Weather Warnings"
+            },
+            {
+              "id": "102909144",
+              "title": "Extreme Weather Events"
             }
           ]
         }
@@ -345,7 +368,7 @@
           "isMajor": false,
           "image": {
             "altText": "Hazem Sabwai with his son Kareem in Gaza.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d3895c6cef9c4a9ed7efb1e5e5854b?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=111&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d3895c6cef9c4a9ed7efb1e5e5854b?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=111&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -359,7 +382,9 @@
           "title": {
             "children": "Hazem Sabwai says he either makes 'the list' to cross the Rafah border out of Gaza, or dies"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "102064380",
@@ -682,7 +707,7 @@
           "reactKey": "act-103224344-1",
           "synopsis": "Kathleen Folbigg is expected to learn today whether her convictions will be overturned by the Court of Criminal Appeal.",
           "title": {
-            "children": "Court expected to decide whether to overturn Kathleen Folbigg's convictions"
+            "children": "Once labelled Australia's worst female serial killer, Kathleen Folbigg is expected to learn fate today"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -888,6 +913,88 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103199202",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Travis McElroy and his wife Noeleen McKeag outside their home",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b6bb014ec13dd5d2a54a159eed0080e?impolicy=wcms_crop_resize&cropH=1176&cropW=1764&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-14/christmas-build-new-home-delays-burbank-homes/103199202"
+          },
+          "contentUri": "coremedia://article/103199202",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/christmas-build-new-home-delays-burbank-homes/103199202",
+          "video": null,
+          "reactKey": "act-103199202-1",
+          "synopsis": "Delays in the housing construction industry are soon expected to ease. But that brings little relief to frustrated owners like Travis and Noeleen, whose build is already more than 600 days late.",
+          "title": {
+            "children": "Couple still waiting for dream home meant to be ready by Christmas — two years ago"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "898",
+              "title": "Housing Construction Industry"
+            },
+            {
+              "id": "1608",
+              "title": "Housing Policy"
+            },
+            {
+              "id": "1192",
+              "title": "Family"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103226564",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close up of Imran Khan looking down and gesturing with his hands near a Pakistan flag.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6a1b2d71c2c3ea0d5173cc91a9ae1adb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=6&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-14/pakistan-imran-khan-indicted-leaking-state-secrets/103226564"
+          },
+          "contentUri": "coremedia://article/103226564",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/pakistan-imran-khan-indicted-leaking-state-secrets/103226564",
+          "video": null,
+          "reactKey": "act-103226564-1",
+          "synopsis": "A Pakistani court indicts former prime minister Imran Khan on charges of leaking state secrets, a charge he denies.",
+          "title": {
+            "children": "Former Pakistan prime minister Imran Khan indicted"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1574",
+              "title": "World Politics"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103226594",
           "imagePosition": {
             "mobile": "right",
@@ -924,6 +1031,51 @@
             {
               "id": "102064380",
               "title": "Armed Conflict"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103226148",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Worker in high vis standing next to a tunnel boring machine.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2df7d101659bbd31446ed15e97452bd3?impolicy=wcms_crop_resize&cropH=340&cropW=604&xPos=0&yPos=106&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-13/snowy-hydro-tunnel-boring-machine-moving-after-getting-stuck/103226148"
+          },
+          "contentUri": "coremedia://article/103226148",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-13/snowy-hydro-tunnel-boring-machine-moving-after-getting-stuck/103226148",
+          "video": null,
+          "reactKey": "act-103226148-1",
+          "synopsis": "A 143-metre-long tunnel boring machine working on the massive Snowy Hydro 2.0 project is moving again, a year after getting stuck and causing a large sinkhole.",
+          "title": {
+            "children": "Snowy Hydro tunnel boring machine moving a year after getting stuck"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1416",
+              "title": "Hydro Energy"
+            },
+            {
+              "id": "1406",
+              "title": "Environment"
+            },
+            {
+              "id": "9320828",
+              "title": "Construction Projects and Equipment"
             }
           ]
         }
@@ -1193,51 +1345,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103226148",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Worker in high vis standing next to a tunnel boring machine.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2df7d101659bbd31446ed15e97452bd3?impolicy=wcms_crop_resize&cropH=340&cropW=604&xPos=0&yPos=106&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2023-12-13/snowy-hydro-tunnel-boring-machine-moving-after-getting-stuck/103226148"
-          },
-          "contentUri": "coremedia://article/103226148",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-13/snowy-hydro-tunnel-boring-machine-moving-after-getting-stuck/103226148",
-          "video": null,
-          "reactKey": "act-103226148-1",
-          "synopsis": "A 143-metre-long tunnel boring machine working on the massive Snowy Hydro 2.0 project is moving again, a year after getting stuck and causing a large sinkhole.",
-          "title": {
-            "children": "Snowy Hydro tunnel boring machine moving a year after getting stuck"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1416",
-              "title": "Hydro Energy"
-            },
-            {
-              "id": "1406",
-              "title": "Environment"
-            },
-            {
-              "id": "9320828",
-              "title": "Construction Projects and Equipment"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103224376",
           "imagePosition": {
             "mobile": "right",
@@ -1271,43 +1378,6 @@
               "id": "2488",
               "title": "Cricket"
             },
-            {
-              "id": "1574",
-              "title": "World Politics"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103226564",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up of Imran Khan looking down and gesturing with his hands near a Pakistan flag.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6a1b2d71c2c3ea0d5173cc91a9ae1adb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=6&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-14/pakistan-imran-khan-indicted-leaking-state-secrets/103226564"
-          },
-          "contentUri": "coremedia://article/103226564",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/pakistan-imran-khan-indicted-leaking-state-secrets/103226564",
-          "video": null,
-          "reactKey": "act-103226564-1",
-          "synopsis": "A Pakistani court indicts former prime minister Imran Khan on charges of leaking state secrets, a charge he denies.",
-          "title": {
-            "children": "Former Pakistan prime minister Imran Khan indicted"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
             {
               "id": "1574",
               "title": "World Politics"
@@ -1447,89 +1517,42 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103223120",
+          "id": "103199230",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
-            "altText": "Two paramedics in uniform stand before an ambulance vehicle. They both look serious. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ea6a3201b98cb47fbef426974191c77?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "altText": "Sky over town of Bright, Victoria with meteors in sky",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/acb5925ac1cb6297a832a3d477fd0b04?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=100&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2023-12-13/townsville-ambulance-targeted-by-stolen-cars/103223120"
+            "to": "/news/science/2023-12-13/geminid-meteor-shower-2023-australia/103199230"
           },
-          "contentUri": "coremedia://article/103223120",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-13/townsville-ambulance-targeted-by-stolen-cars/103223120",
+          "contentUri": "coremedia://article/103199230",
+          "canonicalURL": "https://www.abc.net.au/news/science/2023-12-13/geminid-meteor-shower-2023-australia/103199230",
           "video": null,
-          "reactKey": "act-103223120-1",
-          "synopsis": "As the city is branded a \"real-life version of Mad Max\", two ambulances have been forced into evasive action, including one on an emergency call, raising concerns about the impact on crews and patients.",
+          "reactKey": "act-103199230-1",
+          "synopsis": "Celebrate the end of the year with some fireworks of the celestial kind — this year's Geminid meteor shower could be the best Australia has seen.",
           "title": {
-            "children": "Townsville paramedics shaken as car thieves run ambulances off the road"
+            "children": "No moon and great timing — just two reasons why this year's Geminid meteor shower will be a total cracker"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1616",
-              "title": "Health"
+              "id": "2298",
+              "title": "Science and Technology"
             },
             {
-              "id": "12551108",
-              "title": "Ambulance Service"
+              "id": "2428",
+              "title": "Astronomy (Space)"
             },
             {
-              "id": "1768",
-              "title": "Doctors and Medical Professionals"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103225786",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two older women with grey hair, wear bright yellow clothing and hold signs in the shape of sunflowers reading 'climate justice'",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4181c3c1ccb056b09a353d9beb97df50?impolicy=wcms_crop_resize&cropH=1996&cropW=2994&xPos=3&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-13/nsw-knitting-nannas-constitutional-court-protest-laws/103225786"
-          },
-          "contentUri": "coremedia://article/103225786",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-13/nsw-knitting-nannas-constitutional-court-protest-laws/103225786",
-          "video": null,
-          "reactKey": "act-103225786-1",
-          "synopsis": "The laws, passed in April 2022 after a series of climate protests, meant people could be fined $22,000 or jailed for two years for causing a major facility to be closed or if someone using the area had to be redirected.",
-          "title": {
-            "children": "Court rules parts of NSW protest laws are 'invalid' after challenge by Knitting Nannas activists "
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "10962538",
-              "title": "Demonstrations"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
+              "id": "2434",
+              "title": "Planets and Asteroids"
             }
           ]
         }
