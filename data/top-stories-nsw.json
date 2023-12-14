@@ -13,19 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103230468"
+          "uri": "coremedia://article/103226314"
         },
         {
           "uri": "coremedia://article/103224344"
-        },
-        {
-          "uri": "coremedia://article/103226314"
         },
         {
           "uri": "coremedia://article/103226116"
         },
         {
           "uri": "coremedia://article/103228552"
+        },
+        {
+          "uri": "coremedia://article/103230468"
         },
         {
           "uri": "coremedia://article/103230692"
@@ -111,11 +111,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103230468",
+          "id": "103226314",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -123,32 +129,55 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "aerial view of a fire burning towards a township",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/83757c0cac83ece734679effa5b08a63?impolicy=wcms_crop_resize&cropH=1043&cropW=1565&xPos=101&yPos=0&width=862&height=575",
+            "altText": "David Warner points his bat",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e36bf43478742af61d6fb427770cca39?impolicy=wcms_crop_resize&cropH=1753&cropW=2630&xPos=617&yPos=39&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-14/emergency-level-fire-at-abermain-in-nsw-hunter-region/103230468"
+            "to": "/news/2023-12-14/australia-vs-pakistan-first-test-day-one-live-blog/103226314"
           },
-          "contentUri": "coremedia://article/103230468",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/emergency-level-fire-at-abermain-in-nsw-hunter-region/103230468",
+          "contentUri": "coremedia://article/103226314",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/australia-vs-pakistan-first-test-day-one-live-blog/103226314",
           "video": null,
-          "reactKey": "nsw-103230468-1",
-          "synopsis": "Firefighters face difficult conditons, with high temperatures and low humidity, as they battle the blazes, as well as a truck fire on the M1 Pacific Motorway.",
+          "reactKey": "nsw-103226314-1",
+          "synopsis": "Australia and Pakistan meet in Perth for the first Test match of the summer of cricket. Follow all the action in our live blog.",
           "title": {
-            "children": "Multiple out-of-control bushfires burning in 'extreme conditions' in NSW Hunter region"
+            "children": "David Warner passes 150 as Australia takes control in first Test against Pakistan"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
-          "subjects": [
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
             {
-              "id": "1252",
-              "title": "Fires"
+              "id": "63727",
+              "date": "2023-12-14T09:07:52.000Z",
+              "title": "Warner is finally out for 164!"
             },
             {
-              "id": "1268",
-              "title": "Emergency Incidents"
+              "id": "63703",
+              "date": "2023-12-14T07:46:22.000Z",
+              "title": "GOT HIM! SMITH IS OUT! A MAIDEN TEST WICKET FOR SHAHZAD!"
+            },
+            {
+              "id": "63688",
+              "date": "2023-12-14T07:02:04.000Z",
+              "title": "TEA: Australia 2-210 (Warner 111, Smith 21)"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "2488",
+              "title": "Cricket"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
             }
           ]
         }
@@ -194,76 +223,6 @@
             {
               "id": "1982",
               "title": "Crime"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103226314",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "David Warner points his bat",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e36bf43478742af61d6fb427770cca39?impolicy=wcms_crop_resize&cropH=1513&cropW=2269&xPos=752&yPos=231&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-14/australia-vs-pakistan-first-test-day-one-live-blog/103226314"
-          },
-          "contentUri": "coremedia://article/103226314",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/australia-vs-pakistan-first-test-day-one-live-blog/103226314",
-          "video": null,
-          "reactKey": "nsw-103226314-1",
-          "synopsis": "Australia and Pakistan meet in Perth for the first Test match of the summer of cricket. Follow all the action in our live blog.",
-          "title": {
-            "children": "David Warner passes 150 as Australia takes control in first Test against Pakistan"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "63703",
-              "date": "2023-12-14T07:46:22.000Z",
-              "title": "GOT HIM! SMITH IS OUT! A MAIDEN TEST WICKET FOR SHAHZAD!"
-            },
-            {
-              "id": "63688",
-              "date": "2023-12-14T07:02:04.000Z",
-              "title": "TEA: Australia 2-210 (Warner 111, Smith 21)"
-            },
-            {
-              "id": "63678",
-              "date": "2023-12-14T06:34:08.000Z",
-              "title": "THAT'S A FAMOUS CENTURY FOR DAVID WARNER!"
-            }
-          ],
-          "subjects": [
-            {
-              "id": "2488",
-              "title": "Cricket"
-            },
-            {
-              "id": "2478",
-              "title": "Sport"
             }
           ]
         }
@@ -361,6 +320,47 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103230468",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "aerial view of a fire burning towards a township",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/83757c0cac83ece734679effa5b08a63?impolicy=wcms_crop_resize&cropH=1043&cropW=1565&xPos=101&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-14/emergency-level-fire-at-abermain-in-nsw-hunter-region/103230468"
+          },
+          "contentUri": "coremedia://article/103230468",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-14/emergency-level-fire-at-abermain-in-nsw-hunter-region/103230468",
+          "video": null,
+          "reactKey": "nsw-103230468-1",
+          "synopsis": "Firefighters face difficult conditons, with high temperatures and low humidity, as they battle the blazes, as well as a truck fire on the M1 Pacific Motorway.",
+          "title": {
+            "children": "Multiple out-of-control bushfires burning in 'extreme conditions' in NSW Hunter region"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1252",
+              "title": "Fires"
+            },
+            {
+              "id": "1268",
+              "title": "Emergency Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103230692",
           "imagePosition": {
             "mobile": "right",
@@ -382,7 +382,7 @@
           "reactKey": "nsw-103230692-1",
           "synopsis": "Sally's family has been seeking shelter inside their local church in Gaza for weeks. She says the government's call for a ceasefire is \"too little, too late\". ",
           "title": {
-            "children": "Sally says the government's call for a ceasefire in Israel-Gaza war is 'too little, too late' "
+            "children": "Sally, whose family has sought shelter in Gaza church for weeks, deems government's ceasefire call too late"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1197,7 +1197,7 @@
           "reactKey": "nsw-103224596-1",
           "synopsis": "When the US Supreme Court overturned Roe v Wade last year, it did not remove the issue from the courts. This week, they're playing out in five different states. ",
           "title": {
-            "children": "What to know about abortion lawsuits being heard in US courts this week"
+            "children": "A year after Roe V Wade was overturned, states are facing their own abortion cases across the US"
           },
           "imageContainerClassNames": [],
           "subjects": [
