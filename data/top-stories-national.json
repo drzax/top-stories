@@ -31,6 +31,9 @@
           "uri": "coremedia://article/103232608"
         },
         {
+          "uri": "coremedia://article/103227896"
+        },
+        {
           "uri": "coremedia://article/103233724"
         },
         {
@@ -47,9 +50,6 @@
         },
         {
           "uri": "coremedia://article/103137688"
-        },
-        {
-          "uri": "coremedia://article/103227896"
         },
         {
           "uri": "coremedia://article/103220382"
@@ -402,6 +402,65 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103227896",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Cameron Dick and Steven Miles walking and smiling",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/780ec811e76608f14868030bca95531f?impolicy=wcms_crop_resize&cropH=2540&cropW=3810&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-15/labor-caucus-endorses-steven-miles-as-queensland-premier/103227896"
+          },
+          "contentUri": "coremedia://article/103227896",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-15/labor-caucus-endorses-steven-miles-as-queensland-premier/103227896",
+          "video": null,
+          "reactKey": "national-103227896-1",
+          "synopsis": "Labor MPs have elected Steven Miles unopposed and unanimously to the top job. Treasurer Cameron Dick has been endorsed as deputy premier.",
+          "title": {
+            "children": "Steven Miles elected unopposed as new Queensland premier, Cameron Dick to become deputy"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1588",
+              "title": "State and Territory Government"
+            },
+            {
+              "id": "1562",
+              "title": "ALP"
+            },
+            {
+              "id": "10396004",
+              "title": "State and Territory Elections"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103233724",
@@ -667,65 +726,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103227896",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Cameron Dick and Steven Miles walking and smiling",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/780ec811e76608f14868030bca95531f?impolicy=wcms_crop_resize&cropH=2540&cropW=3810&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-15/labor-caucus-endorses-steven-miles-as-queensland-premier/103227896"
-          },
-          "contentUri": "coremedia://article/103227896",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-15/labor-caucus-endorses-steven-miles-as-queensland-premier/103227896",
-          "video": null,
-          "reactKey": "national-103227896-1",
-          "synopsis": "Labor MPs have elected Steven Miles unopposed and unanimously to the top job. Treasurer Cameron Dick has been endorsed as deputy premier.",
-          "title": {
-            "children": "Steven Miles elected unopposed as new Queensland premier, Cameron Dick to become deputy"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "pending",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
-          "subjects": [
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
-            },
-            {
-              "id": "1562",
-              "title": "ALP"
-            },
-            {
-              "id": "10396004",
-              "title": "State and Territory Elections"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103220382",
@@ -833,7 +833,7 @@
           "reactKey": "national-103230530-1",
           "synopsis": "People aren't the only species attracted to the summer waters along Australia's coastline — underneath the surface, tuna, mackerel and schools of bait fish are moving closer to shore, bringing with them sharks.",
           "title": {
-            "children": "Video shows shark attack victim's narrow escape as expert shares tips on reducing risk"
+            "children": "Video shows shark attack victim's narrow escape as experts share tips on reducing risk"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1069,6 +1069,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "63845",
+              "date": "2023-12-15T04:29:42.000Z",
+              "title": "Economic firm says migration policy impact isn't a 'severe' as claimed"
+            },
+            {
               "id": "63830",
               "date": "2023-12-15T03:34:28.000Z",
               "title": "Spending winding back as consumers face 'intense income pressures'"
@@ -1077,11 +1082,6 @@
               "id": "63816",
               "date": "2023-12-15T02:51:12.000Z",
               "title": "Temporary visa holders account for three-quarters of record net migration"
-            },
-            {
-              "id": "63774",
-              "date": "2023-12-15T01:15:51.000Z",
-              "title": "Australian shares hit four-month high after boost in commodities"
             }
           ],
           "subjects": [
