@@ -13,7 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103234646"
+        },
+        {
           "uri": "coremedia://article/103236452"
+        },
+        {
+          "uri": "coremedia://article/103234746"
         },
         {
           "uri": "coremedia://article/103080290"
@@ -114,10 +120,63 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/c1d94efd92c0abbd44962a9b8ba1d025?impolicy=wcms_crop_resize&cropH=1996&cropW=1996&xPos=502&yPos=0&width=160&height=160",
+              "authorName": "Rachel Riga"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103234646",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Premier Steven Miles with Deputy Premier Cameron Dick standing behind him",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1eb570edc53f08c8a4b4335d4283ce8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=177&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-16/qld-politics-steven-miles-doing-it-his-way-as-premier/103234646"
+          },
+          "contentUri": "coremedia://article/103234646",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-16/qld-politics-steven-miles-doing-it-his-way-as-premier/103234646",
+          "video": null,
+          "reactKey": "qld-103234646-1",
+          "synopsis": "The next Queensland election is less than a year away and, now he's taken over the top, job Steven Miles is keen to avoid facing the final curtain at the ballot box, writes Rachel Riga. ",
+          "title": {
+            "children": "He was Palaszczuk's right hand man. As premier, Steven Miles is out to do it his way"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1544",
+              "title": "Political Parties and Movements"
+            },
+            {
+              "id": "1562",
+              "title": "ALP"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103236452",
           "imagePosition": {
             "mobile": "top",
@@ -141,9 +200,7 @@
           "title": {
             "children": "Police investigating after man dies in severe south-east Queensland storms"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2762",
@@ -152,6 +209,51 @@
             {
               "id": "102821970",
               "title": "Weather Warnings"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103234746",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "People swim in a public pool.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a0bc34fc037de6e0ef7a7aa0d638770?impolicy=wcms_crop_resize&cropH=776&cropW=1160&xPos=108&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-16/heatwave-brisbane-southeast-queensland-weather-take-precautions/103234746"
+          },
+          "contentUri": "coremedia://article/103234746",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-16/heatwave-brisbane-southeast-queensland-weather-take-precautions/103234746",
+          "video": null,
+          "reactKey": "qld-103234746-1",
+          "synopsis": "It's going to be bloody hot in Brisbane this weekend. Here's what south-east Queenslanders can expect as the weather really warms up.",
+          "title": {
+            "children": "Heatwave settles in over south-east Queensland with above-average temperatures forecast all weekend"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "102909152",
+              "title": "Heatwaves"
+            },
+            {
+              "id": "102909144",
+              "title": "Extreme Weather Events"
             }
           ]
         }
