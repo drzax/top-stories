@@ -43,6 +43,9 @@
           "uri": "coremedia://article/103223736"
         },
         {
+          "uri": "coremedia://article/103249742"
+        },
+        {
           "uri": "coremedia://article/103248888"
         },
         {
@@ -52,22 +55,25 @@
           "uri": "coremedia://article/103248650"
         },
         {
+          "uri": "coremedia://article/103218124"
+        },
+        {
           "uri": "coremedia://article/103248322"
         },
         {
           "uri": "coremedia://article/103247772"
         },
         {
-          "uri": "coremedia://article/103249012"
+          "uri": "coremedia://article/103224194"
         },
         {
-          "uri": "coremedia://article/103224194"
+          "uri": "coremedia://article/103245168"
         },
         {
           "uri": "coremedia://article/103249330"
         },
         {
-          "uri": "coremedia://article/103245168"
+          "uri": "coremedia://article/103249012"
         },
         {
           "uri": "coremedia://article/103227670"
@@ -79,22 +85,19 @@
           "uri": "coremedia://article/103249124"
         },
         {
+          "uri": "coremedia://article/103249090"
+        },
+        {
           "uri": "coremedia://article/103247084"
         },
         {
           "uri": "coremedia://article/103249176"
         },
         {
-          "uri": "coremedia://article/103246314"
-        },
-        {
           "uri": "coremedia://article/103249340"
         },
         {
           "uri": "coremedia://article/103246538"
-        },
-        {
-          "uri": "coremedia://article/103247198"
         },
         {
           "uri": "coremedia://article/103240520"
@@ -336,7 +339,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103248254",
           "imagePosition": {
@@ -364,6 +374,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1254",
@@ -569,6 +586,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103249742",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An elderly caucasian in a blue suit, red tie, speaking into a microphone with an American flag in the background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a6dd4e8b1372160f4359f0bfe03fbfa1?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-20/colorado-supreme-court-bans-trump-from-the-state-ballot/103249742"
+          },
+          "contentUri": "coremedia://article/103249742",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/colorado-supreme-court-bans-trump-from-the-state-ballot/103249742",
+          "video": null,
+          "reactKey": "wa-103249742-1",
+          "synopsis": "The court declares former US president Donald Trump ineligible for the White House under the constitution's insurrection clause for his role in the January 6, 2021, attack on the US Capitol.",
+          "title": {
+            "children": "Colorado Supreme Court bans Trump from the state's presidential ballot"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "8224572",
+              "title": "Donald Trump"
+            },
+            {
+              "id": "1538",
+              "title": "Elections"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103248888",
           "imagePosition": {
             "mobile": "right",
@@ -725,6 +787,53 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103218124",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Small gecko sitting on branch",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9d06ac1faed103ed290432dae4f9beeb?impolicy=wcms_crop_resize&cropH=1241&cropW=1861&xPos=10&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-20/jp-emery-researches-christmas-island-giant-gecko-survival/103218124"
+          },
+          "contentUri": "coremedia://article/103218124",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/jp-emery-researches-christmas-island-giant-gecko-survival/103218124",
+          "video": null,
+          "reactKey": "wa-103218124-1",
+          "synopsis": "The sole surviving native lizard species on one of Australia's most isolated territories faces a similar fate to its late relatives as researchers try to turn the tide.",
+          "title": {
+            "children": "Giant reptile's survival after all other native lizards wiped out drives search for answers"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1470",
+              "title": "Environmental Impact"
+            },
+            {
+              "id": "1450",
+              "title": "Climate Change"
+            },
+            {
+              "id": "1448",
+              "title": "Endangered and Protected Species"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103248322",
           "imagePosition": {
             "mobile": "right",
@@ -815,51 +924,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103249012",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Coastal road, beach at sunset, country road Cape Bridgewater",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7912850e5c0b2c5f365c665d10a52a5?impolicy=wcms_crop_resize&cropH=2240&cropW=3360&xPos=236&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-20/search-for-missing-teen-boy-swept-off-rocks-cape-bridgewater/103249012"
-          },
-          "contentUri": "coremedia://article/103249012",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/search-for-missing-teen-boy-swept-off-rocks-cape-bridgewater/103249012",
-          "video": null,
-          "reactKey": "wa-103249012-1",
-          "synopsis": "The ABC understands two teenage boys were exploring rock pools at Cape Bridgewater when a 14-year-old was hit by a wave and swept out to sea last night.",
-          "title": {
-            "children": "Search to resume for missing teenage boy swept off rocks on Victoria's west coast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1268",
-              "title": "Emergency Incidents"
-            },
-            {
-              "id": "984",
-              "title": "Missing Person"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103224194",
           "imagePosition": {
             "mobile": "right",
@@ -898,6 +962,51 @@
             {
               "id": "1924",
               "title": "People"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103245168",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An elephant seal rubs against a yellow lattice fence outside a real estate agency",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8db709a2a2d461cd188820ab4255c1b?impolicy=wcms_crop_resize&cropH=496&cropW=882&xPos=82&yPos=394&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-20/neil-the-elephant-seal-tiktok-instagram-facebook-tasmanian-star/103245168"
+          },
+          "contentUri": "coremedia://article/103245168",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/neil-the-elephant-seal-tiktok-instagram-facebook-tasmanian-star/103245168",
+          "video": null,
+          "reactKey": "wa-103245168-1",
+          "synopsis": "He has won over the public with his roly-poly antics, with tens of thousands of followers on social media pages set up in his honour — but \"Neil the seal\" is providing authorities in Tasmania with a conundrum.",
+          "title": {
+            "children": "Why does Neil the seal keep showing up? Tasmanian locals greet a now-familiar sight"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2368",
+              "title": "Animal Science"
+            },
+            {
+              "id": "2408",
+              "title": "Animal Behaviour"
+            },
+            {
+              "id": "580",
+              "title": "Animals and Nature"
             }
           ]
         }
@@ -948,42 +1057,42 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103245168",
+          "id": "103249012",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
-            "altText": "An elephant seal rubs against a yellow lattice fence outside a real estate agency",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8db709a2a2d461cd188820ab4255c1b?impolicy=wcms_crop_resize&cropH=496&cropW=882&xPos=82&yPos=394&width=862&height=485",
-            "imgRatio": "16x9"
+            "altText": "Coastal road, beach at sunset, country road Cape Bridgewater",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7912850e5c0b2c5f365c665d10a52a5?impolicy=wcms_crop_resize&cropH=2240&cropW=3360&xPos=236&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-20/neil-the-elephant-seal-tiktok-instagram-facebook-tasmanian-star/103245168"
+            "to": "/news/2023-12-20/search-for-missing-teen-boy-swept-off-rocks-cape-bridgewater/103249012"
           },
-          "contentUri": "coremedia://article/103245168",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/neil-the-elephant-seal-tiktok-instagram-facebook-tasmanian-star/103245168",
+          "contentUri": "coremedia://article/103249012",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/search-for-missing-teen-boy-swept-off-rocks-cape-bridgewater/103249012",
           "video": null,
-          "reactKey": "wa-103245168-1",
-          "synopsis": "He has won over the public with his roly-poly antics, with tens of thousands of followers on social media pages set up in his honour — but \"Neil the seal\" is providing authorities in Tasmania with a conundrum.",
+          "reactKey": "wa-103249012-1",
+          "synopsis": "The ABC understands two teenage boys were exploring rock pools at Cape Bridgewater when a 14-year-old was hit by a wave and swept out to sea last night.",
           "title": {
-            "children": "Why does Neil the seal keep showing up? Tasmanian locals greet a now-familiar sight"
+            "children": "Search to resume for missing teenage boy swept off rocks on Victoria's west coast"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "2368",
-              "title": "Animal Science"
+              "id": "1268",
+              "title": "Emergency Incidents"
             },
             {
-              "id": "2408",
-              "title": "Animal Behaviour"
+              "id": "984",
+              "title": "Missing Person"
             },
             {
-              "id": "580",
-              "title": "Animals and Nature"
+              "id": "1978",
+              "title": "Police"
             }
           ]
         }
@@ -1128,6 +1237,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103249090",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young woman wearing a cap and a high-viz jumper standing in front of grain.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/df3201ef173413fc764bce3ff77ded62?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-20/21yo-ellie-murden-in-charge-nhill-grain-receival-site/103249090"
+          },
+          "contentUri": "coremedia://article/103249090",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/21yo-ellie-murden-in-charge-nhill-grain-receival-site/103249090",
+          "video": null,
+          "reactKey": "wa-103249090-1",
+          "synopsis": "What were you doing at 21 years old? Most likely, not managing 60 employees, handling hundreds of thousands of tonnes of grain at one of the busiest receival sites in the country. But it's all in day's work for Ellie Murden.",
+          "title": {
+            "children": "Young gun takes charge at major grain receival site"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2244",
+              "title": "Women In Agriculture"
+            },
+            {
+              "id": "2216",
+              "title": "Grain"
+            },
+            {
+              "id": "2220",
+              "title": "Crop Harvesting"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103247084",
           "imagePosition": {
             "mobile": "right",
@@ -1220,51 +1374,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103246314",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Orange scooters parked on a CBD street on a grey overcast day.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a41ad33cb4b01a458c874eb5d0a875e9?impolicy=wcms_crop_resize&cropH=743&cropW=1114&xPos=0&yPos=47&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-20/e-scooter-injuries-rise-as-hospitals-struggle-to-treat-riders/103246314"
-          },
-          "contentUri": "coremedia://article/103246314",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/e-scooter-injuries-rise-as-hospitals-struggle-to-treat-riders/103246314",
-          "video": null,
-          "reactKey": "wa-103246314-1",
-          "synopsis": "Doctors want better regulation of e-scooters as a new study shows one Melbourne hospital spent $1.9 million in one year treating injuries from the devices.",
-          "title": {
-            "children": "Surgeon calls for greater regulation of e-scooters as injuries rise"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1284",
-              "title": "Road Accidents and Incidents"
-            },
-            {
-              "id": "1622",
-              "title": "Healthcare Facilities"
-            },
-            {
-              "id": "1798",
-              "title": "Safety"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103249340",
           "imagePosition": {
             "mobile": "right",
@@ -1318,8 +1427,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Natasha Fyles during a press conference announcing her resignation.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d1f390c202c236ff7ff3d099972599c?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Former NT chief minister Natasha Fyles and treasurer Eva Lawler.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ee712beef04f2de8ed81c425ce346333?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1329,9 +1438,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-20/nt-chief-minister-natasha-fyles-resignation-what-happens-now/103246538",
           "video": null,
           "reactKey": "wa-103246538-1",
-          "synopsis": "After the resignation of Natasha Fyles as chief minister, who is in the running to take over the job of running the Northern Territory?",
+          "synopsis": "Deputy Chief Minister Nicole Manison has put her hand up for the leadership, the ABC understands Treasurer Eva Lawler is gathering support from caucus, while Attorney-General Chansey Paech said he is keeping his options open.",
           "title": {
-            "children": "The NT chief minister has resigned. Who might replace her and what happens next?"
+            "children": "The NT chief minister has resigned. Here's who could replace her"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1346,51 +1455,6 @@
             {
               "id": "1580",
               "title": "State and Territory Parliament"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103247198",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Carol Sandland in a green shirt, looking straight at the camera out the front of a building. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c6c86d59c1ab27d3cc3a27620438e0f2?impolicy=wcms_crop_resize&cropH=2099&cropW=3148&xPos=593&yPos=248&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-20/canberra-nurse-gets-compensation-after-sharing-information/103247198"
-          },
-          "contentUri": "coremedia://article/103247198",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-20/canberra-nurse-gets-compensation-after-sharing-information/103247198",
-          "video": null,
-          "reactKey": "wa-103247198-1",
-          "synopsis": "A Canberra nurse sacked for sharing confidential patient information with a union is awarded compensation, despite her employers having a \"well-founded\" reason for her dismissal.",
-          "title": {
-            "children": "Canberra nurse awarded compensation after she was sacked for sharing confidential patient information with union"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1622",
-              "title": "Healthcare Facilities"
-            },
-            {
-              "id": "1912",
-              "title": "Health Policy"
-            },
-            {
-              "id": "1828",
-              "title": "Mental Health"
             }
           ]
         }
