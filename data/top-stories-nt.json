@@ -114,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -137,13 +144,26 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-19/northern-territory-chief-minister-natasha-fyles-to-resign/103245954",
           "video": null,
           "reactKey": "nt-103245954-1",
-          "synopsis": "The ABC understands NT Chief Minister Natasha Fyles will resign today, amid mounting pressure over her leadership.",
+          "synopsis": "NT Chief Minister Natasha Fyles has announced her resignation from the top job, after mounting pressure over her leadership.",
           "title": {
-            "children": "NT Chief Minister Natasha Fyles to resign amid mounting pressure over leadership"
+            "children": "NT Chief Minister Natasha Fyles resigns from top job"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live moment",
+                "showTime": 300,
+                "time": "2023-12-19T04:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1534",
@@ -210,8 +230,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Australian Army CH-47 Chinook heavy-lift helicopters from 5th Aviation Regiment",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8650b663e29523fe3b5fb58549f1ccd?impolicy=wcms_crop_resize&cropH=1333&cropW=2000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "a dog in a flooded living room",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4251bd158a476d7685a6f98e73e9fc71?impolicy=wcms_crop_resize&cropH=562&cropW=843&xPos=0&yPos=281&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -245,13 +265,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103244626",
           "imagePosition": {
@@ -272,34 +286,11 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-19/far-north-queensland-floods-live-wujal-wujal-evacuation/103244626",
           "video": null,
           "reactKey": "nt-103244626-1",
-          "synopsis": "Several flood warnings remain active as Far North Queenslanders begin to assess just how much damage has been caused by record-breaking rainfall. Follow live.",
+          "synopsis": "Parts of Far North Queensland are beginning to assess just how much damage has been caused by widespread flooding. Look back on Tuesday's updates.",
           "title": {
-            "children": "Anthony Albanese joins new Queensland premier for weather briefing as airport, highways slowly reopen"
+            "children": "Anthony Albanese joins new Queensland premier for weather briefing as airport, highways slowly reopen — as it happened"
           },
           "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "64446",
-              "date": "2023-12-19T03:20:32.000Z",
-              "title": "WATCH: Bureau defends emergency notification system and forecasts"
-            },
-            {
-              "id": "64439",
-              "date": "2023-12-19T02:49:48.000Z",
-              "title": "Bureau of Meteorology responds to criticism over forecasts"
-            },
-            {
-              "id": "64438",
-              "date": "2023-12-19T02:39:31.000Z",
-              "title": "WATCH: New disaster assistance funds to be made available"
-            }
-          ],
           "subjects": []
         }
       },
