@@ -387,7 +387,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103253286",
           "imagePosition": {
@@ -408,11 +415,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-21/lancelin-toodyay-manjimup-emergency-bushfires-wa-fires/103253286",
           "video": null,
           "reactKey": "vic-103253286-1",
-          "synopsis": "Residents in the coastal town of Lancelin, north of Perth, spend the night displaced from their homes after a bushfire cut off the community's only access road, sending people fleeing to the beach for respite.",
+          "synopsis": "A third bushfire emergency is unfolding in southern Western Australia, with lives and homes under threat in the suburb of Parkerville in Perth's hills, as firefighters continue to battle three other major fires.",
           "title": {
-            "children": "Emergency bushfire warning north of Perth lifted as two other WA blazes threaten lives and homes"
+            "children": "Emergency bushfire declared for Perth hills as two other WA blazes threaten lives and homes"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1280",
@@ -744,8 +758,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A bus passes the Bank of England in the City of London.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24be3031de438dd95232ff1ea2c3bb45?impolicy=wcms_crop_resize&cropH=648&cropW=970&xPos=82&yPos=41&width=160&height=107",
+            "altText": "The Warner Brothers logo",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b131dd9f70f82a7641b924a8f332e6f6?impolicy=wcms_crop_resize&cropH=252&cropW=378&xPos=131&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -755,9 +769,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-21/asx-markets-business-live-news-dec21-2023/103253664",
           "video": null,
           "reactKey": "vic-103253664-1",
-          "synopsis": "A fall on Wall Street has sent Australian stocks lower, while UK inflation fell in November to its lowest rate in over two years, prompting investors to fully price in a rate cut by May 2024. Follow the latest updates in our live blog.",
+          "synopsis": "A fall on Wall Street has sent Australian stocks lower, while UK inflation fell in November to its lowest rate in over two years, prompting investors to fully price in a rate cut by May 2024. Warner Bros and Paramount are in merger talks. Follow the latest updates in our live blog.",
           "title": {
-            "children": "ASX drops as Wall Street sinks, UK inflation falls sharply to 3.9 per cent"
+            "children": "Warner Bros and Paramount in merger talks, Australian share market falls"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -773,14 +787,14 @@
               "title": "Market snapshot after 12.35pm AEDT"
             },
             {
+              "id": "64578",
+              "date": "2023-12-21T01:56:32.000Z",
+              "title": "Gina Rinehart's Liontown faces royalty challenge"
+            },
+            {
               "id": "64576",
               "date": "2023-12-21T01:48:50.000Z",
               "title": "Threat to global trade: Houthi leader threatens to attack US warships"
-            },
-            {
-              "id": "64573",
-              "date": "2023-12-21T01:25:40.000Z",
-              "title": "Pacific Smiles rejects 'undervalued' bid from Genesis"
             }
           ],
           "subjects": [
