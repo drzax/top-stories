@@ -76,6 +76,9 @@
           "uri": "coremedia://article/103258090"
         },
         {
+          "uri": "coremedia://article/103258412"
+        },
+        {
           "uri": "coremedia://article/103256280"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103170454"
-        },
-        {
-          "uri": "coremedia://article/103258246"
         }
       ]
     },
@@ -745,14 +745,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103257428",
           "imagePosition": {
@@ -780,13 +773,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
@@ -1063,6 +1049,51 @@
             {
               "id": "1538",
               "title": "Elections"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103258412",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Prague university shooting leaves 14 dead",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb4d228a8c8c2e7364a55ff671ecc9ce?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-22/prague-shooting-gunman-leap-windows-footage-reveals-charles-uni/103258412"
+          },
+          "contentUri": "coremedia://article/103258412",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-22/prague-shooting-gunman-leap-windows-footage-reveals-charles-uni/103258412",
+          "video": null,
+          "reactKey": "vic-103258412-1",
+          "synopsis": "Footage shows students leaping out building windows in desperation as they flee the lone gunman who killed at least 14 people at Charles University in Czechia.",
+          "title": {
+            "children": "Dramatic scenes as students leap from windows, hide in classrooms to escape Prague university shooter "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1970",
+              "title": "Law, Crime and Justice"
+            },
+            {
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "1988",
+              "title": "Homicide"
             }
           ]
         }
@@ -1675,51 +1706,6 @@
             {
               "id": "1574",
               "title": "World Politics"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103258246",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up of a fin whale eye and mouth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7a9dc6887c80b4fe0dc35c9682e95ec?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-22/beached-whale-minnie-water-nsw-north-coast/103258246"
-          },
-          "contentUri": "coremedia://article/103258246",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-22/beached-whale-minnie-water-nsw-north-coast/103258246",
-          "video": null,
-          "reactKey": "vic-103258246-1",
-          "synopsis": "The animal has been identified as a fin whale, one of the largest cetaceans in the world, and a species rarely seen in NSW waters.",
-          "title": {
-            "children": "'Best decision for the animal': 25-tonne beached whale euthanased on NSW north coast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2390",
-              "title": "Mammals - Whales"
-            },
-            {
-              "id": "1406",
-              "title": "Environment"
-            },
-            {
-              "id": "1044",
-              "title": "Volunteers"
             }
           ]
         }

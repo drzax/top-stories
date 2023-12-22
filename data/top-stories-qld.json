@@ -40,6 +40,9 @@
           "uri": "coremedia://article/103258478"
         },
         {
+          "uri": "coremedia://article/103258412"
+        },
+        {
           "uri": "coremedia://article/103259786"
         },
         {
@@ -92,9 +95,6 @@
         },
         {
           "uri": "coremedia://article/103258590"
-        },
-        {
-          "uri": "coremedia://article/103235100"
         },
         {
           "uri": "coremedia://article/103255718"
@@ -427,14 +427,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103257428",
           "imagePosition": {
@@ -462,13 +455,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
@@ -526,6 +512,51 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103258412",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Prague university shooting leaves 14 dead",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb4d228a8c8c2e7364a55ff671ecc9ce?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-22/prague-shooting-gunman-leap-windows-footage-reveals-charles-uni/103258412"
+          },
+          "contentUri": "coremedia://article/103258412",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-22/prague-shooting-gunman-leap-windows-footage-reveals-charles-uni/103258412",
+          "video": null,
+          "reactKey": "qld-103258412-1",
+          "synopsis": "Footage shows students leaping out building windows in desperation as they flee the lone gunman who killed at least 14 people at Charles University in Czechia.",
+          "title": {
+            "children": "Dramatic scenes as students leap from windows, hide in classrooms to escape Prague university shooter "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1970",
+              "title": "Law, Crime and Justice"
+            },
+            {
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "1988",
+              "title": "Homicide"
             }
           ]
         }
@@ -1322,51 +1353,6 @@
             {
               "id": "2242",
               "title": "Greenhouse Gas"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103235100",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a woman with blonde hair, black jumper stands next to man with blue shirt, next to a woman in pink shirt on motorised scooter",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/82c39d8afca8e964c60cf41c1f0b9501?impolicy=wcms_crop_resize&cropH=3257&cropW=4886&xPos=0&yPos=19&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-22/wim-resource-accused-misleading-public-submissions-for-mine/103235100"
-          },
-          "contentUri": "coremedia://article/103235100",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-22/wim-resource-accused-misleading-public-submissions-for-mine/103235100",
-          "video": null,
-          "reactKey": "qld-103235100-1",
-          "synopsis": "A mining company has been accused of misleading the community to garner support for a mine proposal being assessed by the Victorian government.",
-          "title": {
-            "children": "'I did not write that submission': Locals angry mining company misrepresented them to win government support"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2292",
-              "title": "Mining (Rural)"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
-            },
-            {
-              "id": "3665032",
-              "title": "Corruption"
             }
           ]
         }
