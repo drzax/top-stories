@@ -120,7 +120,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -148,8 +155,16 @@
             "children": "'There aren't any words': Family in shock as bushfire destroys home days out from Christmas"
           },
           "imageContainerClassNames": [
+            "imageHalf",
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
@@ -311,7 +326,7 @@
           "isMajor": false,
           "image": {
             "altText": "Chopper pilot rescued multiple people from flooded areas",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4870ff3e93cc3fd42672353af13721f?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4870ff3e93cc3fd42672353af13721f?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -323,9 +338,11 @@
           "reactKey": "wa-103257320-1",
           "synopsis": "The pilot, who leapt into action to fly a group of people stranded on the roof of the Lion's Den Pub to safety one-by-one, is being lauded as the \"real hero\" of the flood rescue efforts.",
           "title": {
-            "children": "Meet 'Magoo', the hero chopper pilot who saved 16 people from a pub roof in flooded Far North Queensland"
+            "children": "Meet 'Magoo', the chopper pilot who saved 16 people from a pub roof in Far North Queensland"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1254",
@@ -480,15 +497,15 @@
           "headingClassNames": [],
           "id": "103257814",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "People hide on the roof of a building.  ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a002a7936480a76b99b5b122631a3708?impolicy=wcms_crop_resize&cropH=890&cropW=1582&xPos=0&yPos=1022&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a002a7936480a76b99b5b122631a3708?impolicy=wcms_crop_resize&cropH=1055&cropW=1582&xPos=0&yPos=882&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2023-12-22/prague-czech-shooting-fifteen-dead/103257814"

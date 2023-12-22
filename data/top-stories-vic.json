@@ -768,7 +768,7 @@
           "reactKey": "vic-103257320-1",
           "synopsis": "The pilot, who leapt into action to fly a group of people stranded on the roof of the Lion's Den Pub to safety one-by-one, is being lauded as the \"real hero\" of the flood rescue efforts.",
           "title": {
-            "children": "Meet 'Magoo', the hero chopper pilot who saved 16 people from a pub roof in flooded Far North Queensland"
+            "children": "Meet 'Magoo', the chopper pilot who saved 16 people from a pub roof in Far North Queensland"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -886,7 +886,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103257428",
           "imagePosition": {
@@ -914,6 +921,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1268",
