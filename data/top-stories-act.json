@@ -58,6 +58,9 @@
           "uri": "coremedia://article/103043578"
         },
         {
+          "uri": "coremedia://article/103255862"
+        },
+        {
           "uri": "coremedia://article/103213552"
         },
         {
@@ -85,6 +88,9 @@
           "uri": "coremedia://article/103229352"
         },
         {
+          "uri": "coremedia://article/103266732"
+        },
+        {
           "uri": "coremedia://article/103059762"
         },
         {
@@ -102,7 +108,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -119,10 +132,10 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-27/severe-storms-claim-seven-lives-chirstmas-boxing-day/103266582"
+            "to": "/news/2023-12-27/severe-storms-claim-seven-lives-christmas-boxing-day/103266582"
           },
           "contentUri": "coremedia://article/103266582",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/severe-storms-claim-seven-lives-chirstmas-boxing-day/103266582",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/severe-storms-claim-seven-lives-christmas-boxing-day/103266582",
           "video": null,
           "reactKey": "act-103266582-1",
           "synopsis": "Severe storms across Australia's east coast have claimed the lives of seven people as clean-up continues across several states.",
@@ -132,6 +145,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -793,6 +813,55 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103255862",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A sign saying 'Your speed has been checked'.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/79684227cb921fa44e643f21fe472f00?impolicy=wcms_crop_resize&cropH=2355&cropW=3533&xPos=932&yPos=263&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/seeing-a-lot-of-mobile-speed-cameras-on-your-summer-road-trips/103255862"
+          },
+          "contentUri": "coremedia://article/103255862",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/seeing-a-lot-of-mobile-speed-cameras-on-your-summer-road-trips/103255862",
+          "video": null,
+          "reactKey": "act-103255862-1",
+          "synopsis": "As you travel around the country this holidays, you might see some roadside trailers or tripods. They're mobile road safety cameras and they can catch out a range of bad driver behaviour, writes Simon Raftery.",
+          "title": {
+            "children": "Seeing a lot of mobile speed cameras on your summer road trips? Here's how they work"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102137116",
+              "title": "Roads"
+            },
+            {
+              "id": "934",
+              "title": "Road Transport Industry"
+            },
+            {
+              "id": "1314",
+              "title": "Driver Education"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103213552",
@@ -1190,6 +1259,51 @@
             {
               "id": "494",
               "title": "Film (Arts and Entertainment)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103266732",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a woman's arm with an apple watch on it being inspected in a apple store",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fdc8cadd0e08d2049a525255f1466624?impolicy=wcms_crop_resize&cropH=1933&cropW=2900&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/apple-watch-import-ban-apple-appeals-us/103266732"
+          },
+          "contentUri": "coremedia://article/103266732",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/apple-watch-import-ban-apple-appeals-us/103266732",
+          "video": null,
+          "reactKey": "act-103266732-1",
+          "synopsis": "The ban follows a complaint from a medical monitoring company who is accusing Apple of stealing its pulse oximetry technology. ",
+          "title": {
+            "children": "Apple appeals decision to ban watch imports in US"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "808",
+              "title": "Business, Economics and Finance"
+            },
+            {
+              "id": "2302",
+              "title": "Computer Science"
+            },
+            {
+              "id": "2298",
+              "title": "Science and Technology"
             }
           ]
         }

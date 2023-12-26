@@ -105,7 +105,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -122,10 +129,10 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-27/severe-storms-claim-seven-lives-chirstmas-boxing-day/103266582"
+            "to": "/news/2023-12-27/severe-storms-claim-seven-lives-christmas-boxing-day/103266582"
           },
           "contentUri": "coremedia://article/103266582",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/severe-storms-claim-seven-lives-chirstmas-boxing-day/103266582",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/severe-storms-claim-seven-lives-christmas-boxing-day/103266582",
           "video": null,
           "reactKey": "nsw-103266582-1",
           "synopsis": "Severe storms across Australia's east coast have claimed the lives of seven people as clean-up continues across several states.",
@@ -135,6 +142,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
