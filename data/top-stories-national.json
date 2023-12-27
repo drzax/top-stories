@@ -22,10 +22,10 @@
           "uri": "coremedia://article/103266772"
         },
         {
-          "uri": "coremedia://article/103266588"
+          "uri": "coremedia://article/103265020"
         },
         {
-          "uri": "coremedia://article/103265020"
+          "uri": "coremedia://article/103266588"
         },
         {
           "uri": "coremedia://article/103213552"
@@ -76,6 +76,9 @@
           "uri": "coremedia://article/103266594"
         },
         {
+          "uri": "coremedia://article/103208782"
+        },
+        {
           "uri": "coremedia://article/103266230"
         },
         {
@@ -102,7 +105,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -132,6 +142,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -270,47 +287,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103266588",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60a1531350f948e39c8006f2a01effc7?impolicy=wcms_crop_resize&cropH=856&cropW=1284&xPos=0&yPos=211&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-27/chef-bill-granger-dies-aged-54-on-christmas-day/103266588"
-          },
-          "contentUri": "coremedia://article/103266588",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/chef-bill-granger-dies-aged-54-on-christmas-day/103266588",
-          "video": null,
-          "reactKey": "national-103266588-1",
-          "synopsis": "Bill Granger has died in hospital in London, his family has announced. The renowned chef and food writer ran 19 restaurants around the world.",
-          "title": {
-            "children": "'Bloody great guy': Celebrity chef Bill Granger remembered after Christmas Day death"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "472",
-              "title": "Arts, Culture and Entertainment"
-            },
-            {
-              "id": "2082",
-              "title": "Food and Cooking"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103265020",
           "imagePosition": {
             "mobile": "right",
@@ -343,6 +319,47 @@
             {
               "id": "2478",
               "title": "Sport"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103266588",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60a1531350f948e39c8006f2a01effc7?impolicy=wcms_crop_resize&cropH=856&cropW=1284&xPos=0&yPos=211&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/chef-bill-granger-dies-aged-54-on-christmas-day/103266588"
+          },
+          "contentUri": "coremedia://article/103266588",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/chef-bill-granger-dies-aged-54-on-christmas-day/103266588",
+          "video": null,
+          "reactKey": "national-103266588-1",
+          "synopsis": "Bill Granger has died in hospital in London, his family has announced. The renowned chef and food writer ran 19 restaurants around the world.",
+          "title": {
+            "children": "'Bloody great guy': Celebrity chef Bill Granger remembered after Christmas Day death"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "472",
+              "title": "Arts, Culture and Entertainment"
+            },
+            {
+              "id": "2082",
+              "title": "Food and Cooking"
             }
           ]
         }
@@ -1077,6 +1094,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103208782",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "White man standing next to white electric car with orange dirt",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8136c6fe684d0bb8b7c3ec5b5a2dfaff?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/electric-vehicles-wa-pilbara-remote-driving/103208782"
+          },
+          "contentUri": "coremedia://article/103208782",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/electric-vehicles-wa-pilbara-remote-driving/103208782",
+          "video": null,
+          "reactKey": "national-103208782-1",
+          "synopsis": "A former coal, oil and gas worker, Ray Middleton believes isolation shouldn't stop people from switching to electric vehicles.",
+          "title": {
+            "children": "Having worked in fossil fuels for three decades, Ray concedes he's not your typical EV enthusiast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102546508",
+              "title": "Electric Vehicles"
+            },
+            {
+              "id": "1408",
+              "title": "Alternative Energy"
+            },
+            {
+              "id": "1422",
+              "title": "Environmental Policy"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103266230",
           "imagePosition": {
             "mobile": "right",
@@ -1360,8 +1422,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman in a wetsuit speaks to divers in the open ocean.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e85f09bee12cf993a97b09bf1db9f127?impolicy=wcms_crop_resize&cropH=2610&cropW=4640&xPos=0&yPos=98&width=862&height=485",
+            "altText": "A close-up shot of a woman in a wetsuit and snorkel in the ocean.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3dd029c2c74921f649ecd40e37566ced?impolicy=wcms_crop_resize&cropH=921&cropW=1638&xPos=0&yPos=69&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -1371,9 +1433,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-27/freediving-to-better-mental-health/103189754",
           "video": null,
           "reactKey": "national-103189754-1",
-          "synopsis": "Freediving is being embraced by a growing number of Australians, and the benefits appear to be more than just physical.",
+          "synopsis": "The enchanting underwater world of freediving is being embraced by a growing number of Australians, and the benefits appear to be more than just physical.",
           "title": {
-            "children": "'Something magic happens': Enchanting underwater world of freediving unlocks mental health benefits "
+            "children": "After losing her partner in a freediving accident, Tania Douthwaite embraced the sport and its 'therapy'"
           },
           "imageContainerClassNames": [],
           "subjects": [

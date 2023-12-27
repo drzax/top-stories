@@ -19,13 +19,13 @@
           "uri": "coremedia://article/103265020"
         },
         {
-          "uri": "coremedia://article/103256108"
-        },
-        {
           "uri": "coremedia://article/103266872"
         },
         {
           "uri": "coremedia://article/103266772"
+        },
+        {
+          "uri": "coremedia://article/103256108"
         },
         {
           "uri": "coremedia://article/103266588"
@@ -37,13 +37,16 @@
           "uri": "coremedia://article/103205564"
         },
         {
+          "uri": "coremedia://article/103229114"
+        },
+        {
+          "uri": "coremedia://article/103266992"
+        },
+        {
           "uri": "coremedia://article/103266576"
         },
         {
           "uri": "coremedia://article/103266110"
-        },
-        {
-          "uri": "coremedia://article/103266992"
         },
         {
           "uri": "coremedia://article/103266270"
@@ -85,19 +88,16 @@
           "uri": "coremedia://article/103118178"
         },
         {
-          "uri": "coremedia://article/103212668"
-        },
-        {
           "uri": "coremedia://article/103224324"
-        },
-        {
-          "uri": "coremedia://article/103247852"
         },
         {
           "uri": "coremedia://article/103229352"
         },
         {
           "uri": "coremedia://article/103059762"
+        },
+        {
+          "uri": "coremedia://article/103189754"
         }
       ]
     },
@@ -105,7 +105,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -135,6 +142,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -188,47 +202,6 @@
             {
               "id": "2478",
               "title": "Sport"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103256108",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman in green shirt working at computer.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b40c735d3bc004299d93ba10fc47fec?impolicy=wcms_crop_resize&cropH=3410&cropW=5115&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-27/businesses-show-understanding-for-adhd-neurodiverse-staff/103256108"
-          },
-          "contentUri": "coremedia://article/103256108",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/businesses-show-understanding-for-adhd-neurodiverse-staff/103256108",
-          "video": null,
-          "reactKey": "tas-103256108-1",
-          "synopsis": "Georgie Morse sees her ability to hyper focus on gardening tasks as a benefit of her attention-deficit/hyperactivity disorder. But, ADHD has cost her in other ways — with calls for business to show understanding to people with the condition.",
-          "title": {
-            "children": "Georgie racked up $2,000 in parking fines, an experience she attributes to 'ADHD tax'"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1672",
-              "title": "ADHD"
-            },
-            {
-              "id": "12551174",
-              "title": "Learning Disabilities"
             }
           ]
         }
@@ -346,6 +319,47 @@
             {
               "id": "2478",
               "title": "Sport"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103256108",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman in green shirt working at computer.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b40c735d3bc004299d93ba10fc47fec?impolicy=wcms_crop_resize&cropH=3410&cropW=5115&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/businesses-show-understanding-for-adhd-neurodiverse-staff/103256108"
+          },
+          "contentUri": "coremedia://article/103256108",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/businesses-show-understanding-for-adhd-neurodiverse-staff/103256108",
+          "video": null,
+          "reactKey": "tas-103256108-1",
+          "synopsis": "Georgie Morse sees her ability to hyper focus on gardening tasks as a benefit of her attention-deficit/hyperactivity disorder. But, ADHD has cost her in other ways — with calls for business to show understanding to people with the condition.",
+          "title": {
+            "children": "Georgie racked up $2,000 in parking fines, an experience she attributes to 'ADHD tax'"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1672",
+              "title": "ADHD"
+            },
+            {
+              "id": "12551174",
+              "title": "Learning Disabilities"
             }
           ]
         }
@@ -484,7 +498,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103266576",
+          "id": "103229114",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -492,67 +506,32 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A selfie of two women",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/873a99560a2c9bcd642e8b45b546d0a8?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=162&width=160&height=107",
+            "altText": "The dog tag of US Army Second Lieutenant Benjamin Cox.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a7dc5cb15101cf670c1356b99c770ca0?impolicy=wcms_crop_resize&cropH=558&cropW=837&xPos=123&yPos=229&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2023-12-27/woman-discharged-from-hospital-after-alleged-plympton-stabbing/103266576"
+            "to": "/news/2023-12-27/act-paramedic-quest-to-return-ww2-us-soldiers-dog-tags-to-family/103229114"
           },
-          "contentUri": "coremedia://article/103266576",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/woman-discharged-from-hospital-after-alleged-plympton-stabbing/103266576",
+          "contentUri": "coremedia://article/103229114",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/act-paramedic-quest-to-return-ww2-us-soldiers-dog-tags-to-family/103229114",
           "video": null,
-          "reactKey": "tas-103266576-1",
-          "synopsis": "Susan Scardigno thanks the community for its support following her discharge from hospital, a week after she was seriously injured in an alleged stabbing attack which claimed the life of her colleague Julie Seed.",
+          "reactKey": "tas-103229114-1",
+          "synopsis": "Dan O'Sullivan found a set of dog tags belonging to US Army Second Lieutenant Benjamin Cox in a Honiara market, and recognising their significance began a 17-year quest to return them to his family.",
           "title": {
-            "children": "'An amazing human': Woman discharged from hospital after alleged stabbing pays tribute to colleague"
+            "children": "Canberra paramedic completes 17-year quest to return WWII dog tags to US soldier's family"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
-              "id": "13493458",
-              "title": "Stabbings"
+              "id": "1018",
+              "title": "World War 2"
             },
             {
-              "id": "1988",
-              "title": "Homicide"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103266110",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Smoke coming from behind trees in WA's outback",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe01a37cd31e1478b9aa1f8f9e07f5e4?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=56&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-26/volunteer-firefighter-dies-in-comalbidgup-esperance-blaze/103266110"
-          },
-          "contentUri": "coremedia://article/103266110",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-26/volunteer-firefighter-dies-in-comalbidgup-esperance-blaze/103266110",
-          "video": null,
-          "reactKey": "tas-103266110-1",
-          "synopsis": "WA Police are investigating the death of a volunteer firefighter responding to a blaze in the Shire of Esperance in the state's south. ",
-          "title": {
-            "children": "'Absolute tragedy': Volunteer firefighter dies while responding to Boxing Day blaze on WA's south coast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1280",
-              "title": "Bushfires"
+              "id": "1226",
+              "title": "Veterans"
             }
           ]
         }
@@ -598,6 +577,86 @@
             {
               "id": "1500",
               "title": "US Elections"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103266576",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A selfie of two women",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/873a99560a2c9bcd642e8b45b546d0a8?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=162&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-27/woman-discharged-from-hospital-after-alleged-plympton-stabbing/103266576"
+          },
+          "contentUri": "coremedia://article/103266576",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/woman-discharged-from-hospital-after-alleged-plympton-stabbing/103266576",
+          "video": null,
+          "reactKey": "tas-103266576-1",
+          "synopsis": "Susan Scardigno thanks the community for its support following her discharge from hospital, a week after she was seriously injured in an alleged stabbing attack which claimed the life of her colleague Julie Seed.",
+          "title": {
+            "children": "'An amazing human': Woman discharged from hospital after alleged stabbing pays tribute to colleague"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "13493458",
+              "title": "Stabbings"
+            },
+            {
+              "id": "1988",
+              "title": "Homicide"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103266110",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Smoke coming from behind trees in WA's outback",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe01a37cd31e1478b9aa1f8f9e07f5e4?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=56&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-26/volunteer-firefighter-dies-in-comalbidgup-esperance-blaze/103266110"
+          },
+          "contentUri": "coremedia://article/103266110",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-26/volunteer-firefighter-dies-in-comalbidgup-esperance-blaze/103266110",
+          "video": null,
+          "reactKey": "tas-103266110-1",
+          "synopsis": "WA Police are investigating the death of a volunteer firefighter responding to a blaze in the Shire of Esperance in the state's south. ",
+          "title": {
+            "children": "'Absolute tragedy': Volunteer firefighter dies while responding to Boxing Day blaze on WA's south coast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1280",
+              "title": "Bushfires"
             }
           ]
         }
@@ -1213,51 +1272,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103212668",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a shirt and jeans rides in bicycle along a bridge during the day in a Medieval-looking city.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/adae22c3b6c472eba78c70c95e1b0c0e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-27/congestion-tax-how-cities-are-reducing-traffic/103212668"
-          },
-          "contentUri": "coremedia://article/103212668",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/congestion-tax-how-cities-are-reducing-traffic/103212668",
-          "video": null,
-          "reactKey": "tas-103212668-1",
-          "synopsis": "What can Australia learn from other cities reducing CBD traffic? It's about disincentives for drivers and incentives for those who choose other means of getting around.",
-          "title": {
-            "children": "This researcher analysed 12 ways cities are trying to cut traffic. A congestion tax worked best"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1038",
-              "title": "Urban Development and Planning"
-            },
-            {
-              "id": "866",
-              "title": "Automotive Industry"
-            },
-            {
-              "id": "102135316",
-              "title": "Infrastructure"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103224324",
           "imagePosition": {
             "mobile": "right",
@@ -1294,51 +1308,6 @@
             {
               "id": "10056618",
               "title": "Wellness"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103247852",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A young woman sitting at a table with a bag of medications.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/097e898a74acafb6202a1e2db9fffdd1?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-27/climate-change-making-allergies-hay-fever-worse/103247852"
-          },
-          "contentUri": "coremedia://article/103247852",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/climate-change-making-allergies-hay-fever-worse/103247852",
-          "video": null,
-          "reactKey": "tas-103247852-1",
-          "synopsis": "Researchers say pollen is becoming more potent, and seasons longer, as the climate changes. Hay fever sufferers, brace yourselves. ",
-          "title": {
-            "children": "Caitlin can't imagine her allergies getting any worse. Climate change means they probably will "
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1450",
-              "title": "Climate Change"
-            },
-            {
-              "id": "1406",
-              "title": "Environment"
-            },
-            {
-              "id": "1616",
-              "title": "Health"
             }
           ]
         }
@@ -1432,6 +1401,51 @@
             {
               "id": "1450",
               "title": "Climate Change"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103189754",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close-up shot of a woman in a wetsuit and snorkel in the ocean.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3dd029c2c74921f649ecd40e37566ced?impolicy=wcms_crop_resize&cropH=921&cropW=1638&xPos=0&yPos=69&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2023-12-27/freediving-to-better-mental-health/103189754"
+          },
+          "contentUri": "coremedia://article/103189754",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-27/freediving-to-better-mental-health/103189754",
+          "video": null,
+          "reactKey": "tas-103189754-1",
+          "synopsis": "The enchanting underwater world of freediving is being embraced by a growing number of Australians, and the benefits appear to be more than just physical.",
+          "title": {
+            "children": "After losing her partner in a freediving accident, Tania Douthwaite embraced the sport and its 'therapy'"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "612",
+              "title": "Outdoor Recreational Activities"
+            },
+            {
+              "id": "2728",
+              "title": "Diving"
+            },
+            {
+              "id": "1828",
+              "title": "Mental Health"
             }
           ]
         }

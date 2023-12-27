@@ -114,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -144,6 +151,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -1426,7 +1440,7 @@
           "reactKey": "qld-103214190-1",
           "synopsis": "In the lead up to bushfire season, Zoos Victoria are embracing all forms of technological innovation to help ensure the survival of our most at-risk native fauna.",
           "title": {
-            "children": "Drones and song meters: How Zoos Victoria is transforming conservation "
+            "children": "How Zoos Victoria is using drones to save animals from extinction"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1540,8 +1554,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman in a wetsuit speaks to divers in the open ocean.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e85f09bee12cf993a97b09bf1db9f127?impolicy=wcms_crop_resize&cropH=3093&cropW=4640&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A close-up shot of a woman in a wetsuit and snorkel in the ocean.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3dd029c2c74921f649ecd40e37566ced?impolicy=wcms_crop_resize&cropH=1092&cropW=1638&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1551,9 +1565,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2023-12-27/freediving-to-better-mental-health/103189754",
           "video": null,
           "reactKey": "qld-103189754-1",
-          "synopsis": "Freediving is being embraced by a growing number of Australians, and the benefits appear to be more than just physical.",
+          "synopsis": "The enchanting underwater world of freediving is being embraced by a growing number of Australians, and the benefits appear to be more than just physical.",
           "title": {
-            "children": "'Something magic happens': Enchanting underwater world of freediving unlocks mental health benefits "
+            "children": "After losing her partner in a freediving accident, Tania Douthwaite embraced the sport and its 'therapy'"
           },
           "imageContainerClassNames": [],
           "subjects": [
