@@ -142,7 +142,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103265176",
           "imagePosition": {
@@ -152,8 +159,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Andoo Comanche sailing the sea.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6dc761f38694e1bd322d5f94ccb5ab0?impolicy=wcms_crop_resize&cropH=935&cropW=1403&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Andoo Comanche approaching the Iron Pot.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63bede5c866c1ffc6c8a8ff9cfbd3156?impolicy=wcms_crop_resize&cropH=894&cropW=1341&xPos=16&yPos=1008&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -168,6 +175,13 @@
             "children": "Sydney to Hobart race leaders rush to the finish line, but wind could make for an unpredictable finale"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2520",
@@ -244,7 +258,7 @@
           "isMajor": false,
           "image": {
             "altText": "Avocado toast and a coffee on a table.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d90e4d8d14de9b59cfc9287e095177d6?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d90e4d8d14de9b59cfc9287e095177d6?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -258,7 +272,9 @@
           "title": {
             "children": "Bill Granger brought avocado toast to cafes — and now it means something else entirely"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2082",
