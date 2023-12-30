@@ -40,6 +40,9 @@
           "uri": "coremedia://article/103183174"
         },
         {
+          "uri": "coremedia://article/103275314"
+        },
+        {
           "uri": "coremedia://article/103228542"
         },
         {
@@ -392,7 +395,7 @@
           "isMajor": false,
           "image": {
             "altText": "Storm clouds fill the skies above Brisbane",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3eba917aed6593bf91c2f9330e3257c7?impolicy=wcms_crop_resize&cropH=810&cropW=1215&xPos=113&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3eba917aed6593bf91c2f9330e3257c7?impolicy=wcms_crop_resize&cropH=810&cropW=1215&xPos=113&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -406,7 +409,9 @@
           "title": {
             "children": "Two people struck by lightning as wild weather threatens storm-ravaged Queensland and NSW"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2762",
@@ -505,6 +510,47 @@
             {
               "id": "956",
               "title": "Drug and Substance Abuse"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103275314",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A frame grab taken from a video of flooded water in a tunnel used by Eurostar trains.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47585575719ac7dab3016106ee63c9b0?impolicy=wcms_crop_resize&cropH=2333&cropW=3499&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-31/flooded-tunnel-causes-eurostar-cancellations-stranded-travellers/103275314"
+          },
+          "contentUri": "coremedia://article/103275314",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-31/flooded-tunnel-causes-eurostar-cancellations-stranded-travellers/103275314",
+          "video": null,
+          "reactKey": "national-103275314-1",
+          "synopsis": "A tunnel under the River Thames floods, throwing the New Year's Eve plans of hundreds of people into chaos after Eurostar was forced to cancel its train services.",
+          "title": {
+            "children": "Flooded UK tunnel causes Eurostar train cancellations, stranding New Year travellers"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "2072",
+              "title": "Travel and Tourism (Lifestyle and Leisure)"
             }
           ]
         }
