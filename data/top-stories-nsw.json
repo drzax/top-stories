@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103275754"
+          "uri": "coremedia://article/103275332"
         },
         {
-          "uri": "coremedia://article/103275332"
+          "uri": "coremedia://article/103275754"
         },
         {
           "uri": "coremedia://article/103275502"
@@ -124,53 +124,6 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103275754",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Flash flooding at Sapphire Beach in the Coffs Harbour area",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d8d87f878af40949b3b74d5aaa3026?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2023-12-31/wet-end-to-2023-coffs-coast-flash-flooding/103275754"
-          },
-          "contentUri": "coremedia://article/103275754",
-          "canonicalURL": "https://www.abc.net.au/news/2023-12-31/wet-end-to-2023-coffs-coast-flash-flooding/103275754",
-          "video": null,
-          "reactKey": "nsw-103275754-1",
-          "synopsis": "It is a wet end to the year on the NSW Coffs Coast, with floodwater inundating car parks and apartment buildings, and a New Year's Eve event being cancelled.",
-          "title": {
-            "children": "Floodwater inundates car parks and apartment buildings as slow-moving rain drenches Coffs Coast"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2764",
-              "title": "Rain"
-            },
-            {
-              "id": "102821970",
-              "title": "Weather Warnings"
-            },
-            {
-              "id": "102821956",
-              "title": "Weather Forecasts"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103275332",
           "imagePosition": {
             "mobile": "top",
@@ -194,7 +147,9 @@
           "title": {
             "children": "Thousands gather for New Year's Eve fireworks at events across Australia"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "536",
@@ -207,6 +162,51 @@
             {
               "id": "1498",
               "title": "Event"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103275754",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Flash flooding at Sapphire Beach in the Coffs Harbour area",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d8d87f878af40949b3b74d5aaa3026?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2023-12-31/wet-end-to-2023-coffs-coast-flash-flooding/103275754"
+          },
+          "contentUri": "coremedia://article/103275754",
+          "canonicalURL": "https://www.abc.net.au/news/2023-12-31/wet-end-to-2023-coffs-coast-flash-flooding/103275754",
+          "video": null,
+          "reactKey": "nsw-103275754-1",
+          "synopsis": "It is a wet end to the year on the NSW Coffs Coast, with floodwater inundating car parks and apartment buildings, and a New Year's Eve event being cancelled.",
+          "title": {
+            "children": "Floodwater inundates car parks and apartment buildings as slow-moving rain drenches Coffs Coast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2764",
+              "title": "Rain"
+            },
+            {
+              "id": "102821970",
+              "title": "Weather Warnings"
+            },
+            {
+              "id": "102821956",
+              "title": "Weather Forecasts"
             }
           ]
         }
