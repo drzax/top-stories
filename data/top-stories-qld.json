@@ -55,6 +55,12 @@
           "uri": "coremedia://article/103286438"
         },
         {
+          "uri": "coremedia://article/103287082"
+        },
+        {
+          "uri": "coremedia://article/103287036"
+        },
+        {
           "uri": "coremedia://article/103002974"
         },
         {
@@ -68,6 +74,15 @@
         },
         {
           "uri": "coremedia://article/103281642"
+        },
+        {
+          "uri": "coremedia://article/103154434"
+        },
+        {
+          "uri": "coremedia://article/103286366"
+        },
+        {
+          "uri": "coremedia://article/103255090"
         },
         {
           "uri": "coremedia://article/103159256"
@@ -99,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -129,6 +151,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "850",
@@ -330,8 +359,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People walking in Brisbane's Queen Street Mall",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4a374f0065ce619cffe550eae031ea97?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Two women look at a share price board outside the ASX in Sydney.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f97a81ab1a6e607219490cb7f42b6f74?impolicy=wcms_crop_resize&cropH=2798&cropW=4197&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -341,9 +370,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-05/asx-markets-business-live-news-january-5/103286832",
           "video": null,
           "reactKey": "qld-103286832-1",
-          "synopsis": "The Australian share market is set to open slightly higher on Friday as Wall Street stares down its first positive trading session of 2024 ahead of official US jobs data being released. Follow live.",
+          "synopsis": "The Australian share market opens slightly higher after a mixed session on Wall Street, while Core Lithium pauses its operations at its mine in the Northern Territory. Follow live.",
           "title": {
-            "children": "Australian shares set to rise as Wall Street eyes off first positive session of 2024 ahead of US jobs data"
+            "children": "Australian share market rises after mixed session on Wall Street, Core Lithium pauses mining in NT"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -354,6 +383,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "66325",
+              "date": "2024-01-04T23:35:25.000Z",
+              "title": "ASX opens higher, Core Lithium slides after pausing operations at NT mine"
+            },
+            {
               "id": "66303",
               "date": "2024-01-04T22:26:50.000Z",
               "title": "Apple hits 8-week low after suffering second rating downgrade this week"
@@ -362,11 +396,6 @@
               "id": "66301",
               "date": "2024-01-04T22:00:29.000Z",
               "title": "Dow Jones closes higher, Nasdaq finishes lower for third-straight session"
-            },
-            {
-              "id": "66300",
-              "date": "2024-01-04T21:22:07.000Z",
-              "title": "Inflation rises in Germany and France, in line with expectations"
             }
           ],
           "subjects": [
@@ -743,6 +772,80 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103287082",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A police officer stands in the middle a residential street with houses behind him.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dcd6131b9adeea756de4b91eab32336d?impolicy=wcms_crop_resize&cropH=1740&cropW=2610&xPos=5&yPos=875&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-05/fatal-house-fire-glenorchy-police-investigating/103287082"
+          },
+          "contentUri": "coremedia://article/103287082",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-05/fatal-house-fire-glenorchy-police-investigating/103287082",
+          "video": null,
+          "reactKey": "qld-103287082-1",
+          "synopsis": "A crime scene is declared and an investigation is underway into a fatal house fire in Glenorchy.",
+          "title": {
+            "children": "Body found after 'suspicious' house fire in Hobart's north"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1276",
+              "title": "House Fires"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103287036",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Glynis Johns as Mrs Banks in Disney's Mary Poppins",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9248f5c6c0b6766a3617802ef3cac303?impolicy=wcms_crop_resize&cropH=261&cropW=392&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-05/glynis-johns-mary-poppins-send-in-the-clowns/103287036"
+          },
+          "contentUri": "coremedia://article/103287036",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-05/glynis-johns-mary-poppins-send-in-the-clowns/103287036",
+          "video": null,
+          "reactKey": "qld-103287036-1",
+          "synopsis": "Clips of the star's performance of Sister Suffragette are being shared on social media as fans pay tribute to her career.",
+          "title": {
+            "children": "Glynis Johns, beloved for her feminist anthem in Mary Poppins, dies aged 100"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "494",
+              "title": "Film (Arts and Entertainment)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103002974",
           "imagePosition": {
             "mobile": "right",
@@ -965,6 +1068,129 @@
             {
               "id": "2262",
               "title": "Fishing, Aquaculture"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103154434",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Woman smiling, looking through window with sun peeking through glass. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a187a594a1ecc57317798eecc7d4d013?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/health/2024-01-05/what-are-the-health-benefits-of-sunlight/103154434"
+          },
+          "contentUri": "coremedia://article/103154434",
+          "canonicalURL": "https://www.abc.net.au/news/health/2024-01-05/what-are-the-health-benefits-of-sunlight/103154434",
+          "video": null,
+          "reactKey": "qld-103154434-1",
+          "synopsis": "The right balance of benefits vs risks of sunlight will look different from person to person, but there are ways to ensure you're on the right track when it comes to getting what you need.",
+          "title": {
+            "children": "We all need a little sunshine in our life — but getting the dose right is important"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1616",
+              "title": "Health"
+            },
+            {
+              "id": "2298",
+              "title": "Science and Technology"
+            },
+            {
+              "id": "1698",
+              "title": "Skin Cancer"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103286366",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Quiz thumbnail",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55de6f175dc9946268be74cf1c729515?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-05/weekly-news-quiz-princess-mary-alex-de-minaur-david-warner/103286366"
+          },
+          "contentUri": "coremedia://article/103286366",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-05/weekly-news-quiz-princess-mary-alex-de-minaur-david-warner/103286366",
+          "video": null,
+          "reactKey": "qld-103286366-1",
+          "synopsis": "It's the first news quiz of 2024, test your knowledge of this week's headlines.",
+          "title": {
+            "children": "Weekly news quiz: Princess Mary to become queen, Aussie star beats Djokovic and the missing baggy green"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1926",
+              "title": "Offbeat"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103255090",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young man stands in front of a print. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d05b97ab80256b05967f4edce23a0a87?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-05/nt-nauiyu-artist-kieren-karritpul-to-exhibit-at-colomboscope/103255090"
+          },
+          "contentUri": "coremedia://article/103255090",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-05/nt-nauiyu-artist-kieren-karritpul-to-exhibit-at-colomboscope/103255090",
+          "video": null,
+          "reactKey": "qld-103255090-1",
+          "synopsis": "Based in the tiny Indigenous community of Nauiyu, in one of the most remote corners of Australia, Kieren Karritpul is one of a select few artists from Australia who have been invited to exhibit their work at Colomboscope.",
+          "title": {
+            "children": "'My dreams came true': Remote artist Kieren Karritpul to exhibit at international art festival"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "13984414",
+              "title": "Art"
+            },
+            {
+              "id": "996",
+              "title": "Community and Multicultural Festivals"
             }
           ]
         }
