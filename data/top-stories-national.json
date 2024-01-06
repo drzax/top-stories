@@ -22,13 +22,13 @@
           "uri": "coremedia://article/103245102"
         },
         {
+          "uri": "coremedia://article/103291140"
+        },
+        {
           "uri": "coremedia://article/103289916"
         },
         {
           "uri": "coremedia://article/103282356"
-        },
-        {
-          "uri": "coremedia://article/103291140"
         },
         {
           "uri": "coremedia://article/103218704"
@@ -243,6 +243,65 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103291140",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Police stand by a police car at night.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f80727bf4f6b40477ca30e812f9b234?impolicy=wcms_crop_resize&cropH=637&cropW=955&xPos=372&yPos=185&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-07/live-man-in-custody-after-string-of-stabbings-across-melbourne/103291140"
+          },
+          "contentUri": "coremedia://article/103291140",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/live-man-in-custody-after-string-of-stabbings-across-melbourne/103291140",
+          "video": null,
+          "reactKey": "national-103291140-1",
+          "synopsis": "Police arrest a man after a series of stabbing attacks across Melbourne that left multiple people injured and a woman fighting for life.",
+          "title": {
+            "children": "Man in custody and multiple people in hospital after string of stabbings across Melbourne"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "1996",
+              "title": "Assault"
+            },
+            {
+              "id": "1970",
+              "title": "Law, Crime and Justice"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103289916",
@@ -328,51 +387,6 @@
             {
               "id": "14052402",
               "title": "Mental Wellbeing"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103291140",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Police stand by a police car at night.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f80727bf4f6b40477ca30e812f9b234?impolicy=wcms_crop_resize&cropH=637&cropW=955&xPos=372&yPos=185&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/man-in-custody-after-string-of-stabbings-across-melbourne/103291140"
-          },
-          "contentUri": "coremedia://article/103291140",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/man-in-custody-after-string-of-stabbings-across-melbourne/103291140",
-          "video": null,
-          "reactKey": "national-103291140-1",
-          "synopsis": "Police arrest a man after a series of stabbing attacks across Melbourne that left multiple people injured and a woman fighting for life.",
-          "title": {
-            "children": "Man in custody and multiple people in hospital after string of stabbings across Melbourne"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1982",
-              "title": "Crime"
-            },
-            {
-              "id": "1996",
-              "title": "Assault"
-            },
-            {
-              "id": "1970",
-              "title": "Law, Crime and Justice"
             }
           ]
         }

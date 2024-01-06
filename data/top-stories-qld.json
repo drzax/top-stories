@@ -873,7 +873,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103291140",
           "imagePosition": {
@@ -888,10 +895,10 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-07/man-in-custody-after-string-of-stabbings-across-melbourne/103291140"
+            "to": "/news/2024-01-07/live-man-in-custody-after-string-of-stabbings-across-melbourne/103291140"
           },
           "contentUri": "coremedia://article/103291140",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/man-in-custody-after-string-of-stabbings-across-melbourne/103291140",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/live-man-in-custody-after-string-of-stabbings-across-melbourne/103291140",
           "video": null,
           "reactKey": "qld-103291140-1",
           "synopsis": "Police arrest a man after a series of stabbing attacks across Melbourne that left multiple people injured and a woman fighting for life.",
@@ -899,6 +906,13 @@
             "children": "Man in custody and multiple people in hospital after string of stabbings across Melbourne"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1982",
