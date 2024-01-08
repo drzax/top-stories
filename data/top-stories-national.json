@@ -13,7 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103291588"
+          "uri": "coremedia://article/103293096"
         },
         {
           "uri": "coremedia://article/103230482"
@@ -46,10 +46,19 @@
           "uri": "coremedia://article/103292458"
         },
         {
+          "uri": "coremedia://article/103291588"
+        },
+        {
+          "uri": "coremedia://article/103260066"
+        },
+        {
           "uri": "coremedia://article/103292076"
         },
         {
           "uri": "coremedia://article/103258636"
+        },
+        {
+          "uri": "coremedia://article/103292646"
         },
         {
           "uri": "coremedia://article/103176580"
@@ -64,16 +73,10 @@
           "uri": "coremedia://article/103288140"
         },
         {
-          "uri": "coremedia://article/103291838"
-        },
-        {
           "uri": "coremedia://article/103287708"
         },
         {
           "uri": "coremedia://article/103292214"
-        },
-        {
-          "uri": "coremedia://article/103291464"
         },
         {
           "uri": "coremedia://article/103206178"
@@ -82,19 +85,10 @@
           "uri": "coremedia://article/103292342"
         },
         {
-          "uri": "coremedia://article/103291606"
-        },
-        {
           "uri": "coremedia://article/103240740"
         },
         {
           "uri": "coremedia://article/103291936"
-        },
-        {
-          "uri": "coremedia://article/103291536"
-        },
-        {
-          "uri": "coremedia://article/103195626"
         },
         {
           "uri": "coremedia://article/103287284"
@@ -105,11 +99,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103291588",
+          "id": "103293096",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -117,28 +117,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Water over a road with cars stopped at either side. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3cd1f089ce3cdde39eab906b9455256d?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=85&width=862&height=575",
+            "altText": "Brown water covers a country road",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/af34232354a035bb4e2331edc1b98ca8?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-08/victoria-weather-flood-warning/103291588"
+            "to": "/news/2024-01-08/victoria-weather-rain-flood-emergency-evacuation-warning-seymour/103293096"
           },
-          "contentUri": "coremedia://article/103291588",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-08/victoria-weather-flood-warning/103291588",
+          "contentUri": "coremedia://article/103293096",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-08/victoria-weather-rain-flood-emergency-evacuation-warning-seymour/103293096",
           "video": null,
-          "reactKey": "national-103291588-1",
-          "synopsis": "The State Emergency Service says it has carried out 26 rescues across Victoria as heavy rain prompts warnings of flash flooding. Areas around Bendigo have been hardest hit.",
+          "reactKey": "national-103293096-1",
+          "synopsis": "Victoria has been battered by heavy rain and flooding, with residents in parts of the towns of Seymour and Yea in the state's centre urged to evacuate. Follow our coverage live.",
           "title": {
-            "children": "Dozens of rescues amid flash flooding in Victoria, more rain on the way"
+            "children": "Residents in Victorian towns urged to evacuate as state hit by heavy rain, flooding"
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "66620",
+              "date": "2024-01-08T01:22:16.000Z",
+              "title": "Parts of Seymour issued with an evacuation warning"
+            }
           ],
           "subjects": [
             {
               "id": "2762",
               "title": "Weather"
+            },
+            {
+              "id": "1254",
+              "title": "Floods"
             }
           ]
         }
@@ -248,8 +265,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A composite of four women in glamorous dresses.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad9d90b04ab59ad1e077bd8aabd9a965?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
+            "altText": "Margot Robbie in a pink dress on the red carpet. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56f0f0d525ec45b6226fe9432274f30b?impolicy=wcms_crop_resize&cropH=2311&cropW=3467&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -261,7 +278,7 @@
           "reactKey": "national-103235124-1",
           "synopsis": "The Golden Globes are underway in Beverly Hills, with the best in film and television to be crowned. Follow live.",
           "title": {
-            "children": "Stars arrive on Golden Globes red carpet as Barbie, Oppenheimer lead nominees"
+            "children": "Margot Robbie makes a 'superstar' Golden Globes entrance as Aussie Elizabeth Debicki wins for The Crown"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -274,14 +291,19 @@
           },
           "liveBlogKeyEvents": [
             {
-              "id": "66602",
-              "date": "2024-01-08T00:30:47.000Z",
-              "title": "Margot Robbie is H E R E"
+              "id": "66627",
+              "date": "2024-01-08T01:39:35.000Z",
+              "title": "Elizabeth Debicki wins best supporting actress — television series"
             },
             {
-              "id": "66589",
-              "date": "2024-01-07T23:44:07.000Z",
-              "title": "How many Australians are up for Golden Globes?"
+              "id": "66617",
+              "date": "2024-01-08T01:18:47.000Z",
+              "title": "Robert Downey Jr wins Oppenheimer's first award for the night"
+            },
+            {
+              "id": "66610",
+              "date": "2024-01-08T00:59:38.000Z",
+              "title": "Taylor Swift has arrived"
             }
           ],
           "subjects": [
@@ -445,9 +467,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-08/lizard-island-light-plane-crash/103292742",
           "video": null,
           "reactKey": "national-103292742-1",
-          "synopsis": "Several rescue helicopters have been dispatched to the remote Great Barrier Reef Island after reports a plane overshot the runway.",
+          "synopsis": "Several people are being treated after a light plane crashed while landing on remote Lizard Island.",
           "title": {
-            "children": "Reports of injuries and child passenger from Lizard Island plane crash"
+            "children": "Several people injured in Great Barrier Reef island plane crash"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -564,9 +586,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-08/golden-globes-2024-winners-list/103291446",
           "video": null,
           "reactKey": "national-103291446-1",
-          "synopsis": "Can anything spoil the Barbenheimer party? Will Succession sweep the TV awards? Here is the full list of nominees for today's Golden Globes.",
+          "synopsis": "Can anything spoil the Barbenheimer party? Will Succession sweep the TV awards? Here are all the winners from today's Golden Globes.",
           "title": {
-            "children": "Golden Globes 2024: See all the nominees ahead of this morning's ceremony"
+            "children": "Here is the full list of winners from the 2024 Golden Globes"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -618,6 +640,88 @@
             {
               "id": "1256",
               "title": "Accidents and Emergency Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103291588",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Water over a road with cars stopped at either side. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3cd1f089ce3cdde39eab906b9455256d?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=85&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-08/victoria-weather-flood-warning/103291588"
+          },
+          "contentUri": "coremedia://article/103291588",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-08/victoria-weather-flood-warning/103291588",
+          "video": null,
+          "reactKey": "national-103291588-1",
+          "synopsis": "Emergency services in Victoria say floodwaters are rapidly rising in Seymour, advising people in some areas of the town to evacuate immediately.",
+          "title": {
+            "children": "Residents in parts of Seymour in central Victoria told to evacuate due to rising floodwater"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103260066",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "People stand before an artwork featuring red curtains in front of an even larger artwork of red curtains.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4b57d458940dda179eb1282088301a6?impolicy=wcms_crop_resize&cropH=1054&cropW=1873&xPos=0&yPos=134&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-01-08/artists-reflect-on-rural-utopia-in-regional-wa/103260066"
+          },
+          "contentUri": "coremedia://article/103260066",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-08/artists-reflect-on-rural-utopia-in-regional-wa/103260066",
+          "video": null,
+          "reactKey": "national-103260066-1",
+          "synopsis": "Ten artists were tasked with getting to know the communities in regional Western Australia and produce artwork that both challenged and reflected the places they visited. Here's what they came back with.",
+          "title": {
+            "children": "As more people move to the regions looking for a new life, these artists went bush in search of utopia"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "766",
+              "title": "Visual Art"
+            },
+            {
+              "id": "798",
+              "title": "Contemporary Art"
+            },
+            {
+              "id": "782",
+              "title": "Libraries, Museums and Galleries"
             }
           ]
         }
@@ -704,6 +808,47 @@
             {
               "id": "1670",
               "title": "Cancer"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103292646",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close-up image of a man's face taken from a social media video.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d61ae81bc169fa63679759feac17d1b?impolicy=wcms_crop_resize&cropH=285&cropW=428&xPos=40&yPos=177&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-08/jordan-kenyon-court-charged-over-fatal-stonehaven-crash/103292646"
+          },
+          "contentUri": "coremedia://article/103292646",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-08/jordan-kenyon-court-charged-over-fatal-stonehaven-crash/103292646",
+          "video": null,
+          "reactKey": "national-103292646-1",
+          "synopsis": "Jordan Kenyon, the unlicensed driver of a car involved in a fatal collision near Geelong which killed a 12-year-old girl, is remanded in custody.",
+          "title": {
+            "children": "Unlicensed driver faces court over Victorian crash which killed 12yo"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "1256",
+              "title": "Accidents and Emergency Incidents"
             }
           ]
         }
@@ -891,47 +1036,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103291838",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "crowd of people at a rave",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4042dd9094b500b36f669ee21f22b8a7?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=0&yPos=3&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/melbourne-rave-hardmission-suspected-drug-overdose/103291838"
-          },
-          "contentUri": "coremedia://article/103291838",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/melbourne-rave-hardmission-suspected-drug-overdose/103291838",
-          "video": null,
-          "reactKey": "national-103291838-1",
-          "synopsis": "Seven of the eight people believed to have overdosed at Hardmission Festival were placed into induced comas and required breathing tubes. ",
-          "title": {
-            "children": "Eight people in a critical condition following suspected drug overdose at a Melbourne rave"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "536",
-              "title": "Carnivals and Festivals"
-            },
-            {
-              "id": "1776",
-              "title": "Drugs"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103287708",
           "imagePosition": {
             "mobile": "top",
@@ -1009,51 +1113,6 @@
             {
               "id": "986",
               "title": "Domestic Violence"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103291464",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An orange tarp is draped over a roof frame after the top was blown off. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/813499afa43563dfb355f17c60e04189?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/qld-storm-cyclone-recovery-repairs-queensland/103291464"
-          },
-          "contentUri": "coremedia://article/103291464",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/qld-storm-cyclone-recovery-repairs-queensland/103291464",
-          "video": null,
-          "reactKey": "national-103291464-1",
-          "synopsis": "The Queensland government says it will take years to get homes repaired, after wild storms and flooding lashed the south-east over the Christmas holidays.",
-          "title": {
-            "children": "Storm-ravaged homes to take years to rebuild in Queensland after back-to-back natural disasters"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1248",
-              "title": "Storms"
-            },
-            {
-              "id": "102810514",
-              "title": "Thunderstorms"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
             }
           ]
         }
@@ -1155,49 +1214,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103291606",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A tall tennis player stares down at the court in frustration as she gestures with her racquet and arms.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ac66f4878a9b0c60a3d508bb869cd37?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/brisbane-international-finals-rybakina-sabalenka-rune-dimitrov/103291606"
-          },
-          "contentUri": "coremedia://article/103291606",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/brisbane-international-finals-rybakina-sabalenka-rune-dimitrov/103291606",
-          "video": null,
-          "reactKey": "national-103291606-1",
-          "synopsis": "Aryna Sabalenka's Australian Open title defence suffers a blow, as a poor performance and injury timeout in the Brisbane International final raise questions after her loss to Elena Rybakina.",
-          "title": {
-            "children": "'Thank you for the three games!': Aryna Sabalenka laughs off Brisbane final thrashing by Elena Rybakina"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "2584",
-              "title": "Tennis"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103240740",
           "imagePosition": {
             "mobile": "right",
@@ -1281,94 +1297,6 @@
             {
               "id": "2758",
               "title": "Terrorism"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103291536",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a young african man sitting behind weights at a gym",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aac2d74bc152a4bb81feb9adf2ccb5c5?impolicy=wcms_crop_resize&cropH=393&cropW=589&xPos=0&yPos=50&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/man-found-dead-in-alice-springs-identified-as-yoal-gatluak/103291536"
-          },
-          "contentUri": "coremedia://article/103291536",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/man-found-dead-in-alice-springs-identified-as-yoal-gatluak/103291536",
-          "video": null,
-          "reactKey": "national-103291536-1",
-          "synopsis": "A 19-year-old man whose body was found on a remote road near Alice Springs has been described as an \"independent boy\" and hard-working mechanic. ",
-          "title": {
-            "children": "Body of 19yo man found in Alice Springs named as 'beloved son' Yoal Gatluak"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1978",
-              "title": "Police"
-            },
-            {
-              "id": "1970",
-              "title": "Law, Crime and Justice"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103195626",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An older man standing in front of a long shop window.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2c0240b2665b1abdc456f75120b0d485?impolicy=wcms_crop_resize&cropH=2127&cropW=3191&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-07/frank-penhalluriack-retail-trading-hours-restrictions-changes/103195626"
-          },
-          "contentUri": "coremedia://article/103195626",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-07/frank-penhalluriack-retail-trading-hours-restrictions-changes/103195626",
-          "video": null,
-          "reactKey": "national-103195626-1",
-          "synopsis": "Hardware store owner Frank Penhalluriack faced massive fines, financial ruin and went to jail as he fought for what he believed in. He won, and has changed how we live, work and socialise.",
-          "title": {
-            "children": "Frank thought you should be able to do jobs around the house on weekends. It put him in jail"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "894",
-              "title": "Retail Industry"
-            },
-            {
-              "id": "822",
-              "title": "Small Business"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
             }
           ]
         }
