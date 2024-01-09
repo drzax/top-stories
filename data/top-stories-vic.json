@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103299948"
+        },
+        {
           "uri": "coremedia://article/103297956"
         },
         {
@@ -111,10 +114,66 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103299948",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Water in Mary St, Rochester",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7d10cc82498b1c7983112d192bf6a58b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-10/victoria-floods-rochester-shepparton-weather-emergency/103299948"
+          },
+          "contentUri": "coremedia://article/103299948",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-10/victoria-floods-rochester-shepparton-weather-emergency/103299948",
+          "video": null,
+          "reactKey": "vic-103299948-1",
+          "synopsis": "While residents in some Victorian towns assess damage as floodwaters recede, the northern city of Shepparton faces a nervous wait as its river rises. Follow live.",
+          "title": {
+            "children": "Victorian flood emergency moves to Shepparton as recovery begins in some towns"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1254",
+              "title": "Floods"
+            },
+            {
+              "id": "2762",
+              "title": "Weather"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103297956",
           "imagePosition": {
             "mobile": "right",
@@ -124,7 +183,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man standing in front of a flooded river",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a196cf7f1837333ea10037d6eedd184a?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a196cf7f1837333ea10037d6eedd184a?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -138,9 +197,7 @@
           "title": {
             "children": "Downstream residents still bracing for flood peak as others begin clean-up in regional Victoria"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1254",
