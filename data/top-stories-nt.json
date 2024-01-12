@@ -40,6 +40,9 @@
           "uri": "coremedia://article/103311612"
         },
         {
+          "uri": "coremedia://article/103175548"
+        },
+        {
           "uri": "coremedia://article/103312380"
         },
         {
@@ -195,7 +198,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103312432",
           "imagePosition": {
@@ -218,9 +228,16 @@
           "reactKey": "nt-103312432-1",
           "synopsis": "A Houthi official says raids have been conducted in several Yemeni cities, including the capital Sana'a, with a US official saying strikes against the Iran-backed group were carried out by air and sea.",
           "title": {
-            "children": "Australia provided support in US and British strikes against Houthi targets in Yemen, Biden says"
+            "children": "Deputy PM to speak on Australia providing support in US and British strikes against Houthi targets in Yemen"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2756",
@@ -388,7 +405,7 @@
           "isMajor": false,
           "image": {
             "altText": "James Marape and members of his government ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=1693&cropW=2539&xPos=1250&yPos=357&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -493,6 +510,51 @@
             {
               "id": "1260",
               "title": "Avalanches"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103175548",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A smiling man and a woman sit on a porch with their dog between them.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e758231b30dd1c8ce169249b11f1875b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-12/perfect-match-couple-face-parkinsons-disease-challenge/103175548"
+          },
+          "contentUri": "coremedia://article/103175548",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/perfect-match-couple-face-parkinsons-disease-challenge/103175548",
+          "video": null,
+          "reactKey": "nt-103175548-1",
+          "synopsis": "When George Isbester appeared on a 1980s television dating show, he never imagined it would later lead to him finding his wife on the other side of the world.",
+          "title": {
+            "children": "Perfect Match helped them find each other 31 years ago. Now they're facing their greatest challenge "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1616",
+              "title": "Health"
+            },
+            {
+              "id": "2234",
+              "title": "Rural Women"
+            },
+            {
+              "id": "1738",
+              "title": "Parkinson s Disease"
             }
           ]
         }

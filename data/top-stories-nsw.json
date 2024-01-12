@@ -19,13 +19,13 @@
           "uri": "coremedia://article/103312500"
         },
         {
-          "uri": "coremedia://article/103308660"
-        },
-        {
           "uri": "coremedia://article/103311022"
         },
         {
           "uri": "coremedia://article/103206322"
+        },
+        {
+          "uri": "coremedia://article/103312786"
         },
         {
           "uri": "coremedia://article/103309652"
@@ -61,7 +61,13 @@
           "uri": "coremedia://article/103312236"
         },
         {
+          "uri": "coremedia://article/103313414"
+        },
+        {
           "uri": "coremedia://article/103312590"
+        },
+        {
+          "uri": "coremedia://article/103309816"
         },
         {
           "uri": "coremedia://article/103309932"
@@ -83,9 +89,6 @@
         },
         {
           "uri": "coremedia://article/103310000"
-        },
-        {
-          "uri": "coremedia://article/103309816"
         },
         {
           "uri": "coremedia://article/103312586"
@@ -114,7 +117,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -139,11 +149,18 @@
           "reactKey": "nsw-103312432-1",
           "synopsis": "A Houthi official says raids have been conducted in several Yemeni cities, including the capital Sana'a, with a US official saying strikes against the Iran-backed group were carried out by air and sea.",
           "title": {
-            "children": "Australia provided support in US and British strikes against Houthi targets in Yemen, Biden says"
+            "children": "Deputy PM to speak on Australia providing support in US and British strikes against Houthi targets in Yemen"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2756",
@@ -201,47 +218,6 @@
             {
               "id": "1960",
               "title": "Journalism"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103308660",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A crowd gathers outside a gate while several people try to break through the gate",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71fc66e733f475d90aef562cb2f549c1?impolicy=wcms_crop_resize&cropH=1015&cropW=1523&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-11/16-people-dead-in-png-riots/103308660"
-          },
-          "contentUri": "coremedia://article/103308660",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-11/16-people-dead-in-png-riots/103308660",
-          "video": null,
-          "reactKey": "nsw-103308660-1",
-          "synopsis": "Sixteen people have died in violent riots in Papua New Guinea after some residents took advantage of police being on strike to set shops and businesses alight in the capital. The PM has now declared a state of emergency for 14 days.",
-          "title": {
-            "children": "State of emergency declared in Papua New Guinea with defence personnel on standby to stop further violence"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "1982",
-              "title": "Crime"
             }
           ]
         }
@@ -339,6 +315,47 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103312786",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A birdseye view of destruction of a building with debris covering the street outside.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c2f4a77b30975b38e7d651e45751a702?impolicy=wcms_crop_resize&cropH=2250&cropW=3375&xPos=313&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-12/png-government-attempts-to-restore-essential-services/103312786"
+          },
+          "contentUri": "coremedia://article/103312786",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/png-government-attempts-to-restore-essential-services/103312786",
+          "video": null,
+          "reactKey": "nsw-103312786-1",
+          "synopsis": "A 14-day state of emergency is in effect in Port Moresby as authorities try to restore law and order, as well as essential services, following violent riots.",
+          "title": {
+            "children": "Review into cause of PNG riots underway as government tries to restore essential services"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -356,7 +373,7 @@
           "isMajor": false,
           "image": {
             "altText": "James Marape and members of his government ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=1693&cropW=2539&xPos=1250&yPos=357&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -663,7 +680,7 @@
           "isMajor": false,
           "image": {
             "altText": "A smiling man and a woman sit on a porch with their dog between them.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e758231b30dd1c8ce169249b11f1875b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e758231b30dd1c8ce169249b11f1875b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -673,11 +690,13 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-12/perfect-match-couple-face-parkinsons-disease-challenge/103175548",
           "video": null,
           "reactKey": "nsw-103175548-1",
-          "synopsis": "When George Isbester appeared on a 1980s television dating show, he never imagined it would later lead to him finding his perfect match on the other side of the world.",
+          "synopsis": "When George Isbester appeared on a 1980s television dating show, he never imagined it would later lead to him finding his wife on the other side of the world.",
           "title": {
             "children": "Perfect Match helped them find each other 31 years ago. Now they're facing their greatest challenge "
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1616",
@@ -865,6 +884,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103313414",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Northern Territory frontbencher Nicole Manison stands on the balcony of the fifth floor of NT Parliament. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7e7bccb80af95449507d667b6595ee51?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-12/nicole-manison-former-nt-deputy-chief-minister-to-quit-politics/103313414"
+          },
+          "contentUri": "coremedia://article/103313414",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/nicole-manison-former-nt-deputy-chief-minister-to-quit-politics/103313414",
+          "video": null,
+          "reactKey": "nsw-103313414-1",
+          "synopsis": "Ms Manison, who served as the NT's deputy chief minister for seven years, has announced she will not recontest her seat at the upcoming NT election in August. ",
+          "title": {
+            "children": "Former NT deputy chief minister Nicole Manison to quit politics at next election"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1588",
+              "title": "State and Territory Government"
+            },
+            {
+              "id": "1580",
+              "title": "State and Territory Parliament"
+            },
+            {
+              "id": "10396004",
+              "title": "State and Territory Elections"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103312590",
           "imagePosition": {
             "mobile": "right",
@@ -901,6 +965,51 @@
             {
               "id": "2658",
               "title": "Australian Open"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103309816",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Janet Bowden, Michele Matthews and Lynda Bain, composite image",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a601aabd24612e6ef0a8dfc9a51a371d?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-01-12/wait-for-mammogram-services-in-tasmania/103309816"
+          },
+          "contentUri": "coremedia://article/103309816",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/wait-for-mammogram-services-in-tasmania/103309816",
+          "video": null,
+          "reactKey": "nsw-103309816-1",
+          "synopsis": "Three Tasmanian women speak of their anguish and fear after being told they have to wait months for a mammogram — with the Minister for Women saying she is \"really sad\" to hear of their plight and the government is working on the problem.",
+          "title": {
+            "children": "These three women all found lumps in their breasts. They were told they'd be waiting months for a mammogram"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1762",
+              "title": "Breast Cancer"
+            },
+            {
+              "id": "1622",
+              "title": "Healthcare Facilities"
+            },
+            {
+              "id": "1618",
+              "title": "Women's Health"
             }
           ]
         }
@@ -1048,7 +1157,7 @@
           "isMajor": false,
           "image": {
             "altText": "Two masked police officers in helmets and dark clothing carry large bundles of fabric, plastic and tape over their shoulders.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/de1ac8ac35a9c5c125d94997a9639316?impolicy=wcms_crop_resize&cropH=3269&cropW=4904&xPos=0&yPos=17&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/de1ac8ac35a9c5c125d94997a9639316?impolicy=wcms_crop_resize&cropH=3269&cropW=4904&xPos=0&yPos=17&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1062,7 +1171,9 @@
           "title": {
             "children": "The violence of the drug trade has now arrived in Latin America's safe havens"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1574",
@@ -1202,51 +1313,6 @@
             {
               "id": "1944",
               "title": "Mobile and Internet Access"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103309816",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Janet Bowden, Michele Matthews and Lynda Bain, composite image",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a601aabd24612e6ef0a8dfc9a51a371d?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-01-12/wait-for-mammogram-services-in-tasmania/103309816"
-          },
-          "contentUri": "coremedia://article/103309816",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/wait-for-mammogram-services-in-tasmania/103309816",
-          "video": null,
-          "reactKey": "nsw-103309816-1",
-          "synopsis": "Three Tasmanian women speak of their anguish and fear after being told they have to wait months for a mammogram — with the Minister for Women saying she is \"really sad\" to hear of their plight and the government is working on the problem.",
-          "title": {
-            "children": "These three women all found lumps in their breasts. They were told they'd be waiting months for a mammogram"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1762",
-              "title": "Breast Cancer"
-            },
-            {
-              "id": "1622",
-              "title": "Healthcare Facilities"
-            },
-            {
-              "id": "1618",
-              "title": "Women's Health"
             }
           ]
         }

@@ -25,10 +25,10 @@
           "uri": "coremedia://article/103312786"
         },
         {
-          "uri": "coremedia://article/103309652"
+          "uri": "coremedia://article/103154116"
         },
         {
-          "uri": "coremedia://article/103154116"
+          "uri": "coremedia://article/103309652"
         },
         {
           "uri": "coremedia://article/103312380"
@@ -49,7 +49,7 @@
           "uri": "coremedia://article/103312342"
         },
         {
-          "uri": "coremedia://article/103311700"
+          "uri": "coremedia://article/103311442"
         },
         {
           "uri": "coremedia://article/103311048"
@@ -64,10 +64,10 @@
           "uri": "coremedia://article/103309932"
         },
         {
-          "uri": "coremedia://article/103311442"
+          "uri": "coremedia://article/103310574"
         },
         {
-          "uri": "coremedia://article/103310574"
+          "uri": "coremedia://article/103311700"
         },
         {
           "uri": "coremedia://article/103312722"
@@ -77,6 +77,9 @@
         },
         {
           "uri": "coremedia://article/103312674"
+        },
+        {
+          "uri": "coremedia://article/103309162"
         },
         {
           "uri": "coremedia://article/103312950"
@@ -89,9 +92,6 @@
         },
         {
           "uri": "coremedia://article/103312586"
-        },
-        {
-          "uri": "coremedia://article/103288380"
         },
         {
           "uri": "coremedia://article/103305468"
@@ -152,7 +152,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103312432",
           "imagePosition": {
@@ -175,9 +182,16 @@
           "reactKey": "act-103312432-1",
           "synopsis": "A Houthi official says raids have been conducted in several Yemeni cities, including the capital Sana'a, with a US official saying strikes against the Iran-backed group were carried out by air and sea.",
           "title": {
-            "children": "Australia provided support in US and British strikes against Houthi targets in Yemen, Biden says"
+            "children": "Deputy PM to speak on Australia providing support in US and British strikes against Houthi targets in Yemen"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2756",
@@ -283,51 +297,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/3abc20b0a90daa38d03cc9d3bdb67297?impolicy=wcms_crop_resize&cropH=400&cropW=400&xPos=0&yPos=0&width=160&height=160",
-              "authorName": "Tim Swanston"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103309652",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "James Marape and members of his government ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-12/png-riots-political-forces-likely-factor-as-pm-faces-criticism/103309652"
-          },
-          "contentUri": "coremedia://article/103309652",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/png-riots-political-forces-likely-factor-as-pm-faces-criticism/103309652",
-          "video": null,
-          "reactKey": "act-103309652-1",
-          "synopsis": "Social and political tensions were rising across Papua New Guinea, then police went on strike and the streets ignited with deadly unrest, but the prime minister is claiming it was \"political influence\" that lit the match. ",
-          "title": {
-            "children": "When the PNG PM appeared with 26 colleagues by his side, there was a clear message "
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "102064406",
-              "title": "Civil Unrest"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103154116",
@@ -366,6 +335,51 @@
             {
               "id": "1912",
               "title": "Health Policy"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/3abc20b0a90daa38d03cc9d3bdb67297?impolicy=wcms_crop_resize&cropH=400&cropW=400&xPos=0&yPos=0&width=160&height=160",
+              "authorName": "Tim Swanston"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103309652",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "James Marape and members of his government ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33b92c60d35e7d15816e24013576fcd7?impolicy=wcms_crop_resize&cropH=1735&cropW=2602&xPos=1197&yPos=357&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-12/png-riots-political-forces-likely-factor-as-pm-faces-criticism/103309652"
+          },
+          "contentUri": "coremedia://article/103309652",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/png-riots-political-forces-likely-factor-as-pm-faces-criticism/103309652",
+          "video": null,
+          "reactKey": "act-103309652-1",
+          "synopsis": "Social and political tensions were rising across Papua New Guinea, then police went on strike and the streets ignited with deadly unrest, but the prime minister is claiming it was \"political influence\" that lit the match. ",
+          "title": {
+            "children": "When the PNG PM appeared with 26 colleagues by his side, there was a clear message "
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "102064406",
+              "title": "Civil Unrest"
             }
           ]
         }
@@ -435,7 +449,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-12/perfect-match-couple-face-parkinsons-disease-challenge/103175548",
           "video": null,
           "reactKey": "act-103175548-1",
-          "synopsis": "When George Isbester appeared on a 1980s television dating show, he never imagined it would later lead to him finding his perfect match on the other side of the world.",
+          "synopsis": "When George Isbester appeared on a 1980s television dating show, he never imagined it would later lead to him finding his wife on the other side of the world.",
           "title": {
             "children": "Perfect Match helped them find each other 31 years ago. Now they're facing their greatest challenge "
           },
@@ -463,15 +477,15 @@
           "headingClassNames": [],
           "id": "103309816",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "Janet Bowden, Michele Matthews and Lynda Bain, composite image",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a601aabd24612e6ef0a8dfc9a51a371d?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a601aabd24612e6ef0a8dfc9a51a371d?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-01-12/wait-for-mammogram-services-in-tasmania/103309816"
@@ -484,9 +498,7 @@
           "title": {
             "children": "These three women all found lumps in their breasts. They were told they'd be waiting months for a mammogram"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1762",
@@ -643,7 +655,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103311700",
+          "id": "103311442",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -651,34 +663,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of people sit facing a court in a large, high-ceilinged historical building.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb86086ca9d7066f791e6a888483bd3a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=1&width=160&height=107",
+            "altText": "Two masked police officers in helmets and dark clothing carry large bundles of fabric, plastic and tape over their shoulders.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/de1ac8ac35a9c5c125d94997a9639316?impolicy=wcms_crop_resize&cropH=3269&cropW=4904&xPos=0&yPos=17&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-12/south-africa-israel-world-court-justice-case-begins/103311700"
+            "to": "/news/2024-01-12/gang-violence-ecuador-cocaine-banana-exports-los-choneros/103311442"
           },
-          "contentUri": "coremedia://article/103311700",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/south-africa-israel-world-court-justice-case-begins/103311700",
+          "contentUri": "coremedia://article/103311442",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/gang-violence-ecuador-cocaine-banana-exports-los-choneros/103311442",
           "video": null,
-          "reactKey": "act-103311700-1",
-          "synopsis": "A continent away from the war in Gaza, South Africa accused Israel of committing genocide against the Palestinians and pleaded with the United Nations’ top court on Thursday to urgently order a halt to the country’s military operation.",
+          "reactKey": "act-103311442-1",
+          "synopsis": "The brazen gang violence gripping Ecuador has shocked the world, but it's a familiar story in other countries across Latin America, where the shifting tides of the drug war have brought conflict to places previously thought peaceful.",
           "title": {
-            "children": "South Africa accuses Israel of committing genocide in Gaza in landmark International Court of Justice case"
+            "children": "The violence of the drug trade has now arrived in Latin America's safe havens"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
             {
               "id": "1574",
               "title": "World Politics"
             },
             {
-              "id": "2014",
-              "title": "Human Rights"
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "1970",
+              "title": "Law, Crime and Justice"
             }
           ]
         }
@@ -861,7 +875,7 @@
           "isMajor": false,
           "image": {
             "altText": "Lai Ching-te smile s and waves in a crowd of people waving rainbow flags",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ce68c86dd699c7831d91d3b11bb23d2?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ce68c86dd699c7831d91d3b11bb23d2?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -875,7 +889,9 @@
           "title": {
             "children": "How Taiwan's election could serve as a proof of concept for Chinese democracy"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1574",
@@ -888,51 +904,6 @@
             {
               "id": "1556",
               "title": "Foreign Affairs"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103311442",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two masked police officers in helmets and dark clothing carry large bundles of fabric, plastic and tape over their shoulders.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/de1ac8ac35a9c5c125d94997a9639316?impolicy=wcms_crop_resize&cropH=3269&cropW=4904&xPos=0&yPos=17&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-12/gang-violence-ecuador-cocaine-banana-exports-los-choneros/103311442"
-          },
-          "contentUri": "coremedia://article/103311442",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/gang-violence-ecuador-cocaine-banana-exports-los-choneros/103311442",
-          "video": null,
-          "reactKey": "act-103311442-1",
-          "synopsis": "The brazen gang violence gripping Ecuador has shocked the world, but it's a familiar story in other countries across Latin America, where the shifting tides of the drug war have brought conflict to places previously thought peaceful.",
-          "title": {
-            "children": "The violence of the drug trade has now arrived in Latin America's safe havens"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "1982",
-              "title": "Crime"
-            },
-            {
-              "id": "1970",
-              "title": "Law, Crime and Justice"
             }
           ]
         }
@@ -974,6 +945,53 @@
             {
               "id": "2024",
               "title": "Family Law"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103311700",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of people sit facing a court in a large, high-ceilinged historical building.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb86086ca9d7066f791e6a888483bd3a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=1&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-12/south-africa-israel-world-court-justice-case-begins/103311700"
+          },
+          "contentUri": "coremedia://article/103311700",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/south-africa-israel-world-court-justice-case-begins/103311700",
+          "video": null,
+          "reactKey": "act-103311700-1",
+          "synopsis": "A continent away from the war in Gaza, South Africa accused Israel of committing genocide against the Palestinians and pleaded with the United Nations’ top court on Thursday to urgently order a halt to the country’s military operation.",
+          "title": {
+            "children": "South Africa accuses Israel of committing genocide in Gaza in landmark International Court of Justice case"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "2014",
+              "title": "Human Rights"
             }
           ]
         }
@@ -1097,6 +1115,51 @@
             {
               "id": "1958",
               "title": "Advertising (Information and Communication)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103309162",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Nectarines sitting on the ground in a puddle of dirty water.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0de4f3e18f36f6de8c1d7deca3075c6?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/rural/2024-01-12/storms-ravage-victorias-stone-fruit-season-as-swan-hill-goulburn/103309162"
+          },
+          "contentUri": "coremedia://article/103309162",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-12/storms-ravage-victorias-stone-fruit-season-as-swan-hill-goulburn/103309162",
+          "video": null,
+          "reactKey": "act-103309162-1",
+          "synopsis": "Weeks of wild weather in Victoria is likely to mean less stone fruit on supermarket shelves, after hail and heavy rain smashed Australia's main production regions, costing growers millions of dollars in losses.",
+          "title": {
+            "children": "Supply of plums, peaches and nectarines in doubt as storms ravage stone-fruit orchards"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2190",
+              "title": "Fruit"
+            },
+            {
+              "id": "2196",
+              "title": "Vegetables"
+            },
+            {
+              "id": "2170",
+              "title": "Agribusiness"
             }
           ]
         }
@@ -1271,47 +1334,6 @@
             {
               "id": "1982",
               "title": "Crime"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103288380",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a frustrated doctor superimposed over a photo of an emergency department",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b1a5a121c80899817426fddfee9f47e5?impolicy=wcms_crop_resize&cropH=1066&cropW=1600&xPos=160&yPos=14&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-12/acacia-nt-health-it-system-suspended-in-emergency-departments/103288380"
-          },
-          "contentUri": "coremedia://article/103288380",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-12/acacia-nt-health-it-system-suspended-in-emergency-departments/103288380",
-          "video": null,
-          "reactKey": "act-103288380-1",
-          "synopsis": "Emergency doctors in Darwin's busiest hospital say difficulty navigating the Northern Territory's new digital health system is threatening patients' safety.",
-          "title": {
-            "children": "'A disaster': New IT system in Top End emergency department suspended amid concerns it threatens patient safety"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1616",
-              "title": "Health"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
             }
           ]
         }
