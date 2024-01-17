@@ -22,7 +22,7 @@
           "uri": "coremedia://article/103310844"
         },
         {
-          "uri": "coremedia://article/103359552"
+          "uri": "coremedia://article/103335636"
         },
         {
           "uri": "coremedia://article/103362208"
@@ -82,6 +82,9 @@
           "uri": "coremedia://article/103362450"
         },
         {
+          "uri": "coremedia://article/103359552"
+        },
+        {
           "uri": "coremedia://article/103362146"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103359580"
-        },
-        {
-          "uri": "coremedia://article/103354026"
         }
       ]
     },
@@ -260,9 +260,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103359552",
+          "id": "103335636",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -270,32 +276,43 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two tennis fans, in stands, holding Australian flags and wearing Australian flag hats, cheering",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd542a0402c149bfe70017aa87026a30?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=9&width=862&height=575",
+            "altText": "Thanasi Kokkinakis points a finger as he celebrates a win at the 2024 Australian Open.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/440e89b7c7ec2bf090069c754e9a813e?impolicy=wcms_crop_resize&cropH=1934&cropW=2902&xPos=145&yPos=124&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-18/australia-open-five-quick-hits-special-atmosphere-alex-de-minaur/103359552"
+            "to": "/news/2024-01-18/australian-open-day-five-live-updates/103335636"
           },
-          "contentUri": "coremedia://article/103359552",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-18/australia-open-five-quick-hits-special-atmosphere-alex-de-minaur/103359552",
+          "contentUri": "coremedia://article/103335636",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-18/australian-open-day-five-live-updates/103335636",
           "video": null,
-          "reactKey": "vic-103359552-1",
-          "synopsis": "Ben Shelton was a big fan of the Australian Open crowd who were cheering against him, while tournament heavyweights were given a shock. Here are five quick hits from day four at Melbourne Park.",
+          "reactKey": "vic-103335636-1",
+          "synopsis": "Max Purcell is scheduled to play first on Margaret Court Arena, with the Aussie doubles duo of Jason Kubler and Rinky Hijikata set to star later on. Follow live.",
           "title": {
-            "children": "Five quick hits — Australian fans praised for 'special' atmosphere and ultimate show of sportsmanship after error"
+            "children": "Three Aussies in action on day five of Australian Open"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "67943",
+              "date": "2024-01-17T23:29:38.000Z",
+              "title": "Which Australians are playing today?"
+            }
           ],
           "subjects": [
             {
-              "id": "2658",
-              "title": "Australian Open"
-            },
-            {
               "id": "2584",
               "title": "Tennis"
+            },
+            {
+              "id": "2658",
+              "title": "Australian Open"
             },
             {
               "id": "2478",
@@ -1174,7 +1191,13 @@
             "countdowns": null,
             "isLiveMoment": false
           },
-          "liveBlogKeyEvents": [],
+          "liveBlogKeyEvents": [
+            {
+              "id": "67950",
+              "date": "2024-01-17T23:38:21.000Z",
+              "title": "EDGED! GOT HIM! CAMERON GREEN IS OUT!"
+            }
+          ],
           "subjects": [
             {
               "id": "2478",
@@ -1183,6 +1206,52 @@
             {
               "id": "2488",
               "title": "Cricket"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103359552",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eae763bcdee62043c381e822c336644d?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-18/australia-open-five-quick-hits-special-atmosphere-alex-de-minaur/103359552"
+          },
+          "contentUri": "coremedia://article/103359552",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-18/australia-open-five-quick-hits-special-atmosphere-alex-de-minaur/103359552",
+          "video": null,
+          "reactKey": "vic-103359552-1",
+          "synopsis": "Ben Shelton was a big fan of the Australian Open crowd and another American shows great sportsmanship after an error. Here are five quick hits from day four at Melbourne Park.",
+          "title": {
+            "children": "Five quick hits — Australian fans praised for 'special' atmosphere and ultimate show of sportsmanship after error"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "2658",
+              "title": "Australian Open"
+            },
+            {
+              "id": "2584",
+              "title": "Tennis"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
             }
           ]
         }
@@ -1653,51 +1722,6 @@
           },
           "imageContainerClassNames": [],
           "subjects": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103354026",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Dozens of servicemen and women line the sides of a large white naval vessel docked in a harbour",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/91829e4ec114a9d11f00822f35401083?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-17/beijing-points-finger-at-japan-warship-sonar-attack/103354026"
-          },
-          "contentUri": "coremedia://article/103354026",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-17/beijing-points-finger-at-japan-warship-sonar-attack/103354026",
-          "video": null,
-          "reactKey": "vic-103354026-1",
-          "synopsis": "China denies one of its warships fired sonar blasts that injured Australian navy divers last year, while claiming a Japanese warship may have been responsible.",
-          "title": {
-            "children": "Beijing points finger at Japan over sonar attack on Australian warship HMAS Toowoomba"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            },
-            {
-              "id": "1228",
-              "title": "Defence Forces"
-            }
-          ]
         }
       }
     ],
