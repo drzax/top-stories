@@ -108,7 +108,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -138,6 +145,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -221,7 +235,7 @@
           "reactKey": "qld-103362674-1",
           "synopsis": "Growers fear retribution if they complain about the prices supermarkets offer them, while consumers are complaining about skyrocketing costs. The premier will meet with four supermarket heads to investigate.",
           "title": {
-            "children": "Queensland premier to meet with supermarkets over 'broken' pricing system"
+            "children": "Queensland government to meet with supermarkets over 'broken' pricing system"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -362,7 +376,7 @@
           "reactKey": "qld-103335636-1",
           "synopsis": "Max Purcell is looking to repeat his win at last year's Cincinnati Open as he takes on Casper Ruud at Margaret Court Arena, with the Aussie doubles duo of Jason Kubler and Rinky Hijikata set to star later on. Follow live.",
           "title": {
-            "children": "Aussie Max Purcell loses first set as he faces world number 11"
+            "children": "Aussie Max Purcell fights back to win second set tiebreak over world number 11"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -373,6 +387,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "68054",
+              "date": "2024-01-18T02:51:09.000Z",
+              "title": "PURCELL HAS DONE IT, he levels the match with a win in the second set tie breaker"
+            },
+            {
               "id": "68024",
               "date": "2024-01-18T01:48:00.000Z",
               "title": "Ruud takes the first set against Max Purcell"
@@ -381,11 +400,6 @@
               "id": "67989",
               "date": "2024-01-18T01:02:24.000Z",
               "title": "Purcell faces Norwegian Casper Ruud in second round"
-            },
-            {
-              "id": "67969",
-              "date": "2024-01-18T00:21:38.000Z",
-              "title": "Mouth-watering match-ups today include some big names"
             }
           ],
           "subjects": [
@@ -745,7 +759,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-18/teenagers-charged-with-murder-over-ash-gordon-death/103361968",
           "video": null,
           "reactKey": "qld-103361968-1",
-          "synopsis": "Two 16-year-old boys have been arrested and charged with alleged aggravated burglary and the murder of Box Hill doctor Ash Gordon.",
+          "synopsis": "Two 16-year-old boys have been arrested and charged with aggravated burglary and the alleged murder of Box Hill doctor Ash Gordon.",
           "title": {
             "children": "Teens appear in court charged with murder over death of Melbourne doctor"
           },
@@ -820,8 +834,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Lightning strikes off the coast of a beach",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c0f08ef5b8be216a2005677f71d2f2f?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=1&width=160&height=107",
+            "altText": "People attend a beach on a sunny day",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bacbe2df088e74d5cf5be62096fcd9c0?impolicy=wcms_crop_resize&cropH=3694&cropW=5541&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1218,9 +1232,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-18/live-updates-australia-vs-west-indies-first-test-day-two-adelaid/103362450",
           "video": null,
           "reactKey": "qld-103362450-1",
-          "synopsis": "Australia will hope to overhaul the West Indies first innings total and establish a big lead on day two of the first Test at Adelaide Oval. Follow all the action in our live blog.",
+          "synopsis": "Australia has overhauled the West Indies' first innings total and is hoping to establish a big lead on day two of the first Test at Adelaide Oval. Follow all the action in our live blog.",
           "title": {
-            "children": "Australia lose three wickets before lunch as West Indies fight back on day two in Adelaide"
+            "children": "Australia takes a first innings lead despite loss of wickets on day two in Adelaide"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
