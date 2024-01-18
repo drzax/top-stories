@@ -46,6 +46,9 @@
           "uri": "coremedia://article/103364864"
         },
         {
+          "uri": "coremedia://article/103363274"
+        },
+        {
           "uri": "coremedia://article/103365284"
         },
         {
@@ -199,13 +202,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103362450",
           "imagePosition": {
@@ -232,29 +229,6 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "68178",
-              "date": "2024-01-18T07:02:59.000Z",
-              "title": "STUMPS: West Indies 6-73 (Da Silva 17)"
-            },
-            {
-              "id": "68176",
-              "date": "2024-01-18T07:02:00.000Z",
-              "title": "LBW! GREAVES GOES FOR 24!"
-            },
-            {
-              "id": "68159",
-              "date": "2024-01-18T06:19:28.000Z",
-              "title": "OUT! STRAIGHT TO COVER! Green strikes second ball!"
-            }
           ],
           "subjects": [
             {
@@ -464,7 +438,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man holds up a tennis ball and a racquet. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/717da893170ada5f978ea7fce3e9ecc2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/717da893170ada5f978ea7fce3e9ecc2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -478,7 +452,9 @@
           "title": {
             "children": "Aussie Max Purcell out of Australian Open after five-set battle, as Świątek clinches win to advance to third round"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -639,6 +615,47 @@
             {
               "id": "1984",
               "title": "Armed Robbery"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103363274",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man wearing sunglasses, blond beard, chain around neck, smiles.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3209346c83d9234b53c277384f961db3?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=120&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-18/jonathan-wright-ordered-to-stand-trial/103363274"
+          },
+          "contentUri": "coremedia://article/103363274",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-18/jonathan-wright-ordered-to-stand-trial/103363274",
+          "video": null,
+          "reactKey": "act-103363274-1",
+          "synopsis": "A Toowoomba man will face trial at a yet-to-be-set date in the Supreme Court over an alleged murder in 2022.",
+          "title": {
+            "children": "Man accused of hit-and-run murder ordered to stand trial despite key witness' refusal to testify"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
             },
             {
               "id": "1978",
