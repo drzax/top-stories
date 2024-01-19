@@ -49,6 +49,9 @@
           "uri": "coremedia://article/103363612"
         },
         {
+          "uri": "coremedia://article/103367348"
+        },
+        {
           "uri": "coremedia://article/103366042"
         },
         {
@@ -61,13 +64,13 @@
           "uri": "coremedia://article/103365338"
         },
         {
-          "uri": "coremedia://article/103091376"
-        },
-        {
           "uri": "coremedia://article/103367066"
         },
         {
           "uri": "coremedia://article/103350336"
+        },
+        {
+          "uri": "coremedia://article/103091376"
         },
         {
           "uri": "coremedia://article/103367576"
@@ -104,9 +107,6 @@
         },
         {
           "uri": "coremedia://article/103213746"
-        },
-        {
-          "uri": "coremedia://article/103363164"
         }
       ]
     },
@@ -163,7 +163,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103365870",
           "imagePosition": {
@@ -173,8 +180,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An aerial image overlooking a gold mine and the city of Kalgoorlie-Boulder captured by drone.   ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96513b2d0b28ce81272947ce54ff8b57?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A broken power transmission tower on farmland ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5e3621782b2cbaa7b84f7ae7d8af610?impolicy=wcms_crop_resize&cropH=713&cropW=1069&xPos=142&yPos=108&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -184,12 +191,35 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-19/kalgoorlie-blackout-explainer/103365870",
           "video": null,
           "reactKey": "sa-103365870-1",
-          "synopsis": "Power is starting to return to Kalgoorlie-Boulder, after extended outages hit the city's water supply, fuel stations, internet and phone services. ",
+          "synopsis": "Power is starting to return to Kalgoorlie-Boulder after a summer storm toppled massive transmission towers, causing extended outages to the city's water, fuel, internet and phone services. ",
           "title": {
             "children": "Power is being restored to Australia's largest outback town after long blackouts. How could this happen?"
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "68402",
+              "date": "2024-01-19T01:54:54.000Z",
+              "title": "Towers 'crumpled like tin foil'"
+            },
+            {
+              "id": "68400",
+              "date": "2024-01-19T01:53:13.000Z",
+              "title": "Two days until full restoration"
+            },
+            {
+              "id": "68399",
+              "date": "2024-01-19T01:51:05.000Z",
+              "title": "'Freak weather event' to blame"
+            }
           ],
           "subjects": [
             {
@@ -199,6 +229,10 @@
             {
               "id": "102135274",
               "title": "Electricity Production and Distribution"
+            },
+            {
+              "id": "896",
+              "title": "Utilities"
             }
           ]
         }
@@ -292,13 +326,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103367398",
           "imagePosition": {
@@ -308,8 +336,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Mitch Starc celebrates",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7a663c11e040152a05aff0063eda8f73?impolicy=wcms_crop_resize&cropH=3225&cropW=4838&xPos=81&yPos=0&width=160&height=107",
+            "altText": "Josh Hazlewood holds the ball up as he leaves the field ahead of his teammates",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/901184d6df124811e50700e0bd663290?impolicy=wcms_crop_resize&cropH=1847&cropW=2771&xPos=674&yPos=127&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -319,34 +347,11 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-19/aus-vs-wi-first-test-day-three-live-blog/103367398",
           "video": null,
           "reactKey": "sa-103367398-1",
-          "synopsis": "Australia has a small run chase left to complete a big win over the West Indies in the first Test in Adelaide. Follow all the action in our live blog.",
+          "synopsis": "Australia makes light work of the West Indies in Adelaide, completing a 10-wicket win before lunch on day three. Follow all the action in our live blog.",
           "title": {
-            "children": "Australia chasing 26 runs to win first Test against West Indies in Adelaide"
+            "children": "Australia strolls to dominant 10-wicket victory over West Indies in Adelaide"
           },
           "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "68373",
-              "date": "2024-01-19T00:37:03.000Z",
-              "title": "West Indies all out for 120, Australia needs 26"
-            },
-            {
-              "id": "68372",
-              "date": "2024-01-19T00:36:45.000Z",
-              "title": "STUMPED!"
-            },
-            {
-              "id": "68358",
-              "date": "2024-01-19T00:13:24.000Z",
-              "title": "BOWLED HIM! Hazlewood has five! Motie is cleaned up!"
-            }
-          ],
           "subjects": [
             {
               "id": "2488",
@@ -417,8 +422,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An aerial shot of a crane being used to pump filling into a large sinkhole.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2c9d3e32090fb6c52e2870213f51203c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=74&width=862&height=485",
+            "altText": "A sinkhole on a cement walkway.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77db85b60cab56d1c56e8eb3f287c11e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=223&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -507,8 +512,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman in a grocery isle of fruit and vegetables",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/350a4b5e000a482937c5b0a80059a0b6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A woman in yellow jumper holding shopping bag faces a supermarket shelf full of colourful wrapped foods.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cdacf2af613cf3776b7274a2c4cdb88?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -518,9 +523,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-19/qld-grocery-prices-parliamentary-inquiry-woolworths-coles/103367088",
           "video": null,
           "reactKey": "sa-103367088-1",
-          "synopsis": "The ABC understands the major supermarkets have agreed to participate in the inquiry. It comes after Queensland Premier Steven Miles met with supermarkets yesterday.",
+          "synopsis": "Queensland Premier Steven Miles says the major supermarkets have agreed to participate in the inquiry. It comes after he met with supermarket executives yesterday.",
           "title": {
-            "children": "Supermarkets to front inquiry into high grocery prices amid concerns over alleged price-gouging"
+            "children": "Major supermarkets agree to front inquiry into grocery prices as cost of living concerns grow"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -616,9 +621,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-19/australian-open-live-updates-novak-djokovic-alex-de-minaur/103361132",
           "video": null,
           "reactKey": "sa-103361132-1",
-          "synopsis": "Australian duo Rinky Hijikata and Jason Kubler take the court to defend last year's doubles title. Follow live.",
+          "synopsis": "Australian duo Rinky Hijikata and Jason Kubler advance to the second round of the doubles at the Australian Open. Follow live.",
           "title": {
-            "children": "Reigning Aussie doubles champions start campaign, Djokovic and de Minaur headline day six at Australian Open"
+            "children": "Reigning Aussie doubles champions win first match, Djokovic and de Minaur headline day six at Australian Open"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -629,19 +634,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "68398",
+              "date": "2024-01-19T01:48:05.000Z",
+              "title": "Another Aussie doubles duo through, Thompson/Purcell win"
+            },
+            {
+              "id": "68390",
+              "date": "2024-01-19T01:22:26.000Z",
+              "title": "Hijikata/Kubler win in two sets, through to round two"
+            },
+            {
               "id": "68374",
               "date": "2024-01-19T00:42:44.000Z",
               "title": "First set in the bag for Purcell and Thompson"
-            },
-            {
-              "id": "68370",
-              "date": "2024-01-19T00:36:17.000Z",
-              "title": "This is why they're the reigning champs. Hijikata/Kubler win first set"
-            },
-            {
-              "id": "68359",
-              "date": "2024-01-19T00:14:19.000Z",
-              "title": "Hijikata and Kubler hit the court for first round of doubles"
             }
           ],
           "subjects": [
@@ -701,6 +706,51 @@
             {
               "id": "1450",
               "title": "Climate Change"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103367348",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "picture of Israeli prime minister Benjamin Netanyahu",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ae128409affdd998cfcf6476731592a?impolicy=wcms_crop_resize&cropH=2328&cropW=3492&xPos=463&yPos=287&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/israel-benjamin-netanyahu-rejects-us-calls-for-palestinian-state/103367348"
+          },
+          "contentUri": "coremedia://article/103367348",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/israel-benjamin-netanyahu-rejects-us-calls-for-palestinian-state/103367348",
+          "video": null,
+          "reactKey": "sa-103367348-1",
+          "synopsis": "Benjamin Netanyahu rebukes a push to scale back his country's offensive in Gaza, or to help establish a Palestinian state after the war.",
+          "title": {
+            "children": "Israeli PM rejects US calls for Palestinian state after Gaza war"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "1556",
+              "title": "Foreign Affairs"
             }
           ]
         }
@@ -796,8 +846,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Tracking map from BOM on a tropical low off the Queensland coast",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e54ae3e929648667193a21db30cf6dab?impolicy=wcms_crop_resize&cropH=417&cropW=626&xPos=0&yPos=1&width=160&height=107",
+            "altText": "A forecast cyclone track map showing the directions it could potentially head next week.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f4e9c1dbee852ada7f74ee01d355cb8d?impolicy=wcms_crop_resize&cropH=746&cropW=1119&xPos=28&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -809,7 +859,7 @@
           "reactKey": "sa-103365670-1",
           "synopsis": "A tropical low developing in the Coral Sea is forecast to strengthen into a cyclone over the weekend and may track south south-westerly towards the Queensland coast.",
           "title": {
-            "children": "Tropical low could form into cyclone on Sunday and track south with 'significant risk' of impact along Queensland coast"
+            "children": "Disaster committee meets with BOM as risk of severe cyclone crossing Queensland’s coast heightens"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -872,47 +922,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103091376",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Traditional full american breakfast eggs pancakes with bacon and toast ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/87253e0f1c042b85b908998f39970cac?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/health/2024-01-19/breakfast-food-nutrition-meals-cereal-bacon-marketing-morning/103091376"
-          },
-          "contentUri": "coremedia://article/103091376",
-          "canonicalURL": "https://www.abc.net.au/news/health/2024-01-19/breakfast-food-nutrition-meals-cereal-bacon-marketing-morning/103091376",
-          "video": null,
-          "reactKey": "sa-103091376-1",
-          "synopsis": "You’ve probably heard that breakfast is the ‘most important meal of the day’. But is that true and when did bacon, eggs, or cereal become part of our morning routine?",
-          "title": {
-            "children": "Bacon, eggs and a side of PR? How advertising shaped what we eat for breakfast"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1616",
-              "title": "Health"
-            },
-            {
-              "id": "1808",
-              "title": "Diet and Nutrition"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -953,6 +962,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "68401",
+              "date": "2024-01-19T01:53:41.000Z",
+              "title": "ASX gains wane midway through session"
+            },
+            {
               "id": "68336",
               "date": "2024-01-18T23:34:34.000Z",
               "title": "Investors buy (almost) everything on the ASX this morning"
@@ -961,11 +975,6 @@
               "id": "68328",
               "date": "2024-01-18T23:12:48.000Z",
               "title": "Black Friday only a temporary reprieve for retail pressures"
-            },
-            {
-              "id": "68322",
-              "date": "2024-01-18T20:46:10.000Z",
-              "title": "Wall Street rises on tech boom despite continued interest rate caution"
             }
           ],
           "subjects": [
@@ -1025,6 +1034,47 @@
             {
               "id": "954",
               "title": "Community and Society"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103091376",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Traditional full american breakfast eggs pancakes with bacon and toast ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/87253e0f1c042b85b908998f39970cac?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/health/2024-01-19/breakfast-food-nutrition-meals-cereal-bacon-marketing-morning/103091376"
+          },
+          "contentUri": "coremedia://article/103091376",
+          "canonicalURL": "https://www.abc.net.au/news/health/2024-01-19/breakfast-food-nutrition-meals-cereal-bacon-marketing-morning/103091376",
+          "video": null,
+          "reactKey": "sa-103091376-1",
+          "synopsis": "You’ve probably heard that breakfast is the ‘most important meal of the day’. But is that true and when did bacon, eggs, or cereal become part of our morning routine?",
+          "title": {
+            "children": "Bacon, eggs and a side of PR? How advertising shaped what we eat for breakfast"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1616",
+              "title": "Health"
+            },
+            {
+              "id": "1808",
+              "title": "Diet and Nutrition"
             }
           ]
         }
@@ -1218,7 +1268,7 @@
           "isMajor": false,
           "image": {
             "altText": "Smiling girl, brown hair tied back, blue t-shirt, black shorts, purple keds,holds cans in her hand, next to a car",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c64214f37ce7584fab18336c0b6f315?impolicy=wcms_crop_resize&cropH=1079&cropW=1619&xPos=301&yPos=1&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c64214f37ce7584fab18336c0b6f315?impolicy=wcms_crop_resize&cropH=442&cropW=662&xPos=449&yPos=146&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1230,7 +1280,7 @@
           "reactKey": "sa-103326256-1",
           "synopsis": "Emily McLaren needs $12,000 to go to an American space camp. Recycling about 60,000 containers will help her save for half of it. ",
           "title": {
-            "children": "Empty beer cans and soft drink bottles are this teenager's ticket to meeting an astronaut "
+            "children": "With each empty beer bottle and drink can, Emily is 10 cents closer to a space camp in the US"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1520,15 +1570,15 @@
           "headingClassNames": [],
           "id": "103213746",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "Woman in sportswear holds large silver trophy and smiles humbly toward crowd",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24e302d9c9509b2d89dd0f2410af73fd?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24e302d9c9509b2d89dd0f2410af73fd?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-01-19/top-five-memorable-moments-in-the-australian-open-history/103213746"
@@ -1541,9 +1591,7 @@
           "title": {
             "children": "Epic clashes, tales of sportsmanship and home-soil heroes: Relive Australian Opens past"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2478",
@@ -1556,47 +1604,6 @@
             {
               "id": "2658",
               "title": "Australian Open"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103363164",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two horses rearing and fighting with bushland in the background.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8dce0f5107409a3b9cb9c9c00a05563a?impolicy=wcms_crop_resize&cropH=2538&cropW=4512&xPos=244&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-01-18/brumby-fight-kosciuszko-national-park-photography/103363164"
-          },
-          "contentUri": "coremedia://article/103363164",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-18/brumby-fight-kosciuszko-national-park-photography/103363164",
-          "video": null,
-          "reactKey": "sa-103363164-1",
-          "synopsis": "A \"wow moment\" video of a fiery exchange between brumbies in Kosciuszko National Park gains popularity amid continued efforts to reduce their population.",
-          "title": {
-            "children": "Award-winning photographer captures rare footage of brumby clash as culling debate continues"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1430",
-              "title": "National Parks"
-            },
-            {
-              "id": "1934",
-              "title": "Animals"
             }
           ]
         }
