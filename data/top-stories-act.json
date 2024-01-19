@@ -102,7 +102,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -132,6 +139,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -162,7 +176,7 @@
           "isMajor": false,
           "image": {
             "altText": "Stephanie Trethewey, Tasmanian Australian of the Year for 2024",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46d0a8a8a788ecb36a7f195068e410fb?impolicy=wcms_crop_resize&cropH=1333&cropW=2000&xPos=0&yPos=445&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46d0a8a8a788ecb36a7f195068e410fb?impolicy=wcms_crop_resize&cropH=1333&cropW=2000&xPos=0&yPos=445&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -176,9 +190,7 @@
           "title": {
             "children": "Australian of the Year finalist denounces 'crazy vegans' after divesting abattoir co-ownership to husband"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1972",
@@ -432,7 +444,7 @@
           "reactKey": "act-103365870-1",
           "synopsis": "Power is starting to return to Kalgoorlie-Boulder after a summer storm toppled massive transmission towers, causing extended outages to the city's water, fuel, internet and phone services. ",
           "title": {
-            "children": "Power is being restored to Australia's largest outback town after long blackouts. What happened?"
+            "children": "'Freak storm' blamed for massive power, water blackouts in WA with massive towers 'crumpled like tin foil'"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -580,7 +592,7 @@
           "isMajor": false,
           "image": {
             "altText": "Fans cheer on Alex deMinaur on John Cain Arena during the 2023 Australian Open.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/605a110627aa4054496a58ad2ecacef4?impolicy=wcms_crop_resize&cropH=2689&cropW=4033&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/605a110627aa4054496a58ad2ecacef4?impolicy=wcms_crop_resize&cropH=2689&cropW=4033&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -594,9 +606,7 @@
           "title": {
             "children": "John Cain Arena has been likened to a 'zoo'. So what can Alex de Minaur expect when he plays there tonight?"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2584",
@@ -626,8 +636,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A sign attached to a fence saying this area may be affected by sewage overflow next to a baby in a pram",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09d048c19b9c11350061701311d134cc?impolicy=wcms_crop_resize&cropH=3010&cropW=4515&xPos=0&yPos=188&width=160&height=107",
+            "altText": "A geographical map of Sydney's north with red, yellow and green spots highlighting pollution at certain beaches and pools.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c38bc3a59523f2ae34713aeb6f3ab242?impolicy=wcms_crop_resize&cropH=811&cropW=1216&xPos=0&yPos=16&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -668,7 +678,7 @@
           "isMajor": false,
           "image": {
             "altText": "picture of a polar bear on ice ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cb1fff5f338c3edc896dbc727c822ba?impolicy=wcms_crop_resize&cropH=2345&cropW=3517&xPos=617&yPos=610&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cb1fff5f338c3edc896dbc727c822ba?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -682,7 +692,9 @@
           "title": {
             "children": "NASA scientists surprised by pace of Greenland glacier ice melt"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "13493460",
@@ -959,7 +971,7 @@
           "isMajor": false,
           "image": {
             "altText": "Traditional full american breakfast eggs pancakes with bacon and toast ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/87253e0f1c042b85b908998f39970cac?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/87253e0f1c042b85b908998f39970cac?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -973,7 +985,9 @@
           "title": {
             "children": "Bacon, eggs and a side of PR? How advertising shaped what we eat for breakfast"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1616",
@@ -1085,7 +1099,7 @@
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d98bdb29f9fe59329ac5a38a7d09ec0e?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d98bdb29f9fe59329ac5a38a7d09ec0e?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1099,7 +1113,9 @@
           "title": {
             "children": "Vets seek fresh feathers for 'Stan' the winged wedge-tailed eagle"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2404",
@@ -1130,7 +1146,7 @@
           "isMajor": false,
           "image": {
             "altText": "A red panda climbs through a wooden tube.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9304fd99372fc5b5591511d5dcd7c396?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=139&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9304fd99372fc5b5591511d5dcd7c396?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=139&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1144,9 +1160,7 @@
           "title": {
             "children": "There are about 50 red pandas in Australia, but none have successfully given birth in two years — until now"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1448",

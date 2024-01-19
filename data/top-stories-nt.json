@@ -16,6 +16,9 @@
           "uri": "coremedia://article/103367538"
         },
         {
+          "uri": "coremedia://article/103367608"
+        },
+        {
           "uri": "coremedia://article/103364638"
         },
         {
@@ -147,6 +150,47 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "subjects": [
+            {
+              "id": "1284",
+              "title": "Road Accidents and Incidents"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103367608",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An aerial view of a remote township in the outback.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7256b16b3668f1221121a36eec75d974?impolicy=wcms_crop_resize&cropH=3330&cropW=4995&xPos=2&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/mataranka-nt-pedestrian-death-road-train-alleged-hit-and-run/103367608"
+          },
+          "contentUri": "coremedia://article/103367608",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/mataranka-nt-pedestrian-death-road-train-alleged-hit-and-run/103367608",
+          "video": null,
+          "reactKey": "nt-103367608-1",
+          "synopsis": "A man is yet to be identified after being killed by a road train on the Stuart Highway near the town of Mataranka.",
+          "title": {
+            "children": "Pedestrian killed by road train in alleged hit-and-run on Stuart Highway south of Darwin"
+          },
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1284",
@@ -312,7 +356,7 @@
           "reactKey": "nt-103365870-1",
           "synopsis": "Power is starting to return to Kalgoorlie-Boulder after a summer storm toppled massive transmission towers, causing extended outages to the city's water, fuel, internet and phone services. ",
           "title": {
-            "children": "Power is being restored to Australia's largest outback town after long blackouts. What happened?"
+            "children": "'Freak storm' blamed for massive power, water blackouts in WA with massive towers 'crumpled like tin foil'"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -926,8 +970,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A sign attached to a fence saying this area may be affected by sewage overflow next to a baby in a pram",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09d048c19b9c11350061701311d134cc?impolicy=wcms_crop_resize&cropH=3010&cropW=4515&xPos=0&yPos=188&width=160&height=107",
+            "altText": "A geographical map of Sydney's north with red, yellow and green spots highlighting pollution at certain beaches and pools.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c38bc3a59523f2ae34713aeb6f3ab242?impolicy=wcms_crop_resize&cropH=811&cropW=1216&xPos=0&yPos=16&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -998,7 +1042,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103365670",
           "imagePosition": {
@@ -1024,6 +1075,13 @@
             "children": "Disaster committee meets with BOM as risk of severe cyclone crossing Queensland's coast heightens"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",

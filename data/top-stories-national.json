@@ -22,9 +22,6 @@
           "uri": "coremedia://article/103367348"
         },
         {
-          "uri": "coremedia://article/103367398"
-        },
-        {
           "uri": "coremedia://article/103367562"
         },
         {
@@ -40,10 +37,19 @@
           "uri": "coremedia://article/103361132"
         },
         {
-          "uri": "coremedia://article/103366340"
+          "uri": "coremedia://article/103367398"
         },
         {
           "uri": "coremedia://article/103367578"
+        },
+        {
+          "uri": "coremedia://article/103351042"
+        },
+        {
+          "uri": "coremedia://article/103367576"
+        },
+        {
+          "uri": "coremedia://article/103368866"
         },
         {
           "uri": "coremedia://article/103363612"
@@ -67,9 +73,6 @@
           "uri": "coremedia://article/103091376"
         },
         {
-          "uri": "coremedia://article/103367576"
-        },
-        {
           "uri": "coremedia://article/103367538"
         },
         {
@@ -79,13 +82,13 @@
           "uri": "coremedia://article/103364136"
         },
         {
-          "uri": "coremedia://article/103351042"
-        },
-        {
           "uri": "coremedia://article/103367140"
         },
         {
           "uri": "coremedia://article/103366986"
+        },
+        {
+          "uri": "coremedia://article/103367608"
         },
         {
           "uri": "coremedia://article/103367000"
@@ -99,7 +102,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -129,6 +139,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1296",
@@ -231,47 +248,6 @@
             {
               "id": "1556",
               "title": "Foreign Affairs"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103367398",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Josh Hazlewood holds the ball up as he leaves the field ahead of his teammates",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/901184d6df124811e50700e0bd663290?impolicy=wcms_crop_resize&cropH=1847&cropW=2771&xPos=674&yPos=127&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-19/aus-vs-wi-first-test-day-three-live-blog/103367398"
-          },
-          "contentUri": "coremedia://article/103367398",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/aus-vs-wi-first-test-day-three-live-blog/103367398",
-          "video": null,
-          "reactKey": "national-103367398-1",
-          "synopsis": "Australia makes light work of the West Indies in Adelaide, completing a 10-wicket win before lunch on day three. Follow all the action in our live blog.",
-          "title": {
-            "children": "Australia strolls to dominant 10-wicket victory over West Indies in Adelaide"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2488",
-              "title": "Cricket"
-            },
-            {
-              "id": "2478",
-              "title": "Sport"
             }
           ]
         }
@@ -384,7 +360,7 @@
           "reactKey": "national-103365870-1",
           "synopsis": "Power is starting to return to Kalgoorlie-Boulder after a summer storm toppled massive transmission towers, causing extended outages to the city's water, fuel, internet and phone services. ",
           "title": {
-            "children": "Power is being restored to Australia's largest outback town after long blackouts. What happened?"
+            "children": "'Freak storm' blamed for massive power, water blackouts in WA with massive towers 'crumpled like tin foil'"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -525,7 +501,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103366340",
+          "id": "103367398",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -533,36 +509,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Fans cheer on Alex deMinaur on John Cain Arena during the 2023 Australian Open.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/605a110627aa4054496a58ad2ecacef4?impolicy=wcms_crop_resize&cropH=2689&cropW=4033&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Josh Hazlewood holds the ball up as he leaves the field ahead of his teammates",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/901184d6df124811e50700e0bd663290?impolicy=wcms_crop_resize&cropH=1847&cropW=2771&xPos=674&yPos=127&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-19/australian-open-alex-de-minaur-john-cain-arena/103366340"
+            "to": "/news/2024-01-19/aus-vs-wi-first-test-day-three-live-blog/103367398"
           },
-          "contentUri": "coremedia://article/103366340",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/australian-open-alex-de-minaur-john-cain-arena/103366340",
+          "contentUri": "coremedia://article/103367398",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/aus-vs-wi-first-test-day-three-live-blog/103367398",
           "video": null,
-          "reactKey": "national-103366340-1",
-          "synopsis": "Known as the \"people's court\", John Cain Arena has built a reputation for housing raucous local fans, meaning Alex de Minaur won't be lacking hometown support when he plays his Australian Open third-round match.",
+          "reactKey": "national-103367398-1",
+          "synopsis": "Australia makes light work of the West Indies in Adelaide, completing a 10-wicket win before lunch on day three. Follow all the action in our live blog.",
           "title": {
-            "children": "John Cain Arena has been likened to a 'zoo'. So what can Alex de Minaur expect when he plays there tonight?"
+            "children": "Australia strolls to dominant 10-wicket victory over West Indies in Adelaide"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "2584",
-              "title": "Tennis"
+              "id": "2488",
+              "title": "Cricket"
             },
             {
               "id": "2478",
               "title": "Sport"
-            },
-            {
-              "id": "2658",
-              "title": "Australian Open"
             }
           ]
         }
@@ -580,8 +550,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A sign attached to a fence saying this area may be affected by sewage overflow next to a baby in a pram",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09d048c19b9c11350061701311d134cc?impolicy=wcms_crop_resize&cropH=3010&cropW=4515&xPos=0&yPos=188&width=160&height=107",
+            "altText": "A geographical map of Sydney's north with red, yellow and green spots highlighting pollution at certain beaches and pools.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c38bc3a59523f2ae34713aeb6f3ab242?impolicy=wcms_crop_resize&cropH=811&cropW=1216&xPos=0&yPos=16&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -604,6 +574,143 @@
             {
               "id": "1462",
               "title": "Water Pollution"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103351042",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A sinkhole on a cement walkway.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77db85b60cab56d1c56e8eb3f287c11e?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=136&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/mount-gambier-sinkhole-being-filled-after-ancient-cave-collapse/103351042"
+          },
+          "contentUri": "coremedia://article/103351042",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/mount-gambier-sinkhole-being-filled-after-ancient-cave-collapse/103351042",
+          "video": null,
+          "reactKey": "national-103351042-1",
+          "synopsis": "The sinkhole in Mount Gambier appeared last year after heavy rain. After seven months, the council has started to fill it in.",
+          "title": {
+            "children": "Giant CBD sinkhole caused by ancient cave collapse finally being filled"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "2374",
+              "title": "Geology"
+            },
+            {
+              "id": "1604",
+              "title": "Local Government"
+            },
+            {
+              "id": "2450",
+              "title": "Engineering"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103367576",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Luke Plapp",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f256c78c8519401b013805cd3f8201ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/tour-down-under-luke-plapp-crash/103367576"
+          },
+          "contentUri": "coremedia://article/103367576",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/tour-down-under-luke-plapp-crash/103367576",
+          "video": null,
+          "reactKey": "national-103367576-1",
+          "synopsis": "Luke Plapp is forced out of the Tour Down Under after the Australian cycling star suffered severe road rash in a crash, while Rudy Molard shares a picture of his injuries from hospital. Warning: graphic images.",
+          "title": {
+            "children": "Aussie star out of Tour Down Under after suffering brutal road rash, as French rider shares photo of his horrific injuries"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "13812672",
+              "title": "Track Cycling"
+            },
+            {
+              "id": "13812670",
+              "title": "Road Cycle Racing"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103368866",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A Crime Scene Services van on a road in the early hours of the morning.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/41656c38d33991d742f14e99cb5c99c6?impolicy=wcms_crop_resize&cropH=868&cropW=1303&xPos=75&yPos=71&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/melbourne-stabbing-attacks-accused-christopher-raftopoulos-court/103368866"
+          },
+          "contentUri": "coremedia://article/103368866",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/melbourne-stabbing-attacks-accused-christopher-raftopoulos-court/103368866",
+          "video": null,
+          "reactKey": "national-103368866-1",
+          "synopsis": "Christopher Raftopoulos is accused of attacking five people in four separate incidents in inner Melbourne earlier this month.",
+          "title": {
+            "children": "Police can use 'reasonable force' to collect DNA sample from man accused of Melbourne stabbings"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "2354",
+              "title": "DNA Testing"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
             }
           ]
         }
@@ -945,51 +1052,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103367576",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Luke Plapp",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f256c78c8519401b013805cd3f8201ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-19/tour-down-under-luke-plapp-crash/103367576"
-          },
-          "contentUri": "coremedia://article/103367576",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/tour-down-under-luke-plapp-crash/103367576",
-          "video": null,
-          "reactKey": "national-103367576-1",
-          "synopsis": "Luke Plapp is forced out of the Tour Down Under after the Australian cycling star suffered severe road rash in a crash, while Rudy Molard shares a picture of his injuries from hospital. Warning: graphic images.",
-          "title": {
-            "children": "Aussie star out of Tour Down Under after suffering brutal road rash, as French rider shares photo of his horrific injuries"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "13812672",
-              "title": "Track Cycling"
-            },
-            {
-              "id": "13812670",
-              "title": "Road Cycle Racing"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103367538",
           "imagePosition": {
             "mobile": "right",
@@ -1122,53 +1184,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103351042",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A sinkhole on a cement walkway.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77db85b60cab56d1c56e8eb3f287c11e?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=136&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-19/mount-gambier-sinkhole-being-filled-after-ancient-cave-collapse/103351042"
-          },
-          "contentUri": "coremedia://article/103351042",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/mount-gambier-sinkhole-being-filled-after-ancient-cave-collapse/103351042",
-          "video": null,
-          "reactKey": "national-103351042-1",
-          "synopsis": "The sinkhole in Mount Gambier appeared last year after heavy rain. After seven months, the council has started to fill it in.",
-          "title": {
-            "children": "Giant CBD sinkhole caused by ancient cave collapse finally being filled"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2374",
-              "title": "Geology"
-            },
-            {
-              "id": "1604",
-              "title": "Local Government"
-            },
-            {
-              "id": "2450",
-              "title": "Engineering"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103367140",
           "imagePosition": {
             "mobile": "right",
@@ -1242,6 +1257,47 @@
             {
               "id": "1246",
               "title": "Disasters, Accidents and Emergency Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103367608",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An aerial view of a remote township in the outback.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7256b16b3668f1221121a36eec75d974?impolicy=wcms_crop_resize&cropH=3330&cropW=4995&xPos=2&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-19/mataranka-nt-pedestrian-death-road-train-alleged-hit-and-run/103367608"
+          },
+          "contentUri": "coremedia://article/103367608",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-19/mataranka-nt-pedestrian-death-road-train-alleged-hit-and-run/103367608",
+          "video": null,
+          "reactKey": "national-103367608-1",
+          "synopsis": "A man is yet to be identified after being killed by a road train on the Stuart Highway near the town of Mataranka.",
+          "title": {
+            "children": "Pedestrian killed by road train in alleged hit-and-run on Stuart Highway south of Darwin"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1284",
+              "title": "Road Accidents and Incidents"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
             }
           ]
         }
