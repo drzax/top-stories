@@ -19,6 +19,9 @@
           "uri": "coremedia://article/103372316"
         },
         {
+          "uri": "coremedia://article/103371520"
+        },
+        {
           "uri": "coremedia://article/103323062"
         },
         {
@@ -71,9 +74,6 @@
         },
         {
           "uri": "coremedia://article/103367100"
-        },
-        {
-          "uri": "coremedia://article/103371520"
         },
         {
           "uri": "coremedia://article/103372762"
@@ -182,9 +182,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-21/australia-open-live-updates-alex-de-minaur-novak-djokovic/103372316",
           "video": null,
           "reactKey": "national-103372316-1",
-          "synopsis": "Novak Djokovic takes to Rod Laver Arena during the day for the first time since 2021 after teenager Coco Gauff advances with a straight sets win. Follow Live",
+          "synopsis": "Novak Djokovic takes to Rod Laver Arena during the day for the first time since 2021 after teenager Coco Gauff advances with a straight sets win. Follow live",
           "title": {
-            "children": "Djokovic takes on veteran Frenchman in rare daytime sighting, Gauff cruises into Australian Open quarterfinals"
+            "children": "Djokovic dominates first set against veteran Frenchman in rare daytime match, Gauff cruises into Australian Open quarterfinals"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -195,6 +195,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "68604",
+              "date": "2024-01-21T03:25:50.000Z",
+              "title": "Djokovic bagels Mannarino in first set, 6-0"
+            },
+            {
               "id": "68603",
               "date": "2024-01-21T03:19:29.000Z",
               "title": "Live score: Taylor Fritz vs Stefanos Tsitsipas"
@@ -203,11 +208,6 @@
               "id": "68602",
               "date": "2024-01-21T03:12:44.000Z",
               "title": "Djokovic breaks Mannarino's first service game"
-            },
-            {
-              "id": "68597",
-              "date": "2024-01-21T02:44:28.000Z",
-              "title": "Live score: Novak Djokovic vs Adrian Mannarino"
             }
           ],
           "subjects": [
@@ -222,6 +222,65 @@
             {
               "id": "2478",
               "title": "Sport"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103371520",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a cyclone track map showing a weather system headed towards townsville",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3dddec3172157fc1146d944ce4696d00?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-21/low-could-develop-into-tropical-cyclone-severe-impact-possible/103371520"
+          },
+          "contentUri": "coremedia://article/103371520",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-21/low-could-develop-into-tropical-cyclone-severe-impact-possible/103371520",
+          "video": null,
+          "reactKey": "national-103371520-1",
+          "synopsis": "The developing weather system is now considered likely to cross the coast between Cooktown and Mackay, bringing heavy rainfall with it.",
+          "title": {
+            "children": "Tropical low forecast to approach Queensland coast, intensify into a cyclone tomorrow"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "2766",
+              "title": "Weather Phenomena"
+            },
+            {
+              "id": "102821956",
+              "title": "Weather Forecasts"
             }
           ]
         }
@@ -1014,51 +1073,6 @@
             {
               "id": "1144",
               "title": "Aboriginal"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103371520",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a cyclone track map showing a weather system headed towards townsville",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3dddec3172157fc1146d944ce4696d00?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-21/low-could-develop-into-tropical-cyclone-severe-impact-possible/103371520"
-          },
-          "contentUri": "coremedia://article/103371520",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-21/low-could-develop-into-tropical-cyclone-severe-impact-possible/103371520",
-          "video": null,
-          "reactKey": "national-103371520-1",
-          "synopsis": "The developing weather system is now considered likely to cross the coast between Cooktown and Mackay, bringing heavy rainfall with it.",
-          "title": {
-            "children": "Tropical low forecast to approach Queensland coast, intensify into a cyclone tomorrow"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2762",
-              "title": "Weather"
-            },
-            {
-              "id": "2766",
-              "title": "Weather Phenomena"
-            },
-            {
-              "id": "102821956",
-              "title": "Weather Forecasts"
             }
           ]
         }
