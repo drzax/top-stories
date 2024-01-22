@@ -91,9 +91,6 @@
           "uri": "coremedia://article/103249816"
         },
         {
-          "uri": "coremedia://article/103219876"
-        },
-        {
           "uri": "coremedia://article/103310862"
         },
         {
@@ -807,13 +804,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103374376",
           "imagePosition": {
@@ -834,34 +825,11 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-22/asx-markets-business-news-live-updates/103374376",
           "video": null,
           "reactKey": "act-103374376-1",
-          "synopsis": "US shares hit a record high despite rate cut bets being further scaled back amid economic optimism and comments from a voting Federal Reserve official describing rate cut talk as \"premature\". Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "synopsis": "US shares hit a record high despite rate cut bets being further scaled back amid economic optimism and comments from a voting Federal Reserve official describing rate cut talk as \"premature\". Look back on our markets blog to see how Wednesday's events unfolded.",
           "title": {
-            "children": "ASX rises, Liontown plunges on funding setback, Wall Street a bull market"
+            "children": "ASX rises, Liontown plunges on funding setback, Wall Street becomes bull market — as it happened"
           },
           "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "68731",
-              "date": "2024-01-22T05:21:36.000Z",
-              "title": "ASX closed up"
-            },
-            {
-              "id": "68717",
-              "date": "2024-01-22T04:07:41.000Z",
-              "title": "Ocean cargo rates climb after new Red Sea ship attacks"
-            },
-            {
-              "id": "68715",
-              "date": "2024-01-22T03:44:36.000Z",
-              "title": "AI-services firm Appen hits record low"
-            }
-          ],
           "subjects": [
             {
               "id": "846",
@@ -937,7 +905,7 @@
           "isMajor": false,
           "image": {
             "altText": "Kulin shed no roof",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f7d2fd58b8341d72d020628cc2a3436?impolicy=wcms_crop_resize&cropH=705&cropW=1057&xPos=200&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f7d2fd58b8341d72d020628cc2a3436?impolicy=wcms_crop_resize&cropH=705&cropW=1057&xPos=200&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -951,7 +919,9 @@
           "title": {
             "children": "Farmers in WA's Wheatbelt still without power nearly a week after 'tornado'-like storm"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1248",
@@ -1310,51 +1280,6 @@
             {
               "id": "102272708",
               "title": "Cost of Living"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103219876",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Locals watch as a fires come over the hill",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9d18307bf47654815c88b566fd47515?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-22/are-megafires-contributing-to-climate-change/103219876"
-          },
-          "contentUri": "coremedia://article/103219876",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/are-megafires-contributing-to-climate-change/103219876",
-          "video": null,
-          "reactKey": "act-103219876-1",
-          "synopsis": "Megafires were once rare, but they are becoming increasingly common, and 2023 is clear evidence of that. Experts say the events are being made worse by climate change. But how much are wildfires contributing to climate change themselves? ",
-          "title": {
-            "children": "Canadian fires pumped triple the country's annual emissions into the atmosphere. What does that mean for the climate?"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "11161436",
-              "title": "Wildfires"
-            },
-            {
-              "id": "1280",
-              "title": "Bushfires"
-            },
-            {
-              "id": "1450",
-              "title": "Climate Change"
             }
           ]
         }
