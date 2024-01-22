@@ -16,10 +16,10 @@
           "uri": "coremedia://article/103376700"
         },
         {
-          "uri": "coremedia://article/103377976"
+          "uri": "coremedia://article/103377882"
         },
         {
-          "uri": "coremedia://article/103377882"
+          "uri": "coremedia://article/103377976"
         },
         {
           "uri": "coremedia://article/103211518"
@@ -159,51 +159,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103377976",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "000141788 (1)",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bcb881398d7572d7faaaad9cc339d6fc?impolicy=wcms_crop_resize&cropH=349&cropW=524&xPos=0&yPos=72&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-23/australian-government-sanctions-russian-over-medibank-data-leak/103377976"
-          },
-          "contentUri": "coremedia://article/103377976",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/australian-government-sanctions-russian-over-medibank-data-leak/103377976",
-          "video": null,
-          "reactKey": "nsw-103377976-1",
-          "synopsis": "The Australian government has imposed sanctions against Russian man Aleksandr Ermakov over his role in the Medibank Private data breach.",
-          "title": {
-            "children": "'Cyber sanctions' used for first time to target Medibank hacker"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            },
-            {
-              "id": "1240",
-              "title": "Security Intelligence"
-            },
-            {
-              "id": "2472",
-              "title": "Cyber Crime"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103377882",
           "imagePosition": {
             "mobile": "right",
@@ -240,6 +195,51 @@
             {
               "id": "808",
               "title": "Business, Economics and Finance"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103377976",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "000141788 (1)",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bcb881398d7572d7faaaad9cc339d6fc?impolicy=wcms_crop_resize&cropH=349&cropW=524&xPos=0&yPos=72&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-23/australian-government-sanctions-russian-over-medibank-data-leak/103377976"
+          },
+          "contentUri": "coremedia://article/103377976",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/australian-government-sanctions-russian-over-medibank-data-leak/103377976",
+          "video": null,
+          "reactKey": "nsw-103377976-1",
+          "synopsis": "The Australian government has imposed sanctions against Russian man Aleksandr Ermakov over his role in the Medibank Private data breach.",
+          "title": {
+            "children": "'Cyber sanctions' used for first time to target Medibank hacker"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1240",
+              "title": "Security Intelligence"
+            },
+            {
+              "id": "2472",
+              "title": "Cyber Crime"
             }
           ]
         }
@@ -292,7 +292,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103376292",
           "imagePosition": {
@@ -318,6 +325,13 @@
             "children": "Risk of 'extremely heavy rainfall' to impact most of Queensland as future cyclone approaches"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
