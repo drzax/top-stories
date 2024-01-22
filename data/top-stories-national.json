@@ -34,6 +34,9 @@
           "uri": "coremedia://article/103374808"
         },
         {
+          "uri": "coremedia://article/103375150"
+        },
+        {
           "uri": "coremedia://article/103323642"
         },
         {
@@ -46,22 +49,22 @@
           "uri": "coremedia://article/103374844"
         },
         {
-          "uri": "coremedia://article/102683994"
-        },
-        {
           "uri": "coremedia://article/103362820"
-        },
-        {
-          "uri": "coremedia://article/103374132"
         },
         {
           "uri": "coremedia://article/103374800"
         },
         {
+          "uri": "coremedia://article/103374376"
+        },
+        {
+          "uri": "coremedia://article/103375820"
+        },
+        {
           "uri": "coremedia://article/103373698"
         },
         {
-          "uri": "coremedia://article/103374376"
+          "uri": "coremedia://article/103374132"
         },
         {
           "uri": "coremedia://article/103370766"
@@ -274,7 +277,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103372814",
           "imagePosition": {
@@ -300,6 +310,13 @@
             "children": "Severe cyclone to hit Queensland Thursday, with heavy rain to linger across state into weekend"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1248",
@@ -443,6 +460,53 @@
             {
               "id": "984",
               "title": "Missing Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103375150",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Roger Rogerson, a man wearing glasses, blazer and shirt leaves a building",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b54a694e6833cee6d8e8bb8db38f5513?impolicy=wcms_crop_resize&cropH=1151&cropW=1727&xPos=410&yPos=147&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-22/nsw-disgraced-cop-roger-rogerson-death-secrets/103375150"
+          },
+          "contentUri": "coremedia://article/103375150",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/nsw-disgraced-cop-roger-rogerson-death-secrets/103375150",
+          "video": null,
+          "reactKey": "national-103375150-1",
+          "synopsis": "The life of disgraced former NSW detective Roger Rogerson has come to an end. But the former cop's passing leaves many unanswered questions.",
+          "title": {
+            "children": "Who was Roger Rogerson and what secrets did he take to the grave?"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1982",
+              "title": "Crime"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
+            },
+            {
+              "id": "3665032",
+              "title": "Corruption"
             }
           ]
         }
@@ -628,51 +692,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "102683994",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Roger Rogerson",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3610f68723babe21d32ca091ebbf2ceb?impolicy=wcms_crop_resize&cropH=974&cropW=1460&xPos=43&yPos=125&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-22/former-nsw-detective-roger-rogerson-dies-aged-83/102683994"
-          },
-          "contentUri": "coremedia://article/102683994",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/former-nsw-detective-roger-rogerson-dies-aged-83/102683994",
-          "video": null,
-          "reactKey": "national-102683994-1",
-          "synopsis": "The former police officer was awarded at least a dozen accolades for his work on some of the country's most high-profile cases before turning to a life of crime and spending his final days behind bars.",
-          "title": {
-            "children": "Disgraced former top detective Roger Rogerson dies serving prison sentence for murder"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1982",
-              "title": "Crime"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            },
-            {
-              "id": "1992",
-              "title": "Drug Offences"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103362820",
           "imagePosition": {
             "mobile": "right",
@@ -720,47 +739,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103374132",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Duchess Sarah Ferguson standing in front of a dark background looking off-camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14bab98e091f861b35b0703681414228?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-22/duchess-of-york-sarah-ferguson-skin-cancer/103374132"
-          },
-          "contentUri": "coremedia://article/103374132",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/duchess-of-york-sarah-ferguson-skin-cancer/103374132",
-          "video": null,
-          "reactKey": "national-103374132-1",
-          "synopsis": "A malignant skin cancer was found after several moles were removed while she was undergoing reconstructive surgery after a mastectomy.",
-          "title": {
-            "children": "Duchess of York diagnosed with skin cancer"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1928",
-              "title": "Royalty"
-            },
-            {
-              "id": "1670",
-              "title": "Cancer"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103374800",
           "imagePosition": {
             "mobile": "right",
@@ -793,51 +771,6 @@
             {
               "id": "2164",
               "title": "Rural"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103373698",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Alex de Minaur walks off Rod Laver Arena at the 2024 Australian Open.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35d470f1b04238eb678b251ff4ff3da2?impolicy=wcms_crop_resize&cropH=1892&cropW=3364&xPos=0&yPos=170&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-01-22/australian-open-alex-de-minaur-andrey-rublev-fourth-round/103373698"
-          },
-          "contentUri": "coremedia://article/103373698",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/australian-open-alex-de-minaur-andrey-rublev-fourth-round/103373698",
-          "video": null,
-          "reactKey": "national-103373698-1",
-          "synopsis": "After squandering a two-sets-to-one lead, Alex de Minaur is left to reflect on what might have been after going down in an epic clash with Andrey Rublev in the fourth round at Melbourne Park.",
-          "title": {
-            "children": "'Absolutely devastated': De Minaur bows out as serve falters in five-set loss at Australian Open"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2584",
-              "title": "Tennis"
-            },
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "2658",
-              "title": "Australian Open"
             }
           ]
         }
@@ -912,6 +845,137 @@
             {
               "id": "844",
               "title": "Currency"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103375820",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A player is taken from the field during a rugby league match",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/212f1f2d144905ba5b5a4da5db00375a?impolicy=wcms_crop_resize&cropH=1379&cropW=2068&xPos=0&yPos=40&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-22/ronald-volkman-rugby-league-dragons-warriors/103375820"
+          },
+          "contentUri": "coremedia://article/103375820",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/ronald-volkman-rugby-league-dragons-warriors/103375820",
+          "video": null,
+          "reactKey": "national-103375820-1",
+          "synopsis": "Ronald Volkman's aborted transfer from New Zealand to St George Illawarra has sparked a lengthy blame game and the Rugby League Players Association is calling for heavy sanctions for whoever is responsible. ",
+          "title": {
+            "children": "RLPA calls for player's aborted transfer to be line-in-the-sand moment for rugby league"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2480",
+              "title": "Rugby League"
+            },
+            {
+              "id": "2486",
+              "title": "NRL"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103373698",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Alex de Minaur walks off Rod Laver Arena at the 2024 Australian Open.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35d470f1b04238eb678b251ff4ff3da2?impolicy=wcms_crop_resize&cropH=1892&cropW=3364&xPos=0&yPos=170&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-01-22/australian-open-alex-de-minaur-andrey-rublev-fourth-round/103373698"
+          },
+          "contentUri": "coremedia://article/103373698",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/australian-open-alex-de-minaur-andrey-rublev-fourth-round/103373698",
+          "video": null,
+          "reactKey": "national-103373698-1",
+          "synopsis": "After squandering a two-sets-to-one lead, Alex de Minaur is left to reflect on what might have been after going down in an epic clash with Andrey Rublev in the fourth round at Melbourne Park.",
+          "title": {
+            "children": "'Absolutely devastated': De Minaur bows out as serve falters in five-set loss at Australian Open"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2584",
+              "title": "Tennis"
+            },
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2658",
+              "title": "Australian Open"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103374132",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Duchess Sarah Ferguson standing in front of a dark background looking off-camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14bab98e091f861b35b0703681414228?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-22/duchess-of-york-sarah-ferguson-skin-cancer/103374132"
+          },
+          "contentUri": "coremedia://article/103374132",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/duchess-of-york-sarah-ferguson-skin-cancer/103374132",
+          "video": null,
+          "reactKey": "national-103374132-1",
+          "synopsis": "A malignant skin cancer was found after several moles were removed while she was undergoing reconstructive surgery after a mastectomy.",
+          "title": {
+            "children": "Duchess of York diagnosed with skin cancer"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1928",
+              "title": "Royalty"
+            },
+            {
+              "id": "1670",
+              "title": "Cancer"
             }
           ]
         }

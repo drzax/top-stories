@@ -509,7 +509,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103372814",
           "imagePosition": {
@@ -537,6 +544,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1248",
@@ -1457,7 +1471,7 @@
           "reactKey": "vic-103373492-1",
           "synopsis": "Republican presidential candidate Nikki Haley questions whether Donald Trump is capable of serving as president again after he repeatedly seems to confuse her with former US House speaker Nancy Pelosi.",
           "title": {
-            "children": "Nikki Haley questions Donald Trump's mental fitness after he appears to confuse her for Nancy Pelosi"
+            "children": "Nikki Haley questions Donald Trump's mental fitness after he appears to confuse her with Nancy Pelosi"
           },
           "imageContainerClassNames": [],
           "subjects": [
