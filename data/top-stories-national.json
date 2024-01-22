@@ -40,13 +40,13 @@
           "uri": "coremedia://article/103323642"
         },
         {
-          "uri": "coremedia://article/103376334"
-        },
-        {
           "uri": "coremedia://article/103375250"
         },
         {
           "uri": "coremedia://article/103376208"
+        },
+        {
+          "uri": "coremedia://article/103376334"
         },
         {
           "uri": "coremedia://article/103375132"
@@ -463,7 +463,7 @@
           "isMajor": false,
           "image": {
             "altText": "Dayana Yastremska clenches her fist and yells in delight",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea85dcee372a91eeef95abaec9a8c63f?impolicy=wcms_crop_resize&cropH=1579&cropW=2368&xPos=511&yPos=150&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea85dcee372a91eeef95abaec9a8c63f?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -477,7 +477,9 @@
           "title": {
             "children": "Ukrainian tennis star reveals it's 'tough to play' Australian Open amid war with Russia"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2584",
@@ -535,47 +537,6 @@
             {
               "id": "2656",
               "title": "Sport Event"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103376334",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of people wearing red jumpsuits with chinese characters climb over large bits of rubble.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/342773741b3a821eadb946d4dcf427d8?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-22/dozens-missing-in-south-west-china-after-landslide-hits-region/103376334"
-          },
-          "contentUri": "coremedia://article/103376334",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/dozens-missing-in-south-west-china-after-landslide-hits-region/103376334",
-          "video": null,
-          "reactKey": "national-103376334-1",
-          "synopsis": "The two bodies were pulled from the rubble as rescuers continue to search for dozens more people buried underneath 18 separate houses.",
-          "title": {
-            "children": "Landslide in south-west China's Yunnan province kills two, forces evacuation of hundreds more"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1258",
-              "title": "Landslides"
-            },
-            {
-              "id": "1264",
-              "title": "Disaster Relief"
             }
           ]
         }
@@ -662,6 +623,47 @@
             {
               "id": "1484",
               "title": "Pests"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103376334",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of people wearing red jumpsuits with chinese characters climb over large bits of rubble.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/342773741b3a821eadb946d4dcf427d8?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-22/dozens-missing-in-south-west-china-after-landslide-hits-region/103376334"
+          },
+          "contentUri": "coremedia://article/103376334",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-22/dozens-missing-in-south-west-china-after-landslide-hits-region/103376334",
+          "video": null,
+          "reactKey": "national-103376334-1",
+          "synopsis": "The two bodies were pulled from the rubble as rescuers continue to search for dozens more people buried underneath 18 separate houses.",
+          "title": {
+            "children": "Landslide in south-west China's Yunnan province kills two, forces evacuation of hundreds more"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1258",
+              "title": "Landslides"
+            },
+            {
+              "id": "1264",
+              "title": "Disaster Relief"
             }
           ]
         }
