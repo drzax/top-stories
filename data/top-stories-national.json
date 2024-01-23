@@ -79,6 +79,9 @@
           "uri": "coremedia://article/103380832"
         },
         {
+          "uri": "coremedia://article/103379676"
+        },
+        {
           "uri": "coremedia://article/103381134"
         },
         {
@@ -88,16 +91,10 @@
           "uri": "coremedia://article/103379206"
         },
         {
-          "uri": "coremedia://article/103378828"
-        },
-        {
           "uri": "coremedia://article/103375288"
         },
         {
-          "uri": "coremedia://article/103380106"
-        },
-        {
-          "uri": "coremedia://article/103379296"
+          "uri": "coremedia://article/103378828"
         },
         {
           "uri": "coremedia://article/103380928"
@@ -428,7 +425,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103379842",
           "imagePosition": {
@@ -438,8 +441,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Actress Margot Robbie wearing a pink dress on the golden globes red carpet",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/394932182286fa8f1bec08e11d80ecc7?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=188&width=862&height=575",
+            "altText": "Composite of Oppenheimer, Barbie, and Poor Things. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9381f0ae5c7cdc98b3b5719deddc9e6c?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -451,11 +454,18 @@
           "reactKey": "national-103379842-1",
           "synopsis": "Barbie's Margot Robbie and Greta Gerwig miss out on key Oscar nominations, while Christopher Nolan's Oppenheimer picks up 13 nods. Here's the full list.",
           "title": {
-            "children": "Margot Robbie misses out on Oscar nomination for Barbie, Oppenheimer leads with 13 nods"
+            "children": "No Oscar for Margot? Join us as we unpack the (many) snubs and surprises from this year's nominations"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "494",
@@ -498,7 +508,7 @@
           "reactKey": "national-103381342-1",
           "synopsis": "Australian authorities have confirmed that Aleksandr Gennadievich Ermakov is a member of the Russian hacking syndicate REvil.",
           "title": {
-            "children": "The Russian hacking syndicate behind the Medibank breach"
+            "children": "Who is the Russian hacking syndicate linked to the Medibank hack?"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -798,7 +808,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/cost-of-living-caucus-meeting-preview/103380376",
           "video": null,
           "reactKey": "national-103380376-1",
-          "synopsis": "As Labor MPs gather for a meeting in Canberra, speculation swirls that a policy announcement is imminent.",
+          "synopsis": "Labor MPs will gather in Canberra today to discuss proposed changes to sweeping tax cuts, with PM Anthony Albanese confirming he will put an \"economic proposal\" on the table.",
           "title": {
             "children": "What could come out of today's cost of living caucus meeting?"
           },
@@ -1030,6 +1040,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "69017",
+              "date": "2024-01-23T22:00:20.000Z",
+              "title": "US reporting season is under way - so who are the winners and losers?"
+            },
+            {
               "id": "69011",
               "date": "2024-01-23T20:44:33.000Z",
               "title": "ASX to open higher, all eyes on stage 3 tax cuts"
@@ -1094,6 +1109,51 @@
             {
               "id": "1556",
               "title": "Foreign Affairs"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103379676",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An aerial showing an outback city at night",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ada604d6344719a011b1053bd4d6ed9?impolicy=wcms_crop_resize&cropH=1152&cropW=1728&xPos=160&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/outback-queensland-doctor-shortage-causes-crisis-in-mount-isa/103379676"
+          },
+          "contentUri": "coremedia://article/103379676",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/outback-queensland-doctor-shortage-causes-crisis-in-mount-isa/103379676",
+          "video": null,
+          "reactKey": "national-103379676-1",
+          "synopsis": "A doctor warns the collapse of the healthcare system he has been trying to save in rural Queensland is happening now, as calls grow for an urgent fix to staff shortages.",
+          "title": {
+            "children": "Exodus of GPs leaves city of 20,000 facing healthcare crisis"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1768",
+              "title": "Doctors and Medical Professionals"
+            },
+            {
+              "id": "1622",
+              "title": "Healthcare Facilities"
+            },
+            {
+              "id": "1036",
+              "title": "Regional Communities"
             }
           ]
         }
@@ -1238,53 +1298,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103378828",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a man with a mullet in a blue singlet ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6e218236df294145bf20421efa358?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828"
-          },
-          "contentUri": "coremedia://article/103378828",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828",
-          "video": null,
-          "reactKey": "national-103378828-1",
-          "synopsis": "Jak Rice went to shearing school hoping to build a career in wool, but what started as a necessity quickly became a passion as he works to improve his daily tally.",
-          "title": {
-            "children": "Young chase big bucks in West Australian shearing sheds amid workforce shortfall"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2246",
-              "title": "Rural Youth"
-            },
-            {
-              "id": "2286",
-              "title": "Sheep Production"
-            },
-            {
-              "id": "2208",
-              "title": "Wool"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103375288",
           "imagePosition": {
             "mobile": "top",
@@ -1330,7 +1343,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103380106",
+          "id": "103378828",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1338,85 +1351,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Scott Morrison high vis",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f71e96796511b7bcaf1dbea0e883dac?impolicy=wcms_crop_resize&cropH=1892&cropW=2838&xPos=1134&yPos=273&width=160&height=107",
+            "altText": "a man with a mullet in a blue singlet ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6e218236df294145bf20421efa358?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-23/-bulldozer-scott-morrison-makes-a-quiet-exit/103380106"
+            "to": "/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828"
           },
-          "contentUri": "coremedia://article/103380106",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/-bulldozer-scott-morrison-makes-a-quiet-exit/103380106",
+          "contentUri": "coremedia://article/103378828",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828",
           "video": null,
-          "reactKey": "national-103380106-1",
-          "synopsis": "The former prime minister Scott Morrison was not shy in his dealings with foreign leaders, adversaries or the press gallery. But he has ended his political career quietly, with a simple post on Facebook.",
+          "reactKey": "national-103378828-1",
+          "synopsis": "Jak Rice went to shearing school hoping to build a career in wool, but what started as a necessity quickly became a passion as he works to improve his daily tally.",
           "title": {
-            "children": "'Miracle' man Scott Morrison calls time on political career, new job beckons in US"
+            "children": "Young chase big bucks in West Australian shearing sheds amid workforce shortfall"
           },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            },
-            {
-              "id": "1582",
-              "title": "Federal Parliament"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/25799e9e421dafe0c5c163d7c2546c54?impolicy=wcms_crop_resize&cropH=349&cropW=349&xPos=74&yPos=45&width=160&height=160",
-              "authorName": "Michael Janda"
-            }
+          "imageContainerClassNames": [
+            "imageHalf"
           ],
-          "headingClassNames": [],
-          "id": "103379296",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Jim Chalmers in the foreground in focus, with Anthony Albanese in the background out of focus, from the right hand side",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52ebda5938c09bdf0221de1d23746dd6?impolicy=wcms_crop_resize&cropH=2612&cropW=3918&xPos=2&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-23/stage-three-tax-cut-options-the-albanese-government-could-consid/103379296"
-          },
-          "contentUri": "coremedia://article/103379296",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/stage-three-tax-cut-options-the-albanese-government-could-consid/103379296",
-          "video": null,
-          "reactKey": "national-103379296-1",
-          "synopsis": "Ahead of Labor's cost-of-living caucus, the crosshairs have again settled on the stage 3 tax cuts that are months away from handing more than $20 billion a year from the government back to (mainly) higher income earners.",
-          "title": {
-            "children": "The stage 3 tax cuts are only months away, but here's what could change in the meantime"
-          },
-          "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1594",
-              "title": "Tax"
+              "id": "2246",
+              "title": "Rural Youth"
             },
             {
-              "id": "13771054",
-              "title": "Economy"
+              "id": "2286",
+              "title": "Sheep Production"
             },
             {
-              "id": "13771172",
-              "title": "Inflation"
+              "id": "2208",
+              "title": "Wool"
             }
           ]
         }

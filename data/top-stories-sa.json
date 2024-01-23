@@ -437,7 +437,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103379842",
           "imagePosition": {
@@ -447,8 +453,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Actress Margot Robbie wearing a pink dress on the golden globes red carpet",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/394932182286fa8f1bec08e11d80ecc7?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=188&width=862&height=575",
+            "altText": "Composite of Oppenheimer, Barbie, and Poor Things. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9381f0ae5c7cdc98b3b5719deddc9e6c?impolicy=wcms_crop_resize&cropH=540&cropW=810&xPos=75&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -460,11 +466,18 @@
           "reactKey": "sa-103379842-1",
           "synopsis": "Barbie's Margot Robbie and Greta Gerwig miss out on key Oscar nominations, while Christopher Nolan's Oppenheimer picks up 13 nods. Here's the full list.",
           "title": {
-            "children": "Margot Robbie misses out on Oscar nomination for Barbie, Oppenheimer leads with 13 nods"
+            "children": "No Oscar for Margot? Join us as we unpack the (many) snubs and surprises from this year's nominations"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "494",
@@ -580,7 +593,7 @@
           "reactKey": "sa-103381342-1",
           "synopsis": "Australian authorities have confirmed that Aleksandr Gennadievich Ermakov is a member of the Russian hacking syndicate REvil.",
           "title": {
-            "children": "The Russian hacking syndicate behind the Medibank breach"
+            "children": "Who is the Russian hacking syndicate linked to the Medibank hack?"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -835,7 +848,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/cost-of-living-caucus-meeting-preview/103380376",
           "video": null,
           "reactKey": "sa-103380376-1",
-          "synopsis": "As Labor MPs gather for a meeting in Canberra, speculation swirls that a policy announcement is imminent.",
+          "synopsis": "Labor MPs will gather in Canberra today to discuss proposed changes to sweeping tax cuts, with PM Anthony Albanese confirming he will put an \"economic proposal\" on the table.",
           "title": {
             "children": "What could come out of today's cost of living caucus meeting?"
           },
@@ -1117,6 +1130,11 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "69017",
+              "date": "2024-01-23T22:00:20.000Z",
+              "title": "US reporting season is under way - so who are the winners and losers?"
+            },
             {
               "id": "69011",
               "date": "2024-01-23T20:44:33.000Z",
