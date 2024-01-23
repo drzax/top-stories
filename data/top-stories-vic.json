@@ -31,10 +31,10 @@
           "uri": "coremedia://article/103381758"
         },
         {
-          "uri": "coremedia://article/103375288"
+          "uri": "coremedia://article/103377642"
         },
         {
-          "uri": "coremedia://article/103377642"
+          "uri": "coremedia://article/103375288"
         },
         {
           "uri": "coremedia://article/103379842"
@@ -47,6 +47,9 @@
         },
         {
           "uri": "coremedia://article/103315816"
+        },
+        {
+          "uri": "coremedia://article/103382494"
         },
         {
           "uri": "coremedia://article/103380376"
@@ -64,6 +67,9 @@
           "uri": "coremedia://article/103380832"
         },
         {
+          "uri": "coremedia://article/103381144"
+        },
+        {
           "uri": "coremedia://article/103381084"
         },
         {
@@ -71,6 +77,9 @@
         },
         {
           "uri": "coremedia://article/103378592"
+        },
+        {
+          "uri": "coremedia://article/103269946"
         },
         {
           "uri": "coremedia://article/103381342"
@@ -88,19 +97,13 @@
           "uri": "coremedia://article/103381134"
         },
         {
-          "uri": "coremedia://article/103378828"
-        },
-        {
-          "uri": "coremedia://article/103379514"
-        },
-        {
           "uri": "coremedia://article/103382620"
         },
         {
           "uri": "coremedia://article/103382398"
         },
         {
-          "uri": "coremedia://article/103374638"
+          "uri": "coremedia://article/103378828"
         },
         {
           "uri": "coremedia://article/103364666"
@@ -160,7 +163,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103382554",
           "imagePosition": {
@@ -186,6 +196,13 @@
             "children": "Kim Williams to replace Ita Buttrose as ABC chair"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1948",
@@ -395,51 +412,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103375288",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Robert with his dog and a sign reading \"we are open\".",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40c9500a95ce308bf761bd44ffa2a8f4?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=520&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288"
-          },
-          "contentUri": "coremedia://article/103375288",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288",
-          "video": null,
-          "reactKey": "vic-103375288-1",
-          "synopsis": "Laura Ridout hoped her blueberry farm would put the Scotsburn Hills on the map. Instead, Apple took her farm off it, and it turns out she's not alone.",
-          "title": {
-            "children": "Another business falls prey to an Apple Maps wipeout. This time the entire street's missing"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1944",
-              "title": "Mobile and Internet Access"
-            },
-            {
-              "id": "850",
-              "title": "Tourism and Leisure Industry"
-            },
-            {
-              "id": "822",
-              "title": "Small Business"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103377642",
           "imagePosition": {
             "mobile": "right",
@@ -476,6 +448,51 @@
             {
               "id": "2658",
               "title": "Australian Open"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103375288",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Robert with his dog and a sign reading \"we are open\".",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40c9500a95ce308bf761bd44ffa2a8f4?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=520&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288"
+          },
+          "contentUri": "coremedia://article/103375288",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288",
+          "video": null,
+          "reactKey": "vic-103375288-1",
+          "synopsis": "Laura Ridout hoped her blueberry farm would put the Scotsburn Hills on the map. Instead, Apple took her farm off it, and it turns out she's not alone.",
+          "title": {
+            "children": "Another business falls prey to an Apple Maps wipeout. This time the entire street's missing"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1944",
+              "title": "Mobile and Internet Access"
+            },
+            {
+              "id": "850",
+              "title": "Tourism and Leisure Industry"
+            },
+            {
+              "id": "822",
+              "title": "Small Business"
             }
           ]
         }
@@ -623,7 +640,7 @@
           "isMajor": false,
           "image": {
             "altText": "A sign depicting the words 'no violence' is hung on a fence. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd3b666477e7cce60af7ea4159d3e158?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd3b666477e7cce60af7ea4159d3e158?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -637,7 +654,9 @@
           "title": {
             "children": "After peace in Wadeye, the streets are once again a battle zone "
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2756",
@@ -650,6 +669,51 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103382494",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Australian tennis player Nick Kyrgios waves at the crowd as he walks in front of an electronic sign with his name on it.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c2d769cccbbb3ed451872e2428c47757?impolicy=wcms_crop_resize&cropH=3103&cropW=4655&xPos=0&yPos=95&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/nick-kyrgios-admits-his-time-tennis-may-be-over/103382494"
+          },
+          "contentUri": "coremedia://article/103382494",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/nick-kyrgios-admits-his-time-tennis-may-be-over/103382494",
+          "video": null,
+          "reactKey": "vic-103382494-1",
+          "synopsis": "Nick Kyrgios admits ongoing injury problems mean his time in tennis may be over, says he is considering life after playing and sends a message to the AOC about the Paris Olympics. ",
+          "title": {
+            "children": "'I'm OK with that': Kyrgios admits his time in tennis may be over"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2584",
+              "title": "Tennis"
+            },
+            {
+              "id": "2554",
+              "title": "Summer Olympic Games"
             }
           ]
         }
@@ -678,7 +742,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/cost-of-living-caucus-meeting-preview/103380376",
           "video": null,
           "reactKey": "vic-103380376-1",
-          "synopsis": "Labor MPs will gather in Canberra today to discuss proposed changes to sweeping tax cuts, with PM Anthony Albanese confirming he will put an \"economic proposal\" on the table.",
+          "synopsis": "Labor MPs will gather in Canberra today to discuss the cost of living after Cabinet signed off yesterday on changes to the stage 3 tax cuts.",
           "title": {
             "children": "What could come out of today's cost-of-living caucus meeting?"
           },
@@ -906,6 +970,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103381144",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Photo of collapsed bridge, overcast sky and greenery in the horizon.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d5e47e5d8a151099091660419ad3de9?impolicy=wcms_crop_resize&cropH=636&cropW=954&xPos=89&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/man-uninjured-after-driving-on-collapsed-routh-creek-bridge-gulf/103381144"
+          },
+          "contentUri": "coremedia://article/103381144",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/man-uninjured-after-driving-on-collapsed-routh-creek-bridge-gulf/103381144",
+          "video": null,
+          "reactKey": "vic-103381144-1",
+          "synopsis": "Driving in the dark, Les Edmistone didn't see a massive gap in a collapsed bridge in Queensland's Gulf Country until it was too late. All he could do was hold on and \"go with it\".",
+          "title": {
+            "children": "Driver escapes unhurt after hurtling over collapsed bridge at 80kph"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1284",
+              "title": "Road Accidents and Incidents"
+            },
+            {
+              "id": "102137116",
+              "title": "Roads"
+            },
+            {
+              "id": "1254",
+              "title": "Floods"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103381084",
           "imagePosition": {
             "mobile": "right",
@@ -1019,6 +1128,51 @@
             {
               "id": "808",
               "title": "Business, Economics and Finance"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103269946",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A film still of Samuel Theis as a dead body in blood-stained snow, with Sandra Hüller and Milo Machado Graner hugging nearby.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a2bb7c5e897eb444ed8ed3b829d389f2?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=309&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/anatomy-of-a-fall-justine-triet-interview/103269946"
+          },
+          "contentUri": "coremedia://article/103269946",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/anatomy-of-a-fall-justine-triet-interview/103269946",
+          "video": null,
+          "reactKey": "vic-103269946-1",
+          "synopsis": "Director-writer Justine Triet discusses the slipperiness of truth in her Palme D'Or-winning courtroom drama, Anatomy of a Fall.",
+          "title": {
+            "children": "Was he pushed? Did he slip? Anatomy of a Fall's director will never say"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "506",
+              "title": "Thriller Films"
+            },
+            {
+              "id": "526",
+              "title": "Crime Films"
+            },
+            {
+              "id": "472",
+              "title": "Arts, Culture and Entertainment"
             }
           ]
         }
@@ -1249,98 +1403,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103378828",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a man with a mullet in a blue singlet ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6e218236df294145bf20421efa358?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828"
-          },
-          "contentUri": "coremedia://article/103378828",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828",
-          "video": null,
-          "reactKey": "vic-103378828-1",
-          "synopsis": "Jak Rice went to shearing school hoping to build a career in wool, but what started as a necessity quickly became a passion as he works to improve his daily tally.",
-          "title": {
-            "children": "Young chase big bucks in West Australian shearing sheds amid workforce shortfall"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2246",
-              "title": "Rural Youth"
-            },
-            {
-              "id": "2286",
-              "title": "Sheep Production"
-            },
-            {
-              "id": "2208",
-              "title": "Wool"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103379514",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Map showing rainfall totals over Australia",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3456ea3e6a26d760e4a260de66d8c9af?impolicy=wcms_crop_resize&cropH=830&cropW=1245&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-23/tropical-cyclone-kirrily-heavy-rain-flood-risk-queensland-bom/103379514"
-          },
-          "contentUri": "coremedia://article/103379514",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/tropical-cyclone-kirrily-heavy-rain-flood-risk-queensland-bom/103379514",
-          "video": null,
-          "reactKey": "vic-103379514-1",
-          "synopsis": "The slow-moving system is still gathering moisture over the Coral Sea, meaning it will bring rain to a broad area once it crosses over land. ",
-          "title": {
-            "children": "Why the tropical low forecast to follow Cyclone Kirrily has risks of its own"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1296",
-              "title": "Cyclones"
-            },
-            {
-              "id": "2764",
-              "title": "Rain"
-            },
-            {
-              "id": "1254",
-              "title": "Floods"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103382620",
           "imagePosition": {
             "mobile": "right",
@@ -1427,7 +1489,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103374638",
+          "id": "103378828",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1435,34 +1497,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A soccer player wearing yellow and green holds out his arms with two opponents in blue behind him during a game",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64911cbb06c21adf13636f20717be705?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "a man with a mullet in a blue singlet ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6e218236df294145bf20421efa358?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-23/socceroos-v-uzbekistan-asian-cup-group-game-3-live-blog/103374638"
+            "to": "/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828"
           },
-          "contentUri": "coremedia://article/103374638",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-23/socceroos-v-uzbekistan-asian-cup-group-game-3-live-blog/103374638",
+          "contentUri": "coremedia://article/103378828",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828",
           "video": null,
-          "reactKey": "vic-103374638-1",
-          "synopsis": "The Socceroos top their Asian Cup group and secure a smooth passage to the round of 16 after a shaky 1-1 draw with Uzbekistan.",
+          "reactKey": "vic-103378828-1",
+          "synopsis": "Jak Rice went to shearing school hoping to build a career in wool, but what started as a necessity quickly became a passion as he works to improve his daily tally.",
           "title": {
-            "children": "Socceroos draw 1-1 with Uzbekistan to top Asian Cup group"
+            "children": "Young chase big bucks in West Australian shearing sheds amid workforce shortfall"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
-              "id": "2478",
-              "title": "Sport"
+              "id": "2246",
+              "title": "Rural Youth"
             },
             {
-              "id": "2572",
-              "title": "Soccer"
+              "id": "2286",
+              "title": "Sheep Production"
             },
             {
-              "id": "2692",
-              "title": "Socceroos"
+              "id": "2208",
+              "title": "Wool"
             }
           ]
         }

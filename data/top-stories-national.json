@@ -25,6 +25,9 @@
           "uri": "coremedia://article/103375122"
         },
         {
+          "uri": "coremedia://article/103379198"
+        },
+        {
           "uri": "coremedia://article/103381758"
         },
         {
@@ -37,10 +40,13 @@
           "uri": "coremedia://article/103379842"
         },
         {
-          "uri": "coremedia://article/103381342"
+          "uri": "coremedia://article/103382478"
         },
         {
           "uri": "coremedia://article/103379206"
+        },
+        {
+          "uri": "coremedia://article/103315816"
         },
         {
           "uri": "coremedia://article/103380376"
@@ -49,13 +55,10 @@
           "uri": "coremedia://article/103380580"
         },
         {
-          "uri": "coremedia://article/103315816"
-        },
-        {
           "uri": "coremedia://article/103378662"
         },
         {
-          "uri": "coremedia://article/103382478"
+          "uri": "coremedia://article/103381342"
         },
         {
           "uri": "coremedia://article/103269946"
@@ -65,6 +68,9 @@
         },
         {
           "uri": "coremedia://article/103382494"
+        },
+        {
+          "uri": "coremedia://article/103382650"
         },
         {
           "uri": "coremedia://article/103381144"
@@ -85,9 +91,6 @@
           "uri": "coremedia://article/103375730"
         },
         {
-          "uri": "coremedia://article/103382378"
-        },
-        {
           "uri": "coremedia://article/103382346"
         },
         {
@@ -95,9 +98,6 @@
         },
         {
           "uri": "coremedia://article/103382398"
-        },
-        {
-          "uri": "coremedia://article/103375288"
         },
         {
           "uri": "coremedia://article/103379676"
@@ -109,7 +109,7 @@
           "uri": "coremedia://article/103378592"
         },
         {
-          "uri": "coremedia://article/103378828"
+          "uri": "coremedia://article/103375288"
         }
       ]
     },
@@ -166,7 +166,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103382554",
           "imagePosition": {
@@ -192,6 +199,13 @@
             "children": "Kim Williams to replace Ita Buttrose as ABC chair"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1948",
@@ -302,6 +316,64 @@
             {
               "id": "1470",
               "title": "Environmental Impact"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103379198",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A sign saying VOTE HERE sits in the snow, behind a group of people line up",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b867324066cc2305c5af3ef162334d8?impolicy=wcms_crop_resize&cropH=3039&cropW=4558&xPos=0&yPos=294&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/new-hampshire-primaries-live-blog/103379198"
+          },
+          "contentUri": "coremedia://article/103379198",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/new-hampshire-primaries-live-blog/103379198",
+          "video": null,
+          "reactKey": "national-103379198-1",
+          "synopsis": "New Hampshire voters head to the polls to decide on their preferred presidential candidates. Follow live.",
+          "title": {
+            "children": "New Hampshire heads to the polls for Democratic and Republican party primaries"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1500",
+              "title": "US Elections"
+            },
+            {
+              "id": "8224572",
+              "title": "Donald Trump"
+            },
+            {
+              "id": "1538",
+              "title": "Elections"
             }
           ]
         }
@@ -493,7 +565,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103381342",
+          "id": "103382478",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -501,36 +573,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A computer screen showing a wanted poster for Yevgeniy Igreyevich Polyanin",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e6ca81ee2206aa6c7b07ce97116c5bb?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=201&width=862&height=575",
+            "altText": "Aleksandr Ermakov wearing a light blue button up shirt, sitting at a desk with coloured balloons above him",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7c0802b637e6b1ba593d5ffa54126df1?impolicy=wcms_crop_resize&cropH=274&cropW=411&xPos=0&yPos=57&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-24/medibank-hacker-linked-to-russian-hacking-syndicate-revil/103381342"
+            "to": "/news/2024-01-24/us-uk-join-australia-hit-russian-man-sanctions-medibank-breach/103382478"
           },
-          "contentUri": "coremedia://article/103381342",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/medibank-hacker-linked-to-russian-hacking-syndicate-revil/103381342",
+          "contentUri": "coremedia://article/103382478",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/us-uk-join-australia-hit-russian-man-sanctions-medibank-breach/103382478",
           "video": null,
-          "reactKey": "national-103381342-1",
-          "synopsis": "Australian authorities have confirmed that Aleksandr Gennadievich Ermakov is a member of the Russian hacking syndicate REvil.",
+          "reactKey": "national-103382478-1",
+          "synopsis": "The United States and the United Kingdom have joined Australia in sanctioning Russian man Aleksandr Ermakov over what they say is his role in the Medibank Private data breach.",
           "title": {
-            "children": "Who is the Russian hacking syndicate linked to the Medibank hack?"
+            "children": "US and UK join Australia in hitting Russian man with sanctions over Medibank data breach"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2472",
               "title": "Cyber Crime"
             },
             {
-              "id": "1240",
-              "title": "Security Intelligence"
+              "id": "1574",
+              "title": "World Politics"
             },
             {
-              "id": "2462",
-              "title": "Malware"
+              "id": "1240",
+              "title": "Security Intelligence"
             }
           ]
         }
@@ -585,6 +655,53 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103315816",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A sign depicting the words 'no violence' is hung on a fence. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd3b666477e7cce60af7ea4159d3e158?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/wadeye-fighting-continues-nt-remote-aboriginal-community/103315816"
+          },
+          "contentUri": "coremedia://article/103315816",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/wadeye-fighting-continues-nt-remote-aboriginal-community/103315816",
+          "video": null,
+          "reactKey": "national-103315816-1",
+          "synopsis": "After a spell of relative calm, the streets of Wadeye — the largest Aboriginal community in the Northern Territory – have once again erupted with violence.",
+          "title": {
+            "children": "After peace in Wadeye, the streets are once again a battle zone "
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "2756",
+              "title": "Unrest, Conflict and War"
+            },
+            {
+              "id": "1142",
+              "title": "Indigenous (Aboriginal and Torres Strait Islander)"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103380376",
           "imagePosition": {
             "mobile": "right",
@@ -604,7 +721,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/cost-of-living-caucus-meeting-preview/103380376",
           "video": null,
           "reactKey": "national-103380376-1",
-          "synopsis": "Labor MPs will gather in Canberra today to discuss proposed changes to sweeping tax cuts, with PM Anthony Albanese confirming he will put an \"economic proposal\" on the table.",
+          "synopsis": "Labor MPs will gather in Canberra today to discuss the cost of living after Cabinet signed off yesterday on changes to the stage 3 tax cuts.",
           "title": {
             "children": "What could come out of today's cost-of-living caucus meeting?"
           },
@@ -662,53 +779,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103315816",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A sign depicting the words 'no violence' is hung on a fence. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd3b666477e7cce60af7ea4159d3e158?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-24/wadeye-fighting-continues-nt-remote-aboriginal-community/103315816"
-          },
-          "contentUri": "coremedia://article/103315816",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/wadeye-fighting-continues-nt-remote-aboriginal-community/103315816",
-          "video": null,
-          "reactKey": "national-103315816-1",
-          "synopsis": "After a spell of relative calm, the streets of Wadeye — the largest Aboriginal community in the Northern Territory – have once again erupted with violence.",
-          "title": {
-            "children": "After peace in Wadeye, the streets are once again a battle zone "
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "1142",
-              "title": "Indigenous (Aboriginal and Torres Strait Islander)"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103378662",
           "imagePosition": {
             "mobile": "right",
@@ -756,7 +826,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103382478",
+          "id": "103381342",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -764,34 +834,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Aleksandr Ermakov wearing a light blue button up shirt, sitting at a desk with coloured balloons above him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7c0802b637e6b1ba593d5ffa54126df1?impolicy=wcms_crop_resize&cropH=274&cropW=411&xPos=0&yPos=57&width=160&height=107",
+            "altText": "A computer screen showing a wanted poster for Yevgeniy Igreyevich Polyanin",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e6ca81ee2206aa6c7b07ce97116c5bb?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=201&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-24/us-uk-join-australia-hit-russian-man-sanctions-medibank-breach/103382478"
+            "to": "/news/2024-01-24/medibank-hacker-linked-to-russian-hacking-syndicate-revil/103381342"
           },
-          "contentUri": "coremedia://article/103382478",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/us-uk-join-australia-hit-russian-man-sanctions-medibank-breach/103382478",
+          "contentUri": "coremedia://article/103381342",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/medibank-hacker-linked-to-russian-hacking-syndicate-revil/103381342",
           "video": null,
-          "reactKey": "national-103382478-1",
-          "synopsis": "The United States and the United Kingdom have joined Australia in sanctioning Russian man Aleksandr Ermakov over what they say is his role in the Medibank Private data breach.",
+          "reactKey": "national-103381342-1",
+          "synopsis": "Australian authorities have confirmed that Aleksandr Gennadievich Ermakov is a member of the Russian hacking syndicate REvil.",
           "title": {
-            "children": "US and UK join Australia in hitting Russian man with sanctions over Medibank data breach"
+            "children": "Who is the Russian hacking syndicate linked to the Medibank hack?"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2472",
               "title": "Cyber Crime"
             },
             {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
               "id": "1240",
               "title": "Security Intelligence"
+            },
+            {
+              "id": "2462",
+              "title": "Malware"
             }
           ]
         }
@@ -927,6 +999,51 @@
             {
               "id": "2554",
               "title": "Summer Olympic Games"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103382650",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a closed sign at the december 2023 opened rozelle parklands after asbestos contaminated mulch was found at site",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63e8730fe5981bba3ef6bcb81a8e7db8?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/nsw-additional-asbestos-found-in-rozelle-parklands/103382650"
+          },
+          "contentUri": "coremedia://article/103382650",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/nsw-additional-asbestos-found-in-rozelle-parklands/103382650",
+          "video": null,
+          "reactKey": "national-103382650-1",
+          "synopsis": "It comes after 17 positive samples were also returned from the area around Rozelle Parklands this month.",
+          "title": {
+            "children": "Asbestos found in mulch used at new sites across Sydney after discovery in Rozelle Parklands"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "9320814",
+              "title": "Gardens and Site Elements"
+            },
+            {
+              "id": "1406",
+              "title": "Environment"
+            },
+            {
+              "id": "1616",
+              "title": "Health"
             }
           ]
         }
@@ -1192,47 +1309,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103382378",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Man dressed in all black holding a gun at shooting of Mahmoud Abbas in Greenacre street",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e718796a8d84ab7984af0cde831c7ca8?impolicy=wcms_crop_resize&cropH=714&cropW=1071&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-24/nsw-greenacre-shooting-mahmoud-abbas-cctv/103382378"
-          },
-          "contentUri": "coremedia://article/103382378",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/nsw-greenacre-shooting-mahmoud-abbas-cctv/103382378",
-          "video": null,
-          "reactKey": "national-103382378-1",
-          "synopsis": "Mahmoud Abbas was shot outside of his Greenacre home last July, and the identity of the gunman remains unknown.",
-          "title": {
-            "children": "Dramatic footage released of moment criminal defence lawyer was shot in his Sydney driveway"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1978",
-              "title": "Police"
-            },
-            {
-              "id": "13493420",
-              "title": "Shootings"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -1392,51 +1468,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103375288",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Robert with his dog and a sign reading \"we are open\".",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40c9500a95ce308bf761bd44ffa2a8f4?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=520&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288"
-          },
-          "contentUri": "coremedia://article/103375288",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288",
-          "video": null,
-          "reactKey": "national-103375288-1",
-          "synopsis": "Laura Ridout hoped her blueberry farm would put the Scotsburn Hills on the map. Instead, Apple took her farm off it, and it turns out she's not alone.",
-          "title": {
-            "children": "Another business falls prey to an Apple Maps wipeout. This time the entire street's missing"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1944",
-              "title": "Mobile and Internet Access"
-            },
-            {
-              "id": "850",
-              "title": "Tourism and Leisure Industry"
-            },
-            {
-              "id": "822",
-              "title": "Small Business"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103379676",
           "imagePosition": {
             "mobile": "right",
@@ -1572,44 +1603,42 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103378828",
+          "id": "103375288",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
-            "altText": "a man with a mullet in a blue singlet ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6e218236df294145bf20421efa358?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
+            "altText": "Robert with his dog and a sign reading \"we are open\".",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40c9500a95ce308bf761bd44ffa2a8f4?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=520&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828"
+            "to": "/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288"
           },
-          "contentUri": "coremedia://article/103378828",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2024-01-24/young-west-australians-turn-to-lucrative-shearing-careers/103378828",
+          "contentUri": "coremedia://article/103375288",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/apple-maps-removes-farm-business-and-street-from-app-victoria/103375288",
           "video": null,
-          "reactKey": "national-103378828-1",
-          "synopsis": "Jak Rice went to shearing school hoping to build a career in wool, but what started as a necessity quickly became a passion as he works to improve his daily tally.",
+          "reactKey": "national-103375288-1",
+          "synopsis": "Laura Ridout hoped her blueberry farm would put the Scotsburn Hills on the map. Instead, Apple took her farm off it, and it turns out she's not alone.",
           "title": {
-            "children": "Young chase big bucks in West Australian shearing sheds amid workforce shortfall"
+            "children": "Another business falls prey to an Apple Maps wipeout. This time the entire street's missing"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "2246",
-              "title": "Rural Youth"
+              "id": "1944",
+              "title": "Mobile and Internet Access"
             },
             {
-              "id": "2286",
-              "title": "Sheep Production"
+              "id": "850",
+              "title": "Tourism and Leisure Industry"
             },
             {
-              "id": "2208",
-              "title": "Wool"
+              "id": "822",
+              "title": "Small Business"
             }
           ]
         }

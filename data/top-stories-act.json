@@ -151,7 +151,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103382554",
           "imagePosition": {
@@ -177,6 +184,13 @@
             "children": "Kim Williams to replace Ita Buttrose as ABC chair"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1948",
@@ -589,7 +603,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/cost-of-living-caucus-meeting-preview/103380376",
           "video": null,
           "reactKey": "act-103380376-1",
-          "synopsis": "Labor MPs will gather in Canberra today to discuss proposed changes to sweeping tax cuts, with PM Anthony Albanese confirming he will put an \"economic proposal\" on the table.",
+          "synopsis": "Labor MPs will gather in Canberra today to discuss the cost of living after Cabinet signed off yesterday on changes to the stage 3 tax cuts.",
           "title": {
             "children": "What could come out of today's cost-of-living caucus meeting?"
           },
