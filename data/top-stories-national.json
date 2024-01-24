@@ -13,13 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103378666"
+        },
+        {
           "uri": "coremedia://article/103383244"
         },
         {
           "uri": "coremedia://article/103379364"
-        },
-        {
-          "uri": "coremedia://article/103378666"
         },
         {
           "uri": "coremedia://article/103379198"
@@ -111,10 +111,71 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103378666",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Tropical cyclone track map Wednesday January 24",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb84ee652242f3c1e2fbbb961231efac?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=27&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-24/tropical-cyclone-kirrily-category-two-queensland-bom/103378666"
+          },
+          "contentUri": "coremedia://article/103378666",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/tropical-cyclone-kirrily-category-two-queensland-bom/103378666",
+          "video": null,
+          "reactKey": "national-103378666-1",
+          "synopsis": "The system is expected to make landfall between Cardwell and Bowen, and its impacts are likely to be felt on the coast and islands by tonight.",
+          "title": {
+            "children": "'Complex' and slow-moving tropical low still set to hit Queensland as cyclone on Thursday"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "102821970",
+              "title": "Weather Warnings"
+            },
+            {
+              "id": "2766",
+              "title": "Weather Phenomena"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103383244",
           "imagePosition": {
             "mobile": "right",
@@ -124,7 +185,7 @@
           "isMajor": false,
           "image": {
             "altText": "a woman talking to the press outdoors",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/485c83f80cec0d7cb92bc1b5324ba219?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/485c83f80cec0d7cb92bc1b5324ba219?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -138,9 +199,7 @@
           "title": {
             "children": "Furious Liberals vow to unpick changes to stage 3 tax cuts"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1546",
@@ -198,65 +257,6 @@
             {
               "id": "13771172",
               "title": "Inflation"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103378666",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Tropical cyclone track map Wednesday January 24",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb84ee652242f3c1e2fbbb961231efac?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=27&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-24/tropical-cyclone-kirrily-category-two-queensland-bom/103378666"
-          },
-          "contentUri": "coremedia://article/103378666",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-24/tropical-cyclone-kirrily-category-two-queensland-bom/103378666",
-          "video": null,
-          "reactKey": "national-103378666-1",
-          "synopsis": "The system is expected to make landfall between Cardwell and Bowen, and its impacts are likely to be felt on the coast and islands by tonight.",
-          "title": {
-            "children": "'Complex' and slow-moving tropical low still set to hit Queensland as cyclone on Thursday"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
-          "subjects": [
-            {
-              "id": "2762",
-              "title": "Weather"
-            },
-            {
-              "id": "102821970",
-              "title": "Weather Warnings"
-            },
-            {
-              "id": "2766",
-              "title": "Weather Phenomena"
             }
           ]
         }
@@ -348,8 +348,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Andrew O'Keefe, dressed in a suit and tie, arrives at Downing Centre Local court",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f49c542162650b72938f9beb216ad5ab?impolicy=wcms_crop_resize&cropH=2484&cropW=3726&xPos=152&yPos=390&width=160&height=107",
+            "altText": "Andrew O'Keefe addresses the media wearing a suit and red glasses",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0da4afcc3ac7f9ecaaeb13a6cbe12d90?impolicy=wcms_crop_resize&cropH=3047&cropW=4571&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -361,7 +361,7 @@
           "reactKey": "national-103383482-1",
           "synopsis": "The 52-year-old is convicted by a Sydney magistrate of common assault, common assault occasioning actual bodily harm, breaching an AVO and drug possession.",
           "title": {
-            "children": "Former TV host Andrew O'Keefe convicted of assaulting ex-partner"
+            "children": "Former TV host Andrew O'Keefe sentenced after being found guilty of assaulting ex-partner"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -450,8 +450,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An official holds his head while on the phone",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/279a6d44f1ea7ad09fb88cfb73a99571?impolicy=wcms_crop_resize&cropH=2956&cropW=4434&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Dayana Yastremska screams and clenches her fist",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aad9ade52f8cca923ae6e66719d15471?impolicy=wcms_crop_resize&cropH=2795&cropW=4193&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -461,9 +461,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-01-24/australian-open-live-updates-day-11/103382074",
           "video": null,
           "reactKey": "national-103382074-1",
-          "synopsis": "Australian doubles star Matt Ebden kicks off the action on day 11 of the Australian Open with a quarterfinal clash on Court 3. Follow live.",
+          "synopsis": "Dayana Yastremska is through to the Australian Open semifinals after Matt Ebden's doubles match was moved off Court 3 due to court issues. Follow live.",
           "title": {
-            "children": "Court drama leads to Aussie doubles match being suspended"
+            "children": "Ukranian qualifier achieves 46-year first in knocking out teen"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
