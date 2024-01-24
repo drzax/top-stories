@@ -278,7 +278,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103378666",
           "imagePosition": {
@@ -304,6 +311,13 @@
             "children": "'Complex' and slow-moving tropical low still set to hit Queensland as cyclone on Thursday"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -580,6 +594,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "69135",
+              "date": "2024-01-24T02:31:53.000Z",
+              "title": "Ebden and Bopanna through to the semifinals!"
+            },
+            {
               "id": "69126",
               "date": "2024-01-24T02:07:05.000Z",
               "title": "Heath Davidson knocked out in quad singles"
@@ -588,11 +607,6 @@
               "id": "69124",
               "date": "2024-01-24T02:04:20.000Z",
               "title": "'It's absolute nonsense': Kyrgios claims retirement calls are premature"
-            },
-            {
-              "id": "69119",
-              "date": "2024-01-24T01:52:47.000Z",
-              "title": "Yastremska wins the first set"
             }
           ],
           "subjects": [
@@ -1046,7 +1060,7 @@
           "reactKey": "act-103380376-1",
           "synopsis": "Labor MPs will gather in Canberra today to discuss the cost of living after Cabinet signed off yesterday on changes to the stage 3 tax cuts.",
           "title": {
-            "children": "What could come out of today's cost-of-living caucus meeting?"
+            "children": "Labor MPs meet after cabinet approves changes to stage three tax cuts"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1336,7 +1350,7 @@
           "isMajor": false,
           "image": {
             "altText": "Photo of collapsed bridge, overcast sky and greenery in the horizon.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d5e47e5d8a151099091660419ad3de9?impolicy=wcms_crop_resize&cropH=636&cropW=954&xPos=89&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d5e47e5d8a151099091660419ad3de9?impolicy=wcms_crop_resize&cropH=636&cropW=954&xPos=89&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1350,9 +1364,7 @@
           "title": {
             "children": "Driver escapes unhurt after hurtling over collapsed bridge at 80kph"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1284",
