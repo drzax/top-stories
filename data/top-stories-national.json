@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103374646"
-        },
-        {
           "uri": "coremedia://article/103375048"
         },
         {
           "uri": "coremedia://article/103389556"
+        },
+        {
+          "uri": "coremedia://article/103384944"
         },
         {
           "uri": "coremedia://article/103387580"
@@ -99,86 +99,10 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103374646",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A track map from the Bureau of Meteorology, issued at 10pm (AEST).",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c57e5dbfaa8a0544b7e13c95f5571956?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=1&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-25/tropical-cyclone-kirrily-landfall-queensland-coast-live-blog/103374646"
-          },
-          "contentUri": "coremedia://article/103374646",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-25/tropical-cyclone-kirrily-landfall-queensland-coast-live-blog/103374646",
-          "video": null,
-          "reactKey": "national-103374646-1",
-          "synopsis": "Tropical Cyclone Kirrily is crossing the north Queensland coast near Townsville, with the system revised to category two. Follow live.",
-          "title": {
-            "children": "Tropical Cyclone Kirrily crossing coast near Townsville downgraded to category two system"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "69668",
-              "date": "2024-01-25T12:14:39.000Z",
-              "title": "Tropical Cyclone Kirrily is now a category two system"
-            },
-            {
-              "id": "69649",
-              "date": "2024-01-25T11:12:37.000Z",
-              "title": "The latest advice from the Bureau of Meteorology has just been released"
-            },
-            {
-              "id": "69603",
-              "date": "2024-01-25T10:00:02.000Z",
-              "title": "Tropical Cyclone Kirrily is now crossing the coast near Townsville, BOM says"
-            }
-          ],
-          "subjects": [
-            {
-              "id": "2762",
-              "title": "Weather"
-            },
-            {
-              "id": "1254",
-              "title": "Floods"
-            },
-            {
-              "id": "1296",
-              "title": "Cyclones"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103375048",
           "imagePosition": {
             "mobile": "right",
@@ -188,7 +112,7 @@
           "isMajor": false,
           "image": {
             "altText": "A composite image of Father Bob, Sandra Sully and Fiona Melanie Woods",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e69f3cfb8a88891be99eb1ccec7bcab?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=9&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e69f3cfb8a88891be99eb1ccec7bcab?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=11&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -202,7 +126,9 @@
           "title": {
             "children": "Social justice advocates, TV presenters, doctors and scientists among those recognised in Australia Day 2024 Honours "
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1520",
@@ -258,6 +184,51 @@
             {
               "id": "1520",
               "title": "Australia Day"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103384944",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "BOM satellite image of Tropical Cyclone Kirrily as starts to cross the coast",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73112f7654e82f0d8587918c8f5093de?impolicy=wcms_crop_resize&cropH=687&cropW=1031&xPos=78&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-25/tropical-cyclone-kirrily-queensland-bom-landfall/103384944"
+          },
+          "contentUri": "coremedia://article/103384944",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-25/tropical-cyclone-kirrily-queensland-bom-landfall/103384944",
+          "video": null,
+          "reactKey": "national-103384944-1",
+          "synopsis": "Tropical Cyclone Kirrily has been downgraded to a category two system as it crosses the Queensland coast, the Bureau of Meteorology says.",
+          "title": {
+            "children": "Kirrily makes landfall in north Queensland, with system forecast to weaken as it heads inland"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "102821970",
+              "title": "Weather Warnings"
+            },
+            {
+              "id": "2766",
+              "title": "Weather Phenomena"
             }
           ]
         }
