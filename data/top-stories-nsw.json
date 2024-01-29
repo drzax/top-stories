@@ -16,7 +16,7 @@
           "uri": "coremedia://article/103401562"
         },
         {
-          "uri": "coremedia://article/103224822"
+          "uri": "coremedia://article/103382598"
         },
         {
           "uri": "coremedia://article/103393702"
@@ -29,6 +29,9 @@
         },
         {
           "uri": "coremedia://article/103400212"
+        },
+        {
+          "uri": "coremedia://article/103224822"
         },
         {
           "uri": "coremedia://article/103400192"
@@ -65,6 +68,9 @@
         },
         {
           "uri": "coremedia://article/103382690"
+        },
+        {
+          "uri": "coremedia://article/103402394"
         },
         {
           "uri": "coremedia://article/103373182"
@@ -110,12 +116,6 @@
         },
         {
           "uri": "coremedia://article/103399702"
-        },
-        {
-          "uri": "coremedia://article/103398556"
-        },
-        {
-          "uri": "coremedia://article/103387144"
         }
       ]
     },
@@ -172,9 +172,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103224822",
+          "id": "103382598",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -182,34 +188,47 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A sunflower rises in a field in front of debris from a plane crash.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1b308ba10666aed51ceb7e90f723e5f?impolicy=wcms_crop_resize&cropH=2522&cropW=3783&xPos=306&yPos=0&width=160&height=107",
+            "altText": "A designed image of Abbott looking downcast during a press conference in front of Australian flags.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eb420b5f9571d3592e394101a0436ed6?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=169&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-29/tony-abbott-angus-houston-discussed-sending-troops-after-mh17/103224822"
+            "to": "/news/2024-01-29/nemesis-live-updates-episode-1-tony-abbott/103382598"
           },
-          "contentUri": "coremedia://article/103224822",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-29/tony-abbott-angus-houston-discussed-sending-troops-after-mh17/103224822",
+          "contentUri": "coremedia://article/103382598",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-29/nemesis-live-updates-episode-1-tony-abbott/103382598",
           "video": null,
-          "reactKey": "nsw-103224822-1",
-          "synopsis": "Former defence force chief Angus Houston reveals how Tony Abbott considered sending a \"large military deployment\" to Ukraine after Russia-backed separatists shot down Malaysia Airlines Flight MH17, killing 298 people including 38 Australian citizens and residents.",
+          "reactKey": "nsw-103382598-1",
+          "synopsis": "Put the kettle on and get comfy — the ABC's political docuseries Nemesis has arrived. We'll bring you the latest updates from episode one, with political analysis from David Speers. Follow live.",
           "title": {
-            "children": "Abbott considered sending 'large military deployment' to Ukraine in wake of MH17 disaster"
+            "children": "Join us as we unpack Tony Abbott's rise and fall in Nemesis"
           },
           "imageContainerClassNames": [],
-          "subjects": [
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
             {
-              "id": "1224",
-              "title": "Defence and National Security"
-            },
+              "id": "70673",
+              "date": "2024-01-29T08:27:11.000Z",
+              "title": "Got a question for David Speers? Submit it to our live blog"
+            }
+          ],
+          "subjects": [
             {
               "id": "1534",
               "title": "Government and Politics"
             },
             {
-              "id": "1228",
-              "title": "Defence Forces"
+              "id": "1550",
+              "title": "Parliament"
+            },
+            {
+              "id": "1582",
+              "title": "Federal Parliament"
             }
           ]
         }
@@ -396,6 +415,51 @@
             {
               "id": "1996",
               "title": "Assault"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103224822",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A sunflower rises in a field in front of debris from a plane crash.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1b308ba10666aed51ceb7e90f723e5f?impolicy=wcms_crop_resize&cropH=2522&cropW=3783&xPos=306&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-29/tony-abbott-angus-houston-discussed-sending-troops-after-mh17/103224822"
+          },
+          "contentUri": "coremedia://article/103224822",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-29/tony-abbott-angus-houston-discussed-sending-troops-after-mh17/103224822",
+          "video": null,
+          "reactKey": "nsw-103224822-1",
+          "synopsis": "Former defence force chief Angus Houston reveals how Tony Abbott considered sending a \"large military deployment\" to Ukraine after Russia-backed separatists shot down Malaysia Airlines Flight MH17, killing 298 people including 38 Australian citizens and residents.",
+          "title": {
+            "children": "Abbott considered sending 'large military deployment' to Ukraine in wake of MH17 disaster"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1224",
+              "title": "Defence and National Security"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1228",
+              "title": "Defence Forces"
             }
           ]
         }
@@ -924,6 +988,51 @@
             {
               "id": "2008",
               "title": "Prisons and Punishment"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103402394",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Tennis star Jannik Sinner crouches down on court to pose behind a big trophy after the Australian Open men's singles final.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/94dac81c7e9156fc5a6e0515d0bedae8?impolicy=wcms_crop_resize&cropH=2695&cropW=4042&xPos=374&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-29/tennis-boss-craig-tiley-hails-melbourne-park-major-the-best-open/103402394"
+          },
+          "contentUri": "coremedia://article/103402394",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-29/tennis-boss-craig-tiley-hails-melbourne-park-major-the-best-open/103402394",
+          "video": null,
+          "reactKey": "nsw-103402394-1",
+          "synopsis": "Record crowds, glowing player feedback and a thrilling men's finale have tennis chief Craig Tiley declaring the 2024 Australian Open \"the best ever\".",
+          "title": {
+            "children": "Tennis boss Craig Tiley hails Melbourne Park major 'the best Australian Open ever'"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2584",
+              "title": "Tennis"
+            },
+            {
+              "id": "2658",
+              "title": "Australian Open"
             }
           ]
         }
@@ -1599,88 +1708,6 @@
             {
               "id": "102272974",
               "title": "Matildas"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103398556",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "David Pocock holding a press conference at Parliament House",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63443c465c55f0336de0f5de4cf6e948?impolicy=wcms_crop_resize&cropH=2668&cropW=4001&xPos=1723&yPos=192&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-29/party-of-community-independents-to-contest-act-election/103398556"
-          },
-          "contentUri": "coremedia://article/103398556",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-29/party-of-community-independents-to-contest-act-election/103398556",
-          "video": null,
-          "reactKey": "nsw-103398556-1",
-          "synopsis": "A party of community independents, who say they're inspired by the success of Senator David Pocock at the last federal election, will contest this year's ACT election. ",
-          "title": {
-            "children": "Inspired by Senator David Pocock's success, this party of independents is going to contest the ACT election"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "13743644",
-              "title": "Independents"
-            },
-            {
-              "id": "10396004",
-              "title": "State and Territory Elections"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103387144",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Actress Luciane sits on the floor during a scene with actor Albert Rounds who is sitting on a couch. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3922bb7c6d3479828d16adc7fe08ea69?impolicy=wcms_crop_resize&cropH=432&cropW=648&xPos=81&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/pacific/lea-tupuanga-short-film-premieres-at-sundance-film-festival/103387144"
-          },
-          "contentUri": "coremedia://article/103387144",
-          "canonicalURL": "https://www.abc.net.au/pacific/lea-tupuanga-short-film-premieres-at-sundance-film-festival/103387144",
-          "video": null,
-          "reactKey": "nsw-103387144-1",
-          "synopsis": "The Sundance Film Festival is one that Luciane Buchanan and Vea Mafile'o could only dream of entering — but now, six years after a language insecurity sparked inspiration, their short film Lea Tupu'anga/Mother Tongue has made that dream come true.",
-          "title": {
-            "children": "Kiwi/Tongan creator's dream come true as short film premiers at Sundance"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "518",
-              "title": "Short Film"
-            },
-            {
-              "id": "1924",
-              "title": "People"
             }
           ]
         }
