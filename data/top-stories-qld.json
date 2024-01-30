@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103404738"
+        },
+        {
           "uri": "coremedia://article/103403030"
         },
         {
@@ -26,6 +29,9 @@
         },
         {
           "uri": "coremedia://article/103400540"
+        },
+        {
+          "uri": "coremedia://article/103404322"
         },
         {
           "uri": "coremedia://article/103382696"
@@ -91,9 +97,6 @@
           "uri": "coremedia://article/103174398"
         },
         {
-          "uri": "coremedia://article/103403372"
-        },
-        {
           "uri": "coremedia://article/103402808"
         },
         {
@@ -105,11 +108,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103403030",
+          "id": "103404738",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -117,9 +126,61 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Three men push a car out of floodwater",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65c61abbe18bec874a107c68ac3dac36?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "altText": "people cleaning up after their business was flooded in Samford",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c997e984729d59cb6af3247cc9910dd8?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-01-30/qld-weather-flooding-storms-live-blog-rain/103404738"
+          },
+          "contentUri": "coremedia://article/103404738",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/qld-weather-flooding-storms-live-blog-rain/103404738",
+          "video": null,
+          "reactKey": "qld-103404738-1",
+          "synopsis": "Schools and roads are closed as flash flooding hits widespread areas of south-east Queensland. The Bureau of Meteorology has issued several emergency warnings. Follow live",
+          "title": {
+            "children": "Homes and businesses under water after flash flooding in south-east Queensland "
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "1254",
+              "title": "Floods"
+            },
+            {
+              "id": "2764",
+              "title": "Rain"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103403030",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Three men push a car out of floodwater",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65c61abbe18bec874a107c68ac3dac36?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-01-30/qld-south-east-queensland-storm-emergency/103403030"
@@ -130,7 +191,7 @@
           "reactKey": "qld-103403030-1",
           "synopsis": "Several people are rescued in the Moreton Bay suburb of Bray Park as some streets are flooded and waist-deep water sweeps through homes. ",
           "title": {
-            "children": "Homes flooded and several people rescued as storms roll over south-east Queensland"
+            "children": "Multiple swiftwater rescues as rising floodwaters catch people off guard in Queensland"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -323,6 +384,51 @@
             {
               "id": "102909144",
               "title": "Extreme Weather Events"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103404322",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A flooded country town, as seen from above.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b55710d03eb7a13dd1eba1e579f8dd6b?impolicy=wcms_crop_resize&cropH=1152&cropW=1728&xPos=160&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-30/emergency-flood-warnings-for-queensland-towns/103404322"
+          },
+          "contentUri": "coremedia://article/103404322",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/emergency-flood-warnings-for-queensland-towns/103404322",
+          "video": null,
+          "reactKey": "qld-103404322-1",
+          "synopsis": "Emergency alerts have been issued for parts of the state, where residents are witnessing the all-too-familiar sights of flooded businesses, roads and paddocks.",
+          "title": {
+            "children": "Crop losses and heartache as Queensland towns flood for third time in three years"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1254",
+              "title": "Floods"
+            },
+            {
+              "id": "2186",
+              "title": "Agricultural Crops"
+            },
+            {
+              "id": "2762",
+              "title": "Weather"
             }
           ]
         }
@@ -756,7 +862,7 @@
           "reactKey": "qld-103404036-1",
           "synopsis": "A recorded phone call between rugby player Kurtley Beale and the woman who alleges he sexually assaulted her at a Bondi pub in 2022 is played in court.",
           "title": {
-            "children": "'I kept saying no': Phone call between Kurtley Beale and alleged sexual assault victim played in court"
+            "children": "'I feel bad, I'm so sorry': Phone call between Wallabies star and sexual assault accuser played in court"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -818,6 +924,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "70779",
+              "date": "2024-01-30T02:49:04.000Z",
+              "title": "Godfreys enters into voluntary administration, with 193 workers to lose jobs"
+            },
+            {
               "id": "70771",
               "date": "2024-01-30T01:35:21.000Z",
               "title": "Retail sales post biggest monthly slump outside of COVID, GST introduction"
@@ -826,11 +937,6 @@
               "id": "70766",
               "date": "2024-01-30T00:49:28.000Z",
               "title": "Christmas and Boxing Day sales fall as consumers cut back on discretionary spending"
-            },
-            {
-              "id": "70765",
-              "date": "2024-01-30T00:43:18.000Z",
-              "title": "Former Boeing employees warn production defects ignored by company and US aviation regulator put passengers at risk"
             }
           ],
           "subjects": [
@@ -1284,7 +1390,7 @@
           "isMajor": false,
           "image": {
             "altText": "Woman holds baby while staring into the camera. The baby is looking away from the camera. The woman has light brown hair.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3184971c460930d6de341392cc9bb621?impolicy=wcms_crop_resize&cropH=3061&cropW=4592&xPos=0&yPos=193&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3184971c460930d6de341392cc9bb621?impolicy=wcms_crop_resize&cropH=3061&cropW=4592&xPos=0&yPos=193&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1298,9 +1404,7 @@
           "title": {
             "children": "Mums reveal confusion, heartache, financial burden of giving birth away from home"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1618",
@@ -1313,51 +1417,6 @@
             {
               "id": "1860",
               "title": "Infant Health"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103403372",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A yellow spacecraft with a pink line at the end of it surrounded by a bunch of space rocks on the moon.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c05188d165ee6468cad98cf059c7640c?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=27&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-30/japan-slim-spacecraft-regains-power/103403372"
-          },
-          "contentUri": "coremedia://article/103403372",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/japan-slim-spacecraft-regains-power/103403372",
-          "video": null,
-          "reactKey": "qld-103403372-1",
-          "synopsis": "A change in the sunlight's direction is believed to helped Japan's SLIM lunar probe regain power more than a week after it ran out.",
-          "title": {
-            "children": "Japan's lunar probe regains power after nine days"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2442",
-              "title": "Space Exploration"
-            },
-            {
-              "id": "2440",
-              "title": "The moon"
-            },
-            {
-              "id": "2438",
-              "title": "Spacecraft"
             }
           ]
         }
