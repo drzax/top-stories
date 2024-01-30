@@ -16,10 +16,13 @@
           "uri": "coremedia://article/103353800"
         },
         {
-          "uri": "coremedia://article/103403030"
+          "uri": "coremedia://article/103404738"
         },
         {
           "uri": "coremedia://article/103392690"
+        },
+        {
+          "uri": "coremedia://article/103403030"
         },
         {
           "uri": "coremedia://article/103403866"
@@ -65,9 +68,6 @@
         },
         {
           "uri": "coremedia://article/103403354"
-        },
-        {
-          "uri": "coremedia://article/103400540"
         },
         {
           "uri": "coremedia://article/103400094"
@@ -150,9 +150,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103403030",
+          "id": "103404738",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -160,34 +166,41 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Three men push a car out of floodwater",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65c61abbe18bec874a107c68ac3dac36?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "people cleaning up after their business was flooded in Samford",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c997e984729d59cb6af3247cc9910dd8?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-01-30/qld-south-east-queensland-storm-emergency/103403030"
+            "to": "/news/2024-01-30/qld-weather-flooding-storms-live-blog-rain/103404738"
           },
-          "contentUri": "coremedia://article/103403030",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/qld-south-east-queensland-storm-emergency/103403030",
+          "contentUri": "coremedia://article/103404738",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/qld-weather-flooding-storms-live-blog-rain/103404738",
           "video": null,
-          "reactKey": "act-103403030-1",
-          "synopsis": "Several people are rescued in the Moreton Bay suburb of Bray Park as some streets are flooded and waist-deep water sweeps through homes. ",
+          "reactKey": "act-103404738-1",
+          "synopsis": "Schools and roads are closed as flash flooding hits widespread areas of south-east Queensland. The Bureau of Meteorology has issued several emergency warnings. Follow live",
           "title": {
-            "children": "Multiple swiftwater rescues as rising floodwaters catch people off guard in Queensland"
+            "children": "Homes and businesses underwater after flash flooding in south-east Queensland "
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
               "title": "Weather"
             },
             {
-              "id": "102810514",
-              "title": "Thunderstorms"
+              "id": "1254",
+              "title": "Floods"
             },
             {
-              "id": "1248",
-              "title": "Storms"
+              "id": "2764",
+              "title": "Rain"
             }
           ]
         }
@@ -235,6 +248,51 @@
             {
               "id": "12551118",
               "title": "Measles"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103403030",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Three men push a car out of floodwater",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65c61abbe18bec874a107c68ac3dac36?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-01-30/qld-south-east-queensland-storm-emergency/103403030"
+          },
+          "contentUri": "coremedia://article/103403030",
+          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/qld-south-east-queensland-storm-emergency/103403030",
+          "video": null,
+          "reactKey": "act-103403030-1",
+          "synopsis": "Several people are rescued in the Moreton Bay suburb of Bray Park as some streets are flooded and waist-deep water sweeps through homes. ",
+          "title": {
+            "children": "Multiple swiftwater rescues as rising floodwaters catch people off guard in Queensland"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "102810514",
+              "title": "Thunderstorms"
+            },
+            {
+              "id": "1248",
+              "title": "Storms"
             }
           ]
         }
@@ -538,6 +596,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "70790",
+              "date": "2024-01-30T03:42:36.000Z",
+              "title": "Stage 3 tax cuts explained: Who are the winners and losers?"
+            },
+            {
               "id": "70779",
               "date": "2024-01-30T02:49:04.000Z",
               "title": "Godfreys enters into voluntary administration, with 193 workers to lose jobs"
@@ -546,11 +609,6 @@
               "id": "70771",
               "date": "2024-01-30T01:35:21.000Z",
               "title": "Retail sales post biggest monthly slump outside of COVID, GST introduction"
-            },
-            {
-              "id": "70766",
-              "date": "2024-01-30T00:49:28.000Z",
-              "title": "Christmas and Boxing Day sales fall as consumers cut back on discretionary spending"
             }
           ],
           "subjects": [
@@ -923,51 +981,6 @@
             {
               "id": "1430",
               "title": "National Parks"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103400540",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An orange sunset above the silhouette of houses and palm trees.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/81986d072dc9112865fb06092cacdb59?impolicy=wcms_crop_resize&cropH=1999&cropW=2999&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-01-30/qld-heatwave-death-ambulance-natural-disasters-hot-weather-humid/103400540"
-          },
-          "contentUri": "coremedia://article/103400540",
-          "canonicalURL": "https://www.abc.net.au/news/2024-01-30/qld-heatwave-death-ambulance-natural-disasters-hot-weather-humid/103400540",
-          "video": null,
-          "reactKey": "act-103400540-1",
-          "synopsis": "Heatwaves cause the deaths of more people in Australia than any other natural disaster, and researchers are pleading for action.",
-          "title": {
-            "children": "Heatwaves lead to 10 per cent increase in ambulance call-outs, 'pushing the healthcare system to capacity'"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "102909152",
-              "title": "Heatwaves"
-            },
-            {
-              "id": "1616",
-              "title": "Health"
-            },
-            {
-              "id": "102909144",
-              "title": "Extreme Weather Events"
             }
           ]
         }
