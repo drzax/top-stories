@@ -73,9 +73,6 @@
           "uri": "coremedia://article/103373432"
         },
         {
-          "uri": "coremedia://article/103393926"
-        },
-        {
           "uri": "coremedia://article/103409458"
         },
         {
@@ -252,7 +249,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103424962",
           "imagePosition": {
@@ -278,6 +282,13 @@
             "children": "Police seize car after stabbing death of grandmother at Queensland shopping centre"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1988",
@@ -1012,51 +1023,6 @@
             {
               "id": "1184",
               "title": "Children"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103393926",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Charlie Smith smiling in his sunflower crop.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/87111a74b046e570e8a1525fab4377b4?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-02-04/growing-sunflowers-for-pocket-money-in-manjimup/103393926"
-          },
-          "contentUri": "coremedia://article/103393926",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-04/growing-sunflowers-for-pocket-money-in-manjimup/103393926",
-          "video": null,
-          "reactKey": "national-103393926-1",
-          "synopsis": "Charlie Smith spent his school holidays growing sunflowers with his dad on their Manjimup farm in WA's South West and has big aspirations for his little business.",
-          "title": {
-            "children": "'I want to grow over one trillion sunflowers': Young farmer aims high with new roadside venture"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2028",
-              "title": "Gardening"
-            },
-            {
-              "id": "2170",
-              "title": "Agribusiness"
-            },
-            {
-              "id": "2206",
-              "title": "Flowers"
             }
           ]
         }
