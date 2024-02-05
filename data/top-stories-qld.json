@@ -19,10 +19,13 @@
           "uri": "coremedia://article/103428060"
         },
         {
-          "uri": "coremedia://article/103428320"
+          "uri": "coremedia://article/103409178"
         },
         {
           "uri": "coremedia://article/103425904"
+        },
+        {
+          "uri": "coremedia://article/103428320"
         },
         {
           "uri": "coremedia://article/103315542"
@@ -58,16 +61,7 @@
           "uri": "coremedia://article/103426476"
         },
         {
-          "uri": "coremedia://article/103425514"
-        },
-        {
-          "uri": "coremedia://article/103427970"
-        },
-        {
           "uri": "coremedia://article/103378782"
-        },
-        {
-          "uri": "coremedia://article/103426922"
         },
         {
           "uri": "coremedia://article/103427246"
@@ -85,6 +79,9 @@
           "uri": "coremedia://article/103426894"
         },
         {
+          "uri": "coremedia://article/103425514"
+        },
+        {
           "uri": "coremedia://article/103427128"
         },
         {
@@ -100,7 +97,10 @@
           "uri": "coremedia://article/103426954"
         },
         {
-          "uri": "coremedia://article/103427696"
+          "uri": "coremedia://article/103427970"
+        },
+        {
+          "uri": "coremedia://article/103426922"
         },
         {
           "uri": "coremedia://article/103424992"
@@ -211,9 +211,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103428320",
+          "id": "103409178",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -221,26 +227,41 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Artist impression of retirement village being built trackside in Brisbane.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e8df61e1223189e452c55bcabdd9cfc?impolicy=wcms_crop_resize&cropH=467&cropW=701&xPos=46&yPos=0&width=160&height=107",
+            "altText": "A portrait of Malcolm Turnbull looking determinedly down the barrel of the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/02c69e3cf950c82147f45d62bee68777?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=176&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-05/construction-company-st-hilliers-goes-into-admininistration/103428320"
+            "to": "/news/2024-02-05/nemesis-live-updates-episode-2-companion-blog/103409178"
           },
-          "contentUri": "coremedia://article/103428320",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/construction-company-st-hilliers-goes-into-admininistration/103428320",
+          "contentUri": "coremedia://article/103409178",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/nemesis-live-updates-episode-2-companion-blog/103409178",
           "video": null,
-          "reactKey": "qld-103428320-1",
-          "synopsis": "St Hilliers is placed into voluntary administration as work halts on its developments around Australia, including major projects in Newcastle, the Central Coast and Brisbane.",
+          "reactKey": "qld-103409178-1",
+          "synopsis": "The ABC's political docuseries Nemesis is back. We'll bring you the latest updates from episode two, with political analysis from Annabel Crabb. Follow live.",
           "title": {
-            "children": "Construction giant calls in administrators leaving 21 multimillion-dollar developments dangling"
+            "children": "Join Annabel Crabb as we relive the thrills and spills of the Turnbull years in Nemesis"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
-              "id": "852",
-              "title": "Construction and Real Estate Industry"
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1550",
+              "title": "Parliament"
             }
           ]
         }
@@ -286,6 +307,43 @@
             {
               "id": "998",
               "title": "Child Abuse"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103428320",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Artist impression of retirement village being built trackside in Brisbane.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e8df61e1223189e452c55bcabdd9cfc?impolicy=wcms_crop_resize&cropH=467&cropW=701&xPos=46&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/construction-company-st-hilliers-goes-into-admininistration/103428320"
+          },
+          "contentUri": "coremedia://article/103428320",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/construction-company-st-hilliers-goes-into-admininistration/103428320",
+          "video": null,
+          "reactKey": "qld-103428320-1",
+          "synopsis": "St Hilliers is placed into voluntary administration as work halts on its developments around Australia, including major projects in Newcastle, the Central Coast and Brisbane.",
+          "title": {
+            "children": "Construction giant calls in administrators leaving 21 multimillion-dollar developments dangling"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "852",
+              "title": "Construction and Real Estate Industry"
             }
           ]
         }
@@ -393,8 +451,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Taylor Swift holding a Grammy and smiling widely wearing a white sleeveless evening gown and long black gloves",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f4a6960cdf384cb44cfa75b543ad3ff?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=19&width=160&height=107",
+            "altText": "Taylor Swift wearing a white strapless dress with a thigh slip and a train and black long gloves",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e00d11139586af9e3a0ddd3ad760a458?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -485,8 +543,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Kurtley Beale arrives at the Downing Centre District Court in Sydney, Friday, February 2, 2024",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c0191c447915fa87550cae463f2f5de9?impolicy=wcms_crop_resize&cropH=2085&cropW=3127&xPos=0&yPos=0&width=160&height=107",
+            "altText": "an outside shot of the beach road hotel in bondi",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b46b4e5adeb9e72b1aaddd037d5c3306?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -784,96 +842,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103425514",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Rent sign of real estate agency outside an apartment building in Brisbane",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2b00ae1e78dbf9a568dd6038fb559411?impolicy=wcms_crop_resize&cropH=684&cropW=1026&xPos=227&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-05/qld-housing-crisis-rent-bond-property-construction-builder/103425514"
-          },
-          "contentUri": "coremedia://article/103425514",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/qld-housing-crisis-rent-bond-property-construction-builder/103425514",
-          "video": null,
-          "reactKey": "qld-103425514-1",
-          "synopsis": "The Queensland government has made several announcements in a bid to address growing concerns around housing affordability and supply. Here's a breakdown of some of the key changes in the works.",
-          "title": {
-            "children": "Queensland has announced major changes to address the state's housing crisis. Here's what's changing"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "12551154",
-              "title": "Rental Housing"
-            },
-            {
-              "id": "102272708",
-              "title": "Cost of Living"
-            },
-            {
-              "id": "1588",
-              "title": "State and Territory Government"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103427970",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The eye and head of a crocodile swimming in water",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a2346f944070159c521af4f0e134d2d?impolicy=wcms_crop_resize&cropH=1065&cropW=1598&xPos=0&yPos=103&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-05/crocodile-management-plan-cull-consultation-northern-territory/103427970"
-          },
-          "contentUri": "coremedia://article/103427970",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/crocodile-management-plan-cull-consultation-northern-territory/103427970",
-          "video": null,
-          "reactKey": "qld-103427970-1",
-          "synopsis": "The NT government has released a draft plan to manage crocodiles for the next 10 years, with the population currently over 100,000 in the jurisdiction.",
-          "title": {
-            "children": "NT public to have say on croc culling as chief minister flags concern with current numbers"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1938",
-              "title": "Crocodile Attacks"
-            },
-            {
-              "id": "850",
-              "title": "Tourism and Leisure Industry"
-            },
-            {
-              "id": "1492",
-              "title": "Environmental Management"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -917,51 +885,6 @@
             {
               "id": "2162",
               "title": "Turnbull, Malcolm"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103426922",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Police investigate in a suburban street.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6669b6f0c4e520ecd81e710a20365d33?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=216&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-05/murder-accused-faces-court-over-mother-and-son-death-rosewater/103426922"
-          },
-          "contentUri": "coremedia://article/103426922",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/murder-accused-faces-court-over-mother-and-son-death-rosewater/103426922",
-          "video": null,
-          "reactKey": "qld-103426922-1",
-          "synopsis": "A man charged with the alleged murder of a mother and son in Adelaide's north-west on the weekend has faced Port Adelaide Magistrates Court.",
-          "title": {
-            "children": "Man faces court over the alleged double murder of mother and son in Adelaide "
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1988",
-              "title": "Homicide"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
             }
           ]
         }
@@ -1198,6 +1121,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103425514",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Rent sign of real estate agency outside an apartment building in Brisbane",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2b00ae1e78dbf9a568dd6038fb559411?impolicy=wcms_crop_resize&cropH=684&cropW=1026&xPos=227&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/qld-housing-crisis-rent-bond-property-construction-builder/103425514"
+          },
+          "contentUri": "coremedia://article/103425514",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/qld-housing-crisis-rent-bond-property-construction-builder/103425514",
+          "video": null,
+          "reactKey": "qld-103425514-1",
+          "synopsis": "The Queensland government has made several announcements in a bid to address growing concerns around housing affordability and supply. Here's a breakdown of some of the key changes in the works.",
+          "title": {
+            "children": "Queensland has announced major changes to address the state's housing crisis. Here's what's changing"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "12551154",
+              "title": "Rental Housing"
+            },
+            {
+              "id": "102272708",
+              "title": "Cost of Living"
+            },
+            {
+              "id": "1588",
+              "title": "State and Territory Government"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103427128",
           "imagePosition": {
             "mobile": "right",
@@ -1401,14 +1369,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorName": "Brittany Carter"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "103427696",
+          "id": "103427970",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1416,34 +1379,79 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Stacey Marinkovich smiles for the camera in front of a black screen",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4e2338c1bf90b409b7ae16f864416ba0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "The eye and head of a crocodile swimming in water",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a2346f944070159c521af4f0e134d2d?impolicy=wcms_crop_resize&cropH=1065&cropW=1598&xPos=0&yPos=103&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-05/marinkovich-silences-doubters-diamonds-win-nine-straight-series/103427696"
+            "to": "/news/2024-02-05/crocodile-management-plan-cull-consultation-northern-territory/103427970"
           },
-          "contentUri": "coremedia://article/103427696",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/marinkovich-silences-doubters-diamonds-win-nine-straight-series/103427696",
+          "contentUri": "coremedia://article/103427970",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/crocodile-management-plan-cull-consultation-northern-territory/103427970",
           "video": null,
-          "reactKey": "qld-103427696-1",
-          "synopsis": "Australian netball head coach Stacey Marinkovich wasn't the favourite to score the gig back in 2020. However she's getting the credit she deserves after developing the next generation of Diamonds and taking the team to new heights during a rocky period for the sport",
+          "reactKey": "qld-103427970-1",
+          "synopsis": "The NT government has released a draft plan to manage crocodiles for the next 10 years, with the population currently over 100,000 in the jurisdiction.",
           "title": {
-            "children": "Marinkovich silences critics as Diamonds close in on 10 straight series wins"
+            "children": "NT public to have say on croc culling as chief minister flags concern with current numbers"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "2570",
-              "title": "Netball"
+              "id": "1938",
+              "title": "Crocodile Attacks"
             },
             {
-              "id": "2478",
-              "title": "Sport"
+              "id": "850",
+              "title": "Tourism and Leisure Industry"
             },
             {
-              "id": "13382184",
-              "title": "National Netball League"
+              "id": "1492",
+              "title": "Environmental Management"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103426922",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Police investigate in a suburban street.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6669b6f0c4e520ecd81e710a20365d33?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=216&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/murder-accused-faces-court-over-mother-and-son-death-rosewater/103426922"
+          },
+          "contentUri": "coremedia://article/103426922",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/murder-accused-faces-court-over-mother-and-son-death-rosewater/103426922",
+          "video": null,
+          "reactKey": "qld-103426922-1",
+          "synopsis": "A man charged with the alleged murder of a mother and son in Adelaide's north-west on the weekend has faced Port Adelaide Magistrates Court.",
+          "title": {
+            "children": "Man faces court over the alleged double murder of mother and son in Adelaide "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1988",
+              "title": "Homicide"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
             }
           ]
         }
