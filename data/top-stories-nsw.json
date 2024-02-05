@@ -28,6 +28,9 @@
           "uri": "coremedia://article/103426680"
         },
         {
+          "uri": "coremedia://article/103426320"
+        },
+        {
           "uri": "coremedia://article/103424930"
         },
         {
@@ -98,9 +101,6 @@
         },
         {
           "uri": "coremedia://article/103385426"
-        },
-        {
-          "uri": "coremedia://article/103421410"
         },
         {
           "uri": "coremedia://article/103418604"
@@ -300,7 +300,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103426680",
           "imagePosition": {
@@ -310,8 +317,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A 70-year-old woman with shoulder length brown hair sitting down.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a646973bd69945bc7114554346b4c6bd?impolicy=wcms_crop_resize&cropH=292&cropW=439&xPos=200&yPos=14&width=160&height=107",
+            "altText": "Flower tributes have been left at Redbank Plains Shopping Centre.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/99a8fb8e022be394aa0cd44d3e85fd07?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -326,6 +333,13 @@
             "children": "Police arrest 15yo boy in relation to stabbing death of Ipswich grandmother "
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -338,6 +352,51 @@
             {
               "id": "2018",
               "title": "Courts and Trials"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103426320",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A white silky bantam chicken. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c83eae36d04e08df05ec2d7afa5fdd9b?impolicy=wcms_crop_resize&cropH=809&cropW=1214&xPos=353&yPos=359&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/peter-smith-pleads-not-guilty-to-alleged-animal-cruelty-chicken/103426320"
+          },
+          "contentUri": "coremedia://article/103426320",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/peter-smith-pleads-not-guilty-to-alleged-animal-cruelty-chicken/103426320",
+          "video": null,
+          "reactKey": "nsw-103426320-1",
+          "synopsis": "A man has pleaded not guilty to allegedly removing a live silky bantam chicken, called Betty White, from a wildlife park enclosure and throwing it into a nearby alligator enclosure.",
+          "title": {
+            "children": "Live chicken allegedly thrown to alligators in incident likened to 'David Attenborough documentary' "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1972",
+              "title": "Animal Cruelty"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "1934",
+              "title": "Animals"
             }
           ]
         }
@@ -451,8 +510,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Taylor Swift with a shocked expression holding a Grammy and wearing a white dress.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/16066b4d4b888a427c4569c7d4fa52b3?impolicy=wcms_crop_resize&cropH=2010&cropW=3015&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Jay-Z stands next to his daughter on stage as he holds up an award.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/847586cd8597f6d3d45f2272dec2684d?impolicy=wcms_crop_resize&cropH=2010&cropW=3015&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -462,9 +521,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-02-05/grammy-awards-2024-live-blog-boygenius-sza-kylie/103411658",
           "video": null,
           "reactKey": "nsw-103411658-1",
-          "synopsis": "The Grammy Awards are underway in Los Angeles and Australia's Kylie Minogue has won a pre-show award. Follow live.",
+          "synopsis": "Taylor Swift announces the name and release date of her new album from the Grammys stage. Follow live.",
           "title": {
-            "children": "Taylor Swift announces release date for new album as she wins Grammy for Best Pop Vocal Album"
+            "children": "Taylor Swift uses Grammy win to reveal new album as Jay-Z calls out Beyonce snub"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -477,6 +536,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "71584",
+              "date": "2024-02-05T04:04:31.000Z",
+              "title": "Best New Artist goes to Victoria Monét"
+            },
+            {
               "id": "71571",
               "date": "2024-02-05T03:32:16.000Z",
               "title": "Joni Mitchell's touching Grammys live debut"
@@ -485,11 +549,6 @@
               "id": "71549",
               "date": "2024-02-05T03:05:15.000Z",
               "title": "Jay-Z honoured with Dr Dre Global Impact award"
-            },
-            {
-              "id": "71518",
-              "date": "2024-02-05T02:31:22.000Z",
-              "title": "NEW TAYLOR ALBUM"
             }
           ],
           "subjects": [
@@ -1207,6 +1266,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "71583",
+              "date": "2024-02-05T04:00:00.000Z",
+              "title": "Market check-in shows little improvement"
+            },
+            {
               "id": "71574",
               "date": "2024-02-05T03:37:00.000Z",
               "title": "Trade balance lifts as value of imports rises by more than our exports"
@@ -1215,11 +1279,6 @@
               "id": "71478",
               "date": "2024-02-05T01:42:37.000Z",
               "title": "All sectors are in red"
-            },
-            {
-              "id": "71465",
-              "date": "2024-02-05T01:22:25.000Z",
-              "title": "Job ads rise in January"
             }
           ],
           "subjects": [
@@ -1451,51 +1510,6 @@
             {
               "id": "1828",
               "title": "Mental Health"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103421410",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An island with white sandy beaches, turquoise water, swaying palms and blue sky.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/de3cd64a586cb9d101d544f6f7c3a172?impolicy=wcms_crop_resize&cropH=1680&cropW=2983&xPos=17&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-02-05/taiwan-tuvalu-beijing-china-pacific-diplomatic-switch-ties-/103421410"
-          },
-          "contentUri": "coremedia://article/103421410",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/taiwan-tuvalu-beijing-china-pacific-diplomatic-switch-ties-/103421410",
-          "video": null,
-          "reactKey": "nsw-103421410-1",
-          "synopsis": "Taiwan's top diplomatic representative to Australia has declared that he's \"quite confident\" that Tuvalu won't follow Nauru's lead and switch diplomatic recognition to China, despite Beijing's attempts to \"lure\" politicians in the Pacific Island country.",
-          "title": {
-            "children": "Despite Beijing's attempts to 'lure' more support in the Pacific, Taipei backs Tuvalu to stick with Taiwan"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "1556",
-              "title": "Foreign Affairs"
-            },
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
             }
           ]
         }
