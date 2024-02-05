@@ -16,13 +16,16 @@
           "uri": "coremedia://article/103425904"
         },
         {
-          "uri": "coremedia://article/103428060"
+          "uri": "coremedia://article/103409178"
         },
         {
           "uri": "coremedia://article/103426246"
         },
         {
           "uri": "coremedia://article/103427248"
+        },
+        {
+          "uri": "coremedia://article/103428060"
         },
         {
           "uri": "coremedia://article/103378782"
@@ -41,6 +44,9 @@
         },
         {
           "uri": "coremedia://article/103426680"
+        },
+        {
+          "uri": "coremedia://article/103429670"
         },
         {
           "uri": "coremedia://article/103426290"
@@ -110,12 +116,6 @@
         },
         {
           "uri": "coremedia://article/103423072"
-        },
-        {
-          "uri": "coremedia://article/103426144"
-        },
-        {
-          "uri": "coremedia://article/103427304"
         }
       ]
     },
@@ -172,9 +172,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103428060",
+          "id": "103409178",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -182,34 +188,41 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A photo of a Chinese-Australian man Yang Hengjun, sitting on an outside table, wearing a navy polo shirt with a red collar.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fa754f7c36d8f29e1712ca29311fe833?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=26&width=160&height=107",
+            "altText": "A portrait of Malcolm Turnbull looking determinedly down the barrel of the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/02c69e3cf950c82147f45d62bee68777?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=176&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-05/australian-yang-hengjun-sentenced-to-death/103428060"
+            "to": "/news/2024-02-05/nemesis-live-updates-episode-2-companion-blog/103409178"
           },
-          "contentUri": "coremedia://article/103428060",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/australian-yang-hengjun-sentenced-to-death/103428060",
+          "contentUri": "coremedia://article/103409178",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/nemesis-live-updates-episode-2-companion-blog/103409178",
           "video": null,
-          "reactKey": "vic-103428060-1",
-          "synopsis": "The writer and democracy activist has been imprisoned since 2019 on charges of spying, which he denies. Foreign Minister Penny Wong called the court's decision \"harrowing and appalling\", although his death penalty can be converted to a life sentence after two years of good behaviour.",
+          "reactKey": "vic-103409178-1",
+          "synopsis": "The ABC's political docuseries Nemesis is back. We'll bring you the latest updates from episode two, with political analysis from Annabel Crabb. Follow live.",
           "title": {
-            "children": "Chinese ambassador to explain 'appalling' death sentence for Australian Yang Hengjun"
+            "children": "Join Annabel Crabb as we relive the thrills and spills of the Turnbull years in Nemesis"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
             {
               "id": "1534",
               "title": "Government and Politics"
             },
             {
-              "id": "1574",
-              "title": "World Politics"
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1550",
+              "title": "Parliament"
             }
           ]
         }
@@ -284,6 +297,51 @@
             {
               "id": "984",
               "title": "Missing Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103428060",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A photo of a Chinese-Australian man Yang Hengjun, sitting on an outside table, wearing a navy polo shirt with a red collar.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fa754f7c36d8f29e1712ca29311fe833?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=26&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/australian-yang-hengjun-sentenced-to-death/103428060"
+          },
+          "contentUri": "coremedia://article/103428060",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/australian-yang-hengjun-sentenced-to-death/103428060",
+          "video": null,
+          "reactKey": "vic-103428060-1",
+          "synopsis": "The writer and democracy activist has been imprisoned since 2019 on charges of spying, which he denies. Foreign Minister Penny Wong called the court's decision \"harrowing and appalling\", although his death penalty can be converted to a life sentence after two years of good behaviour.",
+          "title": {
+            "children": "Chinese ambassador to explain 'appalling' death sentence for Australian Yang Hengjun"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1574",
+              "title": "World Politics"
             }
           ]
         }
@@ -553,6 +611,47 @@
             {
               "id": "2018",
               "title": "Courts and Trials"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103429670",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close up of the front of a Boeing 737 MAX plane in the air, with its front wheels down",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f691c534e2950122133c822e46fd5c4a?impolicy=wcms_crop_resize&cropH=1416&cropW=2124&xPos=88&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-05/boeing-delivery-delays-holes-not-drilled-correctly-737-jets/103429670"
+          },
+          "contentUri": "coremedia://article/103429670",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/boeing-delivery-delays-holes-not-drilled-correctly-737-jets/103429670",
+          "video": null,
+          "reactKey": "vic-103429670-1",
+          "synopsis": "The plane maker's CEO tells staff the company \"will have to perform rework on about 50 undelivered planes\".",
+          "title": {
+            "children": "Boeing reports holes not drilled correctly on some new 737 jets, possibly delaying delivery"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "892",
+              "title": "Air Transport Industry"
+            },
+            {
+              "id": "908",
+              "title": "Aerospace and Defence Equipment Manufacturing"
             }
           ]
         }
@@ -1572,96 +1671,6 @@
           },
           "imageContainerClassNames": [],
           "subjects": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103426144",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A traffic controlled holds hands above his head with light sticks in front of RAF jet.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0241e42923048ba74a469d3c5b6c92fc?impolicy=wcms_crop_resize&cropH=2400&cropW=3600&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-05/us-warns-of-more-strikes/103426144"
-          },
-          "contentUri": "coremedia://article/103426144",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/us-warns-of-more-strikes/103426144",
-          "video": null,
-          "reactKey": "vic-103426144-1",
-          "synopsis": "The United States intends to launch further strikes at Iran-backed groups in the Middle East, the White House national security adviser has warned, after hitting Tehran-aligned factions in Iraq, Syria and Yemen over the last two days.",
-          "title": {
-            "children": "White House warns of further strikes on Iran-backed groups"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "2758",
-              "title": "Terrorism"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103427304",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A huge storm looms over a mining town.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/406bde3b80c38c709000f6d23200e0f2?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=30&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-05/ex-tropical-cyclone-kirrily-brings-storms-to-outback-towns/103427304"
-          },
-          "contentUri": "coremedia://article/103427304",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-05/ex-tropical-cyclone-kirrily-brings-storms-to-outback-towns/103427304",
-          "video": null,
-          "reactKey": "vic-103427304-1",
-          "synopsis": "Towns in SA, NSW and Queensland continue to feel the effects of the cyclone, which is bringing rain and wind to isolated areas.",
-          "title": {
-            "children": "Storms rage through outback towns as Kirrily aftermath continues"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "102909144",
-              "title": "Extreme Weather Events"
-            },
-            {
-              "id": "2764",
-              "title": "Rain"
-            },
-            {
-              "id": "1036",
-              "title": "Regional Communities"
-            }
-          ]
         }
       }
     ],
