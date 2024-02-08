@@ -31,6 +31,9 @@
           "uri": "coremedia://article/103431588"
         },
         {
+          "uri": "coremedia://article/103432016"
+        },
+        {
           "uri": "coremedia://article/103438856"
         },
         {
@@ -43,25 +46,22 @@
           "uri": "coremedia://article/103434466"
         },
         {
-          "uri": "coremedia://article/103432016"
-        },
-        {
           "uri": "coremedia://article/103292960"
         },
         {
           "uri": "coremedia://article/103431000"
         },
         {
-          "uri": "coremedia://article/103432744"
-        },
-        {
-          "uri": "coremedia://article/103439246"
+          "uri": "coremedia://article/103440402"
         },
         {
           "uri": "coremedia://article/103432344"
         },
         {
-          "uri": "coremedia://article/103440402"
+          "uri": "coremedia://article/103439246"
+        },
+        {
+          "uri": "coremedia://article/103432744"
         },
         {
           "uri": "coremedia://article/103440566"
@@ -76,22 +76,13 @@
           "uri": "coremedia://article/103436840"
         },
         {
-          "uri": "coremedia://article/103438694"
-        },
-        {
-          "uri": "coremedia://article/103440346"
-        },
-        {
           "uri": "coremedia://article/103436304"
         },
         {
           "uri": "coremedia://article/103440392"
         },
         {
-          "uri": "coremedia://article/103439392"
-        },
-        {
-          "uri": "coremedia://article/103335898"
+          "uri": "coremedia://article/103438694"
         },
         {
           "uri": "coremedia://article/103430946"
@@ -100,13 +91,25 @@
           "uri": "coremedia://article/103418788"
         },
         {
+          "uri": "coremedia://article/103389692"
+        },
+        {
+          "uri": "coremedia://article/103437816"
+        },
+        {
+          "uri": "coremedia://article/103439392"
+        },
+        {
+          "uri": "coremedia://article/103335898"
+        },
+        {
+          "uri": "coremedia://article/103440346"
+        },
+        {
           "uri": "coremedia://article/103440432"
         },
         {
           "uri": "coremedia://article/103440676"
-        },
-        {
-          "uri": "coremedia://article/103389692"
         },
         {
           "uri": "coremedia://article/103439340"
@@ -305,7 +308,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103438520",
           "imagePosition": {
@@ -316,7 +326,7 @@
           "isMajor": false,
           "image": {
             "altText": "Three frames of a woman, the third a jogger.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ecb467a163945948f38727253f68211?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ecb467a163945948f38727253f68211?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -328,9 +338,18 @@
           "reactKey": "wa-103438520-1",
           "synopsis": "Ballarat locals are continuing to support emergency services in their efforts to locate missing woman Samantha Murphy, with Victoria Police requesting people to review any of their own CCTV footage of the area from February 4.",
           "title": {
-            "children": "CCTV footage released of Ballarat mum Samantha Murphy, who disappeared on morning jog"
+            "children": "Police update on search for missing Ballarat jogger Samantha Murphy"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "984",
@@ -380,6 +399,56 @@
             {
               "id": "1588",
               "title": "State and Territory Government"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorName": "Sandro Demaio"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103432016",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Blurred man in background refuses glass of whiskey ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce7cfd7ad48346fbbca748628faa889f?impolicy=wcms_crop_resize&cropH=1413&cropW=2120&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/health/2024-02-08/why-pausing-alcohol-can-boost-your-health-febfast/103432016"
+          },
+          "contentUri": "coremedia://article/103432016",
+          "canonicalURL": "https://www.abc.net.au/news/health/2024-02-08/why-pausing-alcohol-can-boost-your-health-febfast/103432016",
+          "video": null,
+          "reactKey": "wa-103432016-1",
+          "synopsis": "February is here, and Dr Sandro Demaio has joined thousands of Aussies to hit pause on a habit in his life — drinking alcohol. This is why.",
+          "title": {
+            "children": "Thinking about giving up alcohol? Even a few weeks off the booze will have noticeable effects"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1616",
+              "title": "Health"
+            },
+            {
+              "id": "1788",
+              "title": "Alcohol"
+            },
+            {
+              "id": "1772",
+              "title": "Sleep"
             }
           ]
         }
@@ -522,19 +591,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "72088",
+              "date": "2024-02-08T00:26:02.000Z",
+              "title": "Here's what we expect from Question Time today"
+            },
+            {
+              "id": "72086",
+              "date": "2024-02-08T00:11:18.000Z",
+              "title": "Standing ovation for PNG prime minister"
+            },
+            {
               "id": "72074",
               "date": "2024-02-07T23:20:45.000Z",
               "title": "PNG Prime Minister begins his speech with a story"
-            },
-            {
-              "id": "72070",
-              "date": "2024-02-07T23:05:00.000Z",
-              "title": "PM on PNG's 'profound national unity'"
-            },
-            {
-              "id": "72064",
-              "date": "2024-02-07T22:18:52.000Z",
-              "title": "Marape is being officially welcomed in Canberra"
             }
           ],
           "subjects": [
@@ -597,56 +666,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorName": "Sandro Demaio"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103432016",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Blurred man in background refuses glass of whiskey ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce7cfd7ad48346fbbca748628faa889f?impolicy=wcms_crop_resize&cropH=1413&cropW=2120&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/health/2024-02-08/why-pausing-alcohol-can-boost-your-health-febfast/103432016"
-          },
-          "contentUri": "coremedia://article/103432016",
-          "canonicalURL": "https://www.abc.net.au/news/health/2024-02-08/why-pausing-alcohol-can-boost-your-health-febfast/103432016",
-          "video": null,
-          "reactKey": "wa-103432016-1",
-          "synopsis": "February is here, and Dr Sandro Demaio has joined thousands of Aussies to hit pause on a habit in his life — drinking alcohol. This is why.",
-          "title": {
-            "children": "Thinking about giving up alcohol? Even a few weeks off the booze will have noticeable effects"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1616",
-              "title": "Health"
-            },
-            {
-              "id": "1788",
-              "title": "Alcohol"
-            },
-            {
-              "id": "1772",
-              "title": "Sleep"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103292960",
@@ -699,7 +718,7 @@
           "isMajor": false,
           "image": {
             "altText": "A woman with long black hair sitting on a light blue couch ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1d6411c69a4130c36b35f0245ef773b2?impolicy=wcms_crop_resize&cropH=446&cropW=669&xPos=0&yPos=226&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1d6411c69a4130c36b35f0245ef773b2?impolicy=wcms_crop_resize&cropH=446&cropW=669&xPos=0&yPos=226&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -713,9 +732,7 @@
           "title": {
             "children": "In India, cervical cancer can be associated with 'promiscuity', making it hard for women to talk about. Did a publicity stunt change this?"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "11042392",
@@ -728,6 +745,143 @@
             {
               "id": "1670",
               "title": "Cancer"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103440402",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Taylor Swift performs during \"The Eras Tour\".",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/deca6319fb698eaa73101987afcd9b13?impolicy=wcms_crop_resize&cropH=2346&cropW=4170&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-02-08/taylor-swift-issues-cease-and-desist-to-student-tracking-jet/103440402"
+          },
+          "contentUri": "coremedia://article/103440402",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/taylor-swift-issues-cease-and-desist-to-student-tracking-jet/103440402",
+          "video": null,
+          "reactKey": "wa-103440402-1",
+          "synopsis": "Her lawyers say the tracking tips off the superstar's stalkers while creator Jack Sweeney argues it allows transparency.",
+          "title": {
+            "children": "Taylor Swift sends cease and desist to college student using public information to track her private jet"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "44536",
+              "title": "Social Media"
+            },
+            {
+              "id": "1966",
+              "title": "Internet Culture"
+            },
+            {
+              "id": "1922",
+              "title": "Human Interest"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103432344",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A middle-aged woman with glasses and a blue shirt stands inside a dome-shaped house, looking through a round window and smiling",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/edd1ef0bbda9879c060500ce0c546134?impolicy=wcms_crop_resize&cropH=575&cropW=862&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/do-round-rooms-make-us-happier-than-rectangular-ones/103432344"
+          },
+          "contentUri": "coremedia://article/103432344",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/do-round-rooms-make-us-happier-than-rectangular-ones/103432344",
+          "video": null,
+          "reactKey": "wa-103432344-1",
+          "synopsis": "Thinking outside the square when it comes to the environments we live and work in could not only make us happier, but also boost creativity, according to new research.",
+          "title": {
+            "children": "Round rooms spark joy and creativity — here's why"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1828",
+              "title": "Mental Health"
+            },
+            {
+              "id": "954",
+              "title": "Community and Society"
+            },
+            {
+              "id": "478",
+              "title": "Design"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103439246",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Lady holding a wallet with 20-dollar notes",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b329aad6dffb577fb7930897b42b7ba?impolicy=wcms_crop_resize&cropH=1320&cropW=1973&xPos=3&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/cost-of-living-price-gouging-inquiries-insurance/103439246"
+          },
+          "contentUri": "coremedia://article/103439246",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/cost-of-living-price-gouging-inquiries-insurance/103439246",
+          "video": null,
+          "reactKey": "wa-103439246-1",
+          "synopsis": "Millions of Australians face ever-increasing monthly and yearly bills, and increasingly, they are related to services many deem necessary.",
+          "title": {
+            "children": "Electricity industry 'riddled' with questionable prices while insurance customers 'treated like second-grade citizens'"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "102272708",
+              "title": "Cost of Living"
+            },
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "924",
+              "title": "Insurance"
             }
           ]
         }
@@ -788,141 +942,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103439246",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Lady holding a wallet with 20-dollar notes",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b329aad6dffb577fb7930897b42b7ba?impolicy=wcms_crop_resize&cropH=1320&cropW=1973&xPos=3&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/cost-of-living-price-gouging-inquiries-insurance/103439246"
-          },
-          "contentUri": "coremedia://article/103439246",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/cost-of-living-price-gouging-inquiries-insurance/103439246",
-          "video": null,
-          "reactKey": "wa-103439246-1",
-          "synopsis": "Millions of Australians face ever-increasing monthly and yearly bills, and increasingly, they are related to services many deem necessary.",
-          "title": {
-            "children": "Electricity industry 'riddled' with questionable prices while insurance customers 'treated like second-grade citizens'"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "102272708",
-              "title": "Cost of Living"
-            },
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "924",
-              "title": "Insurance"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103432344",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A middle-aged woman with glasses and a blue shirt stands inside a dome-shaped house, looking through a round window and smiling",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/edd1ef0bbda9879c060500ce0c546134?impolicy=wcms_crop_resize&cropH=575&cropW=862&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/do-round-rooms-make-us-happier-than-rectangular-ones/103432344"
-          },
-          "contentUri": "coremedia://article/103432344",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/do-round-rooms-make-us-happier-than-rectangular-ones/103432344",
-          "video": null,
-          "reactKey": "wa-103432344-1",
-          "synopsis": "Thinking outside the square when it comes to the environments we live and work in could not only make us happier, but also boost creativity, according to new research.",
-          "title": {
-            "children": "Round rooms spark joy and creativity — here's why"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1828",
-              "title": "Mental Health"
-            },
-            {
-              "id": "954",
-              "title": "Community and Society"
-            },
-            {
-              "id": "478",
-              "title": "Design"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103440402",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Taylor Swift performs during \"The Eras Tour\".",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/deca6319fb698eaa73101987afcd9b13?impolicy=wcms_crop_resize&cropH=2346&cropW=4170&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-02-08/taylor-swift-issues-cease-and-desist-to-student-tracking-jet/103440402"
-          },
-          "contentUri": "coremedia://article/103440402",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/taylor-swift-issues-cease-and-desist-to-student-tracking-jet/103440402",
-          "video": null,
-          "reactKey": "wa-103440402-1",
-          "synopsis": "Her lawyers say the tracking tips off the superstar's stalkers while creator Jack Sweeney argues it allows transparency.",
-          "title": {
-            "children": "Taylor Swift sends cease and desist to college student using public information to track her private jet"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "44536",
-              "title": "Social Media"
-            },
-            {
-              "id": "1966",
-              "title": "Internet Culture"
-            },
-            {
-              "id": "1922",
-              "title": "Human Interest"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103440566",
           "imagePosition": {
             "mobile": "right",
@@ -932,7 +951,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man and a woman sitting in a car smiling and waving",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cde839d10629fb10c840ef0a8d150fd4?impolicy=wcms_crop_resize&cropH=501&cropW=751&xPos=168&yPos=49&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cde839d10629fb10c840ef0a8d150fd4?impolicy=wcms_crop_resize&cropH=851&cropW=1277&xPos=2&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -944,9 +963,11 @@
           "reactKey": "wa-103440566-1",
           "synopsis": "King Charles said he was sorry to not attend the 50th anniversary of Grenada's independence as his son thanked the public for their well wishes following his father's diagnosis.",
           "title": {
-            "children": "King Charles make first statement since cancer diagnosis as Prince William takes on public duties"
+            "children": "King Charles makes first statement since cancer diagnosis as Prince William takes on public duties"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1928",
@@ -1051,6 +1072,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "72090",
+              "date": "2024-02-08T00:35:18.000Z",
+              "title": "'Market got ahead of itself': Federal Reserve's Mester says rate cuts can wait"
+            },
+            {
               "id": "72077",
               "date": "2024-02-07T23:33:40.000Z",
               "title": "ASX edges up at open"
@@ -1059,11 +1085,6 @@
               "id": "72072",
               "date": "2024-02-07T23:12:01.000Z",
               "title": "News Corp beats quarterly revenue estimates on subscription growth"
-            },
-            {
-              "id": "72068",
-              "date": "2024-02-07T22:48:29.000Z",
-              "title": "AGL profit jumps in first half on higher electricity pricing"
             }
           ],
           "subjects": [
@@ -1119,96 +1140,6 @@
             {
               "id": "1256",
               "title": "Accidents and Emergency Incidents"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103438694",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A female student completes her exam using a laptop.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c73fab34f590d351b204d4c580784b7c?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/vcaa-education-vce-exam-mistakes/103438694"
-          },
-          "contentUri": "coremedia://article/103438694",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/vcaa-education-vce-exam-mistakes/103438694",
-          "video": null,
-          "reactKey": "wa-103438694-1",
-          "synopsis": "Academic experts will be recruited to draft and proofread VCE exams in an attempt to improve quality control after repeated mistakes.",
-          "title": {
-            "children": "Victoria to call in experts to help proofread VCE exams after 'traumatic' errors"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1300",
-              "title": "Education"
-            },
-            {
-              "id": "1374",
-              "title": "Secondary"
-            },
-            {
-              "id": "1332",
-              "title": "Asian"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103440346",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "People walk past an Optus store in Sydney.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0f61febfb2bea0f11f83d89ac9101b5?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/optus-outage-leads-to-spike-in-complaints/103440346"
-          },
-          "contentUri": "coremedia://article/103440346",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/optus-outage-leads-to-spike-in-complaints/103440346",
-          "video": null,
-          "reactKey": "wa-103440346-1",
-          "synopsis": "Telecommunications consumers lodged 14,671 complaints between October and December 2023, an increase of more than 13 per cent compared with the previous quarter.",
-          "title": {
-            "children": "Optus outage caused spike of more than 900 complaints to telecommunications watchdog"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "858",
-              "title": "Telecommunications Services Industry"
-            },
-            {
-              "id": "942",
-              "title": "Consumer Protection"
-            },
-            {
-              "id": "1964",
-              "title": "Mobile Phones"
             }
           ]
         }
@@ -1291,6 +1222,222 @@
             {
               "id": "1256",
               "title": "Accidents and Emergency Incidents"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103438694",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A female student completes her exam using a laptop.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c73fab34f590d351b204d4c580784b7c?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/vcaa-education-vce-exam-mistakes/103438694"
+          },
+          "contentUri": "coremedia://article/103438694",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/vcaa-education-vce-exam-mistakes/103438694",
+          "video": null,
+          "reactKey": "wa-103438694-1",
+          "synopsis": "Academic experts will be recruited to draft and proofread VCE exams in an attempt to improve quality control after repeated mistakes.",
+          "title": {
+            "children": "Victoria to call in experts to help proofread VCE exams after 'traumatic' errors"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1300",
+              "title": "Education"
+            },
+            {
+              "id": "1374",
+              "title": "Secondary"
+            },
+            {
+              "id": "1332",
+              "title": "Asian"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103430946",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An old photo with one man highlighted.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8ca0b030dce9957b27a43741734308f?impolicy=wcms_crop_resize&cropH=1520&cropW=2280&xPos=277&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/tas-robert-hamilton-st-virgils-college-science-block-renamed/103430946"
+          },
+          "contentUri": "coremedia://article/103430946",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/tas-robert-hamilton-st-virgils-college-science-block-renamed/103430946",
+          "video": null,
+          "reactKey": "wa-103430946-1",
+          "synopsis": "His nickname was 'Hitler'; now former attendees of a Catholic boys school have received a letter telling them a school building has been renamed after a review into the teacher's conduct. Some of them have told the ABC what they endured.  ",
+          "title": {
+            "children": "He was known as 'Hitler' — now, a Catholic school has erased this teacher's name from records"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1404",
+              "title": "Teachers"
+            },
+            {
+              "id": "11161450",
+              "title": "Religious Schools"
+            },
+            {
+              "id": "1828",
+              "title": "Mental Health"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103418788",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A neon sign shaped in the words Wholesale & Retail and a cannabis flower outside a shop window",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47ffb8c3b6ade560fe9b062c3a2da447?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/thailand-cannabis-laws-rethink-over-industry-medical-concerns/103418788"
+          },
+          "contentUri": "coremedia://article/103418788",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/thailand-cannabis-laws-rethink-over-industry-medical-concerns/103418788",
+          "video": null,
+          "reactKey": "wa-103418788-1",
+          "synopsis": "After Thailand decriminalised the sale of marijuana for recreational use in 2022, weed dispensaries have exploded around the country, but already the future of this industry is up in the air.",
+          "title": {
+            "children": "Thailand was the first country in Asia to decriminalise cannabis. A year later, it's having second thoughts"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103389692",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a blue lake surrounded by trees adjoining the town of Nhill in Victoria, Australia",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab3bb183c98db4612712de1e17b5c746?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/nhill-lake-dyed-blue-to-stop-heat-blue-green-agae/103389692"
+          },
+          "contentUri": "coremedia://article/103389692",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/nhill-lake-dyed-blue-to-stop-heat-blue-green-agae/103389692",
+          "video": null,
+          "reactKey": "wa-103389692-1",
+          "synopsis": "Since it was first carved into the soil in 1960, Nhill Lake in the state's west has been a soothing sight for residents of its namesake town. But this year it looks even more attractive than usual.",
+          "title": {
+            "children": "Why this small town in country Victoria has dyed its lake blue"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "1438",
+              "title": "Water"
+            },
+            {
+              "id": "1468",
+              "title": "Water Management"
+            },
+            {
+              "id": "1462",
+              "title": "Water Pollution"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103437816",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A slim dancer with blonde hair wearing sunglasses and a yellow top flings their arms out on stage",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3a1c4f42852ef738d8b89f9bb5fe400?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=347&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-08/dance-life-star-archer-gender-roles-brent-street-prime-video/103437816"
+          },
+          "contentUri": "coremedia://article/103437816",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/dance-life-star-archer-gender-roles-brent-street-prime-video/103437816",
+          "video": null,
+          "reactKey": "wa-103437816-1",
+          "synopsis": "One of the stars of Prime Video's docuseries Dance Life is non-binary dancer Archer, who is creating her own space in the gendered world of dance.",
+          "title": {
+            "children": "'There's so much beauty, and so much magic': How this Dance Life star embraced her gender identity"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "472",
+              "title": "Arts, Culture and Entertainment"
+            },
+            {
+              "id": "786",
+              "title": "Performing Arts"
+            },
+            {
+              "id": "574",
+              "title": "Dance"
             }
           ]
         }
@@ -1390,7 +1537,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103430946",
+          "id": "103440346",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1398,70 +1545,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An old photo with one man highlighted.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8ca0b030dce9957b27a43741734308f?impolicy=wcms_crop_resize&cropH=1520&cropW=2280&xPos=277&yPos=0&width=160&height=107",
+            "altText": "People walk past an Optus store in Sydney.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0f61febfb2bea0f11f83d89ac9101b5?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-08/tas-robert-hamilton-st-virgils-college-science-block-renamed/103430946"
+            "to": "/news/2024-02-08/optus-outage-leads-to-spike-in-complaints/103440346"
           },
-          "contentUri": "coremedia://article/103430946",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/tas-robert-hamilton-st-virgils-college-science-block-renamed/103430946",
+          "contentUri": "coremedia://article/103440346",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/optus-outage-leads-to-spike-in-complaints/103440346",
           "video": null,
-          "reactKey": "wa-103430946-1",
-          "synopsis": "His nickname was 'Hitler'; now former attendees of a Catholic boys school have received a letter telling them a school building has been renamed after a review into the teacher's conduct. Some of them have told the ABC what they endured.  ",
+          "reactKey": "wa-103440346-1",
+          "synopsis": "Telecommunications consumers lodged 14,671 complaints between October and December 2023, an increase of more than 13 per cent compared with the previous quarter.",
           "title": {
-            "children": "He was known as 'Hitler' — now, a Catholic school has erased this teacher's name from records"
+            "children": "Optus outage caused spike of more than 900 complaints to telecommunications watchdog"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1404",
-              "title": "Teachers"
+              "id": "858",
+              "title": "Telecommunications Services Industry"
             },
             {
-              "id": "11161450",
-              "title": "Religious Schools"
+              "id": "942",
+              "title": "Consumer Protection"
             },
             {
-              "id": "1828",
-              "title": "Mental Health"
+              "id": "1964",
+              "title": "Mobile Phones"
             }
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103418788",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A neon sign shaped in the words Wholesale & Retail and a cannabis flower outside a shop window",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47ffb8c3b6ade560fe9b062c3a2da447?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/thailand-cannabis-laws-rethink-over-industry-medical-concerns/103418788"
-          },
-          "contentUri": "coremedia://article/103418788",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/thailand-cannabis-laws-rethink-over-industry-medical-concerns/103418788",
-          "video": null,
-          "reactKey": "wa-103418788-1",
-          "synopsis": "After Thailand decriminalised the sale of marijuana for recreational use in 2022, weed dispensaries have exploded around the country, but already the future of this industry is up in the air.",
-          "title": {
-            "children": "Thailand was the first country in Asia to decriminalise cannabis. A year later, it's having second thoughts"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": []
         }
       },
       {
@@ -1546,53 +1659,6 @@
             {
               "id": "2478",
               "title": "Sport"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103389692",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a blue lake surrounded by trees adjoining the town of Nhill in Victoria, Australia",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab3bb183c98db4612712de1e17b5c746?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-08/nhill-lake-dyed-blue-to-stop-heat-blue-green-agae/103389692"
-          },
-          "contentUri": "coremedia://article/103389692",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-08/nhill-lake-dyed-blue-to-stop-heat-blue-green-agae/103389692",
-          "video": null,
-          "reactKey": "wa-103389692-1",
-          "synopsis": "Since it was first carved into the soil in 1960, Nhill Lake in the state's west has been a soothing sight for residents of its namesake town. But this year it looks even more attractive than usual.",
-          "title": {
-            "children": "Why this small town in country Victoria has dyed its lake blue"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1438",
-              "title": "Water"
-            },
-            {
-              "id": "1468",
-              "title": "Water Management"
-            },
-            {
-              "id": "1462",
-              "title": "Water Pollution"
             }
           ]
         }
