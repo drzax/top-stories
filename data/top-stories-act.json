@@ -255,7 +255,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103441982",
           "imagePosition": {
@@ -276,13 +283,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-02-09/samantha-murphy-missing-ballarat-what-we-know/103441982",
           "video": null,
           "reactKey": "act-103441982-1",
-          "synopsis": "\"People don't just vanish into thin air,\" says her husband, but six days after she failed to come home from a jog in Ballarat bushland little has emerged to quell growing fears for Ms Murphy's safety.",
+          "synopsis": "Detectives from Victoria Police's missing persons unit take charge of the investigation into the disappearance of Ballarat woman Samantha Murphy, as the search enters its sixth day.",
           "title": {
-            "children": "Samantha Murphy has been missing for six days. Here's what we know"
+            "children": "Police update on search for missing Ballarat mother Samantha Murphy"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "984",
@@ -520,6 +534,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "72186",
+              "date": "2024-02-09T00:20:41.000Z",
+              "title": "RBA would consider rate cut before hitting inflation target if economy was in good shape"
+            },
+            {
               "id": "72185",
               "date": "2024-02-08T23:37:18.000Z",
               "title": "Flat start for ASX, Boral jumps after posting profit surge"
@@ -528,11 +547,6 @@
               "id": "72183",
               "date": "2024-02-08T23:19:25.000Z",
               "title": "Inflation remains a major challenge but there are 'encouraging signs', Bullock says"
-            },
-            {
-              "id": "72182",
-              "date": "2024-02-08T22:46:17.000Z",
-              "title": "Acronym soup of consulting firms grilled today"
             }
           ],
           "subjects": [
@@ -622,7 +636,7 @@
           "reactKey": "act-103442350-1",
           "synopsis": "Thousands of Australians who collectively lost millions of dollars to failed funeral insurer Youpla could now get some of their money back, under a newly announced government scheme.",
           "title": {
-            "children": "Government to pay out customers after failed insurer made millions off Centrelink payments"
+            "children": "'A horrid scam on the Indigenous community': Government to pay thousands of families after funeral insurance 'fiasco'"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1193,7 +1207,7 @@
           "reactKey": "act-103439552-1",
           "synopsis": "Australia's publicly listed companies are opening their books, but higher interest rates, moderating inflation and a slowing economy has analysts forecasting modest half-year results for big business.",
           "title": {
-            "children": "Will corporate Australia cash in this reporting season or be weighed down by the cost of doing business?"
+            "children": "The higher cost of doing business has analysts 'downbeat' about what it means for the economy"
           },
           "imageContainerClassNames": [],
           "subjects": [
