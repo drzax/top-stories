@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103459362"
+        },
+        {
           "uri": "coremedia://article/103458548"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103456146"
-        },
-        {
-          "uri": "coremedia://article/103457316"
         }
       ]
     },
@@ -123,10 +123,66 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103459362",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A flag saying Total Fire Ban",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/314f8b6fdc72113666a7925558348b07?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=398&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-13/live-blog-vic-fires-watch-and-act-warnings-grampians-wimmera/103459362"
+          },
+          "contentUri": "coremedia://article/103459362",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-13/live-blog-vic-fires-watch-and-act-warnings-grampians-wimmera/103459362",
+          "video": null,
+          "reactKey": "vic-103459362-1",
+          "synopsis": "Victorians are bracing for what could be the worst day for bushfire risk since 2019-2020, as a heatwave creates 'catastrophic' conditions in the Wimmera region.",
+          "title": {
+            "children": "Warnings issued as Grampians fires burn in Victoria's west"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1280",
+              "title": "Bushfires"
+            },
+            {
+              "id": "102273020",
+              "title": "Disaster and Emergency Response"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103458548",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +192,7 @@
           "isMajor": false,
           "image": {
             "altText": "A sign on a school announcing a closure due to fire dange",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b4d074b4bbb403a7335d87217d162d30?impolicy=wcms_crop_resize&cropH=1613&cropW=2420&xPos=0&yPos=61&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b4d074b4bbb403a7335d87217d162d30?impolicy=wcms_crop_resize&cropH=1613&cropW=2420&xPos=0&yPos=61&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +206,7 @@
           "title": {
             "children": "Wimmera fires sparked as Victoria's west faces day of 'catastrophic' risk"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1280",
@@ -470,7 +524,7 @@
             {
               "id": "72758",
               "date": "2024-02-13T02:32:45.000Z",
-              "title": "Anderson faces senate estimates, probed over Lattouf sacking"
+              "title": "Anderson faces Senate estimates, probed over Lattouf sacking"
             },
             {
               "id": "72748",
@@ -1654,47 +1708,6 @@
           },
           "imageContainerClassNames": [],
           "subjects": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103457316",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A plane in the sky saying Batik on the side.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dbdf238ff5922b494c9b90b6ac846474?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=262&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-13/international-travel-resumes-at-canberra-airport-post-pandemic/103457316"
-          },
-          "contentUri": "coremedia://article/103457316",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-13/international-travel-resumes-at-canberra-airport-post-pandemic/103457316",
-          "video": null,
-          "reactKey": "vic-103457316-1",
-          "synopsis": "It's had a chequered history with getting international travel off the ground but Canberra Airport executives say a smaller, sustainable approach will keep direct, international flights viable for locals. ",
-          "title": {
-            "children": "Two carriers are on board for international flights from Canberra, but keeping them could prove a challenge"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "892",
-              "title": "Air Transport Industry"
-            },
-            {
-              "id": "2072",
-              "title": "Travel and Tourism (Lifestyle and Leisure)"
-            }
-          ]
         }
       }
     ],
