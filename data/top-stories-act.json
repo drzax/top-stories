@@ -424,7 +424,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103474570",
           "imagePosition": {
@@ -452,6 +459,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2762",
@@ -1267,14 +1281,14 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "73676",
+              "date": "2024-02-16T03:05:05.000Z",
+              "title": "📺 ICYMI: Higher electricity costs behind Origin Energy's $995m half-year profit"
+            },
+            {
               "id": "73666",
               "date": "2024-02-16T02:36:01.000Z",
               "title": "How much higher will the unemployment rate get?"
-            },
-            {
-              "id": "73660",
-              "date": "2024-02-16T02:24:02.000Z",
-              "title": "Why it's possible the RBA will have to cut interest rates before the Fed"
             },
             {
               "id": "73654",
