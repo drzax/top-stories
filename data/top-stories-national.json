@@ -13,13 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103487878"
+        },
+        {
           "uri": "coremedia://article/103483186"
         },
         {
           "uri": "coremedia://article/103478782"
-        },
-        {
-          "uri": "coremedia://article/103486288"
         },
         {
           "uri": "coremedia://article/103487516"
@@ -117,10 +117,71 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103487878",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A ship topped with weapons slices through blue waters within sight of a hilly Australian shore",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5aa56df9fb0f82c7e83efc8e58833482?impolicy=wcms_crop_resize&cropH=2400&cropW=3600&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-20/heavily-armed-optionally-crewed-ships-under-naval-fleet-reshape/103487878"
+          },
+          "contentUri": "coremedia://article/103487878",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-20/heavily-armed-optionally-crewed-ships-under-naval-fleet-reshape/103487878",
+          "video": null,
+          "reactKey": "national-103487878-1",
+          "synopsis": "Six large and \"optionally crewed\" naval vessels heavily armed with missiles will be added to Australia's surface fleet under a dramatic $11 billion reshaping of the navy that will also see the acquisition of 11 new general-purpose frigates to be partly built overseas.",
+          "title": {
+            "children": "Heavily armed 'optionally crewed' ships to enter service under massive reshaping of Australia's naval fleet"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1228",
+              "title": "Defence Forces"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103483186",
           "imagePosition": {
             "mobile": "right",
@@ -130,7 +191,7 @@
           "isMajor": false,
           "image": {
             "altText": "People walk past roadside stalls selling coca cola and sprite, on a dirt road",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c48d5ca9b5e79f0b2bc5132a72b13e92?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c48d5ca9b5e79f0b2bc5132a72b13e92?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -144,9 +205,7 @@
           "title": {
             "children": "PNG police say tribesmen who killed dozens in Enga massacre had M16s, AR15s and shotguns"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2756",
@@ -202,53 +261,6 @@
             {
               "id": "894",
               "title": "Retail Industry"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103486288",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Photorealistic concept art of a warship gliding through open seas.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3bb4c64145d26217f7d5d1918b97ed92?impolicy=wcms_crop_resize&cropH=401&cropW=602&xPos=23&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-19/naval-fleet-review-funding-hole-hunter-frigates/103486288"
-          },
-          "contentUri": "coremedia://article/103486288",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-19/naval-fleet-review-funding-hole-hunter-frigates/103486288",
-          "video": null,
-          "reactKey": "national-103486288-1",
-          "synopsis": "Labor reveals the cost of the massive Hunter Class frigate project has leapt from $45 billion to almost $65 billion, as it prepares to trim the program while unveiling other shipbuilding plans.",
-          "title": {
-            "children": "$20 billion funding 'hole' in troubled Hunter warships, Labor claims"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "1534",
-              "title": "Government and Politics"
-            },
-            {
-              "id": "1228",
-              "title": "Defence Forces"
             }
           ]
         }
