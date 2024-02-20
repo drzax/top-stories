@@ -120,7 +120,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -145,11 +152,24 @@
           "reactKey": "nsw-103492084-1",
           "synopsis": "The bodies of a woman, aged in her early 40s, and her young son were found in Lion's Taekwondo Martial Arts Academy on Daking Street in North Parramatta about 1pm yesterday. A man's body was found in a home in Baulkham Hills.",
           "title": {
-            "children": "Police return to Sydney taekwondo studio as investigations into triple death continue"
+            "children": "Woman and child found strangled in Sydney taekwondo studio as investigations into triple death continue"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Press conference starts",
+                "showTime": 300,
+                "time": "2024-02-20T22:30:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -252,8 +272,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A customer wheels a trolley past an aisle of a supermarket with ice cream in freezers.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0fac39374ae9b1c1c050fb323b9e1a81?impolicy=wcms_crop_resize&cropH=3242&cropW=4863&xPos=137&yPos=53&width=160&height=107",
+            "altText": "A man wearing a suit stands besides a fresh fruit stand in a supermarket.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1784f73a5a1ee31fc01a3bc0d847f611?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {

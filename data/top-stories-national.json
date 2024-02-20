@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103464508"
+          "uri": "coremedia://article/103490636"
         },
         {
-          "uri": "coremedia://article/103490636"
+          "uri": "coremedia://article/103464508"
         },
         {
           "uri": "coremedia://article/103489806"
@@ -76,6 +76,9 @@
           "uri": "coremedia://article/103492136"
         },
         {
+          "uri": "coremedia://article/103470196"
+        },
+        {
           "uri": "coremedia://article/103491744"
         },
         {
@@ -118,6 +121,53 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103490636",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man wearing a suit stands besides a fresh fruit stand in a supermarket.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1784f73a5a1ee31fc01a3bc0d847f611?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-21/woolworths-brad-banducci-retires-announcement/103490636"
+          },
+          "contentUri": "coremedia://article/103490636",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-21/woolworths-brad-banducci-retires-announcement/103490636",
+          "video": null,
+          "reactKey": "national-103490636-1",
+          "synopsis": "Woolworths chief executive Brad Banducci is retiring as the supermarket giant announces a massive loss and faces ongoing allegations of price gouging and unfair practices with suppliers.",
+          "title": {
+            "children": "Woolworths CEO Brad Banducci announces retirement as company announces $781m loss"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "834",
+              "title": "Company News"
+            },
+            {
+              "id": "826",
+              "title": "Financial Markets"
+            },
+            {
+              "id": "828",
+              "title": "Money and Monetary Policy"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103464508",
           "imagePosition": {
             "mobile": "right",
@@ -142,7 +192,6 @@
             "children": "Tony was fired for living a double life – he says he was only levelling the playing field"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
           ],
           "subjects": [
@@ -157,51 +206,6 @@
             {
               "id": "1966",
               "title": "Internet Culture"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103490636",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A customer wheels a trolley past an aisle of a supermarket with ice cream in freezers.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0fac39374ae9b1c1c050fb323b9e1a81?impolicy=wcms_crop_resize&cropH=3242&cropW=4863&xPos=137&yPos=53&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-21/woolworths-brad-banducci-retires-announcement/103490636"
-          },
-          "contentUri": "coremedia://article/103490636",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-21/woolworths-brad-banducci-retires-announcement/103490636",
-          "video": null,
-          "reactKey": "national-103490636-1",
-          "synopsis": "Woolworths chief executive Brad Banducci is retiring as the supermarket giant announces a massive loss and faces ongoing allegations of price gouging and unfair practices with suppliers.",
-          "title": {
-            "children": "Woolworths CEO Brad Banducci announces retirement as company announces $781m loss"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "834",
-              "title": "Company News"
-            },
-            {
-              "id": "826",
-              "title": "Financial Markets"
-            },
-            {
-              "id": "828",
-              "title": "Money and Monetary Policy"
             }
           ]
         }
@@ -337,7 +341,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103492084",
           "imagePosition": {
@@ -360,9 +371,22 @@
           "reactKey": "national-103492084-1",
           "synopsis": "The bodies of a woman, aged in her early 40s, and her young son were found in Lion's Taekwondo Martial Arts Academy on Daking Street in North Parramatta about 1pm yesterday. A man's body was found in a home in Baulkham Hills.",
           "title": {
-            "children": "Police return to Sydney taekwondo studio as investigations into triple death continue"
+            "children": "Woman and child found strangled in Sydney taekwondo studio as investigations into triple death continue"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Press conference starts",
+                "showTime": 300,
+                "time": "2024-02-20T22:30:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -1056,6 +1080,50 @@
             {
               "id": "998",
               "title": "Child Abuse"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103470196",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad3270cf7a45ce123629886c492342a6?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-21/spotted-tree-frogs-released-zoos-victoria-breeding-program/103470196"
+          },
+          "contentUri": "coremedia://article/103470196",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-21/spotted-tree-frogs-released-zoos-victoria-breeding-program/103470196",
+          "video": null,
+          "reactKey": "national-103470196-1",
+          "synopsis": "Biologist Deon Gilbert says this month's Victorian release of 70 juveniles from a spotted tree frog breeding pool is incredibly heartwarming.",
+          "title": {
+            "children": "Researchers celebrate frog conservation win 'decades in the making' with high country release"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2406",
+              "title": "Zoos"
+            },
+            {
+              "id": "2384",
+              "title": "Zoology"
+            },
+            {
+              "id": "1428",
+              "title": "Conservation"
             }
           ]
         }
