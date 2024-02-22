@@ -22,19 +22,19 @@
           "uri": "coremedia://article/103502172"
         },
         {
-          "uri": "coremedia://article/103493888"
-        },
-        {
           "uri": "coremedia://article/103467288"
         },
         {
-          "uri": "coremedia://article/103497570"
+          "uri": "coremedia://article/103493888"
         },
         {
           "uri": "coremedia://article/103450310"
         },
         {
           "uri": "coremedia://article/103501946"
+        },
+        {
+          "uri": "coremedia://article/103497570"
         },
         {
           "uri": "coremedia://article/103499560"
@@ -46,13 +46,13 @@
           "uri": "coremedia://article/103501428"
         },
         {
-          "uri": "coremedia://article/103501294"
-        },
-        {
           "uri": "coremedia://article/103494722"
         },
         {
           "uri": "coremedia://article/103497328"
+        },
+        {
+          "uri": "coremedia://article/103501294"
         },
         {
           "uri": "coremedia://article/103497906"
@@ -120,7 +120,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -143,13 +150,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-02-23/samantha-murphy-missing-woman-police-search-ballarat-suburb/103502038",
           "video": null,
           "reactKey": "wa-103502038-1",
-          "synopsis": "Phone data has led police to narrow their search for missing mother-of-three Samantha Murphy to an area at Mount Clear in Ballarat.",
+          "synopsis": "Police say \"more parties\" are likely to be involved in Samantha Murphy's disappearance as telephone data provides a new lead in the three-week search for the missing Ballarat mother.",
           "title": {
             "children": "Police say others 'likely' involved in disappearance of Ballarat mum Samantha Murphy"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "984",
@@ -254,6 +268,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "74459",
+              "date": "2024-02-22T22:37:40.000Z",
+              "title": "Residents urged to leave immediately"
+            },
+            {
               "id": "74454",
               "date": "2024-02-22T22:22:33.000Z",
               "title": "Premier to speak at 10am AEDT"
@@ -268,53 +287,6 @@
             {
               "id": "1280",
               "title": "Bushfires"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103493888",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of rugby players stand around in a huddle during a match.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9965272322fcdd2cddda2a824e7e3eae?impolicy=wcms_crop_resize&cropH=2938&cropW=4407&xPos=296&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888"
-          },
-          "contentUri": "coremedia://article/103493888",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888",
-          "video": null,
-          "reactKey": "wa-103493888-1",
-          "synopsis": "As the 2024 Super Rugby season begins, the Western Force — a club that was axed just a few short years ago — enter the new campaign looking to stamp their authority on the competition.",
-          "title": {
-            "children": "Western Force kick off 2024 looking to become Super Rugby powerhouse"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "2670",
-              "title": "Rugby Union"
-            },
-            {
-              "id": "2672",
-              "title": "Super Rugby"
             }
           ]
         }
@@ -369,7 +341,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103497570",
+          "id": "103493888",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -377,34 +349,36 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A person holds a handfull of ground nickel",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1faa4036682d740bffff8e3956df854b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "altText": "A group of rugby players stand around in a huddle during a match.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9965272322fcdd2cddda2a824e7e3eae?impolicy=wcms_crop_resize&cropH=2938&cropW=4407&xPos=296&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-22/nickel-pickle-western-australia-kambalda-critical-minerals/103497570"
+            "to": "/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888"
           },
-          "contentUri": "coremedia://article/103497570",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/nickel-pickle-western-australia-kambalda-critical-minerals/103497570",
+          "contentUri": "coremedia://article/103493888",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888",
           "video": null,
-          "reactKey": "wa-103497570-1",
-          "synopsis": "It's a roller coaster commodity: peaks that can draw prime ministers and billionaires to town, but troughs that could make your stomach drop. So, can Australia hang on for the ride?",
+          "reactKey": "wa-103493888-1",
+          "synopsis": "As the 2024 Super Rugby season begins, the Western Force — a club that was unceremoniously dumped just a few short years ago — enter the new campaign looking to stamp their authority on the competition.",
           "title": {
-            "children": "It's known as 'fickle nickel', so why do some analysts think this downturn is different?"
+            "children": "Axed from Super Rugby not so long ago, the Western Force have almost come full-circle"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
-              "id": "936",
-              "title": "Mining and Metals Industry"
+              "id": "2478",
+              "title": "Sport"
             },
             {
-              "id": "1534",
-              "title": "Government and Politics"
+              "id": "2670",
+              "title": "Rugby Union"
             },
             {
-              "id": "2292",
-              "title": "Mining (Rural)"
+              "id": "2672",
+              "title": "Super Rugby"
             }
           ]
         }
@@ -485,6 +459,51 @@
             {
               "id": "984",
               "title": "Missing Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103497570",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A person holds a handfull of ground nickel",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1faa4036682d740bffff8e3956df854b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-22/nickel-pickle-western-australia-kambalda-critical-minerals/103497570"
+          },
+          "contentUri": "coremedia://article/103497570",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/nickel-pickle-western-australia-kambalda-critical-minerals/103497570",
+          "video": null,
+          "reactKey": "wa-103497570-1",
+          "synopsis": "It's a roller coaster commodity: peaks that can draw prime ministers and billionaires to town, but troughs that could make your stomach drop. So, can Australia hang on for the ride?",
+          "title": {
+            "children": "It's known as 'fickle nickel', so why do some analysts think this downturn is different?"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "936",
+              "title": "Mining and Metals Industry"
+            },
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "2292",
+              "title": "Mining (Rural)"
             }
           ]
         }
@@ -635,47 +654,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103501294",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A large cloud of smoke rises in the distance",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef00ce13a9ef12664185ab484b13ccaf?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-23/victoria-west-bushfire-tasmania-central-highlands-weather/103501294"
-          },
-          "contentUri": "coremedia://article/103501294",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/victoria-west-bushfire-tasmania-central-highlands-weather/103501294",
-          "video": null,
-          "reactKey": "wa-103501294-1",
-          "synopsis": "Authorities confirm homes, sheds and stock have been lost, with an out-of-control fire bearing down on dozens of communities in Victoria.  ",
-          "title": {
-            "children": "More homes lost to bushfires as Victorian towns remain under threat in state's west"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2762",
-              "title": "Weather"
-            },
-            {
-              "id": "1280",
-              "title": "Bushfires"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -796,6 +774,47 @@
             {
               "id": "2128",
               "title": "Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103501294",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A large cloud of smoke rises in the distance",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef00ce13a9ef12664185ab484b13ccaf?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-23/victoria-west-bushfire-tasmania-central-highlands-weather/103501294"
+          },
+          "contentUri": "coremedia://article/103501294",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/victoria-west-bushfire-tasmania-central-highlands-weather/103501294",
+          "video": null,
+          "reactKey": "wa-103501294-1",
+          "synopsis": "Authorities confirm homes, sheds and stock have been lost, with an out-of-control fire bearing down on dozens of communities in Victoria.  ",
+          "title": {
+            "children": "More homes lost to bushfires as Victorian towns remain under threat in state's west"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "1280",
+              "title": "Bushfires"
             }
           ]
         }
@@ -1255,6 +1274,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "74457",
+              "date": "2024-02-22T22:34:20.000Z",
+              "title": "Brambles, Bapcor, Perseus Mining post earnings results"
+            },
+            {
               "id": "74451",
               "date": "2024-02-22T22:10:53.000Z",
               "title": "Can Nvidia keep riding the highs of the AI boom?"
@@ -1263,11 +1287,6 @@
               "id": "74443",
               "date": "2024-02-22T21:45:02.000Z",
               "title": "S&P 500 and Dow Jones close at record high after AI frenzy"
-            },
-            {
-              "id": "74437",
-              "date": "2024-02-22T21:17:41.000Z",
-              "title": "Ex-treasurers and RBA governors warn against ditching veto power"
             }
           ],
           "subjects": [
