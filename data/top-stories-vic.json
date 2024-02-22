@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103495694"
+        },
+        {
           "uri": "coremedia://article/103495638"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103495282"
-        },
-        {
-          "uri": "coremedia://article/103497006"
         }
       ]
     },
@@ -123,10 +123,82 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103495694",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A firetruck parked on an empty road with billowing clouds of fire smoke behind it.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c95f718bfd2fcaf6c53e911b2b476589?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-22/victoria-tasmania-weather-fire-live-coverage/103495694"
+          },
+          "contentUri": "coremedia://article/103495694",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/victoria-tasmania-weather-fire-live-coverage/103495694",
+          "video": null,
+          "reactKey": "vic-103495694-1",
+          "synopsis": "There are warnings for several regional communities in Victoria and Tasmania as bushfires begin to impact both states.",
+          "title": {
+            "children": "Homes threatened as bushfires erupt in Victoria and Tasmania"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "74418",
+              "date": "2024-02-22T09:58:15.000Z",
+              "title": "Watch and Act warnings for two more areas"
+            },
+            {
+              "id": "74417",
+              "date": "2024-02-22T09:54:43.000Z",
+              "title": "What's the power situation near the fire?"
+            },
+            {
+              "id": "74415",
+              "date": "2024-02-22T08:29:13.000Z",
+              "title": "Update on Tasmania"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "2762",
+              "title": "Weather"
+            },
+            {
+              "id": "1252",
+              "title": "Fires"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103495638",
           "imagePosition": {
             "mobile": "right",
@@ -151,7 +223,6 @@
             "children": "Bushfire in Victoria's west 'will get worse', authorities warn, after day of blazes in south-eastern states"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
           ],
           "subjects": [
@@ -1646,51 +1717,6 @@
             {
               "id": "12067544",
               "title": "COVID-19"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103497006",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "In room with high wooden ceiling and huge stained glass windows, 17 judges wearing black sit behind a wooden bench.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8addffc118359de0be71fb5a527da0e4?impolicy=wcms_crop_resize&cropH=3306&cropW=4959&xPos=20&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-22/us-stresses-need-to-consider-israel-security-un/103497006"
-          },
-          "contentUri": "coremedia://article/103497006",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/us-stresses-need-to-consider-israel-security-un/103497006",
-          "video": null,
-          "reactKey": "vic-103497006-1",
-          "synopsis": "The United States says the United Nation's top court should not order the unconditional withdrawal of Israeli forces from Palestinian territories as it considers a request for its opinion on the legality of the occupation.",
-          "title": {
-            "children": "UN court should not order unconditional Israeli withdrawal from Palestinian-claimed lands, US says"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1574",
-              "title": "World Politics"
-            },
-            {
-              "id": "2756",
-              "title": "Unrest, Conflict and War"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
             }
           ]
         }
