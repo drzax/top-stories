@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103501946"
+        },
+        {
           "uri": "coremedia://article/103495486"
         },
         {
@@ -20,6 +23,9 @@
         },
         {
           "uri": "coremedia://article/103502038"
+        },
+        {
+          "uri": "coremedia://article/103502588"
         },
         {
           "uri": "coremedia://article/103489876"
@@ -110,12 +116,6 @@
         },
         {
           "uri": "coremedia://article/103499688"
-        },
-        {
-          "uri": "coremedia://article/103486790"
-        },
-        {
-          "uri": "coremedia://article/103501066"
         }
       ]
     },
@@ -123,10 +123,73 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103501946",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A composite image of Beau Lamarre, Luke Davies and Jesse Baird",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b3675007e7c80ce96649215890a8b94?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-23/nsw-sydney-search-warrant-balmain-two-missing-men/103501946"
+          },
+          "contentUri": "coremedia://article/103501946",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/nsw-sydney-search-warrant-balmain-two-missing-men/103501946",
+          "video": null,
+          "reactKey": "nt-103501946-1",
+          "synopsis": "Luke Davies and Jesse Baird disappeared under suspicious circumstances this week.",
+          "title": {
+            "children": "Police officer to be charged with murder over disappearance of Sydney couple"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moments",
+                "showTime": 5400000,
+                "time": "2024-02-23T03:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1978",
+              "title": "Police"
+            },
+            {
+              "id": "984",
+              "title": "Missing Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103495486",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +199,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man in a police uniform, cap and mask walks. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5095fe50d7f0a8a610771ea905eb8770?impolicy=wcms_crop_resize&cropH=1897&cropW=2845&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5095fe50d7f0a8a610771ea905eb8770?impolicy=wcms_crop_resize&cropH=1897&cropW=2845&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +213,7 @@
           "title": {
             "children": "'No excuse': NT Police sergeant responds to 'racist' text message sent to Zachary Rolfe"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2018",
@@ -255,6 +316,51 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103502588",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "two young school boys walk to school wearing backpacks as one puts his arm around the others shoulder",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3f77d17b23fab4640065933377091e6?impolicy=wcms_crop_resize&cropH=1903&cropW=2854&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-23/private-school-spending-education-union-report/103502588"
+          },
+          "contentUri": "coremedia://article/103502588",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/private-school-spending-education-union-report/103502588",
+          "video": null,
+          "reactKey": "nt-103502588-1",
+          "synopsis": "A new analysis of school funding reveals five elite private schools in New South Wales and Victoria spent more on new facilities in 2021 than half of the nation's public schools.",
+          "title": {
+            "children": "Private schools building 'office towers and Scottish castles' while public schools left with demountable classrooms, union says"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1396",
+              "title": "Public Schools"
+            },
+            {
+              "id": "11161454",
+              "title": "Private Schools"
+            },
+            {
+              "id": "11161450",
+              "title": "Religious Schools"
             }
           ]
         }
@@ -1636,98 +1742,6 @@
             {
               "id": "1234",
               "title": "Air Force"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103486790",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Portrait of a man with a weathered face, short hair, neat beard, standing on a sunny property lined with trees.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/46547d7be87c4824f1dfa6dc65a9258f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-22/toodyay-man-on-trial-for-alleged-breach-of-heritage-laws/103486790"
-          },
-          "contentUri": "coremedia://article/103486790",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/toodyay-man-on-trial-for-alleged-breach-of-heritage-laws/103486790",
-          "video": null,
-          "reactKey": "nt-103486790-1",
-          "synopsis": "The trial will hear arguments as to whether every change to the physical landscape constitutes damage to an Aboriginal spiritual site.",
-          "title": {
-            "children": "WA man on trial for alleged breach of Aboriginal heritage laws "
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "1142",
-              "title": "Indigenous (Aboriginal and Torres Strait Islander)"
-            },
-            {
-              "id": "1596",
-              "title": "Indigenous Policy"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103501066",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A humpback whale and her calf swimming through blue waters.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b169014489b30102bfb640b6ca994d3f?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-22/the-anatomy-behind-the-songs-of-baleen-whales-discovered/103501066"
-          },
-          "contentUri": "coremedia://article/103501066",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-22/the-anatomy-behind-the-songs-of-baleen-whales-discovered/103501066",
-          "video": null,
-          "reactKey": "nt-103501066-1",
-          "synopsis": "Whales sing loud enough that their songs travel through the ocean, but the mechanics of how they vocalise has been a mystery. Scientists now think they have an idea, and it's something not seen in other animals.",
-          "title": {
-            "children": "How do whales sing? Scientists may have figured it out at last"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "1934",
-              "title": "Animals"
-            },
-            {
-              "id": "2390",
-              "title": "Mammals - Whales"
-            },
-            {
-              "id": "1922",
-              "title": "Human Interest"
             }
           ]
         }
