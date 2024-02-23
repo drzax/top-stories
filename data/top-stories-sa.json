@@ -64,6 +64,9 @@
           "uri": "coremedia://article/103504330"
         },
         {
+          "uri": "coremedia://article/103442228"
+        },
+        {
           "uri": "coremedia://article/103456186"
         },
         {
@@ -507,7 +510,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103504018",
           "imagePosition": {
@@ -528,11 +538,18 @@
           "canonicalURL": "https://www.abc.net.au/news/science/2024-02-24/odysseus-lander-why-is-america-returning-to-the-moon/103504018",
           "video": null,
           "reactKey": "sa-103504018-1",
-          "synopsis": "Experts say we may look back on the first landing of a US spacecraft on the Moon in more than 50 years as the day everything changed for space exploration. Let's look at why.",
+          "synopsis": "Experts say we may look back on the first landing of a US spacecraft on the Moon in more than 50 years as the day everything changed for space exploration. ",
           "title": {
-            "children": "Houston, we've privatised Moon landings. And things might never be the same again"
+            "children": "NASA and US company give first press conference since historic Moon landing"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2298",
@@ -868,6 +885,51 @@
             {
               "id": "102272708",
               "title": "Cost of Living"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103442228",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Four people in black suits stand around a recently dug grave which is yet to be filled in with dirt",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/99a619f3c45797669ab67e49468de0f5?impolicy=wcms_crop_resize&cropH=884&cropW=1327&xPos=335&yPos=449&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-24/state-trustee-burials-at-old-ballan-cemetery/103442228"
+          },
+          "contentUri": "coremedia://article/103442228",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-24/state-trustee-burials-at-old-ballan-cemetery/103442228",
+          "video": null,
+          "reactKey": "sa-103442228-1",
+          "synopsis": "Each year, hundreds of people who \"fall through the cracks\" are buried in country Victoria by volunteers who never knew them.",
+          "title": {
+            "children": "Without a loved one to bury them, the dead are laid to rest at this volunteer-run cemetery"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1212",
+              "title": "Death and Dying"
+            },
+            {
+              "id": "1044",
+              "title": "Volunteers"
+            },
+            {
+              "id": "992",
+              "title": "Poverty"
             }
           ]
         }

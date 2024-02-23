@@ -433,7 +433,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103504018",
           "imagePosition": {
@@ -454,11 +461,18 @@
           "canonicalURL": "https://www.abc.net.au/news/science/2024-02-24/odysseus-lander-why-is-america-returning-to-the-moon/103504018",
           "video": null,
           "reactKey": "qld-103504018-1",
-          "synopsis": "Experts say we may look back on the first landing of a US spacecraft on the Moon in more than 50 years as the day everything changed for space exploration. Let's look at why.",
+          "synopsis": "Experts say we may look back on the first landing of a US spacecraft on the Moon in more than 50 years as the day everything changed for space exploration. ",
           "title": {
-            "children": "Houston, we've privatised Moon landings. And things might never be the same again"
+            "children": "NASA and US company give first press conference since historic Moon landing"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "2298",
