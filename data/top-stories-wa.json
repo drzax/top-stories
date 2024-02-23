@@ -22,19 +22,19 @@
           "uri": "coremedia://article/103494076"
         },
         {
-          "uri": "coremedia://article/103500780"
+          "uri": "coremedia://article/103502588"
         },
         {
           "uri": "coremedia://article/103467288"
         },
         {
-          "uri": "coremedia://article/103502588"
-        },
-        {
-          "uri": "coremedia://article/103493888"
+          "uri": "coremedia://article/103500780"
         },
         {
           "uri": "coremedia://article/103502172"
+        },
+        {
+          "uri": "coremedia://article/103493888"
         },
         {
           "uri": "coremedia://article/103494722"
@@ -91,9 +91,6 @@
           "uri": "coremedia://article/103484456"
         },
         {
-          "uri": "coremedia://article/103489100"
-        },
-        {
           "uri": "coremedia://article/103497906"
         },
         {
@@ -104,9 +101,6 @@
         },
         {
           "uri": "coremedia://article/103502336"
-        },
-        {
-          "uri": "coremedia://article/103490348"
         },
         {
           "uri": "coremedia://article/103501788"
@@ -123,7 +117,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -153,6 +154,19 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moments",
+                "showTime": 5400000,
+                "time": "2024-02-23T03:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -260,7 +274,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103500780",
+          "id": "103502588",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -268,30 +282,34 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A rescue helicopter hovers in a clear sky.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/591d674e95921eece9df227f2d4af1f9?impolicy=wcms_crop_resize&cropH=1603&cropW=2408&xPos=154&yPos=205&width=160&height=107",
+            "altText": "two young school boys walk to school wearing backpacks as one puts his arm around the others shoulder",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3f77d17b23fab4640065933377091e6?impolicy=wcms_crop_resize&cropH=1903&cropW=2854&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-23/northern-wa-rescue-chopper-request-rejected/103500780"
+            "to": "/news/2024-02-23/private-school-spending-education-union-report/103502588"
           },
-          "contentUri": "coremedia://article/103500780",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/northern-wa-rescue-chopper-request-rejected/103500780",
+          "contentUri": "coremedia://article/103502588",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/private-school-spending-education-union-report/103502588",
           "video": null,
-          "reactKey": "wa-103500780-1",
-          "synopsis": "A group lobbying for an emergency rescue helicopter to be based in Geraldton is fuming at the West Australian government's rejection of their bid.",
+          "reactKey": "wa-103502588-1",
+          "synopsis": "A new analysis of school funding reveals five elite private schools in New South Wales and Victoria spent more on new facilities in 2021 than half of the nation's public schools.",
           "title": {
-            "children": "West Australians fume as request for rescue helicopter rejected"
+            "children": "Private schools building 'office towers and Scottish castles' while public schools left with demountable classrooms, union says"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "11161478",
-              "title": "Emergency Care"
+              "id": "1396",
+              "title": "Public Schools"
             },
             {
-              "id": "1036",
-              "title": "Regional Communities"
+              "id": "11161454",
+              "title": "Private Schools"
+            },
+            {
+              "id": "11161450",
+              "title": "Religious Schools"
             }
           ]
         }
@@ -346,7 +364,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103502588",
+          "id": "103500780",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -354,81 +372,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "two young school boys walk to school wearing backpacks as one puts his arm around the others shoulder",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3f77d17b23fab4640065933377091e6?impolicy=wcms_crop_resize&cropH=1903&cropW=2854&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A rescue helicopter hovers in a clear sky.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/591d674e95921eece9df227f2d4af1f9?impolicy=wcms_crop_resize&cropH=1603&cropW=2408&xPos=154&yPos=205&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-23/private-school-spending-education-union-report/103502588"
+            "to": "/news/2024-02-23/northern-wa-rescue-chopper-request-rejected/103500780"
           },
-          "contentUri": "coremedia://article/103502588",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/private-school-spending-education-union-report/103502588",
+          "contentUri": "coremedia://article/103500780",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/northern-wa-rescue-chopper-request-rejected/103500780",
           "video": null,
-          "reactKey": "wa-103502588-1",
-          "synopsis": "A new analysis of school funding reveals five elite private schools in New South Wales and Victoria spent more on new facilities in 2021 than half of the nation's public schools.",
+          "reactKey": "wa-103500780-1",
+          "synopsis": "A group lobbying for an emergency rescue helicopter to be based in Geraldton is fuming at the West Australian government's rejection of their bid.",
           "title": {
-            "children": "Private schools building 'office towers and Scottish castles' while public schools left with demountable classrooms, union says"
+            "children": "West Australians fume as request for rescue helicopter rejected"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "1396",
-              "title": "Public Schools"
+              "id": "11161478",
+              "title": "Emergency Care"
             },
             {
-              "id": "11161454",
-              "title": "Private Schools"
-            },
-            {
-              "id": "11161450",
-              "title": "Religious Schools"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103493888",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of rugby players stand around in a huddle during a match.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9965272322fcdd2cddda2a824e7e3eae?impolicy=wcms_crop_resize&cropH=2938&cropW=4407&xPos=296&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888"
-          },
-          "contentUri": "coremedia://article/103493888",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888",
-          "video": null,
-          "reactKey": "wa-103493888-1",
-          "synopsis": "As the 2024 Super Rugby season begins, the Western Force — a club that was unceremoniously dumped just a few short years ago — enter the new campaign looking to stamp their authority on the competition.",
-          "title": {
-            "children": "Axed from Super Rugby not so long ago, the Western Force have almost come full-circle"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
-          "subjects": [
-            {
-              "id": "2478",
-              "title": "Sport"
-            },
-            {
-              "id": "2670",
-              "title": "Rugby Union"
-            },
-            {
-              "id": "2672",
-              "title": "Super Rugby"
+              "id": "1036",
+              "title": "Regional Communities"
             }
           ]
         }
@@ -502,6 +469,53 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103493888",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of rugby players stand around in a huddle during a match.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9965272322fcdd2cddda2a824e7e3eae?impolicy=wcms_crop_resize&cropH=2938&cropW=4407&xPos=296&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888"
+          },
+          "contentUri": "coremedia://article/103493888",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/western-force-super-rugby-2024-season-preview/103493888",
+          "video": null,
+          "reactKey": "wa-103493888-1",
+          "synopsis": "As the 2024 Super Rugby season begins, the Western Force — a club that was unceremoniously dumped just a few short years ago — enter the new campaign looking to stamp their authority on the competition.",
+          "title": {
+            "children": "Axed from Super Rugby not so long ago, the Western Force have almost come full-circle"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "subjects": [
+            {
+              "id": "2478",
+              "title": "Sport"
+            },
+            {
+              "id": "2670",
+              "title": "Rugby Union"
+            },
+            {
+              "id": "2672",
+              "title": "Super Rugby"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -519,7 +533,7 @@
           "isMajor": false,
           "image": {
             "altText": "A close up of a robotic lander in space orbiting the Moon, which is in the background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eab2eb243e282e99bb38dba5acb8ba5b?impolicy=wcms_crop_resize&cropH=2663&cropW=3995&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eab2eb243e282e99bb38dba5acb8ba5b?impolicy=wcms_crop_resize&cropH=2663&cropW=3995&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -533,9 +547,7 @@
           "title": {
             "children": "Private company makes first US Moon landing in more than 50 years"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "liveBlogClientContext": {
             "status": "live",
             "type": "default",
@@ -627,15 +639,15 @@
           "headingClassNames": [],
           "id": "103489876",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A young girl wearing a pink jumper holds a piece of bread made from animal feed.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b21997d379acc9b86760646d46c83cb?impolicy=wcms_crop_resize&cropH=770&cropW=1155&xPos=68&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b21997d379acc9b86760646d46c83cb?impolicy=wcms_crop_resize&cropH=763&cropW=1357&xPos=0&yPos=3&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-02-23/the-desperate-search-for-food-in-gaza/103489876"
@@ -1063,8 +1075,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Construction machines in a shallow tunnel with an arched roof.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d1e3ff6c37c09c72e3dca28676d84da7?impolicy=wcms_crop_resize&cropH=2066&cropW=3099&xPos=894&yPos=686&width=862&height=575",
+            "altText": "A large excavator in a deep, steep-sided grey pit.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a18f4aa2f13fdb36b041bdbbad3a19f5?impolicy=wcms_crop_resize&cropH=2752&cropW=4128&xPos=384&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1193,7 +1205,7 @@
           "isMajor": false,
           "image": {
             "altText": "Madison de Rozario smiles",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e0a3c51ac8c55ddf85b73fff2977ca8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e0a3c51ac8c55ddf85b73fff2977ca8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1207,7 +1219,9 @@
           "title": {
             "children": "London Marathon's 'beautiful' move for full equality praised by athletes"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "2478",
@@ -1376,51 +1390,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103489100",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with blong hair, a green dress and love heart sunglasses stands in a field of big yellow sunflowers.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/28a2b9164e22679b24ed6c9c0db4a23a?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=456&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-23/sunflower-tourist-crops-to-protect-commercial-fields-queensland/103489100"
-          },
-          "contentUri": "coremedia://article/103489100",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-23/sunflower-tourist-crops-to-protect-commercial-fields-queensland/103489100",
-          "video": null,
-          "reactKey": "wa-103489100-1",
-          "synopsis": "Specially grown sunflower crops are springing up around Southern Queensland to help meet demand from crowds of visitors keen for a photo. ",
-          "title": {
-            "children": "Tourist crops providing selfie solution for famed Queensland sunflower fields"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "2172",
-              "title": "Rural Tourism"
-            },
-            {
-              "id": "2206",
-              "title": "Flowers"
-            },
-            {
-              "id": "2072",
-              "title": "Travel and Tourism (Lifestyle and Leisure)"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103497906",
           "imagePosition": {
             "mobile": "right",
@@ -1480,7 +1449,7 @@
           "isMajor": false,
           "image": {
             "altText": "An AFL player lies on a stretcher and is carted off with support staff around him.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b6c3d8eb00d47e068c037009a85b0636?impolicy=wcms_crop_resize&cropH=3197&cropW=4795&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b6c3d8eb00d47e068c037009a85b0636?impolicy=wcms_crop_resize&cropH=2895&cropW=4343&xPos=342&yPos=121&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1494,9 +1463,7 @@
           "title": {
             "children": "The split-second decision in a game that changed Angus Brayshaw's life and put all football codes on notice"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "2478",
@@ -1605,51 +1572,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103490348",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A general view of Victoria Park, where bonded asbestos was found in mulch",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eabcd136531da30d6d5c092099a1ed59?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/health/2024-02-23/asbestos-risk-humans-pets-in-parks/103490348"
-          },
-          "contentUri": "coremedia://article/103490348",
-          "canonicalURL": "https://www.abc.net.au/news/health/2024-02-23/asbestos-risk-humans-pets-in-parks/103490348",
-          "video": null,
-          "reactKey": "wa-103490348-1",
-          "synopsis": "Widespread asbestos contamination of mulch has left residents of Sydney and Canberra worried, but experts say it does not pose a \"significant risk\".  We unpack how asbestos causes health issues and what kinds of exposure are harmful.",
-          "title": {
-            "children": "What's the risk of inhaling asbestos from contaminated mulch if you stroll through a park?"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1616",
-              "title": "Health"
-            },
-            {
-              "id": "1858",
-              "title": "Asbestos"
-            },
-            {
-              "id": "1734",
-              "title": "Lung Cancer"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103501788",
           "imagePosition": {
             "mobile": "right",
@@ -1697,15 +1619,15 @@
           "headingClassNames": [],
           "id": "103493788",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "A seventy year old man in a blue and white checked shirt was showered with confetti.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8944d4b2d31e7a276d2bd06c96697061?impolicy=wcms_crop_resize&cropH=608&cropW=1081&xPos=0&yPos=56&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8944d4b2d31e7a276d2bd06c96697061?impolicy=wcms_crop_resize&cropH=698&cropW=1047&xPos=19&yPos=10&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-02-23/indonesia-election-result-fraud-prabowo-vote-count/103493788"

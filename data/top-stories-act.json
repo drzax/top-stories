@@ -117,7 +117,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -147,6 +154,19 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moments",
+                "showTime": 5400000,
+                "time": "2024-02-23T03:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -619,8 +639,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Construction machines in a shallow tunnel with an arched roof.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d1e3ff6c37c09c72e3dca28676d84da7?impolicy=wcms_crop_resize&cropH=2066&cropW=3673&xPos=607&yPos=686&width=862&height=485",
+            "altText": "A large excavator in a deep, steep-sided grey pit.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a18f4aa2f13fdb36b041bdbbad3a19f5?impolicy=wcms_crop_resize&cropH=2752&cropW=4892&xPos=2&yPos=0&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
