@@ -202,7 +202,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103504630",
           "imagePosition": {
@@ -225,9 +232,16 @@
           "reactKey": "vic-103504630-1",
           "synopsis": "Fire authorities confirm homes have been lost in the fires, as farmers also lose sheds and machinery.",
           "title": {
-            "children": "Fire risk downgraded for Western Victoria fires, but heat still on"
+            "children": "Premier speaks after fire risk downgraded for Victorian fires"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1280",
