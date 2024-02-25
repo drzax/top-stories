@@ -111,7 +111,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -141,6 +148,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1988",
@@ -470,9 +484,9 @@
           },
           "liveBlogKeyEvents": [
             {
-              "id": "74887",
-              "date": "2024-02-25T22:41:18.000Z",
-              "title": "Workers strike at Parliament House over pay"
+              "id": "74888",
+              "date": "2024-02-25T22:57:44.000Z",
+              "title": "Government announces sanctions in response to mistreatment of Alexei Navalny"
             },
             {
               "id": "74885",
@@ -740,6 +754,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "74891",
+              "date": "2024-02-25T23:04:13.000Z",
+              "title": "Suncorp profit climbs on insurance premium jump"
+            },
+            {
               "id": "74886",
               "date": "2024-02-25T22:37:46.000Z",
               "title": "Alcoa proposes to buy out joint venture partner Alumina in $2.2 billion deal"
@@ -748,11 +767,6 @@
               "id": "74879",
               "date": "2024-02-25T21:45:15.000Z",
               "title": "'Natural experiment' shows stamp duty cuts mobility, costs economy"
-            },
-            {
-              "id": "74878",
-              "date": "2024-02-25T21:25:40.000Z",
-              "title": "ASX set for a flat start as Wall Street finally runs out of steam"
             }
           ],
           "subjects": [
@@ -1202,7 +1216,7 @@
           "reactKey": "nsw-103503166-1",
           "synopsis": "Margaret Qualley and Australian actor Geraldine Viswanathan star in Drive-Away Dolls as two queer women who are caught up with criminals after they find a strange suitcase in their trunk.",
           "title": {
-            "children": "Ethan Coen's solo feature debut is a hilarious, sexy, lesbian road movie"
+            "children": "This lesbian road movie from Ethan Coen embraces debauchery and sex positivity — and it's hilarious"
           },
           "imageContainerClassNames": [
             "imageHalf"

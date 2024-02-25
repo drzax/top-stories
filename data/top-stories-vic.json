@@ -31,6 +31,9 @@
           "uri": "coremedia://article/103484816"
         },
         {
+          "uri": "coremedia://article/103508292"
+        },
+        {
           "uri": "coremedia://article/103457214"
         },
         {
@@ -167,7 +170,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103510656",
           "imagePosition": {
@@ -193,6 +203,13 @@
             "children": "Search for bodies of Luke Davies and Jesse Baird resumes in remote area two hours from Sydney"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1988",
@@ -389,6 +406,80 @@
             {
               "id": "1768",
               "title": "Doctors and Medical Professionals"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103508292",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a group of male students wearing backpacks walk through a uni campus away from the camera. their faces can't be seen",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/622109fa6b14eeccbb9bbf816779b4d8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-26/parliament-blog-live-updates-monday-februray-26/103508292"
+          },
+          "contentUri": "coremedia://article/103508292",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-26/parliament-blog-live-updates-monday-februray-26/103508292",
+          "video": null,
+          "reactKey": "vic-103508292-1",
+          "synopsis": "The Greens are calling for the government to act quickly to implement recommendations to make university more affordable for students.  Follow live.",
+          "title": {
+            "children": "Calls for government to act on universities' review with students 'unable to wait a day longer' amid cost-of-living crisis"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "74888",
+              "date": "2024-02-25T22:57:44.000Z",
+              "title": "Government announces sanctions in response to mistreatment of Alexei Navalny"
+            },
+            {
+              "id": "74885",
+              "date": "2024-02-25T22:32:30.000Z",
+              "title": "Independent MP wants to make pork-barrelling 'against the law'"
+            },
+            {
+              "id": "74883",
+              "date": "2024-02-25T22:13:07.000Z",
+              "title": "Greens call for government to act on Universities Accord review"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "1534",
+              "title": "Government and Politics"
+            },
+            {
+              "id": "1582",
+              "title": "Federal Parliament"
+            },
+            {
+              "id": "13493426",
+              "title": "Ministers and Parliamentary Secretaries"
             }
           ]
         }
@@ -663,6 +754,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "74891",
+              "date": "2024-02-25T23:04:13.000Z",
+              "title": "Suncorp profit climbs on insurance premium jump"
+            },
+            {
               "id": "74886",
               "date": "2024-02-25T22:37:46.000Z",
               "title": "Alcoa proposes to buy out joint venture partner Alumina in $2.2 billion deal"
@@ -671,11 +767,6 @@
               "id": "74879",
               "date": "2024-02-25T21:45:15.000Z",
               "title": "'Natural experiment' shows stamp duty cuts mobility, costs economy"
-            },
-            {
-              "id": "74878",
-              "date": "2024-02-25T21:25:40.000Z",
-              "title": "ASX set for a flat start as Wall Street finally runs out of steam"
             }
           ],
           "subjects": [
@@ -1354,7 +1445,7 @@
           "reactKey": "vic-103503166-1",
           "synopsis": "Margaret Qualley and Australian actor Geraldine Viswanathan star in Drive-Away Dolls as two queer women who are caught up with criminals after they find a strange suitcase in their trunk.",
           "title": {
-            "children": "Ethan Coen's solo feature debut is a hilarious, sexy, lesbian road movie"
+            "children": "This lesbian road movie from Ethan Coen embraces debauchery and sex positivity — and it's hilarious"
           },
           "imageContainerClassNames": [],
           "subjects": [
