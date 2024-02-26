@@ -28,7 +28,7 @@
           "uri": "coremedia://article/103511604"
         },
         {
-          "uri": "coremedia://article/103511982"
+          "uri": "coremedia://article/103514916"
         },
         {
           "uri": "coremedia://article/103488392"
@@ -40,6 +40,9 @@
           "uri": "coremedia://article/103505294"
         },
         {
+          "uri": "coremedia://article/103511982"
+        },
+        {
           "uri": "coremedia://article/103515046"
         },
         {
@@ -47,6 +50,9 @@
         },
         {
           "uri": "coremedia://article/103455352"
+        },
+        {
+          "uri": "coremedia://article/103514926"
         },
         {
           "uri": "coremedia://article/103512326"
@@ -126,7 +132,7 @@
           "reactKey": "national-103487530-1",
           "synopsis": "The gender pay gap — the difference between what men and women are paid in the same organisation — is a stubborn problem. Now, explosive new data from a government agency lets 5 million workers know the gap at their employer.",
           "title": {
-            "children": "Airlines, banks, footy clubs: The biggest gender pay gaps in Australia revealed in new data"
+            "children": "Gender pay shock as big gaps revealed in what men and women earn at nation's biggest companies"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -334,9 +340,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103511982",
+          "id": "103514916",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -344,34 +356,37 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Large thick billows of white smoke rise from the hills, with a house in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/020eeb38ebf6d5def8daedffd694c9af?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
+            "altText": "The former PM seated and grinning",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dfb40f78553e70ecac0826c245913739?impolicy=wcms_crop_resize&cropH=4082&cropW=6123&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-02-27/authorities-warn-residents-extreme-catastrophic-fire-conditions/103511982"
+            "to": "/news/2024-02-27/federal-parliament-live-updates-february-27/103514916"
           },
-          "contentUri": "coremedia://article/103511982",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-27/authorities-warn-residents-extreme-catastrophic-fire-conditions/103511982",
+          "contentUri": "coremedia://article/103514916",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-27/federal-parliament-live-updates-february-27/103514916",
           "video": null,
-          "reactKey": "national-103511982-1",
-          "synopsis": "A bushfire north-west of Ballarat has burnt more than 20,000 hectares and destroyed nine homes since it started last Thursday. Authorities are again warning locals to prepare to leave as the fire danger is expected to reach extreme levels on Wednesday.",
+          "reactKey": "national-103514916-1",
+          "synopsis": "Former prime minister Scott Morrison will deliver his final speech in parliament before he retires from politics. Follow live.",
           "title": {
-            "children": "Authorities warn residents to leave early as fire danger increases in regional Victoria"
+            "children": "Morrison to say goodbye and CEO says gender pay gap 'just not right'"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
-              "id": "1280",
-              "title": "Bushfires"
+              "id": "1582",
+              "title": "Federal Parliament"
             },
             {
-              "id": "12551200",
-              "title": "Emergency Services"
-            },
-            {
-              "id": "2762",
-              "title": "Weather"
+              "id": "1546",
+              "title": "Federal Government"
             }
           ]
         }
@@ -515,6 +530,51 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103511982",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Large thick billows of white smoke rise from the hills, with a house in the foreground.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/020eeb38ebf6d5def8daedffd694c9af?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-27/authorities-warn-residents-extreme-catastrophic-fire-conditions/103511982"
+          },
+          "contentUri": "coremedia://article/103511982",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-27/authorities-warn-residents-extreme-catastrophic-fire-conditions/103511982",
+          "video": null,
+          "reactKey": "national-103511982-1",
+          "synopsis": "A bushfire north-west of Ballarat has burnt more than 20,000 hectares and destroyed nine homes since it started last Thursday. Authorities are again warning locals to prepare to leave as the fire danger is expected to reach extreme levels on Wednesday.",
+          "title": {
+            "children": "Authorities warn residents to leave early as fire danger increases in regional Victoria"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1280",
+              "title": "Bushfires"
+            },
+            {
+              "id": "12551200",
+              "title": "Emergency Services"
+            },
+            {
+              "id": "2762",
+              "title": "Weather"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -553,7 +613,13 @@
             "countdowns": null,
             "isLiveMoment": false
           },
-          "liveBlogKeyEvents": [],
+          "liveBlogKeyEvents": [
+            {
+              "id": "75171",
+              "date": "2024-02-26T22:14:40.000Z",
+              "title": "Bitcoin hits two-year high on …"
+            }
+          ],
           "subjects": [
             {
               "id": "846",
@@ -656,6 +722,47 @@
             {
               "id": "1028",
               "title": "Suicide"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103514926",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A image of the Hungarian Parliament from higher up, the room is full of people in suits sitting at desks.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/060eb3b63309d4661e3cf6748ac691b3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-27/hungarys-parliament-ratifies-swedens-nato-bid/103514926"
+          },
+          "contentUri": "coremedia://article/103514926",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-27/hungarys-parliament-ratifies-swedens-nato-bid/103514926",
+          "video": null,
+          "reactKey": "national-103514926-1",
+          "synopsis": "Sweden's bid to join NATO — held up for almost two years — clears its final hurdle as Hungary gives its approval for the the Nordic country to enter the alliance.",
+          "title": {
+            "children": "Hungary's parliament ratifies Sweden's bid to join NATO "
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1574",
+              "title": "World Politics"
+            },
+            {
+              "id": "1238",
+              "title": "Treaties and Alliances"
             }
           ]
         }
@@ -1011,7 +1118,7 @@
           "reactKey": "national-103497502-1",
           "synopsis": "It's been an area of dispute for centuries, and now hundreds of local farmers have been told that 270 hectares of land they use for farming will be handed over to Indonesia.",
           "title": {
-            "children": "'We're not coming to sit and drink coffee': Indonesia land dispute to climax as farmers say 'no' "
+            "children": "'We don't want to give our land to Indonesia': Centuries-old border dispute set to climax as farmers say 'no'"
           },
           "imageContainerClassNames": [],
           "subjects": [
