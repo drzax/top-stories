@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103519490"
+        },
+        {
           "uri": "coremedia://article/103518786"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103511658"
-        },
-        {
-          "uri": "coremedia://article/103519338"
         }
       ]
     },
@@ -123,10 +123,62 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103519490",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Fire fighters hosing down burnt ground",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a79dd92d79f7ad931bff23df3b60b1aa?impolicy=wcms_crop_resize&cropH=1850&cropW=2776&xPos=0&yPos=116&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-02-28/victoria-bayindeen-south-australia-bushfire-live/103519490"
+          },
+          "contentUri": "coremedia://article/103519490",
+          "canonicalURL": "https://www.abc.net.au/news/2024-02-28/victoria-bayindeen-south-australia-bushfire-live/103519490",
+          "video": null,
+          "reactKey": "vic-103519490-1",
+          "synopsis": "Fire authorities are warning of extreme fire danger risk in Victoria's west and South Australia, as an out-of-control bushfire that began last week continues to burn.",
+          "title": {
+            "children": "Victorian towns warned to leave before midday as catastrophic fire day looms"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [],
+          "subjects": [
+            {
+              "id": "1280",
+              "title": "Bushfires"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103518786",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +188,7 @@
           "isMajor": false,
           "image": {
             "altText": "Charred bushland following a fire",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c3a0b27f4786f628e0e7fa54685e43e9?impolicy=wcms_crop_resize&cropH=4160&cropW=6240&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c3a0b27f4786f628e0e7fa54685e43e9?impolicy=wcms_crop_resize&cropH=4160&cropW=6240&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -148,11 +200,9 @@
           "reactKey": "vic-103518786-1",
           "synopsis": "Hot temperatures and strong winds are expected in Victoria and South Australia, with hundreds of firefighters deployed to contain potential outbreaks.  ",
           "title": {
-            "children": "Victoria braces for another day of 'catastrophic' fire danger, a week on from bushfires that destroyed six homes"
+            "children": "'Challenging day' ahead for fire crews as temperatures soar in Victoria and South Australia"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": [
             {
               "id": "1280",
@@ -619,7 +669,7 @@
           "reactKey": "vic-103304782-1",
           "synopsis": "Hitler salutes, white supremacy slogans and symbols of hate … insiders say Nazi bands have become an open secret within Australia's metal scene, as fans prepare for the return of major international event Knotfest next month.",
           "title": {
-            "children": "The underground Nazi world hiding in the metal music scene"
+            "children": "'You've booked a Nazi band': The dark side of Aussie metal"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -807,6 +857,16 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "75337",
+              "date": "2024-02-27T23:02:04.000Z",
+              "title": "RBNZ could lift interest rates today"
+            },
+            {
+              "id": "75328",
+              "date": "2024-02-27T22:47:55.000Z",
+              "title": "Flight Centre posts $87m profit after 'second strongest start' to the year"
+            },
             {
               "id": "75320",
               "date": "2024-02-27T21:59:14.000Z",
@@ -1397,7 +1457,7 @@
           "reactKey": "vic-103518084-1",
           "synopsis": "Many workplaces require documentation for sick and carer's leave. With the rising costs of GPs, and cost-of-living pressures, this can be expensive, so, what options are available if you need a medical certificate?",
           "title": {
-            "children": "What's the most cost-effective way of obtaining a medical certificate if you need one for work?"
+            "children": "Need a medical certificate for work or uni and unsure of your options? Here’s what you should know"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1669,47 +1729,6 @@
             {
               "id": "10396004",
               "title": "State and Territory Elections"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103519338",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Albanese looks up while standing at a lectern, an Australian flag behind him.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3157ece142cf3ba0ef759a0847f6c32b?impolicy=wcms_crop_resize&cropH=2065&cropW=3097&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-02-27/stage-three-tax-cut-changes-pass-senate/103519338"
-          },
-          "contentUri": "coremedia://article/103519338",
-          "canonicalURL": "https://www.abc.net.au/news/2024-02-27/stage-three-tax-cut-changes-pass-senate/103519338",
-          "video": null,
-          "reactKey": "vic-103519338-1",
-          "synopsis": "The government's overhaul of the stage 3 tax cuts passed the Senate unamended on Tuesday evening, having previously passed in the House of Representatives. The tax cuts will now become law.",
-          "title": {
-            "children": "Government's overhaul of stage 3 tax cuts pass Senate"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1546",
-              "title": "Federal Government"
-            },
-            {
-              "id": "1534",
-              "title": "Government and Politics"
             }
           ]
         }
