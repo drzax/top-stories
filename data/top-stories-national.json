@@ -37,6 +37,9 @@
           "uri": "coremedia://article/103376332"
         },
         {
+          "uri": "coremedia://article/103552014"
+        },
+        {
           "uri": "coremedia://article/103549244"
         },
         {
@@ -59,9 +62,6 @@
         },
         {
           "uri": "coremedia://article/103551990"
-        },
-        {
-          "uri": "coremedia://article/103552014"
         },
         {
           "uri": "coremedia://article/103552562"
@@ -275,7 +275,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103552838",
           "imagePosition": {
@@ -301,6 +308,13 @@
             "children": "Coercive control will become a crime in Queensland after laws pass in parliament"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "986",
@@ -491,6 +505,80 @@
             {
               "id": "776",
               "title": "Popular Culture"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103552014",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of office workers standing at the corner of an intersection in a city waiting to cross.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2b8ca9ffbf394fbbe1055ae53788dd86?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-06/asx-markets-business-live-news-march06-2024/103552014"
+          },
+          "contentUri": "coremedia://article/103552014",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-06/asx-markets-business-live-news-march06-2024/103552014",
+          "video": null,
+          "reactKey": "national-103552014-1",
+          "synopsis": "Australia's economy grew by a modest 0.2 per cent in the December quarter, while the ASX is trading lower after a fall on Wall Street following bitcoin plunging hours after setting a record high. Follow live.",
+          "title": {
+            "children": "What do today's GDP numbers tell us about the economy and where we're headed? We're answering your questions"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "76628",
+              "date": "2024-03-06T02:17:34.000Z",
+              "title": "Superannuation returns continue their advance in February"
+            },
+            {
+              "id": "76610",
+              "date": "2024-03-06T01:01:25.000Z",
+              "title": "Wondering what the GDP figures tell us about the economy?"
+            },
+            {
+              "id": "76607",
+              "date": "2024-03-06T00:35:06.000Z",
+              "title": "Australia's economy grew by 0.2pc in December quarter"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "846",
+              "title": "Stockmarket"
+            },
+            {
+              "id": "844",
+              "title": "Currency"
+            },
+            {
+              "id": "826",
+              "title": "Financial Markets"
             }
           ]
         }
@@ -849,80 +937,6 @@
             {
               "id": "12067544",
               "title": "COVID-19"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103552014",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of office workers standing at the corner of an intersection in a city waiting to cross.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2b8ca9ffbf394fbbe1055ae53788dd86?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-06/asx-markets-business-live-news-march06-2024/103552014"
-          },
-          "contentUri": "coremedia://article/103552014",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-06/asx-markets-business-live-news-march06-2024/103552014",
-          "video": null,
-          "reactKey": "national-103552014-1",
-          "synopsis": "Australia's economy grew by a modest 0.2 per cent in the December quarter, while the ASX is trading lower after a fall on Wall Street following bitcoin plunging hours after setting a record high. Follow live.",
-          "title": {
-            "children": "What do today's GDP numbers tell us about the economy and where we're headed? We're answering your questions"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "76628",
-              "date": "2024-03-06T02:17:34.000Z",
-              "title": "Superannuation returns continue their advance in February"
-            },
-            {
-              "id": "76610",
-              "date": "2024-03-06T01:01:25.000Z",
-              "title": "Wondering what the GDP figures tell us about the economy?"
-            },
-            {
-              "id": "76607",
-              "date": "2024-03-06T00:35:06.000Z",
-              "title": "Australia's economy grew by 0.2pc in December quarter"
-            }
-          ],
-          "subjects": [
-            {
-              "id": "846",
-              "title": "Stockmarket"
-            },
-            {
-              "id": "844",
-              "title": "Currency"
-            },
-            {
-              "id": "826",
-              "title": "Financial Markets"
             }
           ]
         }
