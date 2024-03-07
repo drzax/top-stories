@@ -19,6 +19,9 @@
           "uri": "coremedia://article/103558284"
         },
         {
+          "uri": "coremedia://article/103560272"
+        },
+        {
           "uri": "coremedia://article/103560588"
         },
         {
@@ -94,16 +97,13 @@
           "uri": "coremedia://article/103557892"
         },
         {
-          "uri": "coremedia://article/103545586"
-        },
-        {
           "uri": "coremedia://article/103557130"
         },
         {
           "uri": "coremedia://article/103557812"
         },
         {
-          "uri": "coremedia://article/103552932"
+          "uri": "coremedia://article/103545586"
         }
       ]
     },
@@ -156,14 +156,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103558284",
           "imagePosition": {
@@ -186,16 +179,9 @@
           "reactKey": "nsw-103558284-1",
           "synopsis": "Police will allege Samantha Murphy was murdered on the day she vanished after leaving her Ballarat East home for a morning run more than a month ago.",
           "title": {
-            "children": "Police will allege 22yo man murdered Samantha Murphy on day she disappeared"
+            "children": "Missing Ballarat woman Samantha Murphy died in 'deliberate attack', police allege"
           },
           "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1982",
@@ -208,6 +194,51 @@
             {
               "id": "1978",
               "title": "Police"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103560272",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Richard Marles gives evidence at the Royal Commission into Defence and Veteran Suicide.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4ab513bc7d93c1837729c5ed61c8d743?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=107&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-03-07/nsw-sydney-defence-royal-commission-richard-marles/103560272"
+          },
+          "contentUri": "coremedia://article/103560272",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/nsw-sydney-defence-royal-commission-richard-marles/103560272",
+          "video": null,
+          "reactKey": "nsw-103560272-1",
+          "synopsis": "Deputy Prime Minister Richard Marles was asked why the government rejected a request for a 12-month extension while giving evidence at the Royal Commission into Defence and Veteran Suicide today.",
+          "title": {
+            "children": "Defence minister says families of veteran suicide will be left 'unheard' as royal commission won't be extended"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1228",
+              "title": "Defence Forces"
+            },
+            {
+              "id": "1232",
+              "title": "Army"
+            },
+            {
+              "id": "10396004",
+              "title": "State and Territory Elections"
             }
           ]
         }
@@ -1334,47 +1365,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103545586",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man from an Air Force search team in a headset looks out a plane window looking at the ocean. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b62b7b6cf0f8a1def868193affb54902?impolicy=wcms_crop_resize&cropH=2179&cropW=3873&xPos=0&yPos=199&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-03-07/how-to-search-for-a-missing-plane-flight-mh370-disappearance-/103545586"
-          },
-          "contentUri": "coremedia://article/103545586",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/how-to-search-for-a-missing-plane-flight-mh370-disappearance-/103545586",
-          "video": null,
-          "reactKey": "nsw-103545586-1",
-          "synopsis": "Searches costing $200 million were unable to locate flight MH370, but investigators are hopeful new technology and techniques will lead to the missing plane and solve the 10-year-old aviation mystery. ",
-          "title": {
-            "children": "How do you search for a missing plane? Investigators hopeful new hunt will solve MH370 mystery"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1286",
-              "title": "Air and Space Accidents and Incidents"
-            },
-            {
-              "id": "984",
-              "title": "Missing Person"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103557130",
           "imagePosition": {
             "mobile": "right",
@@ -1465,7 +1455,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103552932",
+          "id": "103545586",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -1473,34 +1463,30 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A white woman with blonde hair in her late 40s wears a bright pink shirt and purple leggings and sits in a cow hide chair.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea7d48613f55b5ff28b5b3ef487f16b1?impolicy=wcms_crop_resize&cropH=1395&cropW=2480&xPos=203&yPos=183&width=862&height=485",
+            "altText": "A man from an Air Force search team in a headset looks out a plane window looking at the ocean. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b62b7b6cf0f8a1def868193affb54902?impolicy=wcms_crop_resize&cropH=2179&cropW=3873&xPos=0&yPos=199&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2024-03-07/sydney-theatre-company-a-fool-in-love-van-badham/103552932"
+            "to": "/news/2024-03-07/how-to-search-for-a-missing-plane-flight-mh370-disappearance-/103545586"
           },
-          "contentUri": "coremedia://article/103552932",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/sydney-theatre-company-a-fool-in-love-van-badham/103552932",
+          "contentUri": "coremedia://article/103545586",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/how-to-search-for-a-missing-plane-flight-mh370-disappearance-/103545586",
           "video": null,
-          "reactKey": "nsw-103552932-1",
-          "synopsis": "It’s been a tough couple of years for the writer and theatre-maker, but she’s channelled her frustrations into adapting a 17th-century farce, and it’s a delightful romp.",
+          "reactKey": "nsw-103545586-1",
+          "synopsis": "Searches costing $200 million were unable to locate flight MH370, but investigators are hopeful new technology and techniques will lead to the missing plane and solve the 10-year-old aviation mystery. ",
           "title": {
-            "children": "Van was snubbed as a 'state school scrubber', now her second play is on at Sydney Theatre Company"
+            "children": "How do you search for a missing plane? Investigators hopeful new hunt will solve MH370 mystery"
           },
           "imageContainerClassNames": [],
           "subjects": [
             {
-              "id": "472",
-              "title": "Arts, Culture and Entertainment"
+              "id": "1286",
+              "title": "Air and Space Accidents and Incidents"
             },
             {
-              "id": "786",
-              "title": "Performing Arts"
-            },
-            {
-              "id": "716",
-              "title": "Theatre"
+              "id": "984",
+              "title": "Missing Person"
             }
           ]
         }
