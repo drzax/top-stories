@@ -64,6 +64,9 @@
           "uri": "coremedia://article/103557130"
         },
         {
+          "uri": "coremedia://article/103559774"
+        },
+        {
           "uri": "coremedia://article/103553762"
         },
         {
@@ -71,9 +74,6 @@
         },
         {
           "uri": "coremedia://article/103546184"
-        },
-        {
-          "uri": "coremedia://article/103559774"
         },
         {
           "uri": "coremedia://article/103526758"
@@ -123,7 +123,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -148,11 +155,18 @@
           "reactKey": "vic-103558284-1",
           "synopsis": "Patrick Orren Stephenson, 22, is due to face the Ballarat Magistrates' Court this afternoon, after he was charged with the murder of missing 51-year-old mother of three Samantha Murphy.",
           "title": {
-            "children": "Man, 22, charged with murder of missing Ballarat mum Samantha Murphy"
+            "children": "Police speak after charging 22yo man with murder of Samantha Murphy"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1982",
@@ -230,7 +244,7 @@
           "isMajor": false,
           "image": {
             "altText": "A collage of images showing abusive teachers who worked in Victorian government schools",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ca3f181cdc9084de04438e36a3c13de?impolicy=wcms_crop_resize&cropH=473&cropW=709&xPos=411&yPos=224&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ca3f181cdc9084de04438e36a3c13de?impolicy=wcms_crop_resize&cropH=900&cropW=1350&xPos=125&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -244,7 +258,9 @@
           "title": {
             "children": "A landmark school sex abuse inquiry has made horrific findings and the reckoning from it may last years"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "13493466",
@@ -320,7 +336,7 @@
           "isMajor": false,
           "image": {
             "altText": "A building site in the forest.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/70042cf6eca63cf84a5ced95fc536bc8?impolicy=wcms_crop_resize&cropH=2744&cropW=4116&xPos=441&yPos=589&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/70042cf6eca63cf84a5ced95fc536bc8?impolicy=wcms_crop_resize&cropH=2744&cropW=4116&xPos=441&yPos=589&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -334,9 +350,7 @@
           "title": {
             "children": "The $45 billion headache Indonesia has created deep in the jungles of Borneo"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ],
+          "imageContainerClassNames": [],
           "subjects": []
         }
       },
@@ -437,15 +451,15 @@
           "headingClassNames": [],
           "id": "103556458",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "A family on a balcony",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f79dca9b911b90bebc5f760246a4ea3a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=102&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f79dca9b911b90bebc5f760246a4ea3a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-03-07/air-pollution-southern-cross-station-diesel-fumes/103556458"
@@ -458,7 +472,9 @@
           "title": {
             "children": "Living above Melbourne's Southern Cross Station, Catherine's family can smell the fumes"
           },
-          "imageContainerClassNames": [],
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
           "subjects": [
             {
               "id": "1464",
@@ -902,6 +918,51 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103559774",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A red panda peeks out of a wicker basket after it was found by Thai customs.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ba1e83e4a1177edc9c7ed92d5f90744?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=177&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-07/endangered-red-panda-seized-as-thailand-stops-alleged-smugglers/103559774"
+          },
+          "contentUri": "coremedia://article/103559774",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/endangered-red-panda-seized-as-thailand-stops-alleged-smugglers/103559774",
+          "video": null,
+          "reactKey": "vic-103559774-1",
+          "synopsis": "Thai customs officials arrest six people for attempting to smuggle a red panda and 86 other animals out of the kingdom, including snakes, parrots and monitor lizards, officials say.",
+          "title": {
+            "children": "Endangered red panda among 87 animals seized from alleged smugglers at Thai airport"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1934",
+              "title": "Animals"
+            },
+            {
+              "id": "2018",
+              "title": "Courts and Trials"
+            },
+            {
+              "id": "1448",
+              "title": "Endangered and Protected Species"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103553762",
           "imagePosition": {
             "mobile": "right",
@@ -1026,51 +1087,6 @@
             {
               "id": "1192",
               "title": "Family"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103559774",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A red panda peeks out of a wicker basket after it was found by Thai customs.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ba1e83e4a1177edc9c7ed92d5f90744?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=177&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-07/endangered-red-panda-seized-as-thailand-stops-alleged-smugglers/103559774"
-          },
-          "contentUri": "coremedia://article/103559774",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/endangered-red-panda-seized-as-thailand-stops-alleged-smugglers/103559774",
-          "video": null,
-          "reactKey": "vic-103559774-1",
-          "synopsis": "Thai customs officials arrest six people for attempting to smuggle a red panda and 86 other animals out of the kingdom, including snakes, parrots and monitor lizards, officials say.",
-          "title": {
-            "children": "Endangered red panda among 87 animals seized from alleged smugglers at Thai airport"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1934",
-              "title": "Animals"
-            },
-            {
-              "id": "2018",
-              "title": "Courts and Trials"
-            },
-            {
-              "id": "1448",
-              "title": "Endangered and Protected Species"
             }
           ]
         }

@@ -163,7 +163,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103558284",
           "imagePosition": {
@@ -186,9 +193,16 @@
           "reactKey": "nt-103558284-1",
           "synopsis": "Patrick Orren Stephenson, 22, is due to face the Ballarat Magistrates' Court this afternoon, after he was charged with the murder of missing 51-year-old mother of three Samantha Murphy.",
           "title": {
-            "children": "Man, 22, charged with murder of missing Ballarat mum Samantha Murphy"
+            "children": "Police speak after charging 22yo man with murder of Samantha Murphy"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1982",
