@@ -13,19 +13,22 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103560782"
+          "uri": "coremedia://article/103558284"
         },
         {
           "uri": "coremedia://article/103559866"
         },
         {
-          "uri": "coremedia://article/103558284"
-        },
-        {
           "uri": "coremedia://article/103558538"
         },
         {
+          "uri": "coremedia://article/103560782"
+        },
+        {
           "uri": "coremedia://article/103558006"
+        },
+        {
+          "uri": "coremedia://article/103560832"
         },
         {
           "uri": "coremedia://article/103438328"
@@ -91,9 +94,6 @@
           "uri": "coremedia://article/103558162"
         },
         {
-          "uri": "coremedia://article/103546058"
-        },
-        {
           "uri": "coremedia://article/103552020"
         },
         {
@@ -111,11 +111,18 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103560782",
+          "id": "103558284",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -123,32 +130,43 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Jack Fitzgibbon smiling at camera next to Joel Fitzgibbon",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/177ead66c719a1b5f5737ca9db7589f8?impolicy=wcms_crop_resize&cropH=368&cropW=552&xPos=46&yPos=0&width=862&height=575",
+            "altText": "A smiling blond woman",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d882f4bbdc81629682255c2f4f13c30d?impolicy=wcms_crop_resize&cropH=386&cropW=578&xPos=0&yPos=6&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-03-07/nsw-soldier-killed-in-parachute-accident-richmond-base/103560782"
+            "to": "/news/2024-03-07/samantha-murphy-ballarat-missing-woman-police-murder-charge/103558284"
           },
-          "contentUri": "coremedia://article/103560782",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/nsw-soldier-killed-in-parachute-accident-richmond-base/103560782",
+          "contentUri": "coremedia://article/103558284",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/samantha-murphy-ballarat-missing-woman-police-murder-charge/103558284",
           "video": null,
-          "reactKey": "sa-103560782-1",
-          "synopsis": "Lance Corporal Jack Fitzgibbon, the son of former defence minister Joel Fitzgibbon, dies after being injured in a parachuting incident at the Richmond RAAF base last night.",
+          "reactKey": "sa-103558284-1",
+          "synopsis": "The 22-year-old man is due to face the Ballarat Magistrates' Court this afternoon, after he was charged with the murder of missing 51-year-old mother of three Samantha Murphy.",
           "title": {
-            "children": "Son of former minister dies in parachute accident at Richmond RAAF base near Sydney"
+            "children": "Police speak after charging 22yo man with murder of Samantha Murphy"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
-              "id": "1228",
-              "title": "Defence Forces"
+              "id": "1982",
+              "title": "Crime"
             },
             {
-              "id": "1232",
-              "title": "Army"
+              "id": "984",
+              "title": "Missing Person"
+            },
+            {
+              "id": "1978",
+              "title": "Police"
             }
           ]
         }
@@ -201,65 +219,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103558284",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A smiling blond woman",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d882f4bbdc81629682255c2f4f13c30d?impolicy=wcms_crop_resize&cropH=387&cropW=580&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-07/samantha-murphy-ballarat-missing-woman-police-murder-charge/103558284"
-          },
-          "contentUri": "coremedia://article/103558284",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/samantha-murphy-ballarat-missing-woman-police-murder-charge/103558284",
-          "video": null,
-          "reactKey": "sa-103558284-1",
-          "synopsis": "Patrick Orren Stephenson, 22, is due to face the Ballarat Magistrates' Court this afternoon, after he was charged with the murder of missing 51-year-old mother of three Samantha Murphy.",
-          "title": {
-            "children": "Police speak after charging 22yo man with murder of Samantha Murphy"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": [],
-          "subjects": [
-            {
-              "id": "1982",
-              "title": "Crime"
-            },
-            {
-              "id": "984",
-              "title": "Missing Person"
-            },
-            {
-              "id": "1978",
-              "title": "Police"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103558538",
@@ -305,6 +264,47 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103560782",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Jack Fitzgibbon smiling at camera next to Joel Fitzgibbon",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/177ead66c719a1b5f5737ca9db7589f8?impolicy=wcms_crop_resize&cropH=368&cropW=552&xPos=43&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-07/nsw-soldier-killed-in-parachute-accident-richmond-base/103560782"
+          },
+          "contentUri": "coremedia://article/103560782",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/nsw-soldier-killed-in-parachute-accident-richmond-base/103560782",
+          "video": null,
+          "reactKey": "sa-103560782-1",
+          "synopsis": "Lance Corporal Jack Fitzgibbon, the son of former defence minister Joel Fitzgibbon, dies after being injured in a parachuting incident at the Richmond RAAF base last night.",
+          "title": {
+            "children": "Son of former defence minister dies after parachute incident at Sydney RAAF base"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1228",
+              "title": "Defence Forces"
+            },
+            {
+              "id": "1232",
+              "title": "Army"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103558006",
           "imagePosition": {
             "mobile": "right",
@@ -341,6 +341,51 @@
             {
               "id": "102909152",
               "title": "Heatwaves"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103560832",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Katy Gallagher press club",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5081fd54bf2cb66eb878cfcd265b0e15?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-07/how-much-parents-benefit-super-parental-leave/103560832"
+          },
+          "contentUri": "coremedia://article/103560832",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/how-much-parents-benefit-super-parental-leave/103560832",
+          "video": null,
+          "reactKey": "sa-103560832-1",
+          "synopsis": "The government has announced plans to pay superannuation to those on paid parental leave. Here's how it would work, and how it would affect parents.",
+          "title": {
+            "children": "How much could parents benefit from super on parental leave?"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "1546",
+              "title": "Federal Government"
+            },
+            {
+              "id": "824",
+              "title": "Superannuation"
+            },
+            {
+              "id": "1180",
+              "title": "Parenting"
             }
           ]
         }
@@ -868,6 +913,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "76746",
+              "date": "2024-03-07T04:59:47.000Z",
+              "title": "New Zealand could cut rates by more than 50 basis points"
+            },
+            {
               "id": "76736",
               "date": "2024-03-07T04:19:16.000Z",
               "title": "Chinese exports reach a record high, exporting disinflation. But for how much longer?"
@@ -876,11 +926,6 @@
               "id": "76735",
               "date": "2024-03-07T04:12:17.000Z",
               "title": "Credit card debt soars"
-            },
-            {
-              "id": "76732",
-              "date": "2024-03-07T03:13:41.000Z",
-              "title": "Lobby group hits back at Tesla"
             }
           ],
           "subjects": [
@@ -1294,51 +1339,6 @@
             {
               "id": "2018",
               "title": "Courts and Trials"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103546058",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Composite image of a dam showing animals near it and a low water line a year later.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2abb0a6fc35be2476b6cb2a4104fcee7?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-07/tas-drought-conditions-as-dry-tasmania-looking-very-brown/103546058"
-          },
-          "contentUri": "coremedia://article/103546058",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-07/tas-drought-conditions-as-dry-tasmania-looking-very-brown/103546058",
-          "video": null,
-          "reactKey": "sa-103546058-1",
-          "synopsis": "Where once the popular image of Tasmania was rolling green hills, these days drought conditions have left many of those hills brown and dusty.",
-          "title": {
-            "children": "Is Tasmania in drought? This is the difference a bad year makes"
-          },
-          "imageContainerClassNames": [],
-          "subjects": [
-            {
-              "id": "1298",
-              "title": "Droughts"
-            },
-            {
-              "id": "102821956",
-              "title": "Weather Forecasts"
-            },
-            {
-              "id": "2164",
-              "title": "Rural"
             }
           ]
         }
