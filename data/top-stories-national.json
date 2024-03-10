@@ -64,6 +64,9 @@
           "uri": "coremedia://article/103458592"
         },
         {
+          "uri": "coremedia://article/103554074"
+        },
+        {
           "uri": "coremedia://article/103570654"
         },
         {
@@ -133,7 +136,7 @@
           "reactKey": "national-103554014-1",
           "synopsis": "Four Corners talks to insiders in Israel's defence and intelligence establishment to challenge them about one of the most controversial wars in modern times. ",
           "title": {
-            "children": "As the world awaits a ceasefire, we challenge Israel's powerful voices on why Netanyahu won't stop"
+            "children": "The world wants a ceasefire. Here's why Israel's powerful voices say Netanyahu won't stop"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -223,7 +226,7 @@
           "reactKey": "national-103410358-1",
           "synopsis": "What were you doing at 19? Anjali Sharma is trying to change the law. Meet the teenager taking the fight for her generation's future from the streets to the halls of parliament.   ",
           "title": {
-            "children": "From a uni dorm room, a teenager is waging war on government inaction"
+            "children": "Meet the teenager going toe-to-toe with pollies to pass a controversial law. Will she succeed?"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -315,7 +318,7 @@
           "reactKey": "national-103542014-1",
           "synopsis": "Nanda, who lives about 60km from Melbourne's CBD, says he's saved up to $6,000 a year thanks to switching to an electric car. He's part of a growing trend that has seen EV sales in outer suburbs boom as cost-of-living pressures bite.",
           "title": {
-            "children": "Nanda says he's saved 'thousands and thousands' with his electric car and new data shows he’s part of a growing trend"
+            "children": "Electric car sales are booming in Australia, but it's not where you think it is"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -347,8 +350,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman with grey hair inside her kitchen.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c13eec5cb8e8549b8df89f1d29ad5f44?impolicy=wcms_crop_resize&cropH=1406&cropW=2500&xPos=0&yPos=130&width=862&height=485",
+            "altText": "An elderly woman in a dress stands in front of her Newcastle home.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bf6728cd3323b8d61f8af6a02be2fe3d?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=754&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -360,7 +363,7 @@
           "reactKey": "national-103566224-1",
           "synopsis": "In the wake of the 2022 east coast floods, there are signs some insurers may be considering making flood cover mandatory for new customers.",
           "title": {
-            "children": "Some Australians who opt out of flood cover could be forced to take it on, or risk having no insurance at all"
+            "children": "Penelope opted out of flood cover when her insurance skyrocketed by $14,000, but soon it may not be an option"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -487,7 +490,7 @@
           "reactKey": "national-103534970-1",
           "synopsis": "Gabe Trew invited his social media followers to share their \"secret crush story\" to win a dream date just before February 14, and within 24 hours had received more than 2,000 confessions in his Instagram inbox.",
           "title": {
-            "children": "A Canberra business owner asked his followers to share their secrets, and received thousands"
+            "children": "The average person keeps 13 secrets, five of which will never be shared"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -716,7 +719,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103571256",
           "imagePosition": {
@@ -742,6 +752,13 @@
             "children": "Toll report finds drivers are paying for WestConnex 'three times over'"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "102137116",
@@ -842,6 +859,51 @@
             {
               "id": "1926",
               "title": "Offbeat"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103554074",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Annemieke Mein pose with her sewing machine",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3a2c641836644bdea1740642d0b764ae?impolicy=wcms_crop_resize&cropH=1344&cropW=2016&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-11/annemieke-mein-retrospective-art-exhibition/103554074"
+          },
+          "contentUri": "coremedia://article/103554074",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-11/annemieke-mein-retrospective-art-exhibition/103554074",
+          "video": null,
+          "reactKey": "national-103554074-1",
+          "synopsis": "For many years, Annemieke Mein's art was dismissed as craft, but now the textile artist's work is the feature of a major exhibition celebrating the work she has created throughout her lifetime.",
+          "title": {
+            "children": "Annemieke Mein exhibition highlights artistic value of textile art"
+          },
+          "imageContainerClassNames": [],
+          "subjects": [
+            {
+              "id": "766",
+              "title": "Visual Art"
+            },
+            {
+              "id": "486",
+              "title": "Craft"
+            },
+            {
+              "id": "1406",
+              "title": "Environment"
             }
           ]
         }
