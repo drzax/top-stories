@@ -239,7 +239,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103572870",
           "imagePosition": {
@@ -265,6 +272,13 @@
             "children": "Missing Sydney 12yo boy Hussein Al Mansoory found safe after two-day search"
           },
           "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -711,15 +725,15 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/rural/2024-03-11/not-truth-to-gill-net-licence-rumours-queensland-fisheries/103552356"
+            "to": "/news/rural/2024-03-11/great-barrier-reef-gillnet-fishing-licences-will-not-be-revoked/103552356"
           },
           "contentUri": "coremedia://article/103552356",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2024-03-11/not-truth-to-gill-net-licence-rumours-queensland-fisheries/103552356",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-03-11/great-barrier-reef-gillnet-fishing-licences-will-not-be-revoked/103552356",
           "video": null,
           "reactKey": "qld-103552356-1",
           "synopsis": "The recently introduced NX licences that allow the use of gillnets during a phase-out have been criticised as \"unworkable\" by commercial fishers.",
           "title": {
-            "children": "'No truth' to rumours controversial reef fishing licences will be revoked "
+            "children": "'No truth' to suggestions controversial reef fishing licences will be revoked"
           },
           "imageContainerClassNames": [],
           "subjects": [
@@ -1143,6 +1157,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78066",
+              "date": "2024-03-11T02:49:15.000Z",
+              "title": "US, EU rate cuts may not be far off: reports"
+            },
+            {
               "id": "78016",
               "date": "2024-03-11T02:01:47.000Z",
               "title": "ASX tracking lower amid worst fall in months"
@@ -1151,11 +1170,6 @@
               "id": "77924",
               "date": "2024-03-11T00:30:01.000Z",
               "title": "Not just Australian shares in the red"
-            },
-            {
-              "id": "77845",
-              "date": "2024-03-10T23:30:45.000Z",
-              "title": "ASX falls further than expected in early trade"
             }
           ],
           "subjects": [

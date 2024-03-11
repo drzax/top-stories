@@ -108,7 +108,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -138,6 +145,13 @@
           "imageContainerClassNames": [
             "imageHalf"
           ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [],
           "subjects": [
             {
               "id": "1978",
@@ -861,8 +875,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Ben Sears clenches both fists and yells in delight as teammates hug him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/39b9f7dd82e92499dffac3e82f2132d8?impolicy=wcms_crop_resize&cropH=2156&cropW=3234&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Pat Cummins and Alex Carey hug",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35d8201461b6c4692af1e05b46441114?impolicy=wcms_crop_resize&cropH=1935&cropW=2902&xPos=893&yPos=147&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -872,9 +886,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-11/australia-vs-new-zealand-second-test-day-four-live-blog/103571526",
           "video": null,
           "reactKey": "nsw-103571526-1",
-          "synopsis": "The second Test in Christchurch is going down to the wire, with Australia and New Zealand fighting to get on top as the game reaches its climax. Follow the action in our live blog.",
+          "synopsis": "Australia wins a thrilling second Test against New Zealand by three wickets, with Alex Carey scoring a phenomenal unbeaten 98. Follow live",
           "title": {
-            "children": "Marsh and Starc gone in consecutive balls as second Test against New Zealand heads for thrilling finish"
+            "children": "Australia wins thrilling second Test against New Zealand in Christchurch"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -887,19 +901,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78083",
+              "date": "2024-03-11T03:09:30.000Z",
+              "title": "Alex Carey is the player of the match"
+            },
+            {
+              "id": "78074",
+              "date": "2024-03-11T02:57:33.000Z",
+              "title": "AUSTRALIA WINS BY THREE WICKETS! Carey steers Australia home!"
+            },
+            {
               "id": "78024",
               "date": "2024-03-11T02:05:02.000Z",
               "title": "GOT HIM! TWO-IN-TWO! MITCH STARC IS OUT FOR A GOLDEN DUCK!"
-            },
-            {
-              "id": "78017",
-              "date": "2024-03-11T02:01:49.000Z",
-              "title": "LBW! MARSH IS GIVEN OUT!"
-            },
-            {
-              "id": "77866",
-              "date": "2024-03-10T23:42:53.000Z",
-              "title": "LBW! UP GOES THE FINGER! CAREY IS OUT! NO HE'S NOT!"
             }
           ],
           "subjects": [
@@ -1002,6 +1016,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78066",
+              "date": "2024-03-11T02:49:15.000Z",
+              "title": "US, EU rate cuts may not be far off: reports"
+            },
+            {
               "id": "78016",
               "date": "2024-03-11T02:01:47.000Z",
               "title": "ASX tracking lower amid worst fall in months"
@@ -1010,11 +1029,6 @@
               "id": "77924",
               "date": "2024-03-11T00:30:01.000Z",
               "title": "Not just Australian shares in the red"
-            },
-            {
-              "id": "77845",
-              "date": "2024-03-10T23:30:45.000Z",
-              "title": "ASX falls further than expected in early trade"
             }
           ],
           "subjects": [
