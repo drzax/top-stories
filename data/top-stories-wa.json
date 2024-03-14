@@ -61,10 +61,10 @@
           "uri": "coremedia://article/103590946"
         },
         {
-          "uri": "coremedia://article/103581096"
+          "uri": "coremedia://article/103590884"
         },
         {
-          "uri": "coremedia://article/103590884"
+          "uri": "coremedia://article/103581096"
         },
         {
           "uri": "coremedia://article/103587862"
@@ -183,7 +183,12 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorName": "Tom Wildie"
+            }
+          ],
           "headingClassNames": [],
           "id": "103565214",
           "imagePosition": {
@@ -643,6 +648,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78333",
+              "date": "2024-03-14T21:43:07.000Z",
+              "title": "Australian is not Bitcoin inventor Satoshi Nakamoto, British court rules"
+            },
+            {
               "id": "78331",
               "date": "2024-03-14T20:51:09.000Z",
               "title": "Yen strengthens as wages deal to be announced, negative interest rates may end"
@@ -653,37 +663,6 @@
               "title": "US markets take a hit on producer prices, ASX to follow"
             }
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103581096",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a blue suit holds an envelope in his left hand.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2fdcfb5ad445f4d86b5ec460d6846382?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-15/weekly-news-quiz-oscars-princess-catherine-photo/103581096"
-          },
-          "contentUri": "coremedia://article/103581096",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-15/weekly-news-quiz-oscars-princess-catherine-photo/103581096",
-          "video": null,
-          "reactKey": "wa-103581096-1",
-          "synopsis": "It's time to test your knowledge about the news of the week.",
-          "title": {
-            "children": "Weekly news quiz: From Oscars to who 'killed' Princess Catherine's photo, were you paying attention this week?"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -717,6 +696,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103581096",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a blue suit holds an envelope in his left hand.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2fdcfb5ad445f4d86b5ec460d6846382?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-15/weekly-news-quiz-oscars-princess-catherine-photo/103581096"
+          },
+          "contentUri": "coremedia://article/103581096",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-15/weekly-news-quiz-oscars-princess-catherine-photo/103581096",
+          "video": null,
+          "reactKey": "wa-103581096-1",
+          "synopsis": "It's time to test your knowledge about the news of the week.",
+          "title": {
+            "children": "Weekly news quiz: From Oscars to who 'killed' Princess Catherine's photo, were you paying attention this week?"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
