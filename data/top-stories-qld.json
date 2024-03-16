@@ -114,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -126,8 +133,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An image of Ryan Bayldon Lumsden handing out how to vote cards to electors at the local government elections",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3f24eb1a1c0297a635186a35b2dad07?impolicy=wcms_crop_resize&cropH=2680&cropW=4020&xPos=0&yPos=172&width=862&height=575",
+            "altText": "An image of people queuing at Brisbane City Council eleciton ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd655a267336eeba64ab53b5ca1701d1?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -137,13 +144,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-16/council-elections-queensland-electoral-commission/103589260",
           "video": null,
           "reactKey": "qld-103589260-1",
-          "synopsis": "More than 1.8 million votes have been cast today so far, according to the Electoral Commission of Queensland. ",
+          "synopsis": "More than 1.8 million votes have been cast today so far, but many people have been complaining that polling booths are understaffed, causing long wait times. ",
           "title": {
-            "children": "Gold Coast councillor charged with murder vows to represent voters if re-elected, as Queenslanders head to polls"
+            "children": "Last voters head to the polls as Greens optimistic of Brisbane takeover in Queensland council elections"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -346,6 +360,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78674",
+              "date": "2024-03-16T06:49:43.000Z",
+              "title": "19'  Newcastle burst through for the opening score!"
+            },
+            {
               "id": "78635",
               "date": "2024-03-16T05:52:28.000Z",
               "title": "Full time: Canberra beats Wests Tigers 32-12"
@@ -354,11 +373,6 @@
               "id": "78633",
               "date": "2024-03-16T05:50:09.000Z",
               "title": "77' Stefano Utoikamanu sent to the sin bin for dissent!"
-            },
-            {
-              "id": "78622",
-              "date": "2024-03-16T05:30:17.000Z",
-              "title": "61' The Raiders score again!"
             }
           ]
         }

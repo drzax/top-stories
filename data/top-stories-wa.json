@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103593106"
+        },
+        {
           "uri": "coremedia://article/103592030"
         },
         {
@@ -23,9 +26,6 @@
         },
         {
           "uri": "coremedia://article/103554842"
-        },
-        {
-          "uri": "coremedia://article/103593106"
         },
         {
           "uri": "coremedia://article/103571824"
@@ -115,6 +115,39 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103593106",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "MCU of former Boeing Quality Manager John Barnett sitting in his house wearing a white open collared shirt and grey jacket",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e8cfdcedb75ec5e9925605393f990c?impolicy=wcms_crop_resize&cropH=1075&cropW=1618&xPos=164&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-16/john-barnett-boeing-worker-turned-whistleblower-legacy/103593106"
+          },
+          "contentUri": "coremedia://article/103593106",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-16/john-barnett-boeing-worker-turned-whistleblower-legacy/103593106",
+          "video": null,
+          "reactKey": "wa-103593106-1",
+          "synopsis": "Former Boeing worker John Barnett's lawyer describes the whistleblower as an \"honest, open and sincere\" man of integrity and said he paid \"the highest price\" for speaking out, in his first interview since his client's death.",
+          "title": {
+            "children": "At 4am in South Carolina, a Boeing whistleblower's lawyer dialled an Australian mobile number to share 'some news'"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103592030",
           "imagePosition": {
             "mobile": "right",
@@ -124,7 +157,7 @@
           "isMajor": false,
           "image": {
             "altText": "A montage of pictures of flood scenes",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b627e3a003f374358e12b343cf1ee95?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=3&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b627e3a003f374358e12b343cf1ee95?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=3&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -138,9 +171,7 @@
           "title": {
             "children": "It's being billed as a once in a lifetime flood. Here's the pathway to recovery for the Nullarbor"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -238,37 +269,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103593106",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "MCU of former Boeing Quality Manager John Barnett sitting in his house wearing a white open collared shirt and grey jacket",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e8cfdcedb75ec5e9925605393f990c?impolicy=wcms_crop_resize&cropH=1075&cropW=1607&xPos=164&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-16/john-barnett-boeing-worker-turned-whistleblower-legacy/103593106"
-          },
-          "contentUri": "coremedia://article/103593106",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-16/john-barnett-boeing-worker-turned-whistleblower-legacy/103593106",
-          "video": null,
-          "reactKey": "wa-103593106-1",
-          "synopsis": "Former Boeing worker John Barnett's lawyer describes the whistleblower as an \"honest, open and sincere\" man of integrity and said he paid \"the highest price\" for speaking out, in his first interview since his client's death.",
-          "title": {
-            "children": "At 4am in South Carolina, a Boeing whistleblower's lawyer dialled an Australian mobile number to share 'some news'"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -601,6 +601,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "78674",
+              "date": "2024-03-16T06:49:43.000Z",
+              "title": "19'  Newcastle burst through for the opening score!"
+            },
+            {
               "id": "78635",
               "date": "2024-03-16T05:52:28.000Z",
               "title": "Full time: Canberra beats Wests Tigers 32-12"
@@ -609,11 +614,6 @@
               "id": "78633",
               "date": "2024-03-16T05:50:09.000Z",
               "title": "77' Stefano Utoikamanu sent to the sin bin for dissent!"
-            },
-            {
-              "id": "78622",
-              "date": "2024-03-16T05:30:17.000Z",
-              "title": "61' The Raiders score again!"
             }
           ]
         }
@@ -714,7 +714,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103589260",
           "imagePosition": {
@@ -724,8 +731,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An image of Ryan Bayldon Lumsden handing out how to vote cards to electors at the local government elections",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3f24eb1a1c0297a635186a35b2dad07?impolicy=wcms_crop_resize&cropH=2680&cropW=4020&xPos=0&yPos=172&width=160&height=107",
+            "altText": "An image of people queuing at Brisbane City Council eleciton ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd655a267336eeba64ab53b5ca1701d1?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -735,11 +742,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-16/council-elections-queensland-electoral-commission/103589260",
           "video": null,
           "reactKey": "wa-103589260-1",
-          "synopsis": "More than 1.8 million votes have been cast today so far, according to the Electoral Commission of Queensland. ",
+          "synopsis": "More than 1.8 million votes have been cast today so far, but many people have been complaining that polling booths are understaffed, causing long wait times. ",
           "title": {
-            "children": "Gold Coast councillor charged with murder vows to represent voters if re-elected, as Queenslanders head to polls"
+            "children": "Last voters head to the polls as Greens optimistic of Brisbane takeover in Queensland council elections"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
