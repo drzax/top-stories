@@ -156,7 +156,8 @@
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7c0070e1efd24b9de23c63883cd9e89?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "A young woman is handcuffed by NSW police during her arrest.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89e0816beee8e77b70dbbdcabb3a15d7?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=64&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -168,7 +169,7 @@
           "reactKey": "nsw-103579210-1",
           "synopsis": "Exclusive data covering 4.3 million police searches has revealed a quota-driven culture that boosts search numbers at the risk of abusing police powers.",
           "title": {
-            "children": "The three crucial words police say they didn’t hear when they botched this arrest – and cost taxpayers $320,000"
+            "children": "The three crucial words police say they didn't hear when they botched this arrest – and cost taxpayers $320,000"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -382,8 +383,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Novak Djokovic waves to Australian Open fans in front of a flag with his face and \"GOAT\" written on it as he leaves the court.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fad3a916b4785b501727bec20ebe6b00?impolicy=wcms_crop_resize&cropH=1406&cropW=2110&xPos=198&yPos=128&width=160&height=107",
+            "altText": "Novak Djokovic is blurry in the foreground as Jannik Sinner shakes the umpire's hand after their match at the Australian Open.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74ec880f589f2514424f4e8234078c31?impolicy=wcms_crop_resize&cropH=2411&cropW=3617&xPos=252&yPos=69&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -395,7 +396,7 @@
           "reactKey": "nsw-103415740-1",
           "synopsis": "Novak Djokovic, Roger Federer, Rafael Nadal and Serena Williams had the tennis world on their shoulders for 20 years. As the landscape shifts, it's worth remembering they are outliers for a reason, writes Jon Healy.",
           "title": {
-            "children": "Serena and Roger are long gone, Rafa is limping and Novak is losing — it's an unsettling and exciting time for tennis"
+            "children": "Novak is losing, Rafa is limping, and Serena and Roger are long gone — it's an unsettling and exciting time for tennis"
           },
           "imageContainerClassNames": []
         }
@@ -543,8 +544,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A Bureau of Meteorology track map for the cyclone, showing it making landfall south of Borroloola",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b75a366c1caefaff55864cff30f04898?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=25&width=160&height=107",
+            "altText": "A group of people gathered under a tin building looking concerned.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65c2fdfc013654879bf68c18e1214ac9?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=319&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -554,9 +555,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-18/severe-tropical-cyclone-megan-nt-category-3-adf-evacuations/103599494",
           "video": null,
           "reactKey": "nsw-103599494-1",
-          "synopsis": "The defence force has been called in to assist with evacuations as severe Tropical Cyclone Megan tracks towards the Northern Territory coast ahead of an expected crossing tonight.",
+          "synopsis": "Defence personnel are called in to assist with evacuations as severe Tropical Cyclone Megan tracks towards the Northern Territory coast ahead of an expected crossing as a category three system late on Monday.",
           "title": {
-            "children": "ADF called in as Tropical Cyclone Megan on track to make landfall as category three"
+            "children": "Weather hampering evacuations ahead of Tropical Cyclone Megan making landfall"
           },
           "imageContainerClassNames": []
         }
@@ -606,6 +607,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "79105",
+              "date": "2024-03-18T03:50:19.000Z",
+              "title": "MP's petition calling for changes to HECS attracts more than 50,000 signatures"
+            },
+            {
               "id": "79096",
               "date": "2024-03-18T02:42:09.000Z",
               "title": "House of Reps members give themselves an extra day off"
@@ -614,11 +620,6 @@
               "id": "79095",
               "date": "2024-03-18T02:34:17.000Z",
               "title": "Independent MP's plan to permanently lower power bills"
-            },
-            {
-              "id": "79092",
-              "date": "2024-03-18T02:19:15.000Z",
-              "title": "Government rejects allegations it's releasing more people from immigration detention"
             }
           ]
         }
@@ -781,7 +782,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103599506",
           "imagePosition": {
@@ -806,7 +814,14 @@
           "title": {
             "children": "Olympic review recommends new $3.4b stadium instead of Gabba rebuild"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
