@@ -223,7 +223,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103572848",
           "imagePosition": {
@@ -234,7 +241,7 @@
           "isMajor": false,
           "image": {
             "altText": "Tasmania Devils AFL team foundation jumper modelled by young male and female.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c33ed52680f81bb66cc851cb0a7604b?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=75&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c33ed52680f81bb66cc851cb0a7604b?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=91&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -244,11 +251,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-18/afl-team-tasmanian-devils-name-colours-announcement/103572848",
           "video": null,
           "reactKey": "national-103572848-1",
-          "synopsis": "The path for Tasmania's entry into the AFL in 2028 still has many obstacles to overcome. But it's reached a key moment — the official club launch — with nods to the past, present and future.",
+          "synopsis": "The path for Tasmania's entry into the AFL in 2028 still has many obstacles to overcome. But it's reached a key moment — the official club launch — with nods to the past, present and future. ",
           "title": {
             "children": "It's been a century in the making. Now Tasmania's AFL club has a name, logo, colour and a guernsey"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {

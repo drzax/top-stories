@@ -123,7 +123,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -146,11 +153,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-18/afl-team-tasmanian-devils-name-colours-announcement/103572848",
           "video": null,
           "reactKey": "tas-103572848-1",
-          "synopsis": "The path for Tasmania's entry into the AFL in 2028 still has many obstacles to overcome. But it's reached a key moment — the official club launch — with nods to the past, present and future.",
+          "synopsis": "The path for Tasmania's entry into the AFL in 2028 still has many obstacles to overcome. But it's reached a key moment — the official club launch — with nods to the past, present and future. ",
           "title": {
             "children": "It's been a century in the making. Now Tasmania's AFL club has a name, logo, colour and a guernsey"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
