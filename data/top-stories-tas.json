@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103619024"
+        },
+        {
           "uri": "coremedia://article/103614846"
         },
         {
@@ -120,10 +123,56 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103619024",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Jeremy Rockliff and Rebecca White composite image.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/01c2dc1f8f52b8af161e3ba69dbc3153?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-23/tas-state-election-results-live-blog/103619024"
+          },
+          "contentUri": "coremedia://article/103619024",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-23/tas-state-election-results-live-blog/103619024",
+          "video": null,
+          "reactKey": "tas-103619024-1",
+          "synopsis": "The final votes are being cast ahead of polls closing at 6pm AEDT, in the first state election since the number of lower house MPs has been increased. Follow live.",
+          "title": {
+            "children": "Tasmanians cast votes as Australia's last Liberal government seeks record fourth term"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103614846",
           "imagePosition": {
             "mobile": "right",
@@ -133,7 +182,7 @@
           "isMajor": false,
           "image": {
             "altText": "A sign reading polling place, and a line of people coming out of a building",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3040294aa5f4c4cd1712b4a3706879ec?impolicy=wcms_crop_resize&cropH=696&cropW=1044&xPos=5&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3040294aa5f4c4cd1712b4a3706879ec?impolicy=wcms_crop_resize&cropH=696&cropW=1044&xPos=5&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -143,13 +192,11 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-23/tasmania-election-what-you-need-to-know/103614846",
           "video": null,
           "reactKey": "tas-103614846-1",
-          "synopsis": "Voting booths have opened and most of the more than 400,000 enrolled Tasmanians will cast their votes today, deciding which, if any, major political party can form majority government.",
+          "synopsis": "More than 400,000 Tasmanians have cast their vote to decide who will form government. Counting will begin at 6pm, but the Tasmanian Electoral Commissions says final results may not be known for weeks.",
           "title": {
-            "children": "Tasmania votes: Here's what you need to know for the 2024 state election"
+            "children": "Record number of early votes cast as Tasmania waits for election results to roll in"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
