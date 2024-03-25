@@ -19,6 +19,9 @@
           "uri": "coremedia://article/103621538"
         },
         {
+          "uri": "coremedia://article/103630832"
+        },
+        {
           "uri": "coremedia://article/103628076"
         },
         {
@@ -37,7 +40,7 @@
           "uri": "coremedia://article/103627764"
         },
         {
-          "uri": "coremedia://article/103627592"
+          "uri": "coremedia://article/103632206"
         },
         {
           "uri": "coremedia://article/103631182"
@@ -49,10 +52,10 @@
           "uri": "coremedia://article/103631996"
         },
         {
-          "uri": "coremedia://article/103627756"
+          "uri": "coremedia://article/103621114"
         },
         {
-          "uri": "coremedia://article/103621114"
+          "uri": "coremedia://article/103632304"
         },
         {
           "uri": "coremedia://article/103630016"
@@ -62,6 +65,9 @@
         },
         {
           "uri": "coremedia://article/103576686"
+        },
+        {
+          "uri": "coremedia://article/103627090"
         },
         {
           "uri": "coremedia://article/103628028"
@@ -85,6 +91,9 @@
           "uri": "coremedia://article/103627256"
         },
         {
+          "uri": "coremedia://article/103632228"
+        },
+        {
           "uri": "coremedia://article/103614458"
         },
         {
@@ -92,9 +101,6 @@
         },
         {
           "uri": "coremedia://article/103631680"
-        },
-        {
-          "uri": "coremedia://article/103630482"
         },
         {
           "uri": "coremedia://article/103631672"
@@ -106,12 +112,6 @@
           "uri": "coremedia://article/103629276"
         },
         {
-          "uri": "coremedia://article/103630468"
-        },
-        {
-          "uri": "coremedia://article/103620924"
-        },
-        {
           "uri": "coremedia://article/103627072"
         }
       ]
@@ -120,7 +120,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -149,7 +156,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -179,6 +193,37 @@
           "synopsis": "The South Australian government has big plans for Whyalla with a $593 million hydrogen plant in the works. But there is mixed excitement and concern about the pressure on an already difficult housing market. ",
           "title": {
             "children": "New dawn promised for steel city, with hydrogen tipped to deliver population boom — but where will everyone live?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103630832",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close up selfie of the pair, where Hemi is being piggy-backed by Chris",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a0f5e579d631ec8f251b13e13a0b2102?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=46&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/cyclist-chris-barker-eyre-highway-indian-pacific-wheel-ride/103630832"
+          },
+          "contentUri": "coremedia://article/103630832",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/cyclist-chris-barker-eyre-highway-indian-pacific-wheel-ride/103630832",
+          "video": null,
+          "reactKey": "sa-103630832-1",
+          "synopsis": "The heartbroken son of endurance cyclist Chris Barker, 62, who was killed along the Nullarbor last week, says his adventurous father was fully aware of his pastime's inherent risks.",
+          "title": {
+            "children": "Adventurous, safety-conscious cyclist remembered by family and friends after Eyre Highway tragedy"
           },
           "imageContainerClassNames": []
         }
@@ -382,9 +427,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103627592",
+          "id": "103632206",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -392,22 +443,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man sitting in a wheelchair next to his service dog on an airport tarmac",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59605924d739ea8fb04d3754cbdfb2b3?impolicy=wcms_crop_resize&cropH=1736&cropW=2604&xPos=0&yPos=690&width=160&height=107",
+            "altText": "Sally McManus wearing a white top and grey suit jacket.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/34e0b75afe155a858cde085814bfdbf4?impolicy=wcms_crop_resize&cropH=1715&cropW=2573&xPos=0&yPos=1&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-03-25/disability-advocate-patronised-and-humiliated-on-flight/103627592"
+            "to": "/news/2024-03-26/federal-parliament-live-updates-march-26/103632206"
           },
-          "contentUri": "coremedia://article/103627592",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/disability-advocate-patronised-and-humiliated-on-flight/103627592",
+          "contentUri": "coremedia://article/103632206",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/federal-parliament-live-updates-march-26/103632206",
           "video": null,
-          "reactKey": "sa-103627592-1",
-          "synopsis": "An Adelaide disability advocate says he felt \"embarrassed\" and \"shocked\" during a trip to the Gold Coast with Virgin Australia.",
+          "reactKey": "sa-103632206-1",
+          "synopsis": "ACTU boss Sally McManus is pushing for a 5 per cent pay rise for minimum-wage workers, saying the increase will not push inflation higher. Follow live.",
           "title": {
-            "children": "'The cabin manager rolled their eyes': Virgin Australia apologises to disability advocate"
+            "children": "Union boss pushes for 5 per cent minimum wage rise"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "80339",
+              "date": "2024-03-25T21:54:24.000Z",
+              "title": "Australian government expresses concerns about cyber-attack in the UK"
+            },
+            {
+              "id": "80336",
+              "date": "2024-03-25T21:33:54.000Z",
+              "title": "ACTU calls for 5 per cent minimum wage increase"
+            }
+          ]
         }
       },
       {
@@ -510,37 +579,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103627756",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A drone photo of a boat in the water with thousands of silver fish thrashing around it.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8906ff0a1be13d9f4787b59798f660ee?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-03-25/bonney-upwelling-causes-cape-jaffa-salmon-feeding-frenzy/103627756"
-          },
-          "contentUri": "coremedia://article/103627756",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/bonney-upwelling-causes-cape-jaffa-salmon-feeding-frenzy/103627756",
-          "video": null,
-          "reactKey": "sa-103627756-1",
-          "synopsis": "Thousands of salmon were spotted surfacing and feeding near Cape Jaffa, South Australia, with one keen fisher capturing a video of the scene from above.",
-          "title": {
-            "children": "'It happened in a matter of seconds': Spectacular salmon feeding frenzy captured on fisher's drone footage"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103621114",
           "imagePosition": {
             "mobile": "right",
@@ -565,6 +603,50 @@
             "children": "Chinese property developer Evergrande faces a $120 billion fraud accusation. Here's what we know"
           },
           "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103632304",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two women look at a share price board outside the ASX in Sydney.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f97a81ab1a6e607219490cb7f42b6f74?impolicy=wcms_crop_resize&cropH=2798&cropW=4197&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/asx-markets-business-news-live-updates-march-26/103632304"
+          },
+          "contentUri": "coremedia://article/103632304",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/asx-markets-business-news-live-updates-march-26/103632304",
+          "video": null,
+          "reactKey": "sa-103632304-1",
+          "synopsis": "Will Crown Resorts keeps its monopoly casino licence in Melbourne? The Victorian regulator will make its decision public this morning. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "title": {
+            "children": "ASX set to fall after Wall Street slides"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -656,6 +738,37 @@
           "synopsis": "When Manisha Gazula started teaching at one of Australia's most disadvantaged schools, nine in 10 students were moving on to high school with sub-par reading skills. Now the students are outperforming the \"good schools\" and \"punching above their weight\".",
           "title": {
             "children": "Students at one of Australia's most disadvantaged schools now outperforming the 'good schools' "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103627090",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Smoke billows from rugged terrain",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/931744b1594fbfa3267b7fca86b59e38?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/bushfire-warning-downgraded-near-waroona-south-of-perth/103627090"
+          },
+          "contentUri": "coremedia://article/103627090",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/bushfire-warning-downgraded-near-waroona-south-of-perth/103627090",
+          "video": null,
+          "reactKey": "sa-103627090-1",
+          "synopsis": "Firefighters spend a third night working to control a blaze that has destroyed eight properties near Waroona and Pinjarra south of Perth after an emergency warning is downgraded and the fire is contained.",
+          "title": {
+            "children": "Firefighters edge closer to controlling blaze that has destroyed eight properties south of Perth"
           },
           "imageContainerClassNames": []
         }
@@ -881,6 +994,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103632228",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Swans players",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/41b4b6c63c7c320b04396bbe0c2436f6?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/aflw-sydney-swans-players-caught-with-illicit-drugs/103632228"
+          },
+          "contentUri": "coremedia://article/103632228",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/aflw-sydney-swans-players-caught-with-illicit-drugs/103632228",
+          "video": null,
+          "reactKey": "sa-103632228-1",
+          "synopsis": "Swans AFLW players Alexia Hamilton and Paige Sheppard are sentenced to conditional release orders after being caught with illicit drugs.",
+          "title": {
+            "children": "AFL reviewing illicit drug policy as court documents reveal two AFLW players faced charges in January"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103614458",
           "imagePosition": {
             "mobile": "right",
@@ -969,37 +1113,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103630482",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A tall, gold-tinged building towers over a vintage-style clock on a public street in New York.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7ba8a893024efc75dfbf0a1ca5262f4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-25/trump-assets-cash-properties-income-media-fraud-judgement/103630482"
-          },
-          "contentUri": "coremedia://article/103630482",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/trump-assets-cash-properties-income-media-fraud-judgement/103630482",
-          "video": null,
-          "reactKey": "sa-103630482-1",
-          "synopsis": "Mr Trump is facing an imminent deadline to post a bond of $US454 million as he looks to appeal a ruling he fraudulently overstated the value of his assets — or New York's attorney-general could begin confiscating his properties.",
-          "title": {
-            "children": "How wealthy is Donald Trump exactly? Here's a look at his companies, properties and income"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -1095,68 +1208,6 @@
           "synopsis": "In 2021, healthcare workers had to have had at least two doses of a COVID vaccine to return to work. Now, they are being asked to provide feedback as the state government looks to dial back the requirements. ",
           "title": {
             "children": "NSW is reconsidering one of its final COVID vaccine requirements. Is that a good idea?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103630468",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The shell of a house.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96e730cd3f42a344ccddfce3b59d7d78?impolicy=wcms_crop_resize&cropH=2846&cropW=4269&xPos=731&yPos=313&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-25/moree-youth-crime-compassion-not-jail-the-answer/103630468"
-          },
-          "contentUri": "coremedia://article/103630468",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/moree-youth-crime-compassion-not-jail-the-answer/103630468",
-          "video": null,
-          "reactKey": "sa-103630468-1",
-          "synopsis": "In the northern New South Wales town of Moree, kids are recording their at times violent crimes for social media. Locals hope compassion and understanding will help those children change their ways.",
-          "title": {
-            "children": "'They can't be blamed for everything': The sad reality and vision for hope behind Moree's crime problem"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103620924",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a blue shift and sunglasses",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7ad541b48d917481aaa7935101eb4d8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-25/man-accused-cable-tying-kids-broome-court/103620924"
-          },
-          "contentUri": "coremedia://article/103620924",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/man-accused-cable-tying-kids-broome-court/103620924",
-          "video": null,
-          "reactKey": "sa-103620924-1",
-          "synopsis": "Matej Radelic, 45, faced the Broome Magistrates Court on multiple counts of assault over the high-profile incident in the tourist town earlier this month.",
-          "title": {
-            "children": "Man accused of cable-tying children's hands faces court in Broome"
           },
           "imageContainerClassNames": []
         }
