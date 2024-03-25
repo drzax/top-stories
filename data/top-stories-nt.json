@@ -352,7 +352,7 @@
             {
               "id": "80313",
               "date": "2024-03-25T04:31:36.000Z",
-              "title": "Cost-of-living prevalent in Question Time today"
+              "title": "Cost-of-living crisis prevalent in Question Time today"
             },
             {
               "id": "80311",
@@ -740,7 +740,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103628466",
           "imagePosition": {
@@ -761,11 +768,24 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-25/waroona-fire-residences-lost-fight-contines/103628466",
           "video": null,
           "reactKey": "nt-103628466-1",
-          "synopsis": "Locals in Waroona praise the efforts of firefighters, as DFES confirms eight properties have been impacted by the bushfire burning south of Perth.",
+          "synopsis": "Locals praise the efforts of firefighters, as DFES confirms eight properties have been impacted by the bushfire burning south of Perth. Follow live.",
           "title": {
-            "children": "Two buildings lost as WA bushfire revealed to have accidentally sparked by car battery"
+            "children": "Two buildings lost as WA bushfire revealed to have accidentally been sparked by a car battery"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Standby for updates on the bushfire emergency",
+                "showTime": 900,
+                "time": "2024-03-24T17:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
