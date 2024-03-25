@@ -25,6 +25,9 @@
           "uri": "coremedia://article/103628136"
         },
         {
+          "uri": "coremedia://article/103628816"
+        },
+        {
           "uri": "coremedia://article/103609992"
         },
         {
@@ -102,7 +105,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -125,13 +135,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-25/waroona-fire-residences-lost-fight-contines/103628466",
           "video": null,
           "reactKey": "wa-103628466-1",
-          "synopsis": "Locals in Waroona praise the efforts of firefighters, as DFES confirms eight properties have been impacted by the bushfire burning south of Perth.",
+          "synopsis": "Locals praise the efforts of firefighters, as DFES confirms eight properties have been impacted by the bushfire burning south of Perth. Follow live.",
           "title": {
             "children": "Two buildings lost as WA bushfire revealed to have accidentally been sparked by a car battery"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -236,6 +253,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103628816",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An AFL football on a field.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e7659ba0d822366a62380ec387575c6?impolicy=wcms_crop_resize&cropH=933&cropW=1400&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-25/wa-football-commission-issues-warning-to-junior-clubs/103628816"
+          },
+          "contentUri": "coremedia://article/103628816",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/wa-football-commission-issues-warning-to-junior-clubs/103628816",
+          "video": null,
+          "reactKey": "wa-103628816-1",
+          "synopsis": "The WA Football Commission says intense training regimes and fitness tests being imposed by over-zealous coaches are forcing pre-teens out of clubs.",
+          "title": {
+            "children": "Stern warning issued amid reports young AFL players are being bullied out of the game"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103609992",
           "imagePosition": {
             "mobile": "top",
@@ -288,7 +336,7 @@
           "reactKey": "wa-103625546-1",
           "synopsis": "After his office initially failed to execute a viable PR plan to protect his family, Prince William may now have time and space to focus on his wife's health and the wellbeing of his children. But the heir to the British throne has a rocky road ahead.",
           "title": {
-            "children": "William's nightmare 2024 has taught him the toughest lesson monarchs learn about their subjects' love"
+            "children": "Caring for his wife, stepping in for his father and estranged from his brother, William goes it alone"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -404,7 +452,7 @@
           "isMajor": false,
           "image": {
             "altText": "Quake 1",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/79312189353c820bd46f4fedcb822d0d?impolicy=wcms_crop_resize&cropH=471&cropW=707&xPos=157&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/79312189353c820bd46f4fedcb822d0d?impolicy=wcms_crop_resize&cropH=471&cropW=707&xPos=157&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -418,7 +466,9 @@
           "title": {
             "children": "PNG earthquake destroys 1,000 homes and reportedly kills three people"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -528,7 +578,7 @@
           "isMajor": false,
           "image": {
             "altText": "A drone photo of a boat in the water with thousands of silver fish thrashing around it.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8906ff0a1be13d9f4787b59798f660ee?impolicy=wcms_crop_resize&cropH=2250&cropW=3375&xPos=625&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8906ff0a1be13d9f4787b59798f660ee?impolicy=wcms_crop_resize&cropH=2250&cropW=3375&xPos=625&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -542,7 +592,9 @@
           "title": {
             "children": "'There were thousands': Spectacular salmon feeding frenzy captured on fisher's drone footage"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -595,8 +647,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Equality Australia Legal Director Ghassan Kassisieh speaking to media",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a51e52c399712ecb159ccb515e30a912?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Man in suit sitting in Parliament house. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4049f7cef356b59a0fd75b3c625de0bb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -606,9 +658,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-25/federal-parliament-live-updates-march-25/103626402",
           "video": null,
           "reactKey": "wa-103626402-1",
-          "synopsis": "An Equality Australia report says students in religious schools are more likely to be discriminated against, as the federal government considers new laws on the subject.",
+          "synopsis": "NDIS Minister Bill Shorten wants the House of Representatives speaker to look into a private event which falsely promoted him as a keynote speaker and used the Great Hall at Parliament House. ",
           "title": {
-            "children": "New report finds discrimination endemic in religious schools as government considers legislation"
+            "children": "Shorten asks for probe into conference wrongfully promoting him as keynote speaker"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -619,6 +671,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "80316",
+              "date": "2024-03-25T05:00:38.000Z",
+              "title": "Shorten asks speaker to look into private event that wrongfully promoted his attandence"
+            },
+            {
               "id": "80313",
               "date": "2024-03-25T04:31:36.000Z",
               "title": "Cost-of-living crisis prevalent in Question Time today"
@@ -627,11 +684,6 @@
               "id": "80311",
               "date": "2024-03-25T04:10:13.000Z",
               "title": "'Serial offender' Dan Tehan kicked out of chamber"
-            },
-            {
-              "id": "80309",
-              "date": "2024-03-25T03:57:15.000Z",
-              "title": "Vehicle effiency standards in the spotlight"
             }
           ]
         }
