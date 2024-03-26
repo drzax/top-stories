@@ -70,6 +70,9 @@
           "uri": "coremedia://article/103632304"
         },
         {
+          "uri": "coremedia://article/103632388"
+        },
+        {
           "uri": "coremedia://article/103627764"
         },
         {
@@ -100,13 +103,10 @@
           "uri": "coremedia://article/103631996"
         },
         {
-          "uri": "coremedia://article/103594296"
-        },
-        {
           "uri": "coremedia://article/103632450"
         },
         {
-          "uri": "coremedia://article/103632480"
+          "uri": "coremedia://article/103594296"
         }
       ]
     },
@@ -242,7 +242,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103627090",
           "imagePosition": {
@@ -263,11 +270,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-26/bushfire-warning-downgraded-near-waroona-south-of-perth/103627090",
           "video": null,
           "reactKey": "wa-103627090-1",
-          "synopsis": "Authorities have spent a third night battling a blaze near Waroona and Pinjarra, south of Perth, as an emergency warning is downgraded.",
+          "synopsis": "WA's Emergency Services Minister has toured the Waroona fireground and is giving an update on property losses. Follow live.",
           "title": {
-            "children": "Hopes residents can begin to return home as devastating WA bushfire contained"
+            "children": "Authorities to provide update on bushfire situation south of Perth"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -389,7 +403,7 @@
           "reactKey": "wa-103633064-1",
           "synopsis": "More than 100 Australian cattle have died on a live export ship to Indonesia — likely one of the highest mortality rates ever reported on an Australian livestock shipment.",
           "title": {
-            "children": "More than 100 cattle die at sea in export from Australia"
+            "children": "More than 100 cattle die at sea in export from Australia to Indonesia"
           },
           "imageContainerClassNames": []
         }
@@ -499,6 +513,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "80401",
+              "date": "2024-03-26T04:16:59.000Z",
+              "title": "Yes, that's a potato in Question Time"
+            },
+            {
               "id": "80396",
               "date": "2024-03-26T03:27:36.000Z",
               "title": "Chaos in the House of Representatives"
@@ -507,11 +526,6 @@
               "id": "80395",
               "date": "2024-03-26T03:26:35.000Z",
               "title": "Question Time begins with a nuclear dig at Dutton"
-            },
-            {
-              "id": "80382",
-              "date": "2024-03-26T01:46:31.000Z",
-              "title": "PM willing to negotiate on religious discrimination"
             }
           ]
         }
@@ -755,6 +769,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "80403",
+              "date": "2024-03-26T04:26:40.000Z",
+              "title": "Qantas flight lands safely on one engine after mid-flight issue with Airbus plane"
+            },
+            {
               "id": "80398",
               "date": "2024-03-26T03:45:05.000Z",
               "title": "Concerns data from supermarket loyalty programs used to stifle competition"
@@ -763,13 +782,39 @@
               "id": "80391",
               "date": "2024-03-26T02:39:03.000Z",
               "title": "Banks, real estate stocks drag Australian shares lower"
-            },
-            {
-              "id": "80378",
-              "date": "2024-03-26T01:22:20.000Z",
-              "title": "Tax office criticised for resurrecting old debts"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103632388",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A silver Brompton bicycle stands against a white wall.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ccd050dd7efcababcb164cc3a690746?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=491&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/singapore-corruption-case-iswaran-brompton-bicycle-f1-night-race/103632388"
+          },
+          "contentUri": "coremedia://article/103632388",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/singapore-corruption-case-iswaran-brompton-bicycle-f1-night-race/103632388",
+          "video": null,
+          "reactKey": "wa-103632388-1",
+          "synopsis": "The 61-year-old, widely credited for helping bring Formula 1 racing to Singapore in 2008, now faces a total of 35 charges, including improperly receiving a UK-made folding bicycle, bottles of whisky and golf clubs worth more than $21,000.",
+          "title": {
+            "children": "Former transport minister who helped bring F1 to Singapore accused of improperly receiving bicycle"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1089,39 +1134,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103594296",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The two actors, dressed in 70s-styled striped tops and jeans, stare into each other's eyes sitting on a couch.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8cc6a2f8e2af96329d3d82ac684c48b?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-26/holding-the-man-belvoir-2024-eamon-flack-tom-conroy/103594296"
-          },
-          "contentUri": "coremedia://article/103594296",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/holding-the-man-belvoir-2024-eamon-flack-tom-conroy/103594296",
-          "video": null,
-          "reactKey": "wa-103594296-1",
-          "synopsis": "Timothy Conigrave's 1995 memoir is an absolutely devastating story of Australia's AIDS epidemic — but its stage adaptation centres joy and love.",
-          "title": {
-            "children": "This classic gay Australian love story is being re-imagined by an (almost) all-queer cast"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103632450",
           "imagePosition": {
             "mobile": "right",
@@ -1153,30 +1165,32 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103632480",
+          "id": "103594296",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
-            "altText": "A swarm of bees attack a man with green coloured hair and yellow face in crowd",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f9ced9bba5b12ad61687368c6d06f0b6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=146&width=862&height=485",
-            "imgRatio": "16x9"
+            "altText": "The two actors, dressed in 70s-styled striped tops and jeans, stare into each other's eyes sitting on a couch.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8cc6a2f8e2af96329d3d82ac684c48b?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-03-26/holi-festival-celebrated-india-hindu-lights-colours/103632480"
+            "to": "/news/2024-03-26/holding-the-man-belvoir-2024-eamon-flack-tom-conroy/103594296"
           },
-          "contentUri": "coremedia://article/103632480",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/holi-festival-celebrated-india-hindu-lights-colours/103632480",
+          "contentUri": "coremedia://article/103594296",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/holding-the-man-belvoir-2024-eamon-flack-tom-conroy/103594296",
           "video": null,
-          "reactKey": "wa-103632480-1",
-          "synopsis": "Millions of Indians mark the Holi festival, dancing to festive music, exchanging food and drink and smearing each other with red, green, blue and pink powder, turning the air into a joyful kaleidoscope of colour.",
+          "reactKey": "wa-103594296-1",
+          "synopsis": "Timothy Conigrave's 1995 memoir is an absolutely devastating story of Australia's AIDS epidemic — but its stage adaptation centres joy and love.",
           "title": {
-            "children": "India celebrates Holi, the Hindu festival of colours"
+            "children": "This classic gay Australian love story is being re-imagined by an (almost) all-queer cast"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       }
     ],
