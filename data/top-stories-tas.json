@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103632658"
+        },
+        {
           "uri": "coremedia://article/103627670"
         },
         {
@@ -44,9 +47,6 @@
         },
         {
           "uri": "coremedia://article/103632206"
-        },
-        {
-          "uri": "coremedia://article/103630262"
         },
         {
           "uri": "coremedia://article/103627764"
@@ -127,6 +127,39 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103632658",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Rebecca White walks off the state in the tally room",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/581108e2b72017b0cd4a8efbf50c2791?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-26/tas-labor-leader-rebecca-white-resigns/103632658"
+          },
+          "contentUri": "coremedia://article/103632658",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-26/tas-labor-leader-rebecca-white-resigns/103632658",
+          "video": null,
+          "reactKey": "tas-103632658-1",
+          "synopsis": "After three election defeats, Rebecca White resigns as Tasmanian Labor leader. It could prompt a battle between the party's left and right factions to decide on the next leader.",
+          "title": {
+            "children": "Rebecca White resigns as Tasmanian Labor leader"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103627670",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +169,7 @@
           "isMajor": false,
           "image": {
             "altText": "Rows of seats in an arc inside a large room",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/999ef140afa8d3fa090dfbd9aeac054b?impolicy=wcms_crop_resize&cropH=3082&cropW=4623&xPos=188&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/999ef140afa8d3fa090dfbd9aeac054b?impolicy=wcms_crop_resize&cropH=3082&cropW=4623&xPos=188&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +183,7 @@
           "title": {
             "children": "Tasmania has elected a hung parliament. Here's what that means"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -371,7 +402,7 @@
           "reactKey": "tas-103632366-1",
           "synopsis": "Crown Resorts has been cleared to keep its licence to run Victoria's only casino after a probation period and review by Victoria's gambling and casino commission.",
           "title": {
-            "children": "Crown will keep its Melbourne casino licence after probation period ends"
+            "children": "Regulator says despite 'arrogance', Crown will keep its Melbourne casino licence"
           },
           "imageContainerClassNames": []
         }
@@ -486,6 +517,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "80380",
+              "date": "2024-03-26T01:30:39.000Z",
+              "title": "Greens, crossbenchers condemn Labor's fast-tracked legislation"
+            },
+            {
               "id": "80369",
               "date": "2024-03-25T23:45:09.000Z",
               "title": "Pressure mounting on government to crack down on big supermarkets"
@@ -494,44 +530,8 @@
               "id": "80339",
               "date": "2024-03-25T21:54:24.000Z",
               "title": "Australian government expresses concerns about cyber-attack in the UK"
-            },
-            {
-              "id": "80336",
-              "date": "2024-03-25T21:33:54.000Z",
-              "title": "ACTU calls for 5 per cent minimum wage increase"
             }
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103630262",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Rebecca White and Dean Winter composite image.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12f635fd52ab6f4047d7c9e40471aa74?impolicy=wcms_crop_resize&cropH=396&cropW=594&xPos=115&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-03-25/move-on-to-oust-rebecca-white-as-tasmanian-labor-leader/103630262"
-          },
-          "contentUri": "coremedia://article/103630262",
-          "canonicalURL": "https://www.abc.net.au/news/2024-03-25/move-on-to-oust-rebecca-white-as-tasmanian-labor-leader/103630262",
-          "video": null,
-          "reactKey": "tas-103630262-1",
-          "synopsis": "After Tasmanian Labor's four straight election losses, three of them led by Rebecca White, the push is on to install a new leader.",
-          "title": {
-            "children": "Move on to oust Rebecca White as Tasmanian Labor leader"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -578,8 +578,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Qantas planes at an airport.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/be387608d8ca87a478b5c1607b4dd0eb?impolicy=wcms_crop_resize&cropH=1310&cropW=1958&xPos=118&yPos=77&width=160&height=107",
+            "altText": "Aircraft flying against blue sky.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6bbdec859f279b8cbfa45714150c95d7?impolicy=wcms_crop_resize&cropH=3712&cropW=5568&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -589,9 +589,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-26/qantas-flight-lands-in-perth-after-engine-shut-down-bang-heard/103632442",
           "video": null,
           "reactKey": "tas-103632442-1",
-          "synopsis": "Passengers flying from Melbourne to Perth suffer a scare as pilots are forced to manually shut down one of the plane's engines, with one of those on board saying there was a \"very, very\" loud bang.",
+          "synopsis": "A Qantas flight lands safely in Perth after passengers hear a \"large bang\" and pilots are forced to shut down one of the plane's engines on their descent, with engineers now inspecting the Airbus A330-200.",
           "title": {
-            "children": "Qantas flight lands in Perth after one engine shut down following 'large bang'"
+            "children": "Mid-air scare for Qantas passengers as engine shut down after 'loud bang' on Melbourne-Perth flight"
           },
           "imageContainerClassNames": []
         }
@@ -639,19 +639,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "80378",
+              "date": "2024-03-26T01:22:20.000Z",
+              "title": "Tax office criticised for resurrecting old debts"
+            },
+            {
+              "id": "80373",
+              "date": "2024-03-26T00:40:37.000Z",
+              "title": "Premier Investments mulls demerger of Smiggle, Peter Alexander brands"
+            },
+            {
               "id": "80370",
               "date": "2024-03-26T00:00:21.000Z",
               "title": "Westpac CEO says he is positive on Australia's housing market"
-            },
-            {
-              "id": "80363",
-              "date": "2024-03-25T23:15:18.000Z",
-              "title": "Crown keeps licence. Regulator satisfied"
-            },
-            {
-              "id": "80362",
-              "date": "2024-03-25T23:13:54.000Z",
-              "title": "ASX opens lower"
             }
           ]
         }
@@ -837,9 +837,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-03-26/australian-embassy-telegram-post-angers-russian-foreign-ministry/103631996",
           "video": null,
           "reactKey": "tas-103631996-1",
-          "synopsis": "Russian officials summon a top Australian diplomat in Moscow for a please explain over a social media post describing the country's presidential election as a \"flagrant violation of international law\".",
+          "synopsis": "Russian officials summon a top Australian official in Moscow for a please explain over a social media post describing the country's presidential election as a \"flagrant violation of international law\".",
           "title": {
-            "children": "Furious Russians summon Australian diplomat over social media post criticising election"
+            "children": "Furious Russians summon Australian official over social media post criticising election"
           },
           "imageContainerClassNames": []
         }
@@ -1045,8 +1045,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": " A young man in in a wheelchair, wearing a floral shirt.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c314eed5fd7610f5ee0fba5f711a744c?impolicy=wcms_crop_resize&cropH=1935&cropW=2903&xPos=0&yPos=822&width=160&height=107",
+            "altText": "A family at a young man's brithday dinner. He has cake and silver balloon shaped in the number 16. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/136a548956c2ca990b85e9c5c6d2481b?impolicy=wcms_crop_resize&cropH=1013&cropW=1519&xPos=0&yPos=10&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
