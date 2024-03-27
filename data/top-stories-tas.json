@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103638206"
+        },
+        {
           "uri": "coremedia://article/103638806"
         },
         {
@@ -105,10 +108,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorName": "Chris Rowbottom"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103638206",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A concept design for an AFL stadium at Macquarie Point.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1d465456f1df99071625eb389d3bb7a?impolicy=wcms_crop_resize&cropH=717&cropW=1076&xPos=121&yPos=8&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-03-28/tasmanian-labor-will-new-leader-mean-afl-stadium-supported/103638206"
+          },
+          "contentUri": "coremedia://article/103638206",
+          "canonicalURL": "https://www.abc.net.au/news/2024-03-28/tasmanian-labor-will-new-leader-mean-afl-stadium-supported/103638206",
+          "video": null,
+          "reactKey": "tas-103638206-1",
+          "synopsis": "Labor stalwarts and unions believe Tasmanian Labor needs to rethink its stance on the proposed Hobart AFL stadium following its election loss, with one commentator saying confusion over its policy contributed to defeat.",
+          "title": {
+            "children": "Tasmanian Labor is about to get a new leader. Will it get a new stadium policy too?"
+          },
+          "imageContainerClassNames": [
+            "imageHalf",
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103638806",
           "imagePosition": {
             "mobile": "top",
@@ -132,9 +174,7 @@
           "title": {
             "children": "It only took 30 seconds for Baltimore's largest bridge to collapse. Here's how the disaster unfolded"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
