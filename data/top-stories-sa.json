@@ -604,7 +604,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103660392",
           "imagePosition": {
@@ -627,9 +634,16 @@
           "reactKey": "sa-103660392-1",
           "synopsis": "Australian aid worker Zomi Frankcom was one of seven people killed while working with the World Central Kitchen charity in central Gaza.",
           "title": {
-            "children": "Benjamin Netanyahu admits IDF strike killed Australian aid worker and six others"
+            "children": "Penny Wong speaks after Israeli PM acknowledges responsibility for aid worker strike"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -739,7 +753,7 @@
           "isMajor": false,
           "image": {
             "altText": "A graphic composite image of an illicit nicotine vape, the scales of justice and piles of cash",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/da6a2631b5c2ff64b7402d3d38787a25?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ce63515a6462a93c64160ade29944b6?impolicy=wcms_crop_resize&cropH=910&cropW=1365&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -751,7 +765,7 @@
           "reactKey": "sa-103629114-1",
           "synopsis": "There have been just 12 successful convictions for selling illegal nicotine vapes in NSW in 18 months. NSW Health Minister Ryan Park says the government will invest $4.3 million over three years in compliance and enforcement to stop illegal sales of the product.",
           "title": {
-            "children": "For businesses selling illegal nicotine vapes, fines are just the 'cost of doing business'"
+            "children": "Australia is trying to end vape sales, but experts say there's 'no economic incentive' for sellers to stop"
           },
           "imageContainerClassNames": []
         }

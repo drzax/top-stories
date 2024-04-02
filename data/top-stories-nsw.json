@@ -25,6 +25,9 @@
           "uri": "coremedia://article/103657344"
         },
         {
+          "uri": "coremedia://article/103575322"
+        },
+        {
           "uri": "coremedia://article/103654982"
         },
         {
@@ -38,9 +41,6 @@
         },
         {
           "uri": "coremedia://article/103587982"
-        },
-        {
-          "uri": "coremedia://article/103575322"
         },
         {
           "uri": "coremedia://article/103657084"
@@ -249,6 +249,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103575322",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man sitting, with a suit on, looking on",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cbba443760b1d80285c74db053ef0c29?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-03/why-a-third-country-could-be-drawn-in-to-vladimir-putins-war/103575322"
+          },
+          "contentUri": "coremedia://article/103575322",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-03/why-a-third-country-could-be-drawn-in-to-vladimir-putins-war/103575322",
+          "video": null,
+          "reactKey": "nsw-103575322-1",
+          "synopsis": "Vladimir Putin is being humiliated in the Black Sea, where a third of Russia's naval fleet has been destroyed by Ukraine's attacks. Some say a plan to move the surviving vessels into a new port could draw a third country directly into the war.",
+          "title": {
+            "children": "After humiliations in the Black Sea, Putin has a devilishly clever plan to put Ukraine in a tricky place"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103654982",
           "imagePosition": {
             "mobile": "right",
@@ -280,7 +311,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103660392",
           "imagePosition": {
@@ -303,9 +341,16 @@
           "reactKey": "nsw-103660392-1",
           "synopsis": "Australian aid worker Zomi Frankcom was one of seven people killed while working with the World Central Kitchen charity in central Gaza.",
           "title": {
-            "children": "Benjamin Netanyahu admits IDF strike killed Australian aid worker and six others"
+            "children": "Penny Wong speaks after Israeli PM acknowledges responsibility for aid worker strike"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -403,37 +448,6 @@
           "synopsis": "Internal emails show an engineer asked the Ballarat Gold Mine management in May last year not to proceed with a handheld drilling trial without \"minimum\" ground supports \"to ensure that we all get home to our families\".",
           "title": {
             "children": "Ballarat Gold Mine warned over potential for fatal rock fall months before miner's death "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103575322",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man sitting, with a suit on, looking on",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cbba443760b1d80285c74db053ef0c29?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-03/why-a-third-country-could-be-drawn-in-to-vladimir-putins-war/103575322"
-          },
-          "contentUri": "coremedia://article/103575322",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-03/why-a-third-country-could-be-drawn-in-to-vladimir-putins-war/103575322",
-          "video": null,
-          "reactKey": "nsw-103575322-1",
-          "synopsis": "Vladimir Putin is being humiliated in the Black Sea, where a third of Russia's naval fleet has been destroyed by Ukraine's attacks. Some say a plan to move the surviving vessels into a new port could draw a third country directly into the war.",
-          "title": {
-            "children": "After humiliations in the Black Sea, Putin has a devilishly clever plan to put Ukraine in a tricky place"
           },
           "imageContainerClassNames": []
         }

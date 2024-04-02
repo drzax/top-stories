@@ -360,7 +360,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103660392",
           "imagePosition": {
@@ -383,9 +390,16 @@
           "reactKey": "wa-103660392-1",
           "synopsis": "Australian aid worker Zomi Frankcom was one of seven people killed while working with the World Central Kitchen charity in central Gaza.",
           "title": {
-            "children": "Benjamin Netanyahu admits IDF strike killed Australian aid worker and six others"
+            "children": "Penny Wong speaks after Israeli PM acknowledges responsibility for aid worker strike"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
