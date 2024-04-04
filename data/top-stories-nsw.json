@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103658748"
+        },
+        {
           "uri": "coremedia://article/103666840"
         },
         {
@@ -26,6 +29,9 @@
         },
         {
           "uri": "coremedia://article/103656532"
+        },
+        {
+          "uri": "coremedia://article/103664874"
         },
         {
           "uri": "coremedia://article/103655012"
@@ -49,19 +55,19 @@
           "uri": "coremedia://article/103664508"
         },
         {
-          "uri": "coremedia://article/103652204"
+          "uri": "coremedia://article/103657456"
         },
         {
-          "uri": "coremedia://article/103664874"
+          "uri": "coremedia://article/103652204"
         },
         {
           "uri": "coremedia://article/103640118"
         },
         {
-          "uri": "coremedia://article/103666302"
+          "uri": "coremedia://article/103662980"
         },
         {
-          "uri": "coremedia://article/103662980"
+          "uri": "coremedia://article/103667012"
         },
         {
           "uri": "coremedia://article/103588764"
@@ -70,10 +76,19 @@
           "uri": "coremedia://article/103664948"
         },
         {
+          "uri": "coremedia://article/103585684"
+        },
+        {
           "uri": "coremedia://article/103667030"
         },
         {
           "uri": "coremedia://article/103662070"
+        },
+        {
+          "uri": "coremedia://article/103666302"
+        },
+        {
+          "uri": "coremedia://article/103553400"
         },
         {
           "uri": "coremedia://article/103664726"
@@ -82,13 +97,7 @@
           "uri": "coremedia://article/103281212"
         },
         {
-          "uri": "coremedia://article/103657456"
-        },
-        {
           "uri": "coremedia://article/103584304"
-        },
-        {
-          "uri": "coremedia://article/103667012"
         },
         {
           "uri": "coremedia://article/103658508"
@@ -103,12 +112,6 @@
           "uri": "coremedia://article/103665728"
         },
         {
-          "uri": "coremedia://article/103664650"
-        },
-        {
-          "uri": "coremedia://article/103657670"
-        },
-        {
           "uri": "coremedia://article/103608408"
         }
       ]
@@ -117,10 +120,56 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103658748",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man sits in a large van about to close the door.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f04f9f2537e37ffd8a692f749c19d4c8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=225&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/bruce-lehrmann-defamation-case-taylor-auerbach/103658748"
+          },
+          "contentUri": "coremedia://article/103658748",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/bruce-lehrmann-defamation-case-taylor-auerbach/103658748",
+          "video": null,
+          "reactKey": "nsw-103658748-1",
+          "synopsis": "The defamation case brought by Bruce Lehrmann against Network Ten and Lisa Wilkinson is reopening today to hear fresh evidence from former Seven Network producer Taylor Auerbach, who claims the broadcaster paid for \"illicit drugs and prostitutes\" as part of its efforts to secure an exclusive sit-down interview with Mr Lehrmann.",
+          "title": {
+            "children": "Former Seven Network producer Taylor Auerbach to testify in Bruce Lehrmann's defamation case"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103666840",
           "imagePosition": {
             "mobile": "right",
@@ -130,7 +179,7 @@
           "isMajor": false,
           "image": {
             "altText": "Bruce Lehrmann speaks to 7NEWS Spotlight in an interview.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ff79c953be6d6c41a86063b6efa3cd3?impolicy=wcms_crop_resize&cropH=1012&cropW=1518&xPos=400&yPos=68&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ff79c953be6d6c41a86063b6efa3cd3?impolicy=wcms_crop_resize&cropH=920&cropW=1380&xPos=498&yPos=119&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -144,9 +193,7 @@
           "title": {
             "children": "'Beggars belief': Questions over Seven Network's single document detailing discussions with Bruce Lehrmann "
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -206,7 +253,7 @@
           "reactKey": "nsw-103665240-1",
           "synopsis": "Sydney is on flood watch alongside at least 30 rivers across NSW and Queensland as torrential rain is expected to pummel eastern Australia over the next 48 hours.  ",
           "title": {
-            "children": "Eastern Australia to be hit with major rain event, parts of Queensland and NSW on flood watch"
+            "children": "Major rain event engulfing most of eastern Australia for next 48 hours as BOM issues flood warning"
           },
           "imageContainerClassNames": []
         }
@@ -273,6 +320,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103664874",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A film photograph of a young woman wearing a RAAF uniform and smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e2969cbd5796626d590833899a35ead?impolicy=wcms_crop_resize&cropH=360&cropW=540&xPos=0&yPos=76&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/murder-charge-struck-out-newcastle-man-peter-john-wetzler/103664874"
+          },
+          "contentUri": "coremedia://article/103664874",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/murder-charge-struck-out-newcastle-man-peter-john-wetzler/103664874",
+          "video": null,
+          "reactKey": "nsw-103664874-1",
+          "synopsis": "Newcastle man Peter John Wetzler will seek court costs after a murder charge was struck out in relation to the disappearance of his fiancee 40 years ago.",
+          "title": {
+            "children": "NSW man to seek costs from Victoria Police after cold case murder charge against him is dropped "
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -413,7 +491,7 @@
           "isMajor": false,
           "image": {
             "altText": "An Indigenous woman wearing a black and white pinstripe shirt and white cowboy hat standing on red dirt",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/041e31885ce7cf683b9dc74a256f3a28?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=46&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/041e31885ce7cf683b9dc74a256f3a28?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=46&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -427,9 +505,7 @@
           "title": {
             "children": "Indigenous farmers facing racism, death threats hope to change attitudes in industry"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -507,6 +583,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103657456",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two people, a man and a woman, sit in an ornate room ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8dbc8322f51fb84eeec4b4f7777a00f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=558&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-04-04/scoop-netflix-movie-gillian-anderson-billie-piper/103657456"
+          },
+          "contentUri": "coremedia://article/103657456",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/scoop-netflix-movie-gillian-anderson-billie-piper/103657456",
+          "video": null,
+          "reactKey": "nsw-103657456-1",
+          "synopsis": "Scoop promises to tell the story of the days leading up to the interview that all but ruined Prince Andrew's reputation.",
+          "title": {
+            "children": "Prince Andrew's disastrous interview is only 'five per cent' of the story. Scoop tells the rest"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103652204",
           "imagePosition": {
             "mobile": "right",
@@ -529,37 +636,6 @@
           "synopsis": "About 20 per cent of the park will be inaccessible to the public as authorities work to reduce its 17,000-strong wild horse population. ",
           "title": {
             "children": "Aerial brumby cull closes parts of Kosciuszko National Park for six months"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103664874",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A film photograph of a young woman wearing a RAAF uniform and smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e2969cbd5796626d590833899a35ead?impolicy=wcms_crop_resize&cropH=360&cropW=540&xPos=0&yPos=76&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-04/murder-charge-struck-out-newcastle-man-peter-john-wetzler/103664874"
-          },
-          "contentUri": "coremedia://article/103664874",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/murder-charge-struck-out-newcastle-man-peter-john-wetzler/103664874",
-          "video": null,
-          "reactKey": "nsw-103664874-1",
-          "synopsis": "Newcastle man Peter John Wetzler will seek court costs after a murder charge was struck out in relation to the disappearance of his fiancee 40 years ago.",
-          "title": {
-            "children": "NSW man to seek costs from Victoria Police after cold case murder charge against him is dropped "
           },
           "imageContainerClassNames": []
         }
@@ -600,37 +676,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103666302",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Firefighters complete their mission and evacuate from the collapsed building after a quake.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2c4a50c17ab0fda9d4bd38a5fb6f927b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=96&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-04/taiwan-rocked-by-strongest-earthquake-in-25-years/103666302"
-          },
-          "contentUri": "coremedia://article/103666302",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/taiwan-rocked-by-strongest-earthquake-in-25-years/103666302",
-          "video": null,
-          "reactKey": "nsw-103666302-1",
-          "synopsis": "Search and rescue mission continues after the earthquake led to collapsed buildings and landslides in Taiwan. ",
-          "title": {
-            "children": "Rescue efforts continue after nine killed and hundreds injured in Taiwan's biggest earthquake in 25 years"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103662980",
           "imagePosition": {
             "mobile": "right",
@@ -653,6 +698,37 @@
           "synopsis": "Sixteen-year-olds can learn to drive, get a job, pay taxes and be on the Organ Donor Register, but they are considered too young to vote. Should they also have a stake in deciding their future?",
           "title": {
             "children": "Should 16-year-olds be allowed to vote? These teens think so"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103667012",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close up of a smiling Juan Vicente Pérez Mora surrounded by people in facemasks. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3817430760354f88fe4e97e0378e8d65?impolicy=wcms_crop_resize&cropH=618&cropW=927&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/worlds-oldest-living-man-dies-aged-114/103667012"
+          },
+          "contentUri": "coremedia://article/103667012",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/worlds-oldest-living-man-dies-aged-114/103667012",
+          "video": null,
+          "reactKey": "nsw-103667012-1",
+          "synopsis": "Juan Vicente Pérez Mora, who was a month away from his 115th birthday, is history's fourth oldest male whose age has been officially ratified.",
+          "title": {
+            "children": "The world's oldest living man, who attributes health to daily nip of liquor, dies aged 114"
           },
           "imageContainerClassNames": []
         }
@@ -730,6 +806,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103585684",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A women looks across a soccer ground towards a set of changerooms set up on a hill",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aafd12337323e6bb0c1d45d943b5e7da?impolicy=wcms_crop_resize&cropH=2825&cropW=4238&xPos=2&yPos=3&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/matildas-inspired-record-registration-women-football-where-clubs/103585684"
+          },
+          "contentUri": "coremedia://article/103585684",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/matildas-inspired-record-registration-women-football-where-clubs/103585684",
+          "video": null,
+          "reactKey": "nsw-103585684-1",
+          "synopsis": "The Women's World Cup inspired record registrations for women and girls in football. But clubs are struggling to find the fields to fit them all.",
+          "title": {
+            "children": "The Matildas have inspired record sign-ups for women and girls, but where will clubs fit them?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103667030",
           "imagePosition": {
             "mobile": "right",
@@ -783,6 +890,70 @@
           "synopsis": "As the two-week youth curfew in Alice Springs hits the halfway point, here's what locals think about the measure.",
           "title": {
             "children": "One week into a youth curfew, what do Alice Springs locals think?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103666302",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Firefighters complete their mission and evacuate from the collapsed building after a quake.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2c4a50c17ab0fda9d4bd38a5fb6f927b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=96&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/taiwan-rocked-by-strongest-earthquake-in-25-years/103666302"
+          },
+          "contentUri": "coremedia://article/103666302",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/taiwan-rocked-by-strongest-earthquake-in-25-years/103666302",
+          "video": null,
+          "reactKey": "nsw-103666302-1",
+          "synopsis": "Search and rescue mission continues after the earthquake led to collapsed buildings and landslides in Taiwan. ",
+          "title": {
+            "children": "Rescue efforts continue after nine killed and hundreds injured in Taiwan's biggest earthquake in 25 years"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103553400",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Fox standing in green grass.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f9c961eca70fb42ccf95c3e9a5e5fb57?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=65&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-04/farmers-conservationists-fox-eradication-never-ending-battle/103553400"
+          },
+          "contentUri": "coremedia://article/103553400",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/farmers-conservationists-fox-eradication-never-ending-battle/103553400",
+          "video": null,
+          "reactKey": "nsw-103553400-1",
+          "synopsis": "Australian farmers, and native fauna, have been in a losing fight against foxes for more than 150 years and while bounty hunters have been busy, there is still no end in sight.",
+          "title": {
+            "children": "After 150 years of a seemingly 'never-ending' battle, is the eradication of foxes from Australia even possible? "
           },
           "imageContainerClassNames": []
         }
@@ -854,37 +1025,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103657456",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two people, a man and a woman, sit in an ornate room ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8dbc8322f51fb84eeec4b4f7777a00f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=558&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-04-04/scoop-netflix-movie-gillian-anderson-billie-piper/103657456"
-          },
-          "contentUri": "coremedia://article/103657456",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/scoop-netflix-movie-gillian-anderson-billie-piper/103657456",
-          "video": null,
-          "reactKey": "nsw-103657456-1",
-          "synopsis": "Scoop promises to tell the story of the days leading up to the interview that all but ruined Prince Andrew's reputation.",
-          "title": {
-            "children": "Prince Andrew's disastrous interview is only 'five per cent' of the story. Scoop tells the rest"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103584304",
           "imagePosition": {
             "mobile": "right",
@@ -907,37 +1047,6 @@
           "synopsis": "Kids are increasingly wearing headphones and earbuds but the noise they're exposed to could be damaging their hearing, experts warn. So here's what you can do to help prevent that.  ",
           "title": {
             "children": "The right headphones and 'quiet breaks' might save your child’s precious hearing"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103667012",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up of a smiling Juan Vicente Pérez Mora surrounded by people in facemasks. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3817430760354f88fe4e97e0378e8d65?impolicy=wcms_crop_resize&cropH=618&cropW=927&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-04/worlds-oldest-living-man-dies-aged-114/103667012"
-          },
-          "contentUri": "coremedia://article/103667012",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/worlds-oldest-living-man-dies-aged-114/103667012",
-          "video": null,
-          "reactKey": "nsw-103667012-1",
-          "synopsis": "Juan Vicente Pérez Mora, who was a month away from his 115th birthday, is history's fourth oldest male whose age has been officially ratified.",
-          "title": {
-            "children": "The world's oldest living man, who attributes health to daily nip of liquor, dies aged 114"
           },
           "imageContainerClassNames": []
         }
@@ -1100,79 +1209,17 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103664650",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman smiles with mountains behind her.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3152cf207097f0961dca0a1fc69884ee?impolicy=wcms_crop_resize&cropH=273&cropW=409&xPos=383&yPos=702&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-03/palestinian-driver-killed-alongside-zomi-frankcom/103664650"
-          },
-          "contentUri": "coremedia://article/103664650",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-03/palestinian-driver-killed-alongside-zomi-frankcom/103664650",
-          "video": null,
-          "reactKey": "nsw-103664650-1",
-          "synopsis": "The grieving family of a Palestinian aid worker killed in Israeli drone strikes say they loved Australian woman Zomi Frankcom, who was also killed.",
-          "title": {
-            "children": "Australian aid worker Zomi Frankcom was 'an absolute ray of sunshine'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103657670",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Yolande dressed as Cleop[atra with a group of people in fancy dress",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e3d0e74c5a57c474c47b4d11f83bb26f?impolicy=wcms_crop_resize&cropH=1344&cropW=2016&xPos=0&yPos=148&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-04/warren-yolonde-entsch-federal-mp-leichardt-queensland/103657670"
-          },
-          "contentUri": "coremedia://article/103657670",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-04/warren-yolonde-entsch-federal-mp-leichardt-queensland/103657670",
-          "video": null,
-          "reactKey": "nsw-103657670-1",
-          "synopsis": "An ABC investigation has uncovered the details in material promoting Mr Entsch's wife Yolonde as the LNP candidate for the state seat of Cairns.",
-          "title": {
-            "children": "Federal MP 'delivered' multi-million-dollar contract to company that hired his wife to run 'character building' craft workshops"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103608408",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A composite image showing Dermott Brereton and a sign reading RIP Waverley from the final AFL match at Waverley Park.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8e76317d71f3ae1dc52bf86026bfba03?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8e76317d71f3ae1dc52bf86026bfba03?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-04-04/waverley-vfl-afl-park-stadium-twenty-five-years-tasmania/103608408"
@@ -1185,9 +1232,7 @@
           "title": {
             "children": "Waverley Park was set to be the second biggest stadium in the world — but its demise is a lesson we can't ignore"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       }
     ],
