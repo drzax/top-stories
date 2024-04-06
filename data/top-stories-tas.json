@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103677436"
+        },
+        {
           "uri": "coremedia://article/103675444"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103614902"
-        },
-        {
-          "uri": "coremedia://article/103676924"
         }
       ]
     },
@@ -123,10 +123,57 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103677436",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": " Penny Wong listens to a question with her jaw clenched.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/81bbc9a272b52c03b0aee5269d25687c?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-06/penny-wong-speaks-israeli-investigation-into-deadly-air-strike/103677436"
+          },
+          "contentUri": "coremedia://article/103677436",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-06/penny-wong-speaks-israeli-investigation-into-deadly-air-strike/103677436",
+          "video": null,
+          "reactKey": "tas-103677436-1",
+          "synopsis": "The Australian government will appoint a \"special adviser\" on the Israeli air strike that killed several aid workers, with Foreign Minister Penny Wong saying the response so far has not been sufficient.",
+          "title": {
+            "children": "Wong says Australia expects 'full accountability' over 'inexcusable' aid worker deaths"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103675444",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +183,7 @@
           "isMajor": false,
           "image": {
             "altText": "A doctor wearing a white lab coat with pens in their pocket and a stethoscope. Chest only in frame",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a73e6628cab6d7d5a619a1942b0fec48?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a73e6628cab6d7d5a619a1942b0fec48?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +197,7 @@
           "title": {
             "children": "Doctor continuing to work in Tasmania despite allegations of sexual misconduct"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1173,7 +1218,7 @@
           "reactKey": "tas-103670130-1",
           "synopsis": "Andrew Scott, Dakota Fanning and Johnny Flynn star in Academy-Award winning director Steve Zaillian's black and white adaptation of the classic Patricia Highsmith psychological thriller.",
           "title": {
-            "children": "Andrew Scott is Tom Ripley in Netflix's arthouse take on the tale of murder and deceit. Does it hold up?"
+            "children": "Tom Ripley is one of the most diabolical con men ever written. How does new Netflix adaptation hold up?"
           },
           "imageContainerClassNames": []
         }
@@ -1236,37 +1281,6 @@
           "synopsis": "The Kung Fu Panda franchise is now in its fourth film, and doesn't seem to be slowing down. We spoke to two of the latest film's stars about why it is resonating with audiences.",
           "title": {
             "children": "'We're the odd couple of the kung fu world': Jack Black and Awkwafina on the joy of teaming up in Kung Fu Panda 4"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103676924",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A t-shirt that says 'I survived the NYC earthquake April 5th 2024 $10' is hung over a a-frame sign on a NYC street",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/58e26c42b47ceff6c82ced9c86d344d1?impolicy=wcms_crop_resize&cropH=2534&cropW=3801&xPos=242&yPos=652&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-06/earthquake-shakes-new-york-in-rare-seismic-event-for-region/103676924"
-          },
-          "contentUri": "coremedia://article/103676924",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-06/earthquake-shakes-new-york-in-rare-seismic-event-for-region/103676924",
-          "video": null,
-          "reactKey": "tas-103676924-1",
-          "synopsis": "A UN discussion on the Israel-Gaza war is interrupted as a magnitude-4.8 earthquake strikes the New York City region, shaking buildings and surprising residents in an area that rarely experiences notable seismic activity.",
-          "title": {
-            "children": "Rare earthquake hits New York, interrupting UN meeting and shaking buildings"
           },
           "imageContainerClassNames": []
         }
