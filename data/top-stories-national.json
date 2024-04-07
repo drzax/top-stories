@@ -34,6 +34,9 @@
           "uri": "coremedia://article/103680234"
         },
         {
+          "uri": "coremedia://article/103680478"
+        },
+        {
           "uri": "coremedia://article/103657562"
         },
         {
@@ -44,9 +47,6 @@
         },
         {
           "uri": "coremedia://article/103605166"
-        },
-        {
-          "uri": "coremedia://article/103680478"
         },
         {
           "uri": "coremedia://article/103680236"
@@ -83,9 +83,6 @@
         },
         {
           "uri": "coremedia://article/103680358"
-        },
-        {
-          "uri": "coremedia://article/103659958"
         },
         {
           "uri": "coremedia://article/103679806"
@@ -331,6 +328,66 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "103680478",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "ASX 200 board",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56350bb4e8c429e1b2493b4ad9f9d9c8?impolicy=wcms_crop_resize&cropH=1138&cropW=1707&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-08/asx-markets-business-news-live-updates/103680478"
+          },
+          "contentUri": "coremedia://article/103680478",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-08/asx-markets-business-news-live-updates/103680478",
+          "video": null,
+          "reactKey": "national-103680478-1",
+          "synopsis": "The Australian share market is set for solid gains to start the week after US stocks surged on a strong jobs report that also indicated wage growth remains in check. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+          "title": {
+            "children": "ASX set to follow Wall St gains after strong US jobs creation not matched by wage rises"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "82303",
+              "date": "2024-04-07T22:48:32.000Z",
+              "title": "New class of Qantas frequent flyer opens up more reward seats … at a price"
+            },
+            {
+              "id": "82302",
+              "date": "2024-04-07T22:32:30.000Z",
+              "title": "Supermarket shake-up, but no break-up"
+            },
+            {
+              "id": "82301",
+              "date": "2024-04-07T21:54:18.000Z",
+              "title": "Goldilocks keeps returning on US markets"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103657562",
@@ -452,66 +509,6 @@
             "children": "You can now dob in text scammers from at least one mobile company. How does it work?"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103680478",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "ASX 200 board",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56350bb4e8c429e1b2493b4ad9f9d9c8?impolicy=wcms_crop_resize&cropH=1138&cropW=1707&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-08/asx-markets-business-news-live-updates/103680478"
-          },
-          "contentUri": "coremedia://article/103680478",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-08/asx-markets-business-news-live-updates/103680478",
-          "video": null,
-          "reactKey": "national-103680478-1",
-          "synopsis": "The Australian share market is set for solid gains to start the week after US stocks surged on a strong jobs report that also indicated wage growth remains in check. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-          "title": {
-            "children": "ASX set to follow Wall St gains after strong US jobs creation not matched by wage rises"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "82303",
-              "date": "2024-04-07T22:48:32.000Z",
-              "title": "New class of Qantas frequent flyer opens up more reward seats … at a price"
-            },
-            {
-              "id": "82302",
-              "date": "2024-04-07T22:32:30.000Z",
-              "title": "Supermarket shake-up, but no break-up"
-            },
-            {
-              "id": "82301",
-              "date": "2024-04-07T21:54:18.000Z",
-              "title": "Goldilocks keeps returning on US markets"
-            }
-          ]
         }
       },
       {
@@ -889,37 +886,6 @@
           "synopsis": "Mathieu van der Poel stormed to a second victory in the Paris-Roubaix after the Dutchman launched a stunning solo attack 60km from the finish line to win.",
           "title": {
             "children": "Fastest Paris-Roubaix victory on record goes to Van der Poel after stunning 60km solo attack"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103659958",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A n american flag conceals the face of a bo walking with a gun in a holster on his jeans ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e2ed859b50596706c0007ad327731d6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-07/gun-control-election-america/103659958"
-          },
-          "contentUri": "coremedia://article/103659958",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-07/gun-control-election-america/103659958",
-          "video": null,
-          "reactKey": "national-103659958-1",
-          "synopsis": "A birthday party in Chicago. A convenience store in New York. A public park in Atlanta. In a single day in the United States, all become the scenes of gun violence.",
-          "title": {
-            "children": "One day, seven mass shootings: This is what 24 hours of gun violence looks like across the US"
           },
           "imageContainerClassNames": []
         }
