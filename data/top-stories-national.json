@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103692934"
+        },
+        {
           "uri": "coremedia://article/103668146"
         },
         {
@@ -56,9 +59,6 @@
         },
         {
           "uri": "coremedia://article/103671762"
-        },
-        {
-          "uri": "coremedia://article/103692934"
         },
         {
           "uri": "coremedia://article/103693030"
@@ -111,10 +111,63 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103692934",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Anthony Albanese at a press conference. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d07b7f34fd589c986ffe5a6be576025?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-10/pm-says-public-funds-tipped-into-green-tech-investment/103692934"
+          },
+          "contentUri": "coremedia://article/103692934",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-10/pm-says-public-funds-tipped-into-green-tech-investment/103692934",
+          "video": null,
+          "reactKey": "national-103692934-1",
+          "synopsis": "Prime Minister Anthony Albanese wants to funnel taxpayer-funded incentives towards advanced manufacturing and clean energy projects, as Australia tries to compete with US President Joe Biden's massive spending plans.",
+          "title": {
+            "children": "Albanese reveals public investment plan to compete with US Inflation Reduction Act"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "82580",
+              "date": "2024-04-11T02:30:38.000Z",
+              "title": "PM to speak on Future Made Australia Act"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103668146",
           "imagePosition": {
             "mobile": "right",
@@ -139,7 +192,6 @@
             "children": "These rusting shipwrecks are a big drawcard for divers. They're also ticking time bombs"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
           ]
         }
@@ -187,6 +239,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "82579",
+              "date": "2024-04-11T02:30:31.000Z",
+              "title": "Payroll jobs boost as people return to work from summer break"
+            },
+            {
               "id": "82578",
               "date": "2024-04-11T02:18:23.000Z",
               "title": "Aldi CEO says supermarkets have lowered prices when they come to town"
@@ -195,11 +252,6 @@
               "id": "82577",
               "date": "2024-04-11T02:14:13.000Z",
               "title": "How does Aldi ensure its prices are lower than Coles or Woolworths?"
-            },
-            {
-              "id": "82575",
-              "date": "2024-04-11T01:58:57.000Z",
-              "title": "Is Aldi sourcing its products locally or overseas?"
             }
           ]
         }
@@ -621,51 +673,6 @@
             "children": "'People have lost their minds': In Russia, race hate takes hold after terror attack"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103692934",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anthony Albanese at a press conference. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d07b7f34fd589c986ffe5a6be576025?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-10/pm-says-public-funds-tipped-into-green-tech-investment/103692934"
-          },
-          "contentUri": "coremedia://article/103692934",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-10/pm-says-public-funds-tipped-into-green-tech-investment/103692934",
-          "video": null,
-          "reactKey": "national-103692934-1",
-          "synopsis": "Prime Minister Anthony Albanese wants to funnel taxpayer-funded incentives towards advanced manufacturing and clean energy projects, as Australia tries to compete with US President Joe Biden's massive spending plans.",
-          "title": {
-            "children": "Albanese reveals public investment plan to compete with US Inflation Reduction Act"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "pending",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
         }
       },
       {
@@ -1111,15 +1118,15 @@
           "headingClassNames": [],
           "id": "103692674",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "A man is smiling at the camera holding an oversized jackfruit.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76b16421422765bf5304ea94c1537553?impolicy=wcms_crop_resize&cropH=365&cropW=548&xPos=142&yPos=410&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76b16421422765bf5304ea94c1537553?impolicy=wcms_crop_resize&cropH=355&cropW=632&xPos=103&yPos=417&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-04-11/large-jackfruit-harvested-feluga-farm-vegan-meat-alternative/103692674"
