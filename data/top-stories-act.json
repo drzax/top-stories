@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103711216"
+        },
+        {
           "uri": "coremedia://article/103706716"
         },
         {
@@ -99,10 +102,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/0a44e308333b83cde32c29a459873715?impolicy=wcms_crop_resize&cropH=100&cropW=100&xPos=0&yPos=0&width=160&height=160",
+              "authorName": "Elizabeth Byrne"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103711216",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Bruce looks serious as he walks through a throng of reporters, wearing suit and tie.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/716a18ca291138b0f00dc615b3688b98?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-15/bruce-lehrmann-judgment-captivated-tens-thousands/103711216"
+          },
+          "contentUri": "coremedia://article/103711216",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-15/bruce-lehrmann-judgment-captivated-tens-thousands/103711216",
+          "video": null,
+          "reactKey": "act-103711216-1",
+          "synopsis": "For the first time, a court has made findings against Bruce Lehrmann, but the dust from today's judgment in his defamation case has yet to settle.",
+          "title": {
+            "children": "Bruce Lehrmann's defamation case captivated tens of thousands, but it nearly didn't happen"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103706716",
           "imagePosition": {
             "mobile": "right",
@@ -127,7 +169,6 @@
             "children": "Five key takeways from Bruce Lehrmann's failed defamation case in the Federal Court"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
           ]
         }
