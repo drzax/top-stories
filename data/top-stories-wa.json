@@ -28,10 +28,13 @@
           "uri": "coremedia://article/103741914"
         },
         {
-          "uri": "coremedia://article/103741260"
+          "uri": "coremedia://article/103747322"
         },
         {
           "uri": "coremedia://article/103745502"
+        },
+        {
+          "uri": "coremedia://article/103741260"
         },
         {
           "uri": "coremedia://article/103744702"
@@ -53,6 +56,9 @@
         },
         {
           "uri": "coremedia://article/103745786"
+        },
+        {
+          "uri": "coremedia://article/103745904"
         },
         {
           "uri": "coremedia://article/103552492"
@@ -101,12 +107,6 @@
         },
         {
           "uri": "coremedia://article/103692464"
-        },
-        {
-          "uri": "coremedia://article/103736134"
-        },
-        {
-          "uri": "coremedia://article/103743916"
         },
         {
           "uri": "coremedia://article/103743612"
@@ -305,9 +305,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103741260",
+          "id": "103747322",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -315,22 +321,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a generic image of a child standing by a window holding a doll. the light is shadowy and their identity isn't clear",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33651e5f8fec33b29a4033b62b64b8fb?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A player jumps in the air to celebrate a goal.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2dc6bd97e542ef75ea495e9384bb3577?impolicy=wcms_crop_resize&cropH=1551&cropW=2327&xPos=306&yPos=142&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-04-19/boy-dies-by-suicide-in-state-care-as-numbers-in-care-rise/103741260"
+            "to": "/news/2024-04-19/afl-round-six-adelaide-crows-essendon-bombers-live-blog/103747322"
           },
-          "contentUri": "coremedia://article/103741260",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/boy-dies-by-suicide-in-state-care-as-numbers-in-care-rise/103741260",
+          "contentUri": "coremedia://article/103747322",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/afl-round-six-adelaide-crows-essendon-bombers-live-blog/103747322",
           "video": null,
-          "reactKey": "wa-103741260-1",
-          "synopsis": "The death of a 10-year-old Indigenous boy raises serious questions about how well the system is coping with a surge in children in state care in Western Australia. WARNING: This story contains distressing content.",
+          "reactKey": "wa-103747322-1",
+          "synopsis": "Adelaide kept their season alive with a thrilling win in round five, while Essendon's unpredictability makes them dangerous. Follow this intriguing clash from Adelaide Oval in our live blog. ",
           "title": {
-            "children": "'Unspeakable tragedy': Boy's suicide in state care prompts doubts about system's ability to cope"
+            "children": "Resurgent Crows and dangerous Bombers looks to back up impressive wins at Adelaide Oval "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -360,6 +373,37 @@
           "synopsis": "Security officer Muhammad Taha has officially been granted a permanent resident visa by the government after he confronted Joel Cauchi during Saturday's mass stabbing at Westfield Bondi Junction.",
           "title": {
             "children": "Security guard stabbed during confrontation with Bondi mass murderer granted permanent visa"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103741260",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a generic image of a child standing by a window holding a doll. the light is shadowy and their identity isn't clear",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33651e5f8fec33b29a4033b62b64b8fb?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-19/boy-dies-by-suicide-in-state-care-as-numbers-in-care-rise/103741260"
+          },
+          "contentUri": "coremedia://article/103741260",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/boy-dies-by-suicide-in-state-care-as-numbers-in-care-rise/103741260",
+          "video": null,
+          "reactKey": "wa-103741260-1",
+          "synopsis": "The death of a 10-year-old Indigenous boy raises serious questions about how well the system is coping with a surge in children in state care in Western Australia. WARNING: This story contains distressing content.",
+          "title": {
+            "children": "'Unspeakable tragedy': Boy's suicide in state care prompts doubts about system's ability to cope"
           },
           "imageContainerClassNames": []
         }
@@ -583,6 +627,37 @@
           "synopsis": "Health ministers from around the country have backed the federal government's proposed vaping bans, arguing e-cigarettes are being used as a tool to recruit new smokers.",
           "title": {
             "children": "States argue vapes 'recruiting a new generation to nicotine', urging federal parliament to enact bans"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103745904",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Bunnings store sign",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1685b5f4e9b8ed8ce0120cc4a79b6e81?impolicy=wcms_crop_resize&cropH=1269&cropW=1894&xPos=831&yPos=368&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-19/tasmanian-woman-sentenced-for-fraud-using-council-funds/103745904"
+          },
+          "contentUri": "coremedia://article/103745904",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/tasmanian-woman-sentenced-for-fraud-using-council-funds/103745904",
+          "video": null,
+          "reactKey": "wa-103745904-1",
+          "synopsis": "A Tasmanian woman who worked in administration for the Central Highlands Council has been sentenced to 18 months home detention after defrauding the council of more than $130,000 through personal purchases from Bunnings, Harvey Norman and a liquor store for almost a decade. ",
+          "title": {
+            "children": "Woman sentenced to home imprisonment after using council money to buy $135k worth of household, hardware and other items for herself"
           },
           "imageContainerClassNames": []
         }
@@ -1090,68 +1165,6 @@
           "synopsis": "Israel's defence force denies serious allegations of abuse and torture from several Gazan men who say they were detained without charge. WARNING: Readers might find some of the details in this story distressing.",
           "title": {
             "children": "'I wish that no one sees what I've seen': Gazans make shocking claims about being imprisoned by the IDF"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103736134",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Charlene O'Sullivan and Briony Goodsell",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8318b434fc74a2ebfebf3109592cd30?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-19/mother-warns-against-crocodile-attack-culling-northern-territory/103736134"
-          },
-          "contentUri": "coremedia://article/103736134",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/mother-warns-against-crocodile-attack-culling-northern-territory/103736134",
-          "video": null,
-          "reactKey": "wa-103736134-1",
-          "synopsis": "It's been 15 years since Charlene O'Sullivan lost her daughter to a crocodile in a waterhole near Darwin. She's warning the Northern Territory government against culling. ",
-          "title": {
-            "children": "Mother of girl taken by crocodile wants more education, not culling"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103743916",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Indonesia volcano erupting. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d77d31759234d7d0796a626d8ca091e7?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-19/thousands-evacuated-after-volcano-eruption-in-indoensia/103743916"
-          },
-          "contentUri": "coremedia://article/103743916",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-19/thousands-evacuated-after-volcano-eruption-in-indoensia/103743916",
-          "video": null,
-          "reactKey": "wa-103743916-1",
-          "synopsis": "Indonesian rescuers race to evacuate thousands of people after a volcano erupted five times, forcing authorities to close a nearby airport and issue a tsunami warning. ",
-          "title": {
-            "children": "Indonesia evacuating thousands after volcano erupts, as tsunami fear looms"
           },
           "imageContainerClassNames": []
         }
