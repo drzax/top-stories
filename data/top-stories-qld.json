@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103750970"
+        },
+        {
           "uri": "coremedia://article/103410436"
         },
         {
@@ -114,10 +117,57 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103750970",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Steve Gollschewski wears an official police uniform.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7bdd4e82458724133b576a026d1b986f?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-22/qld-steve-gollschewski-named-police-commissioner/103750970"
+          },
+          "contentUri": "coremedia://article/103750970",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-22/qld-steve-gollschewski-named-police-commissioner/103750970",
+          "video": null,
+          "reactKey": "qld-103750970-1",
+          "synopsis": "One of Queensland's most experienced police officers has been promoted to lead the force. Steve Gollschewski replaces former commissioner Katarina Carroll, who stepped down in March.",
+          "title": {
+            "children": "Steve Gollschewski takes top job as Queensland police commissioner"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103410436",
           "imagePosition": {
             "mobile": "right",
@@ -127,7 +177,7 @@
           "isMajor": false,
           "image": {
             "altText": "Man woman and 23-year-old daughter sit outside on the grass. their small brown dog at their feet",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a3e5e5c8823ab1865182e3cbcc2a887?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a3e5e5c8823ab1865182e3cbcc2a887?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -141,9 +191,7 @@
           "title": {
             "children": "'I wanted to kill him for hurting my child': Tanya Plibersek reveals daughter's fight for survivors"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -537,8 +585,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A sign saying Forbes Police Station",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/638e7fc8286a52d587f952c3e083df4e?impolicy=wcms_crop_resize&cropH=1243&cropW=1865&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Police investigate at Forbes",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68d5050a9626ef1c212c7d13a2b2d902?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=208&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -949,6 +997,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "84758",
+              "date": "2024-04-22T02:37:11.000Z",
+              "title": "ASX up at lunch driven by mining stocks"
+            },
+            {
               "id": "84755",
               "date": "2024-04-22T01:52:04.000Z",
               "title": "TikTok voices free speech concerns as US bill to ban it passes House"
@@ -957,11 +1010,6 @@
               "id": "84754",
               "date": "2024-04-22T01:30:33.000Z",
               "title": "NSW set to lose AAA credit rating with tough budget on the cards for June"
-            },
-            {
-              "id": "84752",
-              "date": "2024-04-22T00:55:12.000Z",
-              "title": "ASX jumps more than 1 per cent amid broad-based gains"
             }
           ]
         }
