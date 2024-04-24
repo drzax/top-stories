@@ -158,7 +158,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103763500",
           "imagePosition": {
@@ -168,8 +175,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a bishop at an assyrian orthodox church during a service before a person approaches and allegedley stabs him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f8b770b5cefbf9d0ad8b97be406833d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=85&yPos=0&width=160&height=107",
+            "altText": "Deputy Police Commissioner David Hudson at a press conference over an alleged double murder of a sydney couple",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8eb75139e8591827183f59d50c8d29a5?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=99&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -179,11 +186,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-04-24/nsw-sydney-counter-terrorism-raids-wakeley/103763500",
           "video": null,
           "reactKey": "act-103763500-1",
-          "synopsis": "The joint counter-terrorism team is carrying out raids as part of the ongoing investigation into last week's stabbing attack in Wakeley.",
+          "synopsis": "The joint counterterrorism team is carrying out raids as part of the ongoing investigation into last week's stabbing attack in Wakeley.",
           "title": {
-            "children": "Counter-terrorism officers carrying out raids across Sydney over church stabbing attack"
+            "children": "Counterterrorism authorities speak about raids across Sydney over church stabbing attack"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -613,7 +627,7 @@
             {
               "id": "84869",
               "date": "2024-04-24T05:42:05.000Z",
-              "title": "Will the May Budget fuel inflationary pressures?"
+              "title": "Will the May budget fuel inflationary pressures?"
             },
             {
               "id": "84863",

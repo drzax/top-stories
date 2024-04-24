@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/103763500"
+        },
+        {
           "uri": "coremedia://article/103627846"
         },
         {
@@ -23,9 +26,6 @@
         },
         {
           "uri": "coremedia://article/103764228"
-        },
-        {
-          "uri": "coremedia://article/103763500"
         },
         {
           "uri": "coremedia://article/103754336"
@@ -40,19 +40,22 @@
           "uri": "coremedia://article/103753884"
         },
         {
-          "uri": "coremedia://article/103757932"
-        },
-        {
           "uri": "coremedia://article/103764440"
         },
         {
-          "uri": "coremedia://article/103761638"
+          "uri": "coremedia://article/103753956"
+        },
+        {
+          "uri": "coremedia://article/103757932"
+        },
+        {
+          "uri": "coremedia://article/103752752"
         },
         {
           "uri": "coremedia://article/103700328"
         },
         {
-          "uri": "coremedia://article/103752752"
+          "uri": "coremedia://article/103761638"
         },
         {
           "uri": "coremedia://article/103763960"
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103761502"
-        },
-        {
-          "uri": "coremedia://article/103761630"
         }
       ]
     },
@@ -123,10 +123,57 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "103763500",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Deputy Police Commissioner David Hudson at a press conference over an alleged double murder of a sydney couple",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8eb75139e8591827183f59d50c8d29a5?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=153&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-24/nsw-sydney-counter-terrorism-raids-wakeley/103763500"
+          },
+          "contentUri": "coremedia://article/103763500",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/nsw-sydney-counter-terrorism-raids-wakeley/103763500",
+          "video": null,
+          "reactKey": "tas-103763500-1",
+          "synopsis": "The joint counterterrorism team is carrying out raids as part of the ongoing investigation into last week's stabbing attack in Wakeley.",
+          "title": {
+            "children": "Counterterrorism authorities speak about raids across Sydney over church stabbing attack"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103627846",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +183,7 @@
           "isMajor": false,
           "image": {
             "altText": "Crowd of workers holding union flags and slogans gather on green lawn",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b76f6df5f199266f2856dda5b6c86043?impolicy=wcms_crop_resize&cropH=1848&cropW=2772&xPos=614&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b76f6df5f199266f2856dda5b6c86043?impolicy=wcms_crop_resize&cropH=1848&cropW=2772&xPos=614&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +197,7 @@
           "title": {
             "children": "Tasmanian factory workers walk off job over pay gap claims with mainland colleagues"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -248,37 +293,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103763500",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a bishop at an assyrian orthodox church during a service before a person approaches and allegedley stabs him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f8b770b5cefbf9d0ad8b97be406833d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=85&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-24/nsw-sydney-counter-terrorism-raids-wakeley/103763500"
-          },
-          "contentUri": "coremedia://article/103763500",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/nsw-sydney-counter-terrorism-raids-wakeley/103763500",
-          "video": null,
-          "reactKey": "tas-103763500-1",
-          "synopsis": "The joint counter-terrorism team is carrying out raids as part of the ongoing investigation into last week's stabbing attack in Wakeley.",
-          "title": {
-            "children": "Counter-terrorism officers carrying out raids across Sydney over church stabbing attack"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -410,6 +424,68 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103764440",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An Australian Border Force officer, with badge in foreground, holds a passport in background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76a9c2868aff5022342acf6b84efcf57?impolicy=wcms_crop_resize&cropH=1080&cropW=1614&xPos=153&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-24/border-force-review-sexual-harassment-bullying/103764440"
+          },
+          "contentUri": "coremedia://article/103764440",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/border-force-review-sexual-harassment-bullying/103764440",
+          "video": null,
+          "reactKey": "tas-103764440-1",
+          "synopsis": "A workplace review of the Australian Border Force's marine unit has found sexual harassment and discrimination is so widespread, \"immediate intervention\" is needed to make it safe for the women working within it.",
+          "title": {
+            "children": "'Not safe for women': Widespread sexual harassment and discrimination found within Border Force's marine unit"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103753956",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a patterned shirt stands against a graffitied wall. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/86d4a91b07b721f3335857516f94517b?impolicy=wcms_crop_resize&cropH=2945&cropW=4417&xPos=583&yPos=388&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-24/pay-day-with-professor-jioji-ravulo/103753956"
+          },
+          "contentUri": "coremedia://article/103753956",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/pay-day-with-professor-jioji-ravulo/103753956",
+          "video": null,
+          "reactKey": "tas-103753956-1",
+          "synopsis": "It's Pay Day! Professor Jioji Ravulo explains how sharing his money with his extended family was part of life from his very first pay cheque and why, even now, he's always on the hunt for a good bargain.",
+          "title": {
+            "children": "Growing up in public housing taught Jioji Ravulo the art of budgeting. His number one tip: Always buy the specials"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103757932",
           "imagePosition": {
             "mobile": "right",
@@ -443,7 +519,38 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103764440",
+          "id": "103752752",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a textile machine inside a factory spins strips of white threads",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e5e85c78b252468b0e748d9eaee0bf6b?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=1117&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-04-24/waverley-woollen-mill-turns-150-oldest-textile-mill-australia/103752752"
+          },
+          "contentUri": "coremedia://article/103752752",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/waverley-woollen-mill-turns-150-oldest-textile-mill-australia/103752752",
+          "video": null,
+          "reactKey": "tas-103752752-1",
+          "synopsis": "Tasmania's Waverley Woollen Mills survived the Great Depression, both world wars and several near-closures. Can Australia's oldest continuously operating textile mill spin onwards into the next century?",
+          "title": {
+            "children": "Australia's oldest textile mill still spinning yarns after 150 years in Tasmania"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103700328",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -451,22 +558,24 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An Australian Border Force officer, with badge in foreground, holds a passport in background.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76a9c2868aff5022342acf6b84efcf57?impolicy=wcms_crop_resize&cropH=1080&cropW=1614&xPos=153&yPos=0&width=160&height=107",
+            "altText": "woman smiles at camera standing inkitchen with stairs leading up to her left",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a313b679f81ba01552b3fd49faea730?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-04-24/border-force-review-sexual-harassment-bullying/103764440"
+            "to": "/news/2024-04-24/councils-explore-easing-red-tape-on-tiny-home-establishments-nsw/103700328"
           },
-          "contentUri": "coremedia://article/103764440",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/border-force-review-sexual-harassment-bullying/103764440",
+          "contentUri": "coremedia://article/103700328",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/councils-explore-easing-red-tape-on-tiny-home-establishments-nsw/103700328",
           "video": null,
-          "reactKey": "tas-103764440-1",
-          "synopsis": "A workplace review of the Australian Border Force's marine unit has found sexual harassment and discrimination is so widespread, \"immediate intervention\" is needed to make it safe for the women working within it.",
+          "reactKey": "tas-103700328-1",
+          "synopsis": "Coby Koster found her way out of the rental market by purchasing a tiny home but says planning hiccups among local governments are holding other people back.",
           "title": {
-            "children": "'Not safe for women': Widespread sexual harassment and discrimination found within Border Force's marine unit"
+            "children": "Councils explore cutting red tape for tiny homes with big planning requirements"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -496,68 +605,6 @@
           "synopsis": "Premier Chris Minns says he has requested that Attorney-General Michael Daley review the circumstances leading up to the alleged murder of 28-year-old Molly Ticehurst this week. ",
           "title": {
             "children": "NSW premier open to 'urgent law reform' on domestic violence-related bail laws"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103700328",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "woman smiles at camera standing inkitchen with stairs leading up to her left",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a313b679f81ba01552b3fd49faea730?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-24/councils-explore-easing-red-tape-on-tiny-home-establishments-nsw/103700328"
-          },
-          "contentUri": "coremedia://article/103700328",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/councils-explore-easing-red-tape-on-tiny-home-establishments-nsw/103700328",
-          "video": null,
-          "reactKey": "tas-103700328-1",
-          "synopsis": "Coby Koster found her way out of the rental market by purchasing a tiny home but says planning hiccups among local governments are holding other people back.",
-          "title": {
-            "children": "Councils explore cutting red tape for tiny homes with big planning requirements"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103752752",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a textile machine inside a factory spins strips of white threads",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e5e85c78b252468b0e748d9eaee0bf6b?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=1117&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-04-24/waverley-woollen-mill-turns-150-oldest-textile-mill-australia/103752752"
-          },
-          "contentUri": "coremedia://article/103752752",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/waverley-woollen-mill-turns-150-oldest-textile-mill-australia/103752752",
-          "video": null,
-          "reactKey": "tas-103752752-1",
-          "synopsis": "Tasmania's Waverley Woollen Mills survived the Great Depression, both world wars and several near-closures. Can Australia's oldest continuously operating textile mill spin onwards into the next century?",
-          "title": {
-            "children": "Australia's oldest textile mill still spinning yarns after 150 years in Tasmania"
           },
           "imageContainerClassNames": []
         }
@@ -731,7 +778,7 @@
             {
               "id": "84869",
               "date": "2024-04-24T05:42:05.000Z",
-              "title": "Will the May Budget fuel inflationary pressures?"
+              "title": "Will the May budget fuel inflationary pressures?"
             },
             {
               "id": "84863",
@@ -1213,37 +1260,6 @@
           "synopsis": "As Anthony Albanese and James Marape continue an unprecedented joint trek up and down the mountains and valleys, they walk with a shared purpose: to acknowledge their history, to embody the friendship of two nations and to promote peace in the region. ",
           "title": {
             "children": "Albanese and PNG PM walk, talk and catch a breath together, as they climb Kokoda Track"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103761630",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A large crowd of people holding up signs in front of a university building",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30e11c29f9b16135d72d39281c56b8eb?impolicy=wcms_crop_resize&cropH=920&cropW=1380&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-24/palestine-gaza-war-protests-us-college-campus-columbia-yale-nyu/103761630"
-          },
-          "contentUri": "coremedia://article/103761630",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-24/palestine-gaza-war-protests-us-college-campus-columbia-yale-nyu/103761630",
-          "video": null,
-          "reactKey": "tas-103761630-1",
-          "synopsis": "Student protests in the US over the war in Gaza intensify and expand, with a number of encampments now in place at colleges including Columbia, Yale, and New York University.  ",
-          "title": {
-            "children": "Pro-Palestine protests spread across US colleges, with students arrested at Yale, NYU and Columbia"
           },
           "imageContainerClassNames": []
         }
