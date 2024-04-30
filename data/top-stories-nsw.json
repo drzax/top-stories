@@ -19,7 +19,7 @@
           "uri": "coremedia://article/103783180"
         },
         {
-          "uri": "coremedia://article/103782106"
+          "uri": "coremedia://article/103784442"
         },
         {
           "uri": "coremedia://article/103781128"
@@ -28,13 +28,13 @@
           "uri": "coremedia://article/103783618"
         },
         {
+          "uri": "coremedia://article/103782106"
+        },
+        {
           "uri": "coremedia://article/103783236"
         },
         {
           "uri": "coremedia://article/103784218"
-        },
-        {
-          "uri": "coremedia://article/103784442"
         },
         {
           "uri": "coremedia://article/103783458"
@@ -120,14 +120,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -156,14 +149,7 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          ]
         }
       },
       {
@@ -200,9 +186,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103782106",
+          "id": "103784442",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -210,22 +202,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a weather map showing rain across the state, particularly along the east coast",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31c202bba6d4bc15565fb4adb5c908cb?impolicy=wcms_crop_resize&cropH=862&cropW=1293&xPos=102&yPos=218&width=160&height=107",
+            "altText": "A bonza aircraft on a runway",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8daa97ca30dd34df94b726e5a32c32a0?impolicy=wcms_crop_resize&cropH=1378&cropW=2067&xPos=139&yPos=322&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-04-30/australia-weather-stalls-ten-days-rain-weekend-flooding-nsw/103782106"
+            "to": "/news/2024-04-30/bonza-blog-budget-airline-cancels-flights/103784442"
           },
-          "contentUri": "coremedia://article/103782106",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-30/australia-weather-stalls-ten-days-rain-weekend-flooding-nsw/103782106",
+          "contentUri": "coremedia://article/103784442",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-30/bonza-blog-budget-airline-cancels-flights/103784442",
           "video": null,
-          "reactKey": "nsw-103782106-1",
-          "synopsis": "Thanks to a stalled high-pressure system, known as a \"blocking high\", rain — and potentially flooding — could be on the cards for New South Wales.",
+          "reactKey": "nsw-103784442-1",
+          "synopsis": "The cancellation of Bonza flights strands potentially thousands of passengers across the country, as the regional airline considers its future. Follow live. ",
           "title": {
-            "children": "How a split in the jet stream could bring a 10-day soaking to NSW"
+            "children": "Bonza cancels all flights as bosses consider airline's future"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "85791",
+              "date": "2024-04-30T03:25:32.000Z",
+              "title": "Can I get a refund from Bonza?"
+            },
+            {
+              "id": "85775",
+              "date": "2024-04-30T02:59:42.000Z",
+              "title": "Bonza customers should visit customer service desks of other airlines, minister says"
+            },
+            {
+              "id": "85758",
+              "date": "2024-04-30T01:28:56.000Z",
+              "title": "Qantas and Jetstar say they will offer free flights to those stranded by Bonza, on routes where seats are available"
+            }
+          ]
         }
       },
       {
@@ -295,6 +310,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103782106",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a weather map showing rain across the state, particularly along the east coast",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31c202bba6d4bc15565fb4adb5c908cb?impolicy=wcms_crop_resize&cropH=862&cropW=1293&xPos=102&yPos=218&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-04-30/australia-weather-stalls-ten-days-rain-weekend-flooding-nsw/103782106"
+          },
+          "contentUri": "coremedia://article/103782106",
+          "canonicalURL": "https://www.abc.net.au/news/2024-04-30/australia-weather-stalls-ten-days-rain-weekend-flooding-nsw/103782106",
+          "video": null,
+          "reactKey": "nsw-103782106-1",
+          "synopsis": "Thanks to a stalled high-pressure system, known as a \"blocking high\", rain — and potentially flooding — could be on the cards for New South Wales.",
+          "title": {
+            "children": "How a split in the jet stream could bring a 10-day soaking to NSW"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103783236",
           "imagePosition": {
             "mobile": "right",
@@ -350,66 +396,6 @@
             "children": "Police arrest trio from fishing boat allegedly importing almost half a tonne of cocaine"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103784442",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A bonza aircraft on a runway",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8daa97ca30dd34df94b726e5a32c32a0?impolicy=wcms_crop_resize&cropH=1378&cropW=2067&xPos=139&yPos=322&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-04-30/bonza-blog-budget-airline-cancels-flights/103784442"
-          },
-          "contentUri": "coremedia://article/103784442",
-          "canonicalURL": "https://www.abc.net.au/news/2024-04-30/bonza-blog-budget-airline-cancels-flights/103784442",
-          "video": null,
-          "reactKey": "nsw-103784442-1",
-          "synopsis": "The cancellation of Bonza flights strands potentially thousands of passengers across the country, as the regional airline considers its future. Follow live. ",
-          "title": {
-            "children": "Bonza cancels all flights as bosses consider airline's future"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "85791",
-              "date": "2024-04-30T03:25:32.000Z",
-              "title": "Can I get a refund from Bonza?"
-            },
-            {
-              "id": "85775",
-              "date": "2024-04-30T02:59:42.000Z",
-              "title": "Bonza customers should visit customer service desks of other airlines, minister says"
-            },
-            {
-              "id": "85758",
-              "date": "2024-04-30T01:28:56.000Z",
-              "title": "Qantas and Jetstar say they will offer free flights to those stranded by Bonza, on routes where seats are available"
-            }
-          ]
         }
       },
       {
