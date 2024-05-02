@@ -982,7 +982,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103793584",
           "imagePosition": {
@@ -1007,7 +1013,14 @@
           "title": {
             "children": "NSW club patrons affected by potential data breach may need new drivers licences"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -1253,7 +1266,7 @@
           "reactKey": "tas-103792834-1",
           "synopsis": "Jayne Stinson, who is the first South Australian MP to take 20 weeks maternity leave, is calling for more support for parents working in state parliament, after giving birth to a son earlier this year. ",
           "title": {
-            "children": "'A feat to get a pram around the building': MP on maternity leave calls for SA parliament to be more inclusive"
+            "children": "Jayne Stinson has 'made history' as the first MP to take maternity leave in SA. Now she's calling for more change"
           },
           "imageContainerClassNames": []
         }
