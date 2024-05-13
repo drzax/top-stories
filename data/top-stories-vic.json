@@ -55,6 +55,9 @@
           "uri": "coremedia://article/103836730"
         },
         {
+          "uri": "coremedia://article/103838906"
+        },
+        {
           "uri": "coremedia://article/103794966"
         },
         {
@@ -109,13 +112,10 @@
           "uri": "coremedia://article/103836256"
         },
         {
-          "uri": "coremedia://article/103711250"
-        },
-        {
           "uri": "coremedia://article/103790000"
         },
         {
-          "uri": "coremedia://article/103831110"
+          "uri": "coremedia://article/103711250"
         }
       ]
     },
@@ -125,8 +125,9 @@
         "props": {
           "contentLabels": [
             {
-              "labelText": "live",
-              "contentType": "live",
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
               "lang": "en"
             }
           ],
@@ -152,7 +153,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-05-13/plane-emergency-incident-newcastle-airport/103838786",
           "video": null,
           "reactKey": "vic-103838786-1",
-          "synopsis": "The plane's engines appeared to power down as it approached the runway at Newcastle airport and touched down, eventually sliding to a stop to the loud cheers of onlookers who had lined the perimeter fence.",
+          "synopsis": "The plane's engines appeared to power down as it approached the runway at Newcastle airport and touched down at 12:18pm, eventually sliding to a stop to the loud cheers of onlookers who had lined the perimeter fence.",
           "title": {
             "children": "Plane makes emergency landing in Newcastle with three onboard after landing gear fails"
           },
@@ -168,6 +169,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "87960",
+              "date": "2024-05-13T03:20:56.000Z",
+              "title": "Passengers appear to hug each other after touching the ground"
+            },
+            {
               "id": "87958",
               "date": "2024-05-13T03:05:52.000Z",
               "title": "Problem was detected 10 minutes into flight, ABC understands"
@@ -176,11 +182,6 @@
               "id": "87955",
               "date": "2024-05-13T02:50:55.000Z",
               "title": "Aviation expert says pilot performed a 'text-book style' emergency landing"
-            },
-            {
-              "id": "87953",
-              "date": "2024-05-13T02:39:31.000Z",
-              "title": "Emergency landing outcome 'is looking good'"
             }
           ]
         }
@@ -602,6 +603,37 @@
           "synopsis": "Joe Biden's growing criticism of Israel has left Benjamin Netanyahu having to choose between Israel's strongest supporter, which bankrolls its military, and two far-right politicians.",
           "title": {
             "children": "Biden's tough words forced Netanyahu to make a choice this week — and he chose two far-right kingmakers"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103838906",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Convicted child sex offender Allan Hopkins.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7243a9b6ee108be8e52f5f4a45d92e93?impolicy=wcms_crop_resize&cropH=315&cropW=472&xPos=0&yPos=78&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-13/sa-man-wanted-over-child-sex-offences-arrested-interstate/103838906"
+          },
+          "contentUri": "coremedia://article/103838906",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-13/sa-man-wanted-over-child-sex-offences-arrested-interstate/103838906",
+          "video": null,
+          "reactKey": "vic-103838906-1",
+          "synopsis": "A South Australian man wanted over alleged serious sexual offending involving a child under the age of 18 has been arrested in New South Wales. ",
+          "title": {
+            "children": "SA man wanted for alleged child sex offences arrested interstate"
           },
           "imageContainerClassNames": []
         }
@@ -1214,37 +1246,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103711250",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A graphic image of a person holding about 10 nangs, which are small cannisters of nitrous oxide.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/79592081ccad2e1c3028c064e76ad21b?impolicy=wcms_crop_resize&cropH=1433&cropW=2150&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-13/nitrous-oxide-nang-addiction-health-impacts-laughing-gas/103711250"
-          },
-          "contentUri": "coremedia://article/103711250",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-13/nitrous-oxide-nang-addiction-health-impacts-laughing-gas/103711250",
-          "video": null,
-          "reactKey": "vic-103711250-1",
-          "synopsis": "It's believed about 600,000 Australians inhale nitrous oxide but there are dangerous complications of misusing the gas — which can lead to paralysis, incontinence, and even death.",
-          "title": {
-            "children": "Paralysed after chasing a 'high'. This is how nitrous oxide misuse is impacting the health of Australians"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103790000",
           "imagePosition": {
             "mobile": "right",
@@ -1276,28 +1277,28 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103831110",
+          "id": "103711250",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
-            "altText": "An archival, faded colour photo of a group of people on a rock off the Darwin coast.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/592e5ed9de4797d17c444b88430a7347?impolicy=wcms_crop_resize&cropH=896&cropW=1590&xPos=0&yPos=86&width=862&height=485",
-            "imgRatio": "16x9"
+            "altText": "A graphic image of a person holding about 10 nangs, which are small cannisters of nitrous oxide.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/79592081ccad2e1c3028c064e76ad21b?impolicy=wcms_crop_resize&cropH=1433&cropW=2150&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-05-12/nt-darwin-rocksitters-celebrate-50-years/103831110"
+            "to": "/news/2024-05-13/nitrous-oxide-nang-addiction-health-impacts-laughing-gas/103711250"
           },
-          "contentUri": "coremedia://article/103831110",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-12/nt-darwin-rocksitters-celebrate-50-years/103831110",
+          "contentUri": "coremedia://article/103711250",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-13/nitrous-oxide-nang-addiction-health-impacts-laughing-gas/103711250",
           "video": null,
-          "reactKey": "vic-103831110-1",
-          "synopsis": "Over half a century, the Darwin Rocksitters have seen romances blossom, shared a drink with Jimmy Barnes and set an incredible world record. This is how it all began.",
+          "reactKey": "vic-103711250-1",
+          "synopsis": "It's believed about 600,000 Australians inhale nitrous oxide but there are dangerous complications of misusing the gas — which can lead to paralysis, incontinence, and even death.",
           "title": {
-            "children": "'One big party': Darwin Rocksitters recall 50 years of friendship, mishaps and world records"
+            "children": "Paralysed after chasing a 'high'. This is how nitrous oxide misuse is impacting the health of Australians"
           },
           "imageContainerClassNames": []
         }
