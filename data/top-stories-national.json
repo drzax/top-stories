@@ -103,12 +103,6 @@
           "uri": "coremedia://article/103838068"
         },
         {
-          "uri": "coremedia://article/103827614"
-        },
-        {
-          "uri": "coremedia://article/103838026"
-        },
-        {
           "uri": "coremedia://article/103837854"
         },
         {
@@ -123,7 +117,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -135,8 +135,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A plane flies at a low altitude with its landing gear retracted.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad723e4f53bba3b2a79378e5143ea06a?impolicy=wcms_crop_resize&cropH=385&cropW=577&xPos=190&yPos=124&width=862&height=575",
+            "altText": "The light plane landed safely at Newcastle Airport just after noon today",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fc36c4e9f8b12227a39c52cb2626f49?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -152,6 +152,29 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "87953",
+              "date": "2024-05-13T02:39:31.000Z",
+              "title": "'It is looking good'"
+            },
+            {
+              "id": "87952",
+              "date": "2024-05-13T02:31:38.000Z",
+              "title": "Awaiting crowds cheered the plane's landing"
+            },
+            {
+              "id": "87950",
+              "date": "2024-05-13T02:23:21.000Z",
+              "title": "Plane has landed safely at Newcastle airport"
+            }
           ]
         }
       },
@@ -1100,68 +1123,6 @@
           "synopsis": "Novak Djokovic suffers his earliest exit at the Italian Open, saying his balance and coordination were off after a water bottle fell on his head after his previous match.",
           "title": {
             "children": "Novak Djokovic a 'completely different player' in shock Rome loss after water bottle incident"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103827614",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A composite image of Latrell Mitchell, Scott Drinkwater and Bradman Best during NRL games.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a59109c8b06fa1f2df30b3a9c90c1761?impolicy=wcms_crop_resize&cropH=284&cropW=427&xPos=427&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-13/nrl-round-up-bradman-best-state-of-origin-tom-trbojevic-injuries/103827614"
-          },
-          "contentUri": "coremedia://article/103827614",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-13/nrl-round-up-bradman-best-state-of-origin-tom-trbojevic-injuries/103827614",
-          "video": null,
-          "reactKey": "national-103827614-1",
-          "synopsis": "Latrell Mitchell's return does little to inspire the Rabbitohs, the Cowboys and Warriors continue to slide, and Bradman Best re-emerges in the State of Origin frame as other options break down. Here's this week's NRL Round-Up.",
-          "title": {
-            "children": "NRL Round-Up — Drinkwater drops the ball and Bradman the Best option as injuries ravage Blues"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103838026",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Ella Toone lies on the grass with a bottle of champagne while celebrating Manchester United's FA Cup win.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/934ac2a2960a6c7a216557c1caf19448?impolicy=wcms_crop_resize&cropH=1688&cropW=2532&xPos=1413&yPos=517&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-13/charli-grant-misses-out-fa-cup-final-tottenham-manchester-united/103838026"
-          },
-          "contentUri": "coremedia://article/103838026",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-13/charli-grant-misses-out-fa-cup-final-tottenham-manchester-united/103838026",
-          "video": null,
-          "reactKey": "national-103838026-1",
-          "synopsis": "Charli Grant spends most of the FA Cup final on the bench as Manchester United beats Tottenham 4-0 in front of 76,000 fans at Wembley.",
-          "title": {
-            "children": "Matildas star misses out as Manchester United wins its first Women's FA Cup final over Tottenham"
           },
           "imageContainerClassNames": []
         }

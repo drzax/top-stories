@@ -123,7 +123,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -135,8 +141,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A plane flies at a low altitude with its landing gear retracted.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad723e4f53bba3b2a79378e5143ea06a?impolicy=wcms_crop_resize&cropH=385&cropW=577&xPos=190&yPos=124&width=862&height=575",
+            "altText": "The light plane landed safely at Newcastle Airport just after noon today",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fc36c4e9f8b12227a39c52cb2626f49?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -153,6 +159,29 @@
           "imageContainerClassNames": [
             "imageHalf",
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "87953",
+              "date": "2024-05-13T02:39:31.000Z",
+              "title": "'It is looking good'"
+            },
+            {
+              "id": "87952",
+              "date": "2024-05-13T02:31:38.000Z",
+              "title": "Awaiting crowds cheered the plane's landing"
+            },
+            {
+              "id": "87950",
+              "date": "2024-05-13T02:23:21.000Z",
+              "title": "Plane has landed safely at Newcastle airport"
+            }
           ]
         }
       },
