@@ -25,6 +25,9 @@
           "uri": "coremedia://article/103863670"
         },
         {
+          "uri": "coremedia://article/103864228"
+        },
+        {
           "uri": "coremedia://article/103863982"
         },
         {
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/103859594"
-        },
-        {
-          "uri": "coremedia://article/103859680"
         }
       ]
     },
@@ -218,13 +218,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "103863670",
           "imagePosition": {
@@ -245,34 +239,42 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-05-17/afl-round-10-friday-live-blog-sydney-carlton-marn-grook/103863670",
           "video": null,
           "reactKey": "sa-103863670-1",
-          "synopsis": "Ladder-leading Sydney will face a serious test in the form of Carlton as Friday night footy brings the traditional Marn Grook game to the SCG. Follow the action in our live blog.",
+          "synopsis": "The Sydney Swans tighten their grip on the top of the AFL ladder with a convincing 52-point win over Carlton in their traditional SCG Marn Grook match.",
           "title": {
-            "children": "High-flying Swans in ominous form as they dominate Blues in traditional Marn Grook match at the SCG"
+            "children": "Sensational Swans in ominous form as they dominate Blues in SCG Marn Grook match"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103864228",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
-          "liveBlogKeyEvents": [
-            {
-              "id": "88701",
-              "date": "2024-05-17T12:19:01.000Z",
-              "title": "FT: Sensational Sydney crush Carlton by 52 points"
-            },
-            {
-              "id": "88688",
-              "date": "2024-05-17T11:43:38.000Z",
-              "title": "3QT: It's all Sydney as the Swans bust out to a 45-point lead"
-            },
-            {
-              "id": "88657",
-              "date": "2024-05-17T10:50:47.000Z",
-              "title": "HT: Swans charge ahead and lead Blues by 14"
-            }
-          ]
+          "isMajor": false,
+          "image": {
+            "altText": "Golfer Scottie Scheffler in an orange jumpsuit in his mugshot.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71647f5905b9c901383b52059e70d74a?impolicy=wcms_crop_resize&cropH=345&cropW=517&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-17/scottie-scheffler-handcuffed-outside-pga-championship/103864228"
+          },
+          "contentUri": "coremedia://article/103864228",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-17/scottie-scheffler-handcuffed-outside-pga-championship/103864228",
+          "video": null,
+          "reactKey": "sa-103864228-1",
+          "synopsis": "World number one Scottie Scheffler is reportedly detained by police just hours before the second round of the PGA Championship after trying to drive past a traffic incident.",
+          "title": {
+            "children": "World number one golfer arrested outside PGA Championship just before second round"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1230,37 +1232,6 @@
           "synopsis": "An Algerian man who went missing 26 years ago has been found in his neighbour's cellar, just 200 metres away from where he grew up, the country's justice ministry says.",
           "title": {
             "children": "'Heinous': Algerian man missing for 26 years found in neighbour's cellar"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103859680",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up of a girl's hands looking on a phone.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d54f71f9b9109fefe52f223a69b3ab6?impolicy=wcms_crop_resize&cropH=571&cropW=859&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-17/eu-says-instagram-and-facebook-are-too-addictive-in-probe/103859680"
-          },
-          "contentUri": "coremedia://article/103859680",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-17/eu-says-instagram-and-facebook-are-too-addictive-in-probe/103859680",
-          "video": null,
-          "reactKey": "sa-103859680-1",
-          "synopsis": "The EU has outlined their main concerns as the algorithms stimulating behavioural addictions in children creating the \"rabbit-hole effect\", and Meta's age assurance and verification methods. ",
-          "title": {
-            "children": "The EU says Instagram and Facebook may be too addictive for children in probe, here's what we know"
           },
           "imageContainerClassNames": []
         }
