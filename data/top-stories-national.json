@@ -37,7 +37,7 @@
           "uri": "coremedia://article/103883808"
         },
         {
-          "uri": "coremedia://article/103880594"
+          "uri": "coremedia://article/103885800"
         },
         {
           "uri": "coremedia://article/103884518"
@@ -61,6 +61,9 @@
           "uri": "coremedia://article/103885104"
         },
         {
+          "uri": "coremedia://article/103880594"
+        },
+        {
           "uri": "coremedia://article/103884620"
         },
         {
@@ -82,22 +85,13 @@
           "uri": "coremedia://article/103883318"
         },
         {
-          "uri": "coremedia://article/103878760"
+          "uri": "coremedia://article/103883746"
         },
         {
           "uri": "coremedia://article/103882114"
         },
         {
           "uri": "coremedia://article/103852588"
-        },
-        {
-          "uri": "coremedia://article/103883212"
-        },
-        {
-          "uri": "coremedia://article/103883268"
-        },
-        {
-          "uri": "coremedia://article/103883746"
         },
         {
           "uri": "coremedia://article/103884448"
@@ -109,7 +103,7 @@
           "uri": "coremedia://article/103882766"
         },
         {
-          "uri": "coremedia://article/103803352"
+          "uri": "coremedia://article/103878760"
         }
       ]
     },
@@ -378,9 +372,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103880594",
+          "id": "103885800",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -388,22 +388,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A flat lay of a calculator, an electricity bill and a mobile phone displaying an ABC article about electricity prices. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e58716fe606a96c7ca148b86d389ec1?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=67&yPos=0&width=160&height=107",
+            "altText": "AFL player, back to the camera, raises his fists in celebration, with an excited teammate running over to him",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea7d7b6f175ebbd55d6ed9018743376d?impolicy=wcms_crop_resize&cropH=2138&cropW=3207&xPos=671&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-05-23/energy-regulator-sets-new-electricity-benchmark-prices/103880594"
+            "to": "/news/2024-05-23/afl-round-11-western-bulldogs-sydney-swans-docklands-live-blog/103885800"
           },
-          "contentUri": "coremedia://article/103880594",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/energy-regulator-sets-new-electricity-benchmark-prices/103880594",
+          "contentUri": "coremedia://article/103885800",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/afl-round-11-western-bulldogs-sydney-swans-docklands-live-blog/103885800",
           "video": null,
-          "reactKey": "national-103880594-1",
-          "synopsis": "Embattled electricity consumers are set for modest relief after energy regulators cut benchmark power prices in most states.",
+          "reactKey": "national-103885800-1",
+          "synopsis": "The Sydney Swans have been the best team in the AFL through 10 rounds, coming off a thumping victory over Carlton. They face a Western Bulldogs side with renewed confidence following back-to-back wins. Follow live.",
           "title": {
-            "children": "Power pain to ease as regulator hands down modest price relief"
+            "children": "Ladder-leading Swans hunting another win against resurgent Bulldogs seeking three in a row"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "89660",
+              "date": "2024-05-23T08:46:02.000Z",
+              "title": "AFL Hall of Fame member Barry Davis dies"
+            }
+          ]
         }
       },
       {
@@ -619,6 +632,37 @@
           "synopsis": "The details of millions of Optus customers were exposed when an offshore actor hacked its company database two years ago.",
           "title": {
             "children": "Optus to defend allegations it didn't properly protect its customers' details in a cyber attack"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103880594",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A flat lay of a calculator, an electricity bill and a mobile phone displaying an ABC article about electricity prices. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e58716fe606a96c7ca148b86d389ec1?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=67&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-23/energy-regulator-sets-new-electricity-benchmark-prices/103880594"
+          },
+          "contentUri": "coremedia://article/103880594",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/energy-regulator-sets-new-electricity-benchmark-prices/103880594",
+          "video": null,
+          "reactKey": "national-103880594-1",
+          "synopsis": "Embattled electricity consumers are set for modest relief after energy regulators cut benchmark power prices in most states.",
+          "title": {
+            "children": "Power pain to ease as regulator hands down modest price relief"
           },
           "imageContainerClassNames": []
         }
@@ -847,7 +891,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103878760",
+          "id": "103883746",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -855,20 +899,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman in sunglasses wears a broadbrimmed hat crawling with hundreds of flies.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/496ba3b89d32c36d6b9218867d8427c4?impolicy=wcms_crop_resize&cropH=809&cropW=1438&xPos=0&yPos=254&width=862&height=485",
+            "altText": "A young man and woman hug beside a wrecked home, on which someone has tied an American flag.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/41b4b97b2ff45a72c68894e63c23bec4?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2024-05-23/bush-flies-surge-impact-tourists-residents-western-australia/103878760"
+            "to": "/news/2024-05-23/tornado-greenfield-iowa-damage-deaths-climate-change/103883746"
           },
-          "contentUri": "coremedia://article/103878760",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/bush-flies-surge-impact-tourists-residents-western-australia/103878760",
+          "contentUri": "coremedia://article/103883746",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/tornado-greenfield-iowa-damage-deaths-climate-change/103883746",
           "video": null,
-          "reactKey": "national-103878760-1",
-          "synopsis": "An \"absolutely shocking\" number of bush flies has caught both locals and visitors to the Gascoyne off guard, with a hot summer followed by a mild autumn blamed for the outbreak. ",
+          "reactKey": "national-103883746-1",
+          "synopsis": "One tornado which tore through the centre of the small town of Greenfield, south-west of Des Moines, left a wide trail of obliterated homes, splintered trees and crumpled cars, before bringing down turbines at a nearby wind farm.",
           "title": {
-            "children": "'Ridiculous' fly plague hits central Western Australia"
+            "children": "Five dead, at least 35 hurt as tornadoes rip through Iowa, destroying wind turbines"
           },
           "imageContainerClassNames": []
         }
@@ -937,99 +981,6 @@
           "synopsis": "Dropping in used to be a common way of staying in touch, but is it still okay to do it? An etiquette expert says unexpected visitors can be a horrifying thought for many.",
           "title": {
             "children": "'We're here!': The golden rules of dropping in to someone's house"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103883212",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Farmer texting on phone, dog on a ute nearby.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/91b70a43d40890bb5cafc1c44706e432?impolicy=wcms_crop_resize&cropH=713&cropW=1070&xPos=119&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-23/audit-office-reports-on-mobile-blackspot-program/103883212"
-          },
-          "contentUri": "coremedia://article/103883212",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/audit-office-reports-on-mobile-blackspot-program/103883212",
-          "video": null,
-          "reactKey": "national-103883212-1",
-          "synopsis": "The federal opposition had accused Labor of buying votes with the $40 million program, but the probe finds the department was \"largely effective\" in awarding money.",
-          "title": {
-            "children": "Communications minister claims vindication after probe into mobile black spot funding"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103883268",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A balding man with glasses has a small smile towards the camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd05812feda95bdfd1b0117d9120ead0?impolicy=wcms_crop_resize&cropH=631&cropW=946&xPos=0&yPos=73&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-23/bunbury-masseuse-anthony-brain-additional-sex-assault-charges/103883268"
-          },
-          "contentUri": "coremedia://article/103883268",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/bunbury-masseuse-anthony-brain-additional-sex-assault-charges/103883268",
-          "video": null,
-          "reactKey": "national-103883268-1",
-          "synopsis": "Fresh charges have been laid against Bunbury massage therapist Anthony Brain, who is alleged to have sexually assaulted multiple women.",
-          "title": {
-            "children": "West Australian massage therapist pleads not guilty to 40 new sex assault charges"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103883746",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A young man and woman hug beside a wrecked home, on which someone has tied an American flag.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/41b4b97b2ff45a72c68894e63c23bec4?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-05-23/tornado-greenfield-iowa-damage-deaths-climate-change/103883746"
-          },
-          "contentUri": "coremedia://article/103883746",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/tornado-greenfield-iowa-damage-deaths-climate-change/103883746",
-          "video": null,
-          "reactKey": "national-103883746-1",
-          "synopsis": "One tornado which tore through the centre of the small town of Greenfield, south-west of Des Moines, left a wide trail of obliterated homes, splintered trees and crumpled cars, before bringing down turbines at a nearby wind farm.",
-          "title": {
-            "children": "Five dead, at least 35 hurt as tornadoes rip through Iowa, destroying wind turbines"
           },
           "imageContainerClassNames": []
         }
@@ -1134,7 +1085,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103803352",
+          "id": "103878760",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -1142,20 +1093,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A wide landscape shot of a large federation-era mansion at sunset. A garden, large tree and sloping driveway in the foreground",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a98eaff9d4d3d81cab1d85badb515581?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485",
+            "altText": "A woman in sunglasses wears a broadbrimmed hat crawling with hundreds of flies.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/496ba3b89d32c36d6b9218867d8427c4?impolicy=wcms_crop_resize&cropH=809&cropW=1438&xPos=0&yPos=254&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2024-05-23/lamb-house-brisbane-restoration-transformation/103803352"
+            "to": "/news/2024-05-23/bush-flies-surge-impact-tourists-residents-western-australia/103878760"
           },
-          "contentUri": "coremedia://article/103803352",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/lamb-house-brisbane-restoration-transformation/103803352",
+          "contentUri": "coremedia://article/103878760",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-23/bush-flies-surge-impact-tourists-residents-western-australia/103878760",
           "video": null,
-          "reactKey": "national-103803352-1",
-          "synopsis": "The mammoth task of restoring Lamb House to its previous brilliance went millions of dollars over budget and finished years after it was expected to. But, its owners say they have \"no regrets\".",
+          "reactKey": "national-103878760-1",
+          "synopsis": "An \"absolutely shocking\" number of bush flies has caught both locals and visitors to the Gascoyne off guard, with a hot summer followed by a mild autumn blamed for the outbreak. ",
           "title": {
-            "children": "'No regrets': Owners of iconic Brisbane mansion reveal results of mammoth restoration"
+            "children": "'Ridiculous' fly plague hits central Western Australia"
           },
           "imageContainerClassNames": []
         }
