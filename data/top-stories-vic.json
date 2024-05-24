@@ -16,7 +16,7 @@
           "uri": "coremedia://article/103891766"
         },
         {
-          "uri": "coremedia://article/103891820"
+          "uri": "coremedia://article/103891362"
         },
         {
           "uri": "coremedia://article/103888008"
@@ -28,6 +28,9 @@
           "uri": "coremedia://article/103889378"
         },
         {
+          "uri": "coremedia://article/103891820"
+        },
+        {
           "uri": "coremedia://article/103887772"
         },
         {
@@ -35,6 +38,9 @@
         },
         {
           "uri": "coremedia://article/103891034"
+        },
+        {
+          "uri": "coremedia://article/103889538"
         },
         {
           "uri": "coremedia://article/103889950"
@@ -110,12 +116,6 @@
         },
         {
           "uri": "coremedia://article/103889678"
-        },
-        {
-          "uri": "coremedia://article/103887050"
-        },
-        {
-          "uri": "coremedia://article/103831590"
         }
       ]
     },
@@ -158,9 +158,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103891820",
+          "id": "103891362",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -168,22 +174,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Emergency services on a road in Glen Waverley",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a22ad30d89d08e364288a93f1b8dda88?impolicy=wcms_crop_resize&cropH=1003&cropW=1504&xPos=0&yPos=578&width=160&height=107",
+            "altText": "Alex Pearce looks on during a Fremantle AFL match against Western Bulldogs in 2024.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8703f8729fb6de6f7e15f255438b697d?impolicy=wcms_crop_resize&cropH=846&cropW=1270&xPos=854&yPos=164&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-05-24/teens-hit-by-ute-glen-waverley/103891820"
+            "to": "/news/2024-05-24/afl-round-11-dockers-magpies-live-blog/103891362"
           },
-          "contentUri": "coremedia://article/103891820",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/teens-hit-by-ute-glen-waverley/103891820",
+          "contentUri": "coremedia://article/103891362",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/afl-round-11-dockers-magpies-live-blog/103891362",
           "video": null,
-          "reactKey": "vic-103891820-1",
-          "synopsis": "A teenage girl is in critical condition, and two teenage boys are in hospital, after allegedly being hit by a ute in Melbourne's south-east on Friday afternoon.",
+          "reactKey": "vic-103891362-1",
+          "synopsis": "Walyalup/Fremantle can climb inside the top eight with a win in the west but the hosts face a tough task against in-form premiers Collingwood, as Sir Doug Nicholls Round continues. Follow live.",
           "title": {
-            "children": "Teenage girl in critical condition and two boys in hospital after being allegedly hit by ute in Glen Waverley"
+            "children": "Dockers pushing for top-eight spot against resurgent Magpies"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "89921",
+              "date": "2024-05-24T10:11:05.000Z",
+              "title": "Play underway in the west"
+            }
+          ]
         }
       },
       {
@@ -284,6 +303,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103891820",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Emergency services on a road in Glen Waverley",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a22ad30d89d08e364288a93f1b8dda88?impolicy=wcms_crop_resize&cropH=1003&cropW=1504&xPos=0&yPos=578&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-24/teens-hit-by-ute-glen-waverley/103891820"
+          },
+          "contentUri": "coremedia://article/103891820",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/teens-hit-by-ute-glen-waverley/103891820",
+          "video": null,
+          "reactKey": "vic-103891820-1",
+          "synopsis": "A teenage girl is in critical condition, and two teenage boys are in hospital, after allegedly being hit by a ute in Melbourne's south-east on Friday afternoon.",
+          "title": {
+            "children": "Teenage girl in critical condition and two boys in hospital after being allegedly hit by ute in Glen Waverley"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103887772",
           "imagePosition": {
             "mobile": "right",
@@ -370,6 +420,37 @@
           "synopsis": "The Northern Territory's anti-corruption watchdog has revealed more racist NT police awards were handed out by members of the specialist Territory Response Group, some of which it has deemed \"so offensive\" it would not be publicly released. WARNING: This story contains racist and offensive language and images.",
           "title": {
             "children": "Investigation uncovers NT police awards 'so offensive' they won't be released"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103889538",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of young men walk over piles of rocks and debris, with a green forest in the background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/640aa462a2d1a196c2a40ab58a70cbdd?impolicy=wcms_crop_resize&cropH=1866&cropW=2799&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-24/landslides-papua-new-guinea-explainer-fatalities-climate-change/103889538"
+          },
+          "contentUri": "coremedia://article/103889538",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/landslides-papua-new-guinea-explainer-fatalities-climate-change/103889538",
+          "video": null,
+          "reactKey": "vic-103889538-1",
+          "synopsis": "In addition to its hilly terrain, seismic activity and tropical climate, Papua New Guinea's population is spread across the country in a way that makes it particularly vulnerable to landslide fatalities.",
+          "title": {
+            "children": "Why does Papua New Guinea experience so many fatal landslides — and what can be done to help?"
           },
           "imageContainerClassNames": []
         }
@@ -1158,74 +1239,6 @@
           "synopsis": "The Western Bulldogs are breathing a huge sigh of relief after scans revealed Aaron Naughton will still be able to play a part in the remainder of their 2024 season.",
           "title": {
             "children": "Western Bulldogs confirm Aaron Naughton avoided dreaded ACL injury in loss to Sydney"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/fe5664b0143937992f6759457c256b98?impolicy=wcms_crop_resize&cropH=1364&cropW=1364&xPos=342&yPos=0&width=160&height=160",
-              "authorName": "Jade Macmillan"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103887050",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A court sketch depicts Donald Trump yawning. He wears a suit and blue ties.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d6b3908315601ddf78359931732bbb4?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-24/trump-trial-cliffhanger-week-in-us-politics-macmillan/103887050"
-          },
-          "contentUri": "coremedia://article/103887050",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/trump-trial-cliffhanger-week-in-us-politics-macmillan/103887050",
-          "video": null,
-          "reactKey": "vic-103887050-1",
-          "synopsis": "The rather shabby appearance of the criminal courthouse in lower Manhattan belies the history being made within its walls, as a jury prepares to deliberate over Donald Trump.",
-          "title": {
-            "children": "As we crammed into court, one big question remained. But after an abrupt answer, we hit the cliffhanger"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103831590",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A view of the Seoul skyline with mountains in the background ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e10964937a2221fa3f87d4412b71ea3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-24/a-tale-of-two-housing-markets/103831590"
-          },
-          "contentUri": "coremedia://article/103831590",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-24/a-tale-of-two-housing-markets/103831590",
-          "video": null,
-          "reactKey": "vic-103831590-1",
-          "synopsis": "Seoul is one of the most expensive cities in the world, yet some students are only paying $11 a month in rent. Here's how they're doing it.",
-          "title": {
-            "children": "Here's why you won't see an $11-a-month apartment advertised in Australia like they have in South Korea"
           },
           "imageContainerClassNames": []
         }
