@@ -13,10 +13,16 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/103915488"
+          "uri": "coremedia://article/103916844"
+        },
+        {
+          "uri": "coremedia://article/103910472"
         },
         {
           "uri": "coremedia://article/103909144"
+        },
+        {
+          "uri": "coremedia://article/103915488"
         },
         {
           "uri": "coremedia://article/103911928"
@@ -103,10 +109,7 @@
           "uri": "coremedia://article/103907264"
         },
         {
-          "uri": "coremedia://article/103869440"
-        },
-        {
-          "uri": "coremedia://article/103914136"
+          "uri": "coremedia://article/103911734"
         }
       ]
     },
@@ -114,11 +117,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "103915488",
+          "id": "103916844",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -126,25 +135,78 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A dark sky with trees in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb331e166fee2c600cf3524baa797e9e?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "altText": "An older man in a suit with a long, broad gold tie and orange hair walks through a crowd of people next to a police officer.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/11f7e3f9e4933ab2ccf55114ca8bb345?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-05-31/nsw-east-coast-low-rain-cloudbands/103915488"
+            "to": "/news/2024-05-31/donald-trump-jury-verdict-hush-money-trial/103916844"
           },
-          "contentUri": "coremedia://article/103915488",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-31/nsw-east-coast-low-rain-cloudbands/103915488",
+          "contentUri": "coremedia://article/103916844",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-31/donald-trump-jury-verdict-hush-money-trial/103916844",
           "video": null,
-          "reactKey": "nsw-103915488-1",
-          "synopsis": "A 5,000-kilometre-long cloud band travelling west to east is expected to drench parts of the country over the coming days. Following a second rainband, a separate weather system is threatening to bring heavy rain from NSW to Tasmania from Saturday to Thursday.",
+          "reactKey": "nsw-103916844-1",
+          "synopsis": "Donald Trump is found guilty on 34 felony counts of falsifying business records. Follow live. ",
           "title": {
-            "children": "Australia soaked from coast to coast by twin north-west cloud bands and a possible east coast low"
+            "children": "Trump guilty on all counts in hush money criminal trial"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "91507",
+              "date": "2024-05-30T21:09:40.000Z",
+              "title": "Jury finds Trump guilty on all 34 counts"
+            },
+            {
+              "id": "91506",
+              "date": "2024-05-30T21:07:20.000Z",
+              "title": "Trump found guilty on first count"
+            },
+            {
+              "id": "91504",
+              "date": "2024-05-30T21:05:06.000Z",
+              "title": "Donald Trump back in the courtroom"
+            }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103910472",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Trump smiles in a yellow tie and suit in a court",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd4234357f909509deb6b7f0abcf48e8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-31/donald-trump-hush-money-trial-verdict/103910472"
+          },
+          "contentUri": "coremedia://article/103910472",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-31/donald-trump-hush-money-trial-verdict/103910472",
+          "video": null,
+          "reactKey": "nsw-103910472-1",
+          "synopsis": "The jury in Donald Trump's \"hush money\" trial reaches a verdict after less than two days of deliberations in New York.",
+          "title": {
+            "children": "Jury reaches verdict in Donald Trump's criminal 'hush money' trial"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -176,6 +238,39 @@
             "children": "While the US and EU are putting up roadblocks to Chinese cars, Australia welcomes them with open arms"
           },
           "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103915488",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A dark sky with trees in the foreground.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb331e166fee2c600cf3524baa797e9e?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-05-31/nsw-east-coast-low-rain-cloudbands/103915488"
+          },
+          "contentUri": "coremedia://article/103915488",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-31/nsw-east-coast-low-rain-cloudbands/103915488",
+          "video": null,
+          "reactKey": "nsw-103915488-1",
+          "synopsis": "A 5,000-kilometre-long cloud band travelling west to east is expected to drench parts of the country over the coming days. Following a second rainband, a separate weather system is threatening to bring heavy rain from NSW to Tasmania from Saturday to Thursday.",
+          "title": {
+            "children": "Australia soaked from coast to coast by twin north-west cloud bands and a possible east coast low"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -1068,63 +1163,30 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103869440",
+          "id": "103911734",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
-            "altText": "A graphic with an ex-police officer and a woman smoking in the background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/873552f0f7605d049d6087d6c6a77aa5?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=125&width=160&height=107",
-            "imgRatio": "3x2"
+            "altText": "Chrystal blue waters and swimmers.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/86cb905506a94507c84098c49d4fd1d6?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=371&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2024-05-30/cigarettes-flood-black-market-costing-billions-in-lost-revenue/103869440"
+            "to": "/news/2024-05-31/population-growing-pains-halt-gold-sunshine-coast-movers/103911734"
           },
-          "contentUri": "coremedia://article/103869440",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-30/cigarettes-flood-black-market-costing-billions-in-lost-revenue/103869440",
+          "contentUri": "coremedia://article/103911734",
+          "canonicalURL": "https://www.abc.net.au/news/2024-05-31/population-growing-pains-halt-gold-sunshine-coast-movers/103911734",
           "video": null,
-          "reactKey": "nsw-103869440-1",
-          "synopsis": "The black market for cigarettes has exploded in plain sight, costing Australia billions in revenue. Some experts say the high price of cigarettes is to blame.",
+          "reactKey": "nsw-103911734-2",
+          "synopsis": "They're home to subtropical beaches that city slickers dream of, but an emerging trend shows some regional movers are moving away again from Australia's most popular regional cities after arrival.",
           "title": {
-            "children": "Billions are lost to gangs as fake cigarettes flood Australia. Is the war on smoking at a tipping point?"
+            "children": "Growing pains turn movers away from popular coastal cities as 'the dream is not always what they presume'"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103914136",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Arisa Trew smiles at the camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e0160d71ce3896da4bff3e0a7036522?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-05-30/arisa-trew-nails-900-tony-hawk-watch/103914136"
-          },
-          "contentUri": "coremedia://article/103914136",
-          "canonicalURL": "https://www.abc.net.au/news/2024-05-30/arisa-trew-nails-900-tony-hawk-watch/103914136",
-          "video": null,
-          "reactKey": "nsw-103914136-1",
-          "synopsis": "Arisa Trew may be just 14 years old, but she is continuing to push the boundaries of the sport, with skateboarding legend Tony Hawk hailing her latest trick.",
-          "title": {
-            "children": "'Glass ceilings are so 2023': Watch as skateboarding legend Tony Hawk hails Aussie teen's world first"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
         }
       }
     ],
