@@ -16,6 +16,9 @@
           "uri": "coremedia://article/103926064"
         },
         {
+          "uri": "coremedia://article/103927226"
+        },
+        {
           "uri": "coremedia://article/103926292"
         },
         {
@@ -111,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -137,6 +147,50 @@
           "synopsis": "A body of a woman is found following a delicate and complex search in the rubble of a townhouse that exploded in Sydney's west on Saturday.",
           "title": {
             "children": "Body found after explosion at Sydney townhouse "
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moment",
+                "showTime": 5400000,
+                "time": "2024-06-03T00:30:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103927226",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Journalist Antoinette Lattouf outside the fair work commission talking to the media ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6250fddbc4591e13195da57880938bfb?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=36&yPos=4&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-03/fair-work-commission-find-lattouf-was-sacked-by-abc-/103927226"
+          },
+          "contentUri": "coremedia://article/103927226",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-03/fair-work-commission-find-lattouf-was-sacked-by-abc-/103927226",
+          "video": null,
+          "reactKey": "nsw-103927226-1",
+          "synopsis": "Journalist and presenter Antoinette Lattouf was sacked by the ABC when she was taken off-air part way through a radio presenting stint, the Fair Work Commission has found.",
+          "title": {
+            "children": "Journalist Antoinette Lattouf was sacked by ABC, Fair Work Commission finds"
           },
           "imageContainerClassNames": []
         }
@@ -472,6 +526,11 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "92265",
+              "date": "2024-06-03T00:20:58.000Z",
+              "title": "ASX opens higher up"
+            },
             {
               "id": "92225",
               "date": "2024-06-02T12:39:36.000Z",
