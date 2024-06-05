@@ -16,10 +16,13 @@
           "uri": "coremedia://article/103932400"
         },
         {
-          "uri": "coremedia://article/103938992"
+          "uri": "coremedia://article/103928650"
         },
         {
           "uri": "coremedia://article/103941182"
+        },
+        {
+          "uri": "coremedia://article/103938992"
         },
         {
           "uri": "coremedia://article/103941522"
@@ -38,9 +41,6 @@
         },
         {
           "uri": "coremedia://article/103918970"
-        },
-        {
-          "uri": "coremedia://article/103928650"
         },
         {
           "uri": "coremedia://article/103937946"
@@ -109,13 +109,13 @@
           "uri": "coremedia://article/103786084"
         },
         {
-          "uri": "coremedia://article/103928384"
+          "uri": "coremedia://article/103936708"
         },
         {
-          "uri": "coremedia://article/103937152"
+          "uri": "coremedia://article/103883584"
         },
         {
-          "uri": "coremedia://article/103897888"
+          "uri": "coremedia://article/103927948"
         }
       ]
     },
@@ -159,9 +159,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "103938992",
+          "id": "103928650",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -169,22 +175,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An image of a man holding a long black object walking past a bush on a suburban street",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/62c510dd143e04e8b49c43148f3a909a?impolicy=wcms_crop_resize&cropH=326&cropW=490&xPos=0&yPos=201&width=160&height=107",
+            "altText": "Jarome Luai of the Blues and Reece Walsh of the Maroons scuffle ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/551f735327bf16be724beb3a9ae19742?impolicy=wcms_crop_resize&cropH=1192&cropW=1789&xPos=611&yPos=76&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-06-05/greg-lynn-victorian-campers-murder-trial-nissan-patrol-altered/103938992"
+            "to": "/news/2024-06-05/state-of-origin-live-nsw-blues-queensland-maroons-game-one/103928650"
           },
-          "contentUri": "coremedia://article/103938992",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/greg-lynn-victorian-campers-murder-trial-nissan-patrol-altered/103938992",
+          "contentUri": "coremedia://article/103928650",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/state-of-origin-live-nsw-blues-queensland-maroons-game-one/103928650",
           "video": null,
-          "reactKey": "act-103938992-1",
-          "synopsis": "The 57-year-old has pleaded not guilty to the alleged murders of Carol Clay and Russell Hill and will give evidence on Thursday.",
+          "reactKey": "act-103928650-1",
+          "synopsis": "A new captain, new coach and six players set to take the field for the first time in tonight's opening men's State of Origin clash between New South Wales and Queensland at Sydney's Olympic stadium. Follow live.",
           "title": {
-            "children": "Greg Lynn, accused of murdering two campers, will take the stand in Supreme Court trial"
+            "children": "New-look Blues and Maroons kick off 2024 men's State of Origin series in Sydney"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "92740",
+              "date": "2024-06-05T10:08:07.000Z",
+              "title": "1' The Blues kick off and Origin I is underway!"
+            },
+            {
+              "id": "92732",
+              "date": "2024-06-05T09:13:50.000Z",
+              "title": "The teams are 1-17"
+            },
+            {
+              "id": "92730",
+              "date": "2024-06-05T09:08:30.000Z",
+              "title": "Who is making their State of Origin debut tonight?"
+            }
+          ]
         }
       },
       {
@@ -218,6 +247,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103938992",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An image of a man holding a long black object walking past a bush on a suburban street",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/62c510dd143e04e8b49c43148f3a909a?impolicy=wcms_crop_resize&cropH=326&cropW=490&xPos=0&yPos=201&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-05/greg-lynn-victorian-campers-murder-trial-nissan-patrol-altered/103938992"
+          },
+          "contentUri": "coremedia://article/103938992",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/greg-lynn-victorian-campers-murder-trial-nissan-patrol-altered/103938992",
+          "video": null,
+          "reactKey": "act-103938992-1",
+          "synopsis": "The 57-year-old has pleaded not guilty to the alleged murders of Carol Clay and Russell Hill and will give evidence on Thursday.",
+          "title": {
+            "children": "Greg Lynn, accused of murdering two campers, will take the stand in Supreme Court trial"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -407,61 +467,6 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "103928650",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Jarome Luai of the Blues and Reece Walsh of the Maroons scuffle ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/551f735327bf16be724beb3a9ae19742?impolicy=wcms_crop_resize&cropH=1192&cropW=1789&xPos=611&yPos=76&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-05/state-of-origin-live-nsw-blues-queensland-maroons-game-one/103928650"
-          },
-          "contentUri": "coremedia://article/103928650",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/state-of-origin-live-nsw-blues-queensland-maroons-game-one/103928650",
-          "video": null,
-          "reactKey": "act-103928650-1",
-          "synopsis": "A new captain, new coach and six players set to take the field for the first time in tonight's opening men's State of Origin clash between New South Wales and Queensland at Sydney's Olympic stadium. Follow live.",
-          "title": {
-            "children": "New-look Blues and Maroons kick off 2024 men's State of Origin series in Sydney"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "92732",
-              "date": "2024-06-05T09:13:50.000Z",
-              "title": "The teams are 1-17"
-            },
-            {
-              "id": "92730",
-              "date": "2024-06-05T09:08:30.000Z",
-              "title": "Who is making their State of Origin debut tonight?"
-            }
           ]
         }
       },
@@ -1158,7 +1163,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103928384",
+          "id": "103936708",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1166,20 +1171,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An elderly man standing beside a forest green vintage car in his backyard",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06a8d3be0fa50e813f5e3378d18f3f52?impolicy=wcms_crop_resize&cropH=2523&cropW=3785&xPos=108&yPos=324&width=862&height=575",
+            "altText": "A man carries a Palestinian child.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/955cc004eee9ba576f051fc0b569b4e9?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=11&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-06-05/general-electric-1898-thomson-surrey-steam-car-drives-wide-bay/103928384"
+            "to": "/news/2024-06-05/new-fighting-flares-in-central-gaza-as-ceasefire-push-continues/103936708"
           },
-          "contentUri": "coremedia://article/103928384",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/general-electric-1898-thomson-surrey-steam-car-drives-wide-bay/103928384",
+          "contentUri": "coremedia://article/103936708",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/new-fighting-flares-in-central-gaza-as-ceasefire-push-continues/103936708",
           "video": null,
-          "reactKey": "act-103928384-1",
-          "synopsis": "Once driven by General Electric masterminds, a historic vehicle has been restarted by a Wide Bay collector more than a century later.",
+          "reactKey": "act-103936708-1",
+          "synopsis": "Palestinian medics say Israeli shelling and air strikes killed at least 19 people in central and south Gaza on Tuesday, as the US President Joe Biden suggests Israeli Prime Minister Benjamin Netanyahu is dragging out the Gaza war for political reasons.",
           "title": {
-            "children": "Steam car that once carried world-famous inventors fires up in Queensland backyard"
+            "children": "New fighting flares in central Gaza as Biden suggests Netanyahu is prolonging war for political gains"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -1191,7 +1196,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103937152",
+          "id": "103883584",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1199,22 +1204,24 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "download-2024-31-24-13.57.57",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17a73f3ce6dbd7259704f2371bfc3c7e?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=18&width=160&height=107",
+            "altText": "Waves crash onto Bar Beach, Newcastle.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a4c63e27432aee188564e23e27d7e87?impolicy=wcms_crop_resize&cropH=1825&cropW=2746&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-06-05/esafety-elon-musk-x-church-stabbing-videos-court-case/103937152"
+            "to": "/news/2024-06-05/australias-second-largest-cities-outpace-capital-property-prices/103883584"
           },
-          "contentUri": "coremedia://article/103937152",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/esafety-elon-musk-x-church-stabbing-videos-court-case/103937152",
+          "contentUri": "coremedia://article/103883584",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/australias-second-largest-cities-outpace-capital-property-prices/103883584",
           "video": null,
-          "reactKey": "act-103937152-1",
-          "synopsis": "The eSafety commissioner will abandon its legal case against Elon Musk's X to have graphic footage of a terrorist stabbing removed from the social media platform.",
+          "reactKey": "act-103883584-1",
+          "synopsis": "With Australian households spending an increasingly large chunk of their incomes on housing, it's no wonder some of us are looking for more affordable alternatives. ",
           "title": {
-            "children": "eSafety drops case against Elon Musk's X over church stabbing videos"
+            "children": "Australians leaving the big smoke for cities like Newcastle and Geelong, and it's actually a 'pretty smart move'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -1222,7 +1229,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103897888",
+          "id": "103927948",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1230,20 +1237,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A aged school photo of a smiling primary school aged girl with short blond hair.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dc1127b3bb53bb8c91011ec485bd5dfd?impolicy=wcms_crop_resize&cropH=159&cropW=239&xPos=12&yPos=71&width=160&height=107",
+            "altText": "A composite image featuring cricketers Virat Kohli, Mitch Marsh and Jos Buttler",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/16323590af6a956f0415323e7fceca8f?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-06-05/dissociative-identity-disorder-maggie-walters/103897888"
+            "to": "/news/2024-06-05/australia-preview-cricket-t20-twenty20-world-cup-preview-how/103927948"
           },
-          "contentUri": "coremedia://article/103897888",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/dissociative-identity-disorder-maggie-walters/103897888",
+          "contentUri": "coremedia://article/103927948",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-05/australia-preview-cricket-t20-twenty20-world-cup-preview-how/103927948",
           "video": null,
-          "reactKey": "act-103897888-1",
-          "synopsis": "It took years for Maggie Walters to be diagnosed with dissociative identity disorder, formerly known as multiple personality disorder. For many like her, the journey is marked by financial hardship and stigma, but Maggie hopes her story shows happiness is possible.",
+          "reactKey": "act-103927948-1",
+          "synopsis": "Australia starts its T20 Cricket World Cup campaign against Oman in Barbados on Thursday morning. Here's what you need to know about their chances.",
           "title": {
-            "children": "Abuse splintered Maggie's mind into multiple personalities but she's learned to 'co-exist' with her alters"
+            "children": "As Australia prepares to play its first match, here's everything you need to know about the T20 World Cup"
           },
           "imageContainerClassNames": []
         }
