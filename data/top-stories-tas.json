@@ -697,7 +697,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103966800",
           "imagePosition": {
@@ -720,9 +726,32 @@
           "reactKey": "tas-103966800-1",
           "synopsis": "A Senate committee is calling on PwC to disclose the \"names and positions\" of those involved in the embattled consultancy firm's controversial tax leaks scandal. Follow live.",
           "title": {
-            "children": "Live updates: Senate report into PwC scandal released, ASX lower in afternoon trade"
+            "children": "Senate report into PwC scandal released, ASX lower in afternoon trade"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "94117",
+              "date": "2024-06-12T05:21:36.000Z",
+              "title": "Need a refresher on consulting firms and the Senate inquiry examining them?"
+            },
+            {
+              "id": "94058",
+              "date": "2024-06-12T00:38:00.000Z",
+              "title": "ASX opens lower as Bapcor continues gains on takeover talk"
+            },
+            {
+              "id": "94048",
+              "date": "2024-06-12T00:00:13.000Z",
+              "title": "WeWork CEO steps down as company emerges from bankruptcy"
+            }
+          ]
         }
       },
       {
