@@ -70,6 +70,9 @@
           "uri": "coremedia://article/103963982"
         },
         {
+          "uri": "coremedia://article/103986298"
+        },
+        {
           "uri": "coremedia://article/103986594"
         },
         {
@@ -111,7 +114,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -123,8 +132,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Cheng Lei appears on Q+A.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cf363dd523e70f5e9cc8401a3211747?impolicy=wcms_crop_resize&cropH=991&cropW=1487&xPos=218&yPos=89&width=862&height=575",
+            "altText": "Lei smiles awkwardly, holding a notebook, as a person stands in front of her.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e2ce45f6d58886c3feec0b195c47bf5b?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -140,6 +149,29 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "95206",
+              "date": "2024-06-17T04:38:31.000Z",
+              "title": "'Do you trust' China, PM asked"
+            },
+            {
+              "id": "95203",
+              "date": "2024-06-17T04:30:53.000Z",
+              "title": "📹 Chinese officials appear to block Cheng Lei at event"
+            },
+            {
+              "id": "95198",
+              "date": "2024-06-17T04:08:37.000Z",
+              "title": "Dutton says Li visit gives him 'hope' for future"
+            }
           ]
         }
       },
@@ -231,9 +263,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-17/bruce-lehrmann-rape-charges-tooowoomba-magistrates-court/103985466",
           "video": null,
           "reactKey": "vic-103985466-1",
-          "synopsis": "It is the first time Mr Lehrmann has appeared personally at Toowoomba Magistrates Court since he was charged with two counts of rape in December 2022.",
+          "synopsis": "The complainant testified via video link from a remote location, with the court ordering Mr Lehrmann be obscured from the woman's view during her evidence.",
           "title": {
-            "children": "Complainant in rape case against Bruce Lehrmann begins giving evidence in court"
+            "children": "Bruce Lehrmann's lawyers to make a 'no case to answer' application on rape charges"
           },
           "imageContainerClassNames": []
         }
@@ -713,6 +745,37 @@
           "synopsis": "After a stalker tracked Isla's car and bugged her home, she was given a similar tracking device. She wants all DV survivors to be offered one.",
           "title": {
             "children": "Isla is a DV survivor, so why does she take a tracking device everywhere she goes?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103986298",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man wearing a car backwards stands by a bright green car, with its doors open.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/867ce6df67caed27014660bd1aa3099b?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=326&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-17/nick-kyrgios-telsa-stolen-gunpoint-left-mother-in-fear/103986298"
+          },
+          "contentUri": "coremedia://article/103986298",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-17/nick-kyrgios-telsa-stolen-gunpoint-left-mother-in-fear/103986298",
+          "video": null,
+          "reactKey": "vic-103986298-1",
+          "synopsis": "The ACT Supreme Court hears Norlaila Kyrgios remains consumed by \"trauma and fear\" after a man pointed a gun at her and stole her son's $125,000 Tesla. ",
+          "title": {
+            "children": "'Stole my sense of safety': Court hears Nick Kyrgios's mother is consumed by fear after son's Tesla stolen at gunpoint"
           },
           "imageContainerClassNames": []
         }
