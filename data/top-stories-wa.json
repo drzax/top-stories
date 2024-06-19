@@ -314,7 +314,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104000712",
           "imagePosition": {
@@ -339,7 +346,14 @@
           "title": {
             "children": "Man charged with murder and attempted murder over Mackay shootings"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -641,6 +655,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "95444",
+              "date": "2024-06-19T23:31:51.000Z",
+              "title": "Eagers Automotive back-pays $16m to workers after self-reporting underpayments to regulator"
+            },
+            {
               "id": "95441",
               "date": "2024-06-19T23:08:10.000Z",
               "title": "Insolvencies for Australian businesses hit record high"
@@ -649,11 +668,6 @@
               "id": "95440",
               "date": "2024-06-19T22:57:45.000Z",
               "title": "Surf’s up: Australia’s breaks inject almost $3 billion into the economy each year"
-            },
-            {
-              "id": "95439",
-              "date": "2024-06-19T22:13:07.000Z",
-              "title": "Guzman Y Gomez is listing on ASX today"
             }
           ]
         }

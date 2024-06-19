@@ -100,9 +100,6 @@
           "uri": "coremedia://article/103997622"
         },
         {
-          "uri": "coremedia://article/103890730"
-        },
-        {
           "uri": "coremedia://article/104000050"
         }
       ]
@@ -243,7 +240,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104000712",
           "imagePosition": {
@@ -268,7 +272,14 @@
           "title": {
             "children": "Man charged with murder and attempted murder over Mackay shootings"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -762,6 +773,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "95444",
+              "date": "2024-06-19T23:31:51.000Z",
+              "title": "Eagers Automotive back-pays $16m to workers after self-reporting underpayments to regulator"
+            },
+            {
               "id": "95441",
               "date": "2024-06-19T23:08:10.000Z",
               "title": "Insolvencies for Australian businesses hit record high"
@@ -770,11 +786,6 @@
               "id": "95440",
               "date": "2024-06-19T22:57:45.000Z",
               "title": "Surf’s up: Australia’s breaks inject almost $3 billion into the economy each year"
-            },
-            {
-              "id": "95439",
-              "date": "2024-06-19T22:13:07.000Z",
-              "title": "Guzman Y Gomez is listing on ASX today"
             }
           ]
         }
@@ -1060,39 +1071,6 @@
             "children": "Absurd, chaotic delight: This is the great emu war like you've never seen it before"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103890730",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with black hair and a beige coat holds up her phone while winding through dense reeds and bushland at dusk.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f5b9c924862d95d8de465aa59df71fc4?impolicy=wcms_crop_resize&cropH=1471&cropW=2206&xPos=357&yPos=321&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-20/tasmanias-oldest-elusive-geocache-attracts-600-seekers/103890730"
-          },
-          "contentUri": "coremedia://article/103890730",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/tasmanias-oldest-elusive-geocache-attracts-600-seekers/103890730",
-          "video": null,
-          "reactKey": "act-103890730-1",
-          "synopsis": "Nestled in dense bushland in Tasmania's north exists the state's oldest geocache. It's attracted hundreds of people globally in the search for it.",
-          "title": {
-            "children": "Christal is the latest in a decades-long list of worldwide hunters searching out Tasmania's oldest geocache"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
         }
       },
       {
