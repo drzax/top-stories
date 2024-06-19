@@ -251,7 +251,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "103999440",
           "imagePosition": {
@@ -261,8 +268,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two investigators speaking near a police car with flashing lights.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/16497f6813cae7b628e8eb4a3e145959?impolicy=wcms_crop_resize&cropH=1796&cropW=2694&xPos=0&yPos=766&width=160&height=107",
+            "altText": "Police arrest a man at a fuel station.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/112d1928120c885cfca7289948c03f88?impolicy=wcms_crop_resize&cropH=440&cropW=660&xPos=28&yPos=355&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -272,11 +279,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-19/qld-south-mackay-pspa-emergency-situation-gunman/103999440",
           "video": null,
           "reactKey": "act-103999440-1",
-          "synopsis": "The emergency situation was declared at approximately 5:20pm, with boundaries encompassing Robb Place, Paradise Street, Archibald Street, Kindermar Street and Denton Street.",
+          "synopsis": "A man is in police custody but the emergency declaration across parts of South Mackay remains active.",
           "title": {
-            "children": "Emergency declared in Mackay as police hunt gunman after woman found dead"
+            "children": "Man arrested following manhunt after a woman was shot dead"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
