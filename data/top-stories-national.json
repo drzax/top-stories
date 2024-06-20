@@ -222,14 +222,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "104001698",
           "imagePosition": {
@@ -256,20 +249,7 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": [
-              {
-                "title": "Live Moment",
-                "showTime": 5400000,
-                "time": "2024-06-20T04:00:00.000Z"
-              }
-            ],
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          ]
         }
       },
       {
@@ -534,6 +514,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "95471",
+              "date": "2024-06-20T04:43:01.000Z",
+              "title": "NZ escapes from recession … barely"
+            },
+            {
               "id": "95460",
               "date": "2024-06-20T03:25:49.000Z",
               "title": "Guzman y Gomez shares surge on debut, but that's not the full story"
@@ -542,11 +527,6 @@
               "id": "95459",
               "date": "2024-06-20T02:26:50.000Z",
               "title": "ASX flat as miners and banks tread water"
-            },
-            {
-              "id": "95458",
-              "date": "2024-06-20T02:07:24.000Z",
-              "title": "Guzman Y Gomez shares begin trading $8 higher than listing price"
             }
           ]
         }
@@ -819,7 +799,7 @@
           "isMajor": false,
           "image": {
             "altText": "An elderly woman wearing glasses and an apron smiles in front of a kitchen bench covered with food",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25b6d08d6f472c553ef360677c231dc7?impolicy=wcms_crop_resize&cropH=1127&cropW=1690&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25b6d08d6f472c553ef360677c231dc7?impolicy=wcms_crop_resize&cropH=1143&cropW=1714&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -833,7 +813,9 @@
           "title": {
             "children": "Mary's not-so-secret side hustle to health and happiness at 101"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {

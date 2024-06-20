@@ -22,6 +22,9 @@
           "uri": "coremedia://article/104000664"
         },
         {
+          "uri": "coremedia://article/103995582"
+        },
+        {
           "uri": "coremedia://article/103998556"
         },
         {
@@ -50,6 +53,9 @@
         },
         {
           "uri": "coremedia://article/103995144"
+        },
+        {
+          "uri": "coremedia://article/104000066"
         },
         {
           "uri": "coremedia://article/103967858"
@@ -105,14 +111,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -141,20 +140,7 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": [
-              {
-                "title": "Live Moment",
-                "showTime": 5400000,
-                "time": "2024-06-20T04:00:00.000Z"
-              }
-            ],
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          ]
         }
       },
       {
@@ -225,6 +211,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103995582",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Brunette woman, wearing a black t-shirt, smiling at the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3a5520a38ed5603195ff3b9ea36c107?impolicy=wcms_crop_resize&cropH=187&cropW=281&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/molly-ticehurst-murder-accused-daniel-billings-in-court/103995582"
+          },
+          "contentUri": "coremedia://article/103995582",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/molly-ticehurst-murder-accused-daniel-billings-in-court/103995582",
+          "video": null,
+          "reactKey": "nsw-103995582-1",
+          "synopsis": "Police allege Daniel Billings sexually assaulted and intimidated the 28-year-old childcare worker over a series of months before murdering her in April.",
+          "title": {
+            "children": "Man accused of murdering Molly Ticehurst appears in court"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -539,6 +556,66 @@
             "children": "Keith Kerinauia found guilty of murder of Darwin bottle shop worker Declan Laverty"
           },
           "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104000066",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a suit, seen from behind, looks at the ASX share price boards.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3be55dca0dcf8a2ddd075dd909fb6c7?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/asx-markets-business-live-news-june20-2024/104000066"
+          },
+          "contentUri": "coremedia://article/104000066",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/asx-markets-business-live-news-june20-2024/104000066",
+          "video": null,
+          "reactKey": "nsw-104000066-1",
+          "synopsis": "The ASX200 has slipped lower after a weak lead from European markets. Wall Street was closed overnight for a federal holiday. Mexican fast-food chain Guzman Y Gomez to list on the ASX today.",
+          "title": {
+            "children": "Mexican fast-food chain Guzman Y Gomez listing today, ASX down slightly, super funds on track for strong returns"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "95471",
+              "date": "2024-06-20T04:43:01.000Z",
+              "title": "NZ escapes from recession … barely"
+            },
+            {
+              "id": "95460",
+              "date": "2024-06-20T03:25:49.000Z",
+              "title": "Guzman y Gomez shares surge on debut, but that's not the full story"
+            },
+            {
+              "id": "95459",
+              "date": "2024-06-20T02:26:50.000Z",
+              "title": "ASX flat as miners and banks tread water"
+            }
+          ]
         }
       },
       {
