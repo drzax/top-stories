@@ -37,6 +37,9 @@
           "uri": "coremedia://article/103998172"
         },
         {
+          "uri": "coremedia://article/103942930"
+        },
+        {
           "uri": "coremedia://article/104000600"
         },
         {
@@ -61,10 +64,10 @@
           "uri": "coremedia://article/104000712"
         },
         {
-          "uri": "coremedia://article/104001368"
+          "uri": "coremedia://article/104000066"
         },
         {
-          "uri": "coremedia://article/104000066"
+          "uri": "coremedia://article/104001368"
         },
         {
           "uri": "coremedia://article/103998976"
@@ -76,31 +79,28 @@
           "uri": "coremedia://article/104001936"
         },
         {
+          "uri": "coremedia://article/103995280"
+        },
+        {
           "uri": "coremedia://article/103997554"
         },
         {
           "uri": "coremedia://article/103998030"
         },
         {
-          "uri": "coremedia://article/103995280"
-        },
-        {
           "uri": "coremedia://article/103998784"
         },
         {
-          "uri": "coremedia://article/104000886"
+          "uri": "coremedia://article/104000880"
         },
         {
-          "uri": "coremedia://article/104000880"
+          "uri": "coremedia://article/104000886"
         },
         {
           "uri": "coremedia://article/104001912"
         },
         {
           "uri": "coremedia://article/103995144"
-        },
-        {
-          "uri": "coremedia://article/103999222"
         },
         {
           "uri": "coremedia://article/103511152"
@@ -381,6 +381,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103942930",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Black labrador dog laying on grass wearing guide dog banner and purple vest",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac820e3f43b70353bc71be63ddf93376?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=1484&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/support-dogs-help-reduce-anxiety-stress-wa-childrens-courts/103942930"
+          },
+          "contentUri": "coremedia://article/103942930",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/support-dogs-help-reduce-anxiety-stress-wa-childrens-courts/103942930",
+          "video": null,
+          "reactKey": "wa-103942930-1",
+          "synopsis": "Kids and families have reported a reduction in stress and anxiety with waggy-tailed Winston, a black labrador, by their side.",
+          "title": {
+            "children": "Research backs statewide rollout of support dogs at WA Children's Courts"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104000600",
           "imagePosition": {
             "mobile": "right",
@@ -472,7 +503,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104001698",
           "imagePosition": {
@@ -497,7 +535,20 @@
           "title": {
             "children": "Police search for ute driver over alleged fatal road rage attack in Western Sydney"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moment",
+                "showTime": 5400000,
+                "time": "2024-06-20T04:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -526,7 +577,7 @@
           "reactKey": "wa-104000074-1",
           "synopsis": "Vladimir Putin has visited North Korea for the first time in 24 years, signing a new partnership that one expert has described as an anti-West coalition.",
           "title": {
-            "children": "Concerns for the West as Russia and North Korea sign pact to protect one another"
+            "children": "Vladimir Putin and Kim Jong Un agree to deploy 'all means' if the other is pushed into war"
           },
           "imageContainerClassNames": []
         }
@@ -635,37 +686,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104001368",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Penny Wong in a dark pantsuit and Richard Marles in a dark suit and red tie sitting at a table.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9804c18e8098d4789daf2b090c758395?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-20/australia-gives-2-million-in-funding-to-png-landslide-relief/104001368"
-          },
-          "contentUri": "coremedia://article/104001368",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/australia-gives-2-million-in-funding-to-png-landslide-relief/104001368",
-          "video": null,
-          "reactKey": "wa-104001368-1",
-          "synopsis": "The Australian Government has announced it will provide $2 million in extra funding to assist Papua New Guinea's recovery response to last month's devastating landslide in Enga Province.",
-          "title": {
-            "children": "Australia to provide $2 million in extra funding to assist with PNG's landslide recovery"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -721,6 +741,37 @@
               "title": "Guzman Y Gomez shares begin trading $8 higher than listing price"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104001368",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Penny Wong in a dark pantsuit and Richard Marles in a dark suit and red tie sitting at a table.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9804c18e8098d4789daf2b090c758395?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/australia-gives-2-million-in-funding-to-png-landslide-relief/104001368"
+          },
+          "contentUri": "coremedia://article/104001368",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/australia-gives-2-million-in-funding-to-png-landslide-relief/104001368",
+          "video": null,
+          "reactKey": "wa-104001368-1",
+          "synopsis": "The Australian Government has announced it will provide $2 million in extra funding to assist Papua New Guinea's recovery response to last month's devastating landslide in Enga Province.",
+          "title": {
+            "children": "Australia to provide $2 million in extra funding to assist with PNG's landslide recovery"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -821,6 +872,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "103995280",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young woman sits on a couch, in front of a laptop with two printed bills in her hands, looking shocked.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f9bf0bda22e23525ef3017cf119ca7fd?impolicy=wcms_crop_resize&cropH=2860&cropW=4289&xPos=632&yPos=395&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/how-to-save-money-on-your-car-insurance/103995280"
+          },
+          "contentUri": "coremedia://article/103995280",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/how-to-save-money-on-your-car-insurance/103995280",
+          "video": null,
+          "reactKey": "wa-103995280-1",
+          "synopsis": "Is your car insurance policy due for renewal soon? If you're a loyal customer, your insurer may not be giving you the deal you deserve.",
+          "title": {
+            "children": "Car insurers expect you to be 'lazy' with finding a better deal — here's how to beat them"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103997554",
           "imagePosition": {
             "mobile": "right",
@@ -883,37 +965,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "103995280",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A young woman sits on a couch, in front of a laptop with two printed bills in her hands, looking shocked.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f9bf0bda22e23525ef3017cf119ca7fd?impolicy=wcms_crop_resize&cropH=2860&cropW=4289&xPos=632&yPos=395&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-20/how-to-save-money-on-your-car-insurance/103995280"
-          },
-          "contentUri": "coremedia://article/103995280",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/how-to-save-money-on-your-car-insurance/103995280",
-          "video": null,
-          "reactKey": "wa-103995280-1",
-          "synopsis": "Is your car insurance policy due for renewal soon? If you're a loyal customer, your insurer may not be giving you the deal you deserve.",
-          "title": {
-            "children": "Car insurers expect you to be 'lazy' with finding a better deal — here's how to beat them"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103998784",
           "imagePosition": {
             "mobile": "right",
@@ -945,37 +996,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104000886",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of soldiers can be seen around an excavator working in a field",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e0eac84183aaa744f96bcac9fbad8f?impolicy=wcms_crop_resize&cropH=1219&cropW=1829&xPos=100&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-20/north-south-korea-border-tension-explainer/104000886"
-          },
-          "contentUri": "coremedia://article/104000886",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/north-south-korea-border-tension-explainer/104000886",
-          "video": null,
-          "reactKey": "wa-104000886-1",
-          "synopsis": "Overgrown trees and shrubbery appear to be the cause behind 30 North Korean soldiers crossing the demarcation line separating the two countries, who are still technically at war.",
-          "title": {
-            "children": "What led to warning shots at the North Korean border?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104000880",
           "imagePosition": {
             "mobile": "top",
@@ -998,6 +1018,37 @@
           "synopsis": "The poster-sized displays will be paired with a four-paragraph \"context statement\" on the religious text's role in the US education system.",
           "title": {
             "children": "The Ten Commandments are going up in every Louisiana public school under this new law"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104000886",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of soldiers can be seen around an excavator working in a field",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e0eac84183aaa744f96bcac9fbad8f?impolicy=wcms_crop_resize&cropH=1219&cropW=1829&xPos=100&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-20/north-south-korea-border-tension-explainer/104000886"
+          },
+          "contentUri": "coremedia://article/104000886",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/north-south-korea-border-tension-explainer/104000886",
+          "video": null,
+          "reactKey": "wa-104000886-1",
+          "synopsis": "Overgrown trees and shrubbery appear to be the cause behind 30 North Korean soldiers crossing the demarcation line separating the two countries, who are still technically at war.",
+          "title": {
+            "children": "What led to warning shots at the North Korean border?"
           },
           "imageContainerClassNames": []
         }
@@ -1060,37 +1111,6 @@
           "synopsis": "A jury has found Keith Kerinauia guilty of the murder of Darwin bottle shop worker Declan Laverty, following an eight-day trial in the NT Supreme Court.",
           "title": {
             "children": "Keith Kerinauia found guilty of murder of Darwin bottle shop worker Declan Laverty"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103999222",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two women with hands in gloves sift through a tray of dirt and maggots.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c01f965eae2ac47b7a1a4065ebd42345?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=13&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-20/maggots-help-reduce-food-waste-sydney-solution/103999222"
-          },
-          "contentUri": "coremedia://article/103999222",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-20/maggots-help-reduce-food-waste-sydney-solution/103999222",
-          "video": null,
-          "reactKey": "wa-103999222-1",
-          "synopsis": "A 12-month trial using Goterra's black soldier fly larvae system will begin with hopes it can be extended to all Sydney residents. ",
-          "title": {
-            "children": "Food scraps make up about a third of general waste bins. City of Sydney hopes maggots can help reduce this"
           },
           "imageContainerClassNames": []
         }
@@ -1183,7 +1203,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-20/the-emu-war-interview-hot-dad-productions/103997622",
           "video": null,
           "reactKey": "wa-103997622-1",
-          "synopsis": "The great emu war of 1932 is as baked into Australian lore as vegemite and chucking a sickie after a big weekend. A new film from some of our country's brightest comedy makers turns the tale into an ochre Apocalypse Now.",
+          "synopsis": "The great emu war of 1932 is as baked into Australian lore as vegemite and chucking a sickie after a big weekend. A new film from some of our country's brightest comedy makers turns the tale into an ocker Apocalypse Now.",
           "title": {
             "children": "Absurd, chaotic delight: This is the great emu war as you've never seen it before"
           },

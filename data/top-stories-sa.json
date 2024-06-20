@@ -390,7 +390,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104001698",
           "imagePosition": {
@@ -417,7 +424,20 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": [
+              {
+                "title": "Live Moment",
+                "showTime": 5400000,
+                "time": "2024-06-20T04:00:00.000Z"
+              }
+            ],
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -477,7 +497,7 @@
           "reactKey": "sa-104000074-1",
           "synopsis": "Vladimir Putin has visited North Korea for the first time in 24 years, signing a new partnership that one expert has described as an anti-West coalition.",
           "title": {
-            "children": "Concerns for the West as Russia and North Korea sign pact to protect one another"
+            "children": "Vladimir Putin and Kim Jong Un agree to deploy 'all means' if the other is pushed into war"
           },
           "imageContainerClassNames": []
         }
@@ -1260,7 +1280,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-20/the-emu-war-interview-hot-dad-productions/103997622",
           "video": null,
           "reactKey": "sa-103997622-1",
-          "synopsis": "The great emu war of 1932 is as baked into Australian lore as vegemite and chucking a sickie after a big weekend. A new film from some of our country's brightest comedy makers turns the tale into an ochre Apocalypse Now.",
+          "synopsis": "The great emu war of 1932 is as baked into Australian lore as vegemite and chucking a sickie after a big weekend. A new film from some of our country's brightest comedy makers turns the tale into an ocker Apocalypse Now.",
           "title": {
             "children": "Absurd, chaotic delight: This is the great emu war as you've never seen it before"
           },
