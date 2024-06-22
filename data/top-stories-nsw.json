@@ -25,10 +25,13 @@
           "uri": "coremedia://article/104010626"
         },
         {
-          "uri": "coremedia://article/104010890"
+          "uri": "coremedia://article/104010996"
         },
         {
           "uri": "coremedia://article/104011096"
+        },
+        {
+          "uri": "coremedia://article/104010890"
         },
         {
           "uri": "coremedia://article/103917022"
@@ -104,12 +107,6 @@
         },
         {
           "uri": "coremedia://article/104008996"
-        },
-        {
-          "uri": "coremedia://article/104010550"
-        },
-        {
-          "uri": "coremedia://article/103963990"
         },
         {
           "uri": "coremedia://article/104000888"
@@ -248,32 +245,61 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104010890",
+          "id": "104010996",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
-            "altText": "A conical capsule space capsule above the Earth approaches the camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f6c5195b252543c5f1ec04fe8bc7a77?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
+            "altText": "David Fifita runs the ball for the Titans against the Warriors.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b487e06b6408235b31bfb5b37ba26a29?impolicy=wcms_crop_resize&cropH=2665&cropW=3997&xPos=459&yPos=379&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-06-22/boeing-starliner-technical-problems-international-space-station/104010890"
+            "to": "/news/2024-06-22/nrl-live-titans-warriors-roosters-bulldogs-rabbitohs-sea-eagles/104010996"
           },
-          "contentUri": "coremedia://article/104010890",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-22/boeing-starliner-technical-problems-international-space-station/104010890",
+          "contentUri": "coremedia://article/104010996",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-22/nrl-live-titans-warriors-roosters-bulldogs-rabbitohs-sea-eagles/104010996",
           "video": null,
-          "reactKey": "nsw-104010890-1",
-          "synopsis": "The space capsule's first crewed flight has experienced five failures of its 28 manoeuvring thrusters, five leaks of helium and a slow-moving propellant valve that signal unfixed issues from past flights.",
+          "reactKey": "nsw-104010996-1",
+          "synopsis": "The Warriors travel to the Gold Coast to take on the Titans, before a top-eight clash between the Roosters and the Bulldogs in Gosford and the day wraps up with South Sydney vs Manly at the Olympic stadium.",
           "title": {
-            "children": "Mechanical failures postpone Boeing Starliner's return to Earth, with no date set for astronauts' flight home"
+            "children": "Titans belting in-form Warriors on the Gold Coast"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "95746",
+              "date": "2024-06-22T05:32:20.000Z",
+              "title": "27'  Try Titans!"
+            },
+            {
+              "id": "95740",
+              "date": "2024-06-22T05:25:14.000Z",
+              "title": "21' Beau Fermor gets over!"
+            },
+            {
+              "id": "95736",
+              "date": "2024-06-22T05:19:49.000Z",
+              "title": "17' Try Titans!"
+            }
+          ]
         }
       },
       {
@@ -334,6 +360,37 @@
               "title": "Hipwood slams through his third as onslaught continues"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104010890",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A conical capsule space capsule above the Earth approaches the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f6c5195b252543c5f1ec04fe8bc7a77?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-06-22/boeing-starliner-technical-problems-international-space-station/104010890"
+          },
+          "contentUri": "coremedia://article/104010890",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-22/boeing-starliner-technical-problems-international-space-station/104010890",
+          "video": null,
+          "reactKey": "nsw-104010890-1",
+          "synopsis": "The space capsule's first crewed flight has experienced five failures of its 28 manoeuvring thrusters, five leaks of helium and a slow-moving propellant valve that signal unfixed issues from past flights.",
+          "title": {
+            "children": "Mechanical failures postpone Boeing Starliner's return to Earth, with no date set for astronauts' flight home"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1125,68 +1182,6 @@
           "synopsis": "Victoria's health minister has described the treatment of an Aboriginal woman who self-discharged from hospital as \"shocking\", while government data shows an increase in the number of First Peoples leaving hospitals against medical advice",
           "title": {
             "children": "Sissy Austin was confused and concussed after a violent assault. She was discharged onto the street at 1am"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104010550",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two older white man in legal garb stand outside a courthouse in front of a bank of microphones.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/269ccc13b9312721ff2c20f94e9ab671?impolicy=wcms_crop_resize&cropH=877&cropW=1316&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-22/billionaires-receive-prison-for-worker-exploitation/104010550"
-          },
-          "contentUri": "coremedia://article/104010550",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-22/billionaires-receive-prison-for-worker-exploitation/104010550",
-          "video": null,
-          "reactKey": "nsw-104010550-1",
-          "synopsis": "An Indian-born billionaire and three family members are sentenced to prison for exploiting domestic workers at their lakeside villa in Switzerland by seizing their passports, barring them from going out and making them work up to 18 hours a day.",
-          "title": {
-            "children": "Billionaire family members sentenced to four-year prison terms for exploiting domestic workers in Switzerland"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "103963990",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with a green top sits at a desk with paperwork and phone, her hair is over her face and hand on the side of head.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f5db49f7cbb6e4a2587805f4e49015d?impolicy=wcms_crop_resize&cropH=2172&cropW=3258&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-22/rental-increase-rules-housing-crisis/103963990"
-          },
-          "contentUri": "coremedia://article/103963990",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-22/rental-increase-rules-housing-crisis/103963990",
-          "video": null,
-          "reactKey": "nsw-103963990-1",
-          "synopsis": "If you're renting, you'll know that rental increases are a fact of life. But you do have options if you think your landlord (or their agent) is asking for too much.",
-          "title": {
-            "children": "How do I fight a rental increase from my landlord? "
           },
           "imageContainerClassNames": []
         }
