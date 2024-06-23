@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104010814"
+          "uri": "coremedia://article/104012888"
         },
         {
-          "uri": "coremedia://article/104012888"
+          "uri": "coremedia://article/104010814"
         },
         {
           "uri": "coremedia://article/104007820"
@@ -108,10 +108,55 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104012888",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "People stand outside a shopping centre.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a7d9e345b20814710408624ba266e657?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-06-23/westfield-marion-shopping-centre-adelaide-incident/104012888"
+          },
+          "contentUri": "coremedia://article/104012888",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-23/westfield-marion-shopping-centre-adelaide-incident/104012888",
+          "video": null,
+          "reactKey": "national-104012888-1",
+          "synopsis": "SA Police has advised the public to stay away from Westfield's Marion Shopping Centre in Adelaide.",
+          "title": {
+            "children": "Police responding to 'incident' at Marion Shopping Centre in Adelaide"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104010814",
           "imagePosition": {
             "mobile": "right",
@@ -121,7 +166,7 @@
           "isMajor": false,
           "image": {
             "altText": "A young woman in a red jumper and large round glasses with long blonde hair and a neutral expression",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4311df258d50cb2561377a21d70231d0?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4311df258d50cb2561377a21d70231d0?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -134,39 +179,6 @@
           "synopsis": "Failings by two of Australia's major IVF companies allowed a man to keep donating sperm over several years using different names. Katherine Dawson is now urgently trying to find her half-siblings.",
           "title": {
             "children": "Katherine's sperm donor father could have created up to 700 children. She has a message for her siblings"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104012888",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up image of an SA Police car.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b7a60d5f5dc1518895d3bd8e86147f4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-23/westfield-marion-shopping-centre-adelaide-incident/104012888"
-          },
-          "contentUri": "coremedia://article/104012888",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-23/westfield-marion-shopping-centre-adelaide-incident/104012888",
-          "video": null,
-          "reactKey": "national-104012888-1",
-          "synopsis": "SA Police has advised the public to stay away from Westfield's Marion Shopping Centre in Adelaide.",
-          "title": {
-            "children": "Police responding to 'incident' at Marion Shopping Centre in Adelaide"
           },
           "imageContainerClassNames": []
         }
@@ -406,6 +418,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "96087",
+              "date": "2024-06-23T06:55:45.000Z",
+              "title": "HALF-TIME: The Tigers lead Canberra 18-2"
+            },
+            {
               "id": "96059",
               "date": "2024-06-23T06:10:13.000Z",
               "title": "Lachie Galvin has his first NRL try!"
@@ -414,11 +431,6 @@
               "id": "96055",
               "date": "2024-06-23T06:06:12.000Z",
               "title": "1' The Tigers kick us off at Campbelltown"
-            },
-            {
-              "id": "96045",
-              "date": "2024-06-23T05:39:27.000Z",
-              "title": "Today's teams, featuring a surprise debut"
             }
           ]
         }
