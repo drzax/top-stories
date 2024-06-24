@@ -217,7 +217,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104017074",
           "imagePosition": {
@@ -240,9 +247,16 @@
           "reactKey": "qld-104017074-1",
           "synopsis": "Police are investigating the deaths of four people who were found dead at a house in Broadmeadows, in Melbourne's north, in the early hours of this morning. ",
           "title": {
-            "children": "Four people found dead in a house in Melbourne's north"
+            "children": "Police speak after four people found dead in a house in Melbourne's north"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -546,6 +560,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "96368",
+              "date": "2024-06-24T23:23:12.000Z",
+              "title": "Qantas snaps up second-hand planes for its QantasLink fleet"
+            },
+            {
               "id": "96361",
               "date": "2024-06-24T22:32:22.000Z",
               "title": "Peter Dutton's nuclear swing signals a backflip on Coalition ideology"
@@ -554,11 +573,6 @@
               "id": "96359",
               "date": "2024-06-24T22:04:09.000Z",
               "title": "Resources minister says gas prices will go up, but won't surpass the price cap"
-            },
-            {
-              "id": "96357",
-              "date": "2024-06-24T21:34:00.000Z",
-              "title": "A mixed bag of results on Wall Street after Nvidia sheds 6.7 per cent"
             }
           ]
         }
