@@ -16,6 +16,9 @@
           "uri": "coremedia://article/104017074"
         },
         {
+          "uri": "coremedia://article/104017664"
+        },
+        {
           "uri": "coremedia://article/104006544"
         },
         {
@@ -37,10 +40,16 @@
           "uri": "coremedia://article/104015222"
         },
         {
+          "uri": "coremedia://article/104017318"
+        },
+        {
           "uri": "coremedia://article/104015518"
         },
         {
           "uri": "coremedia://article/104017206"
+        },
+        {
+          "uri": "coremedia://article/104017156"
         },
         {
           "uri": "coremedia://article/104003452"
@@ -50,6 +59,9 @@
         },
         {
           "uri": "coremedia://article/104017166"
+        },
+        {
+          "uri": "coremedia://article/103927266"
         },
         {
           "uri": "coremedia://article/104015834"
@@ -104,18 +116,6 @@
         },
         {
           "uri": "coremedia://article/104015216"
-        },
-        {
-          "uri": "coremedia://article/104016884"
-        },
-        {
-          "uri": "coremedia://article/104015158"
-        },
-        {
-          "uri": "coremedia://article/104016060"
-        },
-        {
-          "uri": "coremedia://article/104014632"
         }
       ]
     },
@@ -123,14 +123,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -153,20 +146,44 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-25/four-people-found-dead-in-broadmeadows/104017074",
           "video": null,
           "reactKey": "vic-104017074-1",
-          "synopsis": "Police are investigating the deaths of four people who were found dead at a house in Broadmeadows, in Melbourne's north, in the early hours of this morning. ",
+          "synopsis": "Police say they are keeping an \"open mind\" as they investigate whether a drug overdose caused the deaths of four people found in the living room of a home in Melbourne's north this morning.",
           "title": {
-            "children": "Police speak after four people found dead in a house in Melbourne's north"
+            "children": "Police keeping 'open mind' while investigating four deaths at home in Melbourne's north"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104017664",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
-          "liveBlogKeyEvents": []
+          "isMajor": false,
+          "image": {
+            "altText": "Julian Assange looks to the camera as he is photographed from behind glass with graffiti etched into it. His grey hair is back.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac98ccfb9536694b6b8b1284af2d125e?impolicy=wcms_crop_resize&cropH=468&cropW=701&xPos=14&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-25/julian-assange-set-to-plead-guilty-to-us-espionage-charge/104017664"
+          },
+          "contentUri": "coremedia://article/104017664",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-25/julian-assange-set-to-plead-guilty-to-us-espionage-charge/104017664",
+          "video": null,
+          "reactKey": "vic-104017664-1",
+          "synopsis": "WikiLeaks founder Julian Assange could walk free after a plea deal with US prosecutors to plead guilty to one count of espionage, court documents suggest. ",
+          "title": {
+            "children": "Assange to walk free after plea deal, court documents suggest"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -397,6 +414,66 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104017318",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Adam Bandt",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a0e93213e14f431d949347bca731345?impolicy=wcms_crop_resize&cropH=970&cropW=1455&xPos=313&yPos=262&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-25/federal-parliament-live-blog-june25/104017318"
+          },
+          "contentUri": "coremedia://article/104017318",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-25/federal-parliament-live-blog-june25/104017318",
+          "video": null,
+          "reactKey": "vic-104017318-1",
+          "synopsis": "Greens leader Adam Bandt confirms the minor party will move a motion to recognise Palestine in the Senate today, after a Labor senator revealed she was considering crossing the floor. Follow live.  ",
+          "title": {
+            "children": "Adam Bandt sets up test for Labor ranks as Fatima Payman considers crossing the floor"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "96379",
+              "date": "2024-06-24T23:37:38.000Z",
+              "title": "Govt releases statement on Julian Assange"
+            },
+            {
+              "id": "96373",
+              "date": "2024-06-24T23:33:55.000Z",
+              "title": "PM has long called for Assange's return to Australia"
+            },
+            {
+              "id": "96370",
+              "date": "2024-06-24T23:30:19.000Z",
+              "title": "Breaking: Julian Assange set to plead guilty to US espionage charge as part of plea deal"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "104015518",
@@ -452,6 +529,37 @@
           "synopsis": "The historic Regent Cinemas, once the largest 'movie palace' in regional Victoria has closed, effective immediately, after almost 100 years of screening films.",
           "title": {
             "children": "'Heartbreaking closure' of beloved century-old cinema stuns regional city's moviegoers"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104017156",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Man surfing a wave ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31f1c8343284438cdcf5afd0795f6a77?impolicy=wcms_crop_resize&cropH=1209&cropW=1814&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-25/former-pro-surfer-tamayo-perry-dies-shark-attack-/104017156"
+          },
+          "contentUri": "coremedia://article/104017156",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-25/former-pro-surfer-tamayo-perry-dies-shark-attack-/104017156",
+          "video": null,
+          "reactKey": "vic-104017156-1",
+          "synopsis": "Tamayo Perry, who appeared in the Pirates of the Caribbean series, has died after being attacked by a shark while surfing. ",
+          "title": {
+            "children": "Pirates of the Caribbean actor and former pro surfer killed in shark attack"
           },
           "imageContainerClassNames": []
         }
@@ -576,6 +684,37 @@
               "title": "Peter Dutton's nuclear swing signals a backflip on Coalition ideology"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103927266",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a composite photo showing images of dargo and bush nurses.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f291245f07b0a5492908da0bd68bd451?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=66&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-25/bush-nursees-in-remote-areas-saving-lives-for-a-century/103927266"
+          },
+          "contentUri": "coremedia://article/103927266",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-25/bush-nursees-in-remote-areas-saving-lives-for-a-century/103927266",
+          "video": null,
+          "reactKey": "vic-103927266-1",
+          "synopsis": "Bush nurses are often the first responders to emergencies in remote areas, which means they could be delivering a baby one day, and saving someone's life on the back of a ute the next.",
+          "title": {
+            "children": "'The goanna had a good go at this person's leg': Why bush nurses need to be prepared for just about anything"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1142,130 +1281,6 @@
           "synopsis": "Multiple artworks by Pablo Picasso have been relocated to a female toilet at Hobart's Mona, following an adverse court ruling which found a man was discriminated against when he was turned away from the women-only 'Ladies Lounge'.",
           "title": {
             "children": "Picasso artworks put in female toilet as part of art gallery response to court ruling"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104016884",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman looks at the camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c5051b423fd1d7dd06175ef4fd5a44e6?impolicy=wcms_crop_resize&cropH=898&cropW=1347&xPos=0&yPos=478&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-24/lucy-letby-trial-manchester/104016884"
-          },
-          "contentUri": "coremedia://article/104016884",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-24/lucy-letby-trial-manchester/104016884",
-          "video": null,
-          "reactKey": "vic-104016884-1",
-          "synopsis": "Former nurse Lucy Letby, convicted last year of murdering seven babies and trying to kill six others, is on trial accused of the attempted murder of a further baby girl.",
-          "title": {
-            "children": "Convicted UK nurse Lucy Letby says she never harmed any babies"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104015158",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "wine glasses",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ee2e4a4eed810229064dd08ba3171e84?impolicy=wcms_crop_resize&cropH=424&cropW=638&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-24/treasury-budget-binge-did-not-comply-with-probity-laws/104015158"
-          },
-          "contentUri": "coremedia://article/104015158",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-24/treasury-budget-binge-did-not-comply-with-probity-laws/104015158",
-          "video": null,
-          "reactKey": "vic-104015158-1",
-          "synopsis": "Tens of thousands of dollars spent by Treasury on food, alcohol and venues for its budget night functions breached probity laws and internal policies.",
-          "title": {
-            "children": "Treasury's boozy 'budget binge' broke its own rules"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104016060",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Badge on the sleeve of Australian Federal Police officer's uniform.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3e869fb762e30b4f7d22cc8c876736c?impolicy=wcms_crop_resize&cropH=752&cropW=1131&xPos=289&yPos=109&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-24/act-man-arrested-over-alleged-attempted-abductions/104016060"
-          },
-          "contentUri": "coremedia://article/104016060",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-24/act-man-arrested-over-alleged-attempted-abductions/104016060",
-          "video": null,
-          "reactKey": "vic-104016060-1",
-          "synopsis": "A 31-year-old man is arrested after two alleged attempted abductions of women in Mawson. Police say he is likely to face court on Tuesday.",
-          "title": {
-            "children": "Arrest made after two women claim a man tried to abduct them while out exercising in Canberra"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104014632",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Aaron Karl Labrook leaving court.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b284121951e7e62ae1f3289dca7e910?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-24/bikie-boss-aaron-karl-labrook-guilty-possessing-unlawful-cash/104014632"
-          },
-          "contentUri": "coremedia://article/104014632",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-24/bikie-boss-aaron-karl-labrook-guilty-possessing-unlawful-cash/104014632",
-          "video": null,
-          "reactKey": "vic-104014632-1",
-          "synopsis": "A Rebels bikie gang leader who claimed his murdered predecessor was spending club funds on home renovations is found guilty of possessing more than $450,000 in cash suspected of being unlawfully obtained.",
-          "title": {
-            "children": "Boss of bikie gang in 'disarray' found guilty of possessing more than $450,000 in unlawful cash"
           },
           "imageContainerClassNames": []
         }
