@@ -31,25 +31,25 @@
           "uri": "coremedia://article/104028294"
         },
         {
-          "uri": "coremedia://article/104019572"
-        },
-        {
-          "uri": "coremedia://article/104017004"
-        },
-        {
           "uri": "coremedia://article/104028404"
         },
         {
           "uri": "coremedia://article/104024424"
         },
         {
+          "uri": "coremedia://article/104028544"
+        },
+        {
+          "uri": "coremedia://article/104019572"
+        },
+        {
           "uri": "coremedia://article/104030252"
         },
         {
-          "uri": "coremedia://article/103994982"
+          "uri": "coremedia://article/104017004"
         },
         {
-          "uri": "coremedia://article/104028544"
+          "uri": "coremedia://article/103994982"
         },
         {
           "uri": "coremedia://article/103991844"
@@ -91,31 +91,25 @@
           "uri": "coremedia://article/104025962"
         },
         {
-          "uri": "coremedia://article/104029038"
-        },
-        {
           "uri": "coremedia://article/104023796"
         },
         {
           "uri": "coremedia://article/103965442"
         },
         {
-          "uri": "coremedia://article/104023446"
-        },
-        {
           "uri": "coremedia://article/103996696"
-        },
-        {
-          "uri": "coremedia://article/104026258"
         },
         {
           "uri": "coremedia://article/104029372"
         },
         {
-          "uri": "coremedia://article/104026658"
+          "uri": "coremedia://article/104020954"
         },
         {
-          "uri": "coremedia://article/104020954"
+          "uri": "coremedia://article/104029344"
+        },
+        {
+          "uri": "coremedia://article/103992570"
         }
       ]
     },
@@ -220,7 +214,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104030232",
           "imagePosition": {
@@ -245,7 +246,14 @@
           "title": {
             "children": "Man arrested after woman's body found in Sydney home "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -345,68 +353,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104019572",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A graphic showing two glasses of red wine being touched above the NDIA logo.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7892000aafa4df80841147f17ed4c4c0?impolicy=wcms_crop_resize&cropH=1454&cropW=2181&xPos=202&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/committee-ndia-salesforce-probe-push-for-gift-inquiry/104019572"
-          },
-          "contentUri": "coremedia://article/104019572",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/committee-ndia-salesforce-probe-push-for-gift-inquiry/104019572",
-          "video": null,
-          "reactKey": "national-104019572-1",
-          "synopsis": "A parliamentary probe calls for a broader investigation into how private firms interact with government departments, after it was revealed NDIA officials were showered with gifts from a US tech firm it had a contract with, and which they did not declare.",
-          "title": {
-            "children": "Salesforce wined and dined NDIA officials, now a committee has asked if other agencies are receiving gifts"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104017004",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A poster with French writing on it and the pictures of a woman and a man smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/138d879e1e88e6c9668aaabc19891d5a?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=198&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/support-for-far-right-in-france-growing-ahead-of-election/104017004"
-          },
-          "contentUri": "coremedia://article/104017004",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/support-for-far-right-in-france-growing-ahead-of-election/104017004",
-          "video": null,
-          "reactKey": "national-104017004-1",
-          "synopsis": "A far-right wave is sweeping through France and while it is polarising the country, there is something many can agree on: a desire to see President Emmanuel Macron's party booted out of office.",
-          "title": {
-            "children": "'We are in a country that is going to sink': Inside the far-right wave sweeping France"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104028404",
           "imagePosition": {
             "mobile": "right",
@@ -428,7 +374,7 @@
           "reactKey": "national-104028404-1",
           "synopsis": "A teenage boy who performed first aid on his mum and CPR on her new boyfriend, who had both been stabbed by the boy's father, has been praised by a judge for \"undoubtedly\" saving his mother's life.",
           "title": {
-            "children": "Judge praises teen for saving mum's life in stabbing attack that killed boyfriend, as boy's dad sentenced to 38 years"
+            "children": "'Family violence of the most extreme kind': Man sentenced for stabbing ex-partner, new boyfriend in front of children"
           },
           "imageContainerClassNames": []
         }
@@ -469,6 +415,68 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104028544",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Daniel Victor Gandini, wearing a three piece suit and peak cap, standing in the sunshine on the street in Burnie.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6a61887594199933d2aae3537fa00917?impolicy=wcms_crop_resize&cropH=1017&cropW=1525&xPos=1593&yPos=498&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-27/diplomat-dan-sentencing-for-domestic-violence-police-assault/104028544"
+          },
+          "contentUri": "coremedia://article/104028544",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/diplomat-dan-sentencing-for-domestic-violence-police-assault/104028544",
+          "video": null,
+          "reactKey": "national-104028544-1",
+          "synopsis": "A Tasmanian man found guilty of two counts of assault and of splashing a corrosive acid on arresting police officers in 2021 has been sentenced to jail.\n\n ",
+          "title": {
+            "children": "'Diplomat Dan' sentenced to more than three years' jail over assault of wife, splashing acid on police"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104019572",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A graphic showing two glasses of red wine being touched above the NDIA logo.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7892000aafa4df80841147f17ed4c4c0?impolicy=wcms_crop_resize&cropH=1454&cropW=2181&xPos=202&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-27/committee-ndia-salesforce-probe-push-for-gift-inquiry/104019572"
+          },
+          "contentUri": "coremedia://article/104019572",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/committee-ndia-salesforce-probe-push-for-gift-inquiry/104019572",
+          "video": null,
+          "reactKey": "national-104019572-1",
+          "synopsis": "A parliamentary probe calls for a broader investigation into how private firms interact with government departments, after it was revealed NDIA officials were showered with gifts from a US tech firm it had a contract with, and which they did not declare.",
+          "title": {
+            "children": "Salesforce wined and dined NDIA officials, now a committee has asked if other agencies are receiving gifts"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104030252",
           "imagePosition": {
             "mobile": "right",
@@ -500,6 +508,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104017004",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A poster with French writing on it and the pictures of a woman and a man smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/138d879e1e88e6c9668aaabc19891d5a?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=198&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-27/support-for-far-right-in-france-growing-ahead-of-election/104017004"
+          },
+          "contentUri": "coremedia://article/104017004",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/support-for-far-right-in-france-growing-ahead-of-election/104017004",
+          "video": null,
+          "reactKey": "national-104017004-1",
+          "synopsis": "A far-right wave is sweeping through France and while it is polarising the country, there is something many can agree on: a desire to see President Emmanuel Macron's party booted out of office.",
+          "title": {
+            "children": "'We are in a country that is going to sink': Inside the far-right wave sweeping France"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "103994982",
           "imagePosition": {
             "mobile": "right",
@@ -522,37 +561,6 @@
           "synopsis": "Joe Biden and Donald Trump are preparing to share a stage for the first time in four years — and some longstanding traditions have been upended for the first debate of the 2024 election race.",
           "title": {
             "children": "No notes, no props and microphones that can be muted: What to know ahead of tomorrow's debate"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104028544",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Daniel Victor Gandini, wearing a three piece suit and peak cap, standing in the sunshine on the street in Burnie.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6a61887594199933d2aae3537fa00917?impolicy=wcms_crop_resize&cropH=1017&cropW=1525&xPos=1593&yPos=498&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/diplomat-dan-sentencing-for-domestic-violence-police-assault/104028544"
-          },
-          "contentUri": "coremedia://article/104028544",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/diplomat-dan-sentencing-for-domestic-violence-police-assault/104028544",
-          "video": null,
-          "reactKey": "national-104028544-1",
-          "synopsis": "A Tasmanian man found guilty of two counts of assault and of splashing a corrosive acid on arresting police officers in 2021 has been sentenced to jail.\n\n ",
-          "title": {
-            "children": "'Diplomat Dan' sentenced to more than three years jail over assault of wife, splashing acid on police"
           },
           "imageContainerClassNames": []
         }
@@ -771,7 +779,7 @@
           "reactKey": "national-104029738-1",
           "synopsis": "The latest NSW Health respiratory surveillance report that showed there were 12,421 cases of influenza reported in the week ending June 22. It was a 38 per cent increase on the previous week.",
           "title": {
-            "children": "Emergency departments 'slammed' as flu rates soar across NSW"
+            "children": "NSW records almost 40 per cent increase in influenza cases in a week, emergency departments 'slammed'"
           },
           "imageContainerClassNames": []
         }
@@ -924,7 +932,7 @@
           "reactKey": "national-104024004-1",
           "synopsis": "After a downturn during the pandemic, foreign buyers are back. Most are coming from China, Hong Kong and India, with the value of transactions hitting almost $5 billion over the past financial year.",
           "title": {
-            "children": "Cashed up foreign buyers are buying more Australian property, but it's just a fraction of the market"
+            "children": "Cashed-up foreign buyers are buying more Australian property, but it's just a fraction of the market"
           },
           "imageContainerClassNames": []
         }
@@ -987,37 +995,6 @@
           "synopsis": "It was one of Australian artist Jasmine Crisp's \"biggest ever life dreams\" to paint an original international mural — and she had only one week to do it.",
           "title": {
             "children": "A trolley of paint and 12-hour days: Aussie artist pulls off three-storey mural in Italy in a week"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104029038",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A view from the Stuart Highway in South Australia's far north.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b6401dfddd747c0ecdaa45d841b6ac03?impolicy=wcms_crop_resize&cropH=764&cropW=1146&xPos=56&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/light-plane-crash-in-outback-sa/104029038"
-          },
-          "contentUri": "coremedia://article/104029038",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/light-plane-crash-in-outback-sa/104029038",
-          "video": null,
-          "reactKey": "national-104029038-1",
-          "synopsis": "South Australian police say they are responding to a light plane crash in the state's far north.",
-          "title": {
-            "children": "Light plane crashes in outback SA south of Coober Pedy"
           },
           "imageContainerClassNames": []
         }
@@ -1091,37 +1068,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104023446",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A blonde woman with her hand on her head sits at a wooden table by a tall window, with a white curtain draped to the side ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3bb16a4d1fd02bf4699ce1818bb063de?impolicy=wcms_crop_resize&cropH=1333&cropW=2000&xPos=0&yPos=1088&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/does-uv-exposure-window-cause-sunburn-skin-cancer-vitamin-d/104023446"
-          },
-          "contentUri": "coremedia://article/104023446",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/does-uv-exposure-window-cause-sunburn-skin-cancer-vitamin-d/104023446",
-          "video": null,
-          "reactKey": "national-104023446-1",
-          "synopsis": "​​While UV exposure through a window can contribute to sunburn and skin cancer, it won't trigger vitamin D production. Here's what you need to know.\n\n ",
-          "title": {
-            "children": "Why you can get sunburnt through a window but not get vitamin D"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103996696",
           "imagePosition": {
             "mobile": "right",
@@ -1144,37 +1090,6 @@
           "synopsis": "Women and gender-diverse people feeling unsafe in rideshare vehicles prompts calls for more female drivers in the industry.",
           "title": {
             "children": "Sex workers, drag queens, gender-diverse people report feeling unsafe in a rideshare car"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104026258",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A courtroom sketch of Greg Lynn",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/db2870fb4f372709f5132c168861e8cc?impolicy=wcms_crop_resize&cropH=969&cropW=1454&xPos=0&yPos=31&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/greg-lynn-manslaughter-vs-murder-conviction/104026258"
-          },
-          "contentUri": "coremedia://article/104026258",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/greg-lynn-manslaughter-vs-murder-conviction/104026258",
-          "video": null,
-          "reactKey": "national-104026258-1",
-          "synopsis": "At the end of a five-week trial, prosecution and defence arguments differed so vastly that the jury were left with just two options: murder or acquittal.",
-          "title": {
-            "children": "The reason why manslaughter wasn't an option for the Greg Lynn murder trial jury"
           },
           "imageContainerClassNames": []
         }
@@ -1215,37 +1130,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104026658",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A sign with LGH and emergency written on it.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/159186ab04752a2bb19280cb457b191b?impolicy=wcms_crop_resize&cropH=2933&cropW=4400&xPos=2&yPos=368&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-27/launceston-hospital-worker-allegedly-abused-children-in-1980s/104026658"
-          },
-          "contentUri": "coremedia://article/104026658",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/launceston-hospital-worker-allegedly-abused-children-in-1980s/104026658",
-          "video": null,
-          "reactKey": "national-104026658-1",
-          "synopsis": "A former nurse at the Launceston General Hospital who was also a children's camp leader is facing two counts of indecent assault against children in the 1980s.",
-          "title": {
-            "children": "Former Launceston hospital nurse faces court over alleged abuse against boys in 1980s"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104020954",
           "imagePosition": {
             "mobile": "right",
@@ -1268,6 +1152,68 @@
           "synopsis": "A new US State Department report highlights alleged Cambodian government \"corruption and official complicity\" in human trafficking for the online scam industry just days after a high-level Cambodian delegation visited Australia to learn about how to \"fight against technological crime\".",
           "title": {
             "children": "Here's what the US State Department thinks of Cambodia's efforts to eliminate human trafficking for online scams"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104029344",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young girl with dark black hair, wearing jeans and a denim jacket, sits cross legged and smiles at the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36b70053ca72926b6a5b08a55ed4db8b?impolicy=wcms_crop_resize&cropH=503&cropW=755&xPos=0&yPos=35&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-06-27/sa-jasmeen-kaur-murderer-non-parole-period-extended/104029344"
+          },
+          "contentUri": "coremedia://article/104029344",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-27/sa-jasmeen-kaur-murderer-non-parole-period-extended/104029344",
+          "video": null,
+          "reactKey": "national-104029344-1",
+          "synopsis": "A spurned lover who abducted, bound and buried his former girlfriend alive in a shallow grave has had his non-parole period for murder extended by more than five years.",
+          "title": {
+            "children": "Man who kidnapped and killed ex-lover will stay behind bars for five more years"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "103992570",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A red parasite lying atop the flesh of a native freshwater fish.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ae5c637e7708812dfaeadc52cf23d55?impolicy=wcms_crop_resize&cropH=2669&cropW=4003&xPos=0&yPos=218&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/rural/2024-06-27/red-worm-of-trout-fish-parasite/103992570"
+          },
+          "contentUri": "coremedia://article/103992570",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-06-27/red-worm-of-trout-fish-parasite/103992570",
+          "video": null,
+          "reactKey": "national-103992570-1",
+          "synopsis": "Red-worm-of-trout can infect humans and other mammals when they eat uncooked or undercooked fish caught in fresh water and can be lethal to some animals.",
+          "title": {
+            "children": "This parasite found across three states can burrow through the skin of fish and, in rare cases, humans"
           },
           "imageContainerClassNames": []
         }

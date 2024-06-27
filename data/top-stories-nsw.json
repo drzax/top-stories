@@ -146,7 +146,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104030232",
           "imagePosition": {
@@ -171,7 +178,14 @@
           "title": {
             "children": "Man arrested after woman's body found in Sydney home "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -181,15 +195,15 @@
           "headingClassNames": [],
           "id": "104028454",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "An advertisment for gummy mushrooms",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ed5ba11a4a8a931b3f7d9175b6bf399?impolicy=wcms_crop_resize&cropH=876&cropW=1314&xPos=0&yPos=333&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ed5ba11a4a8a931b3f7d9175b6bf399?impolicy=wcms_crop_resize&cropH=739&cropW=1314&xPos=0&yPos=401&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-06-27/uncle-frog-mushroom-gummies-public-health-warning/104028454"
@@ -202,9 +216,7 @@
           "title": {
             "children": "Memory loss and 'impending doom': Mother hospitalised after eating mushroom gummies, nation-wide recall issued"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -233,7 +245,7 @@
           "reactKey": "nsw-104029738-1",
           "synopsis": "The latest NSW Health respiratory surveillance report that showed there were 12,421 cases of influenza reported in the week ending June 22. It was a 38 per cent increase on the previous week.",
           "title": {
-            "children": "Emergency departments 'slammed' as flu rates soar across NSW"
+            "children": "NSW records almost 40 per cent increase in influenza cases in a week, emergency departments 'slammed'"
           },
           "imageContainerClassNames": []
         }
@@ -892,7 +904,7 @@
           "reactKey": "nsw-104024004-1",
           "synopsis": "After a downturn during the pandemic, foreign buyers are back. Most are coming from China, Hong Kong and India, with the value of transactions hitting almost $5 billion over the past financial year.",
           "title": {
-            "children": "Cashed up foreign buyers are buying more Australian property, but it's just a fraction of the market"
+            "children": "Cashed-up foreign buyers are buying more Australian property, but it's just a fraction of the market"
           },
           "imageContainerClassNames": []
         }
