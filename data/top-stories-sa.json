@@ -40,9 +40,6 @@
           "uri": "coremedia://article/104037532"
         },
         {
-          "uri": "coremedia://article/104037026"
-        },
-        {
           "uri": "coremedia://article/104037416"
         },
         {
@@ -226,7 +223,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104041456",
           "imagePosition": {
@@ -249,9 +253,16 @@
           "reactKey": "sa-104041456-1",
           "synopsis": "Work is underway to determine the cause of a fatal bus crash in north Queensland, which left at least three people dead and several more injured.",
           "title": {
-            "children": "Investigators piecing together cause of 'very confronting' fatal collision between bus and car"
+            "children": "Police piecing together cause of 'very confronting' bus crash, which killed three people and injured more"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -383,7 +394,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-01/french-election-exit-polls-marine-le-pen/104041964",
           "video": null,
           "reactKey": "sa-104041964-1",
-          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election.",
+          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election. ",
           "title": {
             "children": "French election exit polls show strong result for Marine Le Pen and far-right"
           },
@@ -421,37 +432,6 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104037026",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Stylised sepia picture of a man in black clothing and a balaclava holding fire arm, crime scene tape and police in background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9d2eeefb9e976039336f013bf1f84cf8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=85&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-29/bicycle-bandit-explained/104037026"
-          },
-          "contentUri": "coremedia://article/104037026",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-29/bicycle-bandit-explained/104037026",
-          "video": null,
-          "reactKey": "sa-104037026-1",
-          "synopsis": "Two days after being sentenced, the man dubbed the \"bicycle bandit\" died. Kym Allen Parsons robbed 10 banks and attempted to rob an 11th. Who was he and how did he remain on the run for so long?",
-          "title": {
-            "children": "This ex-cop was on the run for two decades after 11 heists. He was finally sentenced this week — now, he's dead"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -560,8 +540,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A shadowy outline holds a vape to their mouth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f6d4c8da1bdc680e66154ebca471417?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A person holds onto some money.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb88443092fe9e5c62e1edf59bbdef92?impolicy=wcms_crop_resize&cropH=771&cropW=1160&xPos=285&yPos=560&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -604,7 +584,7 @@
           "reactKey": "sa-104023220-1",
           "synopsis": "Australia is heading towards a whooping cough epidemic, with cases surging past 11,000 over the past six months, compared to 2,447 in all of last year. ",
           "title": {
-            "children": "Australia is facing the worst whooping cough season in eight years. Here's what to look out for"
+            "children": "How to stay protected as Australia heads towards a whooping cough epidemic"
           },
           "imageContainerClassNames": []
         }
@@ -792,7 +772,7 @@
           "reactKey": "sa-104040930-1",
           "synopsis": "Victoria's first-of-its-kind treaty body has launched an official negotiations database, marking the state's first step on its nation-leading historic journey towards treaty.",
           "title": {
-            "children": "For generations Indigenous people have fought for a treaty. Now it's a step closer"
+            "children": "Victoria's nation-leading Aboriginal treaty negotiations are 'live' — here's what that means"
           },
           "imageContainerClassNames": []
         }

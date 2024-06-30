@@ -49,10 +49,13 @@
           "uri": "coremedia://article/104023220"
         },
         {
-          "uri": "coremedia://article/104040970"
+          "uri": "coremedia://article/104041162"
         },
         {
-          "uri": "coremedia://article/104041162"
+          "uri": "coremedia://article/104040244"
+        },
+        {
+          "uri": "coremedia://article/104042064"
         },
         {
           "uri": "coremedia://article/104037416"
@@ -175,7 +178,7 @@
           "reactKey": "vic-104040930-1",
           "synopsis": "Victoria's first-of-its-kind treaty body has launched an official negotiations database, marking the state's first step on its nation-leading historic journey towards treaty.",
           "title": {
-            "children": "For generations Indigenous people have fought for a treaty. Now it's a step closer"
+            "children": "Victoria's nation-leading Aboriginal treaty negotiations are 'live' — here's what that means"
           },
           "imageContainerClassNames": []
         }
@@ -193,8 +196,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A shadowy outline holds a vape to their mouth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f6d4c8da1bdc680e66154ebca471417?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A person holds onto some money.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb88443092fe9e5c62e1edf59bbdef92?impolicy=wcms_crop_resize&cropH=771&cropW=1160&xPos=285&yPos=560&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -282,7 +285,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104041456",
           "imagePosition": {
@@ -305,11 +315,18 @@
           "reactKey": "vic-104041456-1",
           "synopsis": "Work is underway to determine the cause of a fatal bus crash in north Queensland, which left at least three people dead and several more injured.",
           "title": {
-            "children": "Investigators piecing together cause of 'very confronting' fatal collision between bus and car"
+            "children": "Police piecing together cause of 'very confronting' bus crash, which killed three people and injured more"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -515,37 +532,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104040970",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A smiling Carlton captain Patrick Cripps holds his arms out in celebration after a goal.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6c96ac5d0ee0678425b166feb9d64411?impolicy=wcms_crop_resize&cropH=1740&cropW=2610&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-30/afl-round-16-saints-power-tigers-blues-eagles-hawks/104040970"
-          },
-          "contentUri": "coremedia://article/104040970",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-30/afl-round-16-saints-power-tigers-blues-eagles-hawks/104040970",
-          "video": null,
-          "reactKey": "vic-104040970-1",
-          "synopsis": "The Hawks sweep aside the Eagles to stay in the race for finals, after Carlton cruises to victory at the MCG and the Power give Ken Hinkley a vital win. ",
-          "title": {
-            "children": "Captain Cripps helps Carlton cruise to victory, as Hawks, Power get vital wins"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104041162",
           "imagePosition": {
             "mobile": "right",
@@ -572,6 +558,68 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104040244",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A split image of three AFL players a Dockers player celebrating, an Essendon player looking serious and a Lions player smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f00ca0bd85a904ec0abc4eaafb40b2a9?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=9&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-01/afl-round-up-round-16/104040244"
+          },
+          "contentUri": "coremedia://article/104040244",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-01/afl-round-up-round-16/104040244",
+          "video": null,
+          "reactKey": "vic-104040244-1",
+          "synopsis": "Dockers stifle star Swans duo, Bombers battle to avoid history repeating, Lions' flag pathway begins to open. Here are the biggest talking points from every game of round 16.",
+          "title": {
+            "children": "AFL Round Up: Dockers stifle star Swans duo, Bombers battle to avoid history repeating, Lions' flag pathway opening"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104042064",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Oscar Piastri holds his head",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44669f167f998072a0f137e47e6e0889?impolicy=wcms_crop_resize&cropH=2772&cropW=4158&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-01/formula-1-oscar-piastri-austrian-gp-results/104042064"
+          },
+          "contentUri": "coremedia://article/104042064",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-01/formula-1-oscar-piastri-austrian-gp-results/104042064",
+          "video": null,
+          "reactKey": "vic-104042064-1",
+          "synopsis": "Finishing second at a drama-laden Austrian Grand Prix is a bitter-sweet experience for McLaren's Oscar Piastri, with the Australian admitting \"there's a lot of what ifs and maybes\".",
+          "title": {
+            "children": "'Can't help but hurt': Piastri wondering what could've been after second-placed finish at Austrian GP"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -662,7 +710,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-01/french-election-exit-polls-marine-le-pen/104041964",
           "video": null,
           "reactKey": "vic-104041964-1",
-          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election.",
+          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election. ",
           "title": {
             "children": "French election exit polls show strong result for Marine Le Pen and far-right"
           },
@@ -860,7 +908,7 @@
           "reactKey": "vic-103959686-1",
           "synopsis": "As family demands increase, women's physical activity becomes more limited, but the same doesn't happen for men.",
           "title": {
-            "children": "Closing the gender exercise gap starts with evening up the workload in the home"
+            "children": "'Constantly trying to fit exercise around other things': Why women have less time to exercise than men"
           },
           "imageContainerClassNames": [
             "imageHalf"

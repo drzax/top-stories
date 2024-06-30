@@ -37,6 +37,9 @@
           "uri": "coremedia://article/104040994"
         },
         {
+          "uri": "coremedia://article/104023220"
+        },
+        {
           "uri": "coremedia://article/104034320"
         },
         {
@@ -61,19 +64,16 @@
           "uri": "coremedia://article/104037416"
         },
         {
-          "uri": "coremedia://article/104023220"
-        },
-        {
           "uri": "coremedia://article/104026026"
         },
         {
           "uri": "coremedia://article/103979330"
         },
         {
-          "uri": "coremedia://article/104041964"
+          "uri": "coremedia://article/104028546"
         },
         {
-          "uri": "coremedia://article/104028546"
+          "uri": "coremedia://article/104041964"
         },
         {
           "uri": "coremedia://article/104030408"
@@ -108,7 +108,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -133,12 +140,18 @@
           "reactKey": "qld-104041456-1",
           "synopsis": "Work is underway to determine the cause of a fatal bus crash in north Queensland, which left at least three people dead and several more injured.",
           "title": {
-            "children": "Investigators piecing together cause of 'very confronting' fatal collision between bus and car"
+            "children": "Police piecing together cause of 'very confronting' bus crash, which killed three people and injured more"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -377,6 +390,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104023220",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A baby being give a vaccine.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e8aa4ec1515c5aba73df1bbc071e9a8?impolicy=wcms_crop_resize&cropH=542&cropW=814&xPos=16&yPos=48&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-01/whooping-cough-epidemic-cases-surging-australia-superbug-vaccine/104023220"
+          },
+          "contentUri": "coremedia://article/104023220",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-01/whooping-cough-epidemic-cases-surging-australia-superbug-vaccine/104023220",
+          "video": null,
+          "reactKey": "qld-104023220-1",
+          "synopsis": "Australia is heading towards a whooping cough epidemic, with cases surging past 11,000 over the past six months, compared to 2,447 in all of last year. ",
+          "title": {
+            "children": "How to stay protected as Australia heads towards a whooping cough epidemic"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104034320",
           "imagePosition": {
             "mobile": "right",
@@ -385,8 +429,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A shadowy outline holds a vape to their mouth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f6d4c8da1bdc680e66154ebca471417?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A person holds onto some money.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb88443092fe9e5c62e1edf59bbdef92?impolicy=wcms_crop_resize&cropH=771&cropW=1160&xPos=285&yPos=560&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -578,7 +622,7 @@
           "isMajor": false,
           "image": {
             "altText": "Eman Soliman in her home looks at the camera as she talks about no-fault evictions",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b83cadb59980346f748299bed6fe3efd?impolicy=wcms_crop_resize&cropH=4000&cropW=6000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b83cadb59980346f748299bed6fe3efd?impolicy=wcms_crop_resize&cropH=4000&cropW=6000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -592,7 +636,9 @@
           "title": {
             "children": "Eman was told she was a good tenant, but without warning received an eviction notice"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -602,15 +648,15 @@
           "headingClassNames": [],
           "id": "104037416",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "Rusted barrels covered in snow at the abandoned Wilkes station in Antarctica.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ec47fca1fe2657a1ad8c75ca4d78f6e3?impolicy=wcms_crop_resize&cropH=562&cropW=843&xPos=51&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ec47fca1fe2657a1ad8c75ca4d78f6e3?impolicy=wcms_crop_resize&cropH=532&cropW=945&xPos=0&yPos=15&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-07-01/abandoned-antarctica-wilkes-station-concerns-french/104037416"
@@ -622,37 +668,6 @@
           "synopsis": "Wilkes Station in Antarctica has been abandoned since 1969. The site, with its old fuel drums, asbestos buildings and other waste, has been described by a French inspection team as \"concerning\" to the local environment.",
           "title": {
             "children": "Australia's abandoned Antarctic base untouched since 1969 poses 'clear risk' to environment, French team says"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104023220",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A baby being give a vaccine.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e8aa4ec1515c5aba73df1bbc071e9a8?impolicy=wcms_crop_resize&cropH=542&cropW=814&xPos=16&yPos=48&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-01/whooping-cough-epidemic-cases-surging-australia-superbug-vaccine/104023220"
-          },
-          "contentUri": "coremedia://article/104023220",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-01/whooping-cough-epidemic-cases-surging-australia-superbug-vaccine/104023220",
-          "video": null,
-          "reactKey": "qld-104023220-1",
-          "synopsis": "Australia is heading towards a whooping cough epidemic, with cases surging past 11,000 over the past six months, compared to 2,447 in all of last year. ",
-          "title": {
-            "children": "Australia is facing the worst whooping cough season in eight years. Here's what to look out for"
           },
           "imageContainerClassNames": []
         }
@@ -726,6 +741,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104028546",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The red earth corrugations of an old mine pit surround a beautiful blue lake at the bottom.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a062a28ff0df5eca2de77c63190fb1c7?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-06-30/mary-kathleen-uranium-mining-town-queensland-nuclear-power/104028546"
+          },
+          "contentUri": "coremedia://article/104028546",
+          "canonicalURL": "https://www.abc.net.au/news/2024-06-30/mary-kathleen-uranium-mining-town-queensland-nuclear-power/104028546",
+          "video": null,
+          "reactKey": "qld-104028546-1",
+          "synopsis": "Now a ghost town, the community of Mary Kathleen disappeared after the nearby uranium mine closed in 1982. But in its heyday, it was an oasis in outback Queensland.",
+          "title": {
+            "children": "The final days of a ghost uranium mining town, shuttered and sold for parts"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104041964",
           "imagePosition": {
             "mobile": "right",
@@ -745,40 +791,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-01/french-election-exit-polls-marine-le-pen/104041964",
           "video": null,
           "reactKey": "qld-104041964-1",
-          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election.",
+          "synopsis": "Exit polls show Marine Le Pen's far-right National Rally party has secured 34 per cent of votes in the first round of polling in France's snap election. ",
           "title": {
             "children": "French election exit polls show strong result for Marine Le Pen and far-right"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104028546",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The red earth corrugations of an old mine pit surround a beautiful blue lake at the bottom.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a062a28ff0df5eca2de77c63190fb1c7?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-06-30/mary-kathleen-uranium-mining-town-queensland-nuclear-power/104028546"
-          },
-          "contentUri": "coremedia://article/104028546",
-          "canonicalURL": "https://www.abc.net.au/news/2024-06-30/mary-kathleen-uranium-mining-town-queensland-nuclear-power/104028546",
-          "video": null,
-          "reactKey": "qld-104028546-1",
-          "synopsis": "Now a ghost town, the community of Mary Kathleen disappeared after the nearby uranium mine closed in 1982. But in its heyday, it was an oasis in outback Queensland.",
-          "title": {
-            "children": "The final days of a ghost uranium mining town, shuttered and sold for parts"
           },
           "imageContainerClassNames": []
         }
@@ -840,7 +855,7 @@
           "reactKey": "qld-104023220-2",
           "synopsis": "Australia is heading towards a whooping cough epidemic, with cases surging past 11,000 over the past six months, compared to 2,447 in all of last year. ",
           "title": {
-            "children": "Australia is facing the worst whooping cough season in eight years. Here's what to look out for"
+            "children": "How to stay protected as Australia heads towards a whooping cough epidemic"
           },
           "imageContainerClassNames": []
         }
@@ -871,7 +886,7 @@
           "reactKey": "qld-104040930-1",
           "synopsis": "Victoria's first-of-its-kind treaty body has launched an official negotiations database, marking the state's first step on its nation-leading historic journey towards treaty.",
           "title": {
-            "children": "For generations Indigenous people have fought for a treaty. Now it's a step closer"
+            "children": "Victoria's nation-leading Aboriginal treaty negotiations are 'live' — here's what that means"
           },
           "imageContainerClassNames": []
         }
@@ -890,7 +905,7 @@
           "isMajor": false,
           "image": {
             "altText": "Dirt road with some houses either side.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/748046dacf490c1f99363a6e9a7e8f8a?impolicy=wcms_crop_resize&cropH=2176&cropW=3264&xPos=0&yPos=136&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/748046dacf490c1f99363a6e9a7e8f8a?impolicy=wcms_crop_resize&cropH=2176&cropW=3264&xPos=0&yPos=136&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -904,9 +919,7 @@
           "title": {
             "children": "'No-one will hear you scream': The dark side of rural Australia"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
