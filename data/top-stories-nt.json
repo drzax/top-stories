@@ -143,7 +143,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104041032",
           "imagePosition": {
@@ -166,9 +173,16 @@
           "reactKey": "nt-104041032-1",
           "synopsis": "Multiple emergency services are attending the scene of a fatal bus accident in north Queensland that's believed to have involved a Greyhound bus.",
           "title": {
-            "children": "At least one dead in Greyhound bus crash in north Queensland "
+            "children": "At least three dead in Greyhound bus crash in north Queensland "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -325,9 +339,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-06-30/afl-round-16-saints-power-tigers-blues-eagles-hawks/104040970",
           "video": null,
           "reactKey": "nt-104040970-1",
-          "synopsis": "A week after their fans walked out of Adelaide Oval during their heavy loss to the Lions, the Power are level at half-time against the Saints — can they avoid a fourth straight loss? Follow our live blog.",
+          "synopsis": "The Power hit the front against the Saints with a quarter to go — can they avoid a fourth straight loss? Follow our live blog.",
           "title": {
-            "children": "Nothing to split Saints, Power in fast clash at Docklands "
+            "children": "Power edge in front at Docklands, as Tigers, Blues set to meet at MCG"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -338,19 +352,19 @@
           },
           "liveBlogKeyEvents": [
             {
-              "id": "97853",
-              "date": "2024-06-30T04:18:28.000Z",
-              "title": "HT: Scores are level at Docklands between St Kilda and Port Adelaide"
+              "id": "97889",
+              "date": "2024-06-30T05:14:16.000Z",
+              "title": "We have hit the 100-turnover mark"
             },
             {
-              "id": "97834",
-              "date": "2024-06-30T03:44:09.000Z",
-              "title": "QT: Port Adelaide leads St Kilda by four"
+              "id": "97885",
+              "date": "2024-06-30T05:11:15.000Z",
+              "title": "We are underway in the final quarter!"
             },
             {
-              "id": "97822",
-              "date": "2024-06-30T03:10:46.000Z",
-              "title": "We are underway at Docklands!"
+              "id": "97878",
+              "date": "2024-06-30T05:05:46.000Z",
+              "title": "3QT: Port Adelaide leads St Kilda by 13"
             }
           ]
         }
@@ -387,7 +401,7 @@
           "reactKey": "nt-104037796-1",
           "synopsis": "Maroons stars back up from Origin as the Dragons host the Dolphins at Kogarah Oval. Follow live.",
           "title": {
-            "children": "Maroons stars back up from Origin as Dragons host Dolphins"
+            "children": "Dragons and Dolphins locked in low-scoring tussle"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -398,6 +412,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "97883",
+              "date": "2024-06-30T05:09:34.000Z",
+              "title": "47' Raymond Faitala-Mariner crashes over!"
+            },
+            {
               "id": "97865",
               "date": "2024-06-30T04:46:33.000Z",
               "title": "Half time: Dolphins lead tight one against Dragons"
@@ -406,11 +425,6 @@
               "id": "97864",
               "date": "2024-06-30T04:46:10.000Z",
               "title": "40' The Dolphins get the first try of the game!"
-            },
-            {
-              "id": "97862",
-              "date": "2024-06-30T04:41:28.000Z",
-              "title": "34'  Dragons open the scoring from the tee"
             }
           ]
         }

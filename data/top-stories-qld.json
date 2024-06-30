@@ -123,7 +123,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -148,11 +155,18 @@
           "reactKey": "qld-104041032-1",
           "synopsis": "Multiple emergency services are attending the scene of a fatal bus accident in north Queensland that's believed to have involved a Greyhound bus.",
           "title": {
-            "children": "At least one dead in Greyhound bus crash in north Queensland "
+            "children": "At least three dead in Greyhound bus crash in north Queensland "
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
