@@ -137,9 +137,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-02/nves-loophole-car-makers-rush-polluting-cars-into-country/104046976",
           "video": null,
           "reactKey": "national-104046976-1",
-          "synopsis": "A loophole in the government's New Vehicle Efficiency Standard could be exploited by car makers seeking to import higher-polluting cars, and would undermine the first three years of the new climate laws. ",
+          "synopsis": "A loophole in the government's New Vehicle Efficiency Standard could be exploited by car makers seeking to import higher-polluting vehicles, and would undermine the first three years of the new climate laws. ",
           "title": {
-            "children": "Car import loophole allows car makers to rush polluting cars into country and undermine climate scheme"
+            "children": "Car import loophole allows manufacturers to rush polluting vehicles into country and undermine climate scheme"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -306,7 +306,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104047154",
           "imagePosition": {
@@ -333,7 +340,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -379,6 +393,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "98188",
+              "date": "2024-07-02T04:19:52.000Z",
+              "title": "PM says conversation with Payman was 'civil and constructive'"
+            },
+            {
               "id": "98182",
               "date": "2024-07-02T04:02:27.000Z",
               "title": "QT is starting!"
@@ -387,11 +406,6 @@
               "id": "98181",
               "date": "2024-07-02T04:01:27.000Z",
               "title": "Labor vs Coalition on supermarkets"
-            },
-            {
-              "id": "98175",
-              "date": "2024-07-02T03:31:51.000Z",
-              "title": "Lambie cries 'hallelujah' as she says Labor has finally seen the light"
             }
           ]
         }
