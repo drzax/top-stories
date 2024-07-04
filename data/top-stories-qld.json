@@ -19,13 +19,16 @@
           "uri": "coremedia://article/104056278"
         },
         {
-          "uri": "coremedia://article/104057196"
+          "uri": "coremedia://article/104054886"
         },
         {
           "uri": "coremedia://article/104056544"
         },
         {
           "uri": "coremedia://article/104022652"
+        },
+        {
+          "uri": "coremedia://article/104057196"
         },
         {
           "uri": "coremedia://article/104051396"
@@ -44,9 +47,6 @@
         },
         {
           "uri": "coremedia://article/104051820"
-        },
-        {
-          "uri": "coremedia://article/104054886"
         },
         {
           "uri": "coremedia://article/104056356"
@@ -177,9 +177,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104057196",
+          "id": "104054886",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -187,22 +193,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man leans to work on a large server, standing in an aisle of servers with cables running everywhere.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd2ddc785e302d60fc3ef9fee0fe2ba8?impolicy=wcms_crop_resize&cropH=729&cropW=1093&xPos=227&yPos=117&width=160&height=107",
+            "altText": "A man in a suit standing with two other men in suits sitting behind him. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/086d6232b366197b6e1be608a65f3e18?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-04/amazon-contract-top-secret-australian-military-intelligence/104057196"
+            "to": "/news/2024-07-04/federal-parliament-live-blog-july4/104054886"
           },
-          "contentUri": "coremedia://article/104057196",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-04/amazon-contract-top-secret-australian-military-intelligence/104057196",
+          "contentUri": "coremedia://article/104054886",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-04/federal-parliament-live-blog-july4/104054886",
           "video": null,
-          "reactKey": "qld-104057196-1",
-          "synopsis": "American technology giant Amazon will establish a \"top-secret\" data cloud to store classified Australian military and intelligence information under a partnership with the federal government.",
+          "reactKey": "qld-104054886-1",
+          "synopsis": "The public entrance to Parliament House has reopened after pro-Palestinian activists scaled the roof of the building and protesters glued themselves to the marble foyer. Follow live.  ",
           "title": {
-            "children": "Amazon wins $2b contract to store 'top-secret' Australian military intelligence"
+            "children": "Prime minister denies intimidating Senator Payman in meeting at The Lodge "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "98424",
+              "date": "2024-07-04T04:25:18.000Z",
+              "title": "The most 'difficult decision of my life' Payman says"
+            },
+            {
+              "id": "98409",
+              "date": "2024-07-04T03:14:36.000Z",
+              "title": "Breaking: Fatima Payman to confirm this afternoon she is leaving Labor"
+            },
+            {
+              "id": "98408",
+              "date": "2024-07-04T03:02:32.000Z",
+              "title": "Four arrested after protest, hit with two-year ban"
+            }
+          ]
         }
       },
       {
@@ -267,6 +296,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104057196",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man leans to work on a large server, standing in an aisle of servers with cables running everywhere.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd2ddc785e302d60fc3ef9fee0fe2ba8?impolicy=wcms_crop_resize&cropH=729&cropW=1093&xPos=227&yPos=117&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-04/amazon-contract-top-secret-australian-military-intelligence/104057196"
+          },
+          "contentUri": "coremedia://article/104057196",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-04/amazon-contract-top-secret-australian-military-intelligence/104057196",
+          "video": null,
+          "reactKey": "qld-104057196-1",
+          "synopsis": "American technology giant Amazon will establish a \"top-secret\" data cloud to store classified Australian military and intelligence information under a partnership with the federal government.",
+          "title": {
+            "children": "Amazon wins $2b contract to store 'top-secret' Australian military intelligence"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -461,66 +521,6 @@
             "children": "These houses in Sydney have sat empty for decades, but there's 'very little' council can do about it"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104054886",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Black banners wave along the front of parliament.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f82fd82afac63a9786004d1d8656a102?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-04/federal-parliament-live-blog-july4/104054886"
-          },
-          "contentUri": "coremedia://article/104054886",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-04/federal-parliament-live-blog-july4/104054886",
-          "video": null,
-          "reactKey": "qld-104054886-1",
-          "synopsis": "The public entrance to Parliament House has reopened after pro-Palestinian activists scaled the roof of the building and protesters glued themselves to the marble foyer. Follow live.  ",
-          "title": {
-            "children": "Pro-Palestinian activists who scaled roof of Parliament House arrested, expected to be charged with trespass "
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "98424",
-              "date": "2024-07-04T04:25:18.000Z",
-              "title": "The most 'difficult decision of my life' Payman says"
-            },
-            {
-              "id": "98409",
-              "date": "2024-07-04T03:14:36.000Z",
-              "title": "Breaking: Fatima Payman to confirm this afternoon she is leaving Labor"
-            },
-            {
-              "id": "98408",
-              "date": "2024-07-04T03:02:32.000Z",
-              "title": "Four arrested after protest, hit with two-year ban"
-            }
-          ]
         }
       },
       {
