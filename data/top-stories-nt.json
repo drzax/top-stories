@@ -307,7 +307,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104069612",
           "imagePosition": {
@@ -317,8 +324,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A composite image of three young children.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae4c4fdc705d8633132fc9ca494327f1?impolicy=wcms_crop_resize&cropH=283&cropW=425&xPos=56&yPos=0&width=160&height=107",
+            "altText": "A night time photo of a Queensland Police Service car with its blue light illuminated.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7e97fadc87bb4d2a59e7215b35d26022?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=91&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -328,11 +335,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-08/amber-alert-three-children-missing-northern-gold-coast/104069612",
           "video": null,
           "reactKey": "nt-104069612-1",
-          "synopsis": "Police searching for three missing children from Paradise Point on the Gold Coast say a man known to them is assisting with their inquiries.",
+          "synopsis": "Police find three children reported missing from the Gold Coast safe and well, while a man known to the children is assisting with the investigation into their disappearance.",
           "title": {
-            "children": "Amber alert for three children missing from Gold Coast"
+            "children": "Police cancel alert for missing Gold Coast children, man assisting with investigation"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -392,7 +406,7 @@
           "reactKey": "nt-104064634-1",
           "synopsis": "Four years ago, 10-year-old Bridgette Porter was killed. On the anniversary of her death, her parents are campaigning for justice through Biddy's Voice.\n\n \n\n ",
           "title": {
-            "children": "Bridgette Porter's murderer took more than her young life. Her parents now want it  back"
+            "children": "Parents of 10-year-old murder victim seek to reclaim daughter's identity"
           },
           "imageContainerClassNames": []
         }
