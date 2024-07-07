@@ -13,13 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104069682"
-        },
-        {
-          "uri": "coremedia://article/104067348"
-        },
-        {
-          "uri": "coremedia://article/104058132"
+          "uri": "coremedia://article/104069612"
         },
         {
           "uri": "coremedia://article/104069750"
@@ -28,10 +22,16 @@
           "uri": "coremedia://article/104063174"
         },
         {
-          "uri": "coremedia://article/104069310"
+          "uri": "coremedia://article/104067348"
         },
         {
-          "uri": "coremedia://article/104068900"
+          "uri": "coremedia://article/104058132"
+        },
+        {
+          "uri": "coremedia://article/104069936"
+        },
+        {
+          "uri": "coremedia://article/104069310"
         },
         {
           "uri": "coremedia://article/104064634"
@@ -40,7 +40,13 @@
           "uri": "coremedia://article/104068822"
         },
         {
+          "uri": "coremedia://article/104065782"
+        },
+        {
           "uri": "coremedia://article/104068350"
+        },
+        {
+          "uri": "coremedia://article/104059440"
         },
         {
           "uri": "coremedia://article/104057718"
@@ -53,6 +59,9 @@
         },
         {
           "uri": "coremedia://article/104068652"
+        },
+        {
+          "uri": "coremedia://article/104045078"
         },
         {
           "uri": "coremedia://article/104069036"
@@ -103,19 +112,10 @@
           "uri": "coremedia://article/104068452"
         },
         {
-          "uri": "coremedia://article/104068746"
-        },
-        {
-          "uri": "coremedia://article/104068672"
-        },
-        {
           "uri": "coremedia://article/103997536"
         },
         {
           "uri": "coremedia://article/104067424"
-        },
-        {
-          "uri": "coremedia://article/104042352"
         }
       ]
     },
@@ -123,11 +123,18 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104069682",
+          "id": "104069612",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -135,24 +142,100 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A composite image of three young children.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae4c4fdc705d8633132fc9ca494327f1?impolicy=wcms_crop_resize&cropH=283&cropW=425&xPos=59&yPos=0&width=862&height=575",
+            "altText": "A night time photo of a Queensland Police Service car with its blue light illuminated.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7e97fadc87bb4d2a59e7215b35d26022?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=91&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-07-08/amber-alert-three-children-missing-northern-gold-coast/104069612"
           },
-          "contentUri": "coremedia://article/104069682",
+          "contentUri": "coremedia://article/104069612",
           "canonicalURL": "https://www.abc.net.au/news/2024-07-08/amber-alert-three-children-missing-northern-gold-coast/104069612",
           "video": null,
-          "reactKey": "qld-104069682-1",
-          "synopsis": "Police searching for three missing children from Paradise Point on the Gold Coast say a man known to them is assisting with their inquiries.",
+          "reactKey": "qld-104069612-1",
+          "synopsis": "Police find three children reported missing from the Gold Coast safe and well, while a man known to the children is assisting with the investigation into their disappearance.",
           "title": {
-            "children": "Amber alert for three children missing from Gold Coast"
+            "children": "Police cancel alert for missing Gold Coast children, man assisting with investigation"
           },
           "imageContainerClassNames": [
+            "imageHalf",
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104069750",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "People wave their hands looking an electronic poll count ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f590b306dc0b7aecc0966c6289c4b8b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-08/france-national-assembly-election-live-blog/104057684"
+          },
+          "contentUri": "coremedia://article/104069750",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/france-national-assembly-election-live-blog/104057684",
+          "video": null,
+          "reactKey": "qld-104069750-1",
+          "synopsis": "French politicians are surprised by a swing to the left as parliamentary polls close, despite a predicted far-right surge. The snap parliamentary election was called by president Emmanuel Macron last month. Follow live. ",
+          "title": {
+            "children": "Leftist leader expresses 'immense relief' as France makes surprise swing away from far right"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104063174",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Gabriel Attal",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17c0b6a8b97429b1ee77c68078640c4f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-08/france-closes-polls-in-national-assembly-vote/104063174"
+          },
+          "contentUri": "coremedia://article/104063174",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/france-closes-polls-in-national-assembly-vote/104063174",
+          "video": null,
+          "reactKey": "qld-104063174-1",
+          "synopsis": "In a pivotal run-off election in France, polling projections say a left-leaning coalition has won the most parliamentary seats, while President Emmanuel Macron's centrist alliance will come second and the far right third. ",
+          "title": {
+            "children": "France's far-right National Rally loses parliamentary election, early polling indicates"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -220,15 +303,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "104069750",
+          "id": "104069936",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -236,51 +313,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People wave their hands looking an electronic poll count ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f590b306dc0b7aecc0966c6289c4b8b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "red first sand dunes and muddy claypan",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31ddf2734cb49454d90c4e607c53e6f2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=417&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-08/france-national-assembly-election-live-blog/104057684"
+            "to": "/news/2024-07-08/birdsville-channel-country-record-winter-rainfall-july/104068900"
           },
-          "contentUri": "coremedia://article/104069750",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/france-national-assembly-election-live-blog/104057684",
+          "contentUri": "coremedia://article/104069936",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/birdsville-channel-country-record-winter-rainfall-july/104068900",
           "video": null,
-          "reactKey": "qld-104069750-1",
-          "synopsis": "French politicians are surprised by a swing to the left as parliamentary polls close, despite a predicted far-right surge. The snap parliamentary election was called by president Emmanuel Macron last month. Follow live. ",
+          "reactKey": "qld-104069936-1",
+          "synopsis": "Parts of the state's far west record up to 10 times their average July rainfall, in what the weather bureau has described as an \"unusual\" winter drenching.",
           "title": {
-            "children": "Leftist leader expresses 'immense relief' as France makes surprise swing away from far right"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104063174",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Gabriel Attal",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17c0b6a8b97429b1ee77c68078640c4f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-07-08/france-closes-polls-in-national-assembly-vote/104063174"
-          },
-          "contentUri": "coremedia://article/104063174",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/france-closes-polls-in-national-assembly-vote/104063174",
-          "video": null,
-          "reactKey": "qld-104063174-1",
-          "synopsis": "In a pivotal run-off election in France, polling projections say a left-leaning coalition has won the most parliamentary seats, while President Emmanuel Macron's centrist alliance will come second and the far right third. ",
-          "title": {
-            "children": "France's far-right National Rally loses parliamentary election, early polling indicates"
+            "children": "Winter rainfall topples decades-old July weather record in outback Queensland"
           },
           "imageContainerClassNames": []
         }
@@ -312,37 +358,6 @@
           "synopsis": "A lightweight US-made drone that carries an explosive payload and fits in a backpack will soon enter service with the Australian Defence Force following its successful use on the battlefield in Ukraine.",
           "title": {
             "children": "Australian military to buy small US-made lethal drones being used by Ukrainian forces"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104068900",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "red first sand dunes and muddy claypan",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31ddf2734cb49454d90c4e607c53e6f2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=417&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-08/birdsville-channel-country-record-winter-rainfall-july/104068900"
-          },
-          "contentUri": "coremedia://article/104068900",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/birdsville-channel-country-record-winter-rainfall-july/104068900",
-          "video": null,
-          "reactKey": "qld-104068900-1",
-          "synopsis": "Parts of the state's far west record up to 10 times their average July rainfall, in what the weather bureau has described as an \"unusual\" winter drenching.",
-          "title": {
-            "children": "Winter rainfall topples decades-old July weather record in outback Queensland"
           },
           "imageContainerClassNames": []
         }
@@ -414,6 +429,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104065782",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman folding her arms in front of a vacant block of land",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e7eb64831b458f64b8e42884a02b3ad0?impolicy=wcms_crop_resize&cropH=3622&cropW=5433&xPos=41&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-08/nsw-government-owned-land-to-be-sold-off-housing-crisis/104065782"
+          },
+          "contentUri": "coremedia://article/104065782",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/nsw-government-owned-land-to-be-sold-off-housing-crisis/104065782",
+          "video": null,
+          "reactKey": "qld-104065782-1",
+          "synopsis": "The NSW government is accused of breaking an election promise by selling prime land in inner-city Sydney to private developers with no requirement for any social or affordable housing to be built.",
+          "title": {
+            "children": "Prime land close to Sydney CBD sold to developers with no requirement to build affordable housing"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104068350",
           "imagePosition": {
             "mobile": "right",
@@ -436,6 +482,37 @@
           "synopsis": "Three young children have died overnight after a house fire at Lalor Park in Sydney's west.",
           "title": {
             "children": "Police allege father blocked rescuers trying to save children from fatal house fire that killed three"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104059440",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A barista performs coffee art while pouring milk from a jug into a cup of coffee.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/246648176a17754707c754ec0d4bced4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=179&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-08/should-we-worry-about-chemicals-in-decaf-coffee/104059440"
+          },
+          "contentUri": "coremedia://article/104059440",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-08/should-we-worry-about-chemicals-in-decaf-coffee/104059440",
+          "video": null,
+          "reactKey": "qld-104059440-1",
+          "synopsis": "Environmental advocacy groups have raised concerns about chemical solvents used in decaf coffee. Should we be worried?",
+          "title": {
+            "children": "Drinking decaf can seem like a healthy choice, but is it?"
           },
           "imageContainerClassNames": []
         }
@@ -560,6 +637,37 @@
           "synopsis": "NDIS Minister Bill Shorten confirms he will ban sex work from being accessed through the disability insurance scheme, which advocates say would rob participants of the freedom to control their own lives.",
           "title": {
             "children": "'Not a sustainable proposition': Government to block sex work services from NDIS"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104045078",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A fair-skinned man, Dave, in an orange hi-vis shirt and akubra smiles and leans on a pecan tree.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/54567940df671a1ac1772ab550b1f7c8?impolicy=wcms_crop_resize&cropH=2720&cropW=4080&xPos=0&yPos=349&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/rural/2024-07-08/pecan-grower-sells-harvest-for-gelato-after-frost-ruins-crops/104045078"
+          },
+          "contentUri": "coremedia://article/104045078",
+          "canonicalURL": "https://www.abc.net.au/news/rural/2024-07-08/pecan-grower-sells-harvest-for-gelato-after-frost-ruins-crops/104045078",
+          "video": null,
+          "reactKey": "qld-104045078-1",
+          "synopsis": "Riverland farmer Dave Otto de Grancy wanted \"something that would stand the test of the weather\", so he turned to pecan trees 16 years ago. Now, the nuts yield $80 a kilogram.",
+          "title": {
+            "children": "When life gave this farmer frosty oranges and grapes, he planted pecans to make gelato instead"
           },
           "imageContainerClassNames": []
         }
@@ -765,8 +873,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A concrete walkway crossing a dry riverbed in Alice Springs.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e26d4a5ab616d82e0a9b9f5cd2070a33?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "altText": "A bridge at night with street lamps turned on above it ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a867a1b8c1e7b753b5f15858f19ec52?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1069,70 +1177,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104068746",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Bradman Best runs the ball against Cameron Munster",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31e254bf273bbaeec94cff707f443a78?impolicy=wcms_crop_resize&cropH=2430&cropW=3645&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-07/nrl-live-bradman-best-state-of-origin-nsw-blues-team/104068746"
-          },
-          "contentUri": "coremedia://article/104068746",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-07/nrl-live-bradman-best-state-of-origin-nsw-blues-team/104068746",
-          "video": null,
-          "reactKey": "qld-104068746-1",
-          "synopsis": "Bradman Best will play his second State of Origin after being named to replace injured Blues centre Latrell Mitchell as one of two changes made by NSW Blues coach Michael Maguire for next week's decider in Brisbane.",
-          "title": {
-            "children": "Bradman Best replaces Latrell Mitchell for State of Origin III as NSW makes two changes for decider"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104068672",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Isaac Heeney walking along the Docklands pitch during an AFL match.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/26532a221fc0f4ba6759d2078ca63f3f?impolicy=wcms_crop_resize&cropH=1624&cropW=2436&xPos=1&yPos=37&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-07/afl-round-17-demons-eagles-saints-swans-lions-crows/104068672"
-          },
-          "contentUri": "coremedia://article/104068672",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-07/afl-round-17-demons-eagles-saints-swans-lions-crows/104068672",
-          "video": null,
-          "reactKey": "qld-104068672-1",
-          "synopsis": "Sydney's Brownlow Medal favourite may be ruled out of the running in the coming days after a strike drew blood from the face of St Kilda defender Jimmy Webster as the Saints shocked the ladder-leaders.",
-          "title": {
-            "children": "Isaac Heeney's Brownlow hopes in strife after high hit as Saints stun ladder-leading Swans"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "103997536",
           "imagePosition": {
             "mobile": "right",
@@ -1186,37 +1230,6 @@
           "synopsis": "Videos from the scene show the suburban street lined with emergency crews and a two-storey home gutted by fire. ",
           "title": {
             "children": "Three people rushed to hospital after inferno on Brisbane street destroys three houses"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104042352",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Tom Gleeson standing with his arms crossed with a serious look on his face with th Hard quiz logo in the top left corner",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8bb5595b6f91dd16bd8a529d3cb85055?impolicy=wcms_crop_resize&cropH=1440&cropW=2160&xPos=0&yPos=256&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-07/hard-quiz-weekly-trivia/104042352"
-          },
-          "contentUri": "coremedia://article/104042352",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-07/hard-quiz-weekly-trivia/104042352",
-          "video": null,
-          "reactKey": "qld-104042352-1",
-          "synopsis": "So you think you're some kind of master of general knowledge? Well, I'll be the judge of that.",
-          "title": {
-            "children": "It's time to flex your trivia muscle. Have you got what it takes? "
           },
           "imageContainerClassNames": []
         }
