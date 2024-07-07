@@ -55,6 +55,9 @@
           "uri": "coremedia://article/104067250"
         },
         {
+          "uri": "coremedia://article/104061604"
+        },
+        {
           "uri": "coremedia://article/104068376"
         },
         {
@@ -262,7 +265,7 @@
           "reactKey": "vic-104068350-1",
           "synopsis": "Three young children have died overnight after a house fire at Lalor Park in Sydney's west. ",
           "title": {
-            "children": "Man in custody after three young children die in fire in alleged domestic violence incident in Sydney"
+            "children": "Police allege father blocked rescuers trying to save children from fatal house fire which killed three"
           },
           "imageContainerClassNames": []
         }
@@ -394,7 +397,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104068488",
           "imagePosition": {
@@ -419,7 +429,14 @@
           "title": {
             "children": "Man shot dead by police after alleged knife threat"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -548,6 +565,37 @@
           "synopsis": "Joe Biden says he will only drop out of the US presidential race if the Lord Almighty himself tells him to after a shaky debate performance raised questions about his suitability.",
           "title": {
             "children": "A defiant Joe Biden appears in denial — will his television interview save his candidacy?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104061604",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Sarah and horses",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52d8f4e683f7a4b6a4fa2e424e884984?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-07/sarah-wheeler-outback-ride-nsw-qld-raising-awareness-rare-cancer/104061604"
+          },
+          "contentUri": "coremedia://article/104061604",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-07/sarah-wheeler-outback-ride-nsw-qld-raising-awareness-rare-cancer/104061604",
+          "video": null,
+          "reactKey": "vic-104061604-1",
+          "synopsis": "The 26-year-old is riding 5,500 kilometres through outback Queensland and New South Wales to help fight the rare cancer that killed her mum, and to help her grieve the loss of both her parents.",
+          "title": {
+            "children": "In honour of her parents, Sarah is on an epic horse ride to raise awareness about the cancer that killed her mum"
           },
           "imageContainerClassNames": []
         }
@@ -949,8 +997,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Composite thumbnail of stadium concept.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/412c7f29070e7ce98f04253d49901e1a?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Aerail view, Macquarie Point stadium concept, released July 2024.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/401415dd7b566743fda4c99e8d5c373f?impolicy=wcms_crop_resize&cropH=515&cropW=772&xPos=0&yPos=257&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {

@@ -114,7 +114,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -143,7 +150,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -172,7 +186,7 @@
           "reactKey": "qld-104068350-1",
           "synopsis": "Three young children have died overnight after a house fire at Lalor Park in Sydney's west. ",
           "title": {
-            "children": "Man in custody after three young children die in fire in alleged domestic violence incident in Sydney"
+            "children": "Police allege father blocked rescuers trying to save children from fatal house fire which killed three"
           },
           "imageContainerClassNames": []
         }
@@ -360,7 +374,7 @@
           "reactKey": "qld-104054040-1",
           "synopsis": "Letisha Frenken has struggled for years to retain chefs in her central Queensland cafe. She says she cannot compete with the higher wages offered in the mines.",
           "title": {
-            "children": "Chef shortage felt by regional businesses struggling to compete with mining wages"
+            "children": "Chefs heading to the mines leave empty plates at regional restaurants"
           },
           "imageContainerClassNames": []
         }
