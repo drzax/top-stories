@@ -19,7 +19,7 @@
           "uri": "coremedia://article/104075508"
         },
         {
-          "uri": "coremedia://article/104075078"
+          "uri": "coremedia://article/104076124"
         },
         {
           "uri": "coremedia://article/104073776"
@@ -173,7 +173,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104075078",
+          "id": "104076124",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -188,10 +188,10 @@
           "link": {
             "to": "/news/2024-07-09/japan-and-korea-join-australian-led-pushback-on-chinese-hack/104075078"
           },
-          "contentUri": "coremedia://article/104075078",
+          "contentUri": "coremedia://article/104076124",
           "canonicalURL": "https://www.abc.net.au/news/2024-07-09/japan-and-korea-join-australian-led-pushback-on-chinese-hack/104075078",
           "video": null,
-          "reactKey": "qld-104075078-1",
+          "reactKey": "qld-104076124-1",
           "synopsis": "Australia and key regional partners are accusing a Chinese spy agency of cyber espionage targeting government and business networks, in a large-scale operation that involves stealing hundreds of usernames and passwords.",
           "title": {
             "children": "Australia and allies accuse Chinese spy agency of large-scale cyber espionage"
@@ -613,7 +613,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104075166",
           "imagePosition": {
@@ -638,7 +645,14 @@
           "title": {
             "children": "Adam Simpson gone as West Coast Eagles coach after more than a decade at helm"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -965,6 +979,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "99964",
+              "date": "2024-07-09T04:26:15.000Z",
+              "title": "'Sledgehammer to a walnut': REIA cautions against changes to money laundering laws"
+            },
+            {
               "id": "99962",
               "date": "2024-07-09T04:00:12.000Z",
               "title": "Can Iran's new president change its standing with the West?"
@@ -973,11 +992,6 @@
               "id": "99961",
               "date": "2024-07-09T03:24:56.000Z",
               "title": "Why Australia is falling behind global money laundering standards and what is being done to try fix it"
-            },
-            {
-              "id": "99959",
-              "date": "2024-07-09T02:29:47.000Z",
-              "title": "Job mobility falls back to pre-COVID levels as labour market gets tougher for workers"
             }
           ]
         }

@@ -594,7 +594,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104075166",
           "imagePosition": {
@@ -619,7 +626,14 @@
           "title": {
             "children": "Adam Simpson gone as West Coast Eagles coach after more than a decade at helm"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -993,7 +1007,7 @@
           "reactKey": "nsw-104043946-1",
           "synopsis": "Before undergoing a laparoscopy for endometriosis, Kim-Maree had heard and read many accounts of people feeling better \"almost straight away\". So when she didn't, she felt like she had failed in some way.",
           "title": {
-            "children": "'Don't compare your experience': Readers' advice on undergoing a laparoscopy for endometriosis"
+            "children": "'Any surgery is a major thing to go through': Readers' advice for having a laparoscopy for endo"
           },
           "imageContainerClassNames": []
         }
