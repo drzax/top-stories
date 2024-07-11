@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104089112"
+        },
+        {
           "uri": "coremedia://article/104089446"
         },
         {
@@ -20,9 +23,6 @@
         },
         {
           "uri": "coremedia://article/104089142"
-        },
-        {
-          "uri": "coremedia://article/104089112"
         },
         {
           "uri": "coremedia://article/104070888"
@@ -130,6 +130,45 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104089112",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Biden stands at lecturn ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1ebf941258a291e53870708dafd4c46?impolicy=wcms_crop_resize&cropH=1319&cropW=1978&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-12/joe-biden-press-conference-live-blog/104079562"
+          },
+          "contentUri": "coremedia://article/104089112",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-12/joe-biden-press-conference-live-blog/104079562",
+          "video": null,
+          "reactKey": "nsw-104089112-1",
+          "synopsis": "US President Joe Biden is speaking at his first solo press conference in eight months as part of NATO Summit. Follow live.",
+          "title": {
+            "children": "Joe Biden calls Kamala Harris 'Vice-President Trump' in Washington press conference"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
           "id": "104089446",
           "imagePosition": {
             "mobile": "right",
@@ -139,7 +178,7 @@
           "isMajor": false,
           "image": {
             "altText": "Reece Kershaw speaking at the National Press CLub",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00104074bd56a35a525c2424df5f304c?impolicy=wcms_crop_resize&cropH=4480&cropW=6720&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00104074bd56a35a525c2424df5f304c?impolicy=wcms_crop_resize&cropH=2883&cropW=4325&xPos=1468&yPos=28&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -153,9 +192,7 @@
           "title": {
             "children": "ADF member and husband charged with attempting to access classified documents for Russia"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -216,43 +253,6 @@
           "synopsis": "The family of two Australian victims of a suspected murder at a luxury resort in the Philippines have released a statement saying the situation is \"like living a nightmare\" and they are \"praying for answers\". ",
           "title": {
             "children": "Australian couple David Fisk and Lucita Barquin Cortez named as victims in Philippines suspected murder"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104089112",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Biden stands at lecturn ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1ebf941258a291e53870708dafd4c46?impolicy=wcms_crop_resize&cropH=1319&cropW=1978&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-12/joe-biden-press-conference-live-blog/104079562"
-          },
-          "contentUri": "coremedia://article/104089112",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-12/joe-biden-press-conference-live-blog/104079562",
-          "video": null,
-          "reactKey": "nsw-104089112-1",
-          "synopsis": "US President Joe Biden is speaking at his first solo press conference in eight months as part of NATO Summit. Follow live.",
-          "title": {
-            "children": "Joe Biden hosts anticipated solo press conference in Washington DC"
           },
           "imageContainerClassNames": []
         }
@@ -654,6 +654,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "100329",
+              "date": "2024-07-11T23:38:41.000Z",
+              "title": "Tesla shares snap 11-day winning streak on reported robotaxi delays"
+            },
+            {
               "id": "100304",
               "date": "2024-07-11T23:08:24.000Z",
               "title": "UK economy grew faster than expected in May"
@@ -662,11 +667,6 @@
               "id": "100295",
               "date": "2024-07-11T22:35:11.000Z",
               "title": "CEOs were more likely to lose their jobs than their bonuses in 2023"
-            },
-            {
-              "id": "100289",
-              "date": "2024-07-11T22:02:19.000Z",
-              "title": "ICYMI: BHP shutters Nickel West operations"
             }
           ]
         }
