@@ -73,7 +73,7 @@
           "uri": "coremedia://article/104082670"
         },
         {
-          "uri": "coremedia://article/104086818"
+          "uri": "coremedia://recipe/104080808"
         },
         {
           "uri": "coremedia://article/104093956"
@@ -94,7 +94,7 @@
           "uri": "coremedia://article/104093038"
         },
         {
-          "uri": "coremedia://article/104080294"
+          "uri": "coremedia://article/104086818"
         },
         {
           "uri": "coremedia://article/104090878"
@@ -111,14 +111,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -147,14 +140,7 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "pending",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          ]
         }
       },
       {
@@ -771,9 +757,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "recipe"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104086818",
+          "id": "104080808",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -781,20 +771,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A close-up shot of a young stockman wearing a straw Akubra, staring into the camera lens. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3746f4ffd6251229e070d093b95db3dd?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A bowl of rice pudding with a sprinkling of brown sugar on a sunny table, the recipe is made on the stove.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0ead95ef10df046f364d7d9653a0c57c?impolicy=wcms_crop_resize&cropH=1512&cropW=2268&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-13/indigenous-youth-program-helping-young-people-change-lives/104086818"
+            "to": "/news/2024-07-13/easy-stovetop-rice-pudding-with-egg/104080808"
           },
-          "contentUri": "coremedia://article/104086818",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-13/indigenous-youth-program-helping-young-people-change-lives/104086818",
+          "contentUri": "coremedia://recipe/104080808",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-13/easy-stovetop-rice-pudding-with-egg/104080808",
           "video": null,
-          "reactKey": "national-104086818-1",
-          "synopsis": "As another curfew ends in Alice Springs and debate rages over the next steps for the embattled town, a local Indigenous-led program is working hard to lower crime rates in the community.",
+          "reactKey": "national-104080808-1",
+          "synopsis": "Rice pudding is an easy dessert made with simple ingredients. This version is cooked on the stove and is made custard-like with the addition of eggs.",
           "title": {
-            "children": "Indigenous-led youth program making a difference amid Alice Springs curfew debate"
+            "children": "An easy rice pudding, made on the stove"
           },
           "imageContainerClassNames": []
         }
@@ -994,7 +984,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104080294",
+          "id": "104086818",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1002,20 +992,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Lady in orange dress inside a bus",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3bbe7c5bb16d9f021e7542006a624936?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=332&width=160&height=107",
+            "altText": "A close-up shot of a young stockman wearing a straw Akubra, staring into the camera lens. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3746f4ffd6251229e070d093b95db3dd?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-13/housing-and-rental-crisis-converted-school-bus/104080294"
+            "to": "/news/2024-07-13/indigenous-youth-program-helping-young-people-change-lives/104086818"
           },
-          "contentUri": "coremedia://article/104080294",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-13/housing-and-rental-crisis-converted-school-bus/104080294",
+          "contentUri": "coremedia://article/104086818",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-13/indigenous-youth-program-helping-young-people-change-lives/104086818",
           "video": null,
-          "reactKey": "national-104080294-1",
-          "synopsis": "The housing crisis has meant many people have had to think outside the box. These two single mums found a stable home with the help of other women in the community.",
+          "reactKey": "national-104086818-1",
+          "synopsis": "As another curfew ends in Alice Springs and debate rages over the next steps for the embattled town, a local Indigenous-led program is working hard to lower crime rates in the community.",
           "title": {
-            "children": "A converted school bus might not be a conventional home, but it suits Lucy and her kids"
+            "children": "Indigenous-led youth program making a difference amid Alice Springs curfew debate"
           },
           "imageContainerClassNames": []
         }
