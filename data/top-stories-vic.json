@@ -143,7 +143,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104090092",
           "imagePosition": {
@@ -166,9 +173,16 @@
           "reactKey": "vic-104090092-1",
           "synopsis": "Australia's spy agency ASIO was the first authority to investigate concerns about Russian-born Australian citizen Kira Korolev. What followed was close monitoring of the army private and her husband, which has now landed them in custody, facing allegations of spying for their mother country.",
           "title": {
-            "children": "ASIO first to investigate concerns over Brisbane couple charged with Russian espionage"
+            "children": "ASIO 'monitored Brisbane couple for period of time' before the were charged over Russian espionage"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -729,8 +743,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The couple stand holding a koala",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad4ec07d1cd047452ad06fee5eece49b?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=0&yPos=0&width=160&height=107",
+            "altText": "CCTV vision of a hooded figure walking down a hotel corridor.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f41d8d0fac0f5c9a4bdba53ef50cc9cd?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -742,7 +756,7 @@
           "reactKey": "vic-104093396-1",
           "synopsis": "Police and officials in the Philippines are trying to reassure locals and tourists the area remains safe after a triple murder. ",
           "title": {
-            "children": "Philippine police reassure tourists after Australian couple murdered "
+            "children": "Inside the luxury Philippine hotel where two Australians were found dead"
           },
           "imageContainerClassNames": []
         }
