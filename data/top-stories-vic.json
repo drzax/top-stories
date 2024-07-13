@@ -13,10 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104095688"
+          "uri": "coremedia://article/104095746"
         },
         {
-          "uri": "coremedia://video/104095700"
+          "uri": "coremedia://article/104095660"
         },
         {
           "uri": "coremedia://article/104093308"
@@ -117,32 +117,38 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104095688",
+          "id": "104095746",
           "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
           "isMajor": false,
           "image": {
             "altText": "Donald Trump is surrounded by US Secret Service agents on a stage with red around his mouth",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5572cd30c03f75efb03338b9f042ee39?impolicy=wcms_crop_resize&cropH=2174&cropW=3865&xPos=0&yPos=201&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5572cd30c03f75efb03338b9f042ee39?impolicy=wcms_crop_resize&cropH=2577&cropW=3865&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-14/shots-fired-at-trump-rally-in-pennsylvania/104095660"
+            "to": "/news/2024-07-14/donald-trump-rally-shooting-pennsylvania/104095670"
           },
-          "contentUri": "coremedia://article/104095688",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-14/shots-fired-at-trump-rally-in-pennsylvania/104095660",
+          "contentUri": "coremedia://article/104095746",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-14/donald-trump-rally-shooting-pennsylvania/104095670",
           "video": null,
-          "reactKey": "vic-104095688-1",
-          "synopsis": "Donald Trump is rushed off stage after loud bangs are heard at a rally in Pennsylvania.",
+          "reactKey": "vic-104095746-1",
+          "synopsis": "Video from the event showed blood on Mr Trump's ear after shots rang out while he was giving a speech. Follow live.",
           "title": {
-            "children": "Shots fired, Trump rushed off stage at rally in Pennsylvania"
+            "children": "Trump 'fine' after shots ring out during speech in Pennsylvania"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -154,27 +160,28 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104095700",
+          "id": "104095660",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c10cfb02163cb9810ce8fc20b0c8fe8?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
+            "altText": "Donald Trump is surrounded by US Secret Service agents on a stage with red around his mouth",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5572cd30c03f75efb03338b9f042ee39?impolicy=wcms_crop_resize&cropH=1341&cropW=2385&xPos=814&yPos=268&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
-            "to": "/news/2024-07-14/shots-fired-at-stage-of-donald-trumps-rally/104095686"
+            "to": "/news/2024-07-14/shots-fired-at-trump-rally-in-pennsylvania/104095660"
           },
-          "contentUri": "coremedia://video/104095700",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-14/shots-fired-at-stage-of-donald-trumps-rally/104095686",
+          "contentUri": "coremedia://article/104095660",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-14/shots-fired-at-trump-rally-in-pennsylvania/104095660",
           "video": null,
-          "reactKey": "vic-104095700-1",
-          "synopsis": "Trump's security detail urgently escorts former US president Donald Trump off stage after gunshots interrupt his rally speech.",
+          "reactKey": "vic-104095660-1",
+          "synopsis": "Donald Trump is rushed off stage, with what appears to be blood on his face and ear, after loud bangs are heard at a rally in Pennsylvania.",
           "title": {
-            "children": "WATCH: Trump grabs face after shots ring out at rally "
+            "children": "Bloody-faced Donald Trump rushed off stage after shots fired at campaign rally"
           },
           "imageContainerClassNames": []
         }
