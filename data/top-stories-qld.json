@@ -140,7 +140,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104098268",
           "imagePosition": {
@@ -165,7 +172,14 @@
           "title": {
             "children": "Man arrested after woman's body found at home west of Brisbane"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -399,6 +413,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "101981",
+              "date": "2024-07-15T04:22:49.000Z",
+              "title": "Suspect was a member of local shooting club"
+            },
+            {
               "id": "101942",
               "date": "2024-07-15T02:00:54.000Z",
               "title": "Trump says turning his head likely saved his life"
@@ -407,11 +426,6 @@
               "id": "101941",
               "date": "2024-07-15T02:00:41.000Z",
               "title": "Trump tells media RNC speech  will be rewritten in light of shooting"
-            },
-            {
-              "id": "101930",
-              "date": "2024-07-15T01:46:27.000Z",
-              "title": "Fire department shares photos of Trump rally shooting victim Corey Comperatore"
             }
           ]
         }
