@@ -19,13 +19,16 @@
           "uri": "coremedia://article/104101468"
         },
         {
-          "uri": "coremedia://article/104089890"
+          "uri": "coremedia://article/104100000"
         },
         {
           "uri": "coremedia://article/104101040"
         },
         {
-          "uri": "coremedia://article/104099212"
+          "uri": "coremedia://article/104089890"
+        },
+        {
+          "uri": "coremedia://article/104101542"
         },
         {
           "uri": "coremedia://article/104101344"
@@ -162,9 +165,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104089890",
+          "id": "104100000",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -172,22 +181,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A graphic showing a Medicare card, $100 bills, COVID cells and scientific beakers",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3ec89360395ea5fce2c79627efe0b3d?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=125&width=160&height=107",
+            "altText": "Trump's adult children smile and pump their fists in the air at the Republican National Convention",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96bf2bb9275c80570b0d19e1d639ca78?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=2&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-16/health-department-foi-covid-test-medicare-claim-pathology-rort/104089890"
+            "to": "/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000"
           },
-          "contentUri": "coremedia://article/104089890",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/health-department-foi-covid-test-medicare-claim-pathology-rort/104089890",
+          "contentUri": "coremedia://article/104100000",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000",
           "video": null,
-          "reactKey": "vic-104089890-1",
-          "synopsis": "Some Australian pathology companies engaged in widespread and \"systematic rorting\" at the height of the COVID-19 pandemic, with new documents revealing accusations of fraud, cost-shifting and \"opportunistic\" claiming.",
+          "reactKey": "vic-104100000-1",
+          "synopsis": "The Republican National Convention begins with delegates descending on Wisconsin amid the tumult that follows the attempted assassination of former president Donald Trump. Follow live.",
           "title": {
-            "children": "Doctor claimed 21,000 COVID tests in a single day: How some pathology companies 'rorted' Medicare during the pandemic"
+            "children": "Trump formally nominated as Republican presidential nominee as national convention gets underway"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "102038",
+              "date": "2024-07-15T20:27:28.000Z",
+              "title": "'Not dropping out', says Robert F Kennedy Jr after meeting with Trump"
+            },
+            {
+              "id": "102035",
+              "date": "2024-07-15T20:23:30.000Z",
+              "title": "Trump formally nominated as Republican Party candidate for 2024 US election"
+            },
+            {
+              "id": "102031",
+              "date": "2024-07-15T19:57:18.000Z",
+              "title": "Donald Trump picks senator JD Vance as his nominee for vice-president"
+            }
+          ]
         }
       },
       {
@@ -226,7 +258,38 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104099212",
+          "id": "104089890",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A graphic showing a Medicare card, $100 bills, COVID cells and scientific beakers",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3ec89360395ea5fce2c79627efe0b3d?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=125&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-16/health-department-foi-covid-test-medicare-claim-pathology-rort/104089890"
+          },
+          "contentUri": "coremedia://article/104089890",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/health-department-foi-covid-test-medicare-claim-pathology-rort/104089890",
+          "video": null,
+          "reactKey": "vic-104089890-1",
+          "synopsis": "Some Australian pathology companies engaged in widespread and \"systematic rorting\" at the height of the COVID-19 pandemic, with new documents revealing accusations of fraud, cost-shifting and \"opportunistic\" claiming.",
+          "title": {
+            "children": "Doctor claimed 21,000 COVID tests in a single day: How some pathology companies 'rorted' Medicare during the pandemic"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104101542",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -241,10 +304,10 @@
           "link": {
             "to": "/news/2024-07-16/firewood-illegal-logging-cost-of-living-protected-forests/104099212"
           },
-          "contentUri": "coremedia://article/104099212",
+          "contentUri": "coremedia://article/104101542",
           "canonicalURL": "https://www.abc.net.au/news/2024-07-16/firewood-illegal-logging-cost-of-living-protected-forests/104099212",
           "video": null,
-          "reactKey": "vic-104099212-1",
+          "reactKey": "vic-104101542-1",
           "synopsis": "Criminals are preying on Victorians struggling to pay their power bills this winter by flogging firewood stolen from protected forests.",
           "title": {
             "children": "With up to 9,000 trees illegally stolen each year, authorities are cracking down"
