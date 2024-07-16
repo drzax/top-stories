@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104103478"
-        },
-        {
           "uri": "coremedia://article/104015688"
         },
         {
           "uri": "coremedia://article/104101766"
+        },
+        {
+          "uri": "coremedia://article/104103478"
         },
         {
           "uri": "coremedia://article/104086046"
@@ -117,49 +117,10 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104103478",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Donald Trump with a bandage on his ear.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cea0a0c5c9c5b89a2afdd10fc13dcc2?impolicy=wcms_crop_resize&cropH=1226&cropW=2180&xPos=0&yPos=149&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000"
-          },
-          "contentUri": "coremedia://article/104103478",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000",
-          "video": null,
-          "reactKey": "nsw-104103478-1",
-          "synopsis": "As Joe Biden's first TV interview since the attempt on Donald Trump's life airs on NBC, the former president makes an unplanned appearance at the Republican National Convention. Follow live. ",
-          "title": {
-            "children": "Trump makes surprise convention appearance as Biden's high-stakes interview airs"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104015688",
           "imagePosition": {
             "mobile": "right",
@@ -169,7 +130,7 @@
           "isMajor": false,
           "image": {
             "altText": "A collage of a black and white photo of the White House, lit at night, and elements of the US flag.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/116b0ac5038c634f13687625faaf7410?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/116b0ac5038c634f13687625faaf7410?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -183,7 +144,9 @@
           "title": {
             "children": "The conservative 'battle plan' to give Trump unprecedented power"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -213,6 +176,43 @@
           "synopsis": "A long-awaited review into Sydney's toll network has recommended a two-way toll across the Harbour Bridge and for drivers to be charged per kilometre, which would decrease with every kilometre travelled.",
           "title": {
             "children": "Inquiry reveals plan to fix Sydney's tolls which are 'too high, too unfair and an ever-increasing burden'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104103478",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Donald Trump with a bandage on his ear.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cea0a0c5c9c5b89a2afdd10fc13dcc2?impolicy=wcms_crop_resize&cropH=1226&cropW=2180&xPos=0&yPos=149&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000"
+          },
+          "contentUri": "coremedia://article/104103478",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/donald-trump-live-updates-republican-national-convention/104100000",
+          "video": null,
+          "reactKey": "nsw-104103478-1",
+          "synopsis": "As Joe Biden's first TV interview since the attempt on Donald Trump's life airs on NBC, the former president makes an unplanned appearance at the Republican National Convention. Follow live. ",
+          "title": {
+            "children": "Trump makes surprise convention appearance as Biden's high-stakes interview airs"
           },
           "imageContainerClassNames": []
         }
