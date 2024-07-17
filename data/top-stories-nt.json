@@ -31,10 +31,10 @@
           "uri": "coremedia://article/104107228"
         },
         {
-          "uri": "coremedia://article/104108122"
+          "uri": "coremedia://article/104102130"
         },
         {
-          "uri": "coremedia://article/104102130"
+          "uri": "coremedia://article/104108122"
         },
         {
           "uri": "coremedia://article/104107034"
@@ -46,10 +46,10 @@
           "uri": "coremedia://article/104104138"
         },
         {
-          "uri": "coremedia://article/104107310"
+          "uri": "coremedia://article/104107716"
         },
         {
-          "uri": "coremedia://article/104107716"
+          "uri": "coremedia://article/104107310"
         },
         {
           "uri": "coremedia://article/104107238"
@@ -73,6 +73,9 @@
           "uri": "coremedia://article/104105310"
         },
         {
+          "uri": "coremedia://article/104107012"
+        },
+        {
           "uri": "coremedia://article/104107122"
         },
         {
@@ -83,9 +86,6 @@
         },
         {
           "uri": "coremedia://article/104082064"
-        },
-        {
-          "uri": "coremedia://article/104107012"
         },
         {
           "uri": "coremedia://article/104107146"
@@ -180,7 +180,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104107272",
           "imagePosition": {
@@ -205,7 +212,14 @@
           "title": {
             "children": "CFMEU to be overhauled by independent administrator "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -307,37 +321,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104108122",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a computer-generated image of a solar farm and high-powered electricity lines.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f63f4454f2fe848663a091779a8436f7?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-16/suncable-solar-project-receives-environmental-approvals/104102110"
-          },
-          "contentUri": "coremedia://article/104108122",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/suncable-solar-project-receives-environmental-approvals/104102110",
-          "video": null,
-          "reactKey": "nt-104108122-1",
-          "synopsis": "A project to develop \"the world's largest renewable energy precinct\" in a remote stretch of the territory receives crucial environmental approvals, but a final investment decision for the $30 billion-plus project is not expected until 2027.",
-          "title": {
-            "children": "Massive SunCable solar project spanning more than 12,000 hectares gets environmental tick in NT"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104102130",
           "imagePosition": {
             "mobile": "right",
@@ -360,6 +343,37 @@
           "synopsis": "Just over a month ahead of the NT election, the Country Liberal Party has so far raised $958,241 — more than double Territory Labor's amount — in a situation that could hand the party a \"significant\" advantage at the August election.",
           "title": {
             "children": "Tech entrepreneurs to big gas: These are the NT's biggest election donors"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104108122",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a computer-generated image of a solar farm and high-powered electricity lines.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f63f4454f2fe848663a091779a8436f7?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-16/suncable-solar-project-receives-environmental-approvals/104102110"
+          },
+          "contentUri": "coremedia://article/104108122",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-16/suncable-solar-project-receives-environmental-approvals/104102110",
+          "video": null,
+          "reactKey": "nt-104108122-1",
+          "synopsis": "A project to develop \"the world's largest renewable energy precinct\" in a remote stretch of the territory receives crucial environmental approvals, but a final investment decision for the $30 billion-plus project is not expected until 2027.",
+          "title": {
+            "children": "Massive SunCable solar project spanning more than 12,000 hectares gets environmental tick in NT"
           },
           "imageContainerClassNames": []
         }
@@ -491,37 +505,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104107310",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "JD Vance stands with arms folded across his chest, chin raised",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/419a59a708e5c0a45fce3c0f75e72384?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-17/how-jd-vance-transformed-himself-from-never-trumper-to-vp-pick/104106988"
-          },
-          "contentUri": "coremedia://article/104107310",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-17/how-jd-vance-transformed-himself-from-never-trumper-to-vp-pick/104106988",
-          "video": null,
-          "reactKey": "nt-104107310-1",
-          "synopsis": "When Donald Trump first took office, JD Vance boldly declared he would never support him. So how did this conservative venture capitalist-turned-politician win over the former president to become his pick for Republican vice-president?",
-          "title": {
-            "children": "Once a self-declared 'Never Trumper', JD Vance is now aligned on everything from abortion to the war in Ukraine"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104107716",
           "imagePosition": {
             "mobile": "right",
@@ -544,6 +527,37 @@
           "synopsis": "Officials are yet to determine 20-year-old Thomas Crooks's motive for carrying out the attack on former president Donald Trump at a Pennsylvania rally.",
           "title": {
             "children": "Investigators check laptop, phone of Trump shooter as more details emerge about assassination attempt"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104107310",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "JD Vance stands with arms folded across his chest, chin raised",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/419a59a708e5c0a45fce3c0f75e72384?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-17/how-jd-vance-transformed-himself-from-never-trumper-to-vp-pick/104106988"
+          },
+          "contentUri": "coremedia://article/104107310",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-17/how-jd-vance-transformed-himself-from-never-trumper-to-vp-pick/104106988",
+          "video": null,
+          "reactKey": "nt-104107310-1",
+          "synopsis": "When Donald Trump first took office, JD Vance boldly declared he would never support him. So how did this conservative venture capitalist-turned-politician win over the former president to become his pick for Republican vice-president?",
+          "title": {
+            "children": "Once a self-declared 'Never Trumper', JD Vance is now aligned on everything from abortion to the war in Ukraine"
           },
           "imageContainerClassNames": []
         }
@@ -825,6 +839,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104107012",
+          "imagePosition": {
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Jeanine Kimm in the shearing shed",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6a79efe6af298b7d2eedf75dabe0074?impolicy=wcms_crop_resize&cropH=4644&cropW=8256&xPos=0&yPos=340&width=862&height=485",
+            "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-07-17/sheep-shearing-program-aims-to-entice-next-generation-of-workers/104102078"
+          },
+          "contentUri": "coremedia://article/104107012",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-17/sheep-shearing-program-aims-to-entice-next-generation-of-workers/104102078",
+          "video": null,
+          "reactKey": "nt-104107012-1",
+          "synopsis": "There are just 2,000 sheep shearers left keeping a $3.5 billion export industry alive. Rather than sit on idle hands, hardened workers are trying to entice the next generation into the shed.",
+          "title": {
+            "children": "'Shear hard … have a house paid off in ten years': Bid to entice the next generation of sheep shearers"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104107122",
           "imagePosition": {
             "mobile": "right",
@@ -940,37 +985,6 @@
           "synopsis": "A decade ago, a Malaysia Airlines plane was shot out of the sky and crashed in eastern Ukraine, killing everyone on board. Here's a brief summary of the MH17 disaster. ",
           "title": {
             "children": "Flight MH17 was shot down in 2014. Here's what happened to the Malaysia Airlines plane"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104107012",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Jeanine Kimm in the shearing shed",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6a79efe6af298b7d2eedf75dabe0074?impolicy=wcms_crop_resize&cropH=4644&cropW=8256&xPos=0&yPos=340&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-07-17/sheep-shearing-program-aims-to-entice-next-generation-of-workers/104102078"
-          },
-          "contentUri": "coremedia://article/104107012",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-17/sheep-shearing-program-aims-to-entice-next-generation-of-workers/104102078",
-          "video": null,
-          "reactKey": "nt-104107012-1",
-          "synopsis": "There are just 2,000 sheep shearers left keeping a $3.5 billion export industry alive. Rather than sit on idle hands, hardened workers are trying to entice the next generation into the shed.",
-          "title": {
-            "children": "'Shear hard … have a house paid off in ten years': Bid to entice the next generation of sheep shearers"
           },
           "imageContainerClassNames": []
         }
