@@ -13,19 +13,22 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104119798"
+          "uri": "coremedia://article/104119960"
         },
         {
           "uri": "coremedia://article/104115224"
         },
         {
+          "uri": "coremedia://article/104119798"
+        },
+        {
           "uri": "coremedia://article/104117584"
         },
         {
-          "uri": "coremedia://article/104119902"
+          "uri": "coremedia://article/104116794"
         },
         {
-          "uri": "coremedia://article/104116794"
+          "uri": "coremedia://article/104119902"
         },
         {
           "uri": "coremedia://article/104116798"
@@ -34,10 +37,10 @@
           "uri": "coremedia://article/104115066"
         },
         {
-          "uri": "coremedia://article/104118886"
+          "uri": "coremedia://article/104118026"
         },
         {
-          "uri": "coremedia://article/104118026"
+          "uri": "coremedia://article/104118886"
         },
         {
           "uri": "coremedia://article/104113406"
@@ -65,9 +68,6 @@
         },
         {
           "uri": "coremedia://article/104117308"
-        },
-        {
-          "uri": "coremedia://article/104117162"
         },
         {
           "uri": "coremedia://article/104116960"
@@ -111,11 +111,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104119798",
+          "id": "104119960",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -123,24 +129,31 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a man wearing glasses standing outdoors in front of a media pack ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c47692851cea68a0a05e96fc89ee287?impolicy=wcms_crop_resize&cropH=2229&cropW=3344&xPos=265&yPos=268&width=862&height=575",
+            "altText": "A blue error screen.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e6223d7ec9ed44af24599bbc73b02a79?impolicy=wcms_crop_resize&cropH=1333&cropW=2000&xPos=0&yPos=83&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-07-19/nsw-former-premier-dominic-perrottet-resigns-politics/104116458"
+            "to": "/news/2024-07-19/technology-shutdown-abc-media-banks-institutions/104119960"
           },
-          "contentUri": "coremedia://article/104119798",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/nsw-former-premier-dominic-perrottet-resigns-politics/104116458",
+          "contentUri": "coremedia://article/104119960",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/technology-shutdown-abc-media-banks-institutions/104119960",
           "video": null,
-          "reactKey": "nsw-104119798-1",
-          "synopsis": "The former NSW Liberal leader, who was the state's premier from October 2021 to March 2023, announces his resignation from politics and will head up BHP's office in Washignton DC.",
+          "reactKey": "nsw-104119960-1",
+          "synopsis": "There are reports of IT outages affecting major institutions in Australia and internationally. ",
           "title": {
-            "children": "Perrottet lands plum job in US after announcing end of his political career"
+            "children": "Major IT outage affecting banks, media outlets in Australia and globally"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -170,6 +183,37 @@
           "synopsis": "Donald Trump has taken the stage at the Republican National Convention for his first public speech since an attempt on his life. Meanwhile, US media is reporting \"reality is setting in\" for a \"soul-searching\" US President Joe Biden as pressure mounts to quit the presidential race.",
           "title": {
             "children": "'I'm not supposed to be here': Trump reflects on shooting as he accepts Republican nomination"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104119798",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a man wearing glasses standing outdoors in front of a media pack ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c47692851cea68a0a05e96fc89ee287?impolicy=wcms_crop_resize&cropH=2245&cropW=3367&xPos=226&yPos=252&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-19/nsw-former-premier-dominic-perrottet-resigns-politics/104116458"
+          },
+          "contentUri": "coremedia://article/104119798",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/nsw-former-premier-dominic-perrottet-resigns-politics/104116458",
+          "video": null,
+          "reactKey": "nsw-104119798-1",
+          "synopsis": "The former NSW Liberal leader, who was the state's premier from October 2021 to March 2023, announces his resignation from politics and will head up BHP's office in Washignton DC.",
+          "title": {
+            "children": "Perrottet lands plum job in US after announcing end of his political career"
           },
           "imageContainerClassNames": []
         }
@@ -210,37 +254,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104119902",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a safety vest and hard hat smiles from a platform above a power station",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f621b4c51ddd48544ddf2961da430434?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-19/hydrogen-liddell-fortescue-investment-backflip/104117092"
-          },
-          "contentUri": "coremedia://article/104119902",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/hydrogen-liddell-fortescue-investment-backflip/104117092",
-          "video": null,
-          "reactKey": "nsw-104119902-1",
-          "synopsis": "A feasibility study with AGL to explore green hydrogen possibilities at the now-closed Liddell coal-fired power station looks to be on the backburner. But Fortescue chairman Andrew Forrest insist he's not walking away from hydrogen.",
-          "title": {
-            "children": "Fortescue-backed green hydrogen partnership on hold after job cuts at metals giant"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104116794",
           "imagePosition": {
             "mobile": "right",
@@ -263,6 +276,37 @@
           "synopsis": "The US president, currently isolating with COVID-19, is said to be reflecting on whether to drop out as the presumptive Democratic candidate in the November election.",
           "title": {
             "children": "Biden reportedly 'soul-searching' on whether to stay in 2024 presidential race"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104119902",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a safety vest and hard hat smiles from a platform above a power station",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f621b4c51ddd48544ddf2961da430434?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-19/hydrogen-liddell-fortescue-investment-backflip/104117092"
+          },
+          "contentUri": "coremedia://article/104119902",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/hydrogen-liddell-fortescue-investment-backflip/104117092",
+          "video": null,
+          "reactKey": "nsw-104119902-1",
+          "synopsis": "A feasibility study with AGL to explore green hydrogen possibilities at the now-closed Liddell coal-fired power station looks to be on the backburner. But Fortescue chairman Andrew Forrest insist he's not walking away from hydrogen.",
+          "title": {
+            "children": "Fortescue-backed green hydrogen partnership on hold after job cuts at metals giant"
           },
           "imageContainerClassNames": []
         }
@@ -340,37 +384,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104118886",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two emergency service officers in an area cordoned off by red tape",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e6a864ce28a91a8e12c953b5270922e4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-19/yemeni-houthis-target-tel-aviv-in-military-operation/104118886"
-          },
-          "contentUri": "coremedia://article/104118886",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/yemeni-houthis-target-tel-aviv-in-military-operation/104118886",
-          "video": null,
-          "reactKey": "nsw-104118886-1",
-          "synopsis": "The Israeli army reviews a blast in central Tel Aviv which made it through the IDF's aerial defences, with Yemen's Houthi militants claiming responsibility for a \"military operation\" in the city.",
-          "title": {
-            "children": "Yemen's Houthis claim military operation in Tel Aviv as IDF investigates explosion"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104118026",
           "imagePosition": {
             "mobile": "top",
@@ -393,6 +406,37 @@
           "synopsis": "Sydney considers itself a world city, but it falls short when it comes to the height of its skyline. Why is this the case? ",
           "title": {
             "children": "Centrepoint Tower, red tape and 'morally suspect cities': Why is Sydney's skyline so short?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104118886",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two emergency service officers in an area cordoned off by red tape",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e6a864ce28a91a8e12c953b5270922e4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-19/yemeni-houthis-target-tel-aviv-in-military-operation/104118886"
+          },
+          "contentUri": "coremedia://article/104118886",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/yemeni-houthis-target-tel-aviv-in-military-operation/104118886",
+          "video": null,
+          "reactKey": "nsw-104118886-1",
+          "synopsis": "The Israeli army reviews a blast in central Tel Aviv which made it through the IDF's aerial defences, with Yemen's Houthi militants claiming responsibility for a \"military operation\" in the city.",
+          "title": {
+            "children": "Yemen's Houthis claim military operation in Tel Aviv as IDF investigates explosion"
           },
           "imageContainerClassNames": []
         }
@@ -692,37 +736,6 @@
           "synopsis": "Former Jetstar pilot Greg Lynn will appeal his murder conviction, his lawyer says, after he was found guilty of killing retiree Carol Clay in Victoria's High Country.",
           "title": {
             "children": "Media reports about Greg Lynn have 'poisoned the well of justice', lawyer tells court"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104117162",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A teenager looks down at a smartphone screen displaying the Snapchat logo, a yellow screen with a white ghost cartoon",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49ca4c884c07a4b492465ae4cafa4a70?impolicy=wcms_crop_resize&cropH=2540&cropW=3810&xPos=154&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-19/rohan-cosgriff-suicide-sextortion-scam-/104117162"
-          },
-          "contentUri": "coremedia://article/104117162",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-19/rohan-cosgriff-suicide-sextortion-scam-/104117162",
-          "video": null,
-          "reactKey": "nsw-104117162-1",
-          "synopsis": "Rohan Cosgriff didn't tell anyone about a sextortion scam he had fallen victim to before taking his own life. A Victorian coroner says education needs to focus on breaking down the shame and guilt that prevents help-seeking.",
-          "title": {
-            "children": "Rohan took his own life within an hour of falling victim to a sextortion scam"
           },
           "imageContainerClassNames": []
         }
