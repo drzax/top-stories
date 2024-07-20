@@ -37,6 +37,9 @@
           "uri": "coremedia://article/104121154"
         },
         {
+          "uri": "coremedia://article/104120976"
+        },
+        {
           "uri": "coremedia://article/104120736"
         },
         {
@@ -55,13 +58,13 @@
           "uri": "coremedia://article/104119378"
         },
         {
-          "uri": "coremedia://article/104104326"
-        },
-        {
           "uri": "coremedia://article/104117606"
         },
         {
           "uri": "coremedia://article/104121124"
+        },
+        {
+          "uri": "coremedia://article/104104326"
         },
         {
           "uri": "coremedia://article/104117278"
@@ -95,9 +98,6 @@
         },
         {
           "uri": "coremedia://article/104121382"
-        },
-        {
-          "uri": "coremedia://article/104114994"
         },
         {
           "uri": "coremedia://article/104105484"
@@ -380,6 +380,50 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104120976",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A GWS Giants AFL player grasps the ball in both hands as he looks behind him to see how far away a chasing defender is.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5bfdc0141e100b948a6570298481461?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-20/afl-rd-19-saturday-live-blog/104120976"
+          },
+          "contentUri": "coremedia://article/104120976",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-20/afl-rd-19-saturday-live-blog/104120976",
+          "video": null,
+          "reactKey": "vic-104120976-1",
+          "synopsis": "The Expansion Cup kicks off a big day of football with the Giants and Suns playing in Sydney and the Saints and Eagles in Melbourne, before an early \"elimination\" showdown between Hawthorn and Collingwood. Follow live.",
+          "title": {
+            "children": "Giants, Suns clash in Sydney, with both battling to stay in finals hunt"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "104120736",
@@ -582,37 +626,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104104326",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A bee pollinates an almond flower",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0d8a50510e66a031b1b46c0bc49b1b?impolicy=wcms_crop_resize&cropH=665&cropW=994&xPos=3&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-20/varroa-mite-super-spreader-fears-almond-pollination-season/104104326"
-          },
-          "contentUri": "coremedia://article/104104326",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-20/varroa-mite-super-spreader-fears-almond-pollination-season/104104326",
-          "video": null,
-          "reactKey": "vic-104104326-1",
-          "synopsis": "As beekeepers from four states cross borders to pollinate almond trees, there are fears the annual event could help spread the deadly varroa mite around the nation.",
-          "title": {
-            "children": "Varroa mite 'super-spreader' warning as beekeepers and hives travel to pollinate almond crops "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104117606",
           "imagePosition": {
             "mobile": "right",
@@ -670,6 +683,37 @@
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104104326",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A bee pollinates an almond flower",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0d8a50510e66a031b1b46c0bc49b1b?impolicy=wcms_crop_resize&cropH=665&cropW=994&xPos=3&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-20/varroa-mite-super-spreader-fears-almond-pollination-season/104104326"
+          },
+          "contentUri": "coremedia://article/104104326",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-20/varroa-mite-super-spreader-fears-almond-pollination-season/104104326",
+          "video": null,
+          "reactKey": "vic-104104326-1",
+          "synopsis": "As beekeepers from four states cross borders to pollinate almond trees, there are fears the annual event could help spread the deadly varroa mite around the nation.",
+          "title": {
+            "children": "Varroa mite 'super-spreader' warning as beekeepers and hives travel to pollinate almond crops "
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1013,37 +1057,6 @@
           "synopsis": "Yemen's Houthi rebels claim to have hit and damaged a Singapore-flagged container ship with two missiles, while the Israeli army reviews an earlier blast in central Tel Aviv, as the Houthis escalate attacks on global shipping.",
           "title": {
             "children": "Yemen Houthis damage cargo ship in Gulf of Aden as militants step up attacks"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104114994",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Simone Young conducts the Sydney Symphony string section, her left arm extended and her right holds the baton in front of her.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/363f088457e1accdf4b119c6655e0ce1?impolicy=wcms_crop_resize&cropH=3105&cropW=4658&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-20/simone-young-conducts-wagner-ring-cycle-at-bayreuth/104114994"
-          },
-          "contentUri": "coremedia://article/104114994",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-20/simone-young-conducts-wagner-ring-cycle-at-bayreuth/104114994",
-          "video": null,
-          "reactKey": "vic-104114994-1",
-          "synopsis": "Trail-blazing conductor Simone Young is set to be the first Australian and first woman to conduct Wagner's epic 15-hour Ring Cycle at its home in Bayreuth, Germany.",
-          "title": {
-            "children": "Every year, this small German town stages the most extravagant operas. This year, it’s going to be led by an Australian conductor"
           },
           "imageContainerClassNames": []
         }
