@@ -123,7 +123,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -148,24 +155,24 @@
           "reactKey": "vic-104140104-1",
           "synopsis": "Linda Burney, the first Aboriginal woman elected to the House of Representatives and the federal Minister for Indigenous Australians is one of two senior ministers retiring from politics as part of a reshuffle of the Albanese ministry.",
           "title": {
-            "children": "Live Moment — Linda Burney, Brendan O'Connor to retire from politics as Albanese reshuffles ministry"
+            "children": "Linda Burney, Brendan O'Connor to retire from politics as Albanese reshuffles ministry"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live moment",
-              "contentType": "moment",
-              "contentStatus": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
           "id": "104138988",
           "imagePosition": {
@@ -175,8 +182,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Joe Biden waves as he stands in front of a US presidential seal. He has a slight grimace as he looks into sun.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8efc667ca63618ddbc4e7fd63799f432?impolicy=wcms_crop_resize&cropH=1237&cropW=1856&xPos=137&yPos=0&width=160&height=107",
+            "altText": "Joe Biden sits at a desk in the Oval Office, wearing blue tie, pointing with one hand",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7b9c2ef8e37e6297906392bbbf3efbe?impolicy=wcms_crop_resize&cropH=2461&cropW=3692&xPos=0&yPos=2&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -186,18 +193,11 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-25/biden-first-address-since-dropping-out-election-race/104138988",
           "video": null,
           "reactKey": "vic-104138988-1",
-          "synopsis": "US President Joe Biden declares the \"defence of democracy is more important than any title\" in a prime-time address to the nation to detail his reasons for choosing not to seek re-election.",
+          "synopsis": "In an Oval Office address to explain why he abandoned his re-election bid, Joe Biden said he believes he's earned a second term as US president, but \"personal ambition\" cannot get in the way of saving democracy.",
           "title": {
             "children": "'Kings and dictators do not rule': Biden's Oval Office address on why he quit the race for re-election"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          "imageContainerClassNames": []
         }
       },
       {
@@ -213,8 +213,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The view out a window towards an old mine.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e261177c81c244aaf206b68956af0a89?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+            "altText": "The abandoned town.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7a9f7986668edee6b4e631d348d611f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
             "imgRatio": "16x9"
           },
           "link": {
@@ -756,7 +756,7 @@
             {
               "id": "104268",
               "date": "2024-07-25T00:29:31.000Z",
-              "title": "ASX opens lower after Wall Street wipeout"
+              "title": "ASX opens lower after Wall Street wipe-out"
             },
             {
               "id": "104252",
