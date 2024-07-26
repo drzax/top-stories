@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104150076"
+        },
+        {
           "uri": "coremedia://article/104148714"
         },
         {
@@ -32,9 +35,6 @@
         },
         {
           "uri": "coremedia://article/104147956"
-        },
-        {
-          "uri": "coremedia://article/104149304"
         },
         {
           "uri": "coremedia://article/104148448"
@@ -120,10 +120,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104150076",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Lady Gaga",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7750704fe548c22f0846b425c457ae30?impolicy=wcms_crop_resize&cropH=832&cropW=1248&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-27/paris-olympic-games-opening-ceremony-live/104129786"
+          },
+          "contentUri": "coremedia://article/104150076",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-27/paris-olympic-games-opening-ceremony-live/104129786",
+          "video": null,
+          "reactKey": "vic-104150076-1",
+          "synopsis": "The waiting is over, as the 2024 Olympic Games officially open with a parade on the Seine River in Paris. Follow live.",
+          "title": {
+            "children": "Lady Gaga steals the show as Olympic Games start with opening ceremony parade on the Seine River"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104148714",
           "imagePosition": {
             "mobile": "right",
@@ -133,7 +172,7 @@
           "isMajor": false,
           "image": {
             "altText": "A crowded train station ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f4a01b6699763cc079143fbe6cd5286?impolicy=wcms_crop_resize&cropH=682&cropW=1023&xPos=1&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f4a01b6699763cc079143fbe6cd5286?impolicy=wcms_crop_resize&cropH=682&cropW=1023&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -147,9 +186,7 @@
           "title": {
             "children": "France's high-speed rail network hit by arson attacks hours before Olympics ceremony"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -336,37 +373,6 @@
           "synopsis": "Federal Labor MP Josh Burns thanks police for charging a 17- and 18-year-old pair for allegedly anti-Semitic vandalism of his Melbourne office.",
           "title": {
             "children": "Two teenagers charged over a vandalism attack at federal MP Josh Burns's office"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104149304",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A rendered image of boats along the Seine with crowds watching on",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9415e73499c90f423226b4447e434c03?impolicy=wcms_crop_resize&cropH=1406&cropW=2500&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
-          },
-          "link": {
-            "to": "/news/2024-07-26/paris-2024-olympic-games-opening-ceremony-river-seine/103999180"
-          },
-          "contentUri": "coremedia://article/104149304",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-26/paris-2024-olympic-games-opening-ceremony-river-seine/103999180",
-          "video": null,
-          "reactKey": "vic-104149304-1",
-          "synopsis": "The opening ceremony for the 2024 Olympic Games, held almost entirely along Paris's River Seine, promises to be the most spectacular ever attempted — but it brings with it many complications and immeasurable risk. ",
-          "title": {
-            "children": "Inside the Paris opening ceremony — the most spectacular and riskiest ever attempted"
           },
           "imageContainerClassNames": []
         }
