@@ -13,13 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104151058"
+        },
+        {
           "uri": "coremedia://article/104136558"
         },
         {
           "uri": "coremedia://article/104150786"
-        },
-        {
-          "uri": "coremedia://article/104151058"
         },
         {
           "uri": "coremedia://article/104145786"
@@ -102,10 +102,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104151058",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman wearing green swimmers in a pool holds her arm up in the air",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9733f44ffa06b0d49c12b6412855809a?impolicy=wcms_crop_resize&cropH=2714&cropW=4071&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-07-27/paris-olympic-games-live-swimming-boomers-day-one/104129790"
+          },
+          "contentUri": "coremedia://article/104151058",
+          "canonicalURL": "https://www.abc.net.au/news/2024-07-27/paris-olympic-games-live-swimming-boomers-day-one/104129790",
+          "video": null,
+          "reactKey": "qld-104151058-1",
+          "synopsis": "The Paris Olympic Games are officially open with the swimming getting underway and the Boomers kicking off their basketball campaign on the first full day of competition. Follow live.",
+          "title": {
+            "children": "First full day of Olympic competition in Paris features Australian swimming stars and Boomers"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104136558",
           "imagePosition": {
             "mobile": "right",
@@ -130,7 +169,6 @@
             "children": "How my friend turned from tennis prodigy into an unhinged killer"
           },
           "imageContainerClassNames": [
-            "imageHalf",
             "imageHalf"
           ]
         }
@@ -162,43 +200,6 @@
           "synopsis": "A budget estimates hearing was adjourned on Friday night after the opposition repeatedly raised allegations of travel allowance misuse involving former Queensland Parole Board president, Michael Byrne.",
           "title": {
             "children": "LNP raises 'whistleblower' allegations of travel misuse by 'intimate' associate of former parole board president"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104151058",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman wearing green swimmers in a pool holds her arm up in the air",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9733f44ffa06b0d49c12b6412855809a?impolicy=wcms_crop_resize&cropH=2714&cropW=4071&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-07-27/paris-olympic-games-live-swimming-boomers-day-one/104129790"
-          },
-          "contentUri": "coremedia://article/104151058",
-          "canonicalURL": "https://www.abc.net.au/news/2024-07-27/paris-olympic-games-live-swimming-boomers-day-one/104129790",
-          "video": null,
-          "reactKey": "qld-104151058-1",
-          "synopsis": "The Paris Olympic Games are officially open with the swimming getting underway and the Boomers kicking off their basketball campaign on the first full day of competition. Follow live.",
-          "title": {
-            "children": "First full day of Olympic competition in Paris features Australian swimming stars and Boomers"
           },
           "imageContainerClassNames": []
         }
@@ -447,6 +448,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "105018",
+              "date": "2024-07-27T08:05:11.000Z",
+              "title": "28' Brailey binned for professional foul, Cows take the two"
+            },
+            {
               "id": "105015",
               "date": "2024-07-27T08:01:30.000Z",
               "title": "Injury update: Cowboys lose two to HIA's, activate 18th man"
@@ -455,11 +461,6 @@
               "id": "104936",
               "date": "2024-07-27T05:46:09.000Z",
               "title": "39' Brisbane score one of the tries of the year!"
-            },
-            {
-              "id": "104928",
-              "date": "2024-07-27T05:29:58.000Z",
-              "title": "26' Bulldogs score a stunner!"
             }
           ]
         }
