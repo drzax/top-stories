@@ -129,15 +129,15 @@
           ],
           "id": "104153814",
           "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
+            "mobile": "top",
+            "tablet": "top",
+            "desktop": "top"
           },
           "isMajor": false,
           "image": {
             "altText": "Shireen Romi wears a blue top in front of an orange backdrop",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf1b2b83dea25351c8bb3db5a07e9646?impolicy=wcms_crop_resize&cropH=3674&cropW=5511&xPos=413&yPos=318&width=862&height=575",
-            "imgRatio": "3x2"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf1b2b83dea25351c8bb3db5a07e9646?impolicy=wcms_crop_resize&cropH=3039&cropW=5402&xPos=395&yPos=841&width=862&height=485",
+            "imgRatio": "16x9"
           },
           "link": {
             "to": "/news/2024-07-29/nsw-sydney-refugee-forced-to-flee-theatre/103976118"
@@ -150,9 +150,7 @@
           "title": {
             "children": "Three refugee teenagers escaped unspeakable horrors, but are using theatre to move forward"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -657,7 +655,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104135580",
           "imagePosition": {
@@ -682,7 +687,14 @@
           "title": {
             "children": "Inquest begins into 'religiously motivated' attack that killed two Queensland police officers"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {

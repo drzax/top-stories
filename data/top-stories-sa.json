@@ -655,7 +655,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104135580",
           "imagePosition": {
@@ -680,7 +687,14 @@
           "title": {
             "children": "Inquest begins into 'religiously motivated' attack that killed two Queensland police officers"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -977,8 +991,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "High school students perform on a stage lit in red and blue holding cutouts of Australia",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/657adb384895286a2ea28990ed78236b?impolicy=wcms_crop_resize&cropH=4000&cropW=6000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Shireen Romi wears a blue top in front of an orange backdrop",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf1b2b83dea25351c8bb3db5a07e9646?impolicy=wcms_crop_resize&cropH=3708&cropW=5562&xPos=344&yPos=292&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -988,7 +1002,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-29/nsw-sydney-refugee-forced-to-flee-theatre/103976118",
           "video": null,
           "reactKey": "sa-103976118-1",
-          "synopsis": "Forced to Flee by Treehouse Theatre in Sydney's south-west is helping young refugees translate their lived experience on the stage. ",
+          "synopsis": "Three teenagers who fled some of the worst atrocities of the 21st century find refuge and catharsis in sharing their stories on stage.",
           "title": {
             "children": "Three refugee teenagers escaped unspeakable horrors, but are using theatre to move forward"
           },
@@ -1019,7 +1033,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-07-29/devarshi-deka-granted-residency-after-alleged-assault/104153476",
           "video": null,
           "reactKey": "sa-104153476-1",
-          "synopsis": "International student Devarshi Deka who was left paraplegic after an alleged attack in Hobart has had his dream of staying in Australia realised.",
+          "synopsis": "International student Devarshi Deka, who was left paraplegic after an alleged attack in Hobart, has had his dream of staying in Australia realised.",
           "title": {
             "children": "Student Devarshi Deka granted permanent residency in final acts by outgoing immigration minister"
           },
