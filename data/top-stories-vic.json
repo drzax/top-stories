@@ -13,13 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104174808"
+        },
+        {
           "uri": "coremedia://article/104175546"
         },
         {
           "uri": "coremedia://article/104172858"
-        },
-        {
-          "uri": "coremedia://article/104174808"
         },
         {
           "uri": "coremedia://article/104167930"
@@ -120,10 +120,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104174808",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Clare Looker stands at a press conference, dressed in a white jacket.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b578f0d03fdb6196936e9123798687d9?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-02/legionnaires-disease-outbreak-melbourne-victoria-health-update/104173968"
+          },
+          "contentUri": "coremedia://article/104174808",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-02/legionnaires-disease-outbreak-melbourne-victoria-health-update/104173968",
+          "video": null,
+          "reactKey": "vic-104174808-1",
+          "synopsis": "A woman in her 90s has died in Victoria's Legionnaires' disease outbreak, which authorities believe started in cooling towers in Melbourne's industrial west.",
+          "title": {
+            "children": "Woman in 90s dies in Victorian Legionnaires' disease outbreak"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104175546",
           "imagePosition": {
             "mobile": "right",
@@ -133,7 +172,7 @@
           "isMajor": false,
           "image": {
             "altText": "A woman wearing a cap stands in front of palm trees ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/04d45c6dd37b9830018bd6410047247f?impolicy=wcms_crop_resize&cropH=949&cropW=1423&xPos=56&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/04d45c6dd37b9830018bd6410047247f?impolicy=wcms_crop_resize&cropH=949&cropW=1423&xPos=239&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -147,9 +186,7 @@
           "title": {
             "children": "'Serious' IDF failures led to death of World Central Kitchen aid workers in Gaza"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -179,43 +216,6 @@
           "synopsis": "It was another golden day in the pool for Australia, but plenty happening throughout the Paris Olympics that you might not have seen on the TV. Here's today's quick hits from the Games.",
           "title": {
             "children": "Olympic quick hits: Daggy dad goes viral, Murray's cheeky tweet, and sponsor gets tongues wagging"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104174808",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Clare Looker stands at a press conference, dressed in a white jacket.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b578f0d03fdb6196936e9123798687d9?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-02/legionnaires-disease-outbreak-melbourne-victoria-health-update/104173968"
-          },
-          "contentUri": "coremedia://article/104174808",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-02/legionnaires-disease-outbreak-melbourne-victoria-health-update/104173968",
-          "video": null,
-          "reactKey": "vic-104174808-1",
-          "synopsis": "A woman in her 90s has died in Victoria's Legionnaires' disease outbreak, which authorities believe started in cooling towers in Melbourne's industrial west.",
-          "title": {
-            "children": "Woman in 90s dies in Victorian Legionnaires' disease outbreak"
           },
           "imageContainerClassNames": []
         }
@@ -475,7 +475,7 @@
           "reactKey": "vic-104170630-1",
           "synopsis": "The defamation action launched by WA Senator Linda Reynolds against Brittany Higgins and her partner David Sharaz is now underway in Perth. Follow live.",
           "title": {
-            "children": "Reynolds the 'villain' in Brittany Higgins' 'fictional' fairytale, defamation trial hears"
+            "children": "'Every fairytale needs a villain': Linda Reynolds staunchly defends role in Higgins saga"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -1150,6 +1150,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "108359",
+              "date": "2024-08-02T04:40:18.000Z",
+              "title": "ASIC's first greenwashing case leads to $11.3 million fine"
+            },
+            {
               "id": "108306",
               "date": "2024-08-02T01:11:29.000Z",
               "title": "ASX is currently having its worst day since March last year"
@@ -1158,11 +1163,6 @@
               "id": "108303",
               "date": "2024-08-02T00:53:42.000Z",
               "title": "Just seven companies on the ASX 200 are trading higher"
-            },
-            {
-              "id": "108302",
-              "date": "2024-08-02T00:45:25.000Z",
-              "title": "Why did Australian shares drop so sharply this morning?"
             }
           ]
         }
