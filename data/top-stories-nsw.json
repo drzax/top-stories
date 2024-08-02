@@ -16,7 +16,7 @@
           "uri": "coremedia://article/104179308"
         },
         {
-          "uri": "coremedia://article/104172090"
+          "uri": "coremedia://article/104172142"
         },
         {
           "uri": "coremedia://article/104179230"
@@ -158,9 +158,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104172090",
+          "id": "104172142",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -168,22 +174,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Anthony Albanese walks in a hat and sunglasses surrounded by Indigenous men in red garb and body paint.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c60272619d016343cf1b7bce4bef6f2c?impolicy=wcms_crop_resize&cropH=1333&cropW=1999&xPos=1&yPos=0&width=160&height=107",
+            "altText": "Anthony Albanese holds up a painted stick while speaking into a microphone.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52cb6f42e30ec986b239d46f7b59d660?impolicy=wcms_crop_resize&cropH=1333&cropW=1999&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-02/anthony-albanese-garma-voice-referendum/104172090"
+            "to": "/news/2024-08-03/garma-live-updates-albanese-pm-speech-indigenous/104172142"
           },
-          "contentUri": "coremedia://article/104172090",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-02/anthony-albanese-garma-voice-referendum/104172090",
+          "contentUri": "coremedia://article/104172142",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-03/garma-live-updates-albanese-pm-speech-indigenous/104172142",
           "video": null,
-          "reactKey": "nsw-104172090-1",
-          "synopsis": "At the first Garma Festival since the defeat of the Voice referendum, Anthony Albanese will say his government remains \"committed to Makarrata\" as it beats a new path on Indigenous affairs.",
+          "reactKey": "nsw-104172142-1",
+          "synopsis": "The second day of the Garma festival is kicking off in north-east Arnhem Land, with local elders and visitors set to hear a key speech from Anthony Albanese. Follow live.",
           "title": {
-            "children": "Albanese points to 'best chance Australia has ever had' for Indigenous self-determination"
+            "children": "PM to address Indigenous leaders in Arnhem land on second day of Garma"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -799,7 +812,7 @@
           "isMajor": false,
           "image": {
             "altText": "Kamala Harris, wearing a light blue suit, walks up an aircraft staircase and waves.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b88b91ad78824ae1462e1a97a4b85e73?impolicy=wcms_crop_resize&cropH=1446&cropW=2170&xPos=639&yPos=713&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b88b91ad78824ae1462e1a97a4b85e73?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -813,7 +826,9 @@
           "title": {
             "children": "As Trump questions Harris's racial identity, Democrats are trying a simple message: He and Vance are 'weird'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
