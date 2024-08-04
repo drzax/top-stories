@@ -636,7 +636,7 @@
           "isMajor": false,
           "image": {
             "altText": "An 1800s photo of an old man with a large white moustache",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59ffdc91bde9becd48e0733d20ee8537?impolicy=wcms_crop_resize&cropH=2345&cropW=3518&xPos=0&yPos=710&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59ffdc91bde9becd48e0733d20ee8537?impolicy=wcms_crop_resize&cropH=2345&cropW=3518&xPos=0&yPos=552&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -650,7 +650,9 @@
           "title": {
             "children": "This elaborate Amazon seed 'heist' changed the course of history"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -935,7 +937,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104178154",
           "imagePosition": {
@@ -960,7 +968,14 @@
           "title": {
             "children": "Six-month trial of 50c public transport fares launches in Queensland"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
