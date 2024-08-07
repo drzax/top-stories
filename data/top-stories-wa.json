@@ -197,7 +197,7 @@
           "isMajor": false,
           "image": {
             "altText": "Martin Rodden looks up at his unfinished townhouse",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a44d86426a4b0b3278e0fa70a5d0dae?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a44d86426a4b0b3278e0fa70a5d0dae?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -211,7 +211,9 @@
           "title": {
             "children": "Owners plead for action as weather damages unfinished homes during building crisis"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -640,7 +642,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104195362",
           "imagePosition": {
@@ -665,7 +674,14 @@
           "title": {
             "children": "Man charged with stealing over $600k worth of Bluey 'dollarbucks' under Strike Force Bandit"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -835,6 +851,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "111306",
+              "date": "2024-08-07T04:52:03.000Z",
+              "title": "'Bluey' coins worth $600,000 stolen by warehouse worker, police allege"
+            },
+            {
               "id": "111301",
               "date": "2024-08-07T04:24:02.000Z",
               "title": "Asia stocks buoyant, yen retreats after BOJ talks down rate hikes"
@@ -843,11 +864,6 @@
               "id": "111296",
               "date": "2024-08-07T03:46:48.000Z",
               "title": "Arcadium reviews its WA operations due to soft prices"
-            },
-            {
-              "id": "111293",
-              "date": "2024-08-07T03:40:15.000Z",
-              "title": "ASX moves higher"
             }
           ]
         }
