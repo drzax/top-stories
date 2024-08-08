@@ -22,6 +22,9 @@
           "uri": "coremedia://article/104201388"
         },
         {
+          "uri": "coremedia://article/104202306"
+        },
+        {
           "uri": "coremedia://article/104201714"
         },
         {
@@ -32,9 +35,6 @@
         },
         {
           "uri": "coremedia://article/104198912"
-        },
-        {
-          "uri": "coremedia://article/104202306"
         },
         {
           "uri": "coremedia://article/104195368"
@@ -214,6 +214,43 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104202306",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A row of four male Australian Olympic kayak's in a boat paddling through blue water in a competition setting",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4f090e9de0bfae147c0aaab45503fd27?impolicy=wcms_crop_resize&cropH=2294&cropW=3441&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-08/paris-olympic-games-swimming-athletics-weightlifting-wrestling/104182204"
+          },
+          "contentUri": "coremedia://article/104202306",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-08/paris-olympic-games-swimming-athletics-weightlifting-wrestling/104182204",
+          "video": null,
+          "reactKey": "qld-104202306-1",
+          "synopsis": "Australia has a back-to-back shot at more medals on day 13, with the women's and men's K4 500m sprint finals coming up. Follow live.",
+          "title": {
+            "children": "Australia's medal tally could climb in minutes as the men's and women's K4 sprinters go for gold"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "104201714",
@@ -342,43 +379,6 @@
         "props": {
           "contentLabels": [
             {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104202306",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman swimming in the marathon",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f981cebf436423f95860eb0c0d0b83a?impolicy=wcms_crop_resize&cropH=1804&cropW=2705&xPos=415&yPos=606&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-08/paris-olympic-games-swimming-athletics-weightlifting-wrestling/104182204"
-          },
-          "contentUri": "coremedia://article/104202306",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-08/paris-olympic-games-swimming-athletics-weightlifting-wrestling/104182204",
-          "video": null,
-          "reactKey": "qld-104202306-1",
-          "synopsis": "Australia has added to its medal tally in the first event on day 13, with Moesha Johnson winning silver in the women's 10km marathon swim. Follow live.",
-          "title": {
-            "children": "Moesha Johnson wins silver in marathon swim to begin day 13"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
               "labelText": "analysis",
               "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/5961d594d82da84ea3a019e9275384e7?impolicy=wcms_crop_resize&cropH=1737&cropW=1737&xPos=1140&yPos=278&width=160&height=160",
               "authorName": "Brett Worthington"
@@ -404,7 +404,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-08-08/politics-update-labor-supporters-worried-about-albanese-election/104195368",
           "video": null,
           "reactKey": "qld-104195368-1",
-          "synopsis": "Just like Democrats who were worried about Joe Biden, long-time Labor voters fear Anthony Albanese is not the messenger for the moment. It boils down to 'the vibe'.",
+          "synopsis": "Just like Democrats who were worried about Joe Biden, long-time Labor voters fear Anthony Albanese is not the messenger for the moment. It boils down to \"the vibe\".",
           "title": {
             "children": "A situation similar to Joe Biden's is brewing in the Labor Party, but there's no Kamala Harris in the wings"
           },
@@ -768,6 +768,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "112081",
+              "date": "2024-08-08T11:28:10.000Z",
+              "title": "71' Murray crosses to give Souths hope"
+            },
+            {
               "id": "112073",
               "date": "2024-08-08T11:10:18.000Z",
               "title": "55' Souths score again after crazy pass"
@@ -776,11 +781,6 @@
               "id": "112066",
               "date": "2024-08-08T10:56:43.000Z",
               "title": "42' Papenhuyzen sets up Anderson for another"
-            },
-            {
-              "id": "112043",
-              "date": "2024-08-08T10:31:19.000Z",
-              "title": "35' Papenhuyzen backs up Wishart to score"
             }
           ]
         }
