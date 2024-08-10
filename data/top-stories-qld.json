@@ -13,7 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104209460"
+          "uri": "coremedia://article/104131382"
         },
         {
           "uri": "coremedia://article/104209574"
@@ -22,10 +22,10 @@
           "uri": "coremedia://article/104209204"
         },
         {
-          "uri": "coremedia://article/104206862"
+          "uri": "coremedia://article/104209460"
         },
         {
-          "uri": "coremedia://article/104199044"
+          "uri": "coremedia://article/104206862"
         },
         {
           "uri": "coremedia://article/104209678"
@@ -43,7 +43,7 @@
           "uri": "coremedia://article/104202256"
         },
         {
-          "uri": "coremedia://article/104209002"
+          "uri": "coremedia://article/104199044"
         },
         {
           "uri": "coremedia://article/104202634"
@@ -58,7 +58,7 @@
           "uri": "coremedia://article/104209434"
         },
         {
-          "uri": "coremedia://article/104194224"
+          "uri": "coremedia://article/104209700"
         },
         {
           "uri": "coremedia://article/104202956"
@@ -105,11 +105,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104209460",
+          "id": "104131382",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -117,23 +123,46 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Kingaroy Hospital exterior",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf89c11d6588fec8c5c71f00d07f4783?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "Composite image of Kaylee McKeown and sailor Matt Wearn with their gold medals at the Paris Olympics.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/481a1567780226303f0819c3029979c6?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-10/police-hospital-shooting-kingaroy-hospital/104209460"
+            "to": "/news/2024-08-10/paris-olympic-games-live-day-15-water-polo-jess-hull-basketball/104131382"
           },
-          "contentUri": "coremedia://article/104209460",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/police-hospital-shooting-kingaroy-hospital/104209460",
+          "contentUri": "coremedia://article/104131382",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/paris-olympic-games-live-day-15-water-polo-jess-hull-basketball/104131382",
           "video": null,
-          "reactKey": "qld-104209460-1",
-          "synopsis": "A witness praises hospital staff for \"putting themselves in between\" patients and a man who was allegedly armed with a knife and then shot by police at a Kingaroy hospital.",
+          "reactKey": "qld-104131382-1",
+          "synopsis": "Back-to-back gold medallists Kaylee McKeown and Matt Wearn will carry the Australian flag in the closing ceremony of the Paris Olympics, as the men's marathon kicks off the penultimate day of competition. Follow live.",
           "title": {
-            "children": "Police shooting witness praises hospital staff for protecting patients from allegedly armed man "
+            "children": "Kaylee McKeown and Matt Wearn named flag-bearers for closing ceremony, marathon kicks off penultimate day in Paris"
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "113055",
+              "date": "2024-08-10T06:25:39.000Z",
+              "title": "Australia's medal chances"
+            },
+            {
+              "id": "113224",
+              "date": "2024-08-10T08:09:05.000Z",
+              "title": "Athletics: Tamirat Tola wins men's marathon gold for Ethiopia"
+            },
+            {
+              "id": "113042",
+              "date": "2024-08-10T06:08:08.000Z",
+              "title": "Closing ceremony flag-bearers named"
+            }
           ]
         }
       },
@@ -202,6 +231,37 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104209460",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Kingaroy Hospital exterior",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf89c11d6588fec8c5c71f00d07f4783?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-10/police-hospital-shooting-kingaroy-hospital/104209460"
+          },
+          "contentUri": "coremedia://article/104209460",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/police-hospital-shooting-kingaroy-hospital/104209460",
+          "video": null,
+          "reactKey": "qld-104209460-1",
+          "synopsis": "A witness praises hospital staff for \"putting themselves in between\" patients and a man who was allegedly armed with a knife and then shot by police at a Kingaroy hospital.",
+          "title": {
+            "children": "Police shooting witness praises hospital staff for protecting patients from allegedly armed man "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -241,43 +301,6 @@
         "props": {
           "contentLabels": [
             {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/c1d94efd92c0abbd44962a9b8ba1d025?impolicy=wcms_crop_resize&cropH=1996&cropW=1996&xPos=502&yPos=0&width=160&height=160",
-              "authorName": "Rachel Stewart"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104199044",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Premier Steven Miles delivering the state of the state address",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52ac0cd072c713f6dea1847fd6cdb4b5?impolicy=wcms_crop_resize&cropH=1654&cropW=2481&xPos=19&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-10/queensland-steven-miles-crisafulli-petrol-analysis/104199044"
-          },
-          "contentUri": "coremedia://article/104199044",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/queensland-steven-miles-crisafulli-petrol-analysis/104199044",
-          "video": null,
-          "reactKey": "qld-104199044-1",
-          "synopsis": "Queensland's premier made a bold statement in a major speech this week, vowing he would leave no stone unturned ahead of the state election and issuing a challenge to the opposition leader.",
-          "title": {
-            "children": "Will Labor's petrol promise spark a turnaround or just fuel the LNP's momentum?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
               "labelText": "live",
               "contentType": "live",
               "lang": "en"
@@ -292,8 +315,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Deine Mariner of the Broncos iss running with the ball, tackled by Tom Dearden of the Cowboys around the neck",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a82aa698ee26aaa1884c951cbdd1c87?impolicy=wcms_crop_resize&cropH=1666&cropW=2499&xPos=397&yPos=61&width=160&height=107",
+            "altText": "Tom Dearden of the Cowboys is tackled by Adam Reynolds of the Broncos",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb6af0756bea31cc51908ec5ca00b07b?impolicy=wcms_crop_resize&cropH=2047&cropW=3071&xPos=0&yPos=38&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -305,7 +328,7 @@
           "reactKey": "qld-104209678-1",
           "synopsis": "North Queensland Cowboys can land the final blow to Brisbane's ailing season with a win in the Queensland derby. Follow live.",
           "title": {
-            "children": "Cowboys look to end big brother's faint finals hopes with derby win"
+            "children": "Cowboys take half-time lead as Broncos fight for their season"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -497,9 +520,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/c1d94efd92c0abbd44962a9b8ba1d025?impolicy=wcms_crop_resize&cropH=1996&cropW=1996&xPos=502&yPos=0&width=160&height=160",
+              "authorName": "Rachel Stewart"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104209002",
+          "id": "104199044",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -507,24 +536,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Raygun",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4d1390679659e75a6c8c026a7e62ab2?impolicy=wcms_crop_resize&cropH=2720&cropW=4080&xPos=155&yPos=0&width=862&height=575",
+            "altText": "Premier Steven Miles delivering the state of the state address",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52ac0cd072c713f6dea1847fd6cdb4b5?impolicy=wcms_crop_resize&cropH=1654&cropW=2481&xPos=19&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-10/paris-olympics-breaking-raygun-bows-out-for-australia/104209002"
+            "to": "/news/2024-08-10/queensland-steven-miles-crisafulli-petrol-analysis/104199044"
           },
-          "contentUri": "coremedia://article/104209002",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/paris-olympics-breaking-raygun-bows-out-for-australia/104209002",
+          "contentUri": "coremedia://article/104199044",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/queensland-steven-miles-crisafulli-petrol-analysis/104199044",
           "video": null,
-          "reactKey": "qld-104209002-1",
-          "synopsis": "Australia's first breaker, Raygun, bows out of the Paris Olympics with a performance she described as \"different and creative\".",
+          "reactKey": "qld-104199044-1",
+          "synopsis": "Queensland's premier made a bold statement in a major speech this week, vowing he would leave no stone unturned ahead of the state election and issuing a challenge to the opposition leader.",
           "title": {
-            "children": "In an Olympic sport that may be one and done, Australia's first breaker bows out in 'different' performance"
+            "children": "Will Labor's petrol promise spark a turnaround or just fuel the LNP's momentum?"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -656,7 +683,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104194224",
+          "id": "104209700",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -664,20 +691,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A picture of the Boeing 737 and Donald Henderson.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/26d1fa7456a09cf38bffce29e71bdd8b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Springboks players come together in an embrace after scoring a try against the Wallabies",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4035351512bbe12d6906fb3993aba9d?impolicy=wcms_crop_resize&cropH=2202&cropW=3303&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-10/boeing-737-wreckage-ravensthorpe-firefighting-display/104194224"
+            "to": "/news/2024-08-10/springboks-defeat-wallabies-in-rugby-championship-at-lang-park/104209700"
           },
-          "contentUri": "coremedia://article/104194224",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/boeing-737-wreckage-ravensthorpe-firefighting-display/104194224",
+          "contentUri": "coremedia://article/104209700",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-10/springboks-defeat-wallabies-in-rugby-championship-at-lang-park/104209700",
           "video": null,
-          "reactKey": "qld-104194224-1",
-          "synopsis": "When the water-bomber crashed during firefighting efforts in the Fitzgerald River National Park, enthusiasts from surrounding areas scrambled for a piece of the wreckage.",
+          "reactKey": "qld-104209700-1",
+          "synopsis": "Winger Kurt-Lee Arendse scored two tries as South Africa matched their biggest ever win over the Wallabies on Australian soil with a 33-7 victory.",
           "title": {
-            "children": "How a community united to salvage the first Boeing 737 to crash on Australian soil"
+            "children": "World champion Springboks hammer Wallabies in Brisbane"
           },
           "imageContainerClassNames": []
         }
