@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104131400"
+        },
+        {
           "uri": "coremedia://article/104210758"
         },
         {
@@ -20,9 +23,6 @@
         },
         {
           "uri": "coremedia://article/104195468"
-        },
-        {
-          "uri": "coremedia://article/104211826"
         },
         {
           "uri": "coremedia://article/104211820"
@@ -111,11 +111,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104210758",
+          "id": "104131400",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -123,9 +129,58 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man standing behind a building.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/100dfa1bba9ab940ab25a5be002e3bc2?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=11&width=862&height=485",
+            "altText": "A spectator stands outside Stade de France ahead of the Paris Olympics closing ceremony.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9f705117e896dde6b835e393795fb2a8?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=95&width=862&height=485",
             "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-08-12/paris-olympic-games-closing-ceremony-live/104131400"
+          },
+          "contentUri": "coremedia://article/104131400",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/paris-olympic-games-closing-ceremony-live/104131400",
+          "video": null,
+          "reactKey": "sa-104131400-1",
+          "synopsis": "We will get our last glimpse of our athletes as some of them march in the closing ceremony at Stade de France, bringing down the curtain on the 2024 Olympics and handing the hosting baton to Los Angeles. Follow live.",
+          "title": {
+            "children": "Olympic Games come to an end with spectacular closing ceremony at Stade de France"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "114182",
+              "date": "2024-08-11T19:02:23.000Z",
+              "title": "Here we go for the Closing Ceremony!"
+            },
+            {
+              "id": "114166",
+              "date": "2024-08-11T18:26:17.000Z",
+              "title": "Australia’s best Olympics performance ever"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104210758",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man standing behind a building.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/100dfa1bba9ab940ab25a5be002e3bc2?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-08-11/manufacturing-future-made-in-australia/104141360"
@@ -201,37 +256,6 @@
           "synopsis": "The Dalhousie goby, catfish and hardyhead, all located in a freshwater spring in outback South Australia, join a threatened species list growing larger by the year.",
           "title": {
             "children": "Three fish from same outback spring among 13 species added to Australia's threatened list"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104211826",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A'ja Wilson celebrates during US win over France in Paris Olympics women's basketball final.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8d7b3a4b56e52f1fdb4fc59be4d822db?impolicy=wcms_crop_resize&cropH=1311&cropW=1966&xPos=0&yPos=69&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-11/paris-olympic-games-live-day-16-opals-marathon-track-cycling/104131394"
-          },
-          "contentUri": "coremedia://article/104211826",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-11/paris-olympic-games-live-day-16-opals-marathon-track-cycling/104131394",
-          "video": null,
-          "reactKey": "sa-104211826-1",
-          "synopsis": "In a game that went down to the last few seconds, the US wins its eighth straight women's basketball gold to top the Paris Olympics medal tally, while Australia claims three podium finishes on the final day of competition.",
-          "title": {
-            "children": "US finishes on top of Olympic medal tally after thrilling one-point basketball win over France"
           },
           "imageContainerClassNames": []
         }

@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104131400"
+        },
+        {
           "uri": "coremedia://article/104211680"
         },
         {
@@ -20,9 +23,6 @@
         },
         {
           "uri": "coremedia://article/104211120"
-        },
-        {
-          "uri": "coremedia://article/104211826"
         },
         {
           "uri": "coremedia://article/104211820"
@@ -105,11 +105,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104211680",
+          "id": "104131400",
           "imagePosition": {
             "mobile": "top",
             "tablet": "top",
@@ -117,9 +123,58 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Red earth of the Yalgoo townsite from above",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf83b3291b9a08098d01eab9089d7ae2?impolicy=wcms_crop_resize&cropH=1688&cropW=2998&xPos=1&yPos=0&width=862&height=485",
+            "altText": "A spectator stands outside Stade de France ahead of the Paris Olympics closing ceremony.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9f705117e896dde6b835e393795fb2a8?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=95&width=862&height=485",
             "imgRatio": "16x9"
+          },
+          "link": {
+            "to": "/news/2024-08-12/paris-olympic-games-closing-ceremony-live/104131400"
+          },
+          "contentUri": "coremedia://article/104131400",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/paris-olympic-games-closing-ceremony-live/104131400",
+          "video": null,
+          "reactKey": "wa-104131400-1",
+          "synopsis": "We will get our last glimpse of our athletes as some of them march in the closing ceremony at Stade de France, bringing down the curtain on the 2024 Olympics and handing the hosting baton to Los Angeles. Follow live.",
+          "title": {
+            "children": "Olympic Games come to an end with spectacular closing ceremony at Stade de France"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "114182",
+              "date": "2024-08-11T19:02:23.000Z",
+              "title": "Here we go for the Closing Ceremony!"
+            },
+            {
+              "id": "114166",
+              "date": "2024-08-11T18:26:17.000Z",
+              "title": "Australia’s best Olympics performance ever"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104211680",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Red earth of the Yalgoo townsite from above",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf83b3291b9a08098d01eab9089d7ae2?impolicy=wcms_crop_resize&cropH=1688&cropW=2524&xPos=238&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-08-11/triple-fatal-car-crash-yalgoo-wa/104211432"
@@ -193,37 +248,6 @@
           "synopsis": "Australia's domestic spy chief has warned people would be shocked to learn the identity of the countries his agency has caught actively interfering in diaspora communities. ",
           "title": {
             "children": "Spy chief warns friendly nations among the countries interfering in Australian communities"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104211826",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A'ja Wilson celebrates during US win over France in Paris Olympics women's basketball final.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8d7b3a4b56e52f1fdb4fc59be4d822db?impolicy=wcms_crop_resize&cropH=1311&cropW=1966&xPos=0&yPos=69&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-11/paris-olympic-games-live-day-16-opals-marathon-track-cycling/104131394"
-          },
-          "contentUri": "coremedia://article/104211826",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-11/paris-olympic-games-live-day-16-opals-marathon-track-cycling/104131394",
-          "video": null,
-          "reactKey": "wa-104211826-1",
-          "synopsis": "In a game that went down to the last few seconds, the US wins its eighth straight women's basketball gold to top the Paris Olympics medal tally, while Australia claims three podium finishes on the final day of competition.",
-          "title": {
-            "children": "US finishes on top of Olympic medal tally after thrilling one-point basketball win over France"
           },
           "imageContainerClassNames": []
         }
