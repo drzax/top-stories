@@ -49,19 +49,16 @@
           "uri": "coremedia://article/104213200"
         },
         {
-          "uri": "coremedia://article/104212026"
+          "uri": "coremedia://article/104213204"
         },
         {
-          "uri": "coremedia://article/104211820"
+          "uri": "coremedia://article/104212026"
         },
         {
           "uri": "coremedia://article/104211736"
         },
         {
           "uri": "coremedia://article/104212644"
-        },
-        {
-          "uri": "coremedia://article/104213204"
         },
         {
           "uri": "coremedia://article/104211480"
@@ -73,22 +70,22 @@
           "uri": "coremedia://article/104206296"
         },
         {
-          "uri": "coremedia://article/104212538"
-        },
-        {
           "uri": "coremedia://article/104211594"
         },
         {
-          "uri": "coremedia://article/104212648"
+          "uri": "coremedia://article/104212538"
         },
         {
           "uri": "coremedia://article/104211856"
         },
         {
-          "uri": "coremedia://article/104086682"
+          "uri": "coremedia://article/104212648"
         },
         {
           "uri": "coremedia://article/104212506"
+        },
+        {
+          "uri": "coremedia://article/104086682"
         },
         {
           "uri": "coremedia://article/104212934"
@@ -97,10 +94,7 @@
           "uri": "coremedia://article/104213010"
         },
         {
-          "uri": "coremedia://article/104159246"
-        },
-        {
-          "uri": "coremedia://article/104179748"
+          "uri": "coremedia://article/104211820"
         },
         {
           "uri": "coremedia://article/104210914"
@@ -216,7 +210,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104212296",
           "imagePosition": {
@@ -243,7 +243,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -461,8 +468,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "CFMEU generic",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e41ded90e1e60812e1839953a17b9a0?impolicy=wcms_crop_resize&cropH=907&cropW=1359&xPos=36&yPos=115&width=160&height=107",
+            "altText": "A year on from AUKUS and there is no clear plan for nuclear submarines",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3b99a15d2e2e360684ad223168774c2?impolicy=wcms_crop_resize&cropH=576&cropW=861&xPos=81&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -472,9 +479,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-08-12/federal-parliament-live-blog-august-12/104199832",
           "video": null,
           "reactKey": "wa-104199832-1",
-          "synopsis": "New laws to force the embattled construction union into administration have been introduced as parliament returns from the winter break. Follow live. ",
+          "synopsis": "Newly published documents of an updated AUKUS agreement have revealed a clause that gives the US, UK a way out of the nuclear deal. Follow live.",
           "title": {
-            "children": "New laws to clean up scandal-engulfed CFMEU"
+            "children": "Updated AUKUS document reveals how UK, US could walk away from nuclear deal"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -536,6 +543,37 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104213204",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two AFP cars and an officer outside Parliament House. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc27e5731721cc3d4d4810aee7f47d80?impolicy=wcms_crop_resize&cropH=2322&cropW=3483&xPos=253&yPos=269&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/afp-union-threaten-to-walk-off-job-at-parliament-house/104213204"
+          },
+          "contentUri": "coremedia://article/104213204",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/afp-union-threaten-to-walk-off-job-at-parliament-house/104213204",
+          "video": null,
+          "reactKey": "wa-104213204-1",
+          "synopsis": "The union representing Australian Federal Police officers warns that officers will abandon their posts at Parliament House later this week if their pay demands are not met.",
+          "title": {
+            "children": "'We stop terrorists': AFP officers threaten to walk off the job at Parliament House amid pay dispute"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -575,7 +613,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104211820",
+          "id": "104211736",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -583,40 +621,9 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Matthew Glaetzer stands with his arms outstretched",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/08d1aab7eb46b27b0b1c909a4de667fb?impolicy=wcms_crop_resize&cropH=3318&cropW=4977&xPos=11&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-11/paris-2024-olympic-games-keirin-matt-glaetzer-matt-richardson/104211820"
-          },
-          "contentUri": "coremedia://article/104211820",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-11/paris-2024-olympic-games-keirin-matt-glaetzer-matt-richardson/104211820",
-          "video": null,
-          "reactKey": "wa-104211820-1",
-          "synopsis": "Matthew Glaetzer has waited his whole career for an Olympic medal. Now, after a decade of bad luck, some finally goes his way in a dramatic keirin final that sees both he and Matthew Richardson win medals.",
-          "title": {
-            "children": "Aussie sprinters end stunning Olympics on emphatic high"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104211736",
-          "imagePosition": {
-            "mobile": "top",
-            "tablet": "top",
-            "desktop": "top"
-          },
-          "isMajor": false,
-          "image": {
             "altText": "Last day (1)",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0288ca74f21f709f3d07aba38c6e798c?impolicy=wcms_crop_resize&cropH=720&cropW=1280&xPos=0&yPos=0&width=862&height=485",
-            "imgRatio": "16x9"
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0288ca74f21f709f3d07aba38c6e798c?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-08-12/paris-olympics-quick-hits-lauren-jackson-kinzang-lhamo-haka/104211736"
@@ -629,7 +636,9 @@
           "title": {
             "children": "Olympic quick hits: Aussie 'does a Bradbury' after cycling stack, an emotional haka for Kiwi champ, and marathon runner gets a hero's ovation"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -659,37 +668,6 @@
           "synopsis": "Over the 21st century, fatal overdoses have begun to grow in Australia's suburban and regional areas. Some say the answer is safe injecting facilities. But would it help?",
           "title": {
             "children": "As overdoses surge ahead in Australia's suburbs, is the solution a safe space to use drugs?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104213204",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two AFP cars and an officer outside Parliament House. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc27e5731721cc3d4d4810aee7f47d80?impolicy=wcms_crop_resize&cropH=2322&cropW=3483&xPos=253&yPos=269&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/afp-union-threaten-to-walk-off-job-at-parliament-house/104213204"
-          },
-          "contentUri": "coremedia://article/104213204",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/afp-union-threaten-to-walk-off-job-at-parliament-house/104213204",
-          "video": null,
-          "reactKey": "wa-104213204-1",
-          "synopsis": "The union representing Australian Federal Police officers warns that officers will abandon their posts at Parliament House later this week if their pay demands are not met.",
-          "title": {
-            "children": "'We stop terrorists': AFP officers threaten to walk off the job at Parliament House amid pay dispute"
           },
           "imageContainerClassNames": []
         }
@@ -798,39 +776,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104212538",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A composite image showing a purple aurora and a planet in space with rings",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2117b7e2ded97dfe8ac8809160247309?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/science/2024-08-12/most-amazing-thing-in-night-final-poll-australians/104204814"
-          },
-          "contentUri": "coremedia://article/104212538",
-          "canonicalURL": "https://www.abc.net.au/news/science/2024-08-12/most-amazing-thing-in-night-final-poll-australians/104204814",
-          "video": null,
-          "reactKey": "wa-104212538-1",
-          "synopsis": "What's filled you with awe in the night sky? We've narrowed it down to an incredible 10 things that have stunned and inspired you from auroras to shooting stars. Now it's time to vote!",
-          "title": {
-            "children": "Here are the Top 10 amazing things you've seen in the night sky. Now it's time to vote for your favourite"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104211594",
           "imagePosition": {
             "mobile": "right",
@@ -862,7 +807,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104212648",
+          "id": "104212538",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -870,22 +815,24 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two huge towers are seen from far away with black smoke billowing from the right one, with a river in front of them",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/449a91b6288ca46414382311633cc47a?impolicy=wcms_crop_resize&cropH=2008&cropW=3012&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A composite image showing a purple aurora and a planet in space with rings",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2117b7e2ded97dfe8ac8809160247309?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-12/ukraine-zaporizhzhia-nuclear-power-plant-fire/104212648"
+            "to": "/news/science/2024-08-12/most-amazing-thing-in-night-final-poll-australians/104204814"
           },
-          "contentUri": "coremedia://article/104212648",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/ukraine-zaporizhzhia-nuclear-power-plant-fire/104212648",
+          "contentUri": "coremedia://article/104212538",
+          "canonicalURL": "https://www.abc.net.au/news/science/2024-08-12/most-amazing-thing-in-night-final-poll-australians/104204814",
           "video": null,
-          "reactKey": "wa-104212648-1",
-          "synopsis": "A cooling tower away from the main nuclear reactors was on fire as Ukraine's president accused Russia of destabilising the safety of the plant.",
+          "reactKey": "wa-104212538-1",
+          "synopsis": "What's filled you with awe in the night sky? We've narrowed it down to an incredible 10 things that have stunned and inspired you from auroras to shooting stars. Now it's time to vote!",
           "title": {
-            "children": "Fire extinguished at Ukraine's Zaporizhzhia nuclear power plant"
+            "children": "Here are the Top 10 amazing things you've seen in the night sky. Now it's time to vote for your favourite"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -931,6 +878,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "114573",
+              "date": "2024-08-12T03:15:30.000Z",
+              "title": "RBA deputy governor takes aim at ‘false prophets’"
+            },
+            {
               "id": "114562",
               "date": "2024-08-12T03:01:55.000Z",
               "title": "ASX up 0.6% heading into the afteroon session"
@@ -939,11 +891,6 @@
               "id": "114517",
               "date": "2024-08-12T00:29:36.000Z",
               "title": "ASX 200 up 0.7% on opening, JB Hi-Fi surges on results"
-            },
-            {
-              "id": "114506",
-              "date": "2024-08-12T00:06:13.000Z",
-              "title": "Aurizon profit jumps 25%, guidance soft"
             }
           ]
         }
@@ -953,7 +900,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104086682",
+          "id": "104212648",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -961,20 +908,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "beachside mansions at noosa heads",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b92d6c26cc49221f7270088657d60d9b?impolicy=wcms_crop_resize&cropH=2668&cropW=4002&xPos=323&yPos=0&width=160&height=107",
+            "altText": "Two huge towers are seen from far away with black smoke billowing from the right one, with a river in front of them",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/449a91b6288ca46414382311633cc47a?impolicy=wcms_crop_resize&cropH=2008&cropW=3012&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-12/sunshine-coast-housing-crisis-short-term-stays-election-airbnb/104086682"
+            "to": "/news/2024-08-12/ukraine-zaporizhzhia-nuclear-power-plant-fire/104212648"
           },
-          "contentUri": "coremedia://article/104086682",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/sunshine-coast-housing-crisis-short-term-stays-election-airbnb/104086682",
+          "contentUri": "coremedia://article/104212648",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/ukraine-zaporizhzhia-nuclear-power-plant-fire/104212648",
           "video": null,
-          "reactKey": "wa-104086682-1",
-          "synopsis": "Across Australia renters are facing record-high rents and low vacancy rates. But how much platforms like Stayz and Airbnb are to blame depends on who you ask. ",
+          "reactKey": "wa-104212648-1",
+          "synopsis": "A cooling tower away from the main nuclear reactors was on fire as Ukraine's president accused Russia of destabilising the safety of the plant.",
           "title": {
-            "children": "Renters fear being pushed out of coastal market where short-term stays outnumber rentals 17 to 1"
+            "children": "Fire extinguished at Ukraine's Zaporizhzhia nuclear power plant"
           },
           "imageContainerClassNames": []
         }
@@ -1006,6 +953,37 @@
           "synopsis": "Animal rescue organisations say they are struggling to cope amid a surge in pet surrenders, with RSPCA ACT saying they are seeing a 30 to 40 per cent increase from last year.",
           "title": {
             "children": "Designer dogs among pets being abandoned as rescue organisations swamped by unwanted animals"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104086682",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "beachside mansions at noosa heads",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b92d6c26cc49221f7270088657d60d9b?impolicy=wcms_crop_resize&cropH=2668&cropW=4002&xPos=323&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/sunshine-coast-housing-crisis-short-term-stays-election-airbnb/104086682"
+          },
+          "contentUri": "coremedia://article/104086682",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/sunshine-coast-housing-crisis-short-term-stays-election-airbnb/104086682",
+          "video": null,
+          "reactKey": "wa-104086682-1",
+          "synopsis": "Across Australia renters are facing record-high rents and low vacancy rates. But how much platforms like Stayz and Airbnb are to blame depends on who you ask. ",
+          "title": {
+            "children": "Renters fear being pushed out of coastal market where short-term stays outnumber rentals 17 to 1"
           },
           "imageContainerClassNames": []
         }
@@ -1077,7 +1055,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104159246",
+          "id": "104211820",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1085,51 +1063,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Dog wearing an ID photo",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0a465a7df29e31ec816f679987c875e9?impolicy=wcms_crop_resize&cropH=4007&cropW=6011&xPos=563&yPos=324&width=160&height=107",
+            "altText": "Matthew Glaetzer stands with his arms outstretched",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/08d1aab7eb46b27b0b1c909a4de667fb?impolicy=wcms_crop_resize&cropH=3318&cropW=4977&xPos=11&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-12/push-to-allow-pets-at-work-benefits-to-office-companion-animals/104159246"
+            "to": "/news/2024-08-11/paris-2024-olympic-games-keirin-matt-glaetzer-matt-richardson/104211820"
           },
-          "contentUri": "coremedia://article/104159246",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/push-to-allow-pets-at-work-benefits-to-office-companion-animals/104159246",
+          "contentUri": "coremedia://article/104211820",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-11/paris-2024-olympic-games-keirin-matt-glaetzer-matt-richardson/104211820",
           "video": null,
-          "reactKey": "wa-104159246-1",
-          "synopsis": "A company policy to allow dogs in the workplace has expanded from one day to five at a Hobart-based business after employees discover the health benefits of having pets in the office.",
+          "reactKey": "wa-104211820-1",
+          "synopsis": "Matthew Glaetzer has waited his whole career for an Olympic medal. Now, after a decade of bad luck, some finally goes his way in a dramatic keirin final that sees both he and Matthew Richardson win medals.",
           "title": {
-            "children": "'We're really focused on employee wellbeing': The office where pets are welcome"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104179748",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Man sitting at table sewing material",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47e65d8dd9b61739337d9da76668e006?impolicy=wcms_crop_resize&cropH=1950&cropW=2924&xPos=38&yPos=50&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/backpack-sleeping-bags-to-help-those-sleeping-rough/104179748"
-          },
-          "contentUri": "coremedia://article/104179748",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/backpack-sleeping-bags-to-help-those-sleeping-rough/104179748",
-          "video": null,
-          "reactKey": "wa-104179748-1",
-          "synopsis": "Backpack swags for those sleeping rough made by prison inmates particularly resonates with them as entrants are around 100 times more likely to be homeless.",
-          "title": {
-            "children": "Ruffy Swags kit prisoners out with pattern making, sewing skills to help the homeless"
+            "children": "Aussie sprinters end stunning Olympics on emphatic high"
           },
           "imageContainerClassNames": []
         }

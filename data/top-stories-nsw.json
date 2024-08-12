@@ -19,6 +19,9 @@
           "uri": "coremedia://article/104165284"
         },
         {
+          "uri": "coremedia://article/104204202"
+        },
+        {
           "uri": "coremedia://article/104213204"
         },
         {
@@ -174,6 +177,37 @@
           "synopsis": "The ABC Radio Sydney presenter was diagnosed with oesophageal cancer in December. Two doctors \"who both know best\" gave him two different options.",
           "title": {
             "children": "Three days out from his cancer surgery, James Valentine faced a choice"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104204202",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A hill with a coal mine cut out of the side",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b6a82904cc23d9d76e04801bec53b13b?impolicy=wcms_crop_resize&cropH=2735&cropW=4103&xPos=4&yPos=600&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/closing-nsw-largest-coal-mine-hunter-mt-arthur-bhp-muswellbrook/104204202"
+          },
+          "contentUri": "coremedia://article/104204202",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/closing-nsw-largest-coal-mine-hunter-mt-arthur-bhp-muswellbrook/104204202",
+          "video": null,
+          "reactKey": "nsw-104204202-1",
+          "synopsis": "The company operating this soon-to-be-closed coal mine says it's bound by outdated rules that hamper plans to leave a diverse and 'positive legacy'.",
+          "title": {
+            "children": "What should happen when NSW's largest coal mine is closed?"
           },
           "imageContainerClassNames": []
         }
@@ -424,8 +458,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "CFMEU generic",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e41ded90e1e60812e1839953a17b9a0?impolicy=wcms_crop_resize&cropH=907&cropW=1359&xPos=36&yPos=115&width=160&height=107",
+            "altText": "A year on from AUKUS and there is no clear plan for nuclear submarines",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3b99a15d2e2e360684ad223168774c2?impolicy=wcms_crop_resize&cropH=576&cropW=861&xPos=81&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -435,9 +469,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-08-12/federal-parliament-live-blog-august-12/104199832",
           "video": null,
           "reactKey": "nsw-104199832-1",
-          "synopsis": "New laws to force the embattled construction union into administration have been introduced as parliament returns from the winter break. Follow live. ",
+          "synopsis": "Newly published documents of an updated AUKUS agreement have revealed a clause that gives the US, UK a way out of the nuclear deal. Follow live.",
           "title": {
-            "children": "New laws to clean up scandal-engulfed CFMEU"
+            "children": "Updated AUKUS document reveals how UK, US could walk away from nuclear deal"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -468,7 +502,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104212296",
           "imagePosition": {
@@ -495,7 +535,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -636,6 +683,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "114573",
+              "date": "2024-08-12T03:15:30.000Z",
+              "title": "RBA deputy governor takes aim at ‘false prophets’"
+            },
+            {
               "id": "114562",
               "date": "2024-08-12T03:01:55.000Z",
               "title": "ASX up 0.6% heading into the afteroon session"
@@ -644,11 +696,6 @@
               "id": "114517",
               "date": "2024-08-12T00:29:36.000Z",
               "title": "ASX 200 up 0.7% on opening, JB Hi-Fi surges on results"
-            },
-            {
-              "id": "114506",
-              "date": "2024-08-12T00:06:13.000Z",
-              "title": "Aurizon profit jumps 25%, guidance soft"
             }
           ]
         }

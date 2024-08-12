@@ -149,7 +149,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104212296",
           "imagePosition": {
@@ -176,7 +182,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -324,8 +337,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "CFMEU generic",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e41ded90e1e60812e1839953a17b9a0?impolicy=wcms_crop_resize&cropH=907&cropW=1359&xPos=36&yPos=115&width=160&height=107",
+            "altText": "A year on from AUKUS and there is no clear plan for nuclear submarines",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3b99a15d2e2e360684ad223168774c2?impolicy=wcms_crop_resize&cropH=576&cropW=861&xPos=81&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -335,9 +348,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-08-12/federal-parliament-live-blog-august-12/104199832",
           "video": null,
           "reactKey": "vic-104199832-1",
-          "synopsis": "New laws to force the embattled construction union into administration have been introduced as parliament returns from the winter break. Follow live. ",
+          "synopsis": "Newly published documents of an updated AUKUS agreement have revealed a clause that gives the US, UK a way out of the nuclear deal. Follow live.",
           "title": {
-            "children": "New laws to clean up scandal-engulfed CFMEU"
+            "children": "Updated AUKUS document reveals how UK, US could walk away from nuclear deal"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -378,8 +391,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Man sitting at table sewing material",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47e65d8dd9b61739337d9da76668e006?impolicy=wcms_crop_resize&cropH=1950&cropW=2924&xPos=38&yPos=50&width=160&height=107",
+            "altText": "Group of people standing holding a swag.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2720a21bcfadec021630f97fa9b71587?impolicy=wcms_crop_resize&cropH=3055&cropW=4583&xPos=251&yPos=185&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -389,9 +402,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-08-12/backpack-sleeping-bags-to-help-those-sleeping-rough/104179748",
           "video": null,
           "reactKey": "vic-104179748-1",
-          "synopsis": "Backpack swags for those sleeping rough made by prison inmates particularly resonates with them as entrants are around 100 times more likely to be homeless.",
+          "synopsis": "A program making backpack swags for people sleeping rough resonates with prison inmates, as they are about 100 times more likely to have been homeless than the general population.",
           "title": {
-            "children": "Ruffy Swags kit prisoners out with pattern making, sewing skills to help the homeless"
+            "children": "Prisoners use sewing skills to gift backpack swags to homeless people"
           },
           "imageContainerClassNames": []
         }
@@ -726,6 +739,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "114573",
+              "date": "2024-08-12T03:15:30.000Z",
+              "title": "RBA deputy governor takes aim at ‘false prophets’"
+            },
+            {
               "id": "114562",
               "date": "2024-08-12T03:01:55.000Z",
               "title": "ASX up 0.6% heading into the afteroon session"
@@ -734,11 +752,6 @@
               "id": "114517",
               "date": "2024-08-12T00:29:36.000Z",
               "title": "ASX 200 up 0.7% on opening, JB Hi-Fi surges on results"
-            },
-            {
-              "id": "114506",
-              "date": "2024-08-12T00:06:13.000Z",
-              "title": "Aurizon profit jumps 25%, guidance soft"
             }
           ]
         }

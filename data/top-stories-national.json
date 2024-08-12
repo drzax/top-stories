@@ -31,37 +31,37 @@
           "uri": "coremedia://article/104169196"
         },
         {
-          "uri": "coremedia://article/104212270"
+          "uri": "coremedia://article/104210666"
         },
         {
           "uri": "coremedia://article/104212592"
         },
         {
-          "uri": "coremedia://article/104199832"
+          "uri": "coremedia://article/104212644"
         },
         {
-          "uri": "coremedia://article/104212644"
+          "uri": "coremedia://article/104214000"
+        },
+        {
+          "uri": "coremedia://article/104199832"
         },
         {
           "uri": "coremedia://article/104213200"
         },
         {
+          "uri": "coremedia://article/104211736"
+        },
+        {
           "uri": "coremedia://article/104213204"
         },
         {
-          "uri": "coremedia://article/104212026"
-        },
-        {
-          "uri": "coremedia://article/104211736"
+          "uri": "coremedia://article/104212464"
         },
         {
           "uri": "coremedia://article/104211480"
         },
         {
           "uri": "coremedia://article/104212300"
-        },
-        {
-          "uri": "coremedia://article/104212464"
         },
         {
           "uri": "coremedia://article/104086682"
@@ -103,10 +103,10 @@
           "uri": "coremedia://article/104213046"
         },
         {
-          "uri": "coremedia://article/104210914"
+          "uri": "coremedia://article/104212348"
         },
         {
-          "uri": "coremedia://article/104212348"
+          "uri": "coremedia://article/104210914"
         },
         {
           "uri": "coremedia://article/104212024"
@@ -153,7 +153,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104212296",
           "imagePosition": {
@@ -180,7 +186,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -320,7 +333,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104212270",
+          "id": "104210666",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -335,10 +348,10 @@
           "link": {
             "to": "/news/2024-08-12/israel-strike-gaza-school-devastating-but-refuting-severity/104210666"
           },
-          "contentUri": "coremedia://article/104212270",
+          "contentUri": "coremedia://article/104210666",
           "canonicalURL": "https://www.abc.net.au/news/2024-08-12/israel-strike-gaza-school-devastating-but-refuting-severity/104210666",
           "video": null,
-          "reactKey": "national-104212270-1",
+          "reactKey": "national-104210666-1",
           "synopsis": "Gazan officials say at least 90 people were killed in an air strike on a school, but Israel is refuting the severity, claiming it was targeting Hamas militants.",
           "title": {
             "children": "Israel struck a Gaza school on the weekend. Here's what we know"
@@ -382,66 +395,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104199832",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "CFMEU generic",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e41ded90e1e60812e1839953a17b9a0?impolicy=wcms_crop_resize&cropH=907&cropW=1359&xPos=36&yPos=115&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/federal-parliament-live-blog-august-12/104199832"
-          },
-          "contentUri": "coremedia://article/104199832",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/federal-parliament-live-blog-august-12/104199832",
-          "video": null,
-          "reactKey": "national-104199832-1",
-          "synopsis": "New laws to force the embattled construction union into administration have been introduced as parliament returns from the winter break. Follow live. ",
-          "title": {
-            "children": "New laws to clean up scandal-engulfed CFMEU"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "114556",
-              "date": "2024-08-12T02:46:07.000Z",
-              "title": "Greens not keen to rush CFMEU laws"
-            },
-            {
-              "id": "114545",
-              "date": "2024-08-12T01:44:14.000Z",
-              "title": "A chorus of voices on gambling reform but nothing from the government... yet"
-            },
-            {
-              "id": "114522",
-              "date": "2024-08-12T00:41:56.000Z",
-              "title": "Coalition on the attack over CFMEU"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "104212644",
@@ -468,6 +421,97 @@
             "children": "As overdoses surge ahead in Australia's suburbs, is the solution a safe space to use drugs?"
           },
           "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104214000",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Jess and Noemie Fox next to the Eiffel Tower",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/01ea72468a3c8574acdd7be14c8d6711?impolicy=wcms_crop_resize&cropH=3129&cropW=4694&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/sport-paris-2024-olympic-games-australia-sporting-success/104212026"
+          },
+          "contentUri": "coremedia://article/104214000",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/sport-paris-2024-olympic-games-australia-sporting-success/104212026",
+          "video": null,
+          "reactKey": "national-104214000-1",
+          "synopsis": "As Paris signs off on a Games that featured the very best of what the sporting world can do, Australia can bask in the glory of staggering achievement.",
+          "title": {
+            "children": "The golden glow around Paris 2024 was lit by the athletes that competed — and Australia was at the centre of it all"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104199832",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A year on from AUKUS and there is no clear plan for nuclear submarines",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f3b99a15d2e2e360684ad223168774c2?impolicy=wcms_crop_resize&cropH=576&cropW=861&xPos=81&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/federal-parliament-live-blog-august-12/104199832"
+          },
+          "contentUri": "coremedia://article/104199832",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/federal-parliament-live-blog-august-12/104199832",
+          "video": null,
+          "reactKey": "national-104199832-1",
+          "synopsis": "Newly published documents of an updated AUKUS agreement have revealed a clause that gives the US, UK a way out of the nuclear deal. Follow live.",
+          "title": {
+            "children": "Updated AUKUS document reveals how UK, US could walk away from nuclear deal"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "114556",
+              "date": "2024-08-12T02:46:07.000Z",
+              "title": "Greens not keen to rush CFMEU laws"
+            },
+            {
+              "id": "114545",
+              "date": "2024-08-12T01:44:14.000Z",
+              "title": "A chorus of voices on gambling reform but nothing from the government... yet"
+            },
+            {
+              "id": "114522",
+              "date": "2024-08-12T00:41:56.000Z",
+              "title": "Coalition on the attack over CFMEU"
+            }
+          ]
         }
       },
       {
@@ -506,6 +550,39 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104211736",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Last day (1)",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0288ca74f21f709f3d07aba38c6e798c?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/paris-olympics-quick-hits-lauren-jackson-kinzang-lhamo-haka/104211736"
+          },
+          "contentUri": "coremedia://article/104211736",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/paris-olympics-quick-hits-lauren-jackson-kinzang-lhamo-haka/104211736",
+          "video": null,
+          "reactKey": "national-104211736-1",
+          "synopsis": "Matt Glaetzer 'does a Bradbury' to claim bronze, New Zealand marks new ground with an emotional haka, and the final finisher in the women's marathon gets a hero's welcome. Here are some moments you may have missed overnight in Paris.",
+          "title": {
+            "children": "Olympic quick hits: Aussie 'does a Bradbury' after cycling stack, an emotional haka for Kiwi champ, and marathon runner gets a hero's ovation"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104213204",
           "imagePosition": {
             "mobile": "right",
@@ -535,46 +612,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/f87ce62e8c54de2bd5b3ed71ee8e48b0?impolicy=wcms_crop_resize&cropH=893&cropW=893&xPos=103&yPos=16&width=160&height=160",
-              "authorName": "Simon Smale"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104212026",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Jess and Noemie Fox next to the Eiffel Tower",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/01ea72468a3c8574acdd7be14c8d6711?impolicy=wcms_crop_resize&cropH=3129&cropW=4694&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/sport-paris-2024-olympic-games-australia-sporting-success/104212026"
-          },
-          "contentUri": "coremedia://article/104212026",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/sport-paris-2024-olympic-games-australia-sporting-success/104212026",
-          "video": null,
-          "reactKey": "national-104212026-1",
-          "synopsis": "As Paris signs off on a Games that featured the very best of what the sporting world can do, Australia can bask in the glory of staggering achievement.",
-          "title": {
-            "children": "The golden glow around Paris 2024 was lit by the athletes that competed — and Australia was at the centre of it all"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104211736",
+          "id": "104212464",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -582,20 +622,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Last day (1)",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0288ca74f21f709f3d07aba38c6e798c?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=862&height=575",
+            "altText": "a man in a brown suede jacket sitting behind a desk with a radio presenter microphone to the side",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e6414078687ad41e9bcaad98b6b1179?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-12/paris-olympics-quick-hits-lauren-jackson-kinzang-lhamo-haka/104211736"
+            "to": "/news/2024-08-12/james-valentine-cancer-treatment-choice/104165284"
           },
-          "contentUri": "coremedia://article/104211736",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/paris-olympics-quick-hits-lauren-jackson-kinzang-lhamo-haka/104211736",
+          "contentUri": "coremedia://article/104212464",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/james-valentine-cancer-treatment-choice/104165284",
           "video": null,
-          "reactKey": "national-104211736-1",
-          "synopsis": "Matt Glaetzer 'does a Bradbury' to claim bronze, New Zealand marks new ground with an emotional haka, and the final finisher in the women's marathon gets a hero's welcome. Here are some moments you may have missed overnight in Paris.",
+          "reactKey": "national-104212464-1",
+          "synopsis": "The ABC Radio Sydney presenter was diagnosed with oesophageal cancer in December. Three days out from surgery, he was presented with another choice.",
           "title": {
-            "children": "Olympic quick hits: Aussie 'does a Bradbury' after cycling stack, an emotional haka for Kiwi champ, and marathon runner gets a hero's ovation"
+            "children": "When James Valentine was being treated for cancer, he faced a choice between two doctors who both knew best"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -668,39 +708,6 @@
             "children": "Hamas urges ceasefire mediators to push Israel to accept earlier deal"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104212464",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a man in a brown suede jacket sitting behind a desk with a radio presenter microphone to the side",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e6414078687ad41e9bcaad98b6b1179?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/james-valentine-cancer-treatment-choice/104165284"
-          },
-          "contentUri": "coremedia://article/104212464",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/james-valentine-cancer-treatment-choice/104165284",
-          "video": null,
-          "reactKey": "national-104212464-1",
-          "synopsis": "The ABC Radio Sydney presenter was diagnosed with oesophageal cancer in December. Three days out from surgery, he was presented with another choice.",
-          "title": {
-            "children": "When James Valentine was being treated for cancer, he faced a choice between two doctors who both knew best"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
         }
       },
       {
@@ -872,6 +879,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "114573",
+              "date": "2024-08-12T03:15:30.000Z",
+              "title": "RBA deputy governor takes aim at ‘false prophets’"
+            },
+            {
               "id": "114562",
               "date": "2024-08-12T03:01:55.000Z",
               "title": "ASX up 0.6% heading into the afteroon session"
@@ -880,11 +892,6 @@
               "id": "114517",
               "date": "2024-08-12T00:29:36.000Z",
               "title": "ASX 200 up 0.7% on opening, JB Hi-Fi surges on results"
-            },
-            {
-              "id": "114506",
-              "date": "2024-08-12T00:06:13.000Z",
-              "title": "Aurizon profit jumps 25%, guidance soft"
             }
           ]
         }
@@ -1144,37 +1151,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104210914",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A baby on its back with its feet in focus",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eaaec0a5d8ddb18a5b7d9fe251dddefe?impolicy=wcms_crop_resize&cropH=1184&cropW=1776&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-12/stillbirth-prevention-target-at-risk/104210914"
-          },
-          "contentUri": "coremedia://article/104210914",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/stillbirth-prevention-target-at-risk/104210914",
-          "video": null,
-          "reactKey": "national-104210914-1",
-          "synopsis": "About 2,000 families endure the pain of stillbirth every year but up to 30 per cent of stillbirths are considered preventable. Now there's concern a national plan to reduce the rates will fall short of its target as the deadline approaches. ",
-          "title": {
-            "children": "Kirstin hopes the loss of her daughter will mean other families don't experience stillbirth"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104212348",
           "imagePosition": {
             "mobile": "right",
@@ -1197,6 +1173,37 @@
           "synopsis": "The family of one of the victims of the Southport stabbing attack have appealed for an end to the violent riots across the UK. ",
           "title": {
             "children": "Parents of murdered nine-year-old Southport girl call for end to UK riots"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104210914",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A baby on its back with its feet in focus",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eaaec0a5d8ddb18a5b7d9fe251dddefe?impolicy=wcms_crop_resize&cropH=1184&cropW=1776&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-12/stillbirth-prevention-target-at-risk/104210914"
+          },
+          "contentUri": "coremedia://article/104210914",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-12/stillbirth-prevention-target-at-risk/104210914",
+          "video": null,
+          "reactKey": "national-104210914-1",
+          "synopsis": "About 2,000 families endure the pain of stillbirth every year but up to 30 per cent of stillbirths are considered preventable. Now there's concern a national plan to reduce the rates will fall short of its target as the deadline approaches. ",
+          "title": {
+            "children": "Kirstin hopes the loss of her daughter will mean other families don't experience stillbirth"
           },
           "imageContainerClassNames": []
         }
