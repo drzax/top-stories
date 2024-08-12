@@ -525,7 +525,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104214390",
           "imagePosition": {
@@ -550,7 +556,14 @@
           "title": {
             "children": "Police investigating possible murder-suicide after discovery of two bodies at Sydney complex"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -786,7 +799,7 @@
           "isMajor": false,
           "image": {
             "altText": "A close up of a McDonalds sign above a restraunt on a street.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cb8e6ace3af5b1601a3ea6cfbf0fd98?impolicy=wcms_crop_resize&cropH=1328&cropW=1995&xPos=0&yPos=28&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cb8e6ace3af5b1601a3ea6cfbf0fd98?impolicy=wcms_crop_resize&cropH=1334&cropW=1995&xPos=0&yPos=28&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -800,9 +813,7 @@
           "title": {
             "children": "Why the rise of 'superbugs' could have the same impact as the next global financial crisis"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1007,7 +1018,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man stands holding a tent looking at a fire coming out of a building after being bombed",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/85f2ceb7d487db59f4f252fbdc38d12d?impolicy=wcms_crop_resize&cropH=1988&cropW=2982&xPos=15&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/85f2ceb7d487db59f4f252fbdc38d12d?impolicy=wcms_crop_resize&cropH=1988&cropW=2982&xPos=15&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -1021,7 +1032,9 @@
           "title": {
             "children": "Hamas urges ceasefire mediators to push Israel to accept earlier deal"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
@@ -1081,7 +1094,7 @@
           "reactKey": "act-104211118-1",
           "synopsis": "The Tiwi Islands are celebrating their newest football heroes, with the Ranku Eagles men's team seizing victory and the Tapalinga Superstars shooting to the top of the newly-established women's league.",
           "title": {
-            "children": "Thousands turn out to witness new reigning premiers on the football-mad Tiwi Islands"
+            "children": "Home crowd goes wild for new reigning premiers on football-mad Tiwi Islands"
           },
           "imageContainerClassNames": []
         }
