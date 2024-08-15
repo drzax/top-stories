@@ -25,7 +25,7 @@
           "uri": "coremedia://article/104229568"
         },
         {
-          "uri": "coremedia://article/104230734"
+          "uri": "coremedia://article/104231180"
         },
         {
           "uri": "coremedia://article/104230590"
@@ -53,6 +53,9 @@
         },
         {
           "uri": "coremedia://article/104227008"
+        },
+        {
+          "uri": "coremedia://article/104230734"
         },
         {
           "uri": "coremedia://article/104227400"
@@ -104,9 +107,6 @@
         },
         {
           "uri": "coremedia://article/104156104"
-        },
-        {
-          "uri": "coremedia://article/104226956"
         },
         {
           "uri": "coremedia://article/104226858"
@@ -245,9 +245,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104230734",
+          "id": "104231180",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -255,22 +261,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Latrell Mitchell looks to one side",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e4a196ee33384037fbf53a41d8c3166?impolicy=wcms_crop_resize&cropH=1447&cropW=2171&xPos=1&yPos=0&width=160&height=107",
+            "altText": "Tui Kamikamica celebrates on the ground after scoring, with Harry Grant hugging him from behind",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c9159ef216f74afd3106827a0b67fa6d?impolicy=wcms_crop_resize&cropH=2086&cropW=3129&xPos=307&yPos=79&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-15/nrl-latrell-mitchell-issued-breach-notice-white-substance/104230734"
+            "to": "/news/2024-08-15/nrl-live-updates-penrith-panthers-vs-melbourne-storm/104231180"
           },
-          "contentUri": "coremedia://article/104230734",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-15/nrl-latrell-mitchell-issued-breach-notice-white-substance/104230734",
+          "contentUri": "coremedia://article/104231180",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-15/nrl-live-updates-penrith-panthers-vs-melbourne-storm/104231180",
           "video": null,
-          "reactKey": "nsw-104230734-1",
-          "synopsis": "Rabbitohs star Latrell Mitchell will have five business days to respond to a breach notice from the NRL following the integrity unit's investigation into a photograph of him which circulated on social media this week.",
+          "reactKey": "nsw-104231180-1",
+          "synopsis": "First and second on the NRL ladder meet in a heavyweight clash that could decide this year's minor premiership. Follow live.",
           "title": {
-            "children": "Latrell Mitchell handed breach notice by NRL over photograph featuring white substance"
+            "children": "Panthers and Storm meet in top of the table clash to begin round 24"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "115225",
+              "date": "2024-08-15T08:42:01.000Z",
+              "title": "What will a win do for Penrith or Melbourne?"
+            },
+            {
+              "id": "115223",
+              "date": "2024-08-15T08:26:49.000Z",
+              "title": "Welcome to the ABC Sport live blog"
+            }
+          ]
         }
       },
       {
@@ -556,6 +580,37 @@
           "synopsis": "Anthony Albanese and Peter Dutton trade barbs over what Australia's spy boss is saying about Gaza visa applications as the fallout continues over the opposition leader's remarks. ",
           "title": {
             "children": "PM accused of misquoting top spy, Dutton told to 'stop being racist' — as it happened"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104230734",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Latrell Mitchell looks to one side",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e4a196ee33384037fbf53a41d8c3166?impolicy=wcms_crop_resize&cropH=1447&cropW=2171&xPos=1&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-15/nrl-latrell-mitchell-issued-breach-notice-white-substance/104230734"
+          },
+          "contentUri": "coremedia://article/104230734",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-15/nrl-latrell-mitchell-issued-breach-notice-white-substance/104230734",
+          "video": null,
+          "reactKey": "nsw-104230734-1",
+          "synopsis": "Rabbitohs star Latrell Mitchell will have five business days to respond to a breach notice from the NRL following the integrity unit's investigation into a photograph of him which circulated on social media this week.",
+          "title": {
+            "children": "Latrell Mitchell handed breach notice by NRL over photograph featuring white substance"
           },
           "imageContainerClassNames": []
         }
@@ -1091,37 +1146,6 @@
           "synopsis": "In the new TV role, the Australian Story host mentors a cohort of autistic journalism students before they grill high-profile celebrities. But the learning wasn't one-way — this is what she learned about interviewing and the tips and questions she's banked for future interviews.",
           "title": {
             "children": "What Leigh Sales learned about interviewing from autistic student journalists where no topic is off-limits"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104226956",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Sunita Williams and Butch WIlmore",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/85d73030b4ff3d8223835f11e2f5362a?impolicy=wcms_crop_resize&cropH=2067&cropW=3100&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-15/nasa-still-deciding-whether-to-keep-2-astronauts-at-space-statio/104226956"
-          },
-          "contentUri": "coremedia://article/104226956",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-15/nasa-still-deciding-whether-to-keep-2-astronauts-at-space-statio/104226956",
-          "video": null,
-          "reactKey": "nsw-104226956-1",
-          "synopsis": "NASA officials said they're analysing more data before making a decision by end of next week or beginning of the next.",
-          "title": {
-            "children": "NASA still deciding whether to keep stranded astronauts at space station until next year"
           },
           "imageContainerClassNames": []
         }
