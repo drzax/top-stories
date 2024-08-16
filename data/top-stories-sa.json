@@ -317,7 +317,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104229660",
           "imagePosition": {
@@ -342,7 +348,14 @@
           "title": {
             "children": "NZ's prime minister plans to press Anthony Albanese on criminal deportations after Australia reverses course"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -681,6 +694,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "115320",
+              "date": "2024-08-16T00:57:15.000Z",
+              "title": "Why are we still seeing challenges in building new housing?"
+            },
+            {
               "id": "115311",
               "date": "2024-08-16T00:43:18.000Z",
               "title": "ASX opens higher"
@@ -689,11 +707,6 @@
               "id": "115306",
               "date": "2024-08-16T00:33:08.000Z",
               "title": "Too early to tell if stage 3 tax cuts are being spent or saved, RBA says"
-            },
-            {
-              "id": "115296",
-              "date": "2024-08-15T23:49:53.000Z",
-              "title": "Bullock reiterates rate cuts unlikely in the near-term"
             }
           ]
         }
