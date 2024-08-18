@@ -28,22 +28,22 @@
           "uri": "coremedia://article/104240372"
         },
         {
-          "uri": "coremedia://article/104240444"
+          "uri": "coremedia://article/104241174"
         },
         {
           "uri": "coremedia://article/104240916"
         },
         {
-          "uri": "coremedia://article/104240942"
+          "uri": "coremedia://article/104240444"
         },
         {
-          "uri": "coremedia://article/104239836"
+          "uri": "coremedia://article/104240942"
         },
         {
           "uri": "coremedia://article/104240672"
         },
         {
-          "uri": "coremedia://article/104212982"
+          "uri": "coremedia://article/104239836"
         },
         {
           "uri": "coremedia://article/104240002"
@@ -52,22 +52,25 @@
           "uri": "coremedia://article/104240918"
         },
         {
-          "uri": "coremedia://article/104228486"
+          "uri": "coremedia://article/104212982"
         },
         {
-          "uri": "coremedia://article/104237700"
+          "uri": "coremedia://article/104228486"
         },
         {
           "uri": "coremedia://article/104241324"
         },
         {
+          "uri": "coremedia://article/104237700"
+        },
+        {
           "uri": "coremedia://article/104234434"
         },
         {
-          "uri": "coremedia://article/104241070"
+          "uri": "coremedia://article/104240940"
         },
         {
-          "uri": "coremedia://article/104240940"
+          "uri": "coremedia://article/104241070"
         },
         {
           "uri": "coremedia://article/104241214"
@@ -77,9 +80,6 @@
         },
         {
           "uri": "coremedia://article/104240546"
-        },
-        {
-          "uri": "coremedia://article/104222662"
         },
         {
           "uri": "coremedia://article/104241208"
@@ -267,9 +267,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104240444",
+          "id": "104241174",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -277,22 +283,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A dump truck emptying a pile of red dirt into a very large mine - there are hills in the background.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5742dfb668761c790b982e86e23dc8cd?impolicy=wcms_crop_resize&cropH=3264&cropW=4896&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Zali Steggall gestures with her hand as she speaks passionately in parliament.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/155c8c1ef2d5292bdd2161f74e3a83d0?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-18/plummeting-iron-ore-prices-could-wipe-3b-from-federal-budget/104240444"
+            "to": "/news/2024-08-19/federal-parliament-live-blog-august-19/104241174"
           },
-          "contentUri": "coremedia://article/104240444",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-18/plummeting-iron-ore-prices-could-wipe-3b-from-federal-budget/104240444",
+          "contentUri": "coremedia://article/104241174",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/federal-parliament-live-blog-august-19/104241174",
           "video": null,
-          "reactKey": "act-104240444-1",
-          "synopsis": "Plummeting iron ore prices on the back of China's cooling property market could cost the federal government $3 billion in revenue and push the budget further into deficit this financial year.",
+          "reactKey": "act-104241174-1",
+          "synopsis": "The independent MP doubled down on her remarks about Peter Dutton, saying the opposition leader's \"racist\" Gaza visa ban needed to be called out. Follow live. ",
           "title": {
-            "children": "China's property crisis could wipe $3b from federal budget"
+            "children": "Zali Steggall says she doesn't regret telling Peter Dutton to 'stop being racist'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -331,6 +344,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104240444",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A dump truck emptying a pile of red dirt into a very large mine - there are hills in the background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5742dfb668761c790b982e86e23dc8cd?impolicy=wcms_crop_resize&cropH=3264&cropW=4896&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-18/plummeting-iron-ore-prices-could-wipe-3b-from-federal-budget/104240444"
+          },
+          "contentUri": "coremedia://article/104240444",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-18/plummeting-iron-ore-prices-could-wipe-3b-from-federal-budget/104240444",
+          "video": null,
+          "reactKey": "act-104240444-1",
+          "synopsis": "Plummeting iron ore prices on the back of China's cooling property market could cost the federal government $3 billion in revenue and push the budget further into deficit this financial year.",
+          "title": {
+            "children": "China's property crisis could wipe $3b from federal budget"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104240942",
           "imagePosition": {
             "mobile": "right",
@@ -353,43 +397,6 @@
           "synopsis": "The Palestinian militant group has accused the Israeli prime minister of placing obstacles in the way of achieving an agreement.",
           "title": {
             "children": "Hamas rejects Gaza ceasefire deal, blaming Netanyahu for setting new 'obstacles'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160",
-              "authorName": "Patricia Karvelas"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104239836",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A composite image of Imane Khelif and Raygun",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6949294aa6aed85d93866dda08293fe5?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-19/raygun-imane-khelif-social-media-regulation/104239836"
-          },
-          "contentUri": "coremedia://article/104239836",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/raygun-imane-khelif-social-media-regulation/104239836",
-          "video": null,
-          "reactKey": "act-104239836-1",
-          "synopsis": "Two incidents — both involving women competing in the Olympics — provide the latest grim proof of the often toxic, menacing and deranged nature of social media. And it doesn't stop with those in the public eye.",
-          "title": {
-            "children": "We're entering a new phase of the social media wars"
           },
           "imageContainerClassNames": []
         }
@@ -428,9 +435,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160",
+              "authorName": "Patricia Karvelas"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104212982",
+          "id": "104239836",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -438,20 +451,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A row of EV charging stations on a suburban road.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/18206ce1660e0ea5b5e3c4ce1a15b65c?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=3&width=160&height=107",
+            "altText": "A composite image of Imane Khelif and Raygun",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6949294aa6aed85d93866dda08293fe5?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-08-19/the-ev-boom-is-putting-pressure-on-the-grid/104212982"
+            "to": "/news/2024-08-19/raygun-imane-khelif-social-media-regulation/104239836"
           },
-          "contentUri": "coremedia://article/104212982",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/the-ev-boom-is-putting-pressure-on-the-grid/104212982",
+          "contentUri": "coremedia://article/104239836",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/raygun-imane-khelif-social-media-regulation/104239836",
           "video": null,
-          "reactKey": "act-104212982-1",
-          "synopsis": "Electric car sales are accelerating and along with it, additional demand for electricity. It's driving questions about how the grid will cope with the growing number of large batteries waiting to be charged.",
+          "reactKey": "act-104239836-1",
+          "synopsis": "Two incidents — both involving women competing in the Olympics — provide the latest grim proof of the often toxic, menacing and deranged nature of social media. And it doesn't stop with those in the public eye.",
           "title": {
-            "children": "Electric cars are booming as a wall of demand barrels towards the power grid. There are risks, but also opportunities "
+            "children": "We're entering a new phase of the social media wars"
           },
           "imageContainerClassNames": []
         }
@@ -523,6 +536,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104212982",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A row of EV charging stations on a suburban road.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/18206ce1660e0ea5b5e3c4ce1a15b65c?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=3&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-19/the-ev-boom-is-putting-pressure-on-the-grid/104212982"
+          },
+          "contentUri": "coremedia://article/104212982",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/the-ev-boom-is-putting-pressure-on-the-grid/104212982",
+          "video": null,
+          "reactKey": "act-104212982-1",
+          "synopsis": "Electric car sales are accelerating and along with it, additional demand for electricity. It's driving questions about how the grid will cope with the growing number of large batteries waiting to be charged.",
+          "title": {
+            "children": "Electric cars are booming as a wall of demand barrels towards the power grid. There are risks, but also opportunities "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104228486",
           "imagePosition": {
             "mobile": "right",
@@ -545,37 +589,6 @@
           "synopsis": "Civil liberties advocates in Queensland remain concerned the cameras could capture nudity, underwear or private moments and are calling on the government to release the findings of two independent reviews into the privacy implications.",
           "title": {
             "children": "Call for mobile detection cam reviews to be made public amid fears drivers may be snapped in state of 'undress'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104237700",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A large stage with a lit-up screen displaying 'DNC 2024'.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e7fc3aacbea61ca950b277cd3f73f504?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-19/democratic-national-convention-2024-preview-explainer/104237700"
-          },
-          "contentUri": "coremedia://article/104237700",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/democratic-national-convention-2024-preview-explainer/104237700",
-          "video": null,
-          "reactKey": "act-104237700-1",
-          "synopsis": "Kamala Harris has already been certified as the Democratic Party's candidate for president. So, the convention's real purpose will be to whip up support for her campaign in the hope it will motivate voters in November.",
-          "title": {
-            "children": "Kamala Harris heads to Chicago with hopes for a 'convention bounce'"
           },
           "imageContainerClassNames": []
         }
@@ -616,6 +629,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104237700",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A large stage with a lit-up screen displaying 'DNC 2024'.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e7fc3aacbea61ca950b277cd3f73f504?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-19/democratic-national-convention-2024-preview-explainer/104237700"
+          },
+          "contentUri": "coremedia://article/104237700",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/democratic-national-convention-2024-preview-explainer/104237700",
+          "video": null,
+          "reactKey": "act-104237700-1",
+          "synopsis": "Kamala Harris has already been certified as the Democratic Party's candidate for president. So, the convention's real purpose will be to whip up support for her campaign in the hope it will motivate voters in November.",
+          "title": {
+            "children": "Kamala Harris heads to Chicago with hopes for a 'convention bounce'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104234434",
           "imagePosition": {
             "mobile": "right",
@@ -647,37 +691,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104241070",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Katarzyna Niewiadoma wearing the leader's yellow jersey, with her arms raised, smiling, on the winner's podium",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dcad5d8800afb29d5da82f186073ba77?impolicy=wcms_crop_resize&cropH=2966&cropW=4449&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-19/katarzyna-niewiadoma-wins-tour-de-france-femmes/104241070"
-          },
-          "contentUri": "coremedia://article/104241070",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/katarzyna-niewiadoma-wins-tour-de-france-femmes/104241070",
-          "video": null,
-          "reactKey": "act-104241070-1",
-          "synopsis": "Poland's Katarzyna Niewiadoma has won her first Tour de France Femmes title, fighting off the challenge of defending champion Demi Vollering on the Alpe d'Huez who won a dramatic final stage — but not by enough to retain her crown.",
-          "title": {
-            "children": "Niewiadoma fights off Vollering to win first Tour de France Femmes title"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104240940",
           "imagePosition": {
             "mobile": "right",
@@ -700,6 +713,37 @@
           "synopsis": "The transport project expected to reshape the future of Sydneysiders move around is set to open soon. This is what you need to know.",
           "title": {
             "children": "The futuristic stations, the stats and the catch: What you need to know about the new Sydney Metro City line"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104241070",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Katarzyna Niewiadoma wearing the leader's yellow jersey, with her arms raised, smiling, on the winner's podium",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dcad5d8800afb29d5da82f186073ba77?impolicy=wcms_crop_resize&cropH=2966&cropW=4449&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-19/katarzyna-niewiadoma-wins-tour-de-france-femmes/104241070"
+          },
+          "contentUri": "coremedia://article/104241070",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/katarzyna-niewiadoma-wins-tour-de-france-femmes/104241070",
+          "video": null,
+          "reactKey": "act-104241070-1",
+          "synopsis": "Poland's Katarzyna Niewiadoma has won her first Tour de France Femmes title, fighting off the challenge of defending champion Demi Vollering on the Alpe d'Huez who won a dramatic final stage — but not by enough to retain her crown.",
+          "title": {
+            "children": "Niewiadoma fights off Vollering to win first Tour de France Femmes title"
           },
           "imageContainerClassNames": []
         }
@@ -828,37 +872,6 @@
               "title": "BlueScope profit down 20% to  $806 million"
             }
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104222662",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Belinda Kerwin in hospital after being diagnosed with bowel cancer in June last year.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/487514d02531f117c06118faf2e1e959?impolicy=wcms_crop_resize&cropH=1547&cropW=2320&xPos=0&yPos=771&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-19/bowel-cancer-diagnosis-young-australians-increasing/104222662"
-          },
-          "contentUri": "coremedia://article/104222662",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-19/bowel-cancer-diagnosis-young-australians-increasing/104222662",
-          "video": null,
-          "reactKey": "act-104222662-1",
-          "synopsis": "When Belinda Kerwin, a bowel cancer screening nurse, developed symptoms herself she initially dismissed them, thinking she was too young.",
-          "title": {
-            "children": "A bowel cancer screening nurse dismissed her symptoms.  Turns out, she had the disease"
-          },
-          "imageContainerClassNames": []
         }
       },
       {
