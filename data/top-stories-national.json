@@ -317,7 +317,7 @@
           "reactKey": "national-104191168-1",
           "synopsis": "Hepatitis C attacked Dennis Maby's liver over two decades and nearly claimed his life. Now clear of the disease he's urging other people to get tested.",
           "title": {
-            "children": "Why this 'extraordinary medical breakthrough' is struggling to eliminate hepatitis C"
+            "children": "70,000 Australians are estimated to be needlessly living with Hep C. They also likely don't know they have it"
           },
           "imageContainerClassNames": []
         }
@@ -821,7 +821,14 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live moment",
+              "contentType": "moment",
+              "contentStatus": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104278392",
           "imagePosition": {
@@ -846,7 +853,14 @@
           "title": {
             "children": "Police seeking man after boiling coffee was thrown at baby in Brisbane park"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
