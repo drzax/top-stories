@@ -40,6 +40,9 @@
           "uri": "coremedia://article/104295080"
         },
         {
+          "uri": "coremedia://article/104295252"
+        },
+        {
           "uri": "coremedia://article/103929232"
         },
         {
@@ -65,9 +68,6 @@
         },
         {
           "uri": "coremedia://article/104188978"
-        },
-        {
-          "uri": "coremedia://article/104287054"
         },
         {
           "uri": "coremedia://article/104292868"
@@ -406,6 +406,61 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104295252",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Madison de Rozario competing at Paris Paralympic Games.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59fb6b7575bd875137f2bf550bd4c200?impolicy=wcms_crop_resize&cropH=2333&cropW=3500&xPos=0&yPos=44&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-08-31/paralympics-2024-paris-games-day-three-live-blog/104295252"
+          },
+          "contentUri": "coremedia://article/104295252",
+          "canonicalURL": "https://www.abc.net.au/news/2024-08-31/paralympics-2024-paris-games-day-three-live-blog/104295252",
+          "video": null,
+          "reactKey": "sa-104295252-1",
+          "synopsis": "It is a massive day three for Australia's para athletics squad in Paris with several medals up for grabs, while the Steelers continue their campaign in the wheelchair rugby. Follow live.",
+          "title": {
+            "children": "Madison de Rozario among Aussies in contention for para athletics medals on day three in Paris"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "118998",
+              "date": "2024-08-31T05:19:37.000Z",
+              "title": "Day three: Aussies in action"
+            },
+            {
+              "id": "119001",
+              "date": "2024-08-31T05:27:10.000Z",
+              "title": "Welcome!"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "103929232",
@@ -693,37 +748,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104287054",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "person in chicken outfit does jump while riding a quad bike",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d75a28fa3545b0605ea05d448de4067a?impolicy=wcms_crop_resize&cropH=1119&cropW=1679&xPos=206&yPos=46&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-30/royal-adelaide-show-century-of-loud-and-downright-weird/104287054"
-          },
-          "contentUri": "coremedia://article/104287054",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-30/royal-adelaide-show-century-of-loud-and-downright-weird/104287054",
-          "video": null,
-          "reactKey": "sa-104287054-1",
-          "synopsis": "The Main Arena has been the heart of the show for nearly 100 years, and in that time it's seen just about everything, including human cannonballs and a dozen Volkswagen Beetles in a \"very slow\" precision driving act.",
-          "title": {
-            "children": "It's weird, it's loud and the Royal Adelaide Show has been doing it for almost a century"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104292868",
           "imagePosition": {
             "mobile": "right",
@@ -875,7 +899,7 @@
           "reactKey": "sa-104230140-1",
           "synopsis": "An ABC investigation has revealed how a 31-year-old woman swindled parents, investors and even her landlord in an illegal childcare scheme across Sydney.",
           "title": {
-            "children": "Anna duped parents, investors and even her landlord with an illegal childcare centre. Here's how she did it"
+            "children": "'She's a master manipulator': The illegal childcare centre that left an investor and parents $275k out of pocket"
           },
           "imageContainerClassNames": []
         }
