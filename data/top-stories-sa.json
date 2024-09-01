@@ -37,10 +37,13 @@
           "uri": "coremedia://article/104291350"
         },
         {
-          "uri": "coremedia://article/104271600"
+          "uri": "coremedia://article/104296930"
         },
         {
           "uri": "coremedia://article/104296212"
+        },
+        {
+          "uri": "coremedia://article/104271600"
         },
         {
           "uri": "coremedia://article/104296148"
@@ -52,10 +55,10 @@
           "uri": "coremedia://article/104296760"
         },
         {
-          "uri": "coremedia://article/104296628"
+          "uri": "coremedia://article/104296054"
         },
         {
-          "uri": "coremedia://article/104296054"
+          "uri": "coremedia://article/104296628"
         },
         {
           "uri": "coremedia://article/104285616"
@@ -67,10 +70,7 @@
           "uri": "coremedia://article/104295528"
         },
         {
-          "uri": "coremedia://article/104296158"
-        },
-        {
-          "uri": "coremedia://article/104296164"
+          "uri": "coremedia://article/104297510"
         },
         {
           "uri": "coremedia://article/104296132"
@@ -371,9 +371,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104271600",
+          "id": "104296930",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -381,22 +387,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People swim at a beach next to the buildings of a nuclear plant.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0038eee0ada6f5a148794914e5a682cf?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Nikki Ayers and Jed Altschwager with their Paris Paralympic gold medals.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e55657a459d84b949fc5f855a9ada6c?impolicy=wcms_crop_resize&cropH=2114&cropW=3170&xPos=941&yPos=412&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-09-01/what-australia-can-learn-from-canada-nuclear-experience/104271600"
+            "to": "/news/2024-09-01/paralympics-2024-paris-day-four-live-blog/104296930"
           },
-          "contentUri": "coremedia://article/104271600",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/what-australia-can-learn-from-canada-nuclear-experience/104271600",
+          "contentUri": "coremedia://article/104296930",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/paralympics-2024-paris-day-four-live-blog/104296930",
           "video": null,
-          "reactKey": "sa-104271600-1",
-          "synopsis": "Canada's biggest province generates 51 per cent of its power from nuclear and while some love it, there are still downstream issues to be solved.",
+          "reactKey": "sa-104296930-1",
+          "synopsis": "Nikki Ayers and Jed Altschwager claim Australia's first para rowing gold in Games history, while Erik Horrie is elevated to bronze in the PR1 men's single sculls after an Italian rival is disqualified for using illegal communications equipment during the final. Follow live.",
           "title": {
-            "children": "What can Australia learn from Canada's nuclear experience?"
+            "children": "Aussies Ayers and Altschwager win historic para rowing gold in Paris"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "119260",
+              "date": "2024-09-01T05:19:15.000Z",
+              "title": "Day four: Aussies in action and medal winners"
+            },
+            {
+              "id": "119387",
+              "date": "2024-09-01T13:36:16.000Z",
+              "title": "Para cycling: Australia wins bronze in the open C1-5 750m team sprint"
+            },
+            {
+              "id": "119381",
+              "date": "2024-09-01T12:58:19.000Z",
+              "title": "Wheelchair rugby: JAPAN DEFEAT AUSTRALIA IN SEMIFINAL"
+            }
+          ]
         }
       },
       {
@@ -426,6 +455,37 @@
           "synopsis": "An evacuate warning has been issued for several communities along the River Derwent, north-west of Hobart, as wild weather continues to batter Tasmania — as it happened.",
           "title": {
             "children": "Evacuate now warning issued along River Derwent as Tasmanians urged to prepare for floods"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104271600",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "People swim at a beach next to the buildings of a nuclear plant.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0038eee0ada6f5a148794914e5a682cf?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-01/what-australia-can-learn-from-canada-nuclear-experience/104271600"
+          },
+          "contentUri": "coremedia://article/104271600",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/what-australia-can-learn-from-canada-nuclear-experience/104271600",
+          "video": null,
+          "reactKey": "sa-104271600-1",
+          "synopsis": "Canada's biggest province generates 51 per cent of its power from nuclear and while some love it, there are still downstream issues to be solved.",
+          "title": {
+            "children": "What can Australia learn from Canada's nuclear experience?"
           },
           "imageContainerClassNames": []
         }
@@ -528,37 +588,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104296628",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Waves around a pier",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4ff69a66b5f12ea437182ccbef902dfe?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-01/victoria-severe-weather-warning-winds/104296628"
-          },
-          "contentUri": "coremedia://article/104296628",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/victoria-severe-weather-warning-winds/104296628",
-          "video": null,
-          "reactKey": "sa-104296628-1",
-          "synopsis": "Damaging wind gusts of up to 100kph are expected to lash Melbourne from 2am on Monday morning.",
-          "title": {
-            "children": "Victorians told to brace for destructive winds, 'almost certain' power outages"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104296054",
           "imagePosition": {
             "mobile": "right",
@@ -581,6 +610,37 @@
           "synopsis": "For years, King Charles and Prince Andrew have been at odds over a sweetheart deal cut between Andrew and his late mother to give him lifelong possession of a grand mansion on the grounds of Windsor Castle.",
           "title": {
             "children": "Charles reportedly wants to force his brother into Harry and Meghan's vacant house. Here's why"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104296628",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Waves around a pier",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4ff69a66b5f12ea437182ccbef902dfe?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-01/victoria-severe-weather-warning-winds/104296628"
+          },
+          "contentUri": "coremedia://article/104296628",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/victoria-severe-weather-warning-winds/104296628",
+          "video": null,
+          "reactKey": "sa-104296628-1",
+          "synopsis": "Damaging wind gusts of up to 100kph are expected to lash Melbourne from 2am on Monday morning.",
+          "title": {
+            "children": "Victorians told to brace for destructive winds, 'almost certain' power outages"
           },
           "imageContainerClassNames": []
         }
@@ -689,7 +749,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104296158",
+          "id": "104297510",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -697,51 +757,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two coast guard ships collide.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24086f5cd933b1cc23065dc898284da9?impolicy=wcms_crop_resize&cropH=1688&cropW=2532&xPos=234&yPos=0&width=160&height=107",
+            "altText": "Russian President Vladimir Putin sits at a table with paper folders in front of him",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78b227aff435c67cb59c748fd358c52e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-09-01/china-philippines-south-china-sea-ship-clash/104296158"
+            "to": "/news/2024-09-01/russia-says-it-will-change-nuclear-doctrine-because-of-west-/104297494"
           },
-          "contentUri": "coremedia://article/104296158",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/china-philippines-south-china-sea-ship-clash/104296158",
+          "contentUri": "coremedia://article/104297510",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-01/russia-says-it-will-change-nuclear-doctrine-because-of-west-/104297494",
           "video": null,
-          "reactKey": "sa-104296158-1",
-          "synopsis": "The Philippines and China exchange accusations of intentionally ramming coast guard vessels in disputed waters of the South China Sea, the latest in an escalating series of clashes in the vital waterway.",
+          "reactKey": "sa-104297510-1",
+          "synopsis": "Hawks among Russia's military analysts have urged President Vladimir Putin to lower the threshold for nuclear weapons use in order to \"sober up\" enemies in the West.",
           "title": {
-            "children": "China, Philippines trade blame in latest South China Sea clash"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104296164",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Jaryd Clifford competing with his guide at the Paris Paralympics.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4635db75846825dd3183978e15e29739?impolicy=wcms_crop_resize&cropH=1904&cropW=2856&xPos=0&yPos=232&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-08-31/paralympics-2024-paris-jaryd-clifford-disqualified-final/104295454"
-          },
-          "contentUri": "coremedia://article/104296164",
-          "canonicalURL": "https://www.abc.net.au/news/2024-08-31/paralympics-2024-paris-jaryd-clifford-disqualified-final/104295454",
-          "video": null,
-          "reactKey": "sa-104296164-1",
-          "synopsis": "Visually impaired athlete Jaryd Clifford is disqualified over a violation of guide rules, while Michael Roeger and Madison de Rozario win medals on the track at the Paris Paralympics.",
-          "title": {
-            "children": "'A bit numb': Disqualified Clifford denied Paralympic bronze after rule breach"
+            "children": "Russia says it will change nuclear doctrine because of Western role in Ukraine"
           },
           "imageContainerClassNames": []
         }
