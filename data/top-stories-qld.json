@@ -40,10 +40,10 @@
           "uri": "coremedia://article/104242788"
         },
         {
-          "uri": "coremedia://article/104293236"
+          "uri": "coremedia://article/104297460"
         },
         {
-          "uri": "coremedia://article/104297842"
+          "uri": "coremedia://article/104293236"
         },
         {
           "uri": "coremedia://article/104297804"
@@ -111,13 +111,7 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -146,14 +140,7 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ],
-          "liveBlogClientContext": {
-            "status": "ended",
-            "type": "moment",
-            "countdowns": null,
-            "isLiveMoment": true
-          },
-          "liveBlogKeyEvents": []
+          ]
         }
       },
       {
@@ -409,6 +396,66 @@
         "props": {
           "contentLabels": [
             {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104297460",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A fallen tree lies against a fence and the roof of a house.  ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7c68ce5a5cb6fc6851b1cd747723314?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-02/tas-bom-weather-warnings-wild-weather-blog-monday/104297460"
+          },
+          "contentUri": "coremedia://article/104297460",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-02/tas-bom-weather-warnings-wild-weather-blog-monday/104297460",
+          "video": null,
+          "reactKey": "qld-104297460-1",
+          "synopsis": "Tasmania's hammering from wild weather continues, with thousands of people without electricity and a flood evacuation underway, as Victorians make more than 2,600 calls for help during storms. Follow live",
+          "title": {
+            "children": "Structures toppled as vicious winds leave 120k without power in Victoria, Tasmania prepares for 'major flooding'"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "119525",
+              "date": "2024-09-02T02:17:35.000Z",
+              "title": "NSW: Floods, wind … and now bushfire"
+            },
+            {
+              "id": "119523",
+              "date": "2024-09-02T02:01:50.000Z",
+              "title": "TAS: Tree down on animal enclosure"
+            },
+            {
+              "id": "119509",
+              "date": "2024-09-02T01:12:49.000Z",
+              "title": "Victorians warned about traffic light outages, train delays"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
               "labelText": "analysis",
               "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/74e70202e98b02e80142320cea07ee63?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=870&yPos=0&width=160&height=160",
               "authorName": "Adele Ferguson"
@@ -437,43 +484,6 @@
           "synopsis": "Predatory lowball cash settlements from insurance companies to victims of flood damage are a serious issue, with the peak body for financial counsellors revealing underquoting is rife.",
           "title": {
             "children": "The Haimes had 'gold insurance cover' but when their house flooded, they nearly fell victim to a common trap"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104297842",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A double orange brick garage with green roller doors has collapsed at the end of a home's driveway.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/272df98ff5a7728d701edef5427318ae?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-02/tas-bom-weather-warnings-wild-weather-blog-monday/104297460"
-          },
-          "contentUri": "coremedia://article/104297842",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-02/tas-bom-weather-warnings-wild-weather-blog-monday/104297460",
-          "video": null,
-          "reactKey": "qld-104297842-1",
-          "synopsis": "Tasmania's hammering from wild weather is continuing, while Victorians also inundate the SES with calls for help. Follow live",
-          "title": {
-            "children": "Structures toppled as vicious winds leave 120k without power in Victoria, Tasmania prepares for 'major flooding'"
           },
           "imageContainerClassNames": []
         }
