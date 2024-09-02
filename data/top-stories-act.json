@@ -251,7 +251,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104299036",
           "imagePosition": {
@@ -272,11 +278,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-09-02/tiger-attack-dreamworld-queensland-woman/104299036",
           "video": null,
           "reactKey": "act-104299036-1",
-          "synopsis": "Queensland Ambulance Service says a woman has been taken to hospital after an incident involving a tiger at Dreamworld.",
+          "synopsis": "A trained handler has been hospitalised after she was bitten by a tiger at Dreamworld.",
           "title": {
-            "children": "Woman hospitalised after tiger attack at Dreamworld"
+            "children": "Woman hospitalised after being bitten by tiger at Dreamworld"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -404,7 +417,7 @@
           "reactKey": "act-104298820-1",
           "synopsis": "Emergency services are working to contain a bushfire that has jumped the Princes Highway and closed lanes to traffic in both directions.",
           "title": {
-            "children": "Bushfire closes Princes Highway north of Wollongong"
+            "children": "Bushfire closes Princes Highway north of Wollongong "
           },
           "imageContainerClassNames": []
         }
@@ -650,6 +663,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "119533",
+              "date": "2024-09-02T02:37:48.000Z",
+              "title": "Company profits likely to drag down GDP"
+            },
+            {
               "id": "119524",
               "date": "2024-09-02T02:11:41.000Z",
               "title": "Building approvals jump 10% in July"
@@ -658,11 +676,6 @@
               "id": "119519",
               "date": "2024-09-02T01:41:28.000Z",
               "title": "Job ads down as labour market softens"
-            },
-            {
-              "id": "119512",
-              "date": "2024-09-02T01:19:38.000Z",
-              "title": "Manufacturing conditions deteriorate in PMI data"
             }
           ]
         }
