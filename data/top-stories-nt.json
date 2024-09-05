@@ -338,7 +338,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104313084",
           "imagePosition": {
@@ -361,9 +367,32 @@
           "reactKey": "nt-104313084-1",
           "synopsis": "Michele Bullock will give a speech outlining the costs of high inflation, while the Australian share market is unlikely to recover much of Wednesday's heavy falls, and Wall Street's main indices post further losses.",
           "title": {
-            "children": "RBA governor Michele Bullock speaks on the costs of high inflation, ASX is higher – as it happened"
+            "children": "Bullock says she's focused on her job when asked about RBA 'smashing' the economy"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "120475",
+              "date": "2024-09-05T03:50:32.000Z",
+              "title": "That's it for questions"
+            },
+            {
+              "id": "120472",
+              "date": "2024-09-05T03:43:53.000Z",
+              "title": "'Treasurer doing his job, I'm doing mine'"
+            },
+            {
+              "id": "120469",
+              "date": "2024-09-05T03:40:10.000Z",
+              "title": "Does the government need to be doing more?"
+            }
+          ]
         }
       },
       {
