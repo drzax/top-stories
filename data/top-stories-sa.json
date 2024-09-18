@@ -564,7 +564,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104364110",
           "imagePosition": {
@@ -589,7 +595,14 @@
           "title": {
             "children": "'Reset' meeting to be held between unions, business and government after CFMEU scandal"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -1068,7 +1081,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-09-18/asx-markets-business-live-news-sep18-2024/104364028",
           "video": null,
           "reactKey": "sa-104364028-1",
-          "synopsis": "Australian stocks are flat in line with a lacklustre session on Wall Street, while traders are betting the US Federal Reserve will deliver a supersized interest rate cut. Follow the latest updates in our live blog.",
+          "synopsis": "Australian stocks are flat in afternoon trade, while traders are betting the US Federal Reserve will deliver a supersized interest rate cut. Follow the latest updates in our live blog.",
           "title": {
             "children": "ASX flat ahead of US Fed interest rate decision, Wall Street nearly unchanged"
           },
@@ -1081,6 +1094,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "123527",
+              "date": "2024-09-18T02:26:46.000Z",
+              "title": "Australian share market flat at lunch"
+            },
+            {
               "id": "123520",
               "date": "2024-09-18T01:39:04.000Z",
               "title": "Unions, business and govt to meet after CFMEU scandal"
@@ -1089,11 +1107,6 @@
               "id": "123513",
               "date": "2024-09-18T00:57:45.000Z",
               "title": "Why Australia's unemployment rate hasn't sky-rocketed?"
-            },
-            {
-              "id": "123510",
-              "date": "2024-09-18T00:40:52.000Z",
-              "title": "Business failures at highest rate since 2021, B2B payment defaults hit record high"
             }
           ]
         }
