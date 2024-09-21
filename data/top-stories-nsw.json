@@ -13,7 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104380504"
+          "uri": "coremedia://article/104380348"
+        },
+        {
+          "uri": "coremedia://article/104378660"
+        },
+        {
+          "uri": "coremedia://article/104379752"
         },
         {
           "uri": "coremedia://article/104364368"
@@ -22,19 +28,13 @@
           "uri": "coremedia://article/104379968"
         },
         {
-          "uri": "coremedia://article/104379752"
+          "uri": "coremedia://article/104380504"
         },
         {
           "uri": "coremedia://article/104356070"
         },
         {
           "uri": "coremedia://article/104159322"
-        },
-        {
-          "uri": "coremedia://article/104380348"
-        },
-        {
-          "uri": "coremedia://article/104378660"
         },
         {
           "uri": "coremedia://article/104379668"
@@ -108,11 +108,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104380504",
+          "id": "104380348",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -120,24 +126,109 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People gather on a beach as a plume of smoke bellows",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c2e4443522d03c01c9b05d6f59f2dd7?impolicy=wcms_crop_resize&cropH=2563&cropW=3844&xPos=0&yPos=1853&width=862&height=575",
+            "altText": "Kai Lohmann takes a big mark over the pack",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/29e8b400fbb147ebeb878e10b1227a15?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-09-21/fire-rescue-nsw-northern-beaches-blaze-out-of-control/104380364"
+            "to": "/news/2024-09-21/afl-preliminary-final-geelong-vs-brisbane-live-blog/104380348"
           },
-          "contentUri": "coremedia://article/104380504",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/fire-rescue-nsw-northern-beaches-blaze-out-of-control/104380364",
+          "contentUri": "coremedia://article/104380348",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/afl-preliminary-final-geelong-vs-brisbane-live-blog/104380348",
           "video": null,
-          "reactKey": "nsw-104380504-1",
-          "synopsis": "A blaze in Sydney's north, caused by embers from a hazard reduction burn being spread by the wind, has been downgraded from Emergency to Advice.",
+          "reactKey": "nsw-104380348-1",
+          "synopsis": "Geelong and Brisbane face off in front of a packed MCG to earn the right to face Sydney in the 2024 AFL grand final. Follow the action in our live blog.",
           "title": {
-            "children": "Blaze in Sydney's north downgraded from Emergency level"
+            "children": "Stunning goals and high flies galore as Cats and Lions battle in thrilling preliminary final"
           },
           "imageContainerClassNames": [
             "imageHalf"
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "124211",
+              "date": "2024-09-21T08:30:27.000Z",
+              "title": "HT: The Cats establish a 19-point lead over the Lions"
+            },
+            {
+              "id": "124165",
+              "date": "2024-09-21T07:48:08.000Z",
+              "title": "QT: Lions take a nine-point lead over Cats"
+            },
+            {
+              "id": "124155",
+              "date": "2024-09-21T07:42:04.000Z",
+              "title": "Oscar McInerney has dislocated his shoulder"
+            }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104378660",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Lukhan Salakaia-Loto runs the ball as TJ Perenara attempts a tackle.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1164f5232370777d276564544e351a7e?impolicy=wcms_crop_resize&cropH=1350&cropW=2025&xPos=49&yPos=58&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-21/bledisloe-cup-test-wallabies-all-blacks-live-updates/104378660"
+          },
+          "contentUri": "coremedia://article/104378660",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/bledisloe-cup-test-wallabies-all-blacks-live-updates/104378660",
+          "video": null,
+          "reactKey": "nsw-104378660-1",
+          "synopsis": "The Wallabies launch a late comeback but it is to no avail, as the All Blacks triumph 31-28 following a pulsating climax to the opening Bledisloe Cup Test in Sydney.",
+          "title": {
+            "children": "All Blacks retain Bledisloe Cup after holding off fast-finishing Wallabies"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104379752",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A father holds his son while both smile. The mother watches on outside the family's home.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3fd4ad7fa95966bd469dec9034899541?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-21/nsw-palestinian-gaza-refugee-sydney-gharbia-family-school/104369778"
+          },
+          "contentUri": "coremedia://article/104379752",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/nsw-palestinian-gaza-refugee-sydney-gharbia-family-school/104369778",
+          "video": null,
+          "reactKey": "nsw-104379752-1",
+          "synopsis": "About 1,300 Palestinians with approved visas have resettled in Australia since October when Israel invaded the Gaza Strip. The Gharbias are among those families who have moved here and are attempting to rebuild their lives.",
+          "title": {
+            "children": "Young student Mousa 'lost everything' in Gaza, but is finding his feet in a Sydney primary school"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -207,7 +298,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104379752",
+          "id": "104380504",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -215,20 +306,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A father holds his son while both smile. The mother watches on outside the family's home.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3fd4ad7fa95966bd469dec9034899541?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "People gather on a beach as a plume of smoke bellows",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c2e4443522d03c01c9b05d6f59f2dd7?impolicy=wcms_crop_resize&cropH=2563&cropW=3844&xPos=0&yPos=1764&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-09-21/nsw-palestinian-gaza-refugee-sydney-gharbia-family-school/104369778"
+            "to": "/news/2024-09-21/fire-rescue-nsw-northern-beaches-blaze-out-of-control/104380364"
           },
-          "contentUri": "coremedia://article/104379752",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/nsw-palestinian-gaza-refugee-sydney-gharbia-family-school/104369778",
+          "contentUri": "coremedia://article/104380504",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/fire-rescue-nsw-northern-beaches-blaze-out-of-control/104380364",
           "video": null,
-          "reactKey": "nsw-104379752-1",
-          "synopsis": "About 1,300 Palestinians with approved visas have resettled in Australia since October when Israel invaded the Gaza Strip. The Gharbias are among those families who have moved here and are attempting to rebuild their lives.",
+          "reactKey": "nsw-104380504-1",
+          "synopsis": "A blaze in Sydney's north, caused by embers from a hazard reduction burn being spread by the wind, has been downgraded from Emergency to Advice.",
           "title": {
-            "children": "Young student Mousa 'lost everything' in Gaza, but is finding his feet in a Sydney primary school"
+            "children": "Blaze in Sydney's north downgraded from Emergency level"
           },
           "imageContainerClassNames": []
         }
@@ -291,97 +382,6 @@
           "synopsis": "Federal Environment Minister Tanya Plibersek has approved the development of a South Coast NSW forest after four years of community fighting. ",
           "title": {
             "children": "Community 'bitterly disappointed' as endangered forest to be cleared for housing"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104380348",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Oliver Henry of Geelong takes a mark over Dayne Zorko of the Lions",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b28809f00e4c9e163c5222bdba0a195e?impolicy=wcms_crop_resize&cropH=2714&cropW=4071&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-21/afl-preliminary-final-geelong-vs-brisbane-live-blog/104380348"
-          },
-          "contentUri": "coremedia://article/104380348",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/afl-preliminary-final-geelong-vs-brisbane-live-blog/104380348",
-          "video": null,
-          "reactKey": "nsw-104380348-1",
-          "synopsis": "Geelong and Brisbane face off in front of a packed MCG to earn the right to face Sydney in the 2024 AFL grand final. Follow the action in our live blog.",
-          "title": {
-            "children": "Cats and Lions leave it all on the line in blockbuster MCG preliminary final"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "124211",
-              "date": "2024-09-21T08:30:27.000Z",
-              "title": "HT: The Cats establish a 19-point lead over the Lions"
-            },
-            {
-              "id": "124165",
-              "date": "2024-09-21T07:48:08.000Z",
-              "title": "QT: Lions take a nine-point lead over Cats"
-            },
-            {
-              "id": "124155",
-              "date": "2024-09-21T07:42:04.000Z",
-              "title": "Oscar McInerney has dislocated his shoulder"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104378660",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Lukhan Salakaia-Loto runs the ball as TJ Perenara attempts a tackle.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1164f5232370777d276564544e351a7e?impolicy=wcms_crop_resize&cropH=1350&cropW=2025&xPos=49&yPos=58&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-21/bledisloe-cup-test-wallabies-all-blacks-live-updates/104378660"
-          },
-          "contentUri": "coremedia://article/104378660",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-21/bledisloe-cup-test-wallabies-all-blacks-live-updates/104378660",
-          "video": null,
-          "reactKey": "nsw-104378660-1",
-          "synopsis": "The Wallabies launch a late comeback but it is to no avail, as the All Blacks triumph 31-28 following a pulsating climax to the opening Bledisloe Cup Test in Sydney.",
-          "title": {
-            "children": "All Blacks retain Bledisloe Cup after holding off fast-finishing Wallabies"
           },
           "imageContainerClassNames": []
         }
