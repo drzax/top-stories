@@ -366,7 +366,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104383468",
           "imagePosition": {
@@ -391,7 +397,14 @@
           "title": {
             "children": "ACCC takes legal action against Woolworths and Coles over allegedly misleading pricing claims"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -754,7 +767,7 @@
           "reactKey": "nsw-104338482-1",
           "synopsis": "The scuffed notebook in a box is found to be the important diary of an Antarctic expeditioner written at the height of the Cold War.",
           "title": {
-            "children": "It looked like an old school book, but this tip-shop donation turned out to be much more interesting"
+            "children": "Hobart tip shop uncovers rare piece of Antarctic history in 'mind-blowing set of coincidences'"
           },
           "imageContainerClassNames": []
         }

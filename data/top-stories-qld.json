@@ -212,6 +212,7 @@
           },
           "isMajor": false,
           "image": {
+            "altText": "Widower's anger: Man with grey hair sits in chair and looks at camera with strong resolve.",
             "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b3163291e12b9e1731a2e47d00b71924?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
@@ -356,7 +357,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104383468",
           "imagePosition": {
@@ -381,7 +388,14 @@
           "title": {
             "children": "ACCC takes legal action against Woolworths and Coles over allegedly misleading pricing claims"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
