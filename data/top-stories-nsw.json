@@ -140,7 +140,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104387372",
           "imagePosition": {
@@ -165,7 +171,14 @@
           "title": {
             "children": "Manhunt underway after fatal stabbing outside fast-food restaurant in Sydney's inner west"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -404,8 +417,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Smokes rises over buildings in a city",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2f3801e67ab1a752fd461e3d494d3d96?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Three layers of seta in the back of a truck full of people looking out",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1c934138f5f287e956cd3b208425c96a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -417,7 +430,7 @@
           "reactKey": "nsw-104387106-1",
           "synopsis": "Thousands are fleeing Lebanon as Israel launches hundreds of air strikes, killing 492 people and wounding 1,645 more in the most deadly day of the cross-border conflict in two decades. ",
           "title": {
-            "children": "Death toll in Lebanon nears 500, in deadliest day of cross-border conflict since 2006 "
+            "children": "Death toll in Lebanon nears 500, as Israel launches hundreds of air strikes "
           },
           "imageContainerClassNames": []
         }
@@ -448,7 +461,7 @@
           "reactKey": "nsw-104387036-1",
           "synopsis": "Popular ABC presenter and Gold Logie nominee Tony Armstrong announces he will leave ABC News Breakfast in October. Tony will return to ABC screens in 2025 hosting a new show to be announced later. ",
           "title": {
-            "children": "Tony Armstrong announces departure from ABC News Breakfast to host new show"
+            "children": "Tony Armstrong announces departure from ABC News Breakfast in October"
           },
           "imageContainerClassNames": []
         }
