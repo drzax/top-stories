@@ -40,16 +40,16 @@
           "uri": "coremedia://article/104338016"
         },
         {
-          "uri": "coremedia://article/104403400"
+          "uri": "coremedia://article/104403774"
         },
         {
           "uri": "coremedia://article/104403434"
         },
         {
-          "uri": "coremedia://article/104336052"
+          "uri": "coremedia://article/104403400"
         },
         {
-          "uri": "coremedia://article/104384540"
+          "uri": "coremedia://article/104336052"
         },
         {
           "uri": "coremedia://article/104396414"
@@ -64,6 +64,9 @@
           "uri": "coremedia://article/104403712"
         },
         {
+          "uri": "coremedia://article/104384540"
+        },
+        {
           "uri": "coremedia://article/104385050"
         },
         {
@@ -74,9 +77,6 @@
         },
         {
           "uri": "coremedia://article/104403478"
-        },
-        {
-          "uri": "coremedia://article/104399808"
         },
         {
           "uri": "coremedia://article/104398676"
@@ -336,7 +336,7 @@
           "reactKey": "national-104402854-1",
           "synopsis": "For many of us, COVID has become just a bad memory, despite its lasting and mixed legacies. But experts are urging that we learn from our mistakes and plan ahead. ",
           "title": {
-            "children": "COVID's long shadow looms as Albanese urged to lead on pandemic planning"
+            "children": "Pandemics don't give much notice of their arrival — so Albanese is being urged to get ready"
           },
           "imageContainerClassNames": []
         }
@@ -412,9 +412,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104403400",
+          "id": "104403774",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -422,22 +428,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man with a concerned look on his face",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12306020c8c5ca6e3023dabbdea2cdd0?impolicy=wcms_crop_resize&cropH=2017&cropW=3025&xPos=0&yPos=1&width=160&height=107",
+            "altText": "Broncos coach Kevin Walters speaks to the media",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68e1174ae9983e6100b2d1abafa20c5d?impolicy=wcms_crop_resize&cropH=2690&cropW=4035&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-09-27/new-york-mayor-eric-adams-charged-in-bribery-fraud-scheme/104403400"
+            "to": "/news/2024-09-27/brisbane-broncos-kevin-walters-press-conference-sacking/104403774"
           },
-          "contentUri": "coremedia://article/104403400",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-27/new-york-mayor-eric-adams-charged-in-bribery-fraud-scheme/104403400",
+          "contentUri": "coremedia://article/104403774",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-27/brisbane-broncos-kevin-walters-press-conference-sacking/104403774",
           "video": null,
-          "reactKey": "national-104403400-1",
-          "synopsis": "Eric Adams vows to fight US prosecutors on a case alleging he accepted illegal campaign contributions and luxury travel from foreign nationals for many years.",
+          "reactKey": "national-104403774-1",
+          "synopsis": "Departing Brisbane Broncos coach Kevin Walters is speaking to the media after the announcement that he and the club are parting ways. Follow live.",
           "title": {
-            "children": "New York Mayor Eric Adams charged in bribery and fraud scheme stretching back 10 years"
+            "children": "Kevin Walters set to speak to media after Broncos announce he will depart club"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -475,6 +488,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104403400",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man with a concerned look on his face",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12306020c8c5ca6e3023dabbdea2cdd0?impolicy=wcms_crop_resize&cropH=2017&cropW=3025&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-27/new-york-mayor-eric-adams-charged-in-bribery-fraud-scheme/104403400"
+          },
+          "contentUri": "coremedia://article/104403400",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-27/new-york-mayor-eric-adams-charged-in-bribery-fraud-scheme/104403400",
+          "video": null,
+          "reactKey": "national-104403400-1",
+          "synopsis": "Eric Adams vows to fight US prosecutors on a case alleging he accepted illegal campaign contributions and luxury travel from foreign nationals for many years.",
+          "title": {
+            "children": "New York Mayor Eric Adams charged in bribery and fraud scheme stretching back 10 years"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104336052",
           "imagePosition": {
             "mobile": "right",
@@ -497,37 +541,6 @@
           "synopsis": "Have you noticed new dining options popping up on food delivery apps, but can't find their local shopfront? Chances are the food comes from a dark kitchen, also known as ghost or cloud kitchens.",
           "title": {
             "children": "COVID lockdowns 'fired a rocket' behind the ghost kitchen trend, but customers may not realise where their food is coming from"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104384540",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Head shot of ABC Editorial Director Alan Sunderland.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5334b8621c1a8b5cbbc676c51d8e53b2?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-26/alan-sunderland-abc-review-line-of-fire-reports-afghanistan/104384540"
-          },
-          "contentUri": "coremedia://article/104384540",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-26/alan-sunderland-abc-review-line-of-fire-reports-afghanistan/104384540",
-          "video": null,
-          "reactKey": "national-104384540-1",
-          "synopsis": "A Walkley-winning journalist who spent 40 years working for SBS and the ABC will head an independent review into the 2022 reports, including a story that included an \"editing error in the audio\" of helmet cam footage captured by commandos in Afghanistan. ",
-          "title": {
-            "children": "ABC appoints Alan Sunderland to conduct independent review into Line of Fire reporting"
           },
           "imageContainerClassNames": []
         }
@@ -690,6 +703,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104384540",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Head shot of ABC Editorial Director Alan Sunderland.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5334b8621c1a8b5cbbc676c51d8e53b2?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-09-26/alan-sunderland-abc-review-line-of-fire-reports-afghanistan/104384540"
+          },
+          "contentUri": "coremedia://article/104384540",
+          "canonicalURL": "https://www.abc.net.au/news/2024-09-26/alan-sunderland-abc-review-line-of-fire-reports-afghanistan/104384540",
+          "video": null,
+          "reactKey": "national-104384540-1",
+          "synopsis": "A Walkley-winning journalist who spent 40 years working for SBS and the ABC will head an independent review into the 2022 reports, including a story that included an \"editing error in the audio\" of helmet cam footage captured by commandos in Afghanistan. ",
+          "title": {
+            "children": "ABC appoints Alan Sunderland to conduct independent review into Line of Fire reporting"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104385050",
           "imagePosition": {
             "mobile": "right",
@@ -805,37 +849,6 @@
           "synopsis": "Kaylee McKeown has carried on from where she left off at the Olympics, blasting to a short course world record in the 100m backstroke at the Australian Championships in Adelaide.",
           "title": {
             "children": "Not content with her Olympic success, Kaylee McKeown adds another world record to her name"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104399808",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anthony Albanese wears high-vis and a hard hat.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10681551c697a3f8df8d20ee0d91f523?impolicy=wcms_crop_resize&cropH=2139&cropW=3209&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-26/pm-cools-on-negative-gearing-over-supply-fears/104399808"
-          },
-          "contentUri": "coremedia://article/104399808",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-26/pm-cools-on-negative-gearing-over-supply-fears/104399808",
-          "video": null,
-          "reactKey": "national-104399808-1",
-          "synopsis": "Anthony Albanese has said any negative gearing changes must not constrain housing supply, but has pointed to research which says housing would become more affordable.",
-          "title": {
-            "children": "PM cools on negative gearing over supply fears, but evidence tells a different story"
           },
           "imageContainerClassNames": []
         }
