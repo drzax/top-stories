@@ -13,16 +13,19 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104415842"
+        },
+        {
           "uri": "coremedia://article/104415690"
         },
         {
           "uri": "coremedia://article/104413350"
         },
         {
-          "uri": "coremedia://article/104412890"
+          "uri": "coremedia://video/104415442"
         },
         {
-          "uri": "coremedia://externallink/104413828"
+          "uri": "coremedia://article/104412890"
         },
         {
           "uri": "coremedia://article/104411818"
@@ -32,6 +35,9 @@
         },
         {
           "uri": "coremedia://article/104410692"
+        },
+        {
+          "uri": "coremedia://externallink/104413828"
         },
         {
           "uri": "coremedia://article/104413802"
@@ -110,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/104415132"
-        },
-        {
-          "uri": "coremedia://article/104414448"
         }
       ]
     },
@@ -120,10 +123,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104415842",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Queensland election thumbnail",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/096a0443a4ba353e38c5b53cdbfc0fcc?impolicy=wcms_crop_resize&cropH=1474&cropW=2211&xPos=26&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-01/queensland-election-live-updates-campaign-underway-october-26/104411708"
+          },
+          "contentUri": "coremedia://article/104415842",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-01/queensland-election-live-updates-campaign-underway-october-26/104411708",
+          "video": null,
+          "reactKey": "qld-104415842-1",
+          "synopsis": "The Queensland election campaign starts today ahead of voting on October 26. Follow live.",
+          "title": {
+            "children": "Queensland election campaign officially underway with parliament to be dissolved"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104415690",
           "imagePosition": {
             "mobile": "right",
@@ -133,7 +175,7 @@
           "isMajor": false,
           "image": {
             "altText": "Steven Miles wears a green and gold scarf while standing in front of pop-up banners.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7c0661a2ba67f8231e77ece5707b5fe5?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=14&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7c0661a2ba67f8231e77ece5707b5fe5?impolicy=wcms_crop_resize&cropH=622&cropW=934&xPos=14&yPos=23&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -147,9 +189,7 @@
           "title": {
             "children": "The Queensland election won't be decided in Brisbane alone — and the polls suggest Steven Miles has a lot of convincing to do"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -179,6 +219,37 @@
           "synopsis": "Once known for its affordable housing, the garrison city of Townsville is seeing property prices soar, as buyers report hot competition.\n\n ",
           "title": {
             "children": "Townsville house prices growing faster than all Australian capital cities"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104415442",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two politicians speaking in Parliament.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78f01ef34f253dbef4635aace4b9b536?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-01/who-will-queensland-vote-for-this-election/104415440"
+          },
+          "contentUri": "coremedia://video/104415442",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-01/who-will-queensland-vote-for-this-election/104415440",
+          "video": null,
+          "reactKey": "qld-104415442-1",
+          "synopsis": "Queensland's election campaign has started — Labor's Steven Miles is fighting to continue the party's reign, while David Crisafulli wants to lead the LNP to victory.",
+          "title": {
+            "children": "Queensland voters know what they're looking for — but when it comes to who, they're less certain"
           },
           "imageContainerClassNames": []
         }
@@ -216,37 +287,6 @@
           "synopsis": "How can a toddler known to child safety be dead for more than two years before authorities discover she's missing? The government is yet to say.",
           "title": {
             "children": "The murder of a Queensland toddler shocked the state, but child safety and politicians still can't answer key questions"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104413828",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Voters must now number every square on the ballot paper.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef9073364d696e83ef5ed11409fd84d4?impolicy=wcms_crop_resize&cropH=1438&cropW=2149&xPos=219&yPos=490&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "https://www.abc.net.au/news/elections/qld-election-2024"
-          },
-          "contentUri": "coremedia://externallink/104413828",
-          "canonicalURL": "https://www.abc.net.au/news/elections/qld-election-2024",
-          "video": null,
-          "reactKey": "qld-104413828-1",
-          "synopsis": "From news, analysis and explainers through to election previews, key electorates and candidates, Queensland Votes has the latest on the upcoming state election. Click through to read more.",
-          "title": {
-            "children": "Queensland Votes 2024 — stay up to date with the latest election news and analysis"
           },
           "imageContainerClassNames": []
         }
@@ -346,6 +386,37 @@
           "synopsis": "If the 2024 grand final was Joe Daniher's last game at the AFL, he couldn't have scripted a better way to end things. The star forward's future hangs over Brisbane's drought-breaking flag, but won't halt its hopes of going back-to-back.",
           "title": {
             "children": "Brisbane won't want Joe Daniher to retire, but can still repeat as premiers if the grand final was his perfect farewell"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104413828",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Voters must now number every square on the ballot paper.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef9073364d696e83ef5ed11409fd84d4?impolicy=wcms_crop_resize&cropH=1438&cropW=2149&xPos=219&yPos=490&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "https://www.abc.net.au/news/elections/qld-election-2024"
+          },
+          "contentUri": "coremedia://externallink/104413828",
+          "canonicalURL": "https://www.abc.net.au/news/elections/qld-election-2024",
+          "video": null,
+          "reactKey": "qld-104413828-1",
+          "synopsis": "From news, analysis and explainers through to election previews, key electorates and candidates, Queensland Votes has the latest on the upcoming state election. Click through to read more.",
+          "title": {
+            "children": "Queensland Votes 2024 — stay up to date with the latest election news and analysis"
           },
           "imageContainerClassNames": []
         }
@@ -487,8 +558,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People walk up the stairs of a plane with the word 'Bonza' on its side.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25fb07ea4cc4f72c7e664f3dc88b2cdd?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=260&yPos=0&width=160&height=107",
+            "altText": "A plane sits on the runway at an airport. It is white with purple highlights and the word Bonza on the side.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8fd2a772e4fd98113a8ed0a8beb1fc74?impolicy=wcms_crop_resize&cropH=994&cropW=1491&xPos=312&yPos=46&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -500,7 +571,7 @@
           "reactKey": "qld-104412908-1",
           "synopsis": "Investigators are examining why some money destined for a private investment firm's football teams instead went to Bonza. The airline collapsed barely a year after it launched.",
           "title": {
-            "children": "US authorities investigating if Bonza's investors broke money laundering laws"
+            "children": "Money-laundering investigation examining the funding of failed airline Bonza"
           },
           "imageContainerClassNames": []
         }
@@ -1168,37 +1239,6 @@
           "synopsis": "NRL head of football Graham Annesley attempts to clear some confusion over obstruction calls ahead of Sunday's grand final between the Panthers and Storm.",
           "title": {
             "children": "'Our game's not perfect': NRL admits to bunker error after Ivan Cleary blasted video refereeing standards"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104414448",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A large crowd of people on a rugby field.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac1fda8a3b4ef363f0a55b175632f330?impolicy=wcms_crop_resize&cropH=3115&cropW=4672&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-09-30/nz-reclaims-world-record-for-largest-haka-participation/104413150"
-          },
-          "contentUri": "coremedia://article/104414448",
-          "canonicalURL": "https://www.abc.net.au/news/2024-09-30/nz-reclaims-world-record-for-largest-haka-participation/104413150",
-          "video": null,
-          "reactKey": "qld-104414448-1",
-          "synopsis": "The record was previously held by France, who broke it in 2014 with more than 4,000 attempting the haka after a rugby match.",
-          "title": {
-            "children": "'What the heck?' How New Zealand has claimed back the crown for a record haka from France"
           },
           "imageContainerClassNames": []
         }
