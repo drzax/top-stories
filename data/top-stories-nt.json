@@ -698,7 +698,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104420604",
           "imagePosition": {
@@ -721,9 +727,16 @@
           "reactKey": "nt-104420604-1",
           "synopsis": "Labor plans to create a new publicly owned energy retailer in Queensland if re-elected, in a move aimed at providing \"greater competition\" and \"choice\".",
           "title": {
-            "children": "Labor pledges to establish new publicly owned energy retailer in Queensland in bid to create 'greater competition'"
+            "children": "Labor pledges to establish new publicly owned energy retailer in Queensland, in move labelled 'weird' and 'wild'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "ended",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -845,7 +858,7 @@
           "reactKey": "nt-104404838-1",
           "synopsis": "Across the country, wind farms are being built faster than ever, but agricultural landholders are split on embracing the energy revolution while protecting food production.",
           "title": {
-            "children": "Farmers divided over hosting renewable energy projects as turbines rise in dairy country"
+            "children": "Wind turbines are on the horizon, but farmers are divided over whether it's a good thing "
           },
           "imageContainerClassNames": []
         }
