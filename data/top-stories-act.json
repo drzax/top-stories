@@ -25,7 +25,10 @@
           "uri": "coremedia://article/104436884"
         },
         {
-          "uri": "coremedia://article/104430112"
+          "uri": "coremedia://article/104438056"
+        },
+        {
+          "uri": "coremedia://article/104381552"
         },
         {
           "uri": "coremedia://article/104428040"
@@ -34,16 +37,10 @@
           "uri": "coremedia://article/104419110"
         },
         {
-          "uri": "coremedia://article/104426854"
-        },
-        {
           "uri": "coremedia://externallink/104433066"
         },
         {
           "uri": "coremedia://article/104438000"
-        },
-        {
-          "uri": "coremedia://article/104438056"
         },
         {
           "uri": "coremedia://article/104413078"
@@ -116,6 +113,9 @@
         },
         {
           "uri": "coremedia://article/104437294"
+        },
+        {
+          "uri": "coremedia://article/104370696"
         }
       ]
     },
@@ -251,9 +251,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104430112",
+          "id": "104438056",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -261,20 +267,74 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A concrete building reading \"Law Courts of the Australian Capital Territory\", with the Australian, ACT and Aboriginal flags.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b5b5498611b4d01726e3c118ec6c7da?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Thousands of Pro-Palestinian protesters in the Melbourne CBD.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d291c151b64d406daca04595405530d7?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-04/act-court-documents-reveal-disturbing-allegations-about-canberra/104430112"
+            "to": "/news/2024-10-06/live-israel-gaza-middle-east-war-protests-sydney-melbourne/104438056"
           },
-          "contentUri": "coremedia://article/104430112",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-04/act-court-documents-reveal-disturbing-allegations-about-canberra/104430112",
+          "contentUri": "coremedia://article/104438056",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-06/live-israel-gaza-middle-east-war-protests-sydney-melbourne/104438056",
           "video": null,
-          "reactKey": "act-104430112-1",
-          "synopsis": "New court documents have revealed disturbing allegations about a Canberra man's violent attacks on his heavily pregnant partner, including that he also attacked the couple's seven-year-old child.",
+          "reactKey": "act-104438056-1",
+          "synopsis": "Pro-Palestinian demonstrators are gathering in Sydney, Melbourne and Adelaide as the first anniversary of the October 7 attack looms.",
           "title": {
-            "children": "Canberra man who allegedly kicked heavily pregnant partner in stomach denied bail over 'gratuitous violence'"
+            "children": "Pro-Palestinian demonstrators gather for marches in Melbourne, Sydney"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "126756",
+              "date": "2024-10-06T01:59:02.000Z",
+              "title": "Victorian Premier Jacinta Allan speaks on Melbourne protests"
+            },
+            {
+              "id": "126754",
+              "date": "2024-10-06T01:52:08.000Z",
+              "title": "WATCH: Protesters gather in Melbourne's CBD"
+            },
+            {
+              "id": "126751",
+              "date": "2024-10-06T00:56:26.000Z",
+              "title": "WATCH: Protests in Sydney could attract at least 5,000 attendees"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104381552",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Jarome Luai of the Panthers is tackled by Melbourne Storm players ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1d3c824cc807c0bcb779bfeecb48e41f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-05/nrl-grand-final-2024-rugby-league-what-time-kick-off/104381552"
+          },
+          "contentUri": "coremedia://article/104381552",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-05/nrl-grand-final-2024-rugby-league-what-time-kick-off/104381552",
+          "video": null,
+          "reactKey": "act-104381552-1",
+          "synopsis": "The NRL grand final is on tomorrow, which just happens to be the first day of daylight saving time in some states. Get the timing right so you can be on the couch in time for kick off. ",
+          "title": {
+            "children": "What time is the 2024 NRL grand final? What about the women's match?"
           },
           "imageContainerClassNames": []
         }
@@ -352,37 +412,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104426854",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Big sign saying Australian National University.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c7d043bef77d4b3a59111954ff2e389?impolicy=wcms_crop_resize&cropH=1333&cropW=1999&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-03/anu-announces-restructure-job-cuts-amid-soaring-deficit/104426854"
-          },
-          "contentUri": "coremedia://article/104426854",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-03/anu-announces-restructure-job-cuts-amid-soaring-deficit/104426854",
-          "video": null,
-          "reactKey": "act-104426854-1",
-          "synopsis": "The Australian National University has yet to confirm how many jobs will be lost nor who will be impacted, but confirmed a major restructure would take place.",
-          "title": {
-            "children": "ANU to cut jobs and spending as it faces $200 million deficit"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104433066",
           "imagePosition": {
             "mobile": "right",
@@ -445,56 +474,6 @@
         "props": {
           "contentLabels": [
             {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104438056",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "People gather on the steps of the State Library in Melbourne holding an array of flags including Palestinian flags",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b059b7cb89533d18b19d668fc6924d1e?impolicy=wcms_crop_resize&cropH=908&cropW=1362&xPos=268&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-06/live-israel-gaza-middle-east-war-protests-sydney-melbourne/104438056"
-          },
-          "contentUri": "coremedia://article/104438056",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-06/live-israel-gaza-middle-east-war-protests-sydney-melbourne/104438056",
-          "video": null,
-          "reactKey": "act-104438056-1",
-          "synopsis": "Pro-Palestinian demonstrators are gathering in Sydney, Melbourne and Adelaide as the first anniversary of the October 7 attack looms.",
-          "title": {
-            "children": "Pro-Palestinian demonstrators gather for marches in Melbourne, Sydney"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "126751",
-              "date": "2024-10-06T00:56:26.000Z",
-              "title": "WATCH: Protests in Sydney could attract at least 5,000 attendees"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
               "labelText": "analysis",
               "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/5b1409f019a1b3ed3f85d40ce700db98?impolicy=wcms_crop_resize&cropH=3228&cropW=3228&xPos=2&yPos=0&width=160&height=160",
               "authorName": "Eric Tlozek"
@@ -540,8 +519,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "trump musk",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc92fa1f64854fa9192eb5a9d91d957a?impolicy=wcms_crop_resize&cropH=2102&cropW=3153&xPos=0&yPos=49&width=160&height=107",
+            "altText": "Trumpie",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9425a6e75602a22526d32c264b8cdcb?impolicy=wcms_crop_resize&cropH=2288&cropW=3432&xPos=4&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -553,7 +532,7 @@
           "reactKey": "act-104438024-1",
           "synopsis": "Donald Trump returns to Pennsylvania, where he was nearly assassinated in July, holding a rally with heightened security and guest Elon Musk. ",
           "title": {
-            "children": "'We've bled together': Trump returns to site of Pennsylvania assassination attempt"
+            "children": "'We've bled together': Trump returns to site of Pennsylvania assassination attempt with Elon Musk"
           },
           "imageContainerClassNames": []
         }
@@ -1242,6 +1221,37 @@
           "synopsis": "Pace star Megan Schutt equals a record and opener Beth Mooney produces a steadying knock as Australia open their T20 World Cup title defence with a six-wicket win over Sri Lanka.",
           "title": {
             "children": "Mooney to the rescue as Australia beats Sri Lanka in T20 World Cup opener"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104370696",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young woman wearing a black t-shirt emblazoned with a sunflower sits at a small outside table.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f35d097c17c1dc149af6b5de624a207d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=246&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-06/junee-aspiring-paramedic-suicide-grief/104370696"
+          },
+          "contentUri": "coremedia://article/104370696",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-06/junee-aspiring-paramedic-suicide-grief/104370696",
+          "video": null,
+          "reactKey": "act-104370696-1",
+          "synopsis": "The 28-year-old is training to become a paramedic in the hope she can \"make a difference\" to anyone suffering the way her loved ones did.",
+          "title": {
+            "children": "After losing 10 people to suicide, Sofia's joining the front lines of Australia's mental health battle"
           },
           "imageContainerClassNames": []
         }
