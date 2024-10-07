@@ -37,7 +37,7 @@
           "uri": "coremedia://article/104439670"
         },
         {
-          "uri": "coremedia://article/104440616"
+          "uri": "coremedia://article/104438456"
         },
         {
           "uri": "coremedia://article/104406170"
@@ -46,7 +46,7 @@
           "uri": "coremedia://article/104439988"
         },
         {
-          "uri": "coremedia://article/104438456"
+          "uri": "coremedia://article/104440616"
         },
         {
           "uri": "coremedia://article/104438096"
@@ -73,7 +73,7 @@
           "uri": "coremedia://article/104438718"
         },
         {
-          "uri": "coremedia://article/104441084"
+          "uri": "coremedia://article/104441032"
         },
         {
           "uri": "coremedia://article/104439866"
@@ -82,13 +82,13 @@
           "uri": "coremedia://article/104439780"
         },
         {
-          "uri": "coremedia://article/104438058"
+          "uri": "coremedia://article/104434494"
         },
         {
           "uri": "coremedia://article/104440934"
         },
         {
-          "uri": "coremedia://article/104441032"
+          "uri": "coremedia://article/104441788"
         },
         {
           "uri": "coremedia://article/104414040"
@@ -186,6 +186,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "127062",
+              "date": "2024-10-07T06:00:00.000Z",
+              "title": "Four projectiles fired from Gaza Strip towards Israel, IDF says"
+            },
+            {
               "id": "127050",
               "date": "2024-10-07T04:51:38.000Z",
               "title": "Hamas armed wing claims to fire rockets at southern Israel"
@@ -194,11 +199,6 @@
               "id": "127030",
               "date": "2024-10-07T02:27:41.000Z",
               "title": "Qatar Airways offers special charter flights for repatriating Australians in Lebanon"
-            },
-            {
-              "id": "127019",
-              "date": "2024-10-07T01:44:50.000Z",
-              "title": "IDF strikes hospital in central Gaza"
             }
           ]
         }
@@ -398,9 +398,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104440616",
+          "id": "104438456",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -408,22 +414,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Kamala Harris sitting at a table with her hands folded, looking to her right.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31ad7cff5c91554e1e1b2ef17fba6383?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-07/us-vice-president-kamala-harris-rejects-jd-vance-comments/104440616"
+            "to": "/news/2024-10-07/asx-markets-business-news-live-updates/104438456"
           },
-          "contentUri": "coremedia://article/104440616",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/us-vice-president-kamala-harris-rejects-jd-vance-comments/104440616",
+          "contentUri": "coremedia://article/104438456",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/asx-markets-business-news-live-updates/104438456",
           "video": null,
-          "reactKey": "national-104440616-1",
-          "synopsis": "The US vice-president opened a media blitz by the Democratic ticket on Sunday by appearing on the Call Her Daddy podcast hosted by Alex Cooper.",
+          "reactKey": "national-104438456-1",
+          "synopsis": "Surprisingly robust US jobs data drove Wall Street higher on Friday and that momentum has flowed through to the ASX which is up 0.5pc heading into the afternoon session. Follow the day's events and insights from our business reporters on the ABC News live markets blog.  ",
           "title": {
-            "children": "'It's really important for women to lift each other up': Kamala Harris rejects JD Vance 'childless cat ladies' dig in rare interview"
+            "children": "ASX gains 0.5pc after surprise US job data sent Wall Street higher, Rio Tinto confirms takeover bid of lithium miner"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "127060",
+              "date": "2024-10-07T05:45:22.000Z",
+              "title": "ASX 200 gains 0.7%"
+            },
+            {
+              "id": "127021",
+              "date": "2024-10-07T01:47:24.000Z",
+              "title": "ASX gains momentum, up 0.5pc"
+            },
+            {
+              "id": "126988",
+              "date": "2024-10-07T00:46:29.000Z",
+              "title": "Mineral and energy prices will continue to fall: NAB"
+            }
+          ]
         }
       },
       {
@@ -491,15 +520,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "104438456",
+          "id": "104440616",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -507,45 +530,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
+            "altText": "Kamala Harris sitting at a table with her hands folded, looking to her right.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31ad7cff5c91554e1e1b2ef17fba6383?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-07/asx-markets-business-news-live-updates/104438456"
+            "to": "/news/2024-10-07/us-vice-president-kamala-harris-rejects-jd-vance-comments/104440616"
           },
-          "contentUri": "coremedia://article/104438456",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/asx-markets-business-news-live-updates/104438456",
+          "contentUri": "coremedia://article/104440616",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/us-vice-president-kamala-harris-rejects-jd-vance-comments/104440616",
           "video": null,
-          "reactKey": "national-104438456-1",
-          "synopsis": "Surprisingly robust US jobs data drove Wall Street higher on Friday and that momentum has flowed through to the ASX which is up 0.5pc heading into the afternoon session. Follow the day's events and insights from our business reporters on the ABC News live markets blog.  ",
+          "reactKey": "national-104440616-1",
+          "synopsis": "The US vice-president opened a media blitz by the Democratic ticket on Sunday by appearing on the Call Her Daddy podcast hosted by Alex Cooper.",
           "title": {
-            "children": "ASX gains 0.5pc after surprise US job data sent Wall Street higher, Rio Tinto confirms takeover bid of lithium miner"
+            "children": "'It's really important for women to lift each other up': Kamala Harris rejects JD Vance 'childless cat ladies' dig in rare interview"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "127060",
-              "date": "2024-10-07T05:45:22.000Z",
-              "title": "ASX 200 gains 0.7%"
-            },
-            {
-              "id": "127021",
-              "date": "2024-10-07T01:47:24.000Z",
-              "title": "ASX gains momentum, up 0.5pc"
-            },
-            {
-              "id": "126988",
-              "date": "2024-10-07T00:46:29.000Z",
-              "title": "Mineral and energy prices will continue to fall: NAB"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -762,9 +762,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-10-07/thorneside-fire-fatal-eight-year-old-girl-woman-feared-dead/104439424",
           "video": null,
           "reactKey": "national-104439424-1",
-          "synopsis": "Police remain on the scene of a residential fire east of Brisbane that killed an eight-year-old girl, with grave fears for a 31-year-old woman who was babysitting the child at the time.",
+          "synopsis": "A post-mortem will confirm the identities of the bodies found after the Thorneside townhouse blaze. ",
           "title": {
-            "children": "'Grave concerns' for missing babysitter after Thorneside fire that claimed the life of eight-year-old girl"
+            "children": "Body believed to be missing babysitter found after blaze that also killed eight-year-old girl"
           },
           "imageContainerClassNames": []
         }
@@ -826,7 +826,7 @@
           "reactKey": "national-104438718-1",
           "synopsis": "Rosanna Natoli says she's been cleared of any wrongdoing. A top integrity advocate has criticised the state's electoral commission for remaining silent about the complaint.",
           "title": {
-            "children": "Queensland mayor cleared over election donation investigation"
+            "children": "Queensland mayor cleared of election donation wrongdoing"
           },
           "imageContainerClassNames": []
         }
@@ -836,7 +836,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104441084",
+          "id": "104441032",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -844,20 +844,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman with grey hair sits in a chair in a house, looking out the window.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b79cb6deccb657381abfd0041d91b4bd?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A man walking with cows. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77245f284513384e1e47566e7fd9fc41?impolicy=wcms_crop_resize&cropH=2240&cropW=3359&xPos=1176&yPos=1093&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-07/retirement-villages-put-on-notice-after-being-accused-of-gouging/104434494"
+            "to": "/news/2024-10-07/china-youth-rural-to-urban-migration-rural-revitalisation/104364052"
           },
-          "contentUri": "coremedia://article/104441084",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/retirement-villages-put-on-notice-after-being-accused-of-gouging/104434494",
+          "contentUri": "coremedia://article/104441032",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/china-youth-rural-to-urban-migration-rural-revitalisation/104364052",
           "video": null,
-          "reactKey": "national-104441084-1",
-          "synopsis": "Federal Financial Services Minister Stephen Jones says he wants to stamp out bad behaviour by retirement village operators following an ABC investigation that revealed \"legalised financial abuse of the elderly\" is rife. ",
+          "reactKey": "national-104441032-1",
+          "synopsis": "An increasing number of Chinese youths fed up with the pressures and values of urban life are moving to China's vast countryside and transforming it in their own ways. ",
           "title": {
-            "children": "Retirement villages put on notice after being accused of gouging older Australians in 'corporatised elder abuse'"
+            "children": "'People realise you don't have to work at a desk': China's young people are heading for the hills"
           },
           "imageContainerClassNames": []
         }
@@ -929,7 +929,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104438058",
+          "id": "104434494",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -937,20 +937,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a man in a suit with the photo showing his side profile",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9593076e833fddc7d1ae308b1d655c9f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A woman with grey hair sits in a chair in a house, looking out the window.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b79cb6deccb657381abfd0041d91b4bd?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-07/david-speirs-liberal-leader-to-drug-charges-explainer/104438058"
+            "to": "/news/2024-10-07/retirement-villages-put-on-notice-after-being-accused-of-gouging/104434494"
           },
-          "contentUri": "coremedia://article/104438058",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/david-speirs-liberal-leader-to-drug-charges-explainer/104438058",
+          "contentUri": "coremedia://article/104434494",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/retirement-villages-put-on-notice-after-being-accused-of-gouging/104434494",
           "video": null,
-          "reactKey": "national-104438058-1",
-          "synopsis": "David Speirs has announced he intends to quit parliament and pause his Liberal party membership, with police saying he has also been charged. What does this mean for his future and the electorate he represents?",
+          "reactKey": "national-104434494-1",
+          "synopsis": "Federal Financial Services Minister Stephen Jones says he wants to stamp out bad behaviour by retirement village operators following an ABC investigation that revealed \"legalised financial abuse of the elderly\" is rife. ",
           "title": {
-            "children": "From SA Liberal leader to arrest, how did it all unfold?"
+            "children": "Retirement villages put on notice after being accused of gouging older Australians in 'corporatised elder abuse'"
           },
           "imageContainerClassNames": []
         }
@@ -991,7 +991,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104441032",
+          "id": "104441788",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -999,20 +999,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man walking with cows. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77245f284513384e1e47566e7fd9fc41?impolicy=wcms_crop_resize&cropH=2240&cropW=3359&xPos=1176&yPos=1093&width=160&height=107",
+            "altText": "32 Chunk stands in shallow waters as he looks off to his left",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ffa4bdc9b3186d2558fb0813f685924?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-07/china-youth-rural-to-urban-migration-rural-revitalisation/104364052"
+            "to": "/news/2024-10-07/fat-bear-week-semifinals/104438280"
           },
-          "contentUri": "coremedia://article/104441032",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/china-youth-rural-to-urban-migration-rural-revitalisation/104364052",
+          "contentUri": "coremedia://article/104441788",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-07/fat-bear-week-semifinals/104438280",
           "video": null,
-          "reactKey": "national-104441032-1",
-          "synopsis": "An increasing number of Chinese youths fed up with the pressures and values of urban life are moving to China's vast countryside and transforming it in their own ways. ",
+          "reactKey": "national-104441788-1",
+          "synopsis": "Just four bears remain in contention for the title of beefiest bruin in this year's Fat Bear Week. ",
           "title": {
-            "children": "'People realise you don't have to work at a desk': China's young people are heading for the hills"
+            "children": "A Fat Bear Week rematch could be on the cards as heavyweights progress to finals"
           },
           "imageContainerClassNames": []
         }
