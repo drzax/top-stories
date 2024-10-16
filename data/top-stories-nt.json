@@ -919,7 +919,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104475486",
           "imagePosition": {
@@ -942,9 +948,16 @@
           "reactKey": "nt-104475486-1",
           "synopsis": "The LNP leader and Queensland premier will put questions to each other in the second debate of the election campaign.",
           "title": {
-            "children": "David Crisafulli and Steven Miles to face off in second leaders debate two weeks out from election"
+            "children": "David Crisafulli and Steven Miles face off in second leaders debate two weeks out from election"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -1033,9 +1046,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-10-16/rochester-victoria-flood-anniversary-insurance-wait/104469178",
           "video": null,
           "reactKey": "nt-104469178-1",
-          "synopsis": "More than 100 insurance claims are yet to be finalised after flooding destroyed 900 homes in Rochester two years ago. Despite this, the community is banding together to support those still in need.",
+          "synopsis": "More than 100 insurance claims are yet to be finalised after flooding damaged 900 homes in Rochester two years ago. Despite this, the community is banding together to support those still in need.",
           "title": {
-            "children": "Every house in this town was destroyed by floods two years ago. Hundreds of people are still displaced"
+            "children": "Every house in this town was damaged by floods two years ago. Hundreds of people are still displaced"
           },
           "imageContainerClassNames": []
         }
