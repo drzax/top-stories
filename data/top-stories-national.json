@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104487218"
+          "uri": "coremedia://article/104487668"
+        },
+        {
+          "uri": "coremedia://article/104486868"
         },
         {
           "uri": "coremedia://article/104487356"
-        },
-        {
-          "uri": "coremedia://article/104487284"
         },
         {
           "uri": "coremedia://article/104483482"
@@ -117,11 +117,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104487218",
+          "id": "104487668",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close up of Yahya Sinwa at a rally among a crowd of people.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fde12ccb15dbc9d774da3f4dd87fe987?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=1&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-18/yahya-sinwar-hamas-leader-killed-by-idf-live-coverage/104487602"
+          },
+          "contentUri": "coremedia://article/104487668",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-18/yahya-sinwar-hamas-leader-killed-by-idf-live-coverage/104487602",
+          "video": null,
+          "reactKey": "national-104487668-1",
+          "synopsis": "Israel's foreign minister says Yahya Sinwar, the Hamas leader and mastermind of the militant group's October 7 attack, has been killed in an IDF attack in Gaza. Follow live",
+          "title": {
+            "children": "Hamas leader and mastermind of October 7 slain in Gaza blast, says Israel's foreign minister"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104486868",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -130,23 +169,21 @@
           "isMajor": false,
           "image": {
             "altText": "Three men in suits smiling. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d42cb83b8d43205b73294b7604b529b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d42cb83b8d43205b73294b7604b529b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-10-17/report-suggests-australia-dump-aukus-nuclear-submarine-plans/104486868"
           },
-          "contentUri": "coremedia://article/104487218",
+          "contentUri": "coremedia://article/104486868",
           "canonicalURL": "https://www.abc.net.au/news/2024-10-17/report-suggests-australia-dump-aukus-nuclear-submarine-plans/104486868",
           "video": null,
-          "reactKey": "national-104487218-1",
+          "reactKey": "national-104486868-1",
           "synopsis": "Research prepared for the United States Congress argues Australia could abandon its $368 billion AUKUS push to buy nuclear-powered submarines.",
           "title": {
             "children": "Congressional report suggests Australia could dump plans to acquire AUKUS nuclear submarines"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -176,37 +213,6 @@
           "synopsis": "Craig Laidley has not been seen since he was swept out to sea after saving a struggling swimmer at a Bali beach.",
           "title": {
             "children": "Fears for Australian man missing in Bali after rescuing tourist in 'extreme' conditions"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104487284",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An older Palestinian man waves, surrounded by other Palestinian men ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bdb4d5e8b0d041db94e37506484ec05d?impolicy=wcms_crop_resize&cropH=3120&cropW=4680&xPos=60&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-18/israel-gaza-hezbollah-yahya-sinwar-hamas-possibly-dead/104487284"
-          },
-          "contentUri": "coremedia://article/104487284",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-18/israel-gaza-hezbollah-yahya-sinwar-hamas-possibly-dead/104487284",
-          "video": null,
-          "reactKey": "national-104487284-1",
-          "synopsis": "Sinwar, the chief architect of the October 7, 2023 attack on Israel that triggered the Gaza war, was named leader of Hamas following the assassination of former leader Ismail Haniyeh in Tehran in August.",
-          "title": {
-            "children": "Israel says it is checking the possibility that Hamas leader Sinwar has been killed"
           },
           "imageContainerClassNames": []
         }
