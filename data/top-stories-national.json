@@ -25,7 +25,7 @@
           "uri": "coremedia://article/104502042"
         },
         {
-          "uri": "coremedia://article/104520672"
+          "uri": "coremedia://article/104505940"
         },
         {
           "uri": "coremedia://article/104521162"
@@ -46,6 +46,9 @@
           "uri": "coremedia://article/104521174"
         },
         {
+          "uri": "coremedia://article/104520672"
+        },
+        {
           "uri": "coremedia://article/104521160"
         },
         {
@@ -55,16 +58,13 @@
           "uri": "coremedia://article/104517868"
         },
         {
-          "uri": "coremedia://article/104516106"
-        },
-        {
           "uri": "coremedia://article/104521158"
         },
         {
-          "uri": "coremedia://article/104484966"
+          "uri": "coremedia://article/104516106"
         },
         {
-          "uri": "coremedia://article/104519798"
+          "uri": "coremedia://article/104484966"
         },
         {
           "uri": "coremedia://article/104517200"
@@ -76,16 +76,16 @@
           "uri": "coremedia://recipe/104470752"
         },
         {
-          "uri": "coremedia://article/104513666"
+          "uri": "coremedia://article/104521216"
         },
         {
           "uri": "coremedia://article/104521178"
         },
         {
-          "uri": "coremedia://article/104511452"
+          "uri": "coremedia://article/104519798"
         },
         {
-          "uri": "coremedia://article/104520302"
+          "uri": "coremedia://article/104511452"
         },
         {
           "uri": "coremedia://article/104521138"
@@ -100,7 +100,7 @@
           "uri": "coremedia://article/104516286"
         },
         {
-          "uri": "coremedia://article/104483204"
+          "uri": "coremedia://article/104516532"
         },
         {
           "uri": "coremedia://article/104518106"
@@ -251,9 +251,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104520672",
+          "id": "104505940",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -261,22 +267,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A white armoured vehicle driving on a road.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/548a316140d8cae2d5b7557a3711fa3a?impolicy=wcms_crop_resize&cropH=2681&cropW=4021&xPos=0&yPos=26&width=160&height=107",
+            "altText": "A composite image of David Crisafulli and Steven Miles.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/096a0443a4ba353e38c5b53cdbfc0fcc?impolicy=wcms_crop_resize&cropH=1474&cropW=2211&xPos=26&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-26/un-peacekeepers-withdraw-from-lebanon-post-under-israeli-fire/104520672"
+            "to": "/news/2024-10-26/queensland-election-live-updates-results-2024/104505940"
           },
-          "contentUri": "coremedia://article/104520672",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/un-peacekeepers-withdraw-from-lebanon-post-under-israeli-fire/104520672",
+          "contentUri": "coremedia://article/104505940",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/queensland-election-live-updates-results-2024/104505940",
           "video": null,
-          "reactKey": "national-104520672-1",
-          "synopsis": "Peacekeepers from the UN Interim Force in Lebanon have withdrawn from an observation post in the southern Lebanese town of Zahajra, after coming under fire from Israeli forces.",
+          "reactKey": "national-104505940-1",
+          "synopsis": "It's election day in Queensland, with Steven Miles aiming to win a fourth term for Labor, while David Crisafulli is hoping to lead the LNP to victory. Follow live. ",
           "title": {
-            "children": "UN peacekeepers in Lebanon withdraw from observation post under Israeli fire"
+            "children": "The battle for Queensland's top job is officially underway as polls open"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -476,6 +489,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104520672",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A white armoured vehicle driving on a road.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/548a316140d8cae2d5b7557a3711fa3a?impolicy=wcms_crop_resize&cropH=2681&cropW=4021&xPos=0&yPos=26&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-26/un-peacekeepers-withdraw-from-lebanon-post-under-israeli-fire/104520672"
+          },
+          "contentUri": "coremedia://article/104520672",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/un-peacekeepers-withdraw-from-lebanon-post-under-israeli-fire/104520672",
+          "video": null,
+          "reactKey": "national-104520672-1",
+          "synopsis": "Peacekeepers from the UN Interim Force in Lebanon have withdrawn from an observation post in the southern Lebanese town of Zahajra, after coming under fire from Israeli forces.",
+          "title": {
+            "children": "UN peacekeepers in Lebanon withdraw from observation post under Israeli fire"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104521160",
           "imagePosition": {
             "mobile": "right",
@@ -575,37 +619,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104516106",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The main street of Broken Hill in the dark with stars shining overhead.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fa92dea86429ecbb830fd53b522ffa7?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-26/power-outage-impacts-far-west-nsw-broken-hill-blackouts-sa/104516106"
-          },
-          "contentUri": "coremedia://article/104516106",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/power-outage-impacts-far-west-nsw-broken-hill-blackouts-sa/104516106",
-          "video": null,
-          "reactKey": "national-104516106-1",
-          "synopsis": "More than a week after a possible tornado tore through Broken Hill and wiped out seven transmission towers, the region is still grappling with rolling blackouts that are putting dialysis patients like Leroy and year 12 students studying for exams like Poppy on edge. ",
-          "title": {
-            "children": "The town where 'power could go off any minute' grapples with continual outages"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104521158",
           "imagePosition": {
             "mobile": "right",
@@ -637,6 +650,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104516106",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The main street of Broken Hill in the dark with stars shining overhead.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fa92dea86429ecbb830fd53b522ffa7?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-26/power-outage-impacts-far-west-nsw-broken-hill-blackouts-sa/104516106"
+          },
+          "contentUri": "coremedia://article/104516106",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/power-outage-impacts-far-west-nsw-broken-hill-blackouts-sa/104516106",
+          "video": null,
+          "reactKey": "national-104516106-1",
+          "synopsis": "More than a week after a possible tornado tore through Broken Hill and wiped out seven transmission towers, the region is still grappling with rolling blackouts that are putting dialysis patients like Leroy and year 12 students studying for exams like Poppy on edge. ",
+          "title": {
+            "children": "The town where 'power could go off any minute' grapples with continual outages"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104484966",
           "imagePosition": {
             "mobile": "right",
@@ -659,37 +703,6 @@
           "synopsis": "It was a shock for 30-year-old Georgie Bellette to find out she has a high risk of developing cancer, but her family is now armed with potentially life-saving knowledge. ",
           "title": {
             "children": "A simple saliva test has changed Georgie's life"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104519798",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a young woman looks at the camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fc735c595b1007ce6b8b880d7563583?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-26/early-menopause-cancer-maddie-king/104519798"
-          },
-          "contentUri": "coremedia://article/104519798",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/early-menopause-cancer-maddie-king/104519798",
-          "video": null,
-          "reactKey": "national-104519798-1",
-          "synopsis": "Maddie was 19 when the hot flashes and mood swings started.",
-          "title": {
-            "children": "Menopause in her early 20s made Maddie feel she was losing her youth and womanhood "
           },
           "imageContainerClassNames": []
         }
@@ -808,7 +821,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104513666",
+          "id": "104521216",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -816,20 +829,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Caitlin Foord of Australia controls the ball under pressure from Geraldine Reuteler during an international friendly",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cb06f10a0ce9feafa377de4b2b02405?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=116&width=160&height=107",
+            "altText": "Australia's Sophie Garbin catches the ball in between two New Zealand players.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5fa21ae6e7344526fb8328ef4c7f569?impolicy=wcms_crop_resize&cropH=3154&cropW=4731&xPos=116&yPos=179&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-26/football-matildas-switzerland-live-blog-fowler/104513666"
+            "to": "/news/2024-10-26/diamonds-ready-to-rumble-in-must-win-clash-against-new-zealand/104521216"
           },
-          "contentUri": "coremedia://article/104513666",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/football-matildas-switzerland-live-blog-fowler/104513666",
+          "contentUri": "coremedia://article/104521216",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/diamonds-ready-to-rumble-in-must-win-clash-against-new-zealand/104521216",
           "video": null,
-          "reactKey": "national-104513666-1",
-          "synopsis": "The Matildas' new era has begun with a 1-1 draw against Switzerland, in front of a record crowd in Zurich.",
+          "reactKey": "national-104521216-1",
+          "synopsis": "The Diamonds have set their sights on bringing more grit and mongrel to the court as they attempt to avoid gifting arch rivals New Zealand the Constellation Cup. ",
           "title": {
-            "children": "Matildas with work to do after 1-1 draw with Switzerland"
+            "children": "Diamonds ready to rumble in must-win clash against New Zealand"
           },
           "imageContainerClassNames": []
         }
@@ -870,6 +883,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104519798",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a young woman looks at the camera",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fc735c595b1007ce6b8b880d7563583?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-26/early-menopause-cancer-maddie-king/104519798"
+          },
+          "contentUri": "coremedia://article/104519798",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/early-menopause-cancer-maddie-king/104519798",
+          "video": null,
+          "reactKey": "national-104519798-1",
+          "synopsis": "Maddie was 19 when the hot flashes and mood swings started.",
+          "title": {
+            "children": "Menopause in her early 20s made Maddie feel she was losing her youth and womanhood "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104511452",
           "imagePosition": {
             "mobile": "right",
@@ -892,37 +936,6 @@
           "synopsis": "Between rising gendered violence and online misogyny, manhood is in the spotlight. But what are the unintended consequences when toxic masculinity is called out?",
           "title": {
             "children": "Misogynistic rhetoric is on the rise, but parenting expert Maggie Dent say 'punishing and shaming' isn't the answer"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104520302",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Four SpaceX astronauts dressed in blue jumpsuits stand alongside each other in single file, smiling",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8be8ab35a4ce50c83160c42271ce9023?impolicy=wcms_crop_resize&cropH=2813&cropW=4220&xPos=337&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-25/astronauts-return-to-earth-on-spacex-capsule/104520302"
-          },
-          "contentUri": "coremedia://article/104520302",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-25/astronauts-return-to-earth-on-spacex-capsule/104520302",
-          "video": null,
-          "reactKey": "national-104520302-1",
-          "synopsis": "Three astronauts and one cosmonaut have returned to Earth after nearly eight months on the International Space Station, which was extended by Boeing's capsule trouble and Hurricane Milton.",
-          "title": {
-            "children": "SpaceX capsule returns four astronauts to Earth but Boeing Starliner crew remain on ISS"
           },
           "imageContainerClassNames": []
         }
@@ -1058,9 +1071,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/0b3f4dbdc8add61fb9d733f7f349d61b?impolicy=wcms_crop_resize&cropH=667&cropW=667&xPos=166&yPos=0&width=160&height=160",
+              "authorName": "Patrick Bell"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104483204",
+          "id": "104516532",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1068,20 +1087,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a picture of a lizard looking over the edge ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78691743b8fcf568da600ca68fcd2507?impolicy=wcms_crop_resize&cropH=2264&cropW=3396&xPos=0&yPos=583&width=160&height=107",
+            "altText": "A photographer kneels while taking a photo of Laura Nuttall outside the ACT Legislative Assembly.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a11b61604b35dbdf945cc96c0e0338d5?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-10-26/brisbane-queensland-museum-giant-lizard-megalania-/104483204"
+            "to": "/news/2024-10-26/act-election-analysis-nuttall-comeback-negotiations-independents/104516532"
           },
-          "contentUri": "coremedia://article/104483204",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/brisbane-queensland-museum-giant-lizard-megalania-/104483204",
+          "contentUri": "coremedia://article/104516532",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/act-election-analysis-nuttall-comeback-negotiations-independents/104516532",
           "video": null,
-          "reactKey": "national-104483204-1",
-          "synopsis": "Ask any Brisbane child of the 1990s and earlier what their memories of the Queensland Museum are and they might start talking about this giant lizard. ",
+          "reactKey": "national-104516532-1",
+          "synopsis": "As electoral comebacks go, Greens MLA Laura Nuttall's is among the more remarkable — having retained a seat many had written off prior to the election, and even as the first dump of votes came in last Saturday night.",
           "title": {
-            "children": "'Kiddies running screaming to their mums': The giant lizard that terrified and fascinated a generation of Brisbane kids"
+            "children": "One of the more remarkable political comebacks could shake-up the next ACT Legislative Assembly"
           },
           "imageContainerClassNames": []
         }
