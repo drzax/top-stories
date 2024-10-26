@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104521944"
+          "uri": "coremedia://article/104521288"
+        },
+        {
+          "uri": "coremedia://article/104521390"
         },
         {
           "uri": "coremedia://article/104512040"
-        },
-        {
-          "uri": "coremedia://article/104505940"
         },
         {
           "uri": "coremedia://article/104521818"
@@ -111,11 +111,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104521944",
+          "id": "104521288",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Queensland Premier Steven Miles and the Member for McConnel, Grace Grace are seen at New Farm State School",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc7bee5e7702ea6899cb9005f47b31e1?impolicy=wcms_crop_resize&cropH=3325&cropW=4988&xPos=6&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-10-26/queensland-election-live-updates-results-2024/104505940"
+          },
+          "contentUri": "coremedia://article/104521288",
+          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/queensland-election-live-updates-results-2024/104505940",
+          "video": null,
+          "reactKey": "national-104521288-1",
+          "synopsis": "It's election day in Queensland, with Steven Miles aiming to win a fourth term for Labor, while David Crisafulli is hoping to lead the LNP to victory. Follow live. ",
+          "title": {
+            "children": "Polling enters its final hours as the battle for Queensland's top job ramps up"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104521390",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -124,23 +163,21 @@
           "isMajor": false,
           "image": {
             "altText": "night shot of city lights with tower on left side",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a89f9ea449ebcc3eb3660cb48496a84?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a89f9ea449ebcc3eb3660cb48496a84?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-10-26/explosions-heard-in-iran-tehran-and-nearby-karaj-state-media/104521390"
           },
-          "contentUri": "coremedia://article/104521944",
+          "contentUri": "coremedia://article/104521390",
           "canonicalURL": "https://www.abc.net.au/news/2024-10-26/explosions-heard-in-iran-tehran-and-nearby-karaj-state-media/104521390",
           "video": null,
-          "reactKey": "national-104521944-1",
+          "reactKey": "national-104521390-1",
           "synopsis": "Israel had been planning a response to a ballistic-missile barrage carried out by Iran on October 1, Tehran's second direct attack on Israel in six months.",
           "title": {
             "children": "Israeli military says it has completed 'precise strikes' on military targets in Iran"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -178,66 +215,6 @@
             "children": "The paradox at the heart of Trump's popularity"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104505940",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Queensland Premier Steven Miles and the Member for McConnel, Grace Grace are seen at New Farm State School",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc7bee5e7702ea6899cb9005f47b31e1?impolicy=wcms_crop_resize&cropH=3325&cropW=4988&xPos=6&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-10-26/queensland-election-live-updates-results-2024/104505940"
-          },
-          "contentUri": "coremedia://article/104505940",
-          "canonicalURL": "https://www.abc.net.au/news/2024-10-26/queensland-election-live-updates-results-2024/104505940",
-          "video": null,
-          "reactKey": "national-104505940-1",
-          "synopsis": "It's election day in Queensland, with Steven Miles aiming to win a fourth term for Labor, while David Crisafulli is hoping to lead the LNP to victory. Follow live. ",
-          "title": {
-            "children": "Polling enters its final hours as the battle for Queensland's top job ramps up"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "130083",
-              "date": "2024-10-26T05:15:41.000Z",
-              "title": "Strong pre-polling softens sizzle sales in Mackay"
-            },
-            {
-              "id": "130079",
-              "date": "2024-10-26T04:51:41.000Z",
-              "title": "LNP candidate says abortion is a 'fringe issue' in knife-edge seat of Nicklin"
-            },
-            {
-              "id": "130071",
-              "date": "2024-10-26T03:38:48.000Z",
-              "title": "Katter Hatters, Steven SMiles & David 'Crispy'fulli"
-            }
-          ]
         }
       },
       {
