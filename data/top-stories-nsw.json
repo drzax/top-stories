@@ -159,7 +159,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104526086",
           "imagePosition": {
@@ -606,6 +612,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "130669",
+              "date": "2024-10-28T02:06:46.000Z",
+              "title": "ASX up 0.1% heading into the afternnon session"
+            },
+            {
               "id": "130650",
               "date": "2024-10-28T00:44:00.000Z",
               "title": "Uranium stocks getting hammered"
@@ -614,11 +625,6 @@
               "id": "130647",
               "date": "2024-10-28T00:17:29.000Z",
               "title": "Oil on the skids, down 4% on opening."
-            },
-            {
-              "id": "130626",
-              "date": "2024-10-27T22:06:06.000Z",
-              "title": "ANZ flags $196 million profit hit from Suncorp acquisition"
             }
           ]
         }

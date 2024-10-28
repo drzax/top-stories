@@ -142,7 +142,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104523550",
           "imagePosition": {
@@ -167,7 +173,14 @@
           "title": {
             "children": "'Pinhead in a haystack': Missing photographer found injured on Snowy Mountains trail after two weeks"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -733,9 +746,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-10-28/georgia-elections-president-says-russian-special-operations/104524966",
           "video": null,
           "reactKey": "act-104524966-1",
-          "synopsis": "The incumbent Georgian Dream party clinches nearly 54 per cent of the vote, according to the electoral commission, with opposition parties contesting the result.",
+          "synopsis": "US Secretary of State Antony Blinken calls for a full probe into reports of electoral fraud in the South Caucasus's national elections.",
           "title": {
-            "children": "Georgia's president says 'Russian special operation' to blame for contested election"
+            "children": "US calls for investigation into Georgia's contested election"
           },
           "imageContainerClassNames": []
         }
