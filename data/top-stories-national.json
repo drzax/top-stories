@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104575418"
+          "uri": "coremedia://article/104575442"
+        },
+        {
+          "uri": "coremedia://article/104573034"
         },
         {
           "uri": "coremedia://article/104570192"
@@ -23,9 +26,6 @@
         },
         {
           "uri": "coremedia://article/104571768"
-        },
-        {
-          "uri": "coremedia://article/104558542"
         },
         {
           "uri": "coremedia://article/104575216"
@@ -114,11 +114,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104575418",
+          "id": "104575442",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Biden speaks in close up with his skin looking slightly orange",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a01a94cd2d5100da2448d6f154c1ee1f?impolicy=wcms_crop_resize&cropH=1973&cropW=2960&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-11-08/us-presidential-election-live-updates-joe-biden-donald-trump/104575438"
+          },
+          "contentUri": "coremedia://article/104575442",
+          "canonicalURL": "https://www.abc.net.au/news/2024-11-08/us-presidential-election-live-updates-joe-biden-donald-trump/104575438",
+          "video": null,
+          "reactKey": "national-104575442-1",
+          "synopsis": "Donald Trump's election triumph earlier this week means Joe Biden will be handing back the White House to the man he beat in 2020's presidential race. Follow live as Biden gives his first speech since Tuesday's election.",
+          "title": {
+            "children": "President Biden expected to speak for the first time since Trump election victory"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104573034",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -127,23 +166,21 @@
           "isMajor": false,
           "image": {
             "altText": "Latinos for Trump",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00a9c14974819da92d34a937a3162aba?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00a9c14974819da92d34a937a3162aba?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2024-11-07/trump-victory-by-the-numbers/104573034"
           },
-          "contentUri": "coremedia://article/104575418",
+          "contentUri": "coremedia://article/104573034",
           "canonicalURL": "https://www.abc.net.au/news/2024-11-07/trump-victory-by-the-numbers/104573034",
           "video": null,
-          "reactKey": "national-104575418-1",
+          "reactKey": "national-104573034-1",
           "synopsis": "American elections are ripe for information overload. With dozens of states and thousands of counties, the story of the night can be told and retold in endless ways.",
           "title": {
             "children": "Trump gained ground everywhere, even in Beverly Hills and Brooklyn, and he rewrote the map"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -247,37 +284,6 @@
           "synopsis": "Kevin Rudd deleting old tweets in the wake of Donald Trump's victory has given politicians a pertinent reminder: Making sharp comments can often feel good in the moment, but they don't come without consequences.",
           "title": {
             "children": "When Rudd hit delete on his Trump 'traitor' tweets, an old unspoken rule came to pass"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104558542",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A US election map shows Donald Trump's victory in 2024",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/570796c1d42c1002cb2e67f09e0a2d6f?impolicy=wcms_crop_resize&cropH=835&cropW=1252&xPos=132&yPos=217&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-11-07/donald-trump-election-results-map-2016-2020-2024/104558542"
-          },
-          "contentUri": "coremedia://article/104558542",
-          "canonicalURL": "https://www.abc.net.au/news/2024-11-07/donald-trump-election-results-map-2016-2020-2024/104558542",
-          "video": null,
-          "reactKey": "national-104558542-1",
-          "synopsis": "Donald Trump has won the US presidential election twice, and lost once. Take a look at how his results compare.",
-          "title": {
-            "children": "See how Trump's election wins (and loss) compare"
           },
           "imageContainerClassNames": []
         }
