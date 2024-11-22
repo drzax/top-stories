@@ -611,8 +611,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Heavy rainfall has caused flash flooding in areas of the southern Gold Coast.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4575f1da6a94136e55cfafd1cd79d69a?impolicy=wcms_crop_resize&cropH=1613&cropW=2420&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Rain at Augathella",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/adcf38c0cecae2e6f99e357933cd8b04?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -624,7 +624,7 @@
           "reactKey": "act-104633600-1",
           "synopsis": "More than 170 millimetres of rain drenched areas of Queensland overnight, with the Bureau of Meteorology warning parts of the state are \"near saturation\".",
           "title": {
-            "children": "Man clinging to tree rescued from floodwaters as heavy rainfall continues across Queensland"
+            "children": "Man clinging to tree for hours rescued from floodwaters as Queensland cops a drenching"
           },
           "imageContainerClassNames": []
         }
@@ -917,7 +917,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104633620",
           "imagePosition": {
@@ -942,7 +948,14 @@
           "title": {
             "children": "Suspended Townsville mayor vows to clear his name amid ongoing investigation into military history"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
