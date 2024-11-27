@@ -49,13 +49,13 @@
           "uri": "coremedia://article/104646260"
         },
         {
+          "uri": "coremedia://article/104651460"
+        },
+        {
+          "uri": "coremedia://article/104654752"
+        },
+        {
           "uri": "coremedia://article/104646932"
-        },
-        {
-          "uri": "coremedia://article/104651022"
-        },
-        {
-          "uri": "coremedia://article/104649400"
         },
         {
           "uri": "coremedia://article/104643966"
@@ -90,7 +90,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -113,13 +119,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-11-27/kristian-white-clare-nowland-trial-verdict/104607474",
           "video": null,
           "reactKey": "nsw-104607474-1",
-          "synopsis": "A NSW Supreme Court jury has returned its verdict over the death of a great-grandmother who had a fatal confrontation with police in an aged care home.\n\n ",
+          "synopsis": "A NSW Supreme Court jury has returned its verdict over the death of a great-grandmother who had a fatal confrontation with police in an aged care home.",
           "title": {
             "children": "Jury finds police officer who tasered 95yo woman guilty of manslaughter"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -208,7 +221,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-11-27/police-seek-third-suspect-in-violent-port-macquarie-kidnapping/104652230",
           "video": null,
           "reactKey": "nsw-104652230-1",
-          "synopsis": "Police are working to find 27-year-old woman Dahkota Harris who detectives allege was among three people that kidnapped and shot a man in a state forest on the NSW Mid North Coast 10 days ago.",
+          "synopsis": "Police are working to find 27-year-old woman Dahkota Harris who detectives allege was among three people that kidnapped and shot a man in a forest on the NSW Mid North Coast 10 days ago.",
           "title": {
             "children": "Police seek third suspect after man left 'naked and bleeding' in alleged Port Macquarie kidnapping"
           },
@@ -468,6 +481,68 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104651460",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A hand holding a $10 and $20 note of cash.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a91670fc101bc5594c1267210fc2bd65?impolicy=wcms_crop_resize&cropH=1586&cropW=2379&xPos=121&yPos=42&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-11-27/hecs-help-student-dept-indexation-changes-wpi-cpi-credit-refund/104651460"
+          },
+          "contentUri": "coremedia://article/104651460",
+          "canonicalURL": "https://www.abc.net.au/news/2024-11-27/hecs-help-student-dept-indexation-changes-wpi-cpi-credit-refund/104651460",
+          "video": null,
+          "reactKey": "nsw-104651460-1",
+          "synopsis": "The federal government announced a plan to change the way student debts were indexed months ago. Now the legislation will finally start saving students money. ",
+          "title": {
+            "children": "HECS changes announced in May are finally law. Here's what it means for you"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104654752",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young boy playing cricket.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5b6a359e4264ac25d72c3688a9466a68?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-11-27/indian-australian-cricket-boom-melbourne-junior-players/104595838"
+          },
+          "contentUri": "coremedia://article/104654752",
+          "canonicalURL": "https://www.abc.net.au/news/2024-11-27/indian-australian-cricket-boom-melbourne-junior-players/104595838",
+          "video": null,
+          "reactKey": "nsw-104654752-1",
+          "synopsis": "Australian cricket is booming at junior levels but as the sport attracts a more diverse and higher player base, the pressure on some of these kids is becoming too much and burnout looms.",
+          "title": {
+            "children": "'Sixty overs in a weekend': The parent trap causing burnout in cricket's generation next"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104646932",
           "imagePosition": {
             "mobile": "right",
@@ -490,68 +565,6 @@
           "synopsis": "The missing man was last seen in the water on Lake Macquarie on Monday afternoon, trying to swim towards a tinny before a witness lost sight of him.  ",
           "title": {
             "children": "Police locate body in search for man who went missing while trying to recover yacht at Lake Macquarie"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104651022",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A young white toddler reads a book with her mother by a kitchen window",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e583d6a5e74b5ef1d5de633630f8908?impolicy=wcms_crop_resize&cropH=3249&cropW=4873&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-11-27/inclusion-support-program-not-working-providers-say/104507980"
-          },
-          "contentUri": "coremedia://article/104651022",
-          "canonicalURL": "https://www.abc.net.au/news/2024-11-27/inclusion-support-program-not-working-providers-say/104507980",
-          "video": null,
-          "reactKey": "nsw-104651022-1",
-          "synopsis": "The Inclusion Support Program aims to help early learning centres remove barriers that prevent them from including students with disability. But childcare workers have told the ABC they're having problems accessing the scheme.",
-          "title": {
-            "children": "Families say multi-million-dollar 'inclusion' program is excluding their kids"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104649400",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Black and white 'for rent' sign",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1d8ae42aaeb2f16bddb1f2a585dcdb7f?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-11-26/one-in-five-renters-living-without-essential-items-study-finds/104649400"
-          },
-          "contentUri": "coremedia://article/104649400",
-          "canonicalURL": "https://www.abc.net.au/news/2024-11-26/one-in-five-renters-living-without-essential-items-study-finds/104649400",
-          "video": null,
-          "reactKey": "nsw-104649400-1",
-          "synopsis": "More than 20 per cent of Australian renters are living in poverty after their rent has been paid, a new study has found. ",
-          "title": {
-            "children": "Struggling Australians being forced into poverty with 'nowhere affordable to live'"
           },
           "imageContainerClassNames": []
         }

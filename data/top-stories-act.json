@@ -155,7 +155,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104607474",
           "imagePosition": {
@@ -176,11 +182,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-11-27/kristian-white-clare-nowland-trial-verdict/104607474",
           "video": null,
           "reactKey": "act-104607474-1",
-          "synopsis": "A NSW Supreme Court jury has returned its verdict over the death of a great-grandmother who had a fatal confrontation with police in an aged care home.\n\n ",
+          "synopsis": "A NSW Supreme Court jury has returned its verdict over the death of a great-grandmother who had a fatal confrontation with police in an aged care home.",
           "title": {
             "children": "Jury finds police officer who tasered 95yo woman guilty of manslaughter"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
