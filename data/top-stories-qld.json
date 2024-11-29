@@ -109,7 +109,7 @@
           "reactKey": "qld-104665048-1",
           "synopsis": "Former childcare worker Ashley Paul Griffith pleaded guilty in September to more than 300 charges against 69 children in early learning centres in Brisbane and Italy over almost two decades.",
           "title": {
-            "children": "Notorious daycare paedophile Ashley Paul Griffith sentenced to life in prison "
+            "children": "Daycare paedophile who uploaded abuse to the dark web sentenced to life in prison "
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -150,7 +150,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104662606",
           "imagePosition": {
@@ -175,7 +181,14 @@
           "title": {
             "children": "Murder charges laid after man found dead in home west of Brisbane"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
