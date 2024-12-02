@@ -78,7 +78,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -90,8 +96,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A table filled with bricks of cocaine.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36d44aff357ce25cd61214da2231684b?impolicy=wcms_crop_resize&cropH=1047&cropW=1571&xPos=83&yPos=0&width=862&height=575",
+            "altText": "Close-up of the cocaine bricks.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9069e7bdca8ab751149efe5d6a797adc?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=208&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -103,11 +109,18 @@
           "reactKey": "qld-104671820-1",
           "synopsis": "Police have made the largest cocaine seizure in Australian history following an investigation into a transnational organised crime syndicate accused of conspiring to import more than two tonnes of the drug into Australia.",
           "title": {
-            "children": "Thirteen people charged over largest cocaine seizure in Australian history"
+            "children": "Police say one of 11 men charged over Australia's largest ever cocaine seizure is vice president of Comanchero's Brisbane chapter "
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
