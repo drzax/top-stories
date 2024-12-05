@@ -437,7 +437,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104686108",
           "imagePosition": {
@@ -447,8 +453,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "NSW Premier Chris Minns speaks to the media during a press conference at Rosehill Gardens Racecourse December 7, 2023",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/494e645097bebf6fa453d421c324aa76?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "An older man wearing a suit gives a press conference on a humid, cloudy day",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cf5cab4d64852cfbbde93588c31e3bd?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -462,7 +468,14 @@
           "title": {
             "children": "Chris Minns says referral to corruption watchdog over Rosehill development 'completely unsubstantiated'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -559,7 +572,7 @@
           "reactKey": "vic-104686560-1",
           "synopsis": "Australian woman Donna Nelson has been found guilty of trafficking drugs into Japan. Here is how the two-year saga unfolded and what happens next.",
           "title": {
-            "children": "How a Perth grandma's online romance landed her in a Japanese jail for six years"
+            "children": "Japanese court finds Donna Nelson guilty, but also a victim"
           },
           "imageContainerClassNames": []
         }
@@ -900,7 +913,7 @@
           "reactKey": "vic-104620578-1",
           "synopsis": "Adeline is a cheeky seven-year-old but her epilepsy has left her brain damaged, and the NDIS won't help, leaving her family desperate for access to therapies that could help her.",
           "title": {
-            "children": "Families of children with epilepsy tell of uphill battle to get NDIS funding for a condition that's not considered a disability"
+            "children": "Epilepsy fails NDIS funding criteria because it's not considered a disability, and families are suffering"
           },
           "imageContainerClassNames": []
         }
@@ -997,9 +1010,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-12-05/asx-markets-business-live-news/104687286",
           "video": null,
           "reactKey": "vic-104687286-1",
-          "synopsis": "The local share market is likely to open slightly higher, near record highs, while the Australian dollar fell as low as 64 US cents overnight. Follow live.",
+          "synopsis": "The Australian share market has begun its day with very small gains, despite US tech stocks pushing Wall Street to fresh records, while the Australian dollar fell as low as 64 US cents overnight. Follow live.",
           "title": {
-            "children": "Tech stocks drive S&P 500 and Nasdaq to new record highs, ASX to rise slightly"
+            "children": "ASX rises slightly, tech stocks drive Wall Street to new record highs"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -1010,19 +1023,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "138483",
+              "date": "2024-12-05T00:08:58.000Z",
+              "title": "Australian dollar at seven-month low"
+            },
+            {
               "id": "138475",
               "date": "2024-12-04T23:39:34.000Z",
               "title": "Mining and energy stocks weigh on market, ASX opens relatively flat"
             },
             {
-              "id": "138464",
-              "date": "2024-12-04T22:13:44.000Z",
-              "title": "Woolworths CEO apologises as strike impact spreads to bottle shops"
-            },
-            {
-              "id": "138456",
-              "date": "2024-12-04T21:02:30.000Z",
-              "title": "Australia would be in recession without rising public spending, but we might have lower interest rates"
+              "id": "138470",
+              "date": "2024-12-04T23:03:42.000Z",
+              "title": "Regulator ASIC puts insurers 'on notice' over claims handling"
             }
           ]
         }
