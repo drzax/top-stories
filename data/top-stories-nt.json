@@ -502,7 +502,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104700032",
           "imagePosition": {
@@ -527,7 +533,14 @@
           "title": {
             "children": "Sydney train delays likely despite injunction blocking industrial action"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -715,9 +728,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-12-09/asx-markets-business-news-live-updates/104699986",
           "video": null,
           "reactKey": "nt-104699986-1",
-          "synopsis": "Wall Street ended the week with another record close, but the ASX is unlikely to follow suit with subdued trading expected ahead of tomorrow's RBA rates decision. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "synopsis": "Wall Street ended the week with another record close, but the ASX didn't follow suit with subdued trading ahead of tomorrow's RBA rates decision. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "ANZ's new CEO, ASX to slip despite record Wall St close"
+            "children": "ANZ's new CEO, ASX slips despite record Wall St close"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -728,6 +741,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "139403",
+              "date": "2024-12-09T00:21:04.000Z",
+              "title": "University of Melbourne wage theft bill tops $72 million"
+            },
+            {
               "id": "139397",
               "date": "2024-12-08T23:45:16.000Z",
               "title": "ASX slides 0.5% on opening, ANZ down 1.8% after CEO announcement"
@@ -736,11 +754,6 @@
               "id": "139374",
               "date": "2024-12-08T21:46:34.000Z",
               "title": "New ANZ CEO to start with a $2.5 million salary"
-            },
-            {
-              "id": "139361",
-              "date": "2024-12-08T21:02:18.000Z",
-              "title": "ASX set to slip despite another record Wall Street close"
             }
           ]
         }
