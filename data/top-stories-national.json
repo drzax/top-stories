@@ -198,11 +198,6 @@
           },
           "liveBlogKeyEvents": [
             {
-              "id": "139809",
-              "date": "2024-12-10T22:33:34.000Z",
-              "title": "Could the Syrian insurgence renew the country's human rights record?"
-            },
-            {
               "id": "139807",
               "date": "2024-12-10T22:29:46.000Z",
               "title": "US Navy vessels fall under attack near Yemen"
@@ -211,6 +206,11 @@
               "id": "139798",
               "date": "2024-12-10T21:48:08.000Z",
               "title": "Could the Syrian insurgence renew the country's human rights record?"
+            },
+            {
+              "id": "139787",
+              "date": "2024-12-10T21:01:51.000Z",
+              "title": "Could Syrian rebels be delisted as a terror organisation in some countries?"
             }
           ]
         }
@@ -218,7 +218,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104710858",
           "imagePosition": {
@@ -243,7 +249,14 @@
           "title": {
             "children": "Car set alight, houses vandalised with anti-Israel graffiti in Sydney"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
