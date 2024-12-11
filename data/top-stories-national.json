@@ -73,10 +73,16 @@
           "uri": "coremedia://article/104710274"
         },
         {
+          "uri": "coremedia://article/104711612"
+        },
+        {
           "uri": "coremedia://article/104707688"
         },
         {
           "uri": "coremedia://article/104701158"
+        },
+        {
+          "uri": "coremedia://article/104712766"
         },
         {
           "uri": "coremedia://article/104705852"
@@ -88,22 +94,16 @@
           "uri": "coremedia://article/104711400"
         },
         {
-          "uri": "coremedia://article/104712766"
+          "uri": "coremedia://article/104643018"
         },
         {
-          "uri": "coremedia://article/104643018"
+          "uri": "coremedia://article/104710916"
         },
         {
           "uri": "coremedia://article/104711256"
         },
         {
-          "uri": "coremedia://article/104709836"
-        },
-        {
           "uri": "coremedia://article/104710476"
-        },
-        {
-          "uri": "coremedia://article/104710916"
         },
         {
           "uri": "coremedia://article/104679164"
@@ -186,7 +186,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104710858",
           "imagePosition": {
@@ -209,9 +215,16 @@
           "reactKey": "national-104710858-1",
           "synopsis": "NSW Police is investigating after a car was set alight and multiple houses were sprayed with anti-Israel graffiti at Woollahra in Sydney's east.",
           "title": {
-            "children": "Sydney anti-Israel graffiti a 'hate crime', premier says"
+            "children": "Prime Minister Anthony Albanese speaks about Sydney anti-Israel graffiti"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -787,6 +800,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104711612",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A Tasmanian aboriginal elder wearing  a yellow t-shirt with the aboriginal flag on it.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a61f6fa66a3b5bf33877632f1a3aa164?impolicy=wcms_crop_resize&cropH=1932&cropW=2897&xPos=1265&yPos=21&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-12-11/jim-everett-aboriginal-elder-convicted-protesting-colonial-court/104711612"
+          },
+          "contentUri": "coremedia://article/104711612",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/jim-everett-aboriginal-elder-convicted-protesting-colonial-court/104711612",
+          "video": null,
+          "reactKey": "national-104711612-1",
+          "synopsis": "Tasmanian Aboriginal elder Jim Everett again refused attendance at a court hearing where he was convicted on multiple charges. He agreed to pay fines relating to 'social laws' but continues protesting the court's jurisdiction over him. ",
+          "title": {
+            "children": "Aboriginal elder agrees to pay fine but snubs 'colonial court' fee "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104707688",
           "imagePosition": {
             "mobile": "right",
@@ -840,6 +884,36 @@
           "synopsis": "As Australians gear up for the holiday season, new research reveals the growing environmental cost of global tourism.",
           "title": {
             "children": "Desire for travel driving a surge in emissions, researchers say"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104712766",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25279e4de47362a84b502223a55fc6e0?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-12-11/mmorpg-naoki-yoshida-ff-xiv-rich-lambert-elder-scrolls-online/104545670"
+          },
+          "contentUri": "coremedia://article/104712766",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/mmorpg-naoki-yoshida-ff-xiv-rich-lambert-elder-scrolls-online/104545670",
+          "video": null,
+          "reactKey": "national-104712766-1",
+          "synopsis": "With sweeping legislation banning children from social media, these massive multiplayer communities have taken another path to provide a wholesome online space.",
+          "title": {
+            "children": "These online communities show you can keep people safe without bans"
           },
           "imageContainerClassNames": []
         }
@@ -942,36 +1016,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104712766",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25279e4de47362a84b502223a55fc6e0?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-12-11/mmorpg-naoki-yoshida-ff-xiv-rich-lambert-elder-scrolls-online/104545670"
-          },
-          "contentUri": "coremedia://article/104712766",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/mmorpg-naoki-yoshida-ff-xiv-rich-lambert-elder-scrolls-online/104545670",
-          "video": null,
-          "reactKey": "national-104712766-1",
-          "synopsis": "With sweeping legislation banning children from social media, these massive multiplayer communities have taken another path to provide a wholesome online space.",
-          "title": {
-            "children": "These online communities show you can keep people safe without bans"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104643018",
           "imagePosition": {
             "mobile": "right",
@@ -994,6 +1038,37 @@
           "synopsis": "British nurse and embryologist Jean Purdy was instrumental in the development of IVF in the 1960s, but wasn't officially acknowledged until nearly 40 years after her death. New film Joy tells her story.",
           "title": {
             "children": "Amid huge controversy, these nurses helped develop IVF. This film tells their story"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104710916",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Aerial photograph of a rose garden planted in the shape of an Arabian horse.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e309b0cfcb235c19b0713a33029b31f6?impolicy=wcms_crop_resize&cropH=2832&cropW=4248&xPos=4&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-12-11/horse-shaped-garden-outside-launceston-goes-viral/104648832"
+          },
+          "contentUri": "coremedia://article/104710916",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/horse-shaped-garden-outside-launceston-goes-viral/104648832",
+          "video": null,
+          "reactKey": "national-104710916-1",
+          "synopsis": "When a Facebook group of nearly 2 million Google Earth enthusiasts homed in on a satellite image of an odd garden in northern Tasmania, its creator responded.",
+          "title": {
+            "children": "'Thanks for noticing': Secret garden spotted on Google Earth 25 years after being built"
           },
           "imageContainerClassNames": []
         }
@@ -1034,37 +1109,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104709836",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Illuminated purple and white Telstra Shop signage outside Brisbane CBD store.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6766f6f0576e8de9ef7c582ba2fb1e73?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-12-11/telstra-3-million-fine-triple-zero-outage/104709836"
-          },
-          "contentUri": "coremedia://article/104709836",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/telstra-3-million-fine-triple-zero-outage/104709836",
-          "video": null,
-          "reactKey": "national-104709836-1",
-          "synopsis": "An investigation found the telecommunications company made 473 breaches during a disruption in March, with Telstra's Triple Zero call centre failing to properly transfer calls to emergency services.",
-          "title": {
-            "children": "Telstra slapped with $3 million fine for triple-0 network outage "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104710476",
           "imagePosition": {
             "mobile": "right",
@@ -1087,37 +1131,6 @@
           "synopsis": "The comments come after Ukrainian president Volodymyr Zelenskyy told incoming US President Donald Trump he would be open to talks, but was sceptical Vladimir Putin would want peace.",
           "title": {
             "children": "Ukraine hit by strikes as ally hints peace talks possible within months"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104710916",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Aerial photograph of a rose garden planted in the shape of an Arabian horse.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e309b0cfcb235c19b0713a33029b31f6?impolicy=wcms_crop_resize&cropH=2832&cropW=4248&xPos=4&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-12-11/horse-shaped-garden-outside-launceston-goes-viral/104648832"
-          },
-          "contentUri": "coremedia://article/104710916",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/horse-shaped-garden-outside-launceston-goes-viral/104648832",
-          "video": null,
-          "reactKey": "national-104710916-1",
-          "synopsis": "When a Facebook group of nearly 2 million Google Earth enthusiasts homed in on a satellite image of an odd garden in northern Tasmania, its creator responded.",
-          "title": {
-            "children": "'Thanks for noticing': Secret garden spotted on Google Earth 25 years after being built"
           },
           "imageContainerClassNames": []
         }

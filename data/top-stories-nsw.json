@@ -13,13 +13,13 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/104710882"
+        },
+        {
           "uri": "coremedia://article/104711400"
         },
         {
           "uri": "coremedia://article/104712620"
-        },
-        {
-          "uri": "coremedia://article/104710882"
         },
         {
           "uri": "coremedia://article/104713108"
@@ -84,10 +84,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "104710882",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A car being towed away.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e18a4fcdf6b1856a170387d99df6ec9a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-12-11/woollahra-anti-israel-vandalism-sydney/104710858"
+          },
+          "contentUri": "coremedia://article/104710882",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/woollahra-anti-israel-vandalism-sydney/104710858",
+          "video": null,
+          "reactKey": "nsw-104710882-1",
+          "synopsis": "NSW Police is investigating after a car was set alight and multiple houses were sprayed with anti-Israel graffiti at Woollahra in Sydney's east.",
+          "title": {
+            "children": "Prime Minister Anthony Albanese speaks about Sydney anti-Israel graffiti"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104711400",
           "imagePosition": {
             "mobile": "right",
@@ -97,7 +136,7 @@
           "isMajor": false,
           "image": {
             "altText": "Police cars and officers on a suburban street. Police tape in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd14785a759097ae2f7506f212490998?impolicy=wcms_crop_resize&cropH=1851&cropW=2776&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd14785a759097ae2f7506f212490998?impolicy=wcms_crop_resize&cropH=1851&cropW=2776&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -111,9 +150,7 @@
           "title": {
             "children": "Murder charge expected after woman's body found in Sydney home"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -143,37 +180,6 @@
           "synopsis": "Tests conducted by NSW Health found forever chemicals at levels that exceed Australian drinking water guidelines in a bore water supply at Warialda, about 200 kilometres north of Tamworth.",
           "title": {
             "children": "Free bottled water for residents of NSW town after PFAS discovery"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104710882",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A car being towed away.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e18a4fcdf6b1856a170387d99df6ec9a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-12-11/woollahra-anti-israel-vandalism-sydney/104710858"
-          },
-          "contentUri": "coremedia://article/104710882",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-11/woollahra-anti-israel-vandalism-sydney/104710858",
-          "video": null,
-          "reactKey": "nsw-104710882-1",
-          "synopsis": "NSW Police is investigating after a car was set alight and multiple houses were sprayed with anti-Israel graffiti at Woollahra in Sydney's east.",
-          "title": {
-            "children": "Car set alight, houses vandalised with anti-Israel graffiti in Sydney"
           },
           "imageContainerClassNames": []
         }
