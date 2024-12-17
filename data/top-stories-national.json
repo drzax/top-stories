@@ -314,7 +314,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104737324",
           "imagePosition": {
@@ -339,7 +345,14 @@
           "title": {
             "children": "Second body found near discovery site of woman's remains at Botany"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -974,6 +987,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "140912",
+              "date": "2024-12-17T05:36:01.000Z",
+              "title": "ASX gains 0.8%, breaks losing streak"
+            },
+            {
               "id": "140861",
               "date": "2024-12-17T03:50:19.000Z",
               "title": "House prices to cool more before a 2026 recovery: ANZ"
@@ -982,11 +1000,6 @@
               "id": "140839",
               "date": "2024-12-17T03:04:46.000Z",
               "title": "Consumer watchdog sinks its fangs into Mobil"
-            },
-            {
-              "id": "140814",
-              "date": "2024-12-17T02:13:42.000Z",
-              "title": "ASX 200 gains 0.8%, as banks rise and energy stocks fall"
             }
           ]
         }
@@ -1077,7 +1090,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2024-12-17/dreamworld-ends-human-interaction-with-tigers-gold-coast/104734418",
           "video": null,
           "reactKey": "national-104734418-1",
-          "synopsis": "Dreamworld says its staff will no longer come into direct contact with the animals at its Tiger Island attraction.",
+          "synopsis": "Dreamworld's staff will no longer physically interact with its big cats. ",
           "title": {
             "children": "Dreamworld theme park to end human interaction with tigers after big-cat attack"
           },
@@ -1191,7 +1204,7 @@
           "isMajor": false,
           "image": {
             "altText": "Harry and Meghan wearing sunglasses and smiling and clapping while standing outdoors.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1931045954076bab876c2d5175a0be21?impolicy=wcms_crop_resize&cropH=1701&cropW=2552&xPos=0&yPos=572&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1931045954076bab876c2d5175a0be21?impolicy=wcms_crop_resize&cropH=1701&cropW=2552&xPos=0&yPos=309&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
