@@ -137,7 +137,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104764726",
           "imagePosition": {
@@ -162,7 +168,14 @@
           "title": {
             "children": "'We're taking it off you': Victorian Liberals set to ditch leader"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -408,7 +421,7 @@
           "reactKey": "vic-104764868-1",
           "synopsis": "An Azerbaijan Airlines flight that crashed in Kazakhstan was downed by a Russian air defence system, four sources in Azerbaijan with knowledge of the investigation say.",
           "title": {
-            "children": "Sources claim Azerbaijan Airlines flight downed by Russian air defense system"
+            "children": "Sources claim Azerbaijan Airlines flight downed by Russian air defence system"
           },
           "imageContainerClassNames": []
         }
