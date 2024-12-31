@@ -22,7 +22,7 @@
           "uri": "coremedia://article/104773522"
         },
         {
-          "uri": "coremedia://article/104773526"
+          "uri": "coremedia://article/104773930"
         },
         {
           "uri": "coremedia://article/104774578"
@@ -31,10 +31,7 @@
           "uri": "coremedia://article/104775228"
         },
         {
-          "uri": "coremedia://article/104773930"
-        },
-        {
-          "uri": "coremedia://article/104774566"
+          "uri": "coremedia://article/104773526"
         },
         {
           "uri": "coremedia://article/104775072"
@@ -43,10 +40,13 @@
           "uri": "coremedia://article/104773878"
         },
         {
+          "uri": "coremedia://article/104774144"
+        },
+        {
           "uri": "coremedia://article/104774568"
         },
         {
-          "uri": "coremedia://article/104774144"
+          "uri": "coremedia://article/104774566"
         },
         {
           "uri": "coremedia://article/104774522"
@@ -217,9 +217,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104773526",
+          "id": "104773930",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -227,22 +233,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of sailors hugging each other.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12cc4dacbc17af1532feac78e13f447c?impolicy=wcms_crop_resize&cropH=3674&cropW=5512&xPos=367&yPos=486&width=160&height=107",
+            "altText": "Nick Kyrgios plays a backhand return at the Brisbane International.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97e5fde6fa6d570a931af1c4b3055337?impolicy=wcms_crop_resize&cropH=2408&cropW=3613&xPos=109&yPos=70&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-12-31/sydney-to-hobart-memorial-for-sailors/104773526"
+            "to": "/news/2024-12-31/brisbane-international-united-cup-live-updates-blog/104773930"
           },
-          "contentUri": "coremedia://article/104773526",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/sydney-to-hobart-memorial-for-sailors/104773526",
+          "contentUri": "coremedia://article/104773930",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/brisbane-international-united-cup-live-updates-blog/104773930",
           "video": null,
-          "reactKey": "national-104773526-1",
-          "synopsis": "Families embrace on the Hobart waterfront at a service in memory of two men who died competing in the Sydney to Hobart yacht race.",
+          "reactKey": "national-104773930-1",
+          "synopsis": "A gallant Nick Kyrgios falls to Giovanni Mpetshi Perricard in three gripping sets at the Brisbane International, while world number one Aryna Sabalenka triumphs in her tournament opener. Follow live.",
           "title": {
-            "children": "Memorial service held for sailors who died in Sydney to Hobart"
+            "children": "Kyrgios goes down to rising French star in Brisbane International thriller"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "143064",
+              "date": "2024-12-31T07:25:52.000Z",
+              "title": "Brisbane International: Kyrgios goes down to Mpetshi Perricard"
+            },
+            {
+              "id": "143056",
+              "date": "2024-12-31T06:39:06.000Z",
+              "title": "Brisbane International: Kyrgios levels at a set apiece"
+            },
+            {
+              "id": "143048",
+              "date": "2024-12-31T05:44:28.000Z",
+              "title": "Brisbane International: Kyrgios loses first set"
+            }
+          ]
         }
       },
       {
@@ -310,69 +339,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104773930",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Nick Kyrgios plays a backhand return at the Brisbane International.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97e5fde6fa6d570a931af1c4b3055337?impolicy=wcms_crop_resize&cropH=2408&cropW=3613&xPos=109&yPos=70&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2024-12-31/brisbane-international-united-cup-live-updates-blog/104773930"
-          },
-          "contentUri": "coremedia://article/104773930",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/brisbane-international-united-cup-live-updates-blog/104773930",
-          "video": null,
-          "reactKey": "national-104773930-1",
-          "synopsis": "A gallant Nick Kyrgios falls to Giovanni Mpetshi Perricard in three sets at the Brisbane International, while world number one Aryna Sabalenka triumphs in her tournament opener. Follow live.",
-          "title": {
-            "children": "Kyrgios goes down to rising French star in Brisbane International thriller"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "143064",
-              "date": "2024-12-31T07:25:52.000Z",
-              "title": "Brisbane International: Kyrgios goes down to Mpetshi Perricard"
-            },
-            {
-              "id": "143056",
-              "date": "2024-12-31T06:39:06.000Z",
-              "title": "Brisbane International: Kyrgios levels at a set apiece"
-            },
-            {
-              "id": "143048",
-              "date": "2024-12-31T05:44:28.000Z",
-              "title": "Brisbane International: Kyrgios loses first set"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104774566",
+          "id": "104773526",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -380,20 +349,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Aryna Sabalenka applauds the crowd",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/683440e9e1ac867cc72ce3942453ed06?impolicy=wcms_crop_resize&cropH=3200&cropW=4800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A group of sailors hugging each other.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12cc4dacbc17af1532feac78e13f447c?impolicy=wcms_crop_resize&cropH=3674&cropW=5512&xPos=367&yPos=486&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-12-31/sport-aryna-sabalenka-renata-zarazua/104774566"
+            "to": "/news/2024-12-31/sydney-to-hobart-memorial-for-sailors/104773526"
           },
-          "contentUri": "coremedia://article/104774566",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/sport-aryna-sabalenka-renata-zarazua/104774566",
+          "contentUri": "coremedia://article/104773526",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/sydney-to-hobart-memorial-for-sailors/104773526",
           "video": null,
-          "reactKey": "national-104774566-1",
-          "synopsis": "Aryna Sabalenka's aura overcomes early-season rustiness to continue her fine recent record in Australia as a third Australian Open crown looms.",
+          "reactKey": "national-104773526-1",
+          "synopsis": "Families embrace on the Hobart waterfront at a service in memory of two men who died competing in the Sydney to Hobart yacht race.",
           "title": {
-            "children": "Sabalenka's aura powers her into second round"
+            "children": "Memorial service held for sailors who died in Sydney to Hobart"
           },
           "imageContainerClassNames": []
         }
@@ -465,6 +434,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104774144",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man raises both hands at a lectern",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a25e7aa08d6a312dbbfb89a981ccf4aa?impolicy=wcms_crop_resize&cropH=2369&cropW=3554&xPos=1&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2024-12-31/impeached-south-korean-president-arrest-warrant-martial-law/104774144"
+          },
+          "contentUri": "coremedia://article/104774144",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/impeached-south-korean-president-arrest-warrant-martial-law/104774144",
+          "video": null,
+          "reactKey": "national-104774144-1",
+          "synopsis": "A Seoul court approves an arrest warrant for impeached President Yoon Suk Yeol, who was suspended from parliament earlier this month. ",
+          "title": {
+            "children": "Arrest warrant issued for South Korean president over martial law"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104774568",
           "imagePosition": {
             "mobile": "right",
@@ -496,7 +496,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104774144",
+          "id": "104774566",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -504,20 +504,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man raises both hands at a lectern",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a25e7aa08d6a312dbbfb89a981ccf4aa?impolicy=wcms_crop_resize&cropH=2369&cropW=3554&xPos=1&yPos=0&width=160&height=107",
+            "altText": "Aryna Sabalenka applauds the crowd",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/683440e9e1ac867cc72ce3942453ed06?impolicy=wcms_crop_resize&cropH=3200&cropW=4800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2024-12-31/impeached-south-korean-president-arrest-warrant-martial-law/104774144"
+            "to": "/news/2024-12-31/sport-aryna-sabalenka-renata-zarazua/104774566"
           },
-          "contentUri": "coremedia://article/104774144",
-          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/impeached-south-korean-president-arrest-warrant-martial-law/104774144",
+          "contentUri": "coremedia://article/104774566",
+          "canonicalURL": "https://www.abc.net.au/news/2024-12-31/sport-aryna-sabalenka-renata-zarazua/104774566",
           "video": null,
-          "reactKey": "national-104774144-1",
-          "synopsis": "A Seoul court approves an arrest warrant for impeached President Yoon Suk Yeol, who was suspended from parliament earlier this month. ",
+          "reactKey": "national-104774566-1",
+          "synopsis": "Aryna Sabalenka's aura overcomes early-season rustiness to continue her fine recent record in Australia as a third Australian Open crown looms.",
           "title": {
-            "children": "Arrest warrant issued for South Korean president over martial law"
+            "children": "Sabalenka's aura powers her into second round"
           },
           "imageContainerClassNames": []
         }
