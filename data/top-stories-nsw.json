@@ -16,19 +16,19 @@
           "uri": "coremedia://article/104796894"
         },
         {
-          "uri": "coremedia://article/104796808"
+          "uri": "coremedia://article/104796818"
         },
         {
-          "uri": "coremedia://article/104750438"
+          "uri": "coremedia://article/104796808"
         },
         {
           "uri": "coremedia://article/104796444"
         },
         {
-          "uri": "coremedia://article/104637064"
+          "uri": "coremedia://article/104750438"
         },
         {
-          "uri": "coremedia://article/104788808"
+          "uri": "coremedia://article/104637064"
         },
         {
           "uri": "coremedia://article/104794418"
@@ -55,7 +55,7 @@
           "uri": "coremedia://article/104794058"
         },
         {
-          "uri": "coremedia://article/104787346"
+          "uri": "coremedia://article/104788808"
         },
         {
           "uri": "coremedia://article/104787892"
@@ -81,7 +81,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -93,8 +99,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Hadi Nazari was reported missing in the Kosciuszko National Park on Boxing Day",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f17e535f1dec0d3e1bdcd7e8cb3a5f43?impolicy=wcms_crop_resize&cropH=1224&cropW=1836&xPos=279&yPos=162&width=862&height=575",
+            "altText": "Two men and a police officer under a Police Rescue Marquee",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15caa571700a714b290f0a20e29eb273?impolicy=wcms_crop_resize&cropH=2306&cropW=3459&xPos=675&yPos=587&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -106,11 +112,42 @@
           "reactKey": "nsw-104796894-1",
           "synopsis": "The 23-year-old university student from Melbourne, who was missing in dense bushland in the NSW Snowy Mountains since Boxing Day, has been found alive.",
           "title": {
-            "children": "Breaking: 'Incredible outcome' as missing hiker Hadi Nazari found alive after 13 days in dense bushland"
+            "children": "'Incredible outcome' as missing hiker Hadi Nazari found alive after 13 days in dense bushland"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104796818",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Police rescue vehicles parked at the foothills of dense wilderness",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/03e5c179013ecae2eee07e2ddafd1985?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-08/nsw-missing-hiker-hadi-nazari-found-timeline/104796818"
+          },
+          "contentUri": "coremedia://article/104796818",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/nsw-missing-hiker-hadi-nazari-found-timeline/104796818",
+          "video": null,
+          "reactKey": "nsw-104796818-1",
+          "synopsis": "From setting off for a hike with friends to being winched to safety by emergency services and into the arms of loved ones — here's how the disappearance and discovery of Hadi Nazari played out over an agonising two-week period.",
+          "title": {
+            "children": "Timeline of the search for student found after 13 days in bush"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -140,37 +177,6 @@
           "synopsis": "A study on fruit flies completed by researchers with Macquarie University suggests that genetic modification of male mosquitoes could help minimise the spread of illnesses linked with the insects.",
           "title": {
             "children": "'Toxic male technique' could reduce female mosquito population by poisoning them during sex"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104750438",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Drinks and snacks on a table in an office environment, people in office attire in the background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f66bbe50e0522dad40a8ffc91b3f5d57?impolicy=wcms_crop_resize&cropH=2021&cropW=3032&xPos=274&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-08/nsw-council-mayor-councillors-purchasing-alcohol-ratepayers/104750438"
-          },
-          "contentUri": "coremedia://article/104750438",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/nsw-council-mayor-councillors-purchasing-alcohol-ratepayers/104750438",
-          "video": null,
-          "reactKey": "nsw-104750438-1",
-          "synopsis": "Ratepayers are footing the alcohol bill for NSW councillors' post-meeting drinks despite the state government's best practice policy excluding it.",
-          "title": {
-            "children": "Ratepayers slugged for NSW council alcohol purchases"
           },
           "imageContainerClassNames": []
         }
@@ -211,6 +217,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104750438",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Drinks and snacks on a table in an office environment, people in office attire in the background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f66bbe50e0522dad40a8ffc91b3f5d57?impolicy=wcms_crop_resize&cropH=2021&cropW=3032&xPos=274&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-08/nsw-council-mayor-councillors-purchasing-alcohol-ratepayers/104750438"
+          },
+          "contentUri": "coremedia://article/104750438",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/nsw-council-mayor-councillors-purchasing-alcohol-ratepayers/104750438",
+          "video": null,
+          "reactKey": "nsw-104750438-1",
+          "synopsis": "Ratepayers are footing the alcohol bill for NSW councillors' post-meeting drinks despite the state government's best practice policy excluding it.",
+          "title": {
+            "children": "Ratepayers slugged for NSW council alcohol purchases"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104637064",
           "imagePosition": {
             "mobile": "right",
@@ -233,37 +270,6 @@
           "synopsis": "Four men including the landowner laid down Lapstone's red brick kerbs and they haven't changed in 70 years. ",
           "title": {
             "children": "In this suburb west of Sydney, the kerbs are brick instead of concrete"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104788808",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A swarm of black fish part to making way for a grey shark swimming through.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ffe2a7d9f09a9f7091a0a829011819cf?impolicy=wcms_crop_resize&cropH=2732&cropW=4098&xPos=390&yPos=80&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-08/how-to-reduce-shark-bite-risk-ocean-swimming-surfing-fishing/104788808"
-          },
-          "contentUri": "coremedia://article/104788808",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/how-to-reduce-shark-bite-risk-ocean-swimming-surfing-fishing/104788808",
-          "video": null,
-          "reactKey": "nsw-104788808-1",
-          "synopsis": "Shark attacks have steadily risen over time as more people enter the water, but one shark researcher says the likelihood of being bitten is still \"exceptionally low\".",
-          "title": {
-            "children": "Not all shark attacks are random and you can take steps to reduce risk"
           },
           "imageContainerClassNames": []
         }
@@ -521,7 +527,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104787346",
+          "id": "104788808",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -529,20 +535,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a global weather graph with the words la nina written over it",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/867acd68600901996bb6730545573b18?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=106&yPos=0&width=160&height=107",
+            "altText": "A swarm of black fish part to making way for a grey shark swimming through.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ffe2a7d9f09a9f7091a0a829011819cf?impolicy=wcms_crop_resize&cropH=2732&cropW=4098&xPos=390&yPos=80&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-07/australia-la-nina-could-be-back-summer-wet-weather/104787346"
+            "to": "/news/2025-01-08/how-to-reduce-shark-bite-risk-ocean-swimming-surfing-fishing/104788808"
           },
-          "contentUri": "coremedia://article/104787346",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-07/australia-la-nina-could-be-back-summer-wet-weather/104787346",
+          "contentUri": "coremedia://article/104788808",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/how-to-reduce-shark-bite-risk-ocean-swimming-surfing-fishing/104788808",
           "video": null,
-          "reactKey": "nsw-104787346-1",
-          "synopsis": "The current edition of La Niña is not playing by the rule book — for only the second time in 75 years its onset has arrived in the middle of summer.",
+          "reactKey": "nsw-104788808-1",
+          "synopsis": "Shark attacks have steadily risen over time as more people enter the water, but one shark researcher says the likelihood of being bitten is still \"exceptionally low\".",
           "title": {
-            "children": "La Niña conditions underway in unusual summer appearance"
+            "children": "Not all shark attacks are random and you can take steps to reduce risk"
           },
           "imageContainerClassNames": []
         }
