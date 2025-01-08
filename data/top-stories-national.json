@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104796756"
+          "uri": "coremedia://article/104796894"
+        },
+        {
+          "uri": "coremedia://article/104795538"
         },
         {
           "uri": "coremedia://article/104794984"
-        },
-        {
-          "uri": "coremedia://article/104796682"
         },
         {
           "uri": "coremedia://article/104794690"
@@ -34,7 +34,7 @@
           "uri": "coremedia://article/104795584"
         },
         {
-          "uri": "coremedia://article/104794514"
+          "uri": "coremedia://article/104796874"
         },
         {
           "uri": "coremedia://article/104794614"
@@ -112,7 +112,40 @@
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104796756",
+          "id": "104796894",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Hadi Nazari was reported missing in the Kosciuszko National Park on Boxing Day",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f17e535f1dec0d3e1bdcd7e8cb3a5f43?impolicy=wcms_crop_resize&cropH=1224&cropW=1836&xPos=279&yPos=162&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-08/missing-hiker-hadi-nazari-found-kosciuszko-national-park/104796682"
+          },
+          "contentUri": "coremedia://article/104796894",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/missing-hiker-hadi-nazari-found-kosciuszko-national-park/104796682",
+          "video": null,
+          "reactKey": "national-104796894-1",
+          "synopsis": "The 23-year-old university student from Melbourne, who was missing in dense bushland in the NSW Snowy Mountains since Boxing Day, has been found alive.",
+          "title": {
+            "children": "Breaking: Missing hiker Hadi Nazari found alive in Kosciuszko National Park"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104795538",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -121,23 +154,21 @@
           "isMajor": false,
           "image": {
             "altText": "Zuckerberg Albanese Trump composite",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ff84d5600077143bca513bf63f59143?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ff84d5600077143bca513bf63f59143?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-01-08/albanese-defends-social-media-ban-zuckerberg-embraces-trump/104795538"
           },
-          "contentUri": "coremedia://article/104796756",
+          "contentUri": "coremedia://article/104795538",
           "canonicalURL": "https://www.abc.net.au/news/2025-01-08/albanese-defends-social-media-ban-zuckerberg-embraces-trump/104795538",
           "video": null,
-          "reactKey": "national-104796756-1",
+          "reactKey": "national-104795538-1",
           "synopsis": "Prime Minister Anthony Albanese has defended his social media policies after the Meta chief pledged to work with Trump to fight government \"censorship\".",
           "title": {
             "children": "Albanese defends teen social media ban after Zuckerberg's Trump embrace"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -167,37 +198,6 @@
           "synopsis": "Social media giant Meta has announced an Elon Musk-inspired solution to replace its independent fact-checking model on its platforms. Community Notes has been praised by its creator, but how effective is at curbing misinformation?",
           "title": {
             "children": "Meta wants regular people to curb falsehoods on Facebook. Here's how it will work"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104796682",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Hadi Nazari was reported missing in the Kosciuszko National Park on Boxing Day",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f17e535f1dec0d3e1bdcd7e8cb3a5f43?impolicy=wcms_crop_resize&cropH=1224&cropW=1836&xPos=279&yPos=162&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-08/missing-hiker-hadi-nazari-found-kosciuszko-national-park/104796682"
-          },
-          "contentUri": "coremedia://article/104796682",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/missing-hiker-hadi-nazari-found-kosciuszko-national-park/104796682",
-          "video": null,
-          "reactKey": "national-104796682-1",
-          "synopsis": "A 23-year-old bushwalker missing in the NSW Snowy Mountains since Boxing Day has been found alive.",
-          "title": {
-            "children": "Missing hiker Hadi Nazari found alive in Kosciuszko National Park"
           },
           "imageContainerClassNames": []
         }
@@ -329,9 +329,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104794514",
+          "id": "104796874",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -339,20 +345,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Smoke rises from a wildfire burning near Pacific Palisades on the west side of Los Angeles during a weather driven windstorm.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cfcd4c84f72be283d5ace8639f7515fa?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=80&yPos=0&width=160&height=107",
+            "altText": "An aerial shot of a chopper dropping water on an orange fire ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd13d46670a2ec856f55ec4d351b9553?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-08/los-angeles-residents-flee-wildfire/104794358"
+            "to": "/news/2025-01-08/evacution-order-in-los-angeles-palisades-wildfire-live-updates/104796690"
           },
-          "contentUri": "coremedia://article/104794514",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/los-angeles-residents-flee-wildfire/104794358",
+          "contentUri": "coremedia://article/104796874",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-08/evacution-order-in-los-angeles-palisades-wildfire-live-updates/104796690",
           "video": null,
-          "reactKey": "national-104794514-1",
-          "synopsis": "A fast-moving wildfire in Los Angeles, whipping up by \"life threatening\" winds, has burned buildings and sparked evacuations.",
+          "reactKey": "national-104796874-1",
+          "synopsis": "A fast-moving wildfire in Los Angeles has destroyed homes and sparked several evacuations. Follow live. ",
           "title": {
-            "children": "Thousands of LA residents under evacuation orders as wind drives blaze"
+            "children": "Thousands evacuated as Los Angeles wildfire continues to rage"
           },
           "imageContainerClassNames": []
         }
@@ -586,6 +592,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "144059",
+              "date": "2025-01-08T05:45:12.000Z",
+              "title": "ASX ends on a high as core inflation eases"
+            },
+            {
               "id": "144056",
               "date": "2025-01-08T05:33:30.000Z",
               "title": "Which industries are hiring?"
@@ -594,11 +605,6 @@
               "id": "144052",
               "date": "2025-01-08T03:43:22.000Z",
               "title": "More prices growing by less than the RBA target than by more"
-            },
-            {
-              "id": "144051",
-              "date": "2025-01-08T02:19:48.000Z",
-              "title": "Mining stocks drive ASX higher, Nvidia sell-off weighs on local tech stocks"
             }
           ]
         }
