@@ -58,7 +58,7 @@
           "uri": "coremedia://article/104807106"
         },
         {
-          "uri": "coremedia://article/104804180"
+          "uri": "coremedia://article/104809208"
         },
         {
           "uri": "coremedia://article/104738498"
@@ -578,9 +578,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104804180",
+          "id": "104809208",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -588,22 +594,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Qantas staff and passengers deal with the aftermath of an emergency landing in Geraldton.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2718bea9615009778f1ebb3331907c10?impolicy=wcms_crop_resize&cropH=1996&cropW=2994&xPos=60&yPos=0&width=160&height=107",
+            "altText": "Finances generic",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/198be9bad1b6dcb52df6052cc1f96162?impolicy=wcms_crop_resize&cropH=191&cropW=287&xPos=27&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-10/geraldton-qantas-flight-emergency-perth-bound-wa/104804180"
+            "to": "/news/2025-01-13/asx-markets-business-news-live-updates/104809208"
           },
-          "contentUri": "coremedia://article/104804180",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-10/geraldton-qantas-flight-emergency-perth-bound-wa/104804180",
+          "contentUri": "coremedia://article/104809208",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-13/asx-markets-business-news-live-updates/104809208",
           "video": null,
-          "reactKey": "wa-104804180-1",
-          "synopsis": "Passengers said they were told to prepare for an emergency landing after engine issues hit a Perth-bound flight from Geraldton this morning.",
+          "reactKey": "wa-104809208-1",
+          "synopsis": "The ASX is set for a sharp sell-off after US jobs data crunched Wall Street, while the Aussie dollar hit lows last seen in 2020. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "Perth-bound Qantas flight makes urgent landing in Geraldton"
+            "children": "Australian dollar near five-year low, ASX to fall"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "145159",
+              "date": "2025-01-12T21:01:11.000Z",
+              "title": "Aussie dollar at lowest point in almost five years"
+            },
+            {
+              "id": "145157",
+              "date": "2025-01-12T20:45:27.000Z",
+              "title": "Wall St stumbles on jobs data, ASX set to follow"
+            }
+          ]
         }
       },
       {
