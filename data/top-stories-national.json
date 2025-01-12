@@ -52,7 +52,7 @@
           "uri": "coremedia://article/104809120"
         },
         {
-          "uri": "coremedia://article/104809216"
+          "uri": "coremedia://article/104809208"
         },
         {
           "uri": "coremedia://article/104792524"
@@ -62,6 +62,9 @@
         },
         {
           "uri": "coremedia://article/104809848"
+        },
+        {
+          "uri": "coremedia://article/104809216"
         },
         {
           "uri": "coremedia://article/104793018"
@@ -76,13 +79,13 @@
           "uri": "coremedia://article/104808784"
         },
         {
-          "uri": "coremedia://article/104808496"
-        },
-        {
           "uri": "coremedia://article/104805776"
         },
         {
           "uri": "coremedia://article/104809754"
+        },
+        {
+          "uri": "coremedia://article/104808496"
         },
         {
           "uri": "coremedia://article/104716726"
@@ -107,9 +110,6 @@
         },
         {
           "uri": "coremedia://article/104773968"
-        },
-        {
-          "uri": "coremedia://article/104805230"
         },
         {
           "uri": "coremedia://article/104808460"
@@ -536,9 +536,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104809216",
+          "id": "104809208",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -546,22 +552,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A closed road outside the sign for the Fogg Dam Conservation Reserve",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad2fde8608d0ce2f60693de82a59223b?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-12/man-dead-in-light-plane-crash-south-east-of-darwin/104809216"
+            "to": "/news/2025-01-13/asx-markets-business-news-live-updates/104809208"
           },
-          "contentUri": "coremedia://article/104809216",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-12/man-dead-in-light-plane-crash-south-east-of-darwin/104809216",
+          "contentUri": "coremedia://article/104809208",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-13/asx-markets-business-news-live-updates/104809208",
           "video": null,
-          "reactKey": "national-104809216-1",
-          "synopsis": "A man has died and a woman is in hospital after a light aircraft crashed into the Fogg Dam recreational area south-east of Darwin.",
+          "reactKey": "national-104809208-1",
+          "synopsis": "The ASX is set for a sharp sell-off after US jobs data crunched Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "Man dies in light plane crash south-east of Darwin"
+            "children": " Wall Street sell off to spread to ASX"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "145157",
+              "date": "2025-01-12T20:45:27.000Z",
+              "title": "Wall St stumbles on jobs data, ASX set to follow"
+            }
+          ]
         }
       },
       {
@@ -652,6 +671,37 @@
           "synopsis": "In Melbourne's outer suburbs, social isolation can be an issue, but dedicated community members are doing their best to help residents stay connected through volunteer-run events like a weekly coffee club.",
           "title": {
             "children": "Melbourne retiree doing her best to tackle loneliness"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104809216",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A closed road outside the sign for the Fogg Dam Conservation Reserve",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad2fde8608d0ce2f60693de82a59223b?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-12/man-dead-in-light-plane-crash-south-east-of-darwin/104809216"
+          },
+          "contentUri": "coremedia://article/104809216",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-12/man-dead-in-light-plane-crash-south-east-of-darwin/104809216",
+          "video": null,
+          "reactKey": "national-104809216-1",
+          "synopsis": "A man has died and a woman is in hospital after a light aircraft crashed into the Fogg Dam recreational area south-east of Darwin.",
+          "title": {
+            "children": "Man dies in light plane crash south-east of Darwin"
           },
           "imageContainerClassNames": []
         }
@@ -785,37 +835,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104808496",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "US Special Counsel Jack Smith looks down, holding a brown leather file as he stands at a podium in a business suit.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b89af80ee0fd86aebaf497b5dd515531?impolicy=wcms_crop_resize&cropH=2278&cropW=3417&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-12/trump-prosecutor-jack-smith-resigns-doj-election/104808496"
-          },
-          "contentUri": "coremedia://article/104808496",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-12/trump-prosecutor-jack-smith-resigns-doj-election/104808496",
-          "video": null,
-          "reactKey": "national-104808496-1",
-          "synopsis": "Jack Smith resigns after pursuing cases against Trump on charges of trying to overturn his 2020 election defeat, and mishandling classified documents.",
-          "title": {
-            "children": "Trump prosecutor Jack Smith resigns after submitting DOJ report"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104805776",
           "imagePosition": {
             "mobile": "right",
@@ -869,6 +888,37 @@
           "synopsis": "Country music is having a real moment, and these local acts will show Tamworth crowds that the Australian scene is as strong as any.",
           "title": {
             "children": "If you're heading to Tamworth, don't miss these Aussie artists"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104808496",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "US Special Counsel Jack Smith looks down, holding a brown leather file as he stands at a podium in a business suit.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b89af80ee0fd86aebaf497b5dd515531?impolicy=wcms_crop_resize&cropH=2278&cropW=3417&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-12/trump-prosecutor-jack-smith-resigns-doj-election/104808496"
+          },
+          "contentUri": "coremedia://article/104808496",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-12/trump-prosecutor-jack-smith-resigns-doj-election/104808496",
+          "video": null,
+          "reactKey": "national-104808496-1",
+          "synopsis": "Jack Smith resigns after pursuing cases against Trump on charges of trying to overturn his 2020 election defeat, and mishandling classified documents.",
+          "title": {
+            "children": "Trump prosecutor Jack Smith resigns after submitting DOJ report"
           },
           "imageContainerClassNames": []
         }
@@ -1121,43 +1171,6 @@
           "synopsis": "Nick Kyrgios wants transparency, Novak Djokovic thinks there's a doping double standard in tennis and Jannik Sinner is saying very little as his stoush with WADA at the CAS looms large.",
           "title": {
             "children": "'No chance': Why tennis's doping double standard isn't fair and Sinner's case shows it"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/01a8d0b0c0b3f12bf5abd3b64b44c982?impolicy=wcms_crop_resize&cropH=2036&cropW=2036&xPos=0&yPos=0&width=160&height=160",
-              "authorName": "David Taylor"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104805230",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An office worker talks on his phone as he looks the stock board at the Australian Securities Exchange",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b39c9ff9e4aad6d939f9b3859d5ada6?impolicy=wcms_crop_resize&cropH=2006&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-12/stock-market-crash-evidence-of-bubble-wall-st/104805230"
-          },
-          "contentUri": "coremedia://article/104805230",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-12/stock-market-crash-evidence-of-bubble-wall-st/104805230",
-          "video": null,
-          "reactKey": "national-104805230-1",
-          "synopsis": "It's widely accepted the US stock market, AKA Wall Street, is currently overpriced or overvalued.",
-          "title": {
-            "children": "Evidence is building of a Wall Street investment 'bubble' with implications for Australia"
           },
           "imageContainerClassNames": []
         }
