@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104822952"
+          "uri": "coremedia://article/104823200"
+        },
+        {
+          "uri": "coremedia://article/104821862"
         },
         {
           "uri": "coremedia://article/104820966"
@@ -23,9 +26,6 @@
         },
         {
           "uri": "coremedia://article/104819238"
-        },
-        {
-          "uri": "coremedia://article/104818212"
         },
         {
           "uri": "coremedia://article/104819480"
@@ -108,11 +108,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104822952",
+          "id": "104823200",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Children walk through a rubble-strewn street pictured from inside a truck filled with bedding",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f08e912baf322e09a7efe8edb22e00dd?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-16/gaza-ceasefire-deal-announcement-live-updates/104815190"
+          },
+          "contentUri": "coremedia://article/104823200",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/gaza-ceasefire-deal-announcement-live-updates/104815190",
+          "video": null,
+          "reactKey": "national-104823200-1",
+          "synopsis": "Israeli PM Benjamin Netanyahu denies reports his country and Hamas have agreed to a complex ceasefire deal that will see hostilities in Gaza end and hostages and prisoners released in stages. Follow live.",
+          "title": {
+            "children": "Hamas, Israel 'reach ceasefire deal' after 15 months of war"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104821862",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -121,23 +160,21 @@
           "isMajor": false,
           "image": {
             "altText": "A storm cloud approaching the Blue Mountains.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/29cc1b7274eb9f7bf75773459006a083?impolicy=wcms_crop_resize&cropH=561&cropW=842&xPos=579&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/29cc1b7274eb9f7bf75773459006a083?impolicy=wcms_crop_resize&cropH=561&cropW=842&xPos=579&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-01-15/thousands-without-power-after-wild-weather-nsw/104821862"
           },
-          "contentUri": "coremedia://article/104822952",
+          "contentUri": "coremedia://article/104821862",
           "canonicalURL": "https://www.abc.net.au/news/2025-01-15/thousands-without-power-after-wild-weather-nsw/104821862",
           "video": null,
-          "reactKey": "national-104822952-1",
+          "reactKey": "national-104821862-1",
           "synopsis": "A man has died after a tree fell on his vehicle in the state's Central West. The Bureau of Meteorology predicts very dangerous thunderstorms and wind gusts will continue across parts of the state into Thursday.",
           "title": {
             "children": "Man dies, thousands without power during wild NSW weather"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -229,37 +266,6 @@
           "synopsis": "Soldiers who served alongside Oscar Jenkins in the Ukrainian armed forces say they are convinced their Australian comrade was killed by Russia's military shortly after being captured last year.",
           "title": {
             "children": "Fellow fighters believe Australian killed shortly after capture in Ukraine"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104818212",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Yoon Suk Yeol arrives at the Corruption Investigation Office for High-ranking Officials.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/705587555a109fea680df212cc5db7ea?impolicy=wcms_crop_resize&cropH=502&cropW=753&xPos=0&yPos=5&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-15/police-arrest-impeached-south-korean-president-yoon-suk-yeol/104818212"
-          },
-          "contentUri": "coremedia://article/104818212",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-15/police-arrest-impeached-south-korean-president-yoon-suk-yeol/104818212",
-          "video": null,
-          "reactKey": "national-104818212-1",
-          "synopsis": "South Korean authorities have detained impeached President President Yoon Suk Yeol after an hours-long stand-off. ",
-          "title": {
-            "children": "Korean president detained after hours-long stand-off"
           },
           "imageContainerClassNames": []
         }
