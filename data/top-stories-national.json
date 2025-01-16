@@ -34,10 +34,10 @@
           "uri": "coremedia://article/104823664"
         },
         {
-          "uri": "coremedia://article/104823252"
+          "uri": "coremedia://article/104824488"
         },
         {
-          "uri": "coremedia://article/104824488"
+          "uri": "coremedia://article/104824724"
         },
         {
           "uri": "coremedia://article/104819928"
@@ -46,7 +46,7 @@
           "uri": "coremedia://article/104823788"
         },
         {
-          "uri": "coremedia://article/104822114"
+          "uri": "coremedia://article/104823252"
         },
         {
           "uri": "coremedia://article/104819472"
@@ -64,7 +64,7 @@
           "uri": "coremedia://article/104824124"
         },
         {
-          "uri": "coremedia://article/104783454"
+          "uri": "coremedia://article/104822114"
         },
         {
           "uri": "coremedia://article/104820828"
@@ -79,6 +79,9 @@
           "uri": "coremedia://article/104823154"
         },
         {
+          "uri": "coremedia://article/104783454"
+        },
+        {
           "uri": "coremedia://article/104824346"
         },
         {
@@ -86,9 +89,6 @@
         },
         {
           "uri": "coremedia://article/104795806"
-        },
-        {
-          "uri": "coremedia://article/104823646"
         },
         {
           "uri": "coremedia://article/104823350"
@@ -292,7 +292,13 @@
             "countdowns": null,
             "isLiveMoment": false
           },
-          "liveBlogKeyEvents": []
+          "liveBlogKeyEvents": [
+            {
+              "id": "146319",
+              "date": "2025-01-16T02:39:11.000Z",
+              "title": "NSW government considers fare refunds for commuters"
+            }
+          ]
         }
       },
       {
@@ -327,7 +333,7 @@
           "reactKey": "national-104824168-1",
           "synopsis": "World number eight Alex de Minaur continues his Australian Open campaign against American qualifier Tristan Boyer, while fellow Aussie wildcard Tristan Schoolkate faces defending champion Jannik Sinner. Follow live.",
           "title": {
-            "children": "De Minaur continues Australian Open campaign on Rod Laver Arena"
+            "children": "De Minaur takes to Rod Laver Arena for cruch second round clash"
           },
           "imageContainerClassNames": []
         }
@@ -366,38 +372,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104823252",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A time-lapse photograph showing multiple lightning strikes with large trees in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35c1af57094f7b64fe2bfd07820e6dee?impolicy=wcms_crop_resize&cropH=644&cropW=966&xPos=92&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-16/nsw-wild-weather-storm-sydney/104823252"
-          },
-          "contentUri": "coremedia://article/104823252",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/nsw-wild-weather-storm-sydney/104823252",
-          "video": null,
-          "reactKey": "national-104823252-1",
-          "synopsis": "Significant damage and widespread power outages have swept the state as trees toppled powerlines, fell on homes and destroyed fences.",
-          "title": {
-            "children": "Sydney battered by 'biggest storm' in years, power outages across NSW"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104824488",
           "imagePosition": {
@@ -421,6 +402,44 @@
           "synopsis": "A 34-year-old influencer has been charged with torture, accused of giving a baby unauthorised medicine and posting photos of her to elicit donations.",
           "title": {
             "children": "Influencer charged with torture, accused of giving baby unauthorised medicine"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104824724",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Chris Minns wearing a suit and tie addressed the media",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9f37ea4a956d185b4181de5818e022f?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=58&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-16/nsw-government-sydney-train-fare-refunds-minns-delays/104824724"
+          },
+          "contentUri": "coremedia://article/104824724",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/nsw-government-sydney-train-fare-refunds-minns-delays/104824724",
+          "video": null,
+          "reactKey": "national-104824724-1",
+          "synopsis": "NSW Premier Chris Minns says the government is looking \"very closely\" at giving people their money back but is focused on ending its industrial dispute with the rail union.",
+          "title": {
+            "children": "NSW premier backs train fare refund as Sydney disruptions drag on"
           },
           "imageContainerClassNames": []
         }
@@ -490,15 +509,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "104822114",
+          "id": "104823252",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -506,45 +519,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Group of city workers walking on street",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d75e09618f8390a4310140a1e9e34feb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A time-lapse photograph showing multiple lightning strikes with large trees in the foreground.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35c1af57094f7b64fe2bfd07820e6dee?impolicy=wcms_crop_resize&cropH=644&cropW=966&xPos=92&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-16/asx-markets-business-live-news-thursday-january-16/104822114"
+            "to": "/news/2025-01-16/nsw-wild-weather-storm-sydney/104823252"
           },
-          "contentUri": "coremedia://article/104822114",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/asx-markets-business-live-news-thursday-january-16/104822114",
+          "contentUri": "coremedia://article/104823252",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/nsw-wild-weather-storm-sydney/104823252",
           "video": null,
-          "reactKey": "national-104822114-1",
-          "synopsis": "Australia's unemployment rate rose to 4 per cent in December as more people looked for work, while the local share market has followed Wall Street higher on Thursday. Follow live.",
+          "reactKey": "national-104823252-1",
+          "synopsis": "Significant damage and widespread power outages have swept the state as trees toppled powerlines, fell on homes and destroyed fences.",
           "title": {
-            "children": "Unemployment rate climbs in December, ASX follows Wall St higher"
+            "children": "Sydney battered by 'biggest storm' in years, power outages across NSW"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "146285",
-              "date": "2025-01-16T01:34:38.000Z",
-              "title": "ASX 200 upbeat after jobs data"
-            },
-            {
-              "id": "146268",
-              "date": "2025-01-16T01:18:48.000Z",
-              "title": "Financial markets still betting on a February rate cut"
-            },
-            {
-              "id": "146239",
-              "date": "2025-01-16T00:50:25.000Z",
-              "title": "Is this enough for the RBA to cut interest rates in February?"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -710,9 +700,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104783454",
+          "id": "104822114",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -720,22 +716,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A close-up shot of the District Court of WA in Perth, showing signage on the building's front facade with the court's name.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65fe8c1f0245244b6f0039d340bb4e25?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Group of city workers walking on street",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d75e09618f8390a4310140a1e9e34feb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-16/court-orders-inoteq-to-pay-190k-after-fraudulent-invoice/104783454"
+            "to": "/news/2025-01-16/asx-markets-business-live-news-thursday-january-16/104822114"
           },
-          "contentUri": "coremedia://article/104783454",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/court-orders-inoteq-to-pay-190k-after-fraudulent-invoice/104783454",
+          "contentUri": "coremedia://article/104822114",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/asx-markets-business-live-news-thursday-january-16/104822114",
           "video": null,
-          "reactKey": "national-104783454-1",
-          "synopsis": "In a likely precedent-setting court case involving two companies, a business that received a fraudulent invoice email is ordered to pay costs to an electrical contractor who was hacked.",
+          "reactKey": "national-104822114-1",
+          "synopsis": "Australia's unemployment rate rose to 4 per cent in December as more people looked for work, while the local share market has followed Wall Street higher on Thursday. Follow live.",
           "title": {
-            "children": "Company scammed out of $192k via fake invoice ordered to pay bill"
+            "children": "Unemployment rate climbs in December, ASX follows Wall St higher"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "146285",
+              "date": "2025-01-16T01:34:38.000Z",
+              "title": "ASX 200 upbeat after jobs data"
+            },
+            {
+              "id": "146268",
+              "date": "2025-01-16T01:18:48.000Z",
+              "title": "Financial markets still betting on a February rate cut"
+            },
+            {
+              "id": "146239",
+              "date": "2025-01-16T00:50:25.000Z",
+              "title": "Is this enough for the RBA to cut interest rates in February?"
+            }
+          ]
         }
       },
       {
@@ -806,7 +825,7 @@
           "contentLabels": [
             {
               "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/a3a0b388b78ea672978270a996afa09d?impolicy=wcms_crop_resize&cropH=2667&cropW=2667&xPos=944&yPos=0&width=160&height=160",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/090d595f8559ec8ac924811e8ccd9fbc?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=0&yPos=0&width=160&height=160",
               "authorName": "Claudia Long"
             }
           ],
@@ -864,6 +883,37 @@
           "synopsis": "The Sun-skirter comet C/2024 G3 is visible from the southern hemisphere this week as it makes its second-ever swing around our Sun.",
           "title": {
             "children": "How to see the rare 'Sun-skirter' comet entering our skies this week"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104783454",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close-up shot of the District Court of WA in Perth, showing signage on the building's front facade with the court's name.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/65fe8c1f0245244b6f0039d340bb4e25?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-16/court-orders-inoteq-to-pay-190k-after-fraudulent-invoice/104783454"
+          },
+          "contentUri": "coremedia://article/104783454",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/court-orders-inoteq-to-pay-190k-after-fraudulent-invoice/104783454",
+          "video": null,
+          "reactKey": "national-104783454-1",
+          "synopsis": "In a likely precedent-setting court case involving two companies, a business that received a fraudulent invoice email is ordered to pay costs to an electrical contractor who was hacked.",
+          "title": {
+            "children": "Company scammed out of $192k via fake invoice ordered to pay bill"
           },
           "imageContainerClassNames": []
         }
@@ -957,37 +1007,6 @@
           "synopsis": "Dick Smith's campaign group Nuclear for Australia has paid for the American influencer to visit.",
           "title": {
             "children": "'Just fancy hot rocks': Beauty queen aims to turn tide on nuclear"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104823646",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a woman smiling at the camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8623e274fa7fc9b51884969c8068a314?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=737&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-16/coles-yamanto-stabbing-police-appeal-for-information/104823646"
-          },
-          "contentUri": "coremedia://article/104823646",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-16/coles-yamanto-stabbing-police-appeal-for-information/104823646",
-          "video": null,
-          "reactKey": "national-104823646-1",
-          "synopsis": "A 13-year-old boy who allegedly stabbed a supermarket worker was known to child safety, the ABC understands.",
-          "title": {
-            "children": "Teen who allegedly stabbed woman in 'random' attack known to child safety"
           },
           "imageContainerClassNames": []
         }
