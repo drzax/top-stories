@@ -87,8 +87,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Police outside Yamanto Coles",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac1e8b14d0b4d901ca7884ce659d0a69?impolicy=wcms_crop_resize&cropH=2483&cropW=3724&xPos=20&yPos=0&width=862&height=575",
+            "altText": "a woman smiling at the camera",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8623e274fa7fc9b51884969c8068a314?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=724&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -110,7 +110,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104823682",
           "imagePosition": {
@@ -135,7 +141,14 @@
           "title": {
             "children": "Police investigate death of Queensland man with Down syndrome found weighing 29kg"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
