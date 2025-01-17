@@ -365,6 +365,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "146547",
+              "date": "2025-01-17T00:13:22.000Z",
+              "title": "ASX virtually flat during early trade"
+            },
+            {
               "id": "146524",
               "date": "2025-01-16T23:39:17.000Z",
               "title": "Morningstar analysts back merger of Myer and Premier fashion brands"
@@ -373,11 +378,6 @@
               "id": "146514",
               "date": "2025-01-16T23:21:29.000Z",
               "title": "Glencore declines comment on the Rio Tinto merger rumours"
-            },
-            {
-              "id": "146490",
-              "date": "2025-01-16T22:14:39.000Z",
-              "title": "Afterpay's owner hit with penalty order over fraud and security concerns"
             }
           ]
         }
@@ -632,7 +632,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104828020",
           "imagePosition": {
@@ -657,7 +663,14 @@
           "title": {
             "children": "Home vandalised in anti-Semitic attack used to belong to Jewish leader"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
