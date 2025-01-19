@@ -61,6 +61,9 @@
           "uri": "coremedia://article/104836788"
         },
         {
+          "uri": "coremedia://article/104835514"
+        },
+        {
           "uri": "coremedia://article/104826114"
         },
         {
@@ -70,16 +73,13 @@
           "uri": "coremedia://article/104702042"
         },
         {
-          "uri": "coremedia://article/104604286"
-        },
-        {
           "uri": "coremedia://article/104836202"
         },
         {
-          "uri": "coremedia://article/104811206"
+          "uri": "coremedia://article/104604286"
         },
         {
-          "uri": "coremedia://article/104834424"
+          "uri": "coremedia://article/104811206"
         },
         {
           "uri": "coremedia://article/104835420"
@@ -639,6 +639,61 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "104835514",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Novak Djokovic fires up the Serbian fans at the Australian Open.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89c0745a107a0c81ef52300affe87ca3?impolicy=wcms_crop_resize&cropH=3325&cropW=4987&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-20/australian-open-live-novak-djokovic-tony-jones-alex-de-minaur/104835514"
+          },
+          "contentUri": "coremedia://article/104835514",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-20/australian-open-live-novak-djokovic-tony-jones-alex-de-minaur/104835514",
+          "video": null,
+          "reactKey": "sa-104835514-1",
+          "synopsis": "The Serbian Council of Australia is calling for the resignation of Nine presenter Tony Jones after his comments to fans about Novak Djokovic at the Australian Open. Follow live.",
+          "title": {
+            "children": "Serbian Council calls for Tony Jones's resignation"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "147341",
+              "date": "2025-01-19T23:41:09.000Z",
+              "title": "Serbian community felt 'set up'"
+            },
+            {
+              "id": "147331",
+              "date": "2025-01-19T23:14:04.000Z",
+              "title": "Jones issues apology to Djokovic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "104826114",
@@ -734,37 +789,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104604286",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A big red-brown rock in front of a cloudy sky. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1cbce6c604ec71ed88873aea6e316082?impolicy=wcms_crop_resize&cropH=1997&cropW=3000&xPos=0&yPos=240&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-20/mt-arapiles-plan-triggers-racism-towards-aboriginal-people/104604286"
-          },
-          "contentUri": "coremedia://article/104604286",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-20/mt-arapiles-plan-triggers-racism-towards-aboriginal-people/104604286",
-          "video": null,
-          "reactKey": "sa-104604286-1",
-          "synopsis": "Traditional owners in western Victoria say a draft management plan for Mt Arapiles-Tooan State Park has re-ignited racial abuse and harassment of Aboriginal people online and in the community.",
-          "title": {
-            "children": "Aboriginal people say Mt Arapiles climbing ban has sparked racist backlash"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104836202",
           "imagePosition": {
             "mobile": "right",
@@ -796,6 +820,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104604286",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A big red-brown rock in front of a cloudy sky. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1cbce6c604ec71ed88873aea6e316082?impolicy=wcms_crop_resize&cropH=1997&cropW=3000&xPos=0&yPos=240&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-20/mt-arapiles-plan-triggers-racism-towards-aboriginal-people/104604286"
+          },
+          "contentUri": "coremedia://article/104604286",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-20/mt-arapiles-plan-triggers-racism-towards-aboriginal-people/104604286",
+          "video": null,
+          "reactKey": "sa-104604286-1",
+          "synopsis": "Traditional owners in western Victoria say a draft management plan for Mt Arapiles-Tooan State Park has re-ignited racial abuse and harassment of Aboriginal people online and in the community.",
+          "title": {
+            "children": "Aboriginal people say Mt Arapiles climbing ban has sparked racist backlash"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104811206",
           "imagePosition": {
             "mobile": "right",
@@ -818,37 +873,6 @@
           "synopsis": "A new online tool will help conservationist share and compare novel solutions to climate threats. Its founders hope it will inspire innovation and optimism amid grim global warming metrics. ",
           "title": {
             "children": "New tool has given conservationists hope amid warming climate"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104834424",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Rain falls over a dry red plain.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c85437e9f537abc9923ef6fd3828183?impolicy=wcms_crop_resize&cropH=2720&cropW=4080&xPos=0&yPos=176&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-19/tropical-cyclone-sean-forms-off-north-west-wa-coast/104834424"
-          },
-          "contentUri": "coremedia://article/104834424",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-19/tropical-cyclone-sean-forms-off-north-west-wa-coast/104834424",
-          "video": null,
-          "reactKey": "sa-104834424-1",
-          "synopsis": "Heavy rain is predicted for the Pilbara as a cyclone forms off WA. Weather authorities are warning coastal communities from Port Hedland to Exmouth could be facing strong winds and heavy rain for the next few days.",
-          "title": {
-            "children": "Tropical Cyclone Sean warning upgraded as it travels down WA coast"
           },
           "imageContainerClassNames": []
         }
@@ -897,8 +921,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Wappa Falls on the Sunshine Coast where a man drowned on January 2, 2022. A warning sign can be seen.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9445f2aebb56d4bb663c25adee2b4777?impolicy=wcms_crop_resize&cropH=1870&cropW=2805&xPos=759&yPos=0&width=160&height=107",
+            "altText": "waterfall",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2761f207f7d09e6059fb4f1748f55a2c?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -908,9 +932,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-01-19/wappa-falls-missing-person-search-rescue-fatality/104835496",
           "video": null,
           "reactKey": "sa-104835496-1",
-          "synopsis": "Police say a 17-year-old girl fell at Wappa Falls on Sunday afternoon and a 17-year-old boy who jumped into the water to find her also died.",
+          "synopsis": "Police say a 17-year-old girl went over Wappa Falls on Sunday afternoon and a 17-year-old boy who jumped into the water to find her also died.",
           "title": {
-            "children": "Two teens dead after one falls at waterfall and the other tries to rescue her"
+            "children": "Two teens dead after one goes over waterfall and the other tries to rescue her"
           },
           "imageContainerClassNames": []
         }
@@ -1188,7 +1212,7 @@
           "reactKey": "sa-104836178-1",
           "synopsis": "The third book in the bestselling Empyrean series is finally out tomorrow, but not everyone has bought into the Fourth Wing hype. What can we expect from Onyx Storm and is there anything to the criticism of the series and its author, Rebecca Yarros?",
           "title": {
-            "children": "Equal parts popular and controversial, the next Fourth Wing book is almost here"
+            "children": "Why some people dislike the viral Fourth Wing series and its author"
           },
           "imageContainerClassNames": []
         }
