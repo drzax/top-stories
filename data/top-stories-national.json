@@ -40,10 +40,13 @@
           "uri": "coremedia://article/104844184"
         },
         {
-          "uri": "coremedia://article/104841550"
+          "uri": "coremedia://article/104843202"
         },
         {
           "uri": "coremedia://article/104844652"
+        },
+        {
+          "uri": "coremedia://article/104841550"
         },
         {
           "uri": "coremedia://article/104844876"
@@ -53,9 +56,6 @@
         },
         {
           "uri": "coremedia://article/104816206"
-        },
-        {
-          "uri": "coremedia://article/104843202"
         },
         {
           "uri": "coremedia://video/104803530"
@@ -120,7 +120,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -145,7 +151,7 @@
           "reactKey": "national-104844838-1",
           "synopsis": "A man is charged over an attempt to set fire to a synagogue in Sydney's inner west earlier this month in an attack in which several red swastikas were also graffitied along the front fence.",
           "title": {
-            "children": "Man charged with attempting to set Sydney synagogue on fire"
+            "children": "Police, premier speak after man charged with attempted Sydney synagogue fire"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -246,7 +252,7 @@
           "reactKey": "national-104843990-1",
           "synopsis": "Donald Trump's promised immigration crackdown is starting to take shape this morning, and he steadfastly defended pardoning January 6 offenders in his first official press conference. Follow live.",
           "title": {
-            "children": "Donald Trump defends decision on January 6 pardons"
+            "children": "Donald Trump defends January 6 pardons, announces $500b AI project"
           },
           "imageContainerClassNames": []
         }
@@ -425,9 +431,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104841550",
+          "id": "104843202",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -435,22 +447,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two children raise their hands in a classroom",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/37185bee9d8e5757e45ed500aec96bcb?impolicy=wcms_crop_resize&cropH=1000&cropW=1500&xPos=50&yPos=0&width=160&height=107",
+            "altText": "ASX in Sydney",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e79a64c368a98d65c56f6ccc8821d9?impolicy=wcms_crop_resize&cropH=1675&cropW=2513&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-22/greens-propose-free-public-schooling/104841550"
+            "to": "/news/2025-01-22/asx-markets-business-live-news-january-22-2024/104843202"
           },
-          "contentUri": "coremedia://article/104841550",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-22/greens-propose-free-public-schooling/104841550",
+          "contentUri": "coremedia://article/104843202",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-22/asx-markets-business-live-news-january-22-2024/104843202",
           "video": null,
-          "reactKey": "national-104841550-1",
-          "synopsis": "Public school fees have steadily increased over time, with the Parliamentary Budget Office now estimating a cost of about $500 a year per child, but the Greens are pushing to abolish the expense altogether.",
+          "reactKey": "national-104843202-1",
+          "synopsis": "The Aussie share market has opened higher off the back of six-week highs on Wall Street after Donald Trump did not introduce blanket tariffs as expected. Follow live.",
           "title": {
-            "children": "Greens propose abolishing fees for public schools across Australia"
+            "children": "ASX higher, Trump announces $500b AI fund, Netflix subscribers rise"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "148092",
+              "date": "2025-01-21T20:23:00.000Z",
+              "title": "Market snapshot"
+            },
+            {
+              "id": "148131",
+              "date": "2025-01-21T23:34:21.000Z",
+              "title": "Trump vows to impose tariffs on EU"
+            },
+            {
+              "id": "148128",
+              "date": "2025-01-21T23:22:17.000Z",
+              "title": "ASX opens higher"
+            }
+          ]
         }
       },
       {
@@ -489,6 +524,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104841550",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two children raise their hands in a classroom",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/37185bee9d8e5757e45ed500aec96bcb?impolicy=wcms_crop_resize&cropH=1000&cropW=1500&xPos=50&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-22/greens-propose-free-public-schooling/104841550"
+          },
+          "contentUri": "coremedia://article/104841550",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-22/greens-propose-free-public-schooling/104841550",
+          "video": null,
+          "reactKey": "national-104841550-1",
+          "synopsis": "Public school fees have steadily increased over time, with the Parliamentary Budget Office now estimating a cost of about $500 a year per child, but the Greens are pushing to abolish the expense altogether.",
+          "title": {
+            "children": "Greens propose abolishing fees for public schools across Australia"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104844876",
           "imagePosition": {
             "mobile": "right",
@@ -497,7 +563,7 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A map showing an emergency warning and two watch-and-act warnings for a bushfire in Byford and Karrakup in Perth's south-east.",
+            "altText": "A map showing watch-and-act warnings for a bushfire in Byford and Karrakup in Perth's south-east.",
             "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b6429bdb4a0e8f9827206a17e1e3120?impolicy=wcms_crop_resize&cropH=440&cropW=661&xPos=119&yPos=37&width=160&height=107",
             "imgRatio": "3x2"
           },
@@ -508,7 +574,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-01-22/bushfire-emergency-warning-for-byford-karrakup-in-perth/104844876",
           "video": null,
           "reactKey": "national-104844876-1",
-          "synopsis": "An emergency warning is downgraded for an out-of-control bushfire after it threatened lives and homes in Perth's south-east.",
+          "synopsis": "An emergency warning is downgraded for an out-of-control bushfire after it threatened lives and homes in Byford and Karrakup, as Perth prepares for another sweltering day with a forecast top of 37C.",
           "title": {
             "children": "Threat eases from bushfire in Perth's south-east amid heatwave"
           },
@@ -575,66 +641,6 @@
             "children": "Trump found Xi's 'Made in China' plan 'insulting' but it worked anyway"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104843202",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "ASX in Sydney",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e79a64c368a98d65c56f6ccc8821d9?impolicy=wcms_crop_resize&cropH=1675&cropW=2513&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-22/asx-markets-business-live-news-january-22-2024/104843202"
-          },
-          "contentUri": "coremedia://article/104843202",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-22/asx-markets-business-live-news-january-22-2024/104843202",
-          "video": null,
-          "reactKey": "national-104843202-1",
-          "synopsis": "Wall Street saw record gains overnight after Donald Trump did not introduce blanket tariffs. The US government creates a taskforce to regulate cryptocurrencies. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
-          "title": {
-            "children": "ASX to open higher, Trump overhauls crypto policy "
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "148092",
-              "date": "2025-01-21T20:23:00.000Z",
-              "title": "Market snapshot"
-            },
-            {
-              "id": "148128",
-              "date": "2025-01-21T23:22:17.000Z",
-              "title": "ASX opens higher"
-            },
-            {
-              "id": "148120",
-              "date": "2025-01-21T22:42:11.000Z",
-              "title": "US announces $500bn AI initiative"
-            }
-          ]
         }
       },
       {
@@ -1127,7 +1133,7 @@
           "reactKey": "national-104844986-1",
           "synopsis": "A ridiculous Jack Edwards catch provides a highlight for the Sixers as the Hurricanes secured a spot in the BBL final.",
           "title": {
-            "children": "'Catch of the summer' not enough for Sixers to make Big Bash final"
+            "children": "'Catch of the summer' not enough for Sixers to down Hurricanes"
           },
           "imageContainerClassNames": []
         }
