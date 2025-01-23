@@ -13,16 +13,16 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104851442"
+          "uri": "coremedia://article/104853186"
+        },
+        {
+          "uri": "coremedia://article/104848194"
         },
         {
           "uri": "coremedia://article/104850992"
         },
         {
           "uri": "coremedia://article/104849266"
-        },
-        {
-          "uri": "coremedia://article/104848752"
         },
         {
           "uri": "coremedia://article/104852380"
@@ -114,11 +114,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "104851442",
+          "id": "104853186",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Paula Badosa and Aryna Sabalenka embrace after a match.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c948aa13b0db1de0e402c36b509461e4?impolicy=wcms_crop_resize&cropH=2048&cropW=3072&xPos=723&yPos=46&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-23/australian-open-live-semifinals-aryna-sabalenka-iga-swiatek/104848752"
+          },
+          "contentUri": "coremedia://article/104853186",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-23/australian-open-live-semifinals-aryna-sabalenka-iga-swiatek/104848752",
+          "video": null,
+          "reactKey": "national-104853186-1",
+          "synopsis": "Both the world number one and two are in action today as Aryna Sabalenka and Iga Świątek take to the court for their Australian Open women's semifinals against Paula Badosa and Madison Keys. Follow live",
+          "title": {
+            "children": "Best mates Sabalenka and Badosa fight for first Australian Open final spot"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104848194",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -127,23 +166,21 @@
           "isMajor": false,
           "image": {
             "altText": "cctv image of two people dressed in black hoodies one on a bike outside a synagogue in newtown",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f6992b49a18392d16a4ef7d6b7518906?impolicy=wcms_crop_resize&cropH=357&cropW=536&xPos=0&yPos=44&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f6992b49a18392d16a4ef7d6b7518906?impolicy=wcms_crop_resize&cropH=357&cropW=536&xPos=0&yPos=42&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-01-23/second-man-arrested-over-newtown-synagogue-attack/104848194"
           },
-          "contentUri": "coremedia://article/104851442",
+          "contentUri": "coremedia://article/104848194",
           "canonicalURL": "https://www.abc.net.au/news/2025-01-23/second-man-arrested-over-newtown-synagogue-attack/104848194",
           "video": null,
-          "reactKey": "national-104851442-1",
+          "reactKey": "national-104848194-1",
           "synopsis": "A second man has been arrested over an attempt to set a synagogue on fire in Newtown in Sydney's inner west earlier this month.",
           "title": {
             "children": "Second man arrested over attempt to set Sydney synagogue on fire"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -212,61 +249,6 @@
             "children": "Rebellious states are working to make things tough for Trump"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "104848752",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Paula Badosa and Aryna Sabalenka embrace after a match.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c948aa13b0db1de0e402c36b509461e4?impolicy=wcms_crop_resize&cropH=1724&cropW=2585&xPos=965&yPos=83&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-23/australian-open-live-semifinals-aryna-sabalenka-iga-swiatek/104848752"
-          },
-          "contentUri": "coremedia://article/104848752",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-23/australian-open-live-semifinals-aryna-sabalenka-iga-swiatek/104848752",
-          "video": null,
-          "reactKey": "national-104848752-1",
-          "synopsis": "Both the world number one and two are in action today as Aryna Sabalenka and Iga Świątek take to the court for their Australian Open women's semifinals against Paula Badosa and Madison Keys. Follow live",
-          "title": {
-            "children": "Best mates Sabalenka and Badosa fight for first Australian Open final spot"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "148454",
-              "date": "2025-01-23T08:29:56.000Z",
-              "title": "Emerson Jones is into another final!"
-            },
-            {
-              "id": "148434",
-              "date": "2025-01-23T06:51:36.000Z",
-              "title": "Men's doubles finalists locked in"
-            }
-          ]
         }
       },
       {
@@ -435,6 +417,11 @@
             "isLiveMoment": false
           },
           "liveBlogKeyEvents": [
+            {
+              "id": "148461",
+              "date": "2025-01-23T08:37:08.000Z",
+              "title": "OUT! Georgia Voll is run out!"
+            },
             {
               "id": "148442",
               "date": "2025-01-23T07:58:19.000Z",
