@@ -155,7 +155,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104862888",
           "imagePosition": {
@@ -170,17 +176,30 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-27/article-israel-hamas-ceasefire-latest-270125/104862888"
+            "to": "/news/2025-01-27/live-updates-israel-hamas-ceasefire-latest/104862888"
           },
           "contentUri": "coremedia://article/104862888",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-27/article-israel-hamas-ceasefire-latest-270125/104862888",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-27/live-updates-israel-hamas-ceasefire-latest/104862888",
           "video": null,
           "reactKey": "national-104862888-1",
-          "synopsis": "Israeli Prime Minister Benjamin Netanyahu says civilian Arbel Yehud, soldier Agam Berger and another hostage will be released by Hamas.",
+          "synopsis": "Israeli Prime Minister Benjamin Netanyahu says civilian Arbel Yehud, soldier Agam Berger and another hostage will be released by Hamas. Follow live",
           "title": {
-            "children": "Breaking: Netanyahu says Israeli civilian and soldier will be released by Hamas"
+            "children": "Israel announces hostage deal, will allow Palestinians into northern Gaza"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "149465",
+              "date": "2025-01-26T23:12:16.000Z",
+              "title": "Who is Arbel Yehud?"
+            }
+          ]
         }
       },
       {
