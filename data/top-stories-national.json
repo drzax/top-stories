@@ -43,10 +43,10 @@
           "uri": "coremedia://article/104866978"
         },
         {
-          "uri": "coremedia://article/104864754"
+          "uri": "coremedia://article/104870096"
         },
         {
-          "uri": "coremedia://article/104869970"
+          "uri": "coremedia://article/104864754"
         },
         {
           "uri": "coremedia://article/104870258"
@@ -55,7 +55,7 @@
           "uri": "coremedia://article/104869744"
         },
         {
-          "uri": "coremedia://article/104845164"
+          "uri": "coremedia://article/104870220"
         },
         {
           "uri": "coremedia://video/104803530"
@@ -64,19 +64,25 @@
           "uri": "coremedia://audioepisode/104870150"
         },
         {
+          "uri": "coremedia://article/104845164"
+        },
+        {
+          "uri": "coremedia://article/104869970"
+        },
+        {
           "uri": "coremedia://article/104869430"
         },
         {
           "uri": "coremedia://article/104868418"
         },
         {
+          "uri": "coremedia://article/104870202"
+        },
+        {
           "uri": "coremedia://article/104866198"
         },
         {
           "uri": "coremedia://article/104684648"
-        },
-        {
-          "uri": "coremedia://article/104870202"
         },
         {
           "uri": "coremedia://article/104869848"
@@ -101,12 +107,6 @@
         },
         {
           "uri": "coremedia://article/104868310"
-        },
-        {
-          "uri": "coremedia://article/104866580"
-        },
-        {
-          "uri": "coremedia://article/104868630"
         },
         {
           "uri": "coremedia://article/104863202"
@@ -414,7 +414,7 @@
           "reactKey": "national-104866952-1",
           "synopsis": "Katelynn Clark felt certain her home would burn to the ground when a raging bushfire hit the edge of her rural property on Monday night. ",
           "title": {
-            "children": "Authorities warn against complacency as bushfires in western Victoria burn"
+            "children": "Authorities warn against complacency as western Victoria bushfires grow"
           },
           "imageContainerClassNames": []
         }
@@ -455,6 +455,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104870096",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Caroline Kennedy press club",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b974ff228058baf9a7a6ff5d803c49f3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-29/caroline-kennedy-asks-senate-to-reject-rfk-jr-health-secretary/104870096"
+          },
+          "contentUri": "coremedia://article/104870096",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/caroline-kennedy-asks-senate-to-reject-rfk-jr-health-secretary/104870096",
+          "video": null,
+          "reactKey": "national-104870096-1",
+          "synopsis": "Caroline Kennedy, the former US ambassador to Australia, has urged US senators to reject her cousin's bid to become health secretary.",
+          "title": {
+            "children": "Caroline Kennedy calls RFK Jr a predator ahead of confirmation hearing"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104864754",
           "imagePosition": {
             "mobile": "right",
@@ -477,37 +508,6 @@
           "synopsis": "The Doomsday Clock has been reset by scientists to 89 seconds to midnight - closer than ever before to global catastrophe ",
           "title": {
             "children": "Doomsday Clock closer to midnight amid AI emergence and Russian nuclear threat"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104869970",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A plan sits on the tarmac of an airport being doused by water from cranes after catching alight",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9f69b673fe9a2062e941ecbc55b1271?impolicy=wcms_crop_resize&cropH=1999&cropW=2999&xPos=966&yPos=642&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-29/air-busan-plane-catches-fire-south-korea-gimhae-airport/104869970"
-          },
-          "contentUri": "coremedia://article/104869970",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/air-busan-plane-catches-fire-south-korea-gimhae-airport/104869970",
-          "video": null,
-          "reactKey": "national-104869970-1",
-          "synopsis": "The incident comes in the wake of 179 people dying when a plane skidded off a runway at a different airport in the country last month.",
-          "title": {
-            "children": "Passenger plane catches fire at South Korean airport"
           },
           "imageContainerClassNames": []
         }
@@ -577,9 +577,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104845164",
+          "id": "104870220",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -587,22 +593,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The word 2025 in the shape of a snake on a red background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/373e5d596a7ae5c92595b2171c42c535?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "Two women look at a share price board outside the ASX in Sydney.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f97a81ab1a6e607219490cb7f42b6f74?impolicy=wcms_crop_resize&cropH=2798&cropW=4197&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-01-29/lunar-new-year-of-the-snake-quiz/104845164"
+            "to": "/news/2025-01-29/asx-markets-business-live-news-2024-jan29/104870220"
           },
-          "contentUri": "coremedia://article/104845164",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/lunar-new-year-of-the-snake-quiz/104845164",
+          "contentUri": "coremedia://article/104870220",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/asx-markets-business-live-news-2024-jan29/104870220",
           "video": null,
-          "reactKey": "national-104845164-1",
-          "synopsis": "How much do you know about the Year of the Snake and unique Lunar New Year traditions in Asian countries? Put your knowledge to the test with these 10 questions and see if you're a true Lunar New Year expert!",
+          "reactKey": "national-104870220-1",
+          "synopsis": "A rally on Wall Street is likely to send Australian stocks higher, while the Buerau of Statistics is set to release the December quarter inflation data at 11:30am AEDT. Follow the latest updates in our live blog.",
           "title": {
-            "children": "Get to know the upcoming Year of the Snake with 10 questions"
+            "children": "ASX set to rise ahead of key quarterly inflation data"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "149561",
+              "date": "2025-01-28T20:50:08.000Z",
+              "title": "How low can the Aussie dollar go?"
+            },
+            {
+              "id": "149559",
+              "date": "2025-01-28T20:46:26.000Z",
+              "title": "US tech shares recover from Monday sell-off"
+            },
+            {
+              "id": "149555",
+              "date": "2025-01-28T20:29:43.000Z",
+              "title": "ASX to open higher"
+            }
+          ]
         }
       },
       {
@@ -662,6 +691,68 @@
           "synopsis": "When little-known Chinese company DeepSeek launched its own surprisingly capable artificial intelligence chatbot, the sector panicked. Today, Professor Michael Blumenstein from the Australian Artificial Intelligence Institute at UTS tells us how it could change the entire AI landscape.",
           "title": {
             "children": "ABC News Daily: China's DeepSeek AI has freaked out Wall Street"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104845164",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The word 2025 in the shape of a snake on a red background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/373e5d596a7ae5c92595b2171c42c535?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-29/lunar-new-year-of-the-snake-quiz/104845164"
+          },
+          "contentUri": "coremedia://article/104845164",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/lunar-new-year-of-the-snake-quiz/104845164",
+          "video": null,
+          "reactKey": "national-104845164-1",
+          "synopsis": "How much do you know about the Year of the Snake and unique Lunar New Year traditions in Asian countries? Put your knowledge to the test with these 10 questions and see if you're a true Lunar New Year expert!",
+          "title": {
+            "children": "Get to know the upcoming Year of the Snake with 10 questions"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104869970",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A plan sits on the tarmac of an airport being doused by water from cranes after catching alight",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9f69b673fe9a2062e941ecbc55b1271?impolicy=wcms_crop_resize&cropH=1999&cropW=2999&xPos=966&yPos=642&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-29/air-busan-plane-catches-fire-south-korea-gimhae-airport/104869970"
+          },
+          "contentUri": "coremedia://article/104869970",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/air-busan-plane-catches-fire-south-korea-gimhae-airport/104869970",
+          "video": null,
+          "reactKey": "national-104869970-1",
+          "synopsis": "The incident comes in the wake of 179 people dying when a plane skidded off a runway at a different airport in the country last month.",
+          "title": {
+            "children": "Passenger plane catches fire at South Korean airport"
           },
           "imageContainerClassNames": []
         }
@@ -733,6 +824,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104870202",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Helen poses for a midshot portrait with a gentle smile on her face while wearing a navy jumper, her blonde hair loosely curled.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/980c6a111531494986e646c7b3927885?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=52&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-01-29/how-helen-scheuerer-broke-through-as-a-writer-self-publishing/104820118"
+          },
+          "contentUri": "coremedia://article/104870202",
+          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/how-helen-scheuerer-broke-through-as-a-writer-self-publishing/104820118",
+          "video": null,
+          "reactKey": "national-104870202-1",
+          "synopsis": "Helen Scheuerer could have traditionally published her debut novel, but she decided to self-publish instead. Months later, she quit her day job and never looked back.",
+          "title": {
+            "children": "Australian author self-published her way to the bestseller list"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104866198",
           "imagePosition": {
             "mobile": "right",
@@ -786,37 +908,6 @@
           "synopsis": "Freedom of Information documents show inspectors from Victoria's building watchdog identified dozens of potential issues in an affordable housing block months before the state government finalised its sale. ",
           "title": {
             "children": "Issues identified in affordable rental block before sale settled"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104870202",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Helen poses for a midshot portrait with a gentle smile on her face while wearing a navy jumper, her blonde hair loosely curled.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/980c6a111531494986e646c7b3927885?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=52&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-29/how-helen-scheuerer-broke-through-as-a-writer-self-publishing/104820118"
-          },
-          "contentUri": "coremedia://article/104870202",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-29/how-helen-scheuerer-broke-through-as-a-writer-self-publishing/104820118",
-          "video": null,
-          "reactKey": "national-104870202-1",
-          "synopsis": "Helen Scheuerer could have traditionally published her debut novel, but she decided to self-publish instead. Months later, she quit her day job and never looked back.",
-          "title": {
-            "children": "Australian author self-published her way to the bestseller list"
           },
           "imageContainerClassNames": []
         }
@@ -1065,68 +1156,6 @@
           "synopsis": "An Indiana man who was recently pardoned by US President Donald Trump for his participation in the January 6 riots has been shot and killed by a deputy at a traffic stop. ",
           "title": {
             "children": "January 6 rioter pardoned by Trump shot and killed by police "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104866580",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The tail of a Virgin Australia plane on the tarmac, with other planes lines up behind it.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fce3d568d4cd39f521a579c16881183e?impolicy=wcms_crop_resize&cropH=1997&cropW=3000&xPos=0&yPos=25&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-28/virgin-cancels-darwin-adelaide-return-flights/104866580"
-          },
-          "contentUri": "coremedia://article/104866580",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-28/virgin-cancels-darwin-adelaide-return-flights/104866580",
-          "video": null,
-          "reactKey": "national-104866580-1",
-          "synopsis": "Virgin has confirmed it will \"indefinitely suspend\" its Darwin to Adelaide service, saying it will add more direct flights between the Top End and other capital cities.",
-          "title": {
-            "children": "'Unbelievable': Virgin suspends flights between Darwin and Adelaide"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104868630",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man with short, greying hair – Energy Minister Chris Bowen – stands outdoors and speaks to the media.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cef401125f14821cdc3ec1710273f40?impolicy=wcms_crop_resize&cropH=3326&cropW=4989&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-01-28/chris-bowen-expands-household-electrification-scheme/104868630"
-          },
-          "contentUri": "coremedia://article/104868630",
-          "canonicalURL": "https://www.abc.net.au/news/2025-01-28/chris-bowen-expands-household-electrification-scheme/104868630",
-          "video": null,
-          "reactKey": "national-104868630-1",
-          "synopsis": "The federal government is pushing ahead with its renewable energy investment by expanding a scheme that subsidises property owners who are decarbonising their homes.\n\n \n\n ",
-          "title": {
-            "children": "Funding to electrify homes expanded as Bowen slams 'nuclear fantasy'"
           },
           "imageContainerClassNames": []
         }
