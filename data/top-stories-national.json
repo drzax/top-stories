@@ -31,7 +31,7 @@
           "uri": "coremedia://article/104893440"
         },
         {
-          "uri": "coremedia://article/104890904"
+          "uri": "coremedia://article/104893430"
         },
         {
           "uri": "coremedia://article/104892190"
@@ -46,13 +46,13 @@
           "uri": "coremedia://article/104892800"
         },
         {
-          "uri": "coremedia://article/104893430"
+          "uri": "coremedia://article/104890904"
         },
         {
           "uri": "coremedia://article/104891926"
         },
         {
-          "uri": "coremedia://article/104889722"
+          "uri": "coremedia://article/104893496"
         },
         {
           "uri": "coremedia://article/104884590"
@@ -70,31 +70,31 @@
           "uri": "coremedia://article/104893590"
         },
         {
-          "uri": "coremedia://article/104890768"
+          "uri": "coremedia://article/104893618"
+        },
+        {
+          "uri": "coremedia://article/104889722"
         },
         {
           "uri": "coremedia://article/104893340"
         },
         {
-          "uri": "coremedia://article/104893608"
-        },
-        {
           "uri": "coremedia://article/104891340"
         },
         {
-          "uri": "coremedia://article/104893186"
+          "uri": "coremedia://article/104893608"
         },
         {
           "uri": "coremedia://article/104893488"
         },
         {
-          "uri": "coremedia://article/104892040"
+          "uri": "coremedia://article/104893186"
+        },
+        {
+          "uri": "coremedia://article/104890768"
         },
         {
           "uri": "coremedia://article/104892016"
-        },
-        {
-          "uri": "coremedia://article/104883438"
         },
         {
           "uri": "coremedia://article/104890254"
@@ -109,7 +109,7 @@
           "uri": "coremedia://article/104889606"
         },
         {
-          "uri": "coremedia://article/104878384"
+          "uri": "coremedia://article/104883136"
         },
         {
           "uri": "coremedia://article/104887206"
@@ -241,9 +241,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-02-04/donald-trump-tariffs-spark-trade-war-mexico-canada-china-eu/104893392",
           "video": null,
           "reactKey": "national-104893392-1",
-          "synopsis": "Canada, China and the European Union vow to hit back at Donald Trump's hefty tariffs .",
+          "synopsis": "China and the European Union vow to hit back at Donald Trump's hefty tariffs after Mexico and Canada won reprieves.",
           "title": {
-            "children": "Trump pulls back from brink with Mexico as Canada and China brace for trade war"
+            "children": "Trump pulls back from brink with Mexico and Canada as China braces for trade war"
           },
           "imageContainerClassNames": []
         }
@@ -325,9 +325,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104890904",
+          "id": "104893430",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -335,22 +341,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Close up of red and green numbers on ASX board",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/781e1c2ff4241dc8ababd50f29492dd9?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "altText": "Australian gold and silver coins on top of Australian notes.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac24e2453f2b0db07f7ecd22d60406fd?impolicy=wcms_crop_resize&cropH=505&cropW=757&xPos=41&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/asx-reporting-season-company-profits-dividends/104890904"
+            "to": "/news/2025-02-04/asx-markets-business-live-news-4-feb-2025/104893430"
           },
-          "contentUri": "coremedia://article/104890904",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/asx-reporting-season-company-profits-dividends/104890904",
+          "contentUri": "coremedia://article/104893430",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/asx-markets-business-live-news-4-feb-2025/104893430",
           "video": null,
-          "reactKey": "national-104890904-1",
-          "synopsis": "Hundreds of Australian companies are set reveal how much money they have earned or lost against the backdrop of major uncertainty from Trump's America.",
+          "reactKey": "national-104893430-1",
+          "synopsis": "Australian shares look set to recover from Monday's steep plunge, after US stocks close off their lows, and Mexico and Canada get a one-month pause on tariffs. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "Will stocks justify their high valuations? We're about to find out"
+            "children": "Aussie dollar regains ground as Trump's Canada, Mexico tariffs paused"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "151604",
+              "date": "2025-02-03T21:53:34.000Z",
+              "title": "Trudeau says Trump will pause Canada tariffs for at least 30 days"
+            },
+            {
+              "id": "151596",
+              "date": "2025-02-03T21:31:04.000Z",
+              "title": "Trump's tariff 'Jenga' targeting China could pull the whole trade structure down"
+            },
+            {
+              "id": "151579",
+              "date": "2025-02-03T20:28:16.000Z",
+              "title": "Aussie dollar regains ground as greenback sensitive to tariffs"
+            }
+          ]
         }
       },
       {
@@ -480,15 +509,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "104893430",
+          "id": "104890904",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -496,45 +519,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man yells into a telephone headpiece while standing in front of a screen showing market information",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/efdcada8285bf7097cc788c27f276fd4?impolicy=wcms_crop_resize&cropH=456&cropW=688&xPos=277&yPos=67&width=160&height=107",
+            "altText": "Close up of red and green numbers on ASX board",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/781e1c2ff4241dc8ababd50f29492dd9?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/asx-markets-business-live-news-4-feb-2025/104893430"
+            "to": "/news/2025-02-04/asx-reporting-season-company-profits-dividends/104890904"
           },
-          "contentUri": "coremedia://article/104893430",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/asx-markets-business-live-news-4-feb-2025/104893430",
+          "contentUri": "coremedia://article/104890904",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/asx-reporting-season-company-profits-dividends/104890904",
           "video": null,
-          "reactKey": "national-104893430-1",
-          "synopsis": "Australian shares look set to recover from Monday's steep plunge, as US stocks regain some of their early losses, as Mexico gets a one-month pause on tariffs. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "reactKey": "national-104890904-1",
+          "synopsis": "Hundreds of Australian companies are set reveal how much money they have earned or lost against the backdrop of major uncertainty from Trump's America.",
           "title": {
-            "children": "Wall Street claws back ground on Trump's Mexico tariff pause"
+            "children": "Will stocks justify their high valuations? We're about to find out"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "151604",
-              "date": "2025-02-03T21:53:34.000Z",
-              "title": "Trudeau says Trump will pause Canada tariffs for at least 30 days"
-            },
-            {
-              "id": "151596",
-              "date": "2025-02-03T21:31:04.000Z",
-              "title": "Trump's tariff 'Jenga' targeting China could pull the whole trade structure down"
-            },
-            {
-              "id": "151579",
-              "date": "2025-02-03T20:28:16.000Z",
-              "title": "Aussie dollar regains ground as greenback sensitive to tariffs"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -573,7 +573,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104889722",
+          "id": "104893496",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -581,20 +581,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman holds a $50 note and two $20 notes for a story about superannuation.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6d971ce65d619d93e268d43901123?impolicy=wcms_crop_resize&cropH=1971&cropW=2948&xPos=34&yPos=0&width=160&height=107",
+            "altText": "Soldiers load a portable howitzer.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25b50257c4d26d091f6dfaf945f2c0d6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/when-should-you-consider-voluntary-contributions-to-super/104889722"
+            "to": "/news/2025-02-04/trump-wants-ukraine-rare-earths-in-exchange-for-military-aid/104893496"
           },
-          "contentUri": "coremedia://article/104889722",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/when-should-you-consider-voluntary-contributions-to-super/104889722",
+          "contentUri": "coremedia://article/104893496",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/trump-wants-ukraine-rare-earths-in-exchange-for-military-aid/104893496",
           "video": null,
-          "reactKey": "national-104889722-1",
-          "synopsis": "Topping up your super can boost your retirement savings, but with so many competing financial priorities, how do you know when it's the right time to contribute? ",
+          "reactKey": "national-104893496-1",
+          "synopsis": "Donald Trump says he wants \"equalisation\" from Ukraine for \"close to $US300 billion\" in military aid, as outnumbered Ukrainian troops lose ground to Russia.",
           "title": {
-            "children": "When is a good time to start making voluntary contributions to your super? "
+            "children": "Trump wants Ukraine to trade rare earths for military aid"
           },
           "imageContainerClassNames": []
         }
@@ -759,7 +759,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104890768",
+          "id": "104893618",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -767,20 +767,51 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man in a suit speaking into a microphone.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/544f0324fd186b465876a2ba39e69a7b?impolicy=wcms_crop_resize&cropH=3047&cropW=4570&xPos=0&yPos=36&width=160&height=107",
+            "altText": "A man wearing a suit looking sideways with his lips pursed",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0833dacfd293ceb3964f67befbf97078?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/qld-disclosure-laws-jon-krause-australian-honey-ventures/104890768"
+            "to": "/news/2025-02-04/bowen-disappointed-as-queensland-pulls-hydrogen-funding/104893618"
           },
-          "contentUri": "coremedia://article/104890768",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/qld-disclosure-laws-jon-krause-australian-honey-ventures/104890768",
+          "contentUri": "coremedia://article/104893618",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/bowen-disappointed-as-queensland-pulls-hydrogen-funding/104893618",
           "video": null,
-          "reactKey": "national-104890768-1",
-          "synopsis": "A former head of a crime and corruption watchdog was able to push for beekeeping reforms in Queensland without declaring he had just acquired shares in a honey business eyeing deals with beekeepers nationwide.",
+          "reactKey": "national-104893618-1",
+          "synopsis": "It comes as federal parliament prepares to debate plans for green hydrogen production credits.",
           "title": {
-            "children": "The politician, the honey start-up and Queensland's 'bizarre' declaration rules"
+            "children": "Federal energy minister 'disappointed' as Queensland pulls hydrogen funding"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104889722",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman holds a $50 note and two $20 notes for a story about superannuation.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fed6d971ce65d619d93e268d43901123?impolicy=wcms_crop_resize&cropH=1971&cropW=2948&xPos=34&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-04/when-should-you-consider-voluntary-contributions-to-super/104889722"
+          },
+          "contentUri": "coremedia://article/104889722",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/when-should-you-consider-voluntary-contributions-to-super/104889722",
+          "video": null,
+          "reactKey": "national-104889722-1",
+          "synopsis": "Topping up your super can boost your retirement savings, but with so many competing financial priorities, how do you know when it's the right time to contribute? ",
+          "title": {
+            "children": "When is a good time to start making voluntary contributions to your super? "
           },
           "imageContainerClassNames": []
         }
@@ -826,38 +857,23 @@
             "countdowns": null,
             "isLiveMoment": false
           },
-          "liveBlogKeyEvents": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104893608",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "GettyImages-2197380861",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fef36a43ca6321d17b16bd52dcc706cc?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-04/travis-head-and-annabel-sutherland-win-at-allan-border-medal/104893608"
-          },
-          "contentUri": "coremedia://article/104893608",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/travis-head-and-annabel-sutherland-win-at-allan-border-medal/104893608",
-          "video": null,
-          "reactKey": "national-104893608-1",
-          "synopsis": "Annabel Sutherland and Travis Head are named Australia's top cricketers at an awards night missing the country's best men's cricket players.",
-          "title": {
-            "children": "Sutherland claims top gong as Head accepts Allan Border Medal from Sri Lanka"
-          },
-          "imageContainerClassNames": []
+          "liveBlogKeyEvents": [
+            {
+              "id": "151609",
+              "date": "2025-02-03T22:12:48.000Z",
+              "title": "Dutton says he can win the next election"
+            },
+            {
+              "id": "151601",
+              "date": "2025-02-03T21:43:25.000Z",
+              "title": "Tax-free lunch 'the worst, sloppiest policy': PM"
+            },
+            {
+              "id": "151590",
+              "date": "2025-02-03T21:08:12.000Z",
+              "title": "Labor wants to tackle 'big money' but wants a deal with Coalition"
+            }
+          ]
         }
       },
       {
@@ -896,7 +912,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104893186",
+          "id": "104893608",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -904,20 +920,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Wandsworth prison",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/42918f5ccc9f6220811d27876fa94120?impolicy=wcms_crop_resize&cropH=2656&cropW=3984&xPos=0&yPos=0&width=160&height=107",
+            "altText": "GettyImages-2197380861",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fef36a43ca6321d17b16bd52dcc706cc?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/daniel-khalife-sentenced-iran-spying/104893186"
+            "to": "/news/2025-02-04/travis-head-and-annabel-sutherland-win-at-allan-border-medal/104893608"
           },
-          "contentUri": "coremedia://article/104893186",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/daniel-khalife-sentenced-iran-spying/104893186",
+          "contentUri": "coremedia://article/104893608",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/travis-head-and-annabel-sutherland-win-at-allan-border-medal/104893608",
           "video": null,
-          "reactKey": "national-104893186-1",
-          "synopsis": "The 23-year-old escaped from London's Wandsworth Prison by hiding in the undercarriage of a food delivery truck.",
+          "reactKey": "national-104893608-1",
+          "synopsis": "Annabel Sutherland and Travis Head are named Australia's top cricketers at an awards night missing the country's best men's cricket players.",
           "title": {
-            "children": "British ex-soldier who escaped prison and spied for Iran jailed for 14 years"
+            "children": "Sutherland claims top gong as Head accepts Allan Border Medal from Sri Lanka"
           },
           "imageContainerClassNames": []
         }
@@ -958,7 +974,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104892040",
+          "id": "104893186",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -966,20 +982,51 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Kindergarten students raise hands to answer question (good generic)",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d436795234db49ad6a934e3b5ee7ae9b?impolicy=wcms_crop_resize&cropH=666&cropW=1000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Wandsworth prison",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/42918f5ccc9f6220811d27876fa94120?impolicy=wcms_crop_resize&cropH=2656&cropW=3984&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/wa-labor-plan-for-full-time-kindy-explained/104892040"
+            "to": "/news/2025-02-04/daniel-khalife-sentenced-iran-spying/104893186"
           },
-          "contentUri": "coremedia://article/104892040",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/wa-labor-plan-for-full-time-kindy-explained/104892040",
+          "contentUri": "coremedia://article/104893186",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/daniel-khalife-sentenced-iran-spying/104893186",
           "video": null,
-          "reactKey": "national-104892040-1",
-          "synopsis": "Labor says if it returns to office after Western Australia's March 8 election it will introduce free and full-time school-based kindergarten for all four-year-olds. Here's what you need to know.",
+          "reactKey": "national-104893186-1",
+          "synopsis": "The 23-year-old escaped from London's Wandsworth Prison by hiding in the undercarriage of a food delivery truck.",
           "title": {
-            "children": "Everything you need to know about WA Labor's free full-time kindy plan"
+            "children": "British ex-soldier who escaped prison and spied for Iran jailed for 14 years"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104890768",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a suit speaking into a microphone.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/544f0324fd186b465876a2ba39e69a7b?impolicy=wcms_crop_resize&cropH=3047&cropW=4570&xPos=0&yPos=36&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-04/qld-disclosure-laws-jon-krause-australian-honey-ventures/104890768"
+          },
+          "contentUri": "coremedia://article/104890768",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/qld-disclosure-laws-jon-krause-australian-honey-ventures/104890768",
+          "video": null,
+          "reactKey": "national-104890768-1",
+          "synopsis": "A former head of a crime and corruption watchdog was able to push for beekeeping reforms in Queensland without declaring he had just acquired shares in a honey business eyeing deals with beekeepers nationwide.",
+          "title": {
+            "children": "The politician, the honey start-up and Queensland's 'bizarre' declaration rules"
           },
           "imageContainerClassNames": []
         }
@@ -1015,37 +1062,6 @@
           "synopsis": "Kaye Powell is preparing to cut her 99-year-old Reservoir home in half, put it on the back of a truck and transport it almost 100 kilometres away to Malmsbury.",
           "title": {
             "children": "The 100km journey to give a century-old Victorian home a new life"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104883438",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An aerial photo of a large estate on large well-kept lawns, overlooking a marina with docked boats on a sunny day.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/648943aec5cf815d151bad8f80317949?impolicy=wcms_crop_resize&cropH=479&cropW=718&xPos=56&yPos=30&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-04/large-battery-trial-for-sa-towns-to-improve-renewable-energy/104883438"
-          },
-          "contentUri": "coremedia://article/104883438",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/large-battery-trial-for-sa-towns-to-improve-renewable-energy/104883438",
-          "video": null,
-          "reactKey": "national-104883438-1",
-          "synopsis": "Several towns across South Australia will be part of a trial run by the state's electricity distributor to install batteries that it hopes will improve the grid's reliability, increase renewable energy use, and increase the speed at which electric vehicles can be charged.",
-          "title": {
-            "children": "Community battery trial a 'win-win-win' for small towns on end of powerline"
           },
           "imageContainerClassNames": []
         }
@@ -1138,7 +1154,7 @@
           "reactKey": "national-104872328-1",
           "synopsis": "The state government spent $200 million on creating a 'smart freeway' to the city from Perth's northern suburbs, but motorists are yet to be convinced by the new technology. ",
           "title": {
-            "children": "Are Perth's 'smart freeways' really that smart?"
+            "children": "'Backed up': Motorists vent about Perth's new smart freeway"
           },
           "imageContainerClassNames": []
         }
@@ -1179,7 +1195,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104878384",
+          "id": "104883136",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1187,20 +1203,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A young man stands under words saying \"Punter's Politics\".",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b84e66f6ff072b4a39c9c628480623f2?impolicy=wcms_crop_resize&cropH=722&cropW=1083&xPos=20&yPos=0&width=160&height=107",
+            "altText": "A young girl in pigtails and denim overalls sits at a piano with sheet music. Her hands are on the keys as she reads the music.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/912b8cba28b95a865b608e010441184e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=208&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-04/engaging-young-australians-punters-politics/104878384"
+            "to": "/news/2025-02-04/setting-children-up-for-success-when-they-start-learning-music/104883136"
           },
-          "contentUri": "coremedia://article/104878384",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/engaging-young-australians-punters-politics/104878384",
+          "contentUri": "coremedia://article/104883136",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-04/setting-children-up-for-success-when-they-start-learning-music/104883136",
           "video": null,
-          "reactKey": "national-104878384-1",
-          "synopsis": "A former high school teacher's satirical assault on Australian politics and its taxation failures hits home runs with everyday Australians and he has the federal election in his sights.",
+          "reactKey": "national-104883136-1",
+          "synopsis": "Learning music can increase children's capacity for persistence and resilience. Here's how to set them up for success when they start their musical journey.",
           "title": {
-            "children": "Punter's Politics uses satire to re-engage 'ripped off' Australians"
+            "children": "Learning music has many benefits for children. Here's how to set them up for success"
           },
           "imageContainerClassNames": []
         }
