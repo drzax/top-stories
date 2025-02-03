@@ -55,16 +55,13 @@
           "uri": "coremedia://article/104888908"
         },
         {
-          "uri": "coremedia://article/104888386"
+          "uri": "coremedia://article/104888826"
         },
         {
           "uri": "coremedia://article/104889454"
         },
         {
           "uri": "coremedia://article/104890836"
-        },
-        {
-          "uri": "coremedia://article/104888826"
         },
         {
           "uri": "coremedia://article/104881626"
@@ -80,6 +77,9 @@
         },
         {
           "uri": "coremedia://article/104880800"
+        },
+        {
+          "uri": "coremedia://article/104890896"
         },
         {
           "uri": "coremedia://article/104890732"
@@ -154,7 +154,7 @@
           "reactKey": "national-104888470-1",
           "synopsis": "Floodwaters are rising for the third day across parts of north Queensland, with some pockets receiving more than a metre of rain since Saturday. Follow live.\n\n ",
           "title": {
-            "children": "North Queensland deluge records more than six months of rain in three days"
+            "children": "Crocodile warnings as North Queensland gets months of rain in three days"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -195,7 +195,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104889746",
           "imagePosition": {
@@ -218,9 +224,16 @@
           "reactKey": "national-104889746-1",
           "synopsis": "Lawyers for Antoinette Lattouf have revealed private messages between senior ABC executives in Federal Court, arguing the journalist and presenter was fired due to her opinions about the conduct of the Israeli government in Gaza.",
           "title": {
-            "children": "Antoinette Lattouf's lawyers reveal ABC executives' texts in court"
+            "children": "Antoinette Lattouf gives evidence in unfair dismissal case against ABC"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -614,15 +627,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "104888386",
+          "id": "104888826",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -630,45 +637,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man's side profile in shadows with a phone close to his face",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ab5acb00a064a99fc23a49ffa6edaba?impolicy=wcms_crop_resize&cropH=2475&cropW=3712&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A man with a grey beard and black cap and a blonde woman resting her hand on his shoulder smile in a radio studio.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6107d4a460f8b6728eb6488cfd0f4718?impolicy=wcms_crop_resize&cropH=869&cropW=1303&xPos=0&yPos=87&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-03/federal-politics-live-blog-february-03/104888386"
+            "to": "/news/2025-02-03/kyle-sandilands-brain-aneurysm-diagnosis/104888826"
           },
-          "contentUri": "coremedia://article/104888386",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-03/federal-politics-live-blog-february-03/104888386",
+          "contentUri": "coremedia://article/104888826",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-03/kyle-sandilands-brain-aneurysm-diagnosis/104888826",
           "video": null,
-          "reactKey": "national-104888386-1",
-          "synopsis": "A white supremacist group operating entirely online has been slapped with sanctions in an Australian first. Follow live. ",
+          "reactKey": "national-104888826-1",
+          "synopsis": "The radio host has revealed he will undergo brain surgery after being diagnosed with an aneurysm that requires \"immediate attention\". ",
           "title": {
-            "children": "White supremacist network hit with sanctions in antisemitism crackdown"
+            "children": "Kyle Sandilands to undergo urgent brain surgery after aneurysm diagnosis"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "151431",
-              "date": "2025-02-03T03:29:54.000Z",
-              "title": "PM says he begins 2025 with a 'sense of optimism'"
-            },
-            {
-              "id": "151429",
-              "date": "2025-02-03T03:26:45.000Z",
-              "title": "Anthony Albanese is speaking now"
-            },
-            {
-              "id": "151394",
-              "date": "2025-02-03T02:51:34.000Z",
-              "title": "Former Qld premier to step down as ABA boss"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -729,37 +713,6 @@
           "synopsis": "The ongoing pressure of high interest rates and the cost of living has pushed down house prices in some capital cities, opening up the market for first home buyers.",
           "title": {
             "children": "'Buyers' market' opens up in some areas as house prices flatten"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104888826",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man with a grey beard and black cap and a blonde woman resting her hand on his shoulder smile in a radio studio.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6107d4a460f8b6728eb6488cfd0f4718?impolicy=wcms_crop_resize&cropH=869&cropW=1303&xPos=0&yPos=87&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-03/kyle-sandilands-brain-aneurysm-diagnosis/104888826"
-          },
-          "contentUri": "coremedia://article/104888826",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-03/kyle-sandilands-brain-aneurysm-diagnosis/104888826",
-          "video": null,
-          "reactKey": "national-104888826-1",
-          "synopsis": "The radio host has revealed he will undergo brain surgery after being diagnosed with an aneurysm that requires \"immediate attention\". ",
-          "title": {
-            "children": "Kyle Sandilands to undergo urgent brain surgery after aneurysm diagnosis"
           },
           "imageContainerClassNames": []
         }
@@ -915,6 +868,37 @@
           "synopsis": "An extremism researcher says the protracted nature of the recent war has in part contributed to an \"unprecedented\" wave of antisemitic incidents in Australia.",
           "title": {
             "children": "Why Sydney is seeing so many antisemitic attacks of late"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104890896",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Daniielle Collins smiling, holding her hand to her ear, after defeating a qualifier",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e3a1c3e06dafafef7bded0660ceaa8d?impolicy=wcms_crop_resize&cropH=821&cropW=1231&xPos=682&yPos=211&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-03/danielle-collins-takes-bahamas-holiday-after-aus-open/104890896"
+          },
+          "contentUri": "coremedia://article/104890896",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-03/danielle-collins-takes-bahamas-holiday-after-aus-open/104890896",
+          "video": null,
+          "reactKey": "national-104890896-1",
+          "synopsis": "American tennis firebrand Danielle Collins delivers on her pledge to take a vacation in the Bahamas with her Australian Open prize money.",
+          "title": {
+            "children": "Collins takes 'five star vacay' as promised after Aus Open stoush"
           },
           "imageContainerClassNames": []
         }
