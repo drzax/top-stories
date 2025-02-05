@@ -547,7 +547,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104898290",
           "imagePosition": {
@@ -570,9 +576,16 @@
           "reactKey": "wa-104898290-1",
           "synopsis": "The national broadcaster opened its defence in the unlawful dismissal case brought by Antoinette Lattouf, who was taken off air during a short stint at ABC Radio Sydney in late 2023.",
           "title": {
-            "children": "ABC not influenced by outside pressure in Lattouf case, lawyer argues"
+            "children": "ABC managing director giving evidence at Antoinette Lattouf case"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {

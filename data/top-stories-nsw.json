@@ -110,7 +110,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104898290",
           "imagePosition": {
@@ -133,9 +139,16 @@
           "reactKey": "nsw-104898290-1",
           "synopsis": "The national broadcaster opened its defence in the unlawful dismissal case brought by Antoinette Lattouf, who was taken off air during a short stint at ABC Radio Sydney in late 2023.",
           "title": {
-            "children": "ABC not influenced by outside pressure in Lattouf case, lawyer argues"
+            "children": "ABC managing director giving evidence at Antoinette Lattouf case"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -410,7 +423,7 @@
           "canonicalURL": "https://www.abc.net.au/news/rural/2025-02-04/trump-us-tariffs-australian-farmers-export-markets/104891042",
           "video": null,
           "reactKey": "nsw-104891042-1",
-          "synopsis": "There are fears US tariffs could lead to increased competition in key markets for Australian commodities and dampen demand in our biggest markets.\n\n ",
+          "synopsis": "There are fears US tariffs could lead to increased competition in key markets for Australian commodities and dampen demand in our biggest markets.",
           "title": {
             "children": "Australian trade at risk if US tariffs trigger new era of protectionism"
           },
