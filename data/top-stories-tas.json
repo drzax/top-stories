@@ -13,22 +13,22 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/104932508"
+          "uri": "coremedia://article/104933622"
+        },
+        {
+          "uri": "coremedia://article/104930642"
         },
         {
           "uri": "coremedia://article/104931152"
         },
         {
-          "uri": "coremedia://article/104926920"
-        },
-        {
           "uri": "coremedia://article/104931748"
         },
         {
-          "uri": "coremedia://article/104926316"
+          "uri": "coremedia://article/104926920"
         },
         {
-          "uri": "coremedia://article/104926352"
+          "uri": "coremedia://article/104926316"
         },
         {
           "uri": "coremedia://article/104928286"
@@ -117,9 +117,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104932508",
+          "id": "104933622",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -127,17 +133,48 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Drone image from above, of a small town with old buildings.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a957ac4687f96a2f6c9ae7ef8aced36f?impolicy=wcms_crop_resize&cropH=2242&cropW=3363&xPos=315&yPos=0&width=160&height=107",
+            "altText": "Smoke rises above hills behind Rosebery",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3385db2b95a3e9a1e98dd77d797471da?impolicy=wcms_crop_resize&cropH=1856&cropW=2784&xPos=64&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-13/live-bushfires-threatening-communities-on-tasmanias-west-coast/104933340"
+          },
+          "contentUri": "coremedia://article/104933622",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-13/live-bushfires-threatening-communities-on-tasmanias-west-coast/104933340",
+          "video": null,
+          "reactKey": "tas-104933622-1",
+          "synopsis": "Communities on Tasmania's west coast are bracing as bushfires bear down, with several communities on alert. Follow live.",
+          "title": {
+            "children": "Bushfires threatening communities on Tasmania's west coast"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104930642",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Helicopter as seen from Sue Marshall's Pieman Heads shack during the February fires on the west coast of Tasmania",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f36b92b7bdcbc751c44bb1d0cfd7bb72?impolicy=wcms_crop_resize&cropH=1786&cropW=2679&xPos=157&yPos=591&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-02-13/pieman-heads-bushfires-threatens-properties-on-tasmanias-west/104930642"
           },
-          "contentUri": "coremedia://article/104932508",
+          "contentUri": "coremedia://article/104930642",
           "canonicalURL": "https://www.abc.net.au/news/2025-02-13/pieman-heads-bushfires-threatens-properties-on-tasmanias-west/104930642",
           "video": null,
-          "reactKey": "tas-104932508-1",
+          "reactKey": "tas-104930642-1",
           "synopsis": "The Tasmanian town of Zeehan and other coastal communities are in the path of bushfires, with the residents of one tiny town saying they'll take to the beach if things get too bad.",
           "title": {
             "children": "Bushfires bearing down on communities in Tasmania's west"
@@ -181,37 +218,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104926920",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Basslink cable being laid",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/be1dae9173af6f84f503a7fca75043f6?impolicy=wcms_crop_resize&cropH=730&cropW=1097&xPos=0&yPos=134&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-13/basslink-energy-regulator-decision-hydro-tasmania/104926920"
-          },
-          "contentUri": "coremedia://article/104926920",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-13/basslink-energy-regulator-decision-hydro-tasmania/104926920",
-          "video": null,
-          "reactKey": "tas-104926920-1",
-          "synopsis": "A leading energy analyst says the national energy regulator's decision to knock back Basslink's proposal for regulation could threaten Hydro Tasmania's profits and push up energy prices.",
-          "title": {
-            "children": "Basslink owner warns it may have to scoop up Hydro Tasmania's profits instead"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "104931748",
           "imagePosition": {
             "mobile": "right",
@@ -243,6 +249,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104926920",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Basslink cable being laid",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/be1dae9173af6f84f503a7fca75043f6?impolicy=wcms_crop_resize&cropH=730&cropW=1097&xPos=0&yPos=134&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-13/basslink-energy-regulator-decision-hydro-tasmania/104926920"
+          },
+          "contentUri": "coremedia://article/104926920",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-13/basslink-energy-regulator-decision-hydro-tasmania/104926920",
+          "video": null,
+          "reactKey": "tas-104926920-1",
+          "synopsis": "A leading energy analyst says the national energy regulator's decision to knock back Basslink's proposal for regulation could threaten Hydro Tasmania's profits and push up energy prices.",
+          "title": {
+            "children": "Basslink owner warns it may have to scoop up Hydro Tasmania's profits instead"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104926316",
           "imagePosition": {
             "mobile": "right",
@@ -265,37 +302,6 @@
           "synopsis": "A parliamentary inquiry into the importance of Antarctica to Australia's national interests has made 13 recommendations, including increased inspections to ensure other countries are complying with non-militarisation and environmental obligations.\n\n ",
           "title": {
             "children": "Push for more Antarctic inspections to prevent 'militarisation by stealth'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104926352",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with blonde hair and a light pink blazer stands outside a GPs office.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6888d3624ff6583965c9a67f8504ab1c?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=333&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-12/bec-white-steps-down-from-tas-parliament/104926352"
-          },
-          "contentUri": "coremedia://article/104926352",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-12/bec-white-steps-down-from-tas-parliament/104926352",
-          "video": null,
-          "reactKey": "tas-104926352-1",
-          "synopsis": "Former Tasmanian Labor leader Rebecca White officially quits state parliament to allow a recount to happen in time before state MPs return in March.",
-          "title": {
-            "children": "Former Tasmanian Labor leader quits state politics to focus on federal bid"
           },
           "imageContainerClassNames": []
         }
