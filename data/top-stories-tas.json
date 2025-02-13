@@ -779,7 +779,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104932704",
           "imagePosition": {
@@ -804,7 +810,14 @@
           "title": {
             "children": "Commuters face 'unpredictable' Sydney train delays as industrial action continues"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
