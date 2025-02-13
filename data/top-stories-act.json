@@ -433,7 +433,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104933340",
           "imagePosition": {
@@ -448,17 +454,40 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-13/bushfires-threatening-communities-on-tasmanias-west-coast/104933340"
+            "to": "/news/2025-02-13/live-bushfires-threatening-communities-on-tasmanias-west-coast/104933340"
           },
           "contentUri": "coremedia://article/104933340",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-13/bushfires-threatening-communities-on-tasmanias-west-coast/104933340",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-13/live-bushfires-threatening-communities-on-tasmanias-west-coast/104933340",
           "video": null,
           "reactKey": "act-104933340-1",
-          "synopsis": "Communities on Tasmania's west coast are watching the advance of bushfires closely, with light rain providing some relief.",
+          "synopsis": "Communities on Tasmania's west coast are bracing as bushfires bear down, with several communities on alert. Follow live.",
           "title": {
-            "children": "Bushfire threat to communities on Tasmania's west coast"
+            "children": "Bushfires threatening communities on Tasmania's west coast"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "153852",
+              "date": "2025-02-13T09:14:17.000Z",
+              "title": "Zeehan warning level downgraded to Watch and Act"
+            },
+            {
+              "id": "153850",
+              "date": "2025-02-13T08:39:01.000Z",
+              "title": "Remote area crews working hard"
+            },
+            {
+              "id": "153847",
+              "date": "2025-02-13T07:48:20.000Z",
+              "title": "Embers over Zeehan, but crews ready"
+            }
+          ]
         }
       },
       {
