@@ -34,7 +34,7 @@
           "uri": "coremedia://article/104963122"
         },
         {
-          "uri": "coremedia://article/104960638"
+          "uri": "coremedia://article/104964070"
         },
         {
           "uri": "coremedia://article/104936562"
@@ -52,16 +52,22 @@
           "uri": "coremedia://article/104961570"
         },
         {
-          "uri": "coremedia://article/104958718"
+          "uri": "coremedia://article/104960638"
         },
         {
-          "uri": "coremedia://article/104946816"
+          "uri": "coremedia://article/104958718"
         },
         {
           "uri": "coremedia://video/104803530"
         },
         {
           "uri": "coremedia://article/104937326"
+        },
+        {
+          "uri": "coremedia://article/104946816"
+        },
+        {
+          "uri": "coremedia://article/104964066"
         },
         {
           "uri": "coremedia://article/104958916"
@@ -73,10 +79,13 @@
           "uri": "coremedia://article/104962532"
         },
         {
-          "uri": "coremedia://article/104961194"
+          "uri": "coremedia://article/104964018"
         },
         {
-          "uri": "coremedia://article/104964066"
+          "uri": "coremedia://article/104963932"
+        },
+        {
+          "uri": "coremedia://article/104961194"
         },
         {
           "uri": "coremedia://article/104962646"
@@ -88,10 +97,10 @@
           "uri": "coremedia://article/104960864"
         },
         {
-          "uri": "coremedia://article/104959096"
+          "uri": "coremedia://audioepisode/104963988"
         },
         {
-          "uri": "coremedia://article/104963932"
+          "uri": "coremedia://article/104959096"
         },
         {
           "uri": "coremedia://article/104963286"
@@ -101,18 +110,6 @@
         },
         {
           "uri": "coremedia://article/104892752"
-        },
-        {
-          "uri": "coremedia://article/104960206"
-        },
-        {
-          "uri": "coremedia://audioepisode/104963988"
-        },
-        {
-          "uri": "coremedia://article/104949314"
-        },
-        {
-          "uri": "coremedia://article/104959462"
         },
         {
           "uri": "coremedia://article/104962634"
@@ -350,9 +347,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "104960638",
+          "id": "104964070",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -360,22 +363,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A young boy holding plants in a backyard and smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6fc78514eb4071e548b7dc6c52ebc91b?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=268&width=160&height=107",
+            "altText": "ASIO director-general Mike Burgess delivering a speech.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/22ed3b6d7becaa6b47a7b5c07875d971?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-02-20/nsw-premier-chris-minns-joe-massa-northern-beaches-hospital/104960638"
+            "to": "/news/2025-02-21/federal-politics-live-blog-february-21/104964070"
           },
-          "contentUri": "coremedia://article/104960638",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-20/nsw-premier-chris-minns-joe-massa-northern-beaches-hospital/104960638",
+          "contentUri": "coremedia://article/104964070",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/federal-politics-live-blog-february-21/104964070",
           "video": null,
-          "reactKey": "national-104960638-1",
-          "synopsis": "The NSW premier vows to do everything the government can to find answers over the death of Joe Massa, who died after being in the care of Northern Beaches Hospital.",
+          "reactKey": "national-104964070-1",
+          "synopsis": "ASIO is conducting multiple separate investigations into incidents of antisemitism and Islamophobia, spy chief Mark Burgess says.  ",
           "title": {
-            "children": "Premier's promise as 2yo boy dies after 'terrible mistake' by Sydney hospital"
+            "children": "ASIO seeing 'way more antisemitism', spy chief says "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "154597",
+              "date": "2025-02-20T21:34:21.000Z",
+              "title": "ASIO seeing 'way more antisemitism': Mike Burgess"
+            }
+          ]
         }
       },
       {
@@ -545,6 +561,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "154599",
+              "date": "2025-02-20T21:45:18.000Z",
+              "title": "Domain recieves takeover bid from US real estate group"
+            },
+            {
               "id": "154596",
               "date": "2025-02-20T21:27:41.000Z",
               "title": "Losses for US stocks but Wall Street indices close off lows"
@@ -553,13 +574,39 @@
               "id": "154593",
               "date": "2025-02-20T21:09:57.000Z",
               "title": "Insurer QBE lifts profit, raises dividend"
-            },
-            {
-              "id": "154592",
-              "date": "2025-02-20T20:53:50.000Z",
-              "title": "Wesfarmers boss says scrapping penalty rates for some could be 'win-win'"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104960638",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young boy holding plants in a backyard and smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6fc78514eb4071e548b7dc6c52ebc91b?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=268&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-20/nsw-premier-chris-minns-joe-massa-northern-beaches-hospital/104960638"
+          },
+          "contentUri": "coremedia://article/104960638",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-20/nsw-premier-chris-minns-joe-massa-northern-beaches-hospital/104960638",
+          "video": null,
+          "reactKey": "national-104960638-1",
+          "synopsis": "The NSW premier vows to do everything the government can to find answers over the death of Joe Massa, who died after being in the care of Northern Beaches Hospital.",
+          "title": {
+            "children": "Premier's promise as 2yo boy dies after 'terrible mistake' by Sydney hospital"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -589,37 +636,6 @@
           "synopsis": "Canberra is widely considered 'the most renter-friendly' city, but amid constant legislative changes in favour of tenants, that title may be coming at a cost to landlords, with investors leaving the ACT. ",
           "title": {
             "children": "Investors leaving Australia's 'most renter-friendly' city"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104946816",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman's torso, her arms tattooed, with two blue 'overdose bags' hanging off the pockets of her vest. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2768d3f89e3c69dc0db76b4e43c5dfbc?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-21/vancouver-drug-decriminalisation-opioid-crisis/104946816"
-          },
-          "contentUri": "coremedia://article/104946816",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/vancouver-drug-decriminalisation-opioid-crisis/104946816",
-          "video": null,
-          "reactKey": "national-104946816-1",
-          "synopsis": "Facing an \"unprecedented drug crisis\", Vancouver decriminalised drug possession. The laws unleashed a fierce debate as deaths continued to climb.",
-          "title": {
-            "children": "Vancouver decriminalised drugs, but two years on, users are still dying"
           },
           "imageContainerClassNames": []
         }
@@ -681,6 +697,68 @@
           "synopsis": "There are fears millions of people could die from preventable diseases after Donald Trump signed an executive order halting billions of dollars worth of USAID.  ",
           "title": {
             "children": "What Trump's USAID freeze means for the rest of the world"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104946816",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman's torso, her arms tattooed, with two blue 'overdose bags' hanging off the pockets of her vest. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2768d3f89e3c69dc0db76b4e43c5dfbc?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-21/vancouver-drug-decriminalisation-opioid-crisis/104946816"
+          },
+          "contentUri": "coremedia://article/104946816",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/vancouver-drug-decriminalisation-opioid-crisis/104946816",
+          "video": null,
+          "reactKey": "national-104946816-1",
+          "synopsis": "Facing an \"unprecedented drug crisis\", Vancouver decriminalised drug possession. The laws unleashed a fierce debate as deaths continued to climb.",
+          "title": {
+            "children": "Vancouver decriminalised drugs, but two years on, users are still dying"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104964066",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A graphic of a mobile phone showing an image of a dating app on the screen.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4d9d0f08a2495670771ee63681273a0?impolicy=wcms_crop_resize&cropH=1080&cropW=1614&xPos=153&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-21/cosmetic-surgery-butterfly-foundation-australia-statistics/104947156"
+          },
+          "contentUri": "coremedia://article/104964066",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/cosmetic-surgery-butterfly-foundation-australia-statistics/104947156",
+          "video": null,
+          "reactKey": "national-104964066-1",
+          "synopsis": "The study published by the University of South Australia found one in five women are having at least one procedure in their lifetime.",
+          "title": {
+            "children": "Women on dating apps more likely to get cosmetic work, study finds"
           },
           "imageContainerClassNames": []
         }
@@ -783,6 +861,68 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104964018",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Alex de Minaur holds up his hand",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49b38e7559965dfc877fa40745e40543?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-21/alex-de-minaur-loses-to-andrey-rublev-qatar-open/104964018"
+          },
+          "contentUri": "coremedia://article/104964018",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/alex-de-minaur-loses-to-andrey-rublev-qatar-open/104964018",
+          "video": null,
+          "reactKey": "national-104964018-1",
+          "synopsis": "Alex de Minaur had to save seven match points, and earned one of his own, before falling to defeat against his Australian Open conqueror Andrey Rublev at the Qatar Open. ",
+          "title": {
+            "children": "De Minaur battles hard in extraordinary defeat to Rublev"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104963932",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "broken artefacts discovered in an egyptian pharaoh's tomb",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/475c8a88d8fddb15eb49d932c88ac043?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=125&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-02-21/weekly-news-quiz-february-21/104961512"
+          },
+          "contentUri": "coremedia://article/104963932",
+          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/weekly-news-quiz-february-21/104961512",
+          "video": null,
+          "reactKey": "national-104963932-1",
+          "synopsis": "Test yourself with this week's quiz. ",
+          "title": {
+            "children": "Weekly news quiz: The Sims, a royal tomb discovery and fake snow"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104961194",
           "imagePosition": {
             "mobile": "right",
@@ -805,37 +945,6 @@
           "synopsis": "Dozens of Billie Eilish fans have been left without tickets for the Brisbane leg of her Australian tour after they were stolen from their digital wallet.",
           "title": {
             "children": "Billie Eilish fan left heart broken after tickets stolen from digital wallet"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104964066",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A graphic of a mobile phone showing an image of a dating app on the screen.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4d9d0f08a2495670771ee63681273a0?impolicy=wcms_crop_resize&cropH=1080&cropW=1614&xPos=153&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-21/cosmetic-surgery-butterfly-foundation-australia-statistics/104947156"
-          },
-          "contentUri": "coremedia://article/104964066",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/cosmetic-surgery-butterfly-foundation-australia-statistics/104947156",
-          "video": null,
-          "reactKey": "national-104964066-1",
-          "synopsis": "The study published by the University of South Australia found one in five women are having at least one procedure in their lifetime.",
-          "title": {
-            "children": "Women on dating apps more likely to get cosmetic work, study finds"
           },
           "imageContainerClassNames": []
         }
@@ -938,6 +1047,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "104963988",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two men speaking",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b906182b0872951083f4d8593dce42be?impolicy=wcms_crop_resize&cropH=1386&cropW=2079&xPos=8&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/listen/programs/abc-news-daily/what-trumps-shift-to-putin-means-for-europe/104962100"
+          },
+          "contentUri": "coremedia://audioepisode/104963988",
+          "canonicalURL": "https://www.abc.net.au/listen/programs/abc-news-daily/what-trumps-shift-to-putin-means-for-europe/104962100",
+          "video": null,
+          "reactKey": "national-104963988-1",
+          "synopsis": "Donald Trump declared Ukraine had started the war with Russia and labelled its leader Volodymyr Zelenskyy, a dictator.  Samir Puri, director of Chatham House’s centre for global governance and security on how it all unfolded and the consequences that could follow.  ",
+          "title": {
+            "children": "What Trump’s shift to Putin means for Europe"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "104959096",
           "imagePosition": {
             "mobile": "right",
@@ -960,37 +1100,6 @@
           "synopsis": "Students in several Indonesian cities have taken to the streets to protest after Prabowo's government slashed budgets for civil servants and introduced policies that they deemed \"not pro-people\".",
           "title": {
             "children": "Nationwide student protests erupt just four months into Prabowo's presidency"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104963932",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "broken artefacts discovered in an egyptian pharaoh's tomb",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/475c8a88d8fddb15eb49d932c88ac043?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=125&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-21/weekly-news-quiz-february-21/104961512"
-          },
-          "contentUri": "coremedia://article/104963932",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/weekly-news-quiz-february-21/104961512",
-          "video": null,
-          "reactKey": "national-104963932-1",
-          "synopsis": "Test yourself with this week's quiz. ",
-          "title": {
-            "children": "Weekly news quiz: The Sims, a royal tomb discovery and fake snow"
           },
           "imageContainerClassNames": []
         }
@@ -1084,130 +1193,6 @@
           "synopsis": "Tours of Western travellers are due to enter the North Korean border city of Rason today for the first time since borders were closed at the start of the COVID pandemic in early 2020.",
           "title": {
             "children": "First Western tourists to enter North Korea in five years"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104960206",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Woman in graduation gown and hat.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/70d71a25fb8697b6d464dafb3f1580ba?impolicy=wcms_crop_resize&cropH=285&cropW=427&xPos=0&yPos=116&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-20/nsw-teacher-zoe-hodges-pleads-not-guilty-sex-with-student/104960206"
-          },
-          "contentUri": "coremedia://article/104960206",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-20/nsw-teacher-zoe-hodges-pleads-not-guilty-sex-with-student/104960206",
-          "video": null,
-          "reactKey": "national-104960206-1",
-          "synopsis": "Zoe Jade Hodges remains on strict conditional bail ahead of a trial where she is facing allegations of having sex five times with a student under her care.",
-          "title": {
-            "children": "Female teacher pleads not guilty to having sex with NSW schoolboy"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104963988",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two men speaking",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b906182b0872951083f4d8593dce42be?impolicy=wcms_crop_resize&cropH=1386&cropW=2079&xPos=8&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/listen/programs/abc-news-daily/what-trumps-shift-to-putin-means-for-europe/104962100"
-          },
-          "contentUri": "coremedia://audioepisode/104963988",
-          "canonicalURL": "https://www.abc.net.au/listen/programs/abc-news-daily/what-trumps-shift-to-putin-means-for-europe/104962100",
-          "video": null,
-          "reactKey": "national-104963988-1",
-          "synopsis": "Donald Trump declared Ukraine had started the war with Russia and labelled its leader Volodymyr Zelenskyy, a dictator.  Samir Puri, director of Chatham House’s centre for global governance and security on how it all unfolded and the consequences that could follow.  ",
-          "title": {
-            "children": "What Trump’s shift to Putin means for Europe"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104949314",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Bull shark swims over the top of a diver",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/16682df32a6809cc94a62b14a77919b3?impolicy=wcms_crop_resize&cropH=706&cropW=1059&xPos=99&yPos=92&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-21/bull-shark-numbers-out-of-control-queensland-fishing-industry/104949314"
-          },
-          "contentUri": "coremedia://article/104949314",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/bull-shark-numbers-out-of-control-queensland-fishing-industry/104949314",
-          "video": null,
-          "reactKey": "national-104949314-1",
-          "synopsis": "Many millions of dollars of prime-eating fish are being wasted as the number of bull sharks increase dramatically, an experienced Queensland fisherman says.",
-          "title": {
-            "children": "Fishers fear livelihoods and lives are in danger from bull sharks"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "104959462",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman inside a theatre near a couch",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aef965e7c5e7057531c6817ff3a2bf8e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-02-21/fringe-begins-but-art-industry-struggling-outside-of-festival/104959462"
-          },
-          "contentUri": "coremedia://article/104959462",
-          "canonicalURL": "https://www.abc.net.au/news/2025-02-21/fringe-begins-but-art-industry-struggling-outside-of-festival/104959462",
-          "video": null,
-          "reactKey": "national-104959462-1",
-          "synopsis": "It's the busiest time of year for local theatres as Australia's largest arts festival begins. But when the Adelaide Fringe is over, filling seats isn't as easy for the independent arts industry. ",
-          "title": {
-            "children": "Theatres under pressure as cost of living leads to dwindling audiences"
           },
           "imageContainerClassNames": []
         }
