@@ -869,7 +869,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "104965106",
           "imagePosition": {
@@ -892,9 +898,16 @@
           "reactKey": "national-104965106-1",
           "synopsis": "Two students have been suspended from a school in Melbourne's north-west after a number of sexually explicit, AI-generated images of female students were circulated online.",
           "title": {
-            "children": "Two students suspended after schoolgirls targeted by 'misogynistic' deepfakes"
+            "children": "Two Melbourne school students suspended over 'misogynistic' deepfakes"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
