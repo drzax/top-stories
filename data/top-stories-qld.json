@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105001652"
+          "uri": "coremedia://article/105002118"
+        },
+        {
+          "uri": "coremedia://article/105000702"
         },
         {
           "uri": "coremedia://article/104983030"
@@ -72,11 +75,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105001652",
+          "id": "105002118",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -84,24 +93,55 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "man at beach using binoculars",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c725e5390eea912a9a35d400560eef08?impolicy=wcms_crop_resize&cropH=1010&cropW=1516&xPos=74&yPos=110&width=862&height=575",
+            "altText": "A cyclone track map for Tropical Cyclone Alfred.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2dfdc7d3e667b8c1206087f97381d5d2?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=21&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-03/tropical-cyclone-alfred-landfall-thursday-live-updates/105002038"
+          },
+          "contentUri": "coremedia://article/105002118",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-03/tropical-cyclone-alfred-landfall-thursday-live-updates/105002038",
+          "video": null,
+          "reactKey": "qld-105002118-1",
+          "synopsis": "Tropical Cyclone could impact a heavily populated area extending from Bundaberg to south of the border. Follow the live updates.",
+          "title": {
+            "children": "Preparations underway as Cyclone Alfred forecast to make landfall this week"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105000702",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A landscape image of rainy conditions at the beach.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/08a55ea8f010eecf18b3ad564fad3bec?impolicy=wcms_crop_resize&cropH=2812&cropW=4218&xPos=321&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-03-03/tropical-cyclone-alfred-landfall-thursday-powerful-conditions/105000702"
           },
-          "contentUri": "coremedia://article/105001652",
+          "contentUri": "coremedia://article/105000702",
           "canonicalURL": "https://www.abc.net.au/news/2025-03-03/tropical-cyclone-alfred-landfall-thursday-powerful-conditions/105000702",
           "video": null,
-          "reactKey": "qld-105001652-1",
+          "reactKey": "qld-105000702-1",
           "synopsis": "Tropical Cyclone Alfred is expected to make landfall this week, bringing strong winds, tidal surges, heavy rainfall and the potential for \"life-threatening\" flooding.",
           "title": {
-            "children": "Tropical Cyclone Alfred forecast to turn towards southern Queensland coast tomorrow"
+            "children": "Cyclone forecast to turn towards southern Queensland coast tomorrow"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
