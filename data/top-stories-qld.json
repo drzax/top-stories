@@ -13,22 +13,22 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105011242"
+          "uri": "coremedia://article/105011252"
+        },
+        {
+          "uri": "coremedia://article/105007666"
         },
         {
           "uri": "coremedia://article/105004148"
         },
         {
-          "uri": "coremedia://article/105008222"
-        },
-        {
           "uri": "coremedia://article/105007750"
         },
         {
-          "uri": "coremedia://article/105010416"
+          "uri": "coremedia://article/105007094"
         },
         {
-          "uri": "coremedia://article/105007094"
+          "uri": "coremedia://article/105010416"
         },
         {
           "uri": "coremedia://article/105000318"
@@ -78,11 +78,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105011242",
+          "id": "105011252",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A graphic of a cyclone ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76d43f9b087d131520ae75d91f932e29?impolicy=wcms_crop_resize&cropH=994&cropW=1491&xPos=0&yPos=16&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-05/tropical-cyclone-alfred-brisbane-forecast-queensland-nsw-live/105010498"
+          },
+          "contentUri": "coremedia://article/105011252",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-05/tropical-cyclone-alfred-brisbane-forecast-queensland-nsw-live/105010498",
+          "video": null,
+          "reactKey": "qld-105011252-1",
+          "synopsis": "The Bureau of Meteorology says impacts from Tropical Cyclone Alfred will develop today, with the storm likely to hit north of Brisbane sometime tomorrow. ",
+          "title": {
+            "children": "Impacts from cyclone to be felt from today as landfall looms"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105007666",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -91,23 +130,21 @@
           "isMajor": false,
           "image": {
             "altText": "An aerial shot showing a beach ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3057a9797384ff0d8df37c08f35149ab?impolicy=wcms_crop_resize&cropH=1151&cropW=1727&xPos=161&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3057a9797384ff0d8df37c08f35149ab?impolicy=wcms_crop_resize&cropH=1151&cropW=1727&xPos=161&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-03-05/tropical-cyclone-alfred-queensland-nsw-bom/105007666"
           },
-          "contentUri": "coremedia://article/105011242",
+          "contentUri": "coremedia://article/105007666",
           "canonicalURL": "https://www.abc.net.au/news/2025-03-05/tropical-cyclone-alfred-queensland-nsw-bom/105007666",
           "video": null,
-          "reactKey": "qld-105011242-1",
+          "reactKey": "qld-105007666-1",
           "synopsis": "The category 2 cyclone is expected to make landfall between the Gold Coast and Sunshine Coast tomorrow, with damaging wind gusts, storms, and heavy rainfall expected to impact a large warning zone spanning both states. ",
           "title": {
             "children": "PM lands in Brisbane for crisis talks as Tropical Cyclone Alfred tracks closer"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -137,37 +174,6 @@
           "synopsis": "It's the first time many people in south-east Queensland will experience the direct effects of a tropical cyclone, scheduled to make landfall later this week. Here's how you can make sure you're prepared.",
           "title": {
             "children": "Here's what you can do to prepare for Tropical Cyclone Alfred"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105008222",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A surfer rides a huge wave.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d2d9d49a6d91aa7eb9cafa338ad9118d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=232&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-04/tropical-cyclone-alfred-crossing-firmed/105008222"
-          },
-          "contentUri": "coremedia://article/105008222",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-04/tropical-cyclone-alfred-crossing-firmed/105008222",
-          "video": null,
-          "reactKey": "qld-105008222-1",
-          "synopsis": "More than 4 million people are in the firing line of Tropical Cyclone Alfred as it tracks towards the south-east Queensland and northern NSW coast.",
-          "title": {
-            "children": "First official cyclone warning issued for Queensland and NSW"
           },
           "imageContainerClassNames": []
         }
@@ -208,37 +214,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105010416",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A satellite image shows clouds forming a tropical cyclone off the coast of Australia",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64fff6da6c84ca8d45225f6747621a79?impolicy=wcms_crop_resize&cropH=1622&cropW=2433&xPos=22&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-04/satellites-show-tropical-cyclone-alfred-off-brisbane-queenland/105008554"
-          },
-          "contentUri": "coremedia://article/105010416",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-04/satellites-show-tropical-cyclone-alfred-off-brisbane-queenland/105008554",
-          "video": null,
-          "reactKey": "qld-105010416-1",
-          "synopsis": "Weather satellites are capturing the formation and movements of Tropical Cyclone Alfred as it approaches Queensland's south eastern coastline.",
-          "title": {
-            "children": "Satellite images show Tropical Cyclone Alfred bearing down on Queensland coast"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105007094",
           "imagePosition": {
             "mobile": "right",
@@ -261,6 +236,37 @@
           "synopsis": "More sandbags have been distributed across Brisbane than ever before, as south-east Queenslanders prepare for the cyclone to make landfall.",
           "title": {
             "children": "Residents in cyclone impact zone face hours-long queues for sandbags"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105010416",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A satellite image shows clouds forming a tropical cyclone off the coast of Australia",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64fff6da6c84ca8d45225f6747621a79?impolicy=wcms_crop_resize&cropH=1622&cropW=2433&xPos=22&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-04/satellites-show-tropical-cyclone-alfred-off-brisbane-queenland/105008554"
+          },
+          "contentUri": "coremedia://article/105010416",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-04/satellites-show-tropical-cyclone-alfred-off-brisbane-queenland/105008554",
+          "video": null,
+          "reactKey": "qld-105010416-1",
+          "synopsis": "Weather satellites are capturing the formation and movements of Tropical Cyclone Alfred as it approaches Queensland's south eastern coastline.",
+          "title": {
+            "children": "Satellite images show Tropical Cyclone Alfred bearing down on Queensland coast"
           },
           "imageContainerClassNames": []
         }
