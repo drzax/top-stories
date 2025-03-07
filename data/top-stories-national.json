@@ -25,16 +25,16 @@
           "uri": "coremedia://article/105024650"
         },
         {
-          "uri": "coremedia://article/105020014"
+          "uri": "coremedia://externallink/105025456"
         },
         {
           "uri": "coremedia://article/105021336"
         },
         {
-          "uri": "coremedia://article/105008212"
+          "uri": "coremedia://article/105024476"
         },
         {
-          "uri": "coremedia://article/105024476"
+          "uri": "coremedia://article/105008212"
         },
         {
           "uri": "coremedia://article/105024940"
@@ -250,7 +250,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105020014",
+          "id": "105025456",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -258,19 +258,20 @@
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/331c31f5017f63dd09f95df730ccc474?impolicy=wcms_crop_resize&cropH=795&cropW=1193&xPos=0&yPos=0&width=160&height=107",
+            "altText": "An old style microphone with an 'On-Air' light in the background, 3 October 2008 (ABC News: Damien Larkins)",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cf7a8716bbe8f49b7c9e7db612d477d?impolicy=wcms_crop_resize&cropH=560&cropW=840&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-07/cyclone-alfred-wind-speeds-and-rainfall/105020014"
+            "to": "https://reception.abc.net.au/"
           },
-          "contentUri": "coremedia://article/105020014",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-07/cyclone-alfred-wind-speeds-and-rainfall/105020014",
+          "contentUri": "coremedia://externallink/105025456",
+          "canonicalURL": "https://reception.abc.net.au/",
           "video": null,
-          "reactKey": "national-105020014-1",
-          "synopsis": "As Cyclone Alfred approaches the coast, track wind speeds and rainfall totals at key locations in the cyclone zone.",
+          "reactKey": "national-105025456-1",
+          "synopsis": "For the latest on Tropical Cyclone Alfred tune into your ABC Local Radio station wherever you are located.",
           "title": {
-            "children": "Track wind speeds and rainfall live from Cyclone Alfred"
+            "children": "For the latest on Tropical Cyclone Alfred tune into your ABC Local Radio station"
           },
           "imageContainerClassNames": []
         }
@@ -311,37 +312,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105008212",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Star Casino",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/566a1924eba868a339934f49b6dd340e?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-07/star-entertainment-secures-lifeline-will-sell-brisbane-casino/105008212"
-          },
-          "contentUri": "coremedia://article/105008212",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-07/star-entertainment-secures-lifeline-will-sell-brisbane-casino/105008212",
-          "video": null,
-          "reactKey": "national-105008212-1",
-          "synopsis": "Embattled casino group Star Entertainment will stay alive, for now, after securing a $53 million lifeline in return for selling its 50 per cent stake in the new Brisbane casino.",
-          "title": {
-            "children": "Breaking: Star to hand over Brisbane casino to Hong Kong investors in $53m deal"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105024476",
           "imagePosition": {
             "mobile": "right",
@@ -364,6 +334,37 @@
           "synopsis": "Shearing contractor Barry Clark arrived in Sydney on Friday to cheers from Jetstar staff, thanking him for his quick actions to subdue a 17-year-old who allegedly had a shotgun.",
           "title": {
             "children": "Shearer who tackled alleged gun-wielding teen gets hero's welcome"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105008212",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Star Casino",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/566a1924eba868a339934f49b6dd340e?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=2&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-07/star-entertainment-secures-lifeline-will-sell-brisbane-casino/105008212"
+          },
+          "contentUri": "coremedia://article/105008212",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-07/star-entertainment-secures-lifeline-will-sell-brisbane-casino/105008212",
+          "video": null,
+          "reactKey": "national-105008212-1",
+          "synopsis": "Embattled casino group Star Entertainment will stay alive, for now, after securing a $53 million lifeline in return for selling its 50 per cent stake in the new Brisbane casino.",
+          "title": {
+            "children": "Star to hand over Brisbane casino to Hong Kong investors in $53m deal"
           },
           "imageContainerClassNames": []
         }
@@ -409,7 +410,13 @@
             "countdowns": null,
             "isLiveMoment": false
           },
-          "liveBlogKeyEvents": []
+          "liveBlogKeyEvents": [
+            {
+              "id": "157857",
+              "date": "2025-03-07T07:50:07.000Z",
+              "title": "Final teams confirmed, Swans debutant to start as sub"
+            }
+          ]
         }
       },
       {
