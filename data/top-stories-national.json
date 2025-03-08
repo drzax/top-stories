@@ -13,19 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105028810"
+          "uri": "coremedia://article/105028842"
         },
         {
-          "uri": "coremedia://article/105027532"
+          "uri": "coremedia://article/105028124"
+        },
+        {
+          "uri": "coremedia://article/105027344"
         },
         {
           "uri": "coremedia://article/105027890"
         },
         {
           "uri": "coremedia://article/105028038"
-        },
-        {
-          "uri": "coremedia://article/105027344"
         },
         {
           "uri": "coremedia://article/105028688"
@@ -108,11 +108,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105028810",
+          "id": "105028842",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -120,20 +126,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An aerial view of a town flooded with brown water",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe99a2523ee9919b11904e8000ec79c1?impolicy=wcms_crop_resize&cropH=1065&cropW=1598&xPos=1&yPos=0&width=862&height=575",
+            "altText": "A photo of a yacht washed up on a Gold Coast beach.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68ae3b96290134973e157143f9e2a942?impolicy=wcms_crop_resize&cropH=2912&cropW=4368&xPos=8&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-09/tropical-cyclone-alfred-impact-monitored-by-queensland-new-week/105028124"
+            "to": "/news/2025-03-09/sunday-ex-cyclone-alfred-live-blog/105027532"
           },
-          "contentUri": "coremedia://article/105028810",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/tropical-cyclone-alfred-impact-monitored-by-queensland-new-week/105028124",
+          "contentUri": "coremedia://article/105028842",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/sunday-ex-cyclone-alfred-live-blog/105027532",
           "video": null,
-          "reactKey": "national-105028810-1",
-          "synopsis": "Heavy winds blow through large parts of south-east Queensland, bringing down more trees across the region in the wake of ex-Cyclone Alfred.",
+          "reactKey": "national-105028842-1",
+          "synopsis": "The landfall of ex-Tropical Cyclone Alfred has brought powerful winds to Brisbane with the warning rain will increase significantly over coming hours. It comes after destruction, flooding and power outages impacting hundreds of thousands of properties were brought across south-eastern Queensland and northern NSW. Follow live",
           "title": {
-            "children": "Gale-force winds cut more power in wake of Cyclone Alfred"
+            "children": "Overnight storm landfall brings winds, power outages and heavy rain"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -143,15 +149,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105027532",
+          "id": "105028124",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -159,45 +159,53 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A photo of a yacht washed up on a Gold Coast beach.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68ae3b96290134973e157143f9e2a942?impolicy=wcms_crop_resize&cropH=2912&cropW=4368&xPos=8&yPos=0&width=160&height=107",
+            "altText": "An aerial view of a town flooded with brown water",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe99a2523ee9919b11904e8000ec79c1?impolicy=wcms_crop_resize&cropH=1065&cropW=1598&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-09/sunday-ex-cyclone-alfred-live-blog/105027532"
+            "to": "/news/2025-03-09/tropical-cyclone-alfred-impact-monitored-by-queensland-new-week/105028124"
           },
-          "contentUri": "coremedia://article/105027532",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/sunday-ex-cyclone-alfred-live-blog/105027532",
+          "contentUri": "coremedia://article/105028124",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/tropical-cyclone-alfred-impact-monitored-by-queensland-new-week/105028124",
           "video": null,
-          "reactKey": "national-105027532-1",
-          "synopsis": "The landfall of ex-Tropical Cyclone Alfred has brought powerful winds to Brisbane with the warning rain will increase significantly over coming hours. It comes after destruction, flooding and power outages impacting hundreds of thousands of properties were brought across south-eastern Queensland and northern NSW. Follow live",
+          "reactKey": "national-105028124-1",
+          "synopsis": "Heavy winds blow through large parts of south-east Queensland, bringing down more trees across the region in the wake of ex-Cyclone Alfred.",
           "title": {
-            "children": "Overnight storm landfall brings winds, power outages and heavy rain"
+            "children": "Gale-force winds cut more power in wake of Cyclone Alfred"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105027344",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
-          "liveBlogKeyEvents": [
-            {
-              "id": "158527",
-              "date": "2025-03-08T20:06:09.000Z",
-              "title": "Significant water restrictions 'unlikely' implemented"
-            },
-            {
-              "id": "158525",
-              "date": "2025-03-08T19:45:11.000Z",
-              "title": "Will schools stay closed on Monday?"
-            },
-            {
-              "id": "158517",
-              "date": "2025-03-08T18:36:43.000Z",
-              "title": "How did you spend the night as winds lashed Brisbane and beyond?"
-            }
-          ]
+          "isMajor": false,
+          "image": {
+            "altText": "a sign next to the Clarence River at Grafton is half submerged as the river rises after ex-cyclone alfred",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59a0fc73b3d0378b413b002a3fcaeb70?impolicy=wcms_crop_resize&cropH=2570&cropW=3855&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-09/nsw-weather-ex-cyclone-alfred-flood-emergency/105027344"
+          },
+          "contentUri": "coremedia://article/105027344",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/nsw-weather-ex-cyclone-alfred-flood-emergency/105027344",
+          "video": null,
+          "reactKey": "national-105027344-1",
+          "synopsis": "Communities across NSW are warned flooding rains are still possible across the state despite ex-Tropical Cyclone Alfred continuing to weaken.",
+          "title": {
+            "children": "Flood-hit northern NSW told to 'remain vigilant' with more rain on the way"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -258,37 +266,6 @@
           "synopsis": "Survival was on the mind of many Brisbane residents as they found themselves in the path of one of Queensland's most significant weather events in decades.",
           "title": {
             "children": "'Grateful' Brisbane residents reflect on Alfred's near misses"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105027344",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "a sign next to the Clarence River at Grafton is half submerged as the river rises after ex-cyclone alfred",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59a0fc73b3d0378b413b002a3fcaeb70?impolicy=wcms_crop_resize&cropH=2570&cropW=3855&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-09/nsw-weather-ex-cyclone-alfred-flood-emergency/105027344"
-          },
-          "contentUri": "coremedia://article/105027344",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-09/nsw-weather-ex-cyclone-alfred-flood-emergency/105027344",
-          "video": null,
-          "reactKey": "national-105027344-1",
-          "synopsis": "Communities across NSW are warned flooding rains are still possible across the state despite ex-Tropical Cyclone Alfred continuing to weaken.",
-          "title": {
-            "children": "Flood-hit northern NSW told to 'remain vigilant' with more rain on the way"
           },
           "imageContainerClassNames": []
         }
