@@ -22,13 +22,16 @@
           "uri": "coremedia://article/105049424"
         },
         {
-          "uri": "coremedia://article/105046450"
+          "uri": "coremedia://article/105051064"
         },
         {
           "uri": "coremedia://article/105036016"
         },
         {
           "uri": "coremedia://article/105050798"
+        },
+        {
+          "uri": "coremedia://article/105046450"
         },
         {
           "uri": "coremedia://article/105043402"
@@ -40,16 +43,13 @@
           "uri": "coremedia://article/105050902"
         },
         {
-          "uri": "coremedia://article/105050250"
-        },
-        {
           "uri": "coremedia://article/105050806"
         },
         {
-          "uri": "coremedia://article/105045700"
+          "uri": "coremedia://article/105050250"
         },
         {
-          "uri": "coremedia://article/105050458"
+          "uri": "coremedia://article/105045700"
         },
         {
           "uri": "coremedia://article/105042164"
@@ -59,6 +59,9 @@
         },
         {
           "uri": "coremedia://audioepisode/105050776"
+        },
+        {
+          "uri": "coremedia://article/105050458"
         },
         {
           "uri": "coremedia://article/105050048"
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/104978952"
-        },
-        {
-          "uri": "coremedia://article/105050910"
         }
       ]
     },
@@ -226,9 +226,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105046450",
+          "id": "105051064",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -236,22 +242,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The words ‘No Change To WA GST’ have been scrawled on a reporter's arm and signed by Anthony Albanese.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c519488ab400b1d91ceacb3ee88c56ff?impolicy=wcms_crop_resize&cropH=2419&cropW=3628&xPos=368&yPos=705&width=160&height=107",
+            "altText": "A man with grey hair in a suit and tie stands in front of the University of Canberra logo.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e963b849a588b7e9e900d3441c7ab055?impolicy=wcms_crop_resize&cropH=1728&cropW=2592&xPos=68&yPos=122&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-14/gst-carve-up-victoria-relative-need/105046450"
+            "to": "/news/2025-03-14/federal-politics-live-blog-march-14/105051064"
           },
-          "contentUri": "coremedia://article/105046450",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/gst-carve-up-victoria-relative-need/105046450",
+          "contentUri": "coremedia://article/105051064",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/federal-politics-live-blog-march-14/105051064",
           "video": null,
-          "reactKey": "national-105046450-1",
-          "synopsis": "A refresh of the GST carve-up today could see Victoria shift from being a relative contributor to a beneficiary for the first time.",
+          "reactKey": "national-105051064-1",
+          "synopsis": "Former Labor leader Bill Shorten says Australians will reach a point where they will push back. Follow live.",
           "title": {
-            "children": "Victoria could tip from 'giver' to 'taker' in today's GST carve-up "
+            "children": "'You push us, we push you': Shorten urges PM to stand up to Trump"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "159639",
+              "date": "2025-03-13T22:47:17.000Z",
+              "title": "Shorten: Message to Trump must be 'you push us, we push you'"
+            }
+          ]
         }
       },
       {
@@ -312,6 +331,37 @@
           "synopsis": "A trade war is escalating between the US and Europe with Trump taking to social media to threaten the EU with 200 per cent tariffs on alcohol.",
           "title": {
             "children": "Trump threatens EU with tariffs on alcohol, including wine and champagne"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105046450",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The words ‘No Change To WA GST’ have been scrawled on a reporter's arm and signed by Anthony Albanese.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c519488ab400b1d91ceacb3ee88c56ff?impolicy=wcms_crop_resize&cropH=2419&cropW=3628&xPos=368&yPos=705&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-14/gst-carve-up-victoria-relative-need/105046450"
+          },
+          "contentUri": "coremedia://article/105046450",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/gst-carve-up-victoria-relative-need/105046450",
+          "video": null,
+          "reactKey": "national-105046450-1",
+          "synopsis": "A refresh of the GST carve-up today could see Victoria shift from being a relative contributor to a beneficiary for the first time.",
+          "title": {
+            "children": "Victoria could tip from 'giver' to 'taker' in today's GST carve-up "
           },
           "imageContainerClassNames": []
         }
@@ -414,37 +464,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105050250",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in his 70s pointing a finger at the camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/192b4fe1837b3a026c11b9227a32d2e0?impolicy=wcms_crop_resize&cropH=2581&cropW=3872&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-14/phillippine-police-reveal-rodrigo-duterte-icc-arrest-details/105050250"
-          },
-          "contentUri": "coremedia://article/105050250",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/phillippine-police-reveal-rodrigo-duterte-icc-arrest-details/105050250",
-          "video": null,
-          "reactKey": "national-105050250-1",
-          "synopsis": "Police reveal details about what happened in the tense 12-hour stand-off during the arrest of former Philippine president Rodrigo Duterte this week.",
-          "title": {
-            "children": "'You'll have to kill me': Inside the 12-hour arrest of ex-Philippine president"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105050806",
           "imagePosition": {
             "mobile": "right",
@@ -476,6 +495,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105050250",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in his 70s pointing a finger at the camera",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/192b4fe1837b3a026c11b9227a32d2e0?impolicy=wcms_crop_resize&cropH=2581&cropW=3872&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-14/phillippine-police-reveal-rodrigo-duterte-icc-arrest-details/105050250"
+          },
+          "contentUri": "coremedia://article/105050250",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/phillippine-police-reveal-rodrigo-duterte-icc-arrest-details/105050250",
+          "video": null,
+          "reactKey": "national-105050250-1",
+          "synopsis": "Police reveal details about what happened in the tense 12-hour stand-off during the arrest of former Philippine president Rodrigo Duterte this week.",
+          "title": {
+            "children": "'You'll have to kill me': Inside the 12-hour arrest of ex-Philippine president"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105045700",
           "imagePosition": {
             "mobile": "right",
@@ -498,37 +548,6 @@
           "synopsis": "A water desalination plant in central Gaza, which had been repaired just a few months ago, is now without power after Israel switched off supply to the strip. ",
           "title": {
             "children": "Israel's decision to cut power to Gaza hits the strip's water supplies"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105050458",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A group of men in combat gear stand in rubble ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6d67ac5f73eea5a6d05d6484ea508635?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-14/un-accuses-israel-of-genocidal-acts/105050458"
-          },
-          "contentUri": "coremedia://article/105050458",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/un-accuses-israel-of-genocidal-acts/105050458",
-          "video": null,
-          "reactKey": "national-105050458-1",
-          "synopsis": "The Israeli government has rejected the findings of the UN report, which accused it of using \"genocidal acts\" and sexual violence as a war strategy in Gaza.",
-          "title": {
-            "children": "UN experts accuse Israel of 'genocidal acts' and sexual violence in Gaza"
           },
           "imageContainerClassNames": []
         }
@@ -640,6 +659,37 @@
           "synopsis": "Donald Trump, a long time electric vehicle sceptic, is now the owner of a brand new Tesla. But can the US president’s new found love for EVs save the brand, with Tesla stock tumbling since CEO Elon Musk took on his high profile role in the Trump administration?",
           "title": {
             "children": "Has Elon Musk made driving a Tesla uncool?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105050458",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of men in combat gear stand in rubble ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6d67ac5f73eea5a6d05d6484ea508635?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-14/un-accuses-israel-of-genocidal-acts/105050458"
+          },
+          "contentUri": "coremedia://article/105050458",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-14/un-accuses-israel-of-genocidal-acts/105050458",
+          "video": null,
+          "reactKey": "national-105050458-1",
+          "synopsis": "The Israeli government has rejected the findings of the UN report, which accused it of using \"genocidal acts\" and sexual violence as a war strategy in Gaza.",
+          "title": {
+            "children": "UN experts accuse Israel of 'genocidal acts' and sexual violence in Gaza"
           },
           "imageContainerClassNames": []
         }
@@ -1203,37 +1253,6 @@
           "synopsis": "Steve Johnson's innovative kicking at goal has become an accepted part of Aussie rules, but if not for the inspiration of a Magpies legend, it may never have been used.",
           "title": {
             "children": "How a Collingwood champ helped inspire a Geelong kicking innovation"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105050910",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "woman wearing blue scarf and husband with his arm around her shoulders both smiling at camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3cd931ac01c1a340ed2c2e82a048c177?impolicy=wcms_crop_resize&cropH=801&cropW=1201&xPos=0&yPos=288&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/rural/2025-03-14/business-cuts-power-bills-by-going-green-renewable-electricity/104898238"
-          },
-          "contentUri": "coremedia://article/105050910",
-          "canonicalURL": "https://www.abc.net.au/news/rural/2025-03-14/business-cuts-power-bills-by-going-green-renewable-electricity/104898238",
-          "video": null,
-          "reactKey": "national-105050910-1",
-          "synopsis": "As Australians shake their heads at the prospect of another increase in power prices, this Victorian couple have gone green with their home and business and won't pay an energy bill for years.",
-          "title": {
-            "children": "No power bill for 'next 10 years' as couple takes whole life off-grid"
           },
           "imageContainerClassNames": []
         }
