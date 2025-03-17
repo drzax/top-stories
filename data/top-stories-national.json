@@ -22,13 +22,13 @@
           "uri": "coremedia://article/105060688"
         },
         {
-          "uri": "coremedia://article/105055186"
-        },
-        {
           "uri": "coremedia://article/105057964"
         },
         {
           "uri": "coremedia://article/105059768"
+        },
+        {
+          "uri": "coremedia://article/105055186"
         },
         {
           "uri": "coremedia://article/105060940"
@@ -64,7 +64,7 @@
           "uri": "coremedia://video/105011396"
         },
         {
-          "uri": "coremedia://article/105060366"
+          "uri": "coremedia://article/105062766"
         },
         {
           "uri": "coremedia://article/105060030"
@@ -76,7 +76,7 @@
           "uri": "coremedia://article/104488222"
         },
         {
-          "uri": "coremedia://article/105059484"
+          "uri": "coremedia://article/105061308"
         },
         {
           "uri": "coremedia://article/105061774"
@@ -85,7 +85,7 @@
           "uri": "coremedia://article/104830370"
         },
         {
-          "uri": "coremedia://article/105046078"
+          "uri": "coremedia://article/105059484"
         },
         {
           "uri": "coremedia://article/105058836"
@@ -94,13 +94,13 @@
           "uri": "coremedia://article/105060526"
         },
         {
-          "uri": "coremedia://article/105061804"
+          "uri": "coremedia://article/105060366"
         },
         {
           "uri": "coremedia://article/104993756"
         },
         {
-          "uri": "coremedia://article/105049274"
+          "uri": "coremedia://article/105046078"
         },
         {
           "uri": "coremedia://article/105047880"
@@ -109,13 +109,13 @@
           "uri": "coremedia://article/105059536"
         },
         {
-          "uri": "coremedia://article/105058084"
+          "uri": "coremedia://article/105059604"
         },
         {
           "uri": "coremedia://article/105059376"
         },
         {
-          "uri": "coremedia://article/105059578"
+          "uri": "coremedia://article/105061804"
         }
       ]
     },
@@ -220,37 +220,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105055186",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Donald Trump wears a blue suit, red and black tie and white shirt and is speaking to someone out of frame",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7af8c6de0c19571a5c2d836e299032e?impolicy=wcms_crop_resize&cropH=2677&cropW=4016&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-17/france-united-kingdom-nuclear-weapons-european-protection/105055186"
-          },
-          "contentUri": "coremedia://article/105055186",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/france-united-kingdom-nuclear-weapons-european-protection/105055186",
-          "video": null,
-          "reactKey": "national-105055186-1",
-          "synopsis": "As the early days of Donald Trump's second presidency up-ends established norms, Europe is contemplating what it might mean for their defence and nuclear arsenals.",
-          "title": {
-            "children": "France and the UK have nuclear weapons. One needs the US to use them"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -288,7 +257,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105059768",
           "imagePosition": {
@@ -312,6 +287,44 @@
           "synopsis": "An emergency warning is in place for a bushfire that is threatening lives and homes in Ledge Point, with the blaze forcing the overnight evacuation of a caravan park in the West Australian coastal town.",
           "title": {
             "children": "Locals shelter at evacuation centre as fire approaches town north of Perth"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105055186",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Donald Trump wears a blue suit, red and black tie and white shirt and is speaking to someone out of frame",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7af8c6de0c19571a5c2d836e299032e?impolicy=wcms_crop_resize&cropH=2677&cropW=4016&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-17/france-united-kingdom-nuclear-weapons-european-protection/105055186"
+          },
+          "contentUri": "coremedia://article/105055186",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/france-united-kingdom-nuclear-weapons-european-protection/105055186",
+          "video": null,
+          "reactKey": "national-105055186-1",
+          "synopsis": "As the early days of Donald Trump's second presidency up-ends established norms, Europe is contemplating what it might mean for their defence and nuclear arsenals.",
+          "title": {
+            "children": "France and the UK have nuclear weapons. One needs the US to use them"
           },
           "imageContainerClassNames": []
         }
@@ -696,7 +709,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105060366",
+          "id": "105062766",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -704,20 +717,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "People travelling along floodwaters in a small tinny boat.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0da164f391e3c5962a0006f38cb61ab?impolicy=wcms_crop_resize&cropH=3088&cropW=4632&xPos=368&yPos=242&width=160&height=107",
+            "altText": "A large build up on cloud like foam on a beach. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fcfed23cb883bf836d6164cbe5e49c82?impolicy=wcms_crop_resize&cropH=1613&cropW=2420&xPos=0&yPos=145&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/qld-gov-sold-townsville-black-zone-land-flood-plain-housing/105039404"
+            "to": "/news/2025-03-17/waitpinga-beach-foam-investigation/105060888"
           },
-          "contentUri": "coremedia://article/105060366",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/qld-gov-sold-townsville-black-zone-land-flood-plain-housing/105039404",
+          "contentUri": "coremedia://article/105062766",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/waitpinga-beach-foam-investigation/105060888",
           "video": null,
-          "reactKey": "national-105060366-1",
-          "synopsis": "An ABC investigation has reviewed Queensland's flood maps, emergency zones, changes to town planning, and property records to examine how natural disasters are impacting the housing crisis.",
+          "reactKey": "national-105062766-1",
+          "synopsis": "An investigation is underway into fish deaths and a mysterious foam on a South Australian beach, with several people reportedly falling ill after visiting the area. Surfers say they experienced sore throats, coughing and blurred vision after entering the water. ",
           "title": {
-            "children": "'Never should've let anyone build here': Qld government developed flood plain"
+            "children": "‘This isn’t normal’: Mysterious foam, dead fish wash up on SA beach"
           },
           "imageContainerClassNames": []
         }
@@ -820,7 +833,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105059484",
+          "id": "105061308",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -828,20 +841,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Flood water covering the majority of a young pecan nut plantation.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4ce780be040b82c947802f9c28df2da2?impolicy=wcms_crop_resize&cropH=1999&cropW=2998&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Side photo of Roger Cook and Labor MPs smiling for photographers.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f44388a502e175d74340ed6f0352f17?impolicy=wcms_crop_resize&cropH=1239&cropW=1858&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/cyclone-alfred-cost-to-nsw-agriculture-17-million-and-rising/105059484"
+            "to": "/news/2025-03-17/wa-labor-selects-new-cabinet-members-after-big-election-win/105061308"
           },
-          "contentUri": "coremedia://article/105059484",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/cyclone-alfred-cost-to-nsw-agriculture-17-million-and-rising/105059484",
+          "contentUri": "coremedia://article/105061308",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/wa-labor-selects-new-cabinet-members-after-big-election-win/105061308",
           "video": null,
-          "reactKey": "national-105059484-1",
-          "synopsis": "Horticulture businesses were some of the hardest hit with strong winds causing widespread damage in orchards.",
+          "reactKey": "national-105061308-1",
+          "synopsis": "WA Labor's thumping election win left the party with plenty of choices for promotions to the state government's inner sanctum, with three MPs added to cabinet.",
           "title": {
-            "children": "Damage from ex-Tropical Cyclone Alfred tops $17m for NSW farmers"
+            "children": "WA Labor selects three new cabinet members, after thumping election win"
           },
           "imageContainerClassNames": []
         }
@@ -913,7 +926,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105046078",
+          "id": "105059484",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -921,20 +934,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a man in a tshirt starting at camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cd54b0c5580826b59bc1184b5c972cd2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Flood water covering the majority of a young pecan nut plantation.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4ce780be040b82c947802f9c28df2da2?impolicy=wcms_crop_resize&cropH=1999&cropW=2998&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/feg-migrant-superannuation-review-workers-compensation/105046078"
+            "to": "/news/2025-03-17/cyclone-alfred-cost-to-nsw-agriculture-17-million-and-rising/105059484"
           },
-          "contentUri": "coremedia://article/105046078",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/feg-migrant-superannuation-review-workers-compensation/105046078",
+          "contentUri": "coremedia://article/105059484",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/cyclone-alfred-cost-to-nsw-agriculture-17-million-and-rising/105059484",
           "video": null,
-          "reactKey": "national-105046078-1",
-          "synopsis": "A long-running scheme that pays workers' missing wages and annual leave when their employers collapse is being reviewed after claims it is being rorted. It's leading to additional calls to expand the policy.",
+          "reactKey": "national-105059484-1",
+          "synopsis": "Horticulture businesses were some of the hardest hit with strong winds causing widespread damage in orchards.",
           "title": {
-            "children": "A tradie and burger chef had very different workers compensation treatment"
+            "children": "Damage from ex-Tropical Cyclone Alfred tops $17m for NSW farmers"
           },
           "imageContainerClassNames": []
         }
@@ -1006,7 +1019,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105061804",
+          "id": "105060366",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1014,20 +1027,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Two plates of grilled chicken served on flatbread with yoghurt sauce and vegetables, a satisfying family dinner recipe.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6039ef44679b4f9c07a14e29422e238f?impolicy=wcms_crop_resize&cropH=1328&cropW=1985&xPos=7&yPos=0&width=160&height=107",
+            "altText": "People travelling along floodwaters in a small tinny boat.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0da164f391e3c5962a0006f38cb61ab?impolicy=wcms_crop_resize&cropH=3088&cropW=4632&xPos=368&yPos=242&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/healthy-weeknight-dinner-recipes-easy/104896076"
+            "to": "/news/2025-03-17/qld-gov-sold-townsville-black-zone-land-flood-plain-housing/105039404"
           },
-          "contentUri": "coremedia://article/105061804",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/healthy-weeknight-dinner-recipes-easy/104896076",
+          "contentUri": "coremedia://article/105060366",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/qld-gov-sold-townsville-black-zone-land-flood-plain-housing/105039404",
           "video": null,
-          "reactKey": "national-105061804-1",
-          "synopsis": "Healthy dinners can still be quick and delicious. Choose between beef taco bowls, grilled chicken wraps and a veggie and cheese-filled frittata.  ",
+          "reactKey": "national-105060366-1",
+          "synopsis": "An ABC investigation has reviewed Queensland's flood maps, emergency zones, changes to town planning, and property records to examine how natural disasters are impacting the housing crisis.",
           "title": {
-            "children": "Four healthy weeknight dinners"
+            "children": "'Never should've let anyone build here': Qld government developed flood plain"
           },
           "imageContainerClassNames": []
         }
@@ -1068,7 +1081,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105049274",
+          "id": "105046078",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1076,20 +1089,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A photo of a young family with a beach in the background.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60c5b3f8ff33add8c7f77582376258b5?impolicy=wcms_crop_resize&cropH=2150&cropW=3225&xPos=813&yPos=712&width=160&height=107",
+            "altText": "a man in a tshirt starting at camera",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cd54b0c5580826b59bc1184b5c972cd2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/yeppoon-mum-melanoma-stage-four-cancer-diagnosis/105049274"
+            "to": "/news/2025-03-17/feg-migrant-superannuation-review-workers-compensation/105046078"
           },
-          "contentUri": "coremedia://article/105049274",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/yeppoon-mum-melanoma-stage-four-cancer-diagnosis/105049274",
+          "contentUri": "coremedia://article/105046078",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/feg-migrant-superannuation-review-workers-compensation/105046078",
           "video": null,
-          "reactKey": "national-105049274-1",
-          "synopsis": "After being diagnosed with advanced stage melanoma, Tash Sutton is on a mission to help others avoid the same fate.",
+          "reactKey": "national-105046078-1",
+          "synopsis": "A long-running scheme that pays workers' missing wages and annual leave when their employers collapse is being reviewed after claims it is being rorted. It's leading to additional calls to expand the policy.",
           "title": {
-            "children": "Tash went to the doctor with a sore knee. She soon learnt it was melanoma"
+            "children": "A tradie and burger chef had very different workers compensation treatment"
           },
           "imageContainerClassNames": []
         }
@@ -1161,7 +1174,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105058084",
+          "id": "105059604",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1169,20 +1182,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a group of workers wearing  masks inside the tunnelling phase of the m6 road construction",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7dd038b9e109bcd8da5f3aa6d811b47?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A black and white photo of Cold Chisel on stage at the Uni Bar in Hobart",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c4cdc9d2731f3ba4c8bb015ce27d967?impolicy=wcms_crop_resize&cropH=566&cropW=849&xPos=125&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-16/thirteen-workers-sydney-tunnelling-projects-diagnosed-silicosis/105058084"
+            "to": "/news/2025-03-17/university-of-tasmania-uni-bar-to-close-for-stem-facility/105059604"
           },
-          "contentUri": "coremedia://article/105058084",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-16/thirteen-workers-sydney-tunnelling-projects-diagnosed-silicosis/105058084",
+          "contentUri": "coremedia://article/105059604",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/university-of-tasmania-uni-bar-to-close-for-stem-facility/105059604",
           "video": null,
-          "reactKey": "national-105058084-1",
-          "synopsis": "A 32-year-old is among 13 Sydney workers who have been diagnosed with silicosis, as the union slams the state's workplace regulator for failing to police the industry.",
+          "reactKey": "national-105059604-1",
+          "synopsis": "Long-running Hobart music venue Uni Bar will close in June to make way for the University of Tasmania's STEM facility redevelopment. Its owner says it is a \"significant blow\" to the city's live-music scene.",
           "title": {
-            "children": "'Shocking' number of tunnel workers diagnosed with deadly silicosis"
+            "children": "Cold Chisel once graced its stage, now this Hobart venue is calling last drinks"
           },
           "imageContainerClassNames": []
         }
@@ -1223,7 +1236,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105059578",
+          "id": "105061804",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1231,20 +1244,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Deb Gray pictured in hospital with a copy of her memoir",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6a1deab1f35b6d3f06c482ed06a09c70?impolicy=wcms_crop_resize&cropH=1591&cropW=2387&xPos=1133&yPos=56&width=160&height=107",
+            "altText": "Two plates of grilled chicken served on flatbread with yoghurt sauce and vegetables, a satisfying family dinner recipe.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6039ef44679b4f9c07a14e29422e238f?impolicy=wcms_crop_resize&cropH=1328&cropW=1985&xPos=7&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-03-17/born-with-phocomelia-deb-gray-lived-life-to-the-full/105044832"
+            "to": "/news/2025-03-17/healthy-weeknight-dinner-recipes-easy/104896076"
           },
-          "contentUri": "coremedia://article/105059578",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/born-with-phocomelia-deb-gray-lived-life-to-the-full/105044832",
+          "contentUri": "coremedia://article/105061804",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-17/healthy-weeknight-dinner-recipes-easy/104896076",
           "video": null,
-          "reactKey": "national-105059578-1",
-          "synopsis": "From hanging out with rock stars and road-tripping across America to becoming a mum, Deb Gray led a remarkable life.",
+          "reactKey": "national-105061804-1",
+          "synopsis": "Healthy dinners can still be quick and delicious. Choose between beef taco bowls, grilled chicken wraps and a veggie and cheese-filled frittata.  ",
           "title": {
-            "children": "Doctors wanted 'a normal life' for Deb. Instead she had a 'fabulous' one"
+            "children": "Four healthy weeknight dinners"
           },
           "imageContainerClassNames": []
         }

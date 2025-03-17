@@ -141,7 +141,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-03-17/university-of-tasmania-uni-bar-to-close-for-stem-facility/105059604",
           "video": null,
           "reactKey": "tas-105062718-1",
-          "synopsis": "Long-running Hobart music venue Uni Bar will close in June to make way for a STEM facility redevelopment at the University of Tasmania's (UTAS) Sandy Bay campus. Its owner says it is a \"significant blow\" to the city's live-music scene.",
+          "synopsis": "Long-running Hobart music venue Uni Bar will close in June to make way for the University of Tasmania's STEM facility redevelopment. Its owner says it is a \"significant blow\" to the city's live-music scene.",
           "title": {
             "children": "Cold Chisel once graced its stage, now this Hobart venue is calling last drinks"
           },
@@ -337,7 +337,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105059768",
           "imagePosition": {
@@ -362,7 +368,14 @@
           "title": {
             "children": "Locals shelter at evacuation centre as fire approaches town north of Perth"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
