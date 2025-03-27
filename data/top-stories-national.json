@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105106442"
+          "uri": "coremedia://article/105106530"
+        },
+        {
+          "uri": "coremedia://article/104750332"
         },
         {
           "uri": "coremedia://article/104950076"
@@ -22,13 +25,13 @@
           "uri": "coremedia://article/104934416"
         },
         {
-          "uri": "coremedia://article/105035596"
-        },
-        {
           "uri": "coremedia://article/105101488"
         },
         {
           "uri": "coremedia://article/105106456"
+        },
+        {
+          "uri": "coremedia://article/105035596"
         },
         {
           "uri": "coremedia://article/105106424"
@@ -40,16 +43,13 @@
           "uri": "coremedia://article/105100272"
         },
         {
-          "uri": "coremedia://article/105105864"
-        },
-        {
           "uri": "coremedia://article/105106520"
         },
         {
-          "uri": "coremedia://article/105101874"
+          "uri": "coremedia://article/105105864"
         },
         {
-          "uri": "coremedia://article/105105848"
+          "uri": "coremedia://article/105101874"
         },
         {
           "uri": "coremedia://article/105105966"
@@ -64,6 +64,9 @@
           "uri": "coremedia://article/105106510"
         },
         {
+          "uri": "coremedia://article/105105848"
+        },
+        {
           "uri": "coremedia://article/105106328"
         },
         {
@@ -73,10 +76,10 @@
           "uri": "coremedia://article/105099566"
         },
         {
-          "uri": "coremedia://article/105105612"
+          "uri": "coremedia://article/105106478"
         },
         {
-          "uri": "coremedia://article/105106478"
+          "uri": "coremedia://article/105105612"
         },
         {
           "uri": "coremedia://article/105102062"
@@ -88,10 +91,10 @@
           "uri": "coremedia://article/105100786"
         },
         {
-          "uri": "coremedia://article/105104548"
+          "uri": "coremedia://article/105104028"
         },
         {
-          "uri": "coremedia://article/105104028"
+          "uri": "coremedia://article/105104548"
         },
         {
           "uri": "coremedia://article/105091560"
@@ -103,9 +106,6 @@
           "uri": "coremedia://article/105101440"
         },
         {
-          "uri": "coremedia://article/105102006"
-        },
-        {
           "uri": "coremedia://article/105102898"
         }
       ]
@@ -114,11 +114,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105106442",
+          "id": "105106530",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Election called blog thumbnail",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cb15c63837f2bb5025f30a4314f4acf?impolicy=wcms_crop_resize&cropH=1253&cropW=1880&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-28/federal-election-live-blog-anthony-albanese-peter-dutton/104935922"
+          },
+          "contentUri": "coremedia://article/105106530",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/federal-election-live-blog-anthony-albanese-peter-dutton/104935922",
+          "video": null,
+          "reactKey": "national-105106530-1",
+          "synopsis": "After months of speculation, Anthony Albanese will this morning officially tell Australians they are heading to the polls on May 3. Follow live.",
+          "title": {
+            "children": "All eyes on PM as he prepares to call the election"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "104750332",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -127,23 +166,21 @@
           "isMajor": false,
           "image": {
             "altText": "Peter Dutton and Anthony Albanese cross paths in the House of Representatives. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e82805cbce172f38b1703e40a80a332e?impolicy=wcms_crop_resize&cropH=2987&cropW=4480&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e82805cbce172f38b1703e40a80a332e?impolicy=wcms_crop_resize&cropH=2177&cropW=3265&xPos=585&yPos=85&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-03-28/federal-election-2025-campaign-may-3/104750332"
           },
-          "contentUri": "coremedia://article/105106442",
+          "contentUri": "coremedia://article/104750332",
           "canonicalURL": "https://www.abc.net.au/news/2025-03-28/federal-election-2025-campaign-may-3/104750332",
           "video": null,
-          "reactKey": "national-105106442-1",
+          "reactKey": "national-104750332-1",
           "synopsis": "Prime Minister Anthony Albanese is expected to meet with the governor-general this morning, marking the official start of a five-week race to the federal election on May 3.",
           "title": {
-            "children": "Scene set for tight race to May 3 federal election"
+            "children": "Lines drawn for May 3 election fought on cost of living, energy"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -217,37 +254,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105035596",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A giant flame roars from gas flare stack, silhouetted against the dusk sky",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/409e08f3e0b75bb8d38520787f735865?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-27/dutton-budget-reply-promise-lower-energy-price-gas/105035596"
-          },
-          "contentUri": "coremedia://article/105035596",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/dutton-budget-reply-promise-lower-energy-price-gas/105035596",
-          "video": null,
-          "reactKey": "national-105035596-1",
-          "synopsis": "Opposition Leader Peter Dutton vows to \"immediately\" force gas giants to set aside for domestic use as much as 20 per cent of supply that would \"otherwise be exported\", cutting wholesale prices by 40 per cent.",
-          "title": {
-            "children": "Dutton promises lower energy prices with plan to tap gas exports"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -309,6 +315,37 @@
           "synopsis": "The Queensland government has released a report that upholds the ABC's revelation that a Brisbane casino owner had a \"concealed relationship\" with a jailed junket boss.",
           "title": {
             "children": "Government report backed ABC revelation of casino owner's hidden ties"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105035596",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A giant flame roars from gas flare stack, silhouetted against the dusk sky",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/409e08f3e0b75bb8d38520787f735865?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-27/dutton-budget-reply-promise-lower-energy-price-gas/105035596"
+          },
+          "contentUri": "coremedia://article/105035596",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/dutton-budget-reply-promise-lower-energy-price-gas/105035596",
+          "video": null,
+          "reactKey": "national-105035596-1",
+          "synopsis": "Opposition Leader Peter Dutton vows to \"immediately\" force gas giants to set aside for domestic use as much as 20 per cent of supply that would \"otherwise be exported\", cutting wholesale prices by 40 per cent.",
+          "title": {
+            "children": "Dutton promises lower energy prices with plan to tap gas exports"
           },
           "imageContainerClassNames": []
         }
@@ -411,37 +448,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105105864",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Grey smoke rises over scorched earth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e70022afde529faf7d40abefdaff6f86?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=206&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-28/south-korean-wildfires-largest-deadliest-in-its-history/105105864"
-          },
-          "contentUri": "coremedia://article/105105864",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/south-korean-wildfires-largest-deadliest-in-its-history/105105864",
-          "video": null,
-          "reactKey": "national-105105864-1",
-          "synopsis": "At least 28 people have died and dozens of others have been injured by the blazes that continue to spread.",
-          "title": {
-            "children": "At least 28 people killed in deadliest wildfires in South Korea's recorded history"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105106520",
           "imagePosition": {
             "mobile": "right",
@@ -473,6 +479,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105105864",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Grey smoke rises over scorched earth.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e70022afde529faf7d40abefdaff6f86?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=206&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-28/south-korean-wildfires-largest-deadliest-in-its-history/105105864"
+          },
+          "contentUri": "coremedia://article/105105864",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/south-korean-wildfires-largest-deadliest-in-its-history/105105864",
+          "video": null,
+          "reactKey": "national-105105864-1",
+          "synopsis": "At least 28 people have died and dozens of others have been injured by the blazes that continue to spread.",
+          "title": {
+            "children": "At least 28 people killed in deadliest wildfires in South Korea's recorded history"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105101874",
           "imagePosition": {
             "mobile": "right",
@@ -495,37 +532,6 @@
           "synopsis": "A policy fight over cost-of-living relief has emerged with a federal election looming. Labor and the Coalition have both promised to ease hip pocket pain, but voters will be asked to choose between income tax cuts or cheaper petrol.",
           "title": {
             "children": "Compare the pair: Which major parties' tax policy leaves you better off?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105105848",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A boat on the ocean",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ee371df603551554237a2bf5eda5c06?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=39&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-28/foreigners-killed-in-egypt-tourist-submarine-sinking/105105848"
-          },
-          "contentUri": "coremedia://article/105105848",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/foreigners-killed-in-egypt-tourist-submarine-sinking/105105848",
-          "video": null,
-          "reactKey": "national-105105848-1",
-          "synopsis": "The submarine was carrying 45 tourists and crew while sailing in the Red Sea near Hurghada. ",
-          "title": {
-            "children": "Tourist submarine sinks in Egypt, killing six and injuring nine"
           },
           "imageContainerClassNames": []
         }
@@ -658,6 +664,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105105848",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A boat on the ocean",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ee371df603551554237a2bf5eda5c06?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=39&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-28/foreigners-killed-in-egypt-tourist-submarine-sinking/105105848"
+          },
+          "contentUri": "coremedia://article/105105848",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/foreigners-killed-in-egypt-tourist-submarine-sinking/105105848",
+          "video": null,
+          "reactKey": "national-105105848-1",
+          "synopsis": "The submarine was carrying 45 tourists and crew while sailing in the Red Sea near Hurghada. ",
+          "title": {
+            "children": "Tourist submarine sinks in Egypt, killing six and injuring nine"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105106328",
           "imagePosition": {
             "mobile": "right",
@@ -751,36 +788,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105105612",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2dad149393cb2217de04d57f0addea6?impolicy=wcms_crop_resize&cropH=852&cropW=1278&xPos=391&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-27/cassius-turvey-murder-accused-texts-shown-to-court/105105612"
-          },
-          "contentUri": "coremedia://article/105105612",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/cassius-turvey-murder-accused-texts-shown-to-court/105105612",
-          "video": null,
-          "reactKey": "national-105105612-1",
-          "synopsis": "Text messages between two of the four people charged with the murder of Cassius Turvey appear to show one of them admitting lying to police about the murder of the teenager, the WA Supreme Court hears.",
-          "title": {
-            "children": "'My life's ruined': Cassius Turvey murder accused's texts shown to court"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105106478",
           "imagePosition": {
             "mobile": "right",
@@ -803,6 +810,36 @@
           "synopsis": "New figures suggest last year's turmoil dealt a severe blow to New Caledonia's population, as French nationals left the territory in search of jobs or to escape violence.",
           "title": {
             "children": "'Everything collapsed': Why thousands have left this Pacific paradise "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105105612",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2dad149393cb2217de04d57f0addea6?impolicy=wcms_crop_resize&cropH=852&cropW=1278&xPos=391&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-27/cassius-turvey-murder-accused-texts-shown-to-court/105105612"
+          },
+          "contentUri": "coremedia://article/105105612",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/cassius-turvey-murder-accused-texts-shown-to-court/105105612",
+          "video": null,
+          "reactKey": "national-105105612-1",
+          "synopsis": "Text messages between two of the four people charged with the murder of Cassius Turvey appear to show one of them admitting lying to police about the murder of the teenager, the WA Supreme Court hears.",
+          "title": {
+            "children": "'My life's ruined': Cassius Turvey murder accused's texts shown to court"
           },
           "imageContainerClassNames": []
         }
@@ -905,37 +942,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105104548",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with sunglasses on outside court next to a camera operator",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c94225fecd8a9571240110227708dbc2?impolicy=wcms_crop_resize&cropH=2583&cropW=3875&xPos=0&yPos=197&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-27/polymiadis-no-conviction-for-breach-of-bail/105104548"
-          },
-          "contentUri": "coremedia://article/105104548",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/polymiadis-no-conviction-for-breach-of-bail/105104548",
-          "video": null,
-          "reactKey": "national-105104548-1",
-          "synopsis": "A diabetic woman accused of murdering her elderly parents, by injecting them with her own insulin, suffered undue hardship while in jail for breaching her bail.",
-          "title": {
-            "children": "Woman accused of murdering parents spared breach of bail conviction"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105104028",
           "imagePosition": {
             "mobile": "right",
@@ -958,6 +964,37 @@
           "synopsis": "Hass avocados are out of season for the next few months, meaning those craving an avo fix may have to turn to the often-maligned Shepard variety. But despite the bad rap, Shepard avocados have their own strengths.",
           "title": {
             "children": "Shepard avocados get a 'bad rap'. Here’s how to enjoy them"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105104548",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman with sunglasses on outside court next to a camera operator",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c94225fecd8a9571240110227708dbc2?impolicy=wcms_crop_resize&cropH=2583&cropW=3875&xPos=0&yPos=197&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-27/polymiadis-no-conviction-for-breach-of-bail/105104548"
+          },
+          "contentUri": "coremedia://article/105104548",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/polymiadis-no-conviction-for-breach-of-bail/105104548",
+          "video": null,
+          "reactKey": "national-105104548-1",
+          "synopsis": "A diabetic woman accused of murdering her elderly parents, by injecting them with her own insulin, suffered undue hardship while in jail for breaching her bail.",
+          "title": {
+            "children": "Woman accused of murdering parents spared breach of bail conviction"
           },
           "imageContainerClassNames": []
         }
@@ -1051,37 +1088,6 @@
           "synopsis": "The White House expects the tariffs will raise $US100 billion in revenue annually and foster more domestic manufacturing.",
           "title": {
             "children": "Donald Trump announces new 25 per cent tariffs on imported vehicles"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105102006",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Hundreds of Palestinians protesting on the streets in Gaza with banners and signs",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4678e90c98ed4aec3c7063890416744?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-27/hundreds-palestinians-taking-part-anti-hamas-protests-in-gaza/105102006"
-          },
-          "contentUri": "coremedia://article/105102006",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-27/hundreds-palestinians-taking-part-anti-hamas-protests-in-gaza/105102006",
-          "video": null,
-          "reactKey": "national-105102006-1",
-          "synopsis": "The rare protests follow Israel's resumption of attacks on Gaza following a nearly two-month ceasefire.",
-          "title": {
-            "children": "'We want to stop the killing': Why Gazans are protesting against Hamas"
           },
           "imageContainerClassNames": []
         }
