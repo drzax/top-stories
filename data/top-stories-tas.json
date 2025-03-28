@@ -25,13 +25,13 @@
           "uri": "coremedia://audioepisode/105106734"
         },
         {
+          "uri": "coremedia://article/105106898"
+        },
+        {
           "uri": "coremedia://article/105096908"
         },
         {
           "uri": "coremedia://article/105094052"
-        },
-        {
-          "uri": "coremedia://article/105079800"
         },
         {
           "uri": "coremedia://article/105100018"
@@ -247,6 +247,37 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105106898",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Flock of chickens in a pen.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/37fa22a621dbc8529d8552644837c477?impolicy=wcms_crop_resize&cropH=523&cropW=785&xPos=257&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-03-28/chickens-stolen-from-hobarts-claremont-college/105106898"
+          },
+          "contentUri": "coremedia://article/105106898",
+          "canonicalURL": "https://www.abc.net.au/news/2025-03-28/chickens-stolen-from-hobarts-claremont-college/105106898",
+          "video": null,
+          "reactKey": "tas-105106898-1",
+          "synopsis": "The egg shortage is considered a possible motive after chickens were plucked from a flock of birds at a Hobart school.",
+          "title": {
+            "children": "Egg shortage possible motive after chooks stolen from school"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -308,37 +339,6 @@
           "synopsis": "Cricket authorities have penned a bombshell letter to the Tasmanian government expressing reservations about the stadium's roof in its current design, saying the \"stadium is unlikely to be conducive to hosting test matches\" while requesting a return to the drawing board.",
           "title": {
             "children": "Macquarie Point stadium roof in doubt, as cricket raises 'significant concerns'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105079800",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A SpaceX Crew Dragon capsule manoeuvres in space following undocking from the ISS to begin a journey to return to Earth.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dca1b8846d27fe32d9a54cb67c62b7d8?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-03-26/spacex-astronauts-to-grow-edible-mushrooms-on-space-mission/105079800"
-          },
-          "contentUri": "coremedia://article/105079800",
-          "canonicalURL": "https://www.abc.net.au/news/2025-03-26/spacex-astronauts-to-grow-edible-mushrooms-on-space-mission/105079800",
-          "video": null,
-          "reactKey": "tas-105079800-1",
-          "synopsis": "When SpaceX launches its next mission in the coming days, it will include an Australian-led experiment that could have significant ramifications for the future of space exploration.",
-          "title": {
-            "children": "Astronauts to grow edible mushrooms during next space mission"
           },
           "imageContainerClassNames": []
         }
@@ -709,6 +709,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "162717",
+              "date": "2025-03-28T01:02:02.000Z",
+              "title": "What does the election mean for markets?"
+            },
+            {
               "id": "162703",
               "date": "2025-03-28T00:14:30.000Z",
               "title": "Kyle and Jackie O Show breached radio code by airing 'vulgar' content"
@@ -717,11 +722,6 @@
               "id": "162686",
               "date": "2025-03-27T23:27:14.000Z",
               "title": "ASX slips after opening bell"
-            },
-            {
-              "id": "162683",
-              "date": "2025-03-27T23:23:51.000Z",
-              "title": "The Star licence suspension extended for six months"
             }
           ]
         }
@@ -782,7 +782,7 @@
           "reactKey": "tas-105106510-1",
           "synopsis": "Tech giant Meta used millions of pirated books by Australian authors including Hannah Kent, Charlotte Wood and Tim Winton to train its AI language model.",
           "title": {
-            "children": "Authors angry Zuckerberg approved use of 'stolen' material to train AI"
+            "children": "High-profile Australian authors furious at Meta's AI 'plundering' their work"
           },
           "imageContainerClassNames": []
         }
@@ -1005,7 +1005,7 @@
           "reactKey": "tas-105106712-1",
           "synopsis": "An e-bike rider has been killed after he and a police car collided at Waterloo in Sydney's inner-south, with a significant amount of drugs and cash found.",
           "title": {
-            "children": "Indigenous man killed in e-bike collision with police in Sydney"
+            "children": "Man killed in e-bike collision with police in Sydney"
           },
           "imageContainerClassNames": []
         }
