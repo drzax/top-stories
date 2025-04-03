@@ -1082,7 +1082,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105135556",
           "imagePosition": {
@@ -1105,9 +1111,16 @@
           "reactKey": "act-105135556-1",
           "synopsis": "Tony Mokbel is applying for bail years before his 26-year jail sentence is up, with the Victorian Court of Appeal asked to consider his poor health and willingness to comply with strict bail conditions.",
           "title": {
-            "children": "Victorian crime boss Mokbel seeking bail after 18 years behind bars"
+            "children": "Court to decide on bail for Victorian crime boss Tony Mokbel"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
