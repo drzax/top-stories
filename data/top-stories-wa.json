@@ -34,10 +34,13 @@
           "uri": "coremedia://article/105139738"
         },
         {
-          "uri": "coremedia://article/105134368"
+          "uri": "coremedia://article/105139474"
         },
         {
           "uri": "coremedia://article/105132968"
+        },
+        {
+          "uri": "coremedia://article/105134368"
         },
         {
           "uri": "coremedia://article/105134802"
@@ -324,9 +327,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105134368",
+          "id": "105139474",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -334,22 +343,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Headshot of Lisa Mott with her younger brother",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0413a06755ab19626862d45e4e83390e?impolicy=wcms_crop_resize&cropH=844&cropW=1266&xPos=90&yPos=0&width=160&height=107",
+            "altText": "Bailey Smith runs with the ball",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f01a69e773bf0f1effb0f98b73f9a24e?impolicy=wcms_crop_resize&cropH=1561&cropW=2341&xPos=175&yPos=107&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-03/lisa-mott-cold-case-detectives-get-190-new-reports-from-public/105132932"
+            "to": "/news/2025-04-04/afl-round-four-friday-geelong-melbourne-live-blog/105139474"
           },
-          "contentUri": "coremedia://article/105134368",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-03/lisa-mott-cold-case-detectives-get-190-new-reports-from-public/105132932",
+          "contentUri": "coremedia://article/105139474",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-04/afl-round-four-friday-geelong-melbourne-live-blog/105139474",
           "video": null,
-          "reactKey": "wa-105134368-1",
-          "synopsis": "WA police receive fresh information from the public off the back of a renewed search for clues on Lisa Mott's disappearance in 1980, but breakthroughs remain elusive.",
+          "reactKey": "wa-105139474-1",
+          "synopsis": "Geelong is seeking a bounce-back win against a Melbourne side desperate to get off the mark in 2025, but will have to do so without a key veteran who was ruled out late. Follow live.",
           "title": {
-            "children": "Cold case detectives probing 12yo's disappearance receive 190 new tips"
+            "children": "Key Cat a late out as Geelong prepares for winless Demons"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "164860",
+              "date": "2025-04-04T07:57:05.000Z",
+              "title": "Mark Blicavs is a late out for Geelong"
+            },
+            {
+              "id": "164855",
+              "date": "2025-04-04T07:45:42.000Z",
+              "title": "Collingwood's Dan Houston has been suspended for two games"
+            }
+          ]
         }
       },
       {
@@ -379,6 +406,37 @@
           "synopsis": "One of the four people accused of murdering Perth schoolboy Cassius Turvey takes the stand for the first time to give evidence at his trial in the WA Supreme Court.",
           "title": {
             "children": "Cassius Turvey's alleged killer blames fatal trolley pole blow on co-accused"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105134368",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Headshot of Lisa Mott with her younger brother",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0413a06755ab19626862d45e4e83390e?impolicy=wcms_crop_resize&cropH=844&cropW=1266&xPos=90&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-03/lisa-mott-cold-case-detectives-get-190-new-reports-from-public/105132932"
+          },
+          "contentUri": "coremedia://article/105134368",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-03/lisa-mott-cold-case-detectives-get-190-new-reports-from-public/105132932",
+          "video": null,
+          "reactKey": "wa-105134368-1",
+          "synopsis": "WA police receive fresh information from the public off the back of a renewed search for clues on Lisa Mott's disappearance in 1980, but breakthroughs remain elusive.",
+          "title": {
+            "children": "Cold case detectives probing 12yo's disappearance receive 190 new tips"
           },
           "imageContainerClassNames": []
         }
