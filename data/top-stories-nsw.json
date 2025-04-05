@@ -19,16 +19,16 @@
           "uri": "coremedia://article/105137056"
         },
         {
-          "uri": "coremedia://article/105065580"
+          "uri": "coremedia://article/105141956"
         },
         {
           "uri": "coremedia://article/105141894"
         },
         {
-          "uri": "coremedia://article/105128230"
+          "uri": "coremedia://article/105065580"
         },
         {
-          "uri": "coremedia://article/105135146"
+          "uri": "coremedia://article/105128230"
         },
         {
           "uri": "coremedia://article/105138962"
@@ -49,19 +49,19 @@
           "uri": "coremedia://article/105137334"
         },
         {
-          "uri": "coremedia://article/105136938"
+          "uri": "coremedia://article/105135146"
         },
         {
           "uri": "coremedia://article/105141652"
+        },
+        {
+          "uri": "coremedia://article/105136938"
         },
         {
           "uri": "coremedia://article/105139816"
         },
         {
           "uri": "coremedia://article/105138298"
-        },
-        {
-          "uri": "coremedia://article/105132810"
         },
         {
           "uri": "coremedia://article/105123204"
@@ -141,9 +141,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105065580",
+          "id": "105141956",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -151,22 +157,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A close-up of a cake with white icing being held by a woman.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c82854a1dd3f3c1103d7d469d89ccb9?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "Clint Gutherson of the St George Illawarra Dragons and Zac Lomax of the Parramatta Eels.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c052cf2f1d168d78cf3e060f9a53bc9b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=15&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-05/standardised-menu-for-hospital-food-across-nsw/105065580"
+            "to": "/news/2025-04-05/nrl-saturday-eels-dragons-titans-dolphins-broncos-tigers/105141956"
           },
-          "contentUri": "coremedia://article/105065580",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-05/standardised-menu-for-hospital-food-across-nsw/105065580",
+          "contentUri": "coremedia://article/105141956",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-05/nrl-saturday-eels-dragons-titans-dolphins-broncos-tigers/105141956",
           "video": null,
-          "reactKey": "nsw-105065580-1",
-          "synopsis": "A statewide menu is rolling out in public hospitals across New South Wales. It means every hospital will provide patients with the same selection of meals for breakfast, lunch and dinner.",
+          "reactKey": "nsw-105141956-1",
+          "synopsis": "Former Eel Clint Gutherson takes on his former team, featuring ex-Dragons flier Zac Lomax at Western Sydney Stadium. Follow live.",
           "title": {
-            "children": "Hospital food for patients standardised across NSW, including cake"
+            "children": "Grudge match for Eels and Dragons stars in Parramatta"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "165088",
+              "date": "2025-04-05T03:43:50.000Z",
+              "title": "Grudge match for the Dragons and Eels"
+            }
+          ]
         }
       },
       {
@@ -196,6 +215,37 @@
           "synopsis": "A fledgling LGBTQIA+ event in Cowra is one of a growing number of regional pride celebrations giving the queer community greater visibility in the country. ",
           "title": {
             "children": "Country pride events surge, offering room for people to 'be themselves'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105065580",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close-up of a cake with white icing being held by a woman.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c82854a1dd3f3c1103d7d469d89ccb9?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-05/standardised-menu-for-hospital-food-across-nsw/105065580"
+          },
+          "contentUri": "coremedia://article/105065580",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-05/standardised-menu-for-hospital-food-across-nsw/105065580",
+          "video": null,
+          "reactKey": "nsw-105065580-1",
+          "synopsis": "A statewide menu is rolling out in public hospitals across New South Wales. It means every hospital will provide patients with the same selection of meals for breakfast, lunch and dinner.",
+          "title": {
+            "children": "Hospital food for patients standardised across NSW, including cake"
           },
           "imageContainerClassNames": []
         }
@@ -233,37 +283,6 @@
           "synopsis": "Tim Tszyu's bold, brash bravery in the ring has been his hallmark. But now, any room for error has passed by, with a dangerous American opponent threatening to continue the Australian fighter's slide from confidence to hubris.",
           "title": {
             "children": "Tszyu needs to harness his overconfidence to regain aura"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105135146",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man stands smiling at the camera with a bird perched on each hand in front of him.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/05ddd094bd5dd088386fd7405f9eed6e?impolicy=wcms_crop_resize&cropH=711&cropW=1066&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-04/narayan-rodwell-inquest-m1-police-pursuit-road-spikes/105135146"
-          },
-          "contentUri": "coremedia://article/105135146",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-04/narayan-rodwell-inquest-m1-police-pursuit-road-spikes/105135146",
-          "video": null,
-          "reactKey": "nsw-105135146-1",
-          "synopsis": "A coronial inquest into the death of man struck by cars on the M1 after a police pursuit hears from the officers involved, and from family members who say his death has left \"a gaping hole\" in their home.",
-          "title": {
-            "children": "Road spikes 'appropriate' before fleeing driver's death, inquest told"
           },
           "imageContainerClassNames": []
         }
@@ -464,7 +483,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105136938",
+          "id": "105135146",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -472,20 +491,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An Asian woman in a white blazer, Tu Le, next to an older man in a suit smiling, Anthony Albanese.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/417c73c26873c7beed008a98ac2a9128?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A man stands smiling at the camera with a bird perched on each hand in front of him.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/05ddd094bd5dd088386fd7405f9eed6e?impolicy=wcms_crop_resize&cropH=711&cropW=1066&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-04/anthony-albanese-peter-dutton-western-sydney-election-campaign/105136938"
+            "to": "/news/2025-04-04/narayan-rodwell-inquest-m1-police-pursuit-road-spikes/105135146"
           },
-          "contentUri": "coremedia://article/105136938",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-04/anthony-albanese-peter-dutton-western-sydney-election-campaign/105136938",
+          "contentUri": "coremedia://article/105135146",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-04/narayan-rodwell-inquest-m1-police-pursuit-road-spikes/105135146",
           "video": null,
-          "reactKey": "nsw-105136938-1",
-          "synopsis": "Prime Minister Anthony Albanese conceded Labor made a mistake in previously dumping candidate Tu Le in the south-west Sydney seat of Fowler.",
+          "reactKey": "nsw-105135146-1",
+          "synopsis": "A coronial inquest into the death of man struck by cars on the M1 after a police pursuit hears from the officers involved, and from family members who say his death has left \"a gaping hole\" in their home.",
           "title": {
-            "children": "PM concedes Labor mistake in 2022 as election campaign hits crucial Western Sydney"
+            "children": "Road spikes 'appropriate' before fleeing driver's death, inquest told"
           },
           "imageContainerClassNames": []
         }
@@ -517,6 +536,37 @@
           "synopsis": "My son is the same age as the teenager in Adolescence. Watching it together made me realise the reality of the school kids in the show is the shared reality of our own child.",
           "title": {
             "children": "Watching Adolescence with my teen son left me with terrifying questions"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105136938",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An Asian woman in a white blazer, Tu Le, next to an older man in a suit smiling, Anthony Albanese.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/417c73c26873c7beed008a98ac2a9128?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-04/anthony-albanese-peter-dutton-western-sydney-election-campaign/105136938"
+          },
+          "contentUri": "coremedia://article/105136938",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-04/anthony-albanese-peter-dutton-western-sydney-election-campaign/105136938",
+          "video": null,
+          "reactKey": "nsw-105136938-1",
+          "synopsis": "Prime Minister Anthony Albanese conceded Labor made a mistake in previously dumping candidate Tu Le in the south-west Sydney seat of Fowler.",
+          "title": {
+            "children": "PM concedes Labor mistake in 2022 as election campaign hits crucial Western Sydney"
           },
           "imageContainerClassNames": []
         }
@@ -579,37 +629,6 @@
           "synopsis": "The 16-year-old boy, who cannot be legally identified, faced court in Bunbury over several posts on the Instagram page of a mosque in suburban Sydney.",
           "title": {
             "children": "WA teen 'accepts responsibility' for online threats against Sydney mosque"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105132810",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A golden Labrador wearing a fluorescent police vest is walking on a leash on grass.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4be3dbfa2960541ce41f213a0c9ab072?impolicy=wcms_crop_resize&cropH=227&cropW=341&xPos=83&yPos=70&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-03/nsw-drug-summit-report-axe-sniffer-dogs-strip-searches-festivals/105132810"
-          },
-          "contentUri": "coremedia://article/105132810",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-03/nsw-drug-summit-report-axe-sniffer-dogs-strip-searches-festivals/105132810",
-          "video": null,
-          "reactKey": "nsw-105132810-1",
-          "synopsis": "The much-anticipated drug summit report has been released, after being handed to the state government with 56 recommendations across key areas including prevention, early intervention, and reform.",
-          "title": {
-            "children": "Defence for drivers who use medical cannabis part of NSW drug report"
           },
           "imageContainerClassNames": []
         }
