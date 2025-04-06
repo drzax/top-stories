@@ -16,7 +16,7 @@
           "uri": "coremedia://article/105145012"
         },
         {
-          "uri": "coremedia://article/105144090"
+          "uri": "coremedia://article/105143924"
         },
         {
           "uri": "coremedia://article/105143576"
@@ -31,7 +31,7 @@
           "uri": "coremedia://article/105144774"
         },
         {
-          "uri": "coremedia://article/105143924"
+          "uri": "coremedia://article/105144090"
         },
         {
           "uri": "coremedia://article/105143902"
@@ -46,10 +46,10 @@
           "uri": "coremedia://article/105144776"
         },
         {
-          "uri": "coremedia://article/105139898"
+          "uri": "coremedia://article/105139956"
         },
         {
-          "uri": "coremedia://article/105139956"
+          "uri": "coremedia://article/105139898"
         },
         {
           "uri": "coremedia://article/105089358"
@@ -64,6 +64,9 @@
           "uri": "coremedia://article/105144784"
         },
         {
+          "uri": "coremedia://article/105119706"
+        },
+        {
           "uri": "coremedia://article/105138094"
         },
         {
@@ -76,22 +79,19 @@
           "uri": "coremedia://article/105100784"
         },
         {
-          "uri": "coremedia://article/105144352"
-        },
-        {
-          "uri": "coremedia://article/105135740"
+          "uri": "coremedia://article/105007890"
         },
         {
           "uri": "coremedia://article/105144898"
         },
         {
-          "uri": "coremedia://article/105007890"
-        },
-        {
           "uri": "coremedia://article/105122372"
         },
         {
-          "uri": "coremedia://article/105144086"
+          "uri": "coremedia://article/104847108"
+        },
+        {
+          "uri": "coremedia://article/105135740"
         },
         {
           "uri": "coremedia://article/105143810"
@@ -100,16 +100,16 @@
           "uri": "coremedia://article/105144854"
         },
         {
-          "uri": "coremedia://article/104847108"
+          "uri": "coremedia://article/105140486"
         },
         {
-          "uri": "coremedia://article/105140486"
+          "uri": "coremedia://article/105144086"
         },
         {
           "uri": "coremedia://article/105144286"
         },
         {
-          "uri": "coremedia://article/105141686"
+          "uri": "coremedia://article/105144352"
         },
         {
           "uri": "coremedia://article/105144964"
@@ -155,9 +155,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105144090",
+          "id": "105143924",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -165,22 +171,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Peter Dutton Speech",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce35b0c2100974ecbca5224df951f16b?impolicy=wcms_crop_resize&cropH=3542&cropW=5314&xPos=0&yPos=1&width=160&height=107",
+            "altText": "Election called blog thumbnail",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cb15c63837f2bb5025f30a4314f4acf?impolicy=wcms_crop_resize&cropH=1253&cropW=1880&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-06/coalition-abandon-work-from-home-41000-jobs/105144090"
+            "to": "/news/2025-04-07/federal-election-2025-live-updates-albanese-dutton-campaign/105143924"
           },
-          "contentUri": "coremedia://article/105144090",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-06/coalition-abandon-work-from-home-41000-jobs/105144090",
+          "contentUri": "coremedia://article/105143924",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/federal-election-2025-live-updates-albanese-dutton-campaign/105143924",
           "video": null,
-          "reactKey": "national-105144090-1",
-          "synopsis": "A Coalition promise to send public servants back to the office has been jettisoned, and plans to cut 41,000 Commonwealth jobs walked back significantly, in a mid-campaign backflip.",
+          "reactKey": "national-105143924-1",
+          "synopsis": "Prime Minister Anthony Albanese's campaign has returned to Melbourne, as Opposition Leader Peter Dutton ticks Adelaide off his list. Follow live.",
           "title": {
-            "children": "Coalition commits extraordinary about-face on 'end' to work from home"
+            "children": "Peter Dutton says Coalition's work-from-home policy 'a mistake'"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "165775",
+              "date": "2025-04-06T21:19:11.000Z",
+              "title": "Dutton says he 'made a mistake' on WFH policy"
+            },
+            {
+              "id": "165773",
+              "date": "2025-04-06T21:10:00.000Z",
+              "title": "Labor on the hustings in Victoria as Newspoll indicate voter sentiment shift"
+            },
+            {
+              "id": "165772",
+              "date": "2025-04-06T21:06:00.000Z",
+              "title": "Coalition moves to silence work from home bung note"
+            }
+          ]
         }
       },
       {
@@ -341,15 +370,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105143924",
+          "id": "105144090",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -357,45 +380,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Election called blog thumbnail",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cb15c63837f2bb5025f30a4314f4acf?impolicy=wcms_crop_resize&cropH=1253&cropW=1880&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Peter Dutton Speech",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce35b0c2100974ecbca5224df951f16b?impolicy=wcms_crop_resize&cropH=3542&cropW=5314&xPos=0&yPos=1&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-07/federal-election-2025-live-updates-albanese-dutton-campaign/105143924"
+            "to": "/news/2025-04-06/coalition-abandon-work-from-home-41000-jobs/105144090"
           },
-          "contentUri": "coremedia://article/105143924",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/federal-election-2025-live-updates-albanese-dutton-campaign/105143924",
+          "contentUri": "coremedia://article/105144090",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-06/coalition-abandon-work-from-home-41000-jobs/105144090",
           "video": null,
-          "reactKey": "national-105143924-1",
-          "synopsis": "Prime Minister Anthony Albanese's campaign has returned to Melbourne, as Opposition Leader Peter Dutton ticks Adelaide off his list. Follow live.",
+          "reactKey": "national-105144090-1",
+          "synopsis": "A Coalition promise to send public servants back to the office has been jettisoned, and plans to cut 41,000 Commonwealth jobs walked back significantly, in a mid-campaign backflip.",
           "title": {
-            "children": "Albanese returns to Melbourne as Labor tries to sandbag votes"
+            "children": "Coalition commits extraordinary about-face on 'end' to work from home"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "165775",
-              "date": "2025-04-06T21:19:11.000Z",
-              "title": "Dutton says he 'made a mistake' on WFH policy"
-            },
-            {
-              "id": "165773",
-              "date": "2025-04-06T21:10:00.000Z",
-              "title": "Labor on the hustings in Victoria as Newspoll indicate voter sentiment shift"
-            },
-            {
-              "id": "165772",
-              "date": "2025-04-06T21:06:00.000Z",
-              "title": "Coalition moves to silence work from home bung note"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -527,37 +527,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105139898",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A row of flags representing countries in the Pacific Islands against a blue sky.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc05aa17d22dec6968e149021ef45c0d?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-07/nationals-littleproud-coalition-pacific-china-climate-change/105139898"
-          },
-          "contentUri": "coremedia://article/105139898",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/nationals-littleproud-coalition-pacific-china-climate-change/105139898",
-          "video": null,
-          "reactKey": "national-105139898-1",
-          "synopsis": "The Nationals leader says the Coalition would work with Pacific countries to \"understand their power\" with regard to China.",
-          "title": {
-            "children": "Pacific nations should be 'more aggressive' on China, says Littleproud"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105139956",
           "imagePosition": {
             "mobile": "right",
@@ -580,6 +549,37 @@
           "synopsis": "The doctors' union is going ahead with its planned action despite warnings from the Industrial Relations Commission and NSW Health.",
           "title": {
             "children": "Doctors say 'we don't have a choice' as they prepare for three-day strike"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105139898",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A row of flags representing countries in the Pacific Islands against a blue sky.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc05aa17d22dec6968e149021ef45c0d?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-07/nationals-littleproud-coalition-pacific-china-climate-change/105139898"
+          },
+          "contentUri": "coremedia://article/105139898",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/nationals-littleproud-coalition-pacific-china-climate-change/105139898",
+          "video": null,
+          "reactKey": "national-105139898-1",
+          "synopsis": "The Nationals leader says the Coalition would work with Pacific countries to \"understand their power\" with regard to China.",
+          "title": {
+            "children": "Pacific nations should be 'more aggressive' on China, says Littleproud"
           },
           "imageContainerClassNames": []
         }
@@ -713,6 +713,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105119706",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man leaning against large ropes on a tugboat",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b4968643fc10bc11f30a54aa75b6bd87?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-07/coal-mining-heartland-seats-hang-in-the-balance/105119706"
+          },
+          "contentUri": "coremedia://article/105119706",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/coal-mining-heartland-seats-hang-in-the-balance/105119706",
+          "video": null,
+          "reactKey": "national-105119706-1",
+          "synopsis": "Nuclear, offshore wind, hydrogen and gas projects have all been slated for the NSW Hunter region but some may be scrapped depending on who wins the federal election.",
+          "title": {
+            "children": "Labor seats in this coal-mining heartland hang in the balance"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105138094",
           "imagePosition": {
             "mobile": "right",
@@ -837,7 +868,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105144352",
+          "id": "105007890",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -845,51 +876,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman in a blue jacket",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ea399c1156d80622a80c62b917c65ef?impolicy=wcms_crop_resize&cropH=2080&cropW=3120&xPos=0&yPos=0&width=160&height=107",
+            "altText": "dad and son brush their teeth",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f09075cd5917e9bd3f3aef2ca4e9ab50?impolicy=wcms_crop_resize&cropH=1956&cropW=2934&xPos=0&yPos=16&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-07/far-right-supporters-rally-in-france-after-le-pen-conviction/105144352"
+            "to": "/news/2025-04-07/what-dentists-say-about-brushing-before-or-after-breakfast/105007890"
           },
-          "contentUri": "coremedia://article/105144352",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/far-right-supporters-rally-in-france-after-le-pen-conviction/105144352",
+          "contentUri": "coremedia://article/105007890",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/what-dentists-say-about-brushing-before-or-after-breakfast/105007890",
           "video": null,
-          "reactKey": "national-105144352-1",
-          "synopsis": "Marine Le Pen was convicted and barred from holding public office after being found guilty of embezzling European Union funds.",
+          "reactKey": "national-105007890-1",
+          "synopsis": "It's possible you've received conflicting advice from dentists over the years about whether to brush your teeth before or after your morning meal. We explain why. ",
           "title": {
-            "children": "French far-right leader compares own battle to Martin Luther King's struggle"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105135740",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman in uniform leans over another person who is also in uniform, and lying down.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/db8f07248689b3559b98b03f804486cb?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=1&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-07/inside-uk-training-facility-that-helps-ukrainian-troops/105135740"
-          },
-          "contentUri": "coremedia://article/105135740",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/inside-uk-training-facility-that-helps-ukrainian-troops/105135740",
-          "video": null,
-          "reactKey": "national-105135740-1",
-          "synopsis": "Ukrainian soldiers and medics who have been on the front line during Russia's full-scale invasion over the past three years have come to the United Kingdom for six weeks to boost their battlefield medicine skills, and they have a message about ceasefire negotiations underway.",
-          "title": {
-            "children": "Ukrainian troops' ceasefire warning: 'It won't work with the Russians'"
+            "children": "Should you brush your teeth before or after breakfast? It depends"
           },
           "imageContainerClassNames": []
         }
@@ -930,37 +930,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105007890",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "dad and son brush their teeth",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f09075cd5917e9bd3f3aef2ca4e9ab50?impolicy=wcms_crop_resize&cropH=1956&cropW=2934&xPos=0&yPos=16&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-07/what-dentists-say-about-brushing-before-or-after-breakfast/105007890"
-          },
-          "contentUri": "coremedia://article/105007890",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/what-dentists-say-about-brushing-before-or-after-breakfast/105007890",
-          "video": null,
-          "reactKey": "national-105007890-1",
-          "synopsis": "It's possible you've received conflicting advice from dentists over the years about whether to brush your teeth before or after your morning meal. We explain why. ",
-          "title": {
-            "children": "Should you brush your teeth before or after breakfast? It depends"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105122372",
           "imagePosition": {
             "mobile": "right",
@@ -992,7 +961,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105144086",
+          "id": "104847108",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1000,20 +969,51 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Man smiling, trees in the background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e50062989cf5309828fc21fde215689?impolicy=wcms_crop_resize&cropH=789&cropW=1184&xPos=592&yPos=0&width=160&height=107",
+            "altText": "A woman in a burnt orange cardigan leaves her vegetable garden holding a bunch of green leaves",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44499e8b729160e6971e5c4d439e7c02?impolicy=wcms_crop_resize&cropH=1530&cropW=2295&xPos=299&yPos=1562&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-06/nsw-candidate-who-said-women-should-not-serve-in-combat-dumped/105144086"
+            "to": "/news/2025-04-07/career-change-choice-me-cfs-chronic-illness-meander-valley/104847108"
           },
-          "contentUri": "coremedia://article/105144086",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-06/nsw-candidate-who-said-women-should-not-serve-in-combat-dumped/105144086",
+          "contentUri": "coremedia://article/104847108",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/career-change-choice-me-cfs-chronic-illness-meander-valley/104847108",
           "video": null,
-          "reactKey": "national-105144086-1",
-          "synopsis": "Benjamin Britton has been disendorsed as a Liberal candidate for the NSW seat of Whitlam ahead of the May 3 election, after expressing views \"inconsistent with the party's position,\" a spokesperson says.",
+          "reactKey": "national-104847108-1",
+          "synopsis": "What about the people who change their career not to scratch some creative or philanthropic itch or make a truckload of money, but out of necessity — because illness or injury derailed or destroyed their ability to work?",
           "title": {
-            "children": "Liberals dump NSW candidate who said women should not serve in ADF combat"
+            "children": "Sarah's Tasmanian 'career change' sounds like a dream — until you hear her full story"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105135740",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman in uniform leans over another person who is also in uniform, and lying down.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/db8f07248689b3559b98b03f804486cb?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-07/inside-uk-training-facility-that-helps-ukrainian-troops/105135740"
+          },
+          "contentUri": "coremedia://article/105135740",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/inside-uk-training-facility-that-helps-ukrainian-troops/105135740",
+          "video": null,
+          "reactKey": "national-105135740-1",
+          "synopsis": "Ukrainian soldiers and medics who have been on the front line during Russia's full-scale invasion over the past three years have come to the United Kingdom for six weeks to boost their battlefield medicine skills, and they have a message about ceasefire negotiations underway.",
+          "title": {
+            "children": "Ukrainian troops' ceasefire warning: 'It won't work with the Russians'"
           },
           "imageContainerClassNames": []
         }
@@ -1091,37 +1091,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "104847108",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman in a burnt orange cardigan leaves her vegetable garden holding a bunch of green leaves",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44499e8b729160e6971e5c4d439e7c02?impolicy=wcms_crop_resize&cropH=1530&cropW=2295&xPos=299&yPos=1562&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-07/career-change-choice-me-cfs-chronic-illness-meander-valley/104847108"
-          },
-          "contentUri": "coremedia://article/104847108",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/career-change-choice-me-cfs-chronic-illness-meander-valley/104847108",
-          "video": null,
-          "reactKey": "national-104847108-1",
-          "synopsis": "What about the people who change their career not to scratch some creative or philanthropic itch or make a truckload of money, but out of necessity — because illness or injury derailed or destroyed their ability to work?",
-          "title": {
-            "children": "Sarah's Tasmanian 'career change' sounds like a dream — until you hear her full story"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105140486",
           "imagePosition": {
             "mobile": "right",
@@ -1144,6 +1113,37 @@
           "synopsis": "They were billed as the intelligent key to some sort of energy utopia, but smart meters are breeding confusion and broken trust, a watchdog finds.",
           "title": {
             "children": "Smart meters are breeding confusion and broken trust, a watchdog says"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105144086",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Man smiling, trees in the background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e50062989cf5309828fc21fde215689?impolicy=wcms_crop_resize&cropH=789&cropW=1184&xPos=592&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-06/nsw-candidate-who-said-women-should-not-serve-in-combat-dumped/105144086"
+          },
+          "contentUri": "coremedia://article/105144086",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-06/nsw-candidate-who-said-women-should-not-serve-in-combat-dumped/105144086",
+          "video": null,
+          "reactKey": "national-105144086-1",
+          "synopsis": "Benjamin Britton has been disendorsed as a Liberal candidate for the NSW seat of Whitlam ahead of the May 3 election, after expressing views \"inconsistent with the party's position,\" a spokesperson says.",
+          "title": {
+            "children": "Liberals dump NSW candidate who said women should not serve in ADF combat"
           },
           "imageContainerClassNames": []
         }
@@ -1182,14 +1182,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorName": "Luke Pentony"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105141686",
+          "id": "105144352",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1197,20 +1192,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Taniela Tupou passes the ball for Waratahs against Hurricanes.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/758b7987343845d7675ff680992accae?impolicy=wcms_crop_resize&cropH=3012&cropW=4519&xPos=0&yPos=69&width=160&height=107",
+            "altText": "A woman in a blue jacket",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ea399c1156d80622a80c62b917c65ef?impolicy=wcms_crop_resize&cropH=2080&cropW=3120&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-07/super-rugby-pacific-round-eight-wallabies-british-irish-lions/105141686"
+            "to": "/news/2025-04-07/far-right-supporters-rally-in-france-after-le-pen-conviction/105144352"
           },
-          "contentUri": "coremedia://article/105141686",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/super-rugby-pacific-round-eight-wallabies-british-irish-lions/105141686",
+          "contentUri": "coremedia://article/105144352",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-07/far-right-supporters-rally-in-france-after-le-pen-conviction/105144352",
           "video": null,
-          "reactKey": "national-105141686-1",
-          "synopsis": "Taniela Tupou was a star signing for the Waratahs, but his performances in Super Rugby Pacific will need to improve if he's to feature in the Wallabies' squad to face the British and Irish Lions.",
+          "reactKey": "national-105144352-1",
+          "synopsis": "Marine Le Pen was convicted and barred from holding public office after being found guilty of embezzling European Union funds.",
           "title": {
-            "children": "Why the form of a key Waratahs recruit should be concerning for Wallabies"
+            "children": "French far-right leader compares own battle to Martin Luther King's struggle"
           },
           "imageContainerClassNames": []
         }
