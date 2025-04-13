@@ -25,10 +25,13 @@
           "uri": "coremedia://article/105170714"
         },
         {
-          "uri": "coremedia://article/105172682"
+          "uri": "coremedia://article/105172192"
         },
         {
           "uri": "coremedia://article/105172664"
+        },
+        {
+          "uri": "coremedia://article/105172682"
         },
         {
           "uri": "coremedia://article/105172762"
@@ -38,9 +41,6 @@
         },
         {
           "uri": "coremedia://article/105168610"
-        },
-        {
-          "uri": "coremedia://article/105172192"
         },
         {
           "uri": "coremedia://article/105172658"
@@ -254,9 +254,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105172682",
+          "id": "105172192",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -264,22 +270,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "NSW Police officers scour a property on Fernleigh Close, Windellama after a boy was accidentally shot",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14563cf740782c2ef0a841a73a4140fc?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=166&yPos=0&width=160&height=107",
+            "altText": "Rory McIlroy strides onto the green holding a putter in the final round of the Masters.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fe98c945fcfe37c68103cb633377a76?impolicy=wcms_crop_resize&cropH=3314&cropW=4971&xPos=14&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-14/nsw-police-charged-boy-shot-goulburn/105172682"
+            "to": "/news/2025-04-14/live-updates-masters-golf-augusta-national-final-round/105172192"
           },
-          "contentUri": "coremedia://article/105172682",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-14/nsw-police-charged-boy-shot-goulburn/105172682",
+          "contentUri": "coremedia://article/105172192",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-14/live-updates-masters-golf-augusta-national-final-round/105172192",
           "video": null,
-          "reactKey": "national-105172682-1",
-          "synopsis": "Emergency services were called to the property in Windellama, near Goulburn, after a firearm was accidentally discharged. ",
+          "reactKey": "national-105172192-1",
+          "synopsis": "Rory McIlroy becomes the sixth man to complete golf's grand slam, with a dramatic playoff victory at The Masters at Augusta National. Follow all the action live.",
           "title": {
-            "children": "Two charged after boy killed in accidental shooting on rural NSW property"
+            "children": "Career grand slam complete for Rory McIlroy with dramatic Masters win"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "169160",
+              "date": "2025-04-13T23:16:38.000Z",
+              "title": "Rory McIlroy wins the Masters!"
+            },
+            {
+              "id": "169156",
+              "date": "2025-04-13T23:15:17.000Z",
+              "title": "ROSE MISSES!"
+            },
+            {
+              "id": "169129",
+              "date": "2025-04-13T22:56:38.000Z",
+              "title": "We go to a play-off"
+            }
+          ]
         }
       },
       {
@@ -309,6 +338,37 @@
           "synopsis": "One in three Australian students are failing to reach proficiency in maths, and according to a new report, many teachers lack the confidence to teach it. ",
           "title": {
             "children": "'Too comfortable with mediocrity': 'Faddish' teaching blamed for maths failures"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105172682",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "NSW Police officers scour a property on Fernleigh Close, Windellama after a boy was accidentally shot",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14563cf740782c2ef0a841a73a4140fc?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=166&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-14/nsw-police-charged-boy-shot-goulburn/105172682"
+          },
+          "contentUri": "coremedia://article/105172682",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-14/nsw-police-charged-boy-shot-goulburn/105172682",
+          "video": null,
+          "reactKey": "national-105172682-1",
+          "synopsis": "Emergency services were called to the property in Windellama, near Goulburn, after a firearm was accidentally discharged. ",
+          "title": {
+            "children": "Two charged after boy killed in accidental shooting on rural NSW property"
           },
           "imageContainerClassNames": []
         }
@@ -433,66 +493,6 @@
             "children": "'Real men are here': The posts luring Chinese men to join Putin's army"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105172192",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A stunned Rory McIlroy holds his hand to his head in disbelief after a missed putt.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc8d66ccda31c2f146fdf164af4ab505?impolicy=wcms_crop_resize&cropH=2239&cropW=3358&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-14/live-updates-masters-golf-augusta-national-final-round/105172192"
-          },
-          "contentUri": "coremedia://article/105172192",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-14/live-updates-masters-golf-augusta-national-final-round/105172192",
-          "video": null,
-          "reactKey": "national-105172192-1",
-          "synopsis": "Rory McIlroy has a chance to win The Masters, but his missed putt on 18 takes the tournament to a playoff against Englishman Justin Rose at Augusta National. Follow all the action live.",
-          "title": {
-            "children": "McIlroy bogeys the last to send Masters to a playoff"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "169129",
-              "date": "2025-04-13T22:56:38.000Z",
-              "title": "We go to a play off"
-            },
-            {
-              "id": "169102",
-              "date": "2025-04-13T22:33:10.000Z",
-              "title": "Rory McIlroy regains the lead!"
-            },
-            {
-              "id": "169086",
-              "date": "2025-04-13T22:19:56.000Z",
-              "title": "PATRICK REED HOLES OUT FOR AN EAGLE!"
-            }
-          ]
         }
       },
       {
@@ -669,7 +669,7 @@
           "reactKey": "national-105172702-1",
           "synopsis": "Pennsylvania Governor Josh Shapiro and his family are evacuated from their home in the middle of the night after an arsonist set fire to the residence, according to police. ",
           "title": {
-            "children": "Arsonists set fire to home of Pennsylvania Governor Josh Shapiro, police say"
+            "children": "Arsonists set fire to Pennsylvania governor's home, police say"
           },
           "imageContainerClassNames": []
         }
