@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105189780"
+          "uri": "coremedia://article/105190282"
+        },
+        {
+          "uri": "coremedia://article/105189220"
         },
         {
           "uri": "coremedia://article/105187226"
-        },
-        {
-          "uri": "coremedia://article/105162886"
         },
         {
           "uri": "coremedia://article/105187714"
@@ -120,11 +120,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105189780",
+          "id": "105190282",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Aerial shot of dozens of houses in neat rows in a new outer-suburban housing estate.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64b96bb41395ca9301d3256473514489?impolicy=wcms_crop_resize&cropH=1754&cropW=2631&xPos=245&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-17/federal-election-debate-housing-policy-negative-gearing/105162886"
+          },
+          "contentUri": "coremedia://article/105190282",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-17/federal-election-debate-housing-policy-negative-gearing/105162886",
+          "video": null,
+          "reactKey": "national-105190282-1",
+          "synopsis": "The Coalition is demanding Labor clarify its stance on negative gearing after Anthony Albanese dodged questions over Treasury modelling changes to the policy during the second leaders debate. Follow live.",
+          "title": {
+            "children": "Coalition demands clarity on Labor's negative gearing stance"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105189220",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -133,23 +172,21 @@
           "isMajor": false,
           "image": {
             "altText": "Two nuclear power buildings in the night.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/240f7e6f5c2f48ba895033244b676f5f?impolicy=wcms_crop_resize&cropH=2333&cropW=3500&xPos=0&yPos=35&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/240f7e6f5c2f48ba895033244b676f5f?impolicy=wcms_crop_resize&cropH=2333&cropW=3500&xPos=0&yPos=35&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-04-17/dutton-insists-theres-enough-water-nuclear-plants-election-2025/105189220"
           },
-          "contentUri": "coremedia://article/105189780",
+          "contentUri": "coremedia://article/105189220",
           "canonicalURL": "https://www.abc.net.au/news/2025-04-17/dutton-insists-theres-enough-water-nuclear-plants-election-2025/105189220",
           "video": null,
-          "reactKey": "national-105189780-1",
+          "reactKey": "national-105189220-1",
           "synopsis": "The Coalition has sent voters contradictory messages about whether it has accounted for the vast water requirements of its seven proposed nuclear plants after Peter Dutton declared the issue all but resolved.",
           "title": {
             "children": "Coalition sends mixed messages over nuclear power water needs"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -185,37 +222,6 @@
           "synopsis": "Everyone was spurred into action on the campaign trail — explaining, defending and backtracking — after last night's leaders' debate. ",
           "title": {
             "children": "'Clean up on aisle Albanese': Chalmers picks up the mop after the debate "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105162886",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Aerial shot of dozens of houses in neat rows in a new outer-suburban housing estate.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64b96bb41395ca9301d3256473514489?impolicy=wcms_crop_resize&cropH=1754&cropW=2631&xPos=245&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-17/federal-election-debate-housing-policy-negative-gearing/105162886"
-          },
-          "contentUri": "coremedia://article/105162886",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-17/federal-election-debate-housing-policy-negative-gearing/105162886",
-          "video": null,
-          "reactKey": "national-105162886-1",
-          "synopsis": "The Coalition is demanding Labor clarify its stance on negative gearing after Anthony Albanese dodged questions over Treasury modelling changes to the policy during the second leaders debate.",
-          "title": {
-            "children": "Negative gearing policy set to dominate live housing debate"
           },
           "imageContainerClassNames": []
         }
