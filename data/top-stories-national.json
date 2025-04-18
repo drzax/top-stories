@@ -22,10 +22,10 @@
           "uri": "coremedia://article/105189854"
         },
         {
-          "uri": "coremedia://article/105190596"
+          "uri": "coremedia://article/105190182"
         },
         {
-          "uri": "coremedia://article/105190182"
+          "uri": "coremedia://article/105190596"
         },
         {
           "uri": "coremedia://article/105191056"
@@ -40,22 +40,22 @@
           "uri": "coremedia://article/105186642"
         },
         {
-          "uri": "coremedia://article/105191238"
+          "uri": "coremedia://article/105137282"
         },
         {
           "uri": "coremedia://article/105191086"
         },
         {
-          "uri": "coremedia://article/105116860"
-        },
-        {
           "uri": "coremedia://article/105190678"
         },
         {
-          "uri": "coremedia://article/105137282"
+          "uri": "coremedia://article/105191238"
         },
         {
-          "uri": "coremedia://article/105187992"
+          "uri": "coremedia://article/105116860"
+        },
+        {
+          "uri": "coremedia://article/105183954"
         },
         {
           "uri": "coremedia://article/105191108"
@@ -67,31 +67,40 @@
           "uri": "coremedia://article/105163168"
         },
         {
+          "uri": "coremedia://article/105187992"
+        },
+        {
           "uri": "coremedia://article/105191118"
         },
         {
           "uri": "coremedia://article/105191134"
         },
         {
-          "uri": "coremedia://article/105186938"
+          "uri": "coremedia://article/105191378"
         },
         {
-          "uri": "coremedia://article/105191378"
+          "uri": "coremedia://article/105191224"
+        },
+        {
+          "uri": "coremedia://article/105186938"
         },
         {
           "uri": "coremedia://article/105191136"
         },
         {
-          "uri": "coremedia://article/105152592"
-        },
-        {
           "uri": "coremedia://article/105187248"
         },
         {
-          "uri": "coremedia://article/105178602"
+          "uri": "coremedia://article/105191094"
         },
         {
-          "uri": "coremedia://article/105191094"
+          "uri": "coremedia://article/105152592"
+        },
+        {
+          "uri": "coremedia://article/105184220"
+        },
+        {
+          "uri": "coremedia://article/105178602"
         },
         {
           "uri": "coremedia://article/105191006"
@@ -100,16 +109,7 @@
           "uri": "coremedia://article/105184554"
         },
         {
-          "uri": "coremedia://article/105191120"
-        },
-        {
           "uri": "coremedia://article/105139252"
-        },
-        {
-          "uri": "coremedia://article/105189220"
-        },
-        {
-          "uri": "coremedia://article/105191116"
         },
         {
           "uri": "coremedia://article/105191362"
@@ -155,7 +155,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105191250",
           "imagePosition": {
@@ -178,9 +184,16 @@
           "reactKey": "national-105191250-1",
           "synopsis": "Police were called to a home in Bankstown on Friday night after reports a woman, 45, was taken into a SUV by kidnappers \"armed armed with a firearm\".",
           "title": {
-            "children": "Body found in burn-out-car likely kidnapped Sydney woman, police say"
+            "children": "Body found in burnt-out car likely kidnapped Sydney woman, police say"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -216,37 +229,6 @@
           "synopsis": "Peter Dutton, now seriously on the back foot, has made an extraordinarily big \"aspirational\" commitment at the back end of this campaign.",
           "title": {
             "children": "Dutton's tax 'aspiration' is his most radical idea since nuclear power"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105190596",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Ramos Horta Timor leste reuters",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bf2d2cec0fcbbfd71a003f544acfadbd?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/timor-leste-open-to-chinese-joint-military-exercises/105190596"
-          },
-          "contentUri": "coremedia://article/105190596",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/timor-leste-open-to-chinese-joint-military-exercises/105190596",
-          "video": null,
-          "reactKey": "national-105190596-1",
-          "synopsis": "Timor-Leste's President Jose Ramos Horta has said his country's forces could join with China's as long as the activity is \"not directed at any perceived hostile entity\". ",
-          "title": {
-            "children": "A close Australian neighbour is open to military drills with China"
           },
           "imageContainerClassNames": []
         }
@@ -309,6 +291,37 @@
               "title": "Toto and Toby win hearts at Sydney dog park"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105190596",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Ramos Horta Timor leste reuters",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bf2d2cec0fcbbfd71a003f544acfadbd?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=2&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/timor-leste-open-to-chinese-joint-military-exercises/105190596"
+          },
+          "contentUri": "coremedia://article/105190596",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/timor-leste-open-to-chinese-joint-military-exercises/105190596",
+          "video": null,
+          "reactKey": "national-105190596-1",
+          "synopsis": "Timor-Leste's President Jose Ramos Horta has said his country's forces could join with China's as long as the activity is \"not directed at any perceived hostile entity\". ",
+          "title": {
+            "children": "A close Australian neighbour is open to military drills with China"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -446,7 +459,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105191238",
+          "id": "105137282",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -454,20 +467,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A close-up of Luigi Mangione.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55280757b0fd74b9fcc54b7e21601786?impolicy=wcms_crop_resize&cropH=2260&cropW=3390&xPos=1&yPos=0&width=160&height=107",
+            "altText": "man with folded arms on acreage looking at camera",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f2bfcc41828d382598090543670cc5d2?impolicy=wcms_crop_resize&cropH=1854&cropW=2782&xPos=628&yPos=875&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-18/luigi-mangione-indicted-on-federal-murder-charge/105191238"
+            "to": "/news/2025-04-18/scenic-rim-council-crack-down-on-farmers-hosting-campers/105137282"
           },
-          "contentUri": "coremedia://article/105191238",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/luigi-mangione-indicted-on-federal-murder-charge/105191238",
+          "contentUri": "coremedia://article/105137282",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/scenic-rim-council-crack-down-on-farmers-hosting-campers/105137282",
           "video": null,
-          "reactKey": "national-105191238-1",
-          "synopsis": "The indictment returned by a grand jury also charges Luigi Mangione with two counts of stalking and a firearms count. ",
+          "reactKey": "national-105137282-1",
+          "synopsis": "Show-cause notices have been sent to property owners running small-scale campsites in Queensland's Scenic Rim, but they say the regulations are unfair and should only apply to tourist parks.",
           "title": {
-            "children": "Luigi Mangione indicted on murder charge in step towards death penalty"
+            "children": "Council cracks down on farmers hosting campers without a permit"
           },
           "imageContainerClassNames": []
         }
@@ -508,37 +521,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105116860",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Statue holding the scales of justice (Reuters)",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8c9c7ca4edd1a4061cfb198bcf71efb2?impolicy=wcms_crop_resize&cropH=346&cropW=518&xPos=319&yPos=124&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/controversial-law-sacrilege-blasphemy-australia/105116860"
-          },
-          "contentUri": "coremedia://article/105116860",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/controversial-law-sacrilege-blasphemy-australia/105116860",
-          "video": null,
-          "reactKey": "national-105116860-1",
-          "synopsis": "The controversial law of sacrilege — which carries the same maximum penalty of life in jail as murder — still exists in South Australia, but some say it shouldn't.",
-          "title": {
-            "children": "An SA man faces life in prison for sacrilege. What does the controversial charge mean?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105190678",
           "imagePosition": {
             "mobile": "right",
@@ -570,7 +552,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105137282",
+          "id": "105191238",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -578,20 +560,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "man with folded arms on acreage looking at camera",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f2bfcc41828d382598090543670cc5d2?impolicy=wcms_crop_resize&cropH=1854&cropW=2782&xPos=628&yPos=875&width=160&height=107",
+            "altText": "A close-up of Luigi Mangione.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55280757b0fd74b9fcc54b7e21601786?impolicy=wcms_crop_resize&cropH=2260&cropW=3390&xPos=1&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-18/scenic-rim-council-crack-down-on-farmers-hosting-campers/105137282"
+            "to": "/news/2025-04-18/luigi-mangione-indicted-on-federal-murder-charge/105191238"
           },
-          "contentUri": "coremedia://article/105137282",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/scenic-rim-council-crack-down-on-farmers-hosting-campers/105137282",
+          "contentUri": "coremedia://article/105191238",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/luigi-mangione-indicted-on-federal-murder-charge/105191238",
           "video": null,
-          "reactKey": "national-105137282-1",
-          "synopsis": "Show-cause notices have been sent to property owners running small-scale campsites in Queensland's Scenic Rim, but they say the regulations are unfair and should only apply to tourist parks.",
+          "reactKey": "national-105191238-1",
+          "synopsis": "The indictment returned by a grand jury also charges Luigi Mangione with two counts of stalking and a firearms count. ",
           "title": {
-            "children": "Council cracks down on farmers hosting campers without a permit"
+            "children": "Luigi Mangione indicted on murder charge in step towards death penalty"
           },
           "imageContainerClassNames": []
         }
@@ -601,7 +583,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105187992",
+          "id": "105116860",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -609,20 +591,51 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a cyclone tracking map ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/036e9d6c8d89cbb11a0801828e3790a1?impolicy=wcms_crop_resize&cropH=516&cropW=774&xPos=21&yPos=0&width=160&height=107",
+            "altText": "Statue holding the scales of justice (Reuters)",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8c9c7ca4edd1a4061cfb198bcf71efb2?impolicy=wcms_crop_resize&cropH=346&cropW=518&xPos=319&yPos=124&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-18/cyclone-errol-cross-kimberley-coast-friday/105187992"
+            "to": "/news/2025-04-18/controversial-law-sacrilege-blasphemy-australia/105116860"
           },
-          "contentUri": "coremedia://article/105187992",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/cyclone-errol-cross-kimberley-coast-friday/105187992",
+          "contentUri": "coremedia://article/105116860",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/controversial-law-sacrilege-blasphemy-australia/105116860",
           "video": null,
-          "reactKey": "national-105187992-1",
-          "synopsis": "Residents and tourists in Western Australia's north are being advised to prepare as Tropical Cyclone Errol is expected to cross the coast at as a tropical low later today. ",
+          "reactKey": "national-105116860-1",
+          "synopsis": "The controversial law of sacrilege — which carries the same maximum penalty of life in jail as murder — still exists in South Australia, but some say it shouldn't.",
           "title": {
-            "children": "Cyclone Errol expected to hit Kimberley coast as a tropical low "
+            "children": "An SA man faces life in prison for sacrilege. What does the controversial charge mean?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105183954",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An illustration of a scammer and a robot highfiving while popping out of a phone",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d870a6850d118d2c352fd2cb214ae60?impolicy=wcms_crop_resize&cropH=3092&cropW=4638&xPos=0&yPos=99&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/artificial-intelligence-scams-microsoft-threat-report/105183954"
+          },
+          "contentUri": "coremedia://article/105183954",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/artificial-intelligence-scams-microsoft-threat-report/105183954",
+          "video": null,
+          "reactKey": "national-105183954-1",
+          "synopsis": "Artificial intelligence is a scammer's newest tool as experts warn they can generate fake photos, voice clones, phishing emails and fake websites “at an increasingly rapid rate”. ",
+          "title": {
+            "children": "As scammers latch on to AI, Microsoft says it blocks 1.6 million bots every hour"
           },
           "imageContainerClassNames": []
         }
@@ -724,6 +737,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105187992",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a cyclone tracking map ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/375f38464e90ff7dd2771bbe266e8b86?impolicy=wcms_crop_resize&cropH=412&cropW=618&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/cyclone-errol-cross-kimberley-coast-friday/105187992"
+          },
+          "contentUri": "coremedia://article/105187992",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/cyclone-errol-cross-kimberley-coast-friday/105187992",
+          "video": null,
+          "reactKey": "national-105187992-1",
+          "synopsis": "Tropical Cyclone Errol is expected to cross the coast in Western Australia's far north as a tropical low later today. ",
+          "title": {
+            "children": "Cyclone Errol expected to hit Kimberley coast as a tropical low "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105191118",
           "imagePosition": {
             "mobile": "right",
@@ -786,37 +830,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105186938",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A small baby's hand clutching the thumb of a parent.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35b731e0eee24a1cc8c09699ca7317ef?impolicy=wcms_crop_resize&cropH=2764&cropW=4146&xPos=139&yPos=176&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/queensland-health-checks-monash-ivf-clinic-after-embryo-bungle/105186938"
-          },
-          "contentUri": "coremedia://article/105186938",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/queensland-health-checks-monash-ivf-clinic-after-embryo-bungle/105186938",
-          "video": null,
-          "reactKey": "national-105186938-1",
-          "synopsis": "A Queensland Health spokesperson said early investigations suggested human error and a failure to follow processes were behind the Monash IVF mistake, which resulted in a patient being implanted with another woman's embryo. ",
-          "title": {
-            "children": "Health regulator visits every Monash IVF clinic in Queensland after embryo mix-up"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105191378",
           "imagePosition": {
             "mobile": "right",
@@ -839,6 +852,68 @@
           "synopsis": "Dry but cool conditions in South Australia's south east are causing ladybirds to gather in huge numbers, which an ecologist says will help control a destructive plant pest.",
           "title": {
             "children": "Drought brings out millions of ladybirds — but it's a good thing"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105191224",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two booking photos provided by the California Department of Corrections shows Erik Menendez, left, and Lyle Menendez.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/823393cf91efa49fb599e4c34ffdd546?impolicy=wcms_crop_resize&cropH=2014&cropW=3021&xPos=0&yPos=8&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/menendez-brothers-bid-for-a-shorter-sentence-and-possible-parole/105191224"
+          },
+          "contentUri": "coremedia://article/105191224",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/menendez-brothers-bid-for-a-shorter-sentence-and-possible-parole/105191224",
+          "video": null,
+          "reactKey": "national-105191224-1",
+          "synopsis": "Erik and Lyle Menendez's bid for shorter sentences and a shot at freedom has been delayed again due to disputes among prosecutors and the brothers' lawyers.",
+          "title": {
+            "children": "The Menendez brothers' bid for a shorter sentence is delayed again"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105186938",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A small baby's hand clutching the thumb of a parent.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35b731e0eee24a1cc8c09699ca7317ef?impolicy=wcms_crop_resize&cropH=2764&cropW=4146&xPos=139&yPos=176&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/queensland-health-checks-monash-ivf-clinic-after-embryo-bungle/105186938"
+          },
+          "contentUri": "coremedia://article/105186938",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/queensland-health-checks-monash-ivf-clinic-after-embryo-bungle/105186938",
+          "video": null,
+          "reactKey": "national-105186938-1",
+          "synopsis": "A Queensland Health spokesperson said early investigations suggested human error and a failure to follow processes were behind the Monash IVF mistake, which resulted in a patient being implanted with another woman's embryo. ",
+          "title": {
+            "children": "Health regulator visits every Monash IVF clinic in Queensland after embryo mix-up"
           },
           "imageContainerClassNames": []
         }
@@ -879,37 +954,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105152592",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "old woman in pink top with neutral expression standing on a school crossing",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b41eb200f2c75945f6558af5e38c170?impolicy=wcms_crop_resize&cropH=1094&cropW=1640&xPos=1208&yPos=162&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/school-crossing-supervisor-dismissal-fair-work-unfair/105152592"
-          },
-          "contentUri": "coremedia://article/105152592",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/school-crossing-supervisor-dismissal-fair-work-unfair/105152592",
-          "video": null,
-          "reactKey": "national-105152592-1",
-          "synopsis": "The longtime primary school crossing guard wins an unfair dismissal case against a regional Victorian council that sacked her due to a disputed knee injury.",
-          "title": {
-            "children": "Council's sacking of 86yo lollipop lady found to be unfair"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105187248",
           "imagePosition": {
             "mobile": "right",
@@ -941,37 +985,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105178602",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man on a horse carrying a whip tries to stop three other horses running away",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e0534f9a9ec43af6cfa628befb815df?impolicy=wcms_crop_resize&cropH=4160&cropW=6240&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/horse-escape-corryong-poetry-reenactment-banjo-paterson/105178602"
-          },
-          "contentUri": "coremedia://article/105178602",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/horse-escape-corryong-poetry-reenactment-banjo-paterson/105178602",
-          "video": null,
-          "reactKey": "national-105178602-1",
-          "synopsis": "Rangers are scouring Victoria's high country for a horse that escaped handlers during a re-enactment of Banjo Patterson's Man From Snowy River poem. ",
-          "title": {
-            "children": "Horse still missing a week after Man From Snowy River re-enactment goes awry"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105191094",
           "imagePosition": {
             "mobile": "right",
@@ -994,6 +1007,99 @@
           "synopsis": "North of North is a comedy filmed in the Arctic, but that's not the only reason it's unlike any other show on TV.  ",
           "title": {
             "children": "North of North is set in the Arctic but will make you feel warm and fuzzy"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105152592",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "old woman in pink top with neutral expression standing on a school crossing",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b41eb200f2c75945f6558af5e38c170?impolicy=wcms_crop_resize&cropH=1094&cropW=1640&xPos=1208&yPos=162&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/school-crossing-supervisor-dismissal-fair-work-unfair/105152592"
+          },
+          "contentUri": "coremedia://article/105152592",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/school-crossing-supervisor-dismissal-fair-work-unfair/105152592",
+          "video": null,
+          "reactKey": "national-105152592-1",
+          "synopsis": "The longtime primary school crossing guard wins an unfair dismissal case against a regional Victorian council that sacked her due to a disputed knee injury.",
+          "title": {
+            "children": "Council's sacking of 86yo lollipop lady found to be unfair"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105184220",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "tourists on the beaches",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78764f8a733da94bd30cb4e15c390aa0?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/gold-coast-beach-restoration-work-delayed-by-wild-easter-surf/105184220"
+          },
+          "contentUri": "coremedia://article/105184220",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/gold-coast-beach-restoration-work-delayed-by-wild-easter-surf/105184220",
+          "video": null,
+          "reactKey": "national-105184220-1",
+          "synopsis": "It has been more than a month since ex-Tropical Cyclone Alfred turned the Gold Coast's beaches into rugged cliffs and now work to replace the sand has been delayed ahead of powerful swells.",
+          "title": {
+            "children": "Gold Coast beach restorations delayed by wild Easter surf"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105178602",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man on a horse carrying a whip tries to stop three other horses running away",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e0534f9a9ec43af6cfa628befb815df?impolicy=wcms_crop_resize&cropH=4160&cropW=6240&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-18/horse-escape-corryong-poetry-reenactment-banjo-paterson/105178602"
+          },
+          "contentUri": "coremedia://article/105178602",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/horse-escape-corryong-poetry-reenactment-banjo-paterson/105178602",
+          "video": null,
+          "reactKey": "national-105178602-1",
+          "synopsis": "Rangers are scouring Victoria's high country for a horse that escaped handlers during a re-enactment of Banjo Patterson's Man From Snowy River poem. ",
+          "title": {
+            "children": "Horse still missing a week after Man From Snowy River re-enactment goes awry"
           },
           "imageContainerClassNames": []
         }
@@ -1065,37 +1171,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105191120",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A coach and a player celebrate winning a soccer match ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6d4c7acaddf020bd0cd12250c5208a4d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=16&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/spursdown-frankfurt-to-make-europa-league-semifinal/105191120"
-          },
-          "contentUri": "coremedia://article/105191120",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/spursdown-frankfurt-to-make-europa-league-semifinal/105191120",
-          "video": null,
-          "reactKey": "national-105191120-1",
-          "synopsis": "Ange Postecoglou's Tottenham side have secured a stirring 1-0 win over Eintracht Frankfurt to progress to the semifinals of the Europa League and deliver the embattled manager a chance of survival. ",
-          "title": {
-            "children": "Spurs surge to Europa League semifinal with defiant victory"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105139252",
           "imagePosition": {
             "mobile": "right",
@@ -1117,69 +1192,7 @@
           "reactKey": "national-105139252-1",
           "synopsis": "People are turning to AI chatbots for cheap or even free therapy but how does this compare to seeking a professional for help, and what does it mean for the future of mental health treatment?",
           "title": {
-            "children": "Therapy chatbots have been around since the 60s — but how far can they go?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105189220",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two nuclear power buildings in the night.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/240f7e6f5c2f48ba895033244b676f5f?impolicy=wcms_crop_resize&cropH=2333&cropW=3500&xPos=0&yPos=35&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-17/dutton-insists-theres-enough-water-nuclear-plants-election-2025/105189220"
-          },
-          "contentUri": "coremedia://article/105189220",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-17/dutton-insists-theres-enough-water-nuclear-plants-election-2025/105189220",
-          "video": null,
-          "reactKey": "national-105189220-1",
-          "synopsis": "The Coalition has sent voters contradictory messages about whether it has accounted for the vast water requirements of its seven proposed nuclear plants after Peter Dutton declared the issue all but resolved.",
-          "title": {
-            "children": "Coalition sends mixed messages over nuclear power water needs"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105191116",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A boat that reads \"police\" speeding through the ocean.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/219a83c4832eba39a0dec6f54bb23be7?impolicy=wcms_crop_resize&cropH=1019&cropW=1528&xPos=303&yPos=31&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-18/qld-main-beach-boat-capsize-rescue-hazardous-surf-gold-coast/105191116"
-          },
-          "contentUri": "coremedia://article/105191116",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-18/qld-main-beach-boat-capsize-rescue-hazardous-surf-gold-coast/105191116",
-          "video": null,
-          "reactKey": "national-105191116-1",
-          "synopsis": "Three men have been rescued after a boat capsized on the Gold Coast, with the BOM warning of hazardous surf conditions in parts of south-east Queensland.",
-          "title": {
-            "children": "Three rescued after boat flips in hazardous surf"
+            "children": "How artificial intelligence is driving a new wave of self-help bots"
           },
           "imageContainerClassNames": []
         }
