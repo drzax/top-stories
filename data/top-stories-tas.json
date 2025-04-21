@@ -13,19 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105196300"
+          "uri": "coremedia://article/102165124"
         },
         {
           "uri": "coremedia://article/105194804"
+        },
+        {
+          "uri": "coremedia://article/105196300"
         },
         {
           "uri": "coremedia://article/104743516"
         },
         {
           "uri": "coremedia://article/105089818"
-        },
-        {
-          "uri": "coremedia://article/102165124"
         },
         {
           "uri": "coremedia://article/105197386"
@@ -108,9 +108,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105196300",
+          "id": "102165124",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -118,22 +124,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A young man with blond hair in a suit stands next to an older man with glasses.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56b227b2f3d658a1d6a1587fccb0c6cf?impolicy=wcms_crop_resize&cropH=3032&cropW=4548&xPos=342&yPos=197&width=160&height=107",
+            "altText": "Pope Francis dressed in green adjusting his glasses",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f5e8746fed88151a6b61a34c9d28da9?impolicy=wcms_crop_resize&cropH=1498&cropW=2246&xPos=1254&yPos=291&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-21/tasmania-greens-how-to-vote-card-preferences-non-candidate/105193630"
+            "to": "/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124"
           },
-          "contentUri": "coremedia://article/105196300",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/tasmania-greens-how-to-vote-card-preferences-non-candidate/105193630",
+          "contentUri": "coremedia://article/102165124",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124",
           "video": null,
-          "reactKey": "tas-105196300-1",
-          "synopsis": "A how-to-vote-card released by the Greens on Sunday instructs voters to pencil in a federal candidate who last week formally removed himself from the race, opening the party to criticism the move is a cash grab.",
+          "reactKey": "tas-102165124-1",
+          "synopsis": "The Vatican confirms the death of Pope Francis, who sat at the head of a church encompassing more than 1 billion worshippers worldwide. Follow live.",
           "title": {
-            "children": "'Reeks of hypocrisy': Greens urge supporters to vote for 'ineligible' candidate"
+            "children": "Pope dies just one day after greeting Vatican crowds on Easter Sunday"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "171795",
+              "date": "2025-04-21T09:43:19.000Z",
+              "title": "Vatican's statement on Pope Francis's death"
+            },
+            {
+              "id": "171790",
+              "date": "2025-04-21T09:33:06.000Z",
+              "title": "Pope Francis's final message for peace"
+            },
+            {
+              "id": "171780",
+              "date": "2025-04-21T09:17:25.000Z",
+              "title": "Anthony Albanese says Francis was 'close to the people of Australia'"
+            }
+          ]
         }
       },
       {
@@ -163,6 +192,37 @@
           "synopsis": "Hot cross buns have long heralded the start of Easter in the western world, with the marked cross on top a symbol of Christian faith — but they actually started as part of pagan rituals.",
           "title": {
             "children": "Once thought to hold magical powers, the hot cross bun has a pagan history"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105196300",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A young man with blond hair in a suit stands next to an older man with glasses.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56b227b2f3d658a1d6a1587fccb0c6cf?impolicy=wcms_crop_resize&cropH=3032&cropW=4548&xPos=342&yPos=197&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-21/tasmania-greens-how-to-vote-card-preferences-non-candidate/105193630"
+          },
+          "contentUri": "coremedia://article/105196300",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/tasmania-greens-how-to-vote-card-preferences-non-candidate/105193630",
+          "video": null,
+          "reactKey": "tas-105196300-1",
+          "synopsis": "A how-to-vote-card released by the Greens on Sunday instructs voters to pencil in a federal candidate who last week formally removed himself from the race, opening the party to criticism the move is a cash grab.",
+          "title": {
+            "children": "'Reeks of hypocrisy': Greens urge supporters to vote for 'ineligible' candidate"
           },
           "imageContainerClassNames": []
         }
@@ -227,66 +287,6 @@
             "children": "Side hustles on the rise as Tasmanians lowest paid but working the most jobs"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "102165124",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Pope Francis dressed in green adjusting his glasses",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f5e8746fed88151a6b61a34c9d28da9?impolicy=wcms_crop_resize&cropH=1498&cropW=2246&xPos=1254&yPos=291&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124"
-          },
-          "contentUri": "coremedia://article/102165124",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124",
-          "video": null,
-          "reactKey": "tas-102165124-1",
-          "synopsis": "The Vatican confirms the death of Pope Francis, who sat at the head of a church encompassing more than 1 billion worshippers worldwide. Follow live.",
-          "title": {
-            "children": "Pope dies just one day after greeting Vatican crowds on Easter Sunday"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "171790",
-              "date": "2025-04-21T09:33:06.000Z",
-              "title": "Pope Francis's final message for peace"
-            },
-            {
-              "id": "171780",
-              "date": "2025-04-21T09:17:25.000Z",
-              "title": "Anthony Albanese says Francis was 'close to the people of Australia'"
-            },
-            {
-              "id": "171771",
-              "date": "2025-04-21T08:54:57.000Z",
-              "title": "Italian PM says goodbye with 'a heart full of sadness'"
-            }
-          ]
         }
       },
       {
