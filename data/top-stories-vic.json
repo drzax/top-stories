@@ -13,13 +13,16 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105196326"
+          "uri": "coremedia://article/105198840"
         },
         {
           "uri": "coremedia://article/105197178"
         },
         {
           "uri": "coremedia://article/105195466"
+        },
+        {
+          "uri": "coremedia://article/105196326"
         },
         {
           "uri": "coremedia://article/105089642"
@@ -108,11 +111,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105196326",
+          "id": "105198840",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -120,19 +129,20 @@
           },
           "isMajor": false,
           "image": {
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49151bae0f4050cb190f77b0c8ba78d2?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=27&yPos=0&width=862&height=575",
+            "altText": "Pope Francis dressed in green adjusting his glasses",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f5e8746fed88151a6b61a34c9d28da9?impolicy=wcms_crop_resize&cropH=1791&cropW=2686&xPos=806&yPos=246&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-21/fire-tornados-grampians-more-common-climate-change/105156168"
+            "to": "/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124"
           },
-          "contentUri": "coremedia://article/105196326",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/fire-tornados-grampians-more-common-climate-change/105156168",
+          "contentUri": "coremedia://article/105198840",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/live-updates-pope-francis-dead-world-reacts/102165124",
           "video": null,
-          "reactKey": "vic-105196326-1",
-          "synopsis": "John King captured footage of a 100-metre-tall fire tornado only 50 metres from his back door. Fire analysts say the phenomenon is becoming more common as the climate changes.",
+          "reactKey": "vic-105198840-1",
+          "synopsis": "The Vatican confirms the death of Pope Francis, who sat at the head of a church encompassing more than 1 billion worshippers worldwide. Follow live.",
           "title": {
-            "children": "Once a myth, fire tornadoes are now a reality as climate changes"
+            "children": "Pope dies just one day after greeting Vatican crowds on Easter Sunday"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -197,6 +207,36 @@
           "synopsis": "The hotly anticipated showdown between Gout Gout and Lachlan Kennedy at the Stawell Gift did not eventuate, while John Evans and Bree Rizzo won the respective men's and women's finals.",
           "title": {
             "children": "Gout and Kennedy miss out at Stawell Gift as Evans and Rizzo win finals"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105196326",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49151bae0f4050cb190f77b0c8ba78d2?impolicy=wcms_crop_resize&cropH=576&cropW=864&xPos=18&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-21/fire-tornados-grampians-more-common-climate-change/105156168"
+          },
+          "contentUri": "coremedia://article/105196326",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-21/fire-tornados-grampians-more-common-climate-change/105156168",
+          "video": null,
+          "reactKey": "vic-105196326-1",
+          "synopsis": "John King captured footage of a 100-metre-tall fire tornado only 50 metres from his back door. Fire analysts say the phenomenon is becoming more common as the climate changes.",
+          "title": {
+            "children": "Once a myth, fire tornadoes are now a reality as climate changes"
           },
           "imageContainerClassNames": []
         }
