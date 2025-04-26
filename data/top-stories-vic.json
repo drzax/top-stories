@@ -25,7 +25,7 @@
           "uri": "coremedia://article/105219196"
         },
         {
-          "uri": "coremedia://article/105089612"
+          "uri": "coremedia://article/105219334"
         },
         {
           "uri": "coremedia://article/105219112"
@@ -49,6 +49,9 @@
           "uri": "coremedia://article/105215352"
         },
         {
+          "uri": "coremedia://article/105089612"
+        },
+        {
           "uri": "coremedia://article/105215628"
         },
         {
@@ -64,9 +67,6 @@
           "uri": "coremedia://article/105150916"
         },
         {
-          "uri": "coremedia://article/105216500"
-        },
-        {
           "uri": "coremedia://article/105219040"
         },
         {
@@ -76,16 +76,19 @@
           "uri": "coremedia://video/105215872"
         },
         {
-          "uri": "coremedia://article/105210088"
+          "uri": "coremedia://article/105216500"
         },
         {
-          "uri": "coremedia://article/105201982"
+          "uri": "coremedia://article/105210088"
         },
         {
           "uri": "coremedia://article/105211430"
         },
         {
           "uri": "coremedia://article/105211938"
+        },
+        {
+          "uri": "coremedia://article/105201982"
         },
         {
           "uri": "coremedia://article/104961838"
@@ -100,22 +103,19 @@
           "uri": "coremedia://article/105186368"
         },
         {
-          "uri": "coremedia://article/105209306"
-        },
-        {
           "uri": "coremedia://article/105208686"
         },
         {
           "uri": "coremedia://article/105161424"
         },
         {
+          "uri": "coremedia://article/105209306"
+        },
+        {
           "uri": "coremedia://article/105197290"
         },
         {
           "uri": "coremedia://article/105204316"
-        },
-        {
-          "uri": "coremedia://article/105207570"
         }
       ]
     },
@@ -251,9 +251,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105089612",
+          "id": "105219334",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -261,22 +267,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of people running under trees.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24c21a246d0d8651ea1b7e56a1588758?impolicy=wcms_crop_resize&cropH=2029&cropW=3044&xPos=977&yPos=1304&width=160&height=107",
+            "altText": "Collingwood coach Craig McRae",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d9066366755cb22a1a74c09cd4606718?impolicy=wcms_crop_resize&cropH=3165&cropW=4747&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-04-25/womens-running-changes-once-the-sun-sets/105089612"
+            "to": "/news/2025-04-26/afl-round-7-saints-lions-power-kangaroos-giants-bulldogs/105219334"
           },
-          "contentUri": "coremedia://article/105089612",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/womens-running-changes-once-the-sun-sets/105089612",
+          "contentUri": "coremedia://article/105219334",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-26/afl-round-7-saints-lions-power-kangaroos-giants-bulldogs/105219334",
           "video": null,
-          "reactKey": "vic-105089612-1",
-          "synopsis": "An increasing number of women are signing up to local run clubs, even tackling their first marathon. But safety fears once the sun sets are hampering their training efforts.",
+          "reactKey": "vic-105219334-1",
+          "synopsis": "Craig McRae confirms a key Magpie will miss up to eight weeks with a knee injury, as the Saints look upset the Lions at Docklands in the first of three Saturday games. Follow live.",
           "title": {
-            "children": "How women's running changes once the sun sets"
+            "children": "Pies coach confirms major injury blow, as Saints host the Lions"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "173111",
+              "date": "2025-04-26T02:57:15.000Z",
+              "title": "Magpies confirm McStay is out for six to eight weeks"
+            },
+            {
+              "id": "173109",
+              "date": "2025-04-26T02:52:14.000Z",
+              "title": "Welcome to Saturday AFL at ABC Sport"
+            }
+          ]
         }
       },
       {
@@ -501,6 +525,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105089612",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A group of people running under trees.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24c21a246d0d8651ea1b7e56a1588758?impolicy=wcms_crop_resize&cropH=2029&cropW=3044&xPos=977&yPos=1304&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-25/womens-running-changes-once-the-sun-sets/105089612"
+          },
+          "contentUri": "coremedia://article/105089612",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/womens-running-changes-once-the-sun-sets/105089612",
+          "video": null,
+          "reactKey": "vic-105089612-1",
+          "synopsis": "An increasing number of women are signing up to local run clubs, even tackling their first marathon. But safety fears once the sun sets are hampering their training efforts.",
+          "title": {
+            "children": "How women's running changes once the sun sets"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105215628",
           "imagePosition": {
             "mobile": "right",
@@ -656,37 +711,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105216500",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Craig McRae and Daniel McStay walking together on the MCG.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab7551495050bcff3518e4c3f54d43fc?impolicy=wcms_crop_resize&cropH=3091&cropW=4637&xPos=231&yPos=116&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-25/anzac-day-afl-blog-magpies-bombers-dockers-crows-live/105216500"
-          },
-          "contentUri": "coremedia://article/105216500",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/anzac-day-afl-blog-magpies-bombers-dockers-crows-live/105216500",
-          "video": null,
-          "reactKey": "vic-105216500-1",
-          "synopsis": "Collingwood is sweating on Daniel McStay's scan results after he suffered a heavy knock to the knee in the win over Essendon, while Adelaide faces a nervous wait to determine the severity of Riley Thilthorpe's hand injury after its loss to Fremantle.",
-          "title": {
-            "children": "Magpies hopeful McStay's knee injury is 'minor'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105219040",
           "imagePosition": {
             "mobile": "right",
@@ -780,6 +804,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105216500",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Craig McRae and Daniel McStay walking together on the MCG.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab7551495050bcff3518e4c3f54d43fc?impolicy=wcms_crop_resize&cropH=3091&cropW=4637&xPos=231&yPos=116&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-25/anzac-day-afl-blog-magpies-bombers-dockers-crows-live/105216500"
+          },
+          "contentUri": "coremedia://article/105216500",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/anzac-day-afl-blog-magpies-bombers-dockers-crows-live/105216500",
+          "video": null,
+          "reactKey": "vic-105216500-1",
+          "synopsis": "Collingwood is sweating on Daniel McStay's scan results after he suffered a heavy knock to the knee in the win over Essendon, while Adelaide faces a nervous wait to determine the severity of Riley Thilthorpe's hand injury after its loss to Fremantle.",
+          "title": {
+            "children": "Magpies hopeful McStay's knee injury is 'minor'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105210088",
           "imagePosition": {
             "mobile": "right",
@@ -802,37 +857,6 @@
           "synopsis": "Kooyong MP Monique Ryan has condemned gatecrashers who interrupted an election forum on Wednesday night, which saw one audience member throw a punch.",
           "title": {
             "children": "Kooyong forum descends into chaos after 'right-wing bullies' gatecrash"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105201982",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two shelves full of sake bottles, back-lit on a yellow wall",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96c0899837f79a1369e6bcfbce965a08?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-25/australia-thirst-for-sake-surges-amid-declining-japanese-market/105201982"
-          },
-          "contentUri": "coremedia://article/105201982",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/australia-thirst-for-sake-surges-amid-declining-japanese-market/105201982",
-          "video": null,
-          "reactKey": "vic-105201982-1",
-          "synopsis": "Over the last decade, Australia has emerged as one of the most promising international markets for Japanese sake.",
-          "title": {
-            "children": "Australia's thirst for sake surges as imports and local brewing boom"
           },
           "imageContainerClassNames": []
         }
@@ -895,6 +919,37 @@
           "synopsis": "A 30-year-old man died from multiple stab wounds after a fight involving up to six people who allegedly chased him along Chapel Street during the early hours of Sunday morning.",
           "title": {
             "children": "A man has been charged with murder over Easter Chapel St stabbing"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105201982",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two shelves full of sake bottles, back-lit on a yellow wall",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96c0899837f79a1369e6bcfbce965a08?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-25/australia-thirst-for-sake-surges-amid-declining-japanese-market/105201982"
+          },
+          "contentUri": "coremedia://article/105201982",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-25/australia-thirst-for-sake-surges-amid-declining-japanese-market/105201982",
+          "video": null,
+          "reactKey": "vic-105201982-1",
+          "synopsis": "Over the last decade, Australia has emerged as one of the most promising international markets for Japanese sake.",
+          "title": {
+            "children": "Australia's thirst for sake surges as imports and local brewing boom"
           },
           "imageContainerClassNames": []
         }
@@ -1028,37 +1083,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105209306",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The sign outside Casey Hospital with the hospital in the distance.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8164909018c6d22f4aa81418035879bb?impolicy=wcms_crop_resize&cropH=1448&cropW=2168&xPos=420&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-24/man-charged-carjacking-berwick-hospital-woman-injured/105209306"
-          },
-          "contentUri": "coremedia://article/105209306",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-24/man-charged-carjacking-berwick-hospital-woman-injured/105209306",
-          "video": null,
-          "reactKey": "vic-105209306-1",
-          "synopsis": "Police have charged a man with a string of offences following an incident on Wednesday morning in which a woman accompanying her husband to hospital was allegedly struck by her own car.",
-          "title": {
-            "children": "Man, 25, charged after hit and run outside Melbourne hospital"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105208686",
           "imagePosition": {
             "mobile": "right",
@@ -1121,6 +1145,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105209306",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The sign outside Casey Hospital with the hospital in the distance.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8164909018c6d22f4aa81418035879bb?impolicy=wcms_crop_resize&cropH=1448&cropW=2168&xPos=420&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-24/man-charged-carjacking-berwick-hospital-woman-injured/105209306"
+          },
+          "contentUri": "coremedia://article/105209306",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-24/man-charged-carjacking-berwick-hospital-woman-injured/105209306",
+          "video": null,
+          "reactKey": "vic-105209306-1",
+          "synopsis": "Police have charged a man with a string of offences following an incident on Wednesday morning in which a woman accompanying her husband to hospital was allegedly struck by her own car.",
+          "title": {
+            "children": "Man, 25, charged after hit and run outside Melbourne hospital"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105197290",
           "imagePosition": {
             "mobile": "right",
@@ -1174,37 +1229,6 @@
           "synopsis": "Police arrested five men after raiding properties in Melbourne's south-east, seizing luxury items and stolen cars.",
           "title": {
             "children": "Men appear in court over luxury store ram raids in Melbourne"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105207570",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Conor Nash watches Gryan Miers hobble off",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/973d507df6ede0d47912c555451c55cb?impolicy=wcms_crop_resize&cropH=2059&cropW=3088&xPos=727&yPos=110&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-23/conor-nash-suspended-for-four-weeks-for-miers-hit/105207570"
-          },
-          "contentUri": "coremedia://article/105207570",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-23/conor-nash-suspended-for-four-weeks-for-miers-hit/105207570",
-          "video": null,
-          "reactKey": "vic-105207570-1",
-          "synopsis": "Hawthorn's Conor Nash is handed a four-game suspension by the AFL tribunal for a hit that left Geelong's Gryan Miers concussed.",
-          "title": {
-            "children": "'Genuinely remorseful' Nash suspended for four weeks for Miers hit"
           },
           "imageContainerClassNames": []
         }
