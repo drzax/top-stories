@@ -19,10 +19,10 @@
           "uri": "coremedia://article/105219328"
         },
         {
-          "uri": "coremedia://article/105213426"
+          "uri": "coremedia://article/105157292"
         },
         {
-          "uri": "coremedia://article/105157292"
+          "uri": "coremedia://article/105213426"
         },
         {
           "uri": "coremedia://article/105151102"
@@ -120,7 +120,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -145,7 +151,7 @@
           "reactKey": "national-105219578-1",
           "synopsis": "Hundreds of thousands are mourning Pope Francis — a liberal reformer who rattled the Catholic Church's conservatives — at his funeral in Rome. Follow live. ",
           "title": {
-            "children": "Pope Francis funeral live: World leaders join mourners at Vatican City"
+            "children": "Pope's funeral underway as world leaders and mourners pay respects"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -186,6 +192,37 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105157292",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Kristy Alleson",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b35e36e27f9152ba6fd9315f7652cbd?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-04-26/five-regional-seats-to-watch-this-federal-election/105157292"
+          },
+          "contentUri": "coremedia://article/105157292",
+          "canonicalURL": "https://www.abc.net.au/news/2025-04-26/five-regional-seats-to-watch-this-federal-election/105157292",
+          "video": null,
+          "reactKey": "national-105157292-1",
+          "synopsis": "In the upcoming federal election, there are five seats in regional Australia that could influence the overall result. Here's why they matter.",
+          "title": {
+            "children": "Five seats that could change the course of the election"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -216,37 +253,6 @@
           "synopsis": "We have a sometimes mystifying relationship with ideas about honouring those who serve our country, and with ideas about how we defend it.",
           "title": {
             "children": "Australia needs to answer urgent questions about its defence budget"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105157292",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Kristy Alleson",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b35e36e27f9152ba6fd9315f7652cbd?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-04-26/five-regional-seats-to-watch-this-federal-election/105157292"
-          },
-          "contentUri": "coremedia://article/105157292",
-          "canonicalURL": "https://www.abc.net.au/news/2025-04-26/five-regional-seats-to-watch-this-federal-election/105157292",
-          "video": null,
-          "reactKey": "national-105157292-1",
-          "synopsis": "In the upcoming federal election, there are five seats in regional Australia that could influence the overall result. Here's why they matter.",
-          "title": {
-            "children": "Five seats that could change the course of the election"
           },
           "imageContainerClassNames": []
         }
@@ -465,9 +471,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-04-26/nrl-live-updates-cowboys-titans-panthers-sea-eagles/105204954",
           "video": null,
           "reactKey": "national-105204954-1",
-          "synopsis": "The Gold Coast Titans score a controversial try to stun their Queensland rivals in Townsville. Follow live.",
+          "synopsis": "The Gold Coast Titans score from a clear forward pass in a high-scoring first half in Townsville. Follow live.",
           "title": {
-            "children": "Cowboys fans fumes as Titans score off a forward pass"
+            "children": "Refs miss forward pass as Titans score three tries in six minutes"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -478,19 +484,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "173319",
+              "date": "2025-04-26T08:24:58.000Z",
+              "title": "HT: Gold Coast Titans 18 leading North Queensland Cowboys 12"
+            },
+            {
+              "id": "173315",
+              "date": "2025-04-26T08:22:35.000Z",
+              "title": "40' SIN BIN: Titans player Jaimin Jolliffe is off"
+            },
+            {
               "id": "173308",
               "date": "2025-04-26T08:17:05.000Z",
               "title": "36' TRY: Cowboys score despite being a player down"
-            },
-            {
-              "id": "173303",
-              "date": "2025-04-26T08:15:00.000Z",
-              "title": "32' PENALTY GOAL: Titans extend lead to 12 points, leading 18-6"
-            },
-            {
-              "id": "173296",
-              "date": "2025-04-26T08:09:00.000Z",
-              "title": "31' SIN BIN: Jake Clifford is off after a weird passage of play"
             }
           ]
         }
