@@ -43,7 +43,7 @@
           "uri": "coremedia://article/105257136"
         },
         {
-          "uri": "coremedia://article/105258056"
+          "uri": "coremedia://article/105257156"
         },
         {
           "uri": "coremedia://article/105258116"
@@ -67,7 +67,7 @@
           "uri": "coremedia://article/105260752"
         },
         {
-          "uri": "coremedia://article/105257156"
+          "uri": "coremedia://article/105258056"
         },
         {
           "uri": "coremedia://article/105257998"
@@ -76,7 +76,7 @@
           "uri": "coremedia://article/105257480"
         },
         {
-          "uri": "coremedia://article/105259930"
+          "uri": "coremedia://article/105260058"
         },
         {
           "uri": "coremedia://audioepisode/105260990"
@@ -97,10 +97,10 @@
           "uri": "coremedia://article/105255506"
         },
         {
-          "uri": "coremedia://article/105260264"
+          "uri": "coremedia://article/105259930"
         },
         {
-          "uri": "coremedia://article/105259462"
+          "uri": "coremedia://article/105260942"
         },
         {
           "uri": "coremedia://article/105252948"
@@ -109,13 +109,13 @@
           "uri": "coremedia://article/105233782"
         },
         {
-          "uri": "coremedia://article/105178254"
+          "uri": "coremedia://article/105260264"
         },
         {
           "uri": "coremedia://article/105260794"
         },
         {
-          "uri": "coremedia://article/105260942"
+          "uri": "coremedia://article/105259462"
         }
       ]
     },
@@ -472,9 +472,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105258056",
+          "id": "105257156",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -482,22 +488,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man and a woman walking along the street.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/301950cdda596df1185e87ccebfa21fa?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
+            "altText": "A chart tracks stock market lower",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9d755e36ba23a5768a5db54f61ae2b3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/chris-minns-eddie-obeid-coal-deal-money-crime-commission/105258056"
+            "to": "/news/2025-05-06/asx-markets-business-live-news-may-6-2025/105257156"
           },
-          "contentUri": "coremedia://article/105258056",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/chris-minns-eddie-obeid-coal-deal-money-crime-commission/105258056",
+          "contentUri": "coremedia://article/105257156",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/asx-markets-business-live-news-may-6-2025/105257156",
           "video": null,
-          "reactKey": "national-105258056-1",
-          "synopsis": "The NSW Crime Commission will reconsider pursuing Labor minister Eddie Obeid over $30 million he made from a corrupt coal deal after premier promises additional resources.",
+          "reactKey": "national-105257156-1",
+          "synopsis": "Local shares have opened fairly flat this morning after US stocks fell overnight. Australia's Future Fund has posted investment returns of 7.9 per cent in the past year. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
           "title": {
-            "children": "Crime commission to look at new ways of retrieving Obeid's 'ill gotten gains'"
+            "children": "ASX slightly down and value of Australia's Future Fund up"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "177589",
+              "date": "2025-05-06T06:23:45.000Z",
+              "title": "Market closes slightly lower"
+            },
+            {
+              "id": "177551",
+              "date": "2025-05-06T04:19:33.000Z",
+              "title": "Economist urges Labor to follow in footsteps of Curtin and Hawke with ambitious reform"
+            },
+            {
+              "id": "177442",
+              "date": "2025-05-06T00:55:10.000Z",
+              "title": "WiseTech shares fall"
+            }
+          ]
         }
       },
       {
@@ -720,15 +749,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105257156",
+          "id": "105258056",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -736,45 +759,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A chart tracks stock market lower",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9d755e36ba23a5768a5db54f61ae2b3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A man and a woman walking along the street.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/301950cdda596df1185e87ccebfa21fa?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/asx-markets-business-live-news-may-6-2025/105257156"
+            "to": "/news/2025-05-06/chris-minns-eddie-obeid-coal-deal-money-crime-commission/105258056"
           },
-          "contentUri": "coremedia://article/105257156",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/asx-markets-business-live-news-may-6-2025/105257156",
+          "contentUri": "coremedia://article/105258056",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/chris-minns-eddie-obeid-coal-deal-money-crime-commission/105258056",
           "video": null,
-          "reactKey": "national-105257156-1",
-          "synopsis": "Local shares have opened fairly flat this morning after US stocks fell overnight. Australia's Future Fund has posted investment returns of 7.9 per cent in the past year. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+          "reactKey": "national-105258056-1",
+          "synopsis": "The NSW Crime Commission will reconsider pursuing Labor minister Eddie Obeid over $30 million he made from a corrupt coal deal after premier promises additional resources.",
           "title": {
-            "children": "ASX slightly down and value of Australia's Future Fund up"
+            "children": "Crime commission to look at new ways of retrieving Obeid's 'ill gotten gains'"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "177589",
-              "date": "2025-05-06T06:23:45.000Z",
-              "title": "Market closes slightly lower"
-            },
-            {
-              "id": "177551",
-              "date": "2025-05-06T04:19:33.000Z",
-              "title": "Economist urges Labor to follow in footsteps of Curtin and Hawke with ambitious reform"
-            },
-            {
-              "id": "177442",
-              "date": "2025-05-06T00:55:10.000Z",
-              "title": "WiseTech shares fall"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -844,7 +844,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105259930",
+          "id": "105260058",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -852,20 +852,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Elvis Smylie plays a shot",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f1f9e8446505b31f586d06b964a94dd?impolicy=wcms_crop_resize&cropH=1497&cropW=2246&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A blue and brown sign that reads 'Charles Darwin University', next to a road with lots of green trees shading it either side",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/678fd75bc0e8afd38ce5dd69d4550674?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/elvis-smylie-earns-us-pga-championship-spot/105259930"
+            "to": "/news/2025-05-06/proposed-prison-work-camp-katherine-university-research-station/105260058"
           },
-          "contentUri": "coremedia://article/105259930",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/elvis-smylie-earns-us-pga-championship-spot/105259930",
+          "contentUri": "coremedia://article/105260058",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/proposed-prison-work-camp-katherine-university-research-station/105260058",
           "video": null,
-          "reactKey": "national-105259930-1",
-          "synopsis": "Rising star Elvis Smylie has boosted Australia's US PGA Championship tilt to seven after earning a late special exemption to golf's second major of 2025.",
+          "reactKey": "national-105260058-1",
+          "synopsis": "The Northern Territory government says it's in negotiations with a university to open a prison work camp at a research farm north of the town of Katherine.",
           "title": {
-            "children": "Smylie gets US PGA Championship chance"
+            "children": "Record NT prison spend revealed as government flags location for work camp"
           },
           "imageContainerClassNames": []
         }
@@ -1060,7 +1060,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105260264",
+          "id": "105259930",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1068,20 +1068,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Justis Huni poses, leaning on the top rope of a boxing ring",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/af51475d9f2005ea12bf3ed885d251f0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Elvis Smylie plays a shot",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f1f9e8446505b31f586d06b964a94dd?impolicy=wcms_crop_resize&cropH=1497&cropW=2246&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/justis-huni-ready-for-heavyweight-title-shot-boxing/105260264"
+            "to": "/news/2025-05-06/elvis-smylie-earns-us-pga-championship-spot/105259930"
           },
-          "contentUri": "coremedia://article/105260264",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/justis-huni-ready-for-heavyweight-title-shot-boxing/105260264",
+          "contentUri": "coremedia://article/105259930",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/elvis-smylie-earns-us-pga-championship-spot/105259930",
           "video": null,
-          "reactKey": "national-105260264-1",
-          "synopsis": "After a tumultuous five-year career, Justis Huni is positioned to become just the third Australian to fight for the undisputed heavyweight world boxing title.",
+          "reactKey": "national-105259930-1",
+          "synopsis": "Rising star Elvis Smylie has boosted Australia's US PGA Championship tilt to seven after earning a late special exemption to golf's second major of 2025.",
           "title": {
-            "children": "Huni 'comfortable being me' ahead of momentous opportunity"
+            "children": "Smylie gets US PGA Championship chance"
           },
           "imageContainerClassNames": []
         }
@@ -1091,7 +1091,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105259462",
+          "id": "105260942",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1099,20 +1099,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Josh Giddey with Benny's Boys players after a social game in Franskton.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ced651dbe59c7b0ae0dbfd65c128165?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=311&width=160&height=107",
+            "altText": "Australian musician James Baker in 2024 lounging at home",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/82a4a945f1553f03f63d3cee7b279111?impolicy=wcms_crop_resize&cropH=466&cropW=698&xPos=87&yPos=344&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/nba-star-josh-giddey-plays-social-basketball-game-in-frankston/105258320"
+            "to": "/news/2025-05-06/james-baker-australian-punk-drummer-scientists-hoodoo-gurus/105260170"
           },
-          "contentUri": "coremedia://article/105259462",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/nba-star-josh-giddey-plays-social-basketball-game-in-frankston/105258320",
+          "contentUri": "coremedia://article/105260942",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/james-baker-australian-punk-drummer-scientists-hoodoo-gurus/105260170",
           "video": null,
-          "reactKey": "national-105259462-1",
-          "synopsis": "A social basketball team in Frankston did a double take when they saw Chicago Bulls star Josh Giddey suiting up for the opposition on Monday night.",
+          "reactKey": "national-105260942-1",
+          "synopsis": "Australian punk rock pioneer James Baker, founding member of The Scientists, Hoodoo Gurus and The Beasts of Bourbon, has died from cancer at age 71.",
           "title": {
-            "children": "'This game's not going to go our way': NBA star crashes social game in Melbourne"
+            "children": "James Baker, trailblazing Australian punk drummer, dies"
           },
           "imageContainerClassNames": []
         }
@@ -1184,7 +1184,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105178254",
+          "id": "105260264",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1192,20 +1192,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An elderly woman holding the hand of her adult son on a sidewalk",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d2153ce2fd1f2290eccb4b521f4be4f?impolicy=wcms_crop_resize&cropH=1000&cropW=1500&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Justis Huni poses, leaning on the top rope of a boxing ring",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/af51475d9f2005ea12bf3ed885d251f0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/adult-carers-children-with-disability-wills-trusts/105178254"
+            "to": "/news/2025-05-06/justis-huni-ready-for-heavyweight-title-shot-boxing/105260264"
           },
-          "contentUri": "coremedia://article/105178254",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/adult-carers-children-with-disability-wills-trusts/105178254",
+          "contentUri": "coremedia://article/105260264",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/justis-huni-ready-for-heavyweight-title-shot-boxing/105260264",
           "video": null,
-          "reactKey": "national-105178254-1",
-          "synopsis": "Estate planning before your own death can be confronting for anyone. But for parents who have children with disabilities, there are additional complexities to consider. ",
+          "reactKey": "national-105260264-1",
+          "synopsis": "After a tumultuous five-year career, Justis Huni is positioned to become just the third Australian to fight for the undisputed heavyweight world boxing title.",
           "title": {
-            "children": "Dan used to care for his 95yo mum. Now it's the other way around"
+            "children": "Huni 'comfortable being me' ahead of momentous opportunity"
           },
           "imageContainerClassNames": []
         }
@@ -1246,7 +1246,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105260942",
+          "id": "105259462",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1254,20 +1254,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Australian musician James Baker in 2024 lounging at home",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/82a4a945f1553f03f63d3cee7b279111?impolicy=wcms_crop_resize&cropH=466&cropW=698&xPos=87&yPos=344&width=160&height=107",
+            "altText": "Josh Giddey with Benny's Boys players after a social game in Franskton.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ced651dbe59c7b0ae0dbfd65c128165?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=311&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-06/james-baker-australian-punk-drummer-scientists-hoodoo-gurus/105260170"
+            "to": "/news/2025-05-06/nba-star-josh-giddey-plays-social-basketball-game-in-frankston/105258320"
           },
-          "contentUri": "coremedia://article/105260942",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/james-baker-australian-punk-drummer-scientists-hoodoo-gurus/105260170",
+          "contentUri": "coremedia://article/105259462",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-06/nba-star-josh-giddey-plays-social-basketball-game-in-frankston/105258320",
           "video": null,
-          "reactKey": "national-105260942-1",
-          "synopsis": "Australian punk rock pioneer James Baker, founding member of The Scientists, Hoodoo Gurus and The Beasts of Bourbon, has died from cancer at age 71.",
+          "reactKey": "national-105259462-1",
+          "synopsis": "A social basketball team in Frankston did a double take when they saw Chicago Bulls star Josh Giddey suiting up for the opposition on Monday night.",
           "title": {
-            "children": "James Baker, trailblazing Australian punk drummer, dies"
+            "children": "'This game's not going to go our way': NBA star crashes social game in Melbourne"
           },
           "imageContainerClassNames": []
         }
