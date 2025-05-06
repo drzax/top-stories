@@ -311,7 +311,7 @@
           "reactKey": "nt-105259562-1",
           "synopsis": "Ms Patterson is accused of murdering three relatives by serving them a beef Wellington laced with poisonous death cap mushrooms. Follow the trial in our live blog.",
           "title": {
-            "children": "Surviving lunch guest describes how deadly sickness set in after meal"
+            "children": "Erin 'very reluctant' to let lunch guests near pantry, court hears"
           },
           "imageContainerClassNames": []
         }
@@ -540,7 +540,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105257070",
           "imagePosition": {
@@ -565,7 +571,14 @@
           "title": {
             "children": "Grandmother in custody as town reels after deaths of two young boys"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {

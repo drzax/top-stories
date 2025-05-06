@@ -135,8 +135,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An x-ray of a stingray barb in the arm of Minlaton woman Pam Bennett.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/776ac2b192d7fa1e583780107074b9f1?impolicy=wcms_crop_resize&cropH=510&cropW=765&xPos=0&yPos=345&width=862&height=575",
+            "altText": "A woman in a hospital bed with a stingray barb in her arm.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6bdc513a1cde052aec624fb4647e01b4?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -479,7 +479,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105257070",
           "imagePosition": {
@@ -504,7 +510,14 @@
           "title": {
             "children": "Grandmother in custody as town reels after deaths of two young boys"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
