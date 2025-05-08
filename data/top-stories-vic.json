@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/105267506"
+        },
+        {
           "uri": "coremedia://article/105266702"
         },
         {
@@ -114,10 +117,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "105267506",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A digital drawing of Erin Patterson wearing a pink shirt",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0abfaf4c2d216c17ceb61e2245ee845a?impolicy=wcms_crop_resize&cropH=1169&cropW=1754&xPos=0&yPos=52&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-05-08/blog-erin-patterson-trial-thursday-may-8/105267156"
+          },
+          "contentUri": "coremedia://article/105267506",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-08/blog-erin-patterson-trial-thursday-may-8/105267156",
+          "video": null,
+          "reactKey": "vic-105267506-1",
+          "synopsis": "Erin Patterson is charged with three counts of murder after three relatives died from mushroom poisoning after eating a beef Wellington meal she prepared. Follow the trial in our live blog.",
+          "title": {
+            "children": "Witness testimony continues as Erin Patterson's murder trial resumes "
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105266702",
           "imagePosition": {
             "mobile": "right",
@@ -127,7 +169,7 @@
           "isMajor": false,
           "image": {
             "altText": "A man in a light blue beanie, hoodie and headphones staring into the distance",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e65f895435869f5a59768105f01f655a?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=192&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e65f895435869f5a59768105f01f655a?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=192&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -141,9 +183,7 @@
           "title": {
             "children": "Rough sleepers camp at site of long-delayed social housing project"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
