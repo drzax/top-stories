@@ -58,7 +58,7 @@
           "uri": "coremedia://article/105292372"
         },
         {
-          "uri": "coremedia://article/105307124"
+          "uri": "coremedia://article/105307456"
         },
         {
           "uri": "coremedia://article/105308250"
@@ -67,10 +67,10 @@
           "uri": "coremedia://article/105308282"
         },
         {
-          "uri": "coremedia://article/105307456"
+          "uri": "coremedia://article/105307758"
         },
         {
-          "uri": "coremedia://article/105307758"
+          "uri": "coremedia://article/105307124"
         },
         {
           "uri": "coremedia://article/105307000"
@@ -475,7 +475,7 @@
           "reactKey": "national-105287214-1",
           "synopsis": "Pope Leo isn't just the leader of the Catholic Church. He's also the head of the Holy See, the central governing body of Vatican City.",
           "title": {
-            "children": "Why is the pope also the ruler of a country? Vatican City’s unique status explained"
+            "children": "Why is the pope also the ruler of a country? Vatican City's unique status explained"
           },
           "imageContainerClassNames": []
         }
@@ -607,9 +607,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105307124",
+          "id": "105307456",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -617,22 +623,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Pope holds Mass during formal inauguration.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ea376c90aee18900c6df64196d98b37?impolicy=wcms_crop_resize&cropH=2374&cropW=3561&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-18/pope-leo-xiv-inaugural-mass-held-at-the-vatican/105307124"
+            "to": "/news/2025-05-19/asx-markets-business-news-live-updates/105307456"
           },
-          "contentUri": "coremedia://article/105307124",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-18/pope-leo-xiv-inaugural-mass-held-at-the-vatican/105307124",
+          "contentUri": "coremedia://article/105307456",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/asx-markets-business-news-live-updates/105307456",
           "video": null,
-          "reactKey": "national-105307124-1",
-          "synopsis": "The mass in St Peter's Square marks the start of the pontificate of the first American to lead the Roman Catholic Church.",
+          "reactKey": "national-105307456-1",
+          "synopsis": "Wall Street closed just before the US credit rating was cut by Moody's over concerns about mounting debt. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
           "title": {
-            "children": "Pope Leo condemns exploitation of the poor at inaugural mass"
+            "children": "ASX set to slip after US credit downgrade"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "181524",
+              "date": "2025-05-18T22:22:41.000Z",
+              "title": "Vodafone alleges Telstra misled customers on mobile coverage"
+            },
+            {
+              "id": "181498",
+              "date": "2025-05-18T21:44:20.000Z",
+              "title": "Moody's cuts US credit rating, its debt pile is about to get even more expensive"
+            },
+            {
+              "id": "181483",
+              "date": "2025-05-18T21:32:16.000Z",
+              "title": "Wall Street rally continues, ASX set for a pause after US credit downgrade"
+            }
+          ]
         }
       },
       {
@@ -700,61 +729,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105307456",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-05-19/asx-markets-business-news-live-updates/105307456"
-          },
-          "contentUri": "coremedia://article/105307456",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/asx-markets-business-news-live-updates/105307456",
-          "video": null,
-          "reactKey": "national-105307456-1",
-          "synopsis": "Wall Street closed just before the US credit rating was cut by Moody's over concerns about mounting debt. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-          "title": {
-            "children": "ASX set to slip after US credit downgrade"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "181498",
-              "date": "2025-05-18T21:44:20.000Z",
-              "title": "Moody's cuts US credit rating, its debt pile is about to get even more expensive"
-            },
-            {
-              "id": "181483",
-              "date": "2025-05-18T21:32:16.000Z",
-              "title": "Wall Street rally continues, ASX set for a pause after US credit downgrade"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "105307758",
@@ -779,6 +753,37 @@
           "synopsis": "Ukraine's deputy prime minister accuses Russia of targeting civilians in strikes on a number of cities across the country.",
           "title": {
             "children": "Ukraine accuses Russia of targeting civilians in 'record' drone attack"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105307124",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Pope holds Mass during formal inauguration.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ea376c90aee18900c6df64196d98b37?impolicy=wcms_crop_resize&cropH=2374&cropW=3561&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-05-18/pope-leo-xiv-inaugural-mass-held-at-the-vatican/105307124"
+          },
+          "contentUri": "coremedia://article/105307124",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-18/pope-leo-xiv-inaugural-mass-held-at-the-vatican/105307124",
+          "video": null,
+          "reactKey": "national-105307124-1",
+          "synopsis": "The mass in St Peter's Square marks the start of the pontificate of the first American to lead the Roman Catholic Church.",
+          "title": {
+            "children": "Pope Leo condemns exploitation of the poor at inaugural mass"
           },
           "imageContainerClassNames": []
         }
