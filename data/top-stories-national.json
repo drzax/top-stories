@@ -25,16 +25,16 @@
           "uri": "coremedia://article/105298336"
         },
         {
-          "uri": "coremedia://article/105295086"
+          "uri": "coremedia://article/105303540"
         },
         {
           "uri": "coremedia://article/105310194"
         },
         {
-          "uri": "coremedia://article/105308382"
+          "uri": "coremedia://article/105295086"
         },
         {
-          "uri": "coremedia://article/105300124"
+          "uri": "coremedia://article/105308382"
         },
         {
           "uri": "coremedia://article/105301242"
@@ -46,10 +46,10 @@
           "uri": "coremedia://article/105308054"
         },
         {
-          "uri": "coremedia://article/105308684"
+          "uri": "coremedia://article/105300124"
         },
         {
-          "uri": "coremedia://article/105303540"
+          "uri": "coremedia://article/105308684"
         },
         {
           "uri": "coremedia://article/105310212"
@@ -257,9 +257,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105295086",
+          "id": "105303540",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -267,22 +273,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man leans against a wire fence.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/accc46ec03bd7daca7bf819b2f99cb4f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=60&width=160&height=107",
+            "altText": "A woman with dark hair smiles.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1de5122115f5eb01bbfb20de08320d9b?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-19/medicinal-cannabis-ahpra-prescription-boom/105295086"
+            "to": "/news/2025-05-19/federal-politics-live-may-19/105303540"
           },
-          "contentUri": "coremedia://article/105295086",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/medicinal-cannabis-ahpra-prescription-boom/105295086",
+          "contentUri": "coremedia://article/105303540",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/federal-politics-live-may-19/105303540",
           "video": null,
-          "reactKey": "national-105295086-1",
-          "synopsis": "New data has revealed alarming practices in the prescribing of medicinal cannabis, with one doctor appearing to issue a script every 4 minutes.",
+          "reactKey": "national-105303540-1",
+          "synopsis": "Liberal candidate for Bradfield Gisele Kapterian has increased her lead to 50 votes over her independent rival Nicolette Boele. Follow live.",
           "title": {
-            "children": "'I'm on Pluto here': Concerns raised over strength of medicinal cannabis products"
+            "children": "Liberals increase lead in Bradfield after absent vote count"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "181608",
+              "date": "2025-05-19T02:39:16.000Z",
+              "title": "Marles coy on why it took so long for tanks to be sent to Ukraine"
+            },
+            {
+              "id": "181602",
+              "date": "2025-05-19T02:27:23.000Z",
+              "title": "🗳️ Liberal lead increases in Bradfield"
+            },
+            {
+              "id": "181540",
+              "date": "2025-05-18T22:45:16.000Z",
+              "title": "Albanese tells Zelenskyy Australia doing 'whatever we can' to pressure on Russia"
+            }
+          ]
         }
       },
       {
@@ -321,6 +350,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105295086",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man leans against a wire fence.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/accc46ec03bd7daca7bf819b2f99cb4f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=60&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-05-19/medicinal-cannabis-ahpra-prescription-boom/105295086"
+          },
+          "contentUri": "coremedia://article/105295086",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/medicinal-cannabis-ahpra-prescription-boom/105295086",
+          "video": null,
+          "reactKey": "national-105295086-1",
+          "synopsis": "New data has revealed alarming practices in the prescribing of medicinal cannabis, with one doctor appearing to issue a script every 4 minutes.",
+          "title": {
+            "children": "'I'm on Pluto here': Concerns raised over strength of medicinal cannabis products"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105308382",
           "imagePosition": {
             "mobile": "right",
@@ -343,37 +403,6 @@
           "synopsis": "A former West Coast Eagles player whose life hit \"the tipping point\" when he was delisted from the club adds his voice to calls for the AFL to establish a mental health round in the wake of Adam Selwood's death.",
           "title": {
             "children": "Adam Selwood's death prompts former Eagle to open up on mental health"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105300124",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Telstra Shop signage outside Brisbane CBD store",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/375069a27810c650ef671b61736b7a57?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-05-19/vodafone-tpg-claims-telstra-coverage-less-than-advertised/105300124"
-          },
-          "contentUri": "coremedia://article/105300124",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/vodafone-tpg-claims-telstra-coverage-less-than-advertised/105300124",
-          "video": null,
-          "reactKey": "national-105300124-1",
-          "synopsis": "Vodafone accuses Telstra of \"misleading\" consumers over the extent of its mobile coverage resulting in an \"unfair market advantage.\"",
-          "title": {
-            "children": "'That million square kilometres matters': Rival claims Telstra misled customers"
           },
           "imageContainerClassNames": []
         }
@@ -488,8 +517,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Actor Samuel Johnson.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/86e0fdcf4dc4c09af997dc84c2446482?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "Actor Samuel Johnson",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/da3f85cbfab96a6d9281bf7fa79a9ef6?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -502,6 +531,37 @@
           "synopsis": "He has overcome a series of personal tragedies, but Gold Logie winner Samuel Johnson says he is not peddling a redemptive narrative.",
           "title": {
             "children": "Actor Samuel Johnson felt like a 'turd burger' — until a crash nearly killed him"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105300124",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Telstra Shop signage outside Brisbane CBD store",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/375069a27810c650ef671b61736b7a57?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-05-19/vodafone-tpg-claims-telstra-coverage-less-than-advertised/105300124"
+          },
+          "contentUri": "coremedia://article/105300124",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/vodafone-tpg-claims-telstra-coverage-less-than-advertised/105300124",
+          "video": null,
+          "reactKey": "national-105300124-1",
+          "synopsis": "Vodafone accuses Telstra of \"misleading\" consumers over the extent of its mobile coverage resulting in an \"unfair market advantage.\"",
+          "title": {
+            "children": "'That million square kilometres matters': Rival claims Telstra misled customers"
           },
           "imageContainerClassNames": []
         }
@@ -535,66 +595,6 @@
             "children": "Energy giant apologises to customers in 'greenwashing' settlement"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105303540",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with dark hair smiles.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1de5122115f5eb01bbfb20de08320d9b?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-05-19/federal-politics-live-may-19/105303540"
-          },
-          "contentUri": "coremedia://article/105303540",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-19/federal-politics-live-may-19/105303540",
-          "video": null,
-          "reactKey": "national-105303540-1",
-          "synopsis": "Liberal candidate for Bradfield Gisele Kapterian has increased her lead to 50 votes over her independent rival Nicolette Boele. Follow live.",
-          "title": {
-            "children": "Liberals increase lead in Bradfield after absent vote count"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "181608",
-              "date": "2025-05-19T02:39:16.000Z",
-              "title": "Marles coy on why it took so long for tanks to be sent to Ukraine"
-            },
-            {
-              "id": "181602",
-              "date": "2025-05-19T02:27:23.000Z",
-              "title": "🗳️ Liberal lead increases in Bradfield"
-            },
-            {
-              "id": "181540",
-              "date": "2025-05-18T22:45:16.000Z",
-              "title": "Albanese tells Zelenskyy Australia doing 'whatever we can' to pressure on Russia"
-            }
-          ]
         }
       },
       {
@@ -703,8 +703,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A yellow-brown snake primes itself ready to strike out.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6d45623d377aa0c3a5daa86940a62562?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
+            "altText": "Smiling woman, dark hair, bald man, both in khaki uniforms with logo, hold a snake, lots of snakes in glass cabinets behind.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b6c7e871a5dfbe28f1581c29c6ac008b?impolicy=wcms_crop_resize&cropH=2566&cropW=3849&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -908,7 +908,7 @@
           "reactKey": "national-105308250-1",
           "synopsis": "The Anglican Diocese of North Queensland is on the brink of financial collapse as it struggles to pay millions in compensation to victims of historic child sexual abuse.",
           "title": {
-            "children": "Church seeks to sell property to pay child sex abuse claims"
+            "children": " Church on brink of financial collapse following child sexual abuse claims"
           },
           "imageContainerClassNames": []
         }
@@ -1032,7 +1032,7 @@
           "reactKey": "national-105309464-1",
           "synopsis": "A British mountain guide has scaled Mount Everest for the 19th time, breaking his own record for the most ascents by a non-Sherpa guide.",
           "title": {
-            "children": "British climber breaks record by scaling Mount Everest for the 19th time"
+            "children": "British climber breaks own record by scaling Mount Everest for the 19th time"
           },
           "imageContainerClassNames": []
         }
