@@ -16,7 +16,7 @@
           "uri": "coremedia://article/105331956"
         },
         {
-          "uri": "coremedia://article/105325192"
+          "uri": "coremedia://article/105331622"
         },
         {
           "uri": "coremedia://article/105309064"
@@ -158,9 +158,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105325192",
+          "id": "105331622",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -168,22 +174,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Man wearing hi-vis jacket stands in thigh-deep floodwaters as far as the eye can see",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf7b8e817cf75e2bc2244b126a0a70c3?impolicy=wcms_crop_resize&cropH=606&cropW=909&xPos=182&yPos=510&width=160&height=107",
+            "altText": "Aerial show of flood water across a highway.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e8ee6d5e770f3545dd8fdcbd5675ae6?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=3&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-05-23/nsw-flood-deaths-weather-system-tracking-south/105325192"
+            "to": "/news/2025-05-24/nsw-flooding-live-updates-weather-warnings-may-24/105331622"
           },
-          "contentUri": "coremedia://article/105325192",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-23/nsw-flood-deaths-weather-system-tracking-south/105325192",
+          "contentUri": "coremedia://article/105331622",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-24/nsw-flooding-live-updates-weather-warnings-may-24/105331622",
           "video": null,
-          "reactKey": "national-105325192-1",
-          "synopsis": "The weather system that has caused record flooding in NSW this week may have moved south, but the sheer volume of water and overnight bursts of rain mean communities are still on high alert.",
+          "reactKey": "national-105331622-1",
+          "synopsis": "Weather conditions that have brought deadly flooding to New South Wales are beginning to ease but more than 30 emergency-level warnings remain in place. Follow live.",
           "title": {
-            "children": "PM issues plea as 'horrific' flood threat moves south and death toll rises to five"
+            "children": "Authorities warn of ongoing danger as floodwaters subside in some parts"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "183478",
+              "date": "2025-05-23T20:30:45.000Z",
+              "title": "Where are the evacuation centres?"
+            },
+            {
+              "id": "183477",
+              "date": "2025-05-23T20:14:05.000Z",
+              "title": "Hundreds of flood-related road closures still in place"
+            },
+            {
+              "id": "183476",
+              "date": "2025-05-23T19:54:12.000Z",
+              "title": "SES urges isolated communities to 'please be patient'"
+            }
+          ]
         }
       },
       {
