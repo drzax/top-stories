@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/105341598"
+        },
+        {
           "uri": "coremedia://article/105340476"
         },
         {
@@ -120,10 +123,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "105341598",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An image of Erin Patterson.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7477f1125c85f106e97ebd9980d486b?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-05-27/erin-patterson-mushroom-murder-trial-live-blog-tuesday-may-27/105340528"
+          },
+          "contentUri": "coremedia://article/105341598",
+          "canonicalURL": "https://www.abc.net.au/news/2025-05-27/erin-patterson-mushroom-murder-trial-live-blog-tuesday-may-27/105340528",
+          "video": null,
+          "reactKey": "vic-105341598-1",
+          "synopsis": "Erin Patterson has pleaded not guilty to murdering her estranged husband's parents and his aunt by feeding them poisonous death cap mushrooms in July 2023. Follow the evidence live.",
+          "title": {
+            "children": "Erin Patterson's triple murder trial resumes"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105340476",
           "imagePosition": {
             "mobile": "right",
@@ -133,7 +175,7 @@
           "isMajor": false,
           "image": {
             "altText": "A machete",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4736c76e3e4dc2badc2008855f6f5ef?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4736c76e3e4dc2badc2008855f6f5ef?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -147,9 +189,7 @@
           "title": {
             "children": "As shoppers ran in horror, Victoria's premier went into survival mode"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
