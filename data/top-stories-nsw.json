@@ -13,9 +13,6 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105350150"
-        },
-        {
           "uri": "coremedia://article/105345678"
         },
         {
@@ -96,49 +93,10 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105350150",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Xavier Coates is tackled in mid-air by Brian To'o.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f1acfb3222c576de6fa98ae58ba847d9?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-05-28/live-updates-state-of-origin-i-brisbane-queensland-vs-nsw/105349536"
-          },
-          "contentUri": "coremedia://article/105350150",
-          "canonicalURL": "https://www.abc.net.au/news/2025-05-28/live-updates-state-of-origin-i-brisbane-queensland-vs-nsw/105349536",
-          "video": null,
-          "reactKey": "nsw-105350150-1",
-          "synopsis": "The Blues are still on top but conceded a try while Brian To'o was in the sin-bin for the first 10 minutes of the second half at Lang Park. Follow live.",
-          "title": {
-            "children": "Maroons hit back against 12 men after 'ridiculous' sin-binning in Origin I"
-          },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105345678",
           "imagePosition": {
             "mobile": "right",
@@ -148,7 +106,7 @@
           "isMajor": false,
           "image": {
             "altText": "A house on fire in Croydon",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/592a1f61c25472b3d01b039bc5bc50de?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/592a1f61c25472b3d01b039bc5bc50de?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
@@ -162,7 +120,9 @@
           "title": {
             "children": "Man arrested after 'suspicious' fatal Sydney house fire"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
         }
       },
       {
