@@ -635,7 +635,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105345678",
           "imagePosition": {
@@ -660,7 +666,14 @@
           "title": {
             "children": "'Suspicious' Sydney house fire leaves one dead, resident at large"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -916,9 +929,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-05-28/asx-markets-business-live-news/105345922",
           "video": null,
           "reactKey": "nt-105345922-1",
-          "synopsis": "The Australian share market is set to rise ahead of the latest ABS inflation figures and a likely interest rate cut by the Reserve Bank of New Zealand. Wall Street surges on US President Donald Trump's decision to delay a proposed tariff hike on European Union imports. Follow live.",
+          "synopsis": "The Australian share market has risen ahead of the latest ABS inflation figures and a likely interest rate cut by the Reserve Bank of New Zealand. Wall Street surges on US President Donald Trump's decision to delay a proposed tariff hike on European Union imports. Follow live.",
           "title": {
-            "children": "ASX to rise, Wall Street surges on Donald Trump's EU tariff delay"
+            "children": "ASX rises, Wall Street surges on Donald Trump's EU tariff delay"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -929,6 +942,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "184541",
+              "date": "2025-05-28T00:29:09.000Z",
+              "title": "ASX rises 0.5 per cent in early trade"
+            },
+            {
               "id": "184531",
               "date": "2025-05-27T23:19:18.000Z",
               "title": "Wall Street rebounds on belief Trump will not 'drive us over the cliff'"
@@ -937,11 +955,6 @@
               "id": "184524",
               "date": "2025-05-27T22:29:22.000Z",
               "title": "Whistleblower protections failed Richard Boyle, calls grow for urgent reforms"
-            },
-            {
-              "id": "184520",
-              "date": "2025-05-27T22:10:55.000Z",
-              "title": "Call the medics: How Healthscope ended up in hospital"
             }
           ]
         }
