@@ -13,6 +13,9 @@
       },
       "items": [
         {
+          "uri": "coremedia://article/105402566"
+        },
+        {
           "uri": "coremedia://article/105402130"
         },
         {
@@ -26,9 +29,6 @@
         },
         {
           "uri": "coremedia://article/105400128"
-        },
-        {
-          "uri": "coremedia://article/105400784"
         },
         {
           "uri": "coremedia://article/105398994"
@@ -123,10 +123,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
+          "id": "105402566",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An image of Erin Patterson.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f7477f1125c85f106e97ebd9980d486b?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-11/erin-patterson-mushroom-murder-trial-live-blog-wednesday-june-11/105401832"
+          },
+          "contentUri": "coremedia://article/105402566",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-11/erin-patterson-mushroom-murder-trial-live-blog-wednesday-june-11/105401832",
+          "video": null,
+          "reactKey": "vic-105402566-1",
+          "synopsis": "Accused triple-murderer Erin Patterson will face another day of questioning by the prosecution. Follow live.",
+          "title": {
+            "children": "Erin Patterson to resume giving evidence in triple-murder trial"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105402130",
           "imagePosition": {
             "mobile": "right",
@@ -136,7 +175,7 @@
           "isMajor": false,
           "image": {
             "altText": "Three workers, one in white overalls and the others in orange and yellow high vis, look at a gap in the road with metal spikes.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30b01e3521147262692bcb09255172b3?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30b01e3521147262692bcb09255172b3?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -150,9 +189,7 @@
           "title": {
             "children": "Hours-long traffic delays in Melbourne's west as crews inspect road damage"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -275,37 +312,6 @@
           "synopsis": "Formula 1's new era will begin in Melbourne after the Australian Grand Prix was confirmed as the first race of the 2026 season. ",
           "title": {
             "children": "F1's new era to begin at Australian Grand Prix with first race of 2026"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105400784",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close up photo of Erin Patterson looking over her shoulder wearing glases.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/83a06266acadc22a8d71ff287b850726?impolicy=wcms_crop_resize&cropH=1199&cropW=1799&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-10/erin-patterson-mushroom-murder-trial-disputes-lunch-guest-plates/105398324"
-          },
-          "contentUri": "coremedia://article/105400784",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-10/erin-patterson-mushroom-murder-trial-disputes-lunch-guest-plates/105398324",
-          "video": null,
-          "reactKey": "vic-105400784-1",
-          "synopsis": "In a tense morning of questioning, accused murderer Erin Patterson says multiple witnesses who have given evidence during her trial have been mistaken.",
-          "title": {
-            "children": "Erin Patterson disputes testimony of witnesses and family in mushroom murder trial"
           },
           "imageContainerClassNames": []
         }
