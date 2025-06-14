@@ -46,7 +46,7 @@
           "uri": "coremedia://audio/105376262"
         },
         {
-          "uri": "coremedia://article/105415574"
+          "uri": "coremedia://article/105415244"
         },
         {
           "uri": "coremedia://article/105403522"
@@ -58,13 +58,13 @@
           "uri": "coremedia://article/105416668"
         },
         {
+          "uri": "coremedia://article/105415188"
+        },
+        {
           "uri": "coremedia://article/105407098"
         },
         {
           "uri": "coremedia://article/105405900"
-        },
-        {
-          "uri": "coremedia://article/105405318"
         },
         {
           "uri": "coremedia://article/105404398"
@@ -73,13 +73,13 @@
           "uri": "coremedia://article/105406492"
         },
         {
+          "uri": "coremedia://article/105412850"
+        },
+        {
           "uri": "coremedia://article/105405900"
         },
         {
           "uri": "coremedia://article/105415900"
-        },
-        {
-          "uri": "coremedia://article/105416674"
         },
         {
           "uri": "coremedia://article/104328340"
@@ -438,9 +438,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105415574",
+          "id": "105415244",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -448,22 +454,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Daniel Curtin celebrates kicking a goal.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17bf6b245cb9065233fafadecd646e94?impolicy=wcms_crop_resize&cropH=1457&cropW=2186&xPos=83&yPos=0&width=160&height=107",
+            "altText": "Jack Payne of the Lions taken from the field after being injured.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/214bb038b4332a2077a4723e82dad492?impolicy=wcms_crop_resize&cropH=2571&cropW=3857&xPos=159&yPos=230&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-06-13/afl-round-14-hawks-crows-launceston-live-blog/105415574"
+            "to": "/news/2025-06-14/afl-r14-lions-gws-bombers-cats-roos-dockers-live-blog/105415244"
           },
-          "contentUri": "coremedia://article/105415574",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-13/afl-round-14-hawks-crows-launceston-live-blog/105415574",
+          "contentUri": "coremedia://article/105415244",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-14/afl-r14-lions-gws-bombers-cats-roos-dockers-live-blog/105415244",
           "video": null,
-          "reactKey": "wa-105415574-1",
-          "synopsis": "Friday the 13th will be remembered as a horror show for Adelaide after its horrible goal kicking costs it victory in a three-point loss to Hawthorn.",
+          "reactKey": "wa-105415244-1",
+          "synopsis": "Brisbane looks set to be without defender Jack Payne for a significant portion of time after he suffered a knee injury in the first quarter against the GWS Giants. Follow live.",
           "title": {
-            "children": "Karma bug bites wayward Crows in Friday fright night"
+            "children": "Lions defender stretchered off in agony after horror knee injury"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "190574",
+              "date": "2025-06-14T05:35:47.000Z",
+              "title": "Bombers vs Cats team news - No late changes"
+            },
+            {
+              "id": "190572",
+              "date": "2025-06-14T05:33:11.000Z",
+              "title": "3QT: GWS Giants 12.3 (75) leads Brisbane 10.13 (73)"
+            },
+            {
+              "id": "190557",
+              "date": "2025-06-14T05:10:52.000Z",
+              "title": "Hogan with a mid-air volley!"
+            }
+          ]
         }
       },
       {
@@ -562,6 +591,41 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "105415188",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A distraught man puts his face in his hands as someone nearby puts an arm on his shoulder and other offers a bottle of water.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3de39510a12359d86b7098acb0fc6246?impolicy=wcms_crop_resize&cropH=1072&cropW=1608&xPos=4&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-14/just-one-survivor-air-india-crash-mass-disaster/105415188"
+          },
+          "contentUri": "coremedia://article/105415188",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-14/just-one-survivor-air-india-crash-mass-disaster/105415188",
+          "video": null,
+          "reactKey": "wa-105415188-1",
+          "synopsis": "Surviving a mass disaster like the Air India crash may be hailed as a kind of \"miracle\". But what is it like to survive – especially as the only one?",
+          "title": {
+            "children": "Just one man survived the Air India crash. He's likely to have many questions"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "105407098",
@@ -617,37 +681,6 @@
           "synopsis": "The number of Australians vaccinated against influenza is \"worryingly low\", health experts say, as new data reveal the winter flu season has begun.",
           "title": {
             "children": "'Now is the time': Parents urged to vaccinate kids against flu"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105405318",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A bottle of morphine-based painkillers.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/38133e1f463a920f2df8f755719fdce8?impolicy=wcms_crop_resize&cropH=1728&cropW=2592&xPos=0&yPos=108&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-12/nurse-gary-shane-stevenson-deregistered-painkiller-theft/105405318"
-          },
-          "contentUri": "coremedia://article/105405318",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-12/nurse-gary-shane-stevenson-deregistered-painkiller-theft/105405318",
-          "video": null,
-          "reactKey": "wa-105405318-1",
-          "synopsis": "Gary Shane Stevenson repeatedly stole controlled medication while he worked at a WA hospital, leading to patients being deprived of the pain relief they were prescribed.",
-          "title": {
-            "children": "Nurse deregistered for stealing painkillers while patients missed out"
           },
           "imageContainerClassNames": []
         }
@@ -719,6 +752,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105412850",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A drone shot of a new housing estate, with houses stretching as far as the eye can see",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b470fd7cda05b3e6cebf46c0c373f8a?impolicy=wcms_crop_resize&cropH=2250&cropW=3375&xPos=313&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-14/average-home-in-australia-passes-one-million/105412850"
+          },
+          "contentUri": "coremedia://article/105412850",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-14/average-home-in-australia-passes-one-million/105412850",
+          "video": null,
+          "reactKey": "wa-105412850-1",
+          "synopsis": "The average home in Australia has surpassed $1 million for the first time, according to the Australian Bureau of Statistics. The main drivers of the rise were increases in house prices in Western Australia, South Australia and Queensland.",
+          "title": {
+            "children": "Average house price surpasses $1 million, sparking affordability fears"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105405900",
           "imagePosition": {
             "mobile": "right",
@@ -772,37 +836,6 @@
           "synopsis": "Steve Smith and Temba Bavuma both end up in the hands of medical staff, as Mitchell Starc scores his first 50 in six years. Here are five quick hits from the third day of the World Test Championship decider.",
           "title": {
             "children": "Five quick hits: Starc breaks a drought and Smith busts a digit"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105416674",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Distressed Australian cricketer Steve Smith has his hand held by a team doctor as he leaves the ground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f9629f06d00c319a1a88df35b373b6fe?impolicy=wcms_crop_resize&cropH=2603&cropW=3904&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-14/aussie-stars-gruesome-lords-injury-a-huge-test-blow/105416674"
-          },
-          "contentUri": "coremedia://article/105416674",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-14/aussie-stars-gruesome-lords-injury-a-huge-test-blow/105416674",
-          "video": null,
-          "reactKey": "wa-105416674-1",
-          "synopsis": "Steve Smith's immediate playing future is in doubt after suffering a compound dislocation of his finger while dropping a catch against South Africa at Lord's.",
-          "title": {
-            "children": "Aussie star's 'gruesome' Lord's injury a huge Test blow"
           },
           "imageContainerClassNames": []
         }
