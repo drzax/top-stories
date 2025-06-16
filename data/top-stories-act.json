@@ -371,7 +371,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105421726",
           "imagePosition": {
@@ -392,11 +398,34 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-06-16/tasmania-police-officer-dead-after-shooting/105421726",
           "video": null,
           "reactKey": "act-105421726-1",
-          "synopsis": "Police say a member of the public allegedly shot a police officer dead as they approached a house in the state's north-west.",
+          "synopsis": "Police say a member of the public allegedly shot a police officer dead as they approached a house in the state's north-west. Follow updates live.",
           "title": {
             "children": "Tasmania Police officer shot dead while approaching house"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "191804",
+              "date": "2025-06-16T06:37:25.000Z",
+              "title": "Senior officer not named out of respect for family"
+            },
+            {
+              "id": "191803",
+              "date": "2025-06-16T06:35:49.000Z",
+              "title": "'Heartfelt condolences' to family and colleagues"
+            },
+            {
+              "id": "191802",
+              "date": "2025-06-16T06:33:41.000Z",
+              "title": "'Shock and grief'"
+            }
+          ]
         }
       },
       {
