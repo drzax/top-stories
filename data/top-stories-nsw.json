@@ -16,10 +16,13 @@
           "uri": "coremedia://article/105429832"
         },
         {
-          "uri": "coremedia://article/105427708"
+          "uri": "coremedia://article/105427252"
         },
         {
           "uri": "coremedia://article/105429848"
+        },
+        {
+          "uri": "coremedia://article/105427708"
         },
         {
           "uri": "coremedia://article/105410308"
@@ -31,10 +34,10 @@
           "uri": "coremedia://article/105425940"
         },
         {
-          "uri": "coremedia://article/105429036"
+          "uri": "coremedia://article/105426432"
         },
         {
-          "uri": "coremedia://article/105426432"
+          "uri": "coremedia://article/105429036"
         },
         {
           "uri": "coremedia://article/105425884"
@@ -69,7 +72,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -94,11 +103,18 @@
           "reactKey": "nsw-105429832-1",
           "synopsis": "The four males have been charged with multiple offences including aggravated sexual assault and sexual intercourse without consent, with two expected to appear in court on Wednesday.",
           "title": {
-            "children": "Two men, two boys charged over alleged six-hour Sydney sexual assault"
+            "children": "Four teenagers charged over alleged gang rape of 17yo girl in Sydney"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -106,7 +122,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105427708",
+          "id": "105427252",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -114,20 +130,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a bus parked in a carpark, near a clearing.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5df0300f7f87fac9f8d525e59618b9c8?impolicy=wcms_crop_resize&cropH=2268&cropW=3402&xPos=314&yPos=0&width=160&height=107",
+            "altText": "People partying at a beach wearing red and white clothing during a summer's day",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e22bcbfcdd8eeeb2f7bbe4c066772db?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-06-17/ling-bus-company-safety-breaches-charges/105427708"
+            "to": "/news/2025-06-18/bronte-beach-christmas-day-party-council/105427252"
           },
-          "contentUri": "coremedia://article/105427708",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/ling-bus-company-safety-breaches-charges/105427708",
+          "contentUri": "coremedia://article/105427252",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/bronte-beach-christmas-day-party-council/105427252",
           "video": null,
-          "reactKey": "nsw-105427708-1",
-          "synopsis": "The bus company linked to the deadly 2023 Hunter Valley bus crash, and its directors and managers, are being prosecuted for alleged heavy-vehicle law breaches.",
+          "reactKey": "nsw-105427252-1",
+          "synopsis": "The unofficial \"orphans\" Christmas Day bash at Sydney's Bronte beach attracted 15,000 people last year. ",
           "title": {
-            "children": "Bosses of bus company linked to Hunter Valley crash face prosecution"
+            "children": "Council spending $220K extra to manage 'out-of-control' Christmas beach party"
           },
           "imageContainerClassNames": []
         }
@@ -159,6 +175,37 @@
           "synopsis": "Full embalming is required by law in NSW if the deceased is being put into an above ground burial or to be sent overseas on a repatriation. Here's what the process actually looks like.\n\n ",
           "title": {
             "children": "Opposite of a 'dark, dungeon mortuary': Inside the work of an embalmer"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105427708",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a bus parked in a carpark, near a clearing.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5df0300f7f87fac9f8d525e59618b9c8?impolicy=wcms_crop_resize&cropH=2268&cropW=3402&xPos=314&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-17/ling-bus-company-safety-breaches-charges/105427708"
+          },
+          "contentUri": "coremedia://article/105427708",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/ling-bus-company-safety-breaches-charges/105427708",
+          "video": null,
+          "reactKey": "nsw-105427708-1",
+          "synopsis": "The bus company linked to the deadly 2023 Hunter Valley bus crash, and its directors and managers, are being prosecuted for alleged heavy-vehicle law breaches.",
+          "title": {
+            "children": "Bosses of bus company linked to Hunter Valley crash face prosecution"
           },
           "imageContainerClassNames": []
         }
@@ -261,37 +308,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105429036",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Billy Slater speaks to the media at a press conference",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/762cdaa19edfe4d7f34df3059409d37a?impolicy=wcms_crop_resize&cropH=1777&cropW=2665&xPos=1565&yPos=50&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-17/state-of-origin-ii-billy-slater-slams-aaron-woods/105429036"
-          },
-          "contentUri": "coremedia://article/105429036",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/state-of-origin-ii-billy-slater-slams-aaron-woods/105429036",
-          "video": null,
-          "reactKey": "nsw-105429036-1",
-          "synopsis": "Billy Slater has claimed former NSW prop Aaron Woods does not deserve a voice in the media after he labelled the Queensland coach a \"grub\".",
-          "title": {
-            "children": "Slater slams Woods for 'derogatory' comment in emotional defence"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105426432",
           "imagePosition": {
             "mobile": "right",
@@ -314,6 +330,37 @@
           "synopsis": "Employees can be seen ducking for cover as their target, crime boss Samimjan Azari, tries to dodge a hail of bullets from behind a chair.",
           "title": {
             "children": "Video shows the moment gunmen stormed Sydney kebab shop "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105429036",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Billy Slater speaks to the media at a press conference",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/762cdaa19edfe4d7f34df3059409d37a?impolicy=wcms_crop_resize&cropH=1777&cropW=2665&xPos=1565&yPos=50&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-17/state-of-origin-ii-billy-slater-slams-aaron-woods/105429036"
+          },
+          "contentUri": "coremedia://article/105429036",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/state-of-origin-ii-billy-slater-slams-aaron-woods/105429036",
+          "video": null,
+          "reactKey": "nsw-105429036-1",
+          "synopsis": "Billy Slater has claimed former NSW prop Aaron Woods does not deserve a voice in the media after he labelled the Queensland coach a \"grub\".",
+          "title": {
+            "children": "Slater slams Woods for 'derogatory' comment in emotional defence"
           },
           "imageContainerClassNames": []
         }
