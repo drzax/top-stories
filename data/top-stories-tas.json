@@ -303,7 +303,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105424164",
           "imagePosition": {
@@ -328,7 +334,14 @@
           "title": {
             "children": "Video shows the moment gunmen stormed Sydney kebab shop "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -474,8 +487,7 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Man listening to reporters' question, Australian flag behind him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7f608ed6198d5dd99df7ba09d08a430c?impolicy=wcms_crop_resize&cropH=6336&cropW=9504&xPos=0&yPos=0&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e610dff093b317bfac51b13eef485ac?impolicy=wcms_crop_resize&cropH=6336&cropW=9504&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -487,7 +499,7 @@
           "reactKey": "tas-105424014-1",
           "synopsis": "The US president will leave the G7 summit after tonight's leader's dinner, according to the White House, before a planned meeting tomorrow with Anthony Albanese. Follow live.",
           "title": {
-            "children": "Trump's early exit from G7 'completely understandable': Marles"
+            "children": "PM should have been 'more proactive' in securing Trump meeting: Ley"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
