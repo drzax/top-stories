@@ -16,10 +16,13 @@
           "uri": "coremedia://article/105429832"
         },
         {
-          "uri": "coremedia://article/105430880"
+          "uri": "coremedia://article/105428890"
         },
         {
           "uri": "coremedia://article/105432478"
+        },
+        {
+          "uri": "coremedia://article/105430880"
         },
         {
           "uri": "coremedia://article/105431762"
@@ -31,9 +34,6 @@
           "uri": "coremedia://article/105426176"
         },
         {
-          "uri": "coremedia://article/105365460"
-        },
-        {
           "uri": "coremedia://article/105429848"
         },
         {
@@ -43,22 +43,22 @@
           "uri": "coremedia://article/105429954"
         },
         {
+          "uri": "coremedia://article/105365460"
+        },
+        {
           "uri": "coremedia://article/105428548"
         },
         {
           "uri": "coremedia://article/105427708"
         },
         {
-          "uri": "coremedia://article/105425940"
-        },
-        {
           "uri": "coremedia://article/105428824"
         },
         {
-          "uri": "coremedia://article/105429036"
+          "uri": "coremedia://article/105425940"
         },
         {
-          "uri": "coremedia://article/105424164"
+          "uri": "coremedia://article/105429036"
         },
         {
           "uri": "coremedia://article/105425702"
@@ -104,9 +104,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105430880",
+          "id": "105428890",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -114,22 +120,29 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man wearing a biege button-up shirt looks at a computer screen while seated inside.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d4ede293c927c3f0e1d92ab55968f45?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Angus Crichton holding the ball for NSW against Queensland in State of Origin I.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/feda29fd3039a0aacd8673d62cb02fab?impolicy=wcms_crop_resize&cropH=2324&cropW=3485&xPos=756&yPos=179&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-06-18/us-denies-detaining-alistair-kitchen-political-beliefs-gaza/105430880"
+            "to": "/news/2025-06-18/state-of-origin-live-blog-game-two-maroons-blues-perth/105428890"
           },
-          "contentUri": "coremedia://article/105430880",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/us-denies-detaining-alistair-kitchen-political-beliefs-gaza/105430880",
+          "contentUri": "coremedia://article/105428890",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/state-of-origin-live-blog-game-two-maroons-blues-perth/105428890",
           "video": null,
-          "reactKey": "nsw-105430880-1",
-          "synopsis": "Writer Alistair Kitchen said he was refused entry to the US last week after being grilled about his views on the Gaza conflict and articles he wrote about pro-Palestinian protests.",
+          "reactKey": "nsw-105428890-1",
+          "synopsis": "NSW is potentially 80 minutes away from wrapping up successive Origin series wins with a fourth successive victory. Can Queensland overcome the odds one more time in Perth? Follow live.",
           "title": {
-            "children": "Australian turned away from border for drug use, US government says"
+            "children": "State of Origin series on the line in Perth"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -159,6 +172,37 @@
           "synopsis": "The unofficial \"orphans\" Christmas Day bash at Sydney's Bronte beach attracted 15,000 people last year. ",
           "title": {
             "children": "Council spending $220K extra to manage 'out-of-control' Christmas beach party"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105430880",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man wearing a biege button-up shirt looks at a computer screen while seated inside.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d4ede293c927c3f0e1d92ab55968f45?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-18/us-denies-detaining-alistair-kitchen-political-beliefs-gaza/105430880"
+          },
+          "contentUri": "coremedia://article/105430880",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/us-denies-detaining-alistair-kitchen-political-beliefs-gaza/105430880",
+          "video": null,
+          "reactKey": "nsw-105430880-1",
+          "synopsis": "Writer Alistair Kitchen said he was refused entry to the US last week after being grilled about his views on the Gaza conflict and articles he wrote about pro-Palestinian protests.",
+          "title": {
+            "children": "Australian turned away from border for drug use, US government says"
           },
           "imageContainerClassNames": []
         }
@@ -261,37 +305,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105365460",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman in profile looks pensive",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17c95cee64c62f964217ba73056d6403?impolicy=wcms_crop_resize&cropH=1728&cropW=2592&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-18/orange-local-aboriginal-and-council-governance-review/105365460"
-          },
-          "contentUri": "coremedia://article/105365460",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/orange-local-aboriginal-and-council-governance-review/105365460",
-          "video": null,
-          "reactKey": "nsw-105365460-1",
-          "synopsis": "One of the largest local Aboriginal land councils in NSW has initiated a review into its governance as it battles allegations of nepotism and intimidation.",
-          "title": {
-            "children": "Land council board member quits, goes to police after heated meeting"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105429848",
           "imagePosition": {
             "mobile": "right",
@@ -385,6 +398,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105365460",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman in profile looks pensive",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17c95cee64c62f964217ba73056d6403?impolicy=wcms_crop_resize&cropH=1728&cropW=2592&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-18/orange-local-aboriginal-and-council-governance-review/105365460"
+          },
+          "contentUri": "coremedia://article/105365460",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-18/orange-local-aboriginal-and-council-governance-review/105365460",
+          "video": null,
+          "reactKey": "nsw-105365460-1",
+          "synopsis": "One of the largest local Aboriginal land councils in NSW has initiated a review into its governance as it battles allegations of nepotism and intimidation.",
+          "title": {
+            "children": "Land council board member quits, goes to police after heated meeting"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105428548",
           "imagePosition": {
             "mobile": "right",
@@ -447,37 +491,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105425940",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "death cap mushroom",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/914a06b02e067a2ee941d0d99c39f91a?impolicy=wcms_crop_resize&cropH=630&cropW=945&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-17/nsw-health-death-cap-mushrooms-warning/105425940"
-          },
-          "contentUri": "coremedia://article/105425940",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/nsw-health-death-cap-mushrooms-warning/105425940",
-          "video": null,
-          "reactKey": "nsw-105425940-1",
-          "synopsis": "NSW Health and local councils have warned people against eating wild mushrooms after detecting the growth of death cap mushrooms in the state.",
-          "title": {
-            "children": "Poisonous death cap mushrooms detected across NSW, warnings issued"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105428824",
           "imagePosition": {
             "mobile": "right",
@@ -509,6 +522,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105425940",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "death cap mushroom",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/914a06b02e067a2ee941d0d99c39f91a?impolicy=wcms_crop_resize&cropH=630&cropW=945&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-17/nsw-health-death-cap-mushrooms-warning/105425940"
+          },
+          "contentUri": "coremedia://article/105425940",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/nsw-health-death-cap-mushrooms-warning/105425940",
+          "video": null,
+          "reactKey": "nsw-105425940-1",
+          "synopsis": "NSW Health and local councils have warned people against eating wild mushrooms after detecting the growth of death cap mushrooms in the state.",
+          "title": {
+            "children": "Poisonous death cap mushrooms detected across NSW, warnings issued"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105429036",
           "imagePosition": {
             "mobile": "right",
@@ -531,37 +575,6 @@
           "synopsis": "Billy Slater has claimed former NSW prop Aaron Woods does not deserve a voice in the media after he labelled the Queensland coach a \"grub\".",
           "title": {
             "children": "Slater slams Woods for 'derogatory' comment in emotional defence"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105424164",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "CCTV footage of a shooting in an Auburn kebab shop ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7405e46043e9880f3371ad468f87e33d?impolicy=wcms_crop_resize&cropH=1052&cropW=1578&xPos=70&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-17/nsw-police-western-sydney-auburn-shooting-gunmen/105424164"
-          },
-          "contentUri": "coremedia://article/105424164",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-17/nsw-police-western-sydney-auburn-shooting-gunmen/105424164",
-          "video": null,
-          "reactKey": "nsw-105424164-1",
-          "synopsis": "Employees can be seen ducking for cover as their target, crime boss Samimjan Azari, tries to dodge a hail of bullets from behind a chair.",
-          "title": {
-            "children": "'Doesn't deserve this': Vision shows shocking failed underworld hit"
           },
           "imageContainerClassNames": []
         }
