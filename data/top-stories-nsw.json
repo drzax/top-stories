@@ -22,10 +22,13 @@
           "uri": "coremedia://article/105455770"
         },
         {
-          "uri": "coremedia://article/105454202"
+          "uri": "coremedia://article/105455602"
         },
         {
           "uri": "coremedia://article/105453580"
+        },
+        {
+          "uri": "coremedia://article/105454202"
         },
         {
           "uri": "coremedia://article/105451824"
@@ -43,10 +46,10 @@
           "uri": "coremedia://article/105448214"
         },
         {
-          "uri": "coremedia://article/105451168"
+          "uri": "coremedia://article/105449732"
         },
         {
-          "uri": "coremedia://article/105449732"
+          "uri": "coremedia://article/105451168"
         },
         {
           "uri": "coremedia://article/105415008"
@@ -58,9 +61,6 @@
           "uri": "coremedia://article/105448142"
         },
         {
-          "uri": "coremedia://article/105448516"
-        },
-        {
           "uri": "coremedia://article/105446364"
         }
       ]
@@ -69,7 +69,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -92,9 +98,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-06-24/iran-israel-war-live-updates-june-24/105451612",
           "video": null,
           "reactKey": "nsw-105452402-1",
-          "synopsis": "Iran has fired several ballistic missiles at US military bases in Qatar, as the war in the region continues to expand. Follow live.",
+          "synopsis": "Iranian missiles have been fired towards Israel just hours after Benjamin Netanyahu confirmed Israel has agreed to a 24-hour ceasefire with Iran. Follow live.",
           "title": {
-            "children": "Israel to resume attacks on Iran"
+            "children": "Israel alleges ceasefire breach after detecting 'missile launches' from Iran"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -168,7 +174,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105454202",
+          "id": "105455602",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -176,20 +182,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A middle aged white man wearing tortoiseshell glasses looks directly at the camera smiling",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8e951f654a687a74a38dda29a163073f?impolicy=wcms_crop_resize&cropH=2091&cropW=3136&xPos=0&yPos=148&width=160&height=107",
+            "altText": "A picture of a sign detailing the front signage of the Albury court house. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/52b87540502acf738bbac7ff0c0b52da?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=44&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-06-24/nightlife-hospitality-inner-west-council-sydney-vote/105454202"
+            "to": "/news/2025-06-24/albury-doctor-charged-with-child-abuse-material-offence/105455602"
           },
-          "contentUri": "coremedia://article/105454202",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-24/nightlife-hospitality-inner-west-council-sydney-vote/105454202",
+          "contentUri": "coremedia://article/105455602",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-24/albury-doctor-charged-with-child-abuse-material-offence/105455602",
           "video": null,
-          "reactKey": "nsw-105454202-1",
-          "synopsis": "More support is needed to get Sydney's nightlife back on its feet, hospitality owners in the inner west say, as a proposal to extend trading hours passes council.",
+          "reactKey": "nsw-105455602-1",
+          "synopsis": "An Albury doctor has been charged after detectives allegedly found more than 5,000 video and photo files of child abuse material on his phone.",
           "title": {
-            "children": "Inner Sydney nightlife revival needs more than later hours: industry"
+            "children": "Albury doctor charged after child abuse images allegedly found on phone"
           },
           "imageContainerClassNames": []
         }
@@ -221,6 +227,37 @@
           "synopsis": "A steamship lost to a fierce storm off the New South Wales South Coast has been seen in person for the first time since it sank 120 years ago.",
           "title": {
             "children": "Divers explore steamship not seen for 120 years"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105454202",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A middle aged white man wearing tortoiseshell glasses looks directly at the camera smiling",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8e951f654a687a74a38dda29a163073f?impolicy=wcms_crop_resize&cropH=2091&cropW=3136&xPos=0&yPos=148&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-24/nightlife-hospitality-inner-west-council-sydney-vote/105454202"
+          },
+          "contentUri": "coremedia://article/105454202",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-24/nightlife-hospitality-inner-west-council-sydney-vote/105454202",
+          "video": null,
+          "reactKey": "nsw-105454202-1",
+          "synopsis": "More support is needed to get Sydney's nightlife back on its feet, hospitality owners in the inner west say, as a proposal to extend trading hours passes council.",
+          "title": {
+            "children": "Inner Sydney nightlife revival needs more than later hours: industry"
           },
           "imageContainerClassNames": []
         }
@@ -385,37 +422,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105451168",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man outside court.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e7ed655ab098c79b25475908f2c6201?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-23/gareth-ward-trial-witness-challenged-on-inconsistencies/105451168"
-          },
-          "contentUri": "coremedia://article/105451168",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-23/gareth-ward-trial-witness-challenged-on-inconsistencies/105451168",
-          "video": null,
-          "reactKey": "nsw-105451168-1",
-          "synopsis": "A woman has told NSW MP Gareth Ward's trial that the night she reported allegations of sexual abuse to police was traumatic and she may have given some incorrect details.",
-          "title": {
-            "children": "Woman who reported NSW MP Gareth Ward's alleged sex crime cross-examined"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105449732",
           "imagePosition": {
             "mobile": "right",
@@ -438,6 +444,37 @@
           "synopsis": "In the New South Wales Riverina, delayed autumn rain threw winter sowing programs off kilter, but teenagers Declan and Brianna Dennis are helping get things back on track on their family farm.",
           "title": {
             "children": "He's 13 and farming hundreds of hectares in the Riverina"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105451168",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man outside court.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e7ed655ab098c79b25475908f2c6201?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-06-23/gareth-ward-trial-witness-challenged-on-inconsistencies/105451168"
+          },
+          "contentUri": "coremedia://article/105451168",
+          "canonicalURL": "https://www.abc.net.au/news/2025-06-23/gareth-ward-trial-witness-challenged-on-inconsistencies/105451168",
+          "video": null,
+          "reactKey": "nsw-105451168-1",
+          "synopsis": "A woman has told NSW MP Gareth Ward's trial that the night she reported allegations of sexual abuse to police was traumatic and she may have given some incorrect details.",
+          "title": {
+            "children": "Woman who reported NSW MP Gareth Ward's alleged sex crime cross-examined"
           },
           "imageContainerClassNames": []
         }
@@ -531,37 +568,6 @@
           "synopsis": "NSW Police are searching for two teenagers they believe were involved in a collision that killed a woman and an unborn baby.",
           "title": {
             "children": "Horror weekend on NSW roads as national toll hits 15-year high"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105448516",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A smashed ute on a highway near a large livestock truck that is also damaged.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/032ee6867466379210f384b62e69b653?impolicy=wcms_crop_resize&cropH=2537&cropW=3806&xPos=0&yPos=487&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-06-24/new-england-highway-bridge-upgrade-cooyar-crash/105448516"
-          },
-          "contentUri": "coremedia://article/105448516",
-          "canonicalURL": "https://www.abc.net.au/news/2025-06-24/new-england-highway-bridge-upgrade-cooyar-crash/105448516",
-          "video": null,
-          "reactKey": "nsw-105448516-1",
-          "synopsis": "A crash on what police say is a \"problematic\" section of the New England Highway has sparked calls for safety improvements.",
-          "title": {
-            "children": "Calls for Back Creek Bridge upgrade after crash leaves man fighting for life"
           },
           "imageContainerClassNames": []
         }
