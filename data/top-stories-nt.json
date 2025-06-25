@@ -565,7 +565,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105450816",
           "imagePosition": {
@@ -575,8 +581,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman wearing a red suit walks outside of court.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b8c2e6386c82c9f0c366641962d48560?impolicy=wcms_crop_resize&cropH=2935&cropW=4403&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A woman wearing a black coat walks besides her lawyers.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5dd94aca4360c992c22c3f6b3cf716cd?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -588,9 +594,16 @@
           "reactKey": "nt-105450816-1",
           "synopsis": "Antoinette Lattouf will today learn the ruling of her unlawful termination case against the public broadcaster, after the two-week trial heard evidence in February.",
           "title": {
-            "children": "Judgment in Lattouf's unlawful termination case expected today"
+            "children": "Judgment in Lattouf's unlawful termination case against ABC expected today"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -956,7 +969,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-06-25/palestinians-killed-gaza-israel-aid-site/105456500",
           "video": null,
           "reactKey": "nt-105456500-1",
-          "synopsis": "More violence has erupted at an aid distribution centre in the Palestinian enclave as fighting continues between Israel and Hamas.",
+          "synopsis": "More violence has erupted at an aid distribution centre in the Palestinian enclave as fighting between Israel and Hamas has continued.",
           "title": {
             "children": "At least 40 Palestinians killed in single day as Gaza fighting continues"
           },
