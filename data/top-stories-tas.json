@@ -341,7 +341,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105475358",
           "imagePosition": {
@@ -366,7 +372,14 @@
           "title": {
             "children": "'Need you to prepare': Warning ahead of NSW wild weather"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -492,7 +505,7 @@
           "reactKey": "tas-105475434-1",
           "synopsis": "The International Atomic Energy Agency's chief raises more doubt about the efficacy of the US bombing of key Iranian nuclear facilities, which Donald Trump maintains were \"oblierated\".",
           "title": {
-            "children": "Iran could enrich uranium within months, UN nuclear watchdog boss says"
+            "children": "Iran could enrich uranium within months, UN nuclear watchdog says"
           },
           "imageContainerClassNames": []
         }
@@ -571,6 +584,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "198031",
+              "date": "2025-06-30T03:37:00.000Z",
+              "title": "'Not all doom and gloom': Granddaughter connects with grandparents after their move to Perth from Wheatbelt farm"
+            },
+            {
               "id": "198020",
               "date": "2025-06-30T03:06:00.000Z",
               "title": "'Carer's pension shouldn't be means tested'"
@@ -579,11 +597,6 @@
               "id": "198006",
               "date": "2025-06-30T02:42:00.000Z",
               "title": "Flexible workplaces can help carers with the juggle of managing work and dependants"
-            },
-            {
-              "id": "197987",
-              "date": "2025-06-30T01:56:47.000Z",
-              "title": "'Think about your worst day’"
             }
           ]
         }
