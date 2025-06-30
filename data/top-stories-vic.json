@@ -120,7 +120,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -145,11 +151,18 @@
           "reactKey": "vic-105480228-1",
           "synopsis": "A Melbourne man has been charged with 70 offences related to eight alleged victims between April 2022 and January 2023.",
           "title": {
-            "children": "Breaking: Melbourne childcare worker accused of sexual assaults facing 70 charges"
+            "children": "Melbourne childcare worker accused of sexual assaults facing 70 charges"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
