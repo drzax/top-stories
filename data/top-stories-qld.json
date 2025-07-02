@@ -98,7 +98,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105484182",
           "imagePosition": {
@@ -121,9 +127,16 @@
           "reactKey": "qld-105484182-1",
           "synopsis": "Queensland police are offering a $500,000 reward for information about the 1987 murder of Bundaberg taxi driver Bryan Hodginkinson, whose body was found on a rural road after a brutal assault.",
           "title": {
-            "children": "Queensland police offer $500k reward over 1987 cold case murder"
+            "children": "Police offer $500k reward over 'savage' cold case murder"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
