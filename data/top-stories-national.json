@@ -22,7 +22,7 @@
           "uri": "coremedia://article/105500588"
         },
         {
-          "uri": "coremedia://article/105500482"
+          "uri": "coremedia://article/105484878"
         },
         {
           "uri": "coremedia://article/105500602"
@@ -31,16 +31,16 @@
           "uri": "coremedia://article/105499968"
         },
         {
-          "uri": "coremedia://article/105484878"
+          "uri": "coremedia://article/105500482"
         },
         {
           "uri": "coremedia://article/105496380"
         },
         {
-          "uri": "coremedia://article/105500112"
+          "uri": "coremedia://article/105499958"
         },
         {
-          "uri": "coremedia://article/105499958"
+          "uri": "coremedia://article/105500112"
         },
         {
           "uri": "coremedia://article/105500350"
@@ -217,9 +217,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105500482",
+          "id": "105484878",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -227,22 +233,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "RSPCA Queensland spokesman Michael Beatty",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d634a7cfcae79cf9259b09794661829?impolicy=wcms_crop_resize&cropH=551&cropW=827&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Oscar Piastri passes Max Verstappen in British Grand Prix",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/059085b6e7d50d81e1f8c39969c2e20c?impolicy=wcms_crop_resize&cropH=1992&cropW=2988&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-07-06/michael-beatty-dies-queensland-rspca-spokesman-journalist/105500482"
+            "to": "/news/2025-07-06/f1-british-grand-prix-oscar-iastri-lando-norris-silverstone/105484878"
           },
-          "contentUri": "coremedia://article/105500482",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/michael-beatty-dies-queensland-rspca-spokesman-journalist/105500482",
+          "contentUri": "coremedia://article/105484878",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/f1-british-grand-prix-oscar-iastri-lando-norris-silverstone/105484878",
           "video": null,
-          "reactKey": "national-105500482-1",
-          "synopsis": "The colourful Queensland media figure carved out a successful career as a current affairs reporter, covering royal weddings, the downfall of the Marcos regime and the Brixton riots before joining the RSPCA in 2004.",
+          "reactKey": "national-105484878-1",
+          "synopsis": "Drivers are battling the elements in the British Grand Prix, with three retirements in the opening six laps at Silverstone. Follow live.",
           "title": {
-            "children": "Veteran journalist and RSPCA spokesman Michael Beatty dies aged 76"
+            "children": "Oscar Piastri leads British Grand Prix as rain causes havoc"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "200630",
+              "date": "2025-07-06T14:42:38.000Z",
+              "title": "Lap 18: Another safety car called"
+            },
+            {
+              "id": "200629",
+              "date": "2025-07-06T14:41:36.000Z",
+              "title": "Lap 18: Safety car ends"
+            },
+            {
+              "id": "200625",
+              "date": "2025-07-06T14:31:48.000Z",
+              "title": "Lap 14: Safety car called as rain gets too heavy"
+            }
+          ]
         }
       },
       {
@@ -275,9 +304,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-07-06/west-indies-australia-second-test-day-four-live-blog/105500602",
           "video": null,
           "reactKey": "national-105500602-1",
-          "synopsis": "Pat Cummins and Alex Carey fall early as Australia tries to build on its substantial 254-run second-innings lead on the fourth day of the second Test against the West Indies in Grenada. Follow live.",
+          "synopsis": "Australia loses 3-22 on the fourth morning in Grenada, setting the West Indies 277 to win the second Test in Grenada. Follow live.",
           "title": {
-            "children": "Early wickets stifle Australian hopes of setting West Indies 300-plus to win"
+            "children": "Australia bowled out on day four, setting West Indies 277 to win"
           },
           "imageContainerClassNames": [],
           "liveBlogClientContext": {
@@ -288,19 +317,19 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "200632",
+              "date": "2025-07-06T14:44:45.000Z",
+              "title": "Australia all out for 243"
+            },
+            {
+              "id": "200631",
+              "date": "2025-07-06T14:42:46.000Z",
+              "title": "HAZLEWOOD IS BOWLED"
+            },
+            {
               "id": "200620",
               "date": "2025-07-06T14:27:21.000Z",
               "title": "CAREY IS OUT!"
-            },
-            {
-              "id": "200603",
-              "date": "2025-07-06T14:03:27.000Z",
-              "title": "CUMMINS IS REMOVED STRAIGHT AWAY"
-            },
-            {
-              "id": "200596",
-              "date": "2025-07-06T13:53:06.000Z",
-              "title": "Today's forecast"
             }
           ]
         }
@@ -339,15 +368,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105484878",
+          "id": "105500482",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -355,45 +378,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Oscar Piastri, Max Verstappen and Lando Norris, arm in arm, posing for a photograph",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55680798d84b9e8cc70814e52735ef29?impolicy=wcms_crop_resize&cropH=2843&cropW=4265&xPos=0&yPos=7&width=160&height=107",
+            "altText": "RSPCA Queensland spokesman Michael Beatty",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d634a7cfcae79cf9259b09794661829?impolicy=wcms_crop_resize&cropH=551&cropW=827&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-07-06/f1-british-grand-prix-oscar-iastri-lando-norris-silverstone/105484878"
+            "to": "/news/2025-07-06/michael-beatty-dies-queensland-rspca-spokesman-journalist/105500482"
           },
-          "contentUri": "coremedia://article/105484878",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/f1-british-grand-prix-oscar-iastri-lando-norris-silverstone/105484878",
+          "contentUri": "coremedia://article/105500482",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/michael-beatty-dies-queensland-rspca-spokesman-journalist/105500482",
           "video": null,
-          "reactKey": "national-105484878-1",
-          "synopsis": "Oscar Piastri starts on the front row in Britain alongside Max Verstappen, while Lando Norris is ready to pounce from third on the grid. Follow live.",
+          "reactKey": "national-105500482-1",
+          "synopsis": "The colourful Queensland media figure carved out a successful career as a current affairs reporter, covering royal weddings, the downfall of the Marcos regime and the Brixton riots before joining the RSPCA in 2004.",
           "title": {
-            "children": "Oscar Piastri leads British Grand Prix as rain causes havoc"
+            "children": "Veteran journalist and RSPCA spokesman Michael Beatty dies aged 76"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "200625",
-              "date": "2025-07-06T14:31:48.000Z",
-              "title": "Lap 14: Safety car called as rain gets too heavy"
-            },
-            {
-              "id": "200618",
-              "date": "2025-07-06T14:22:52.000Z",
-              "title": "Lap 10: Oscar Piastri has put the foot down"
-            },
-            {
-              "id": "200617",
-              "date": "2025-07-06T14:21:12.000Z",
-              "title": "Lap 8: OSCAR PIASTRI LEADS"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -432,37 +432,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105500112",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An old man smiling",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33d07359dd8660f8218c318dacf3dfec?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-06/peter-russell-clarke-dies-aged-89/105500112"
-          },
-          "contentUri": "coremedia://article/105500112",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/peter-russell-clarke-dies-aged-89/105500112",
-          "video": null,
-          "reactKey": "national-105500112-1",
-          "synopsis": "Television chef, author and artist Peter Russell-Clarke, known for his catchphrase \"g'day\", has died, aged 89.",
-          "title": {
-            "children": "'A very big character': Celebrity chef Peter Russell-Clarke dies aged 89"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105499958",
           "imagePosition": {
             "mobile": "right",
@@ -485,6 +454,37 @@
           "synopsis": "A video on state TV shows Iranian Supreme Leader Ayatollah Ali Khamenei waving to a crowd at a religious ceremony in Tehran, his first public appearance since the 12-day war between Israel and Iran began.",
           "title": {
             "children": "Ayatollah makes first public appearance since Iran-Israel war began"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105500112",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An old man smiling",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/33d07359dd8660f8218c318dacf3dfec?impolicy=wcms_crop_resize&cropH=2000&cropW=2990&xPos=5&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-06/peter-russell-clarke-dies-aged-89/105500112"
+          },
+          "contentUri": "coremedia://article/105500112",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-06/peter-russell-clarke-dies-aged-89/105500112",
+          "video": null,
+          "reactKey": "national-105500112-1",
+          "synopsis": "Television chef, author and artist Peter Russell-Clarke, known for his catchphrase \"g'day\", has died, aged 89.",
+          "title": {
+            "children": "'A very big character': Celebrity chef Peter Russell-Clarke dies aged 89"
           },
           "imageContainerClassNames": []
         }
