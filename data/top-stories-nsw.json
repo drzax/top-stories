@@ -107,7 +107,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105501394",
           "imagePosition": {
@@ -132,7 +138,14 @@
           "title": {
             "children": "'Contract crew' potentially behind Sydney killing, kidnapping and torture"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -161,7 +174,7 @@
           "reactKey": "nsw-105486088-1",
           "synopsis": "The game may be played differently, but with a World Cup on the horizon and a rapid growth in players on the field, supporters say this league is \"not just a sport, but a community\".",
           "title": {
-            "children": "The game with big-hit tackles, special rules, but is 'one big family'"
+            "children": "Inside the game that’s ‘not just a sport, it’s a community’"
           },
           "imageContainerClassNames": []
         }
