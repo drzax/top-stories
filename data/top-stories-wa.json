@@ -19,10 +19,13 @@
           "uri": "coremedia://article/105506528"
         },
         {
-          "uri": "coremedia://article/105508840"
+          "uri": "coremedia://article/105508960"
         },
         {
           "uri": "coremedia://article/105508312"
+        },
+        {
+          "uri": "coremedia://article/105508840"
         },
         {
           "uri": "coremedia://article/105506404"
@@ -159,9 +162,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105508840",
+          "id": "105508960",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -169,22 +178,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A rocky cliff overlooking a swimming hole on a sunny day.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/096e3031c1d582845b8922b4f2f9eb62?impolicy=wcms_crop_resize&cropH=2720&cropW=4080&xPos=0&yPos=176&width=160&height=107",
+            "altText": "GettyImages-2188682967",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f2acc59381ea2e2090aa0d4c1bf2134?impolicy=wcms_crop_resize&cropH=1296&cropW=1943&xPos=1675&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-07-08/karijini-national-park-dales-gorge-child-rescue/105508840"
+            "to": "/news/2025-07-08/matildas-vs-panama-international-friendly-two-live-blog-updates/105508960"
           },
-          "contentUri": "coremedia://article/105508840",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-08/karijini-national-park-dales-gorge-child-rescue/105508840",
+          "contentUri": "coremedia://article/105508960",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-08/matildas-vs-panama-international-friendly-two-live-blog-updates/105508960",
           "video": null,
-          "reactKey": "wa-105508840-1",
-          "synopsis": "It is understood the child fell into the water at a popular swimming spot in WA's Karijini National Park.",
+          "reactKey": "wa-105508960-1",
+          "synopsis": "The Matildas look to bounce back against Panama in the second match of the friendly series. Follow live.",
           "title": {
-            "children": "Child rescued after falling into gorge at Karijini"
+            "children": "Lincoln to make starting debut as Matildas seek redemption against Panama "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "201029",
+              "date": "2025-07-08T08:59:48.000Z",
+              "title": "AUSTRALIA STARTING XI"
+            },
+            {
+              "id": "201028",
+              "date": "2025-07-08T08:53:09.000Z",
+              "title": "What happened last game"
+            }
+          ]
         }
       },
       {
@@ -214,6 +241,37 @@
           "synopsis": "Crown Perth is handed a lifeline by the state government and will keep its gaming licence without penalty or conditions, three years after a royal commission found it unfit to hold a licence in WA.",
           "title": {
             "children": "WA government rules Crown fit to operate Perth casino without penalties"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105508840",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A rocky cliff overlooking a swimming hole on a sunny day.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/096e3031c1d582845b8922b4f2f9eb62?impolicy=wcms_crop_resize&cropH=2720&cropW=4080&xPos=0&yPos=176&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-08/karijini-national-park-dales-gorge-child-rescue/105508840"
+          },
+          "contentUri": "coremedia://article/105508840",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-08/karijini-national-park-dales-gorge-child-rescue/105508840",
+          "video": null,
+          "reactKey": "wa-105508840-1",
+          "synopsis": "It is understood the child fell into the water at a popular swimming spot in WA's Karijini National Park.",
+          "title": {
+            "children": "Child rescued after falling into gorge at Karijini"
           },
           "imageContainerClassNames": []
         }
