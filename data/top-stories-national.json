@@ -13,7 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105525268"
+          "uri": "coremedia://article/105525442"
         },
         {
           "uri": "coremedia://article/105524710"
@@ -22,10 +22,19 @@
           "uri": "coremedia://article/105525418"
         },
         {
+          "uri": "coremedia://article/105525268"
+        },
+        {
           "uri": "coremedia://article/105525194"
         },
         {
           "uri": "coremedia://article/105525110"
+        },
+        {
+          "uri": "coremedia://article/105525208"
+        },
+        {
+          "uri": "coremedia://article/105525422"
         },
         {
           "uri": "coremedia://article/105524982"
@@ -35,12 +44,6 @@
         },
         {
           "uri": "coremedia://article/105524228"
-        },
-        {
-          "uri": "coremedia://article/105525208"
-        },
-        {
-          "uri": "coremedia://article/105525422"
         },
         {
           "uri": "coremedia://article/105524884"
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/105507170"
-        },
-        {
-          "uri": "coremedia://article/105524876"
         }
       ]
     },
@@ -123,11 +123,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105525268",
+          "id": "105525442",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -135,20 +141,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Joshua Brown in a childcare centre.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cfcc071f1548b40cb140f9e59043da5?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=43&width=862&height=575",
+            "altText": "Iga Świątek and Amanda Anisimova composite",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f091d9ed5fc680ea0f5f96cae2f22f9?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-07-12/joshua-dale-brown-child-sex-abuse-working-with-children-check/105525124"
+            "to": "/news/2025-07-12/live-updates-wimbledon-womens-final-swiatek-vs-anisimova/105525396"
           },
-          "contentUri": "coremedia://article/105525268",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/joshua-dale-brown-child-sex-abuse-working-with-children-check/105525124",
+          "contentUri": "coremedia://article/105525442",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/live-updates-wimbledon-womens-final-swiatek-vs-anisimova/105525396",
           "video": null,
-          "reactKey": "national-105525268-1",
-          "synopsis": "Authorities failed to review the Working with Children Check of accused childcare abuser Joshua Dale Brown, despite multiple investigations into his conduct including an allegation he \"aggressively\" handled a child, the ABC can exclusively reveal.",
+          "reactKey": "national-105525442-1",
+          "synopsis": "Five-time grand slam winner Iga Świątek is looking to win her first Wimbledon women's singles title, taking on underdog American Amanda Anisimova on Centre Court. Follow live.",
           "title": {
-            "children": "No review of accused childcare abuser's work check despite red flags"
+            "children": "Świątek takes on Anisimova in Wimbledon final"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -212,7 +218,38 @@
           "reactKey": "national-105525418-1",
           "synopsis": "US President Donald Trump announces he is levying tariffs of 30 per cent against the European Union and Mexico, starting on August 1.",
           "title": {
-            "children": "Breaking: Donald Trump announces 30pc tariffs against EU, Mexico"
+            "children": "Donald Trump announces 30pc tariffs against EU, Mexico"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105525268",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Joshua Brown in a childcare centre.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cfcc071f1548b40cb140f9e59043da5?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=43&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-12/joshua-dale-brown-child-sex-abuse-working-with-children-check/105525124"
+          },
+          "contentUri": "coremedia://article/105525268",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/joshua-dale-brown-child-sex-abuse-working-with-children-check/105525124",
+          "video": null,
+          "reactKey": "national-105525268-1",
+          "synopsis": "Authorities failed to review the Working with Children Check of accused childcare abuser Joshua Dale Brown, despite multiple investigations into his conduct including an allegation he \"aggressively\" handled a child, the ABC can exclusively reveal.",
+          "title": {
+            "children": "No review of accused childcare abuser's work check despite red flags"
           },
           "imageContainerClassNames": []
         }
@@ -275,6 +312,68 @@
           "synopsis": "US federal agents have arrested hundreds of workers during a immigration raid in the latest escalation of President Donald Trump's campaign for mass deportations. ",
           "title": {
             "children": "California worker dead and hundreds arrested after cannabis farm raid"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105525208",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Sione Tuipulotu high-fives Huw Jones",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8859d5fdac4aad9adf83cfe8336b604?impolicy=wcms_crop_resize&cropH=2497&cropW=3745&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-12/british-and-irish-lions-aunz-xv-wallabies-test-live-updates-blog/105525208"
+          },
+          "contentUri": "coremedia://article/105525208",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/british-and-irish-lions-aunz-xv-wallabies-test-live-updates-blog/105525208",
+          "video": null,
+          "reactKey": "national-105525208-1",
+          "synopsis": "The British and Irish Lions remain unbeaten on their Australian tour, thrashing the AUNZ XV 48-0 in their last hit-out before the first Test against the Wallabies.",
+          "title": {
+            "children": "Lions iron out errors with dominant win a week out from first Test"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105525422",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Sarah Gigante holds up her hand",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/856417aab6ec718f2a7fb6f94586bbed?impolicy=wcms_crop_resize&cropH=1971&cropW=2956&xPos=1&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-12/sarah-gigante-wins-stage-seven-of-giro-d-italia-donne/105525422"
+          },
+          "contentUri": "coremedia://article/105525422",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/sarah-gigante-wins-stage-seven-of-giro-d-italia-donne/105525422",
+          "video": null,
+          "reactKey": "national-105525422-1",
+          "synopsis": "Sarah Gigante has become the first Australian in 27 years to win multiple stages at the Giro d'Italia Donne, winning the queen stage to move back to third in the overall standings.",
+          "title": {
+            "children": "Gigante solos to victory on Giro queen stage"
           },
           "imageContainerClassNames": []
         }
@@ -374,68 +473,6 @@
           "synopsis": "UN rights chief Volker Turk said a coroner's inquiry into Kumanjayi Walker's death \"uncovers disturbing allegations of institutional racism in Northern Territory policing and use of excessive force\".",
           "title": {
             "children": "Police shooting of Kumanjayi Walker shows Australia needs 'comprehensive reform', UN says"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105525208",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Sione Tuipulotu high-fives Huw Jones",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d8859d5fdac4aad9adf83cfe8336b604?impolicy=wcms_crop_resize&cropH=2497&cropW=3745&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-12/british-and-irish-lions-aunz-xv-wallabies-test-live-updates-blog/105525208"
-          },
-          "contentUri": "coremedia://article/105525208",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/british-and-irish-lions-aunz-xv-wallabies-test-live-updates-blog/105525208",
-          "video": null,
-          "reactKey": "national-105525208-1",
-          "synopsis": "The British and Irish Lions remain unbeaten on their Australian tour, thrashing the AUNZ XV 48-0 in their last hit-out before the first Test against the Wallabies.",
-          "title": {
-            "children": "Lions iron out errors with dominant win a week out from first Test"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105525422",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Sarah Gigante holds up her hand",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/856417aab6ec718f2a7fb6f94586bbed?impolicy=wcms_crop_resize&cropH=1971&cropW=2956&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-12/sarah-gigante-wins-stage-seven-of-giro-d-italia-donne/105525422"
-          },
-          "contentUri": "coremedia://article/105525422",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/sarah-gigante-wins-stage-seven-of-giro-d-italia-donne/105525422",
-          "video": null,
-          "reactKey": "national-105525422-1",
-          "synopsis": "Sarah Gigante has become the first Australian in 27 years to win multiple stages at the Giro d'Italia Donne, winning the queen stage to move back to third in the overall standings.",
-          "title": {
-            "children": "Gigante solos to victory on Giro queen stage"
           },
           "imageContainerClassNames": []
         }
@@ -1189,37 +1226,6 @@
           "synopsis": "A Queensland doctor adopts emerging technology to spare more patients from the scalpel as a fear of needles and the risk of \"unnecessary\" scarring can deter people from getting skin cancer checks.",
           "title": {
             "children": "Cairns skin clinic imports machine to spare patients from scars"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105524876",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Mitch Starc raises his arms",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36adbc0761c03068ca66a395451094a1?impolicy=wcms_crop_resize&cropH=2657&cropW=3985&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-12/mitchell-starc-100th-test-west-indies-australia/105518134"
-          },
-          "contentUri": "coremedia://article/105524876",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-12/mitchell-starc-100th-test-west-indies-australia/105518134",
-          "video": null,
-          "reactKey": "national-105524876-1",
-          "synopsis": "For years, Mitchell Starc's suitability to Test cricket was a matter of debate. But now, on the cusp of becoming just the second fast bowler to earn 100 caps for Australia, his greatness in the format is undeniable.",
-          "title": {
-            "children": "On the eve of his 100th Test, Mitchell Starc has fought his way to immortality"
           },
           "imageContainerClassNames": []
         }
