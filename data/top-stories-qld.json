@@ -22,13 +22,16 @@
           "uri": "coremedia://article/105557844"
         },
         {
+          "uri": "coremedia://article/105557928"
+        },
+        {
           "uri": "coremedia://article/105554356"
         },
         {
-          "uri": "coremedia://article/105554466"
+          "uri": "coremedia://article/105557552"
         },
         {
-          "uri": "coremedia://article/105557552"
+          "uri": "coremedia://article/105554466"
         },
         {
           "uri": "coremedia://article/105552678"
@@ -66,7 +69,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -95,7 +104,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -165,6 +181,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105557928",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A brick building with writing on it",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e3676fafa4463083449074b3e3df4728?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=139&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-22/police-charge-man-alleged-raping-child-central-queensland/105557928"
+          },
+          "contentUri": "coremedia://article/105557928",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-22/police-charge-man-alleged-raping-child-central-queensland/105557928",
+          "video": null,
+          "reactKey": "qld-105557928-1",
+          "synopsis": "Police allege the acts were carried out in June and July this year. ",
+          "title": {
+            "children": "Man charged with drugging and raping child in Central Queensland"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105554356",
           "imagePosition": {
             "mobile": "right",
@@ -196,37 +243,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105554466",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "bruce lehrmann walking outside court",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eedadf9ef63319eefe9ecee34ddf5c80?impolicy=wcms_crop_resize&cropH=993&cropW=1489&xPos=149&yPos=19&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-21/bruce-lehrmann-rape-allegations-evidence-toowoomba-court/105554466"
-          },
-          "contentUri": "coremedia://article/105554466",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-21/bruce-lehrmann-rape-allegations-evidence-toowoomba-court/105554466",
-          "video": null,
-          "reactKey": "qld-105554466-1",
-          "synopsis": "Bruce Lehrmann's legal counsel raises questions about the \"possible destruction of exculpatory material\" relating to a police hard drive in his Toowoomba rape case.",
-          "title": {
-            "children": "Bruce Lehrmann's lawyer concerned evidence 'damaged' in Toowoomba rape case"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105557552",
           "imagePosition": {
             "mobile": "right",
@@ -249,6 +265,37 @@
           "synopsis": "The Queensland government has announced the state's largest ever investment in special schools, with a \"clear demand for the schools\".",
           "title": {
             "children": "Jasmin says she felt pressured to enrol her son at a special school"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105554466",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "bruce lehrmann walking outside court",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eedadf9ef63319eefe9ecee34ddf5c80?impolicy=wcms_crop_resize&cropH=993&cropW=1489&xPos=149&yPos=19&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-21/bruce-lehrmann-rape-allegations-evidence-toowoomba-court/105554466"
+          },
+          "contentUri": "coremedia://article/105554466",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-21/bruce-lehrmann-rape-allegations-evidence-toowoomba-court/105554466",
+          "video": null,
+          "reactKey": "qld-105554466-1",
+          "synopsis": "Bruce Lehrmann's legal counsel raises questions about the \"possible destruction of exculpatory material\" relating to a police hard drive in his Toowoomba rape case.",
+          "title": {
+            "children": "Bruce Lehrmann's lawyer concerned evidence 'damaged' in Toowoomba rape case"
           },
           "imageContainerClassNames": []
         }
