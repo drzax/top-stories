@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105563392"
+          "uri": "coremedia://article/105563706"
+        },
+        {
+          "uri": "coremedia://article/105562042"
         },
         {
           "uri": "coremedia://article/105356696"
-        },
-        {
-          "uri": "coremedia://article/105561680"
         },
         {
           "uri": "coremedia://article/105562908"
@@ -123,11 +123,49 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105563392",
+          "id": "105563706",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63b69168cb8b1b968b498a2943b65bc3?impolicy=wcms_crop_resize&cropH=1066&cropW=1599&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-07-23/federal-politics-live-blog-parliament-july-23/105561680"
+          },
+          "contentUri": "coremedia://article/105563706",
+          "canonicalURL": "https://www.abc.net.au/news/2025-07-23/federal-politics-live-blog-parliament-july-23/105561680",
+          "video": null,
+          "reactKey": "national-105563706-1",
+          "synopsis": "The government has used the second day of parliament to introduce legislation to cut student debt and reforms to the childcare sector. Follow live. ",
+          "title": {
+            "children": "Albanese and Ley face off in first Question Time"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105562042",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -136,23 +174,21 @@
           "isMajor": false,
           "image": {
             "altText": "External signage for Genea IVF",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b640937c13f39480690bf05f5e3322e6?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b640937c13f39480690bf05f5e3322e6?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-07-23/ivf-giant-genea-confirms-sensitive-patient-information-stolen/105562042"
           },
-          "contentUri": "coremedia://article/105563392",
+          "contentUri": "coremedia://article/105562042",
           "canonicalURL": "https://www.abc.net.au/news/2025-07-23/ivf-giant-genea-confirms-sensitive-patient-information-stolen/105562042",
           "video": null,
-          "reactKey": "national-105563392-1",
+          "reactKey": "national-105562042-1",
           "synopsis": "Genea has confirmed sensitive medical information from IVF patients was stolen and published on the dark web following a cyber attack. Affected patients are demanding accountability.",
           "title": {
             "children": "IVF giant Genea confirms sensitive patient health information on dark web"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -184,66 +220,6 @@
             "children": "ABC reporter 'email bombed' while hunting an Australian crypto scammer"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105561680",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Clare sits in front of a row of windows at parliament house.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80a9b550a30908fe03fa7c58c6282160?impolicy=wcms_crop_resize&cropH=2753&cropW=4129&xPos=1203&yPos=126&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-23/federal-politics-live-blog-parliament-july-23/105561680"
-          },
-          "contentUri": "coremedia://article/105561680",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-23/federal-politics-live-blog-parliament-july-23/105561680",
-          "video": null,
-          "reactKey": "national-105561680-1",
-          "synopsis": "The government has used the second day of parliament to introduce legislation to cut student debt and reforms to the childcare sector. Follow live. ",
-          "title": {
-            "children": "Labor introduces bill to cut student debt "
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "206008",
-              "date": "2025-07-23T02:15:00.000Z",
-              "title": "Barnaby Joyce is picking a fight on net zero"
-            },
-            {
-              "id": "205979",
-              "date": "2025-07-22T23:38:32.000Z",
-              "title": "Speaker to get power to boot MPs out of the chamber for three hours"
-            },
-            {
-              "id": "205956",
-              "date": "2025-07-22T21:51:28.000Z",
-              "title": "Single breach could be enough to strip childcare funding under new rules: Clare"
-            }
-          ]
         }
       },
       {
