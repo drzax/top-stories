@@ -111,7 +111,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -136,7 +142,7 @@
           "reactKey": "vic-105590698-1",
           "synopsis": "A man has been arrested over his alleged role in the December 2024 arson of the Adass Israel Synagogue of Melbourne in the city's inner south-east.",
           "title": {
-            "children": "Breaking: Man arrested over fire that destroyed Melbourne synagogue"
+            "children": "Man arrested over fire that destroyed Melbourne synagogue"
           },
           "imageContainerClassNames": [
             "imageHalf"
