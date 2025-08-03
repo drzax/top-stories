@@ -19,10 +19,13 @@
           "uri": "coremedia://article/105606494"
         },
         {
-          "uri": "coremedia://article/105586830"
+          "uri": "coremedia://article/105605280"
         },
         {
           "uri": "coremedia://article/105606702"
+        },
+        {
+          "uri": "coremedia://article/105586830"
         },
         {
           "uri": "coremedia://article/105605562"
@@ -31,10 +34,10 @@
           "uri": "coremedia://article/105604390"
         },
         {
-          "uri": "coremedia://article/105574220"
+          "uri": "coremedia://article/105503734"
         },
         {
-          "uri": "coremedia://article/105503734"
+          "uri": "coremedia://article/105606852"
         },
         {
           "uri": "coremedia://article/105604336"
@@ -113,9 +116,6 @@
         },
         {
           "uri": "coremedia://article/105590162"
-        },
-        {
-          "uri": "coremedia://article/105591532"
         }
       ]
     },
@@ -189,9 +189,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105586830",
+          "id": "105605280",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -199,22 +205,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man sits in front of a bright blue car covered in advertisements.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1231ea90a0eb8e428a5f1b2a78ba59a6?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=524&yPos=0&width=160&height=107",
+            "altText": "A protester flies a Palestinian flag on a Sydney footpath.  ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d295a066cb679d86b9c25a6e9b4bcb87?impolicy=wcms_crop_resize&cropH=900&cropW=1350&xPos=2&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-08-03/dream-car-tru-blu-ford-falcon-built-after-cancer-diagnosis/105586830"
+            "to": "/news/2025-08-03/pro-palestinian-march-sydney-melbourne-august-3/105605280"
           },
-          "contentUri": "coremedia://article/105586830",
-          "canonicalURL": "https://www.abc.net.au/news/2025-08-03/dream-car-tru-blu-ford-falcon-built-after-cancer-diagnosis/105586830",
+          "contentUri": "coremedia://article/105605280",
+          "canonicalURL": "https://www.abc.net.au/news/2025-08-03/pro-palestinian-march-sydney-melbourne-august-3/105605280",
           "video": null,
-          "reactKey": "vic-105586830-1",
-          "synopsis": "In the 80s, racing car Tru Blu was rebuilt thanks to crowdfunding. Now history has repeated to build a cherished replica.",
+          "reactKey": "vic-105605280-1",
+          "synopsis": "The Sydney Harbour Bridge is expected to remain closed to traffic for several hours as protesters march in support of Palestinians in Gaza. Follow live. ",
           "title": {
-            "children": "Town rallies to help man build his dream car after cancer diagnosis"
+            "children": "Sydney Harbour Bridge closes to traffic ahead of pro-Palestinian march"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "209511",
+              "date": "2025-08-03T02:19:34.000Z",
+              "title": "Melbourne protest underway"
+            },
+            {
+              "id": "209508",
+              "date": "2025-08-03T02:02:08.000Z",
+              "title": "Sydney Harbour Bridge empty of traffic"
+            }
+          ]
         }
       },
       {
@@ -244,6 +268,37 @@
           "synopsis": "A new bookshop in a Wodonga water tower is the latest unique heritage building being transformed in Victoria.",
           "title": {
             "children": "Victoria's newest bookstore opens in century-old water tower"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105586830",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man sits in front of a bright blue car covered in advertisements.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1231ea90a0eb8e428a5f1b2a78ba59a6?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=524&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-08-03/dream-car-tru-blu-ford-falcon-built-after-cancer-diagnosis/105586830"
+          },
+          "contentUri": "coremedia://article/105586830",
+          "canonicalURL": "https://www.abc.net.au/news/2025-08-03/dream-car-tru-blu-ford-falcon-built-after-cancer-diagnosis/105586830",
+          "video": null,
+          "reactKey": "vic-105586830-1",
+          "synopsis": "In the 80s, racing car Tru Blu was rebuilt thanks to crowdfunding. Now history has repeated to build a cherished replica.",
+          "title": {
+            "children": "Town rallies to help man build his dream car after cancer diagnosis"
           },
           "imageContainerClassNames": []
         }
@@ -320,37 +375,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105574220",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man and woman hold dogs in their arms ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f4f8f8540fe045ce2f313d91c776adbf?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-08-03/truffle-growers-push-back-on-manufactured-flavouring/105574220"
-          },
-          "contentUri": "coremedia://article/105574220",
-          "canonicalURL": "https://www.abc.net.au/news/2025-08-03/truffle-growers-push-back-on-manufactured-flavouring/105574220",
-          "video": null,
-          "reactKey": "vic-105574220-1",
-          "synopsis": "As demand for truffle flavour grows, the industry fears most people are not getting the real deal.",
-          "title": {
-            "children": "Do you know what a real truffle tastes like?"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105503734",
           "imagePosition": {
             "mobile": "right",
@@ -373,6 +397,37 @@
           "synopsis": "Even air purifiers with the best filters vary in how well they clear your home of smoke. Here's what to look for in a unit, and how to make the most of it.",
           "title": {
             "children": "Wood smoke can harm your health. Can an air purifier protect you?"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105606852",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man and woman hold dogs in their arms ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f4f8f8540fe045ce2f313d91c776adbf?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-08-03/truffle-growers-push-back-on-manufactured-flavouring/105574220"
+          },
+          "contentUri": "coremedia://article/105606852",
+          "canonicalURL": "https://www.abc.net.au/news/2025-08-03/truffle-growers-push-back-on-manufactured-flavouring/105574220",
+          "video": null,
+          "reactKey": "vic-105606852-1",
+          "synopsis": "As demand for truffle flavour grows, the industry fears most people are not getting the real deal.",
+          "title": {
+            "children": "Do you know what a real truffle tastes like?"
           },
           "imageContainerClassNames": []
         }
@@ -1185,37 +1240,6 @@
           "synopsis": "A man has been arrested for his alleged role in the December 2024 arson of the Adass Israel Synagogue of Melbourne in the city's inner south-east.",
           "title": {
             "children": "Overseas links probed in Melbourne synagogue arson attack as man arrested"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105591532",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A house on a rural block.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f67e8a6dc38671afc978ffad6df37911?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-07-30/erin-patterson-leongatha-home-supreme-court/105591532"
-          },
-          "contentUri": "coremedia://article/105591532",
-          "canonicalURL": "https://www.abc.net.au/news/2025-07-30/erin-patterson-leongatha-home-supreme-court/105591532",
-          "video": null,
-          "reactKey": "vic-105591532-1",
-          "synopsis": "Convicted triple-murderer Erin Patterson has been barred from selling the home in which she served her relatives a deadly beef Wellington meal so it may be used in future compensation claims by her victims or their families.",
-          "title": {
-            "children": "Mushroom murderer Erin Patterson barred from selling Leongatha home"
           },
           "imageContainerClassNames": []
         }
