@@ -379,7 +379,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105645900",
           "imagePosition": {
@@ -404,7 +410,14 @@
           "title": {
             "children": "Man arrested after police gun fired at Sydney Airport"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -464,7 +477,7 @@
           "reactKey": "tas-105645742-1",
           "synopsis": "You don't have to look far in Russia to find hypotheses as to why Alaska is in the wrong hands. Whether Moscow could ever rule it again depends on who you talk to.",
           "title": {
-            "children": "To understand Russia's 'Alaska myth', there's a song that could help"
+            "children": "Inside Russia's claim to Alaska, from 'mythology' in schools to a 90s hit"
           },
           "imageContainerClassNames": []
         }
