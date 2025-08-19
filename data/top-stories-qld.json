@@ -98,7 +98,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105674818",
           "imagePosition": {
@@ -121,9 +127,16 @@
           "reactKey": "qld-105674818-1",
           "synopsis": "It will be the first time Australia has hosted the World Baseball Softball Confederation (WSBC) tournament since the inaugural event in 1965 in Melbourne.",
           "title": {
-            "children": "Home run as Australia announced as 2027 Women's Softball World Cup host"
+            "children": "Australia announced as 2027 Women's Softball World Cup host"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
