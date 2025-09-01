@@ -120,7 +120,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -143,9 +149,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-09-01/porepunkah-shooting-dezi-freeman-search-enters-day-seven/105717938",
           "video": null,
           "reactKey": "national-105721244-1",
-          "synopsis": "Despite the arrests of his family members and a continued police hunt, alleged gunman Dezi Freeman remains at large.",
+          "synopsis": "Victoria Police provide an update on the search for alleged gunman Dezi Freeman, who is accused of killing two police officers.",
           "title": {
-            "children": "Hunt for alleged killer Dezi Freeman continues for a seventh day"
+            "children": "Police provide update on Dezi Freeman as search continues for seventh day"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -486,7 +492,7 @@
           "reactKey": "national-105721066-1",
           "synopsis": "South Australia has become the first state in Australia to ban fish-shaped plastic soy sauce containers as it continues to phase out single-use plastics.",
           "title": {
-            "children": "Nation-first ban on fish-shaped plastic soy sauce containers begins in SA"
+            "children": "Nation-first ban on fish-shaped plastic soy sauce containers begins in South Australia"
           },
           "imageContainerClassNames": []
         }
@@ -571,6 +577,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "218300",
+              "date": "2025-09-01T04:41:32.000Z",
+              "title": "ASX slide continues led by miners, banks and tech stocks"
+            },
+            {
               "id": "218285",
               "date": "2025-09-01T03:38:31.000Z",
               "title": "Gold's record high driven by US dollar weakness"
@@ -579,11 +590,6 @@
               "id": "218281",
               "date": "2025-09-01T03:09:50.000Z",
               "title": "Building approvals soften"
-            },
-            {
-              "id": "218275",
-              "date": "2025-09-01T02:14:49.000Z",
-              "title": "The ASX's last day laggards still trying to bury their garbage"
             }
           ]
         }
