@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105746462"
+          "uri": "coremedia://article/105746918"
+        },
+        {
+          "uri": "coremedia://article/105733478"
         },
         {
           "uri": "coremedia://article/105745636"
-        },
-        {
-          "uri": "coremedia://article/105734146"
         },
         {
           "uri": "coremedia://article/105746506"
@@ -123,11 +123,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105746462",
+          "id": "105746918",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A woman with tied back brown hair in a brown top looks upwards as she is helped out of a white van by three men dressed in blue.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/686742dcd66405ef96ff2c2d8bf21d0f?impolicy=wcms_crop_resize&cropH=817&cropW=1225&xPos=439&yPos=253&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-08/live-updates-erin-patterson-sentence-mushroom-murders/105734146"
+          },
+          "contentUri": "coremedia://article/105746918",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-08/live-updates-erin-patterson-sentence-mushroom-murders/105734146",
+          "video": null,
+          "reactKey": "national-105746918-1",
+          "synopsis": "Erin Patterson will return to the Supreme Court today to be sentenced for the murders of three relatives and the attempted murder of a fourth. Follow live.",
+          "title": {
+            "children": "Patterson could face life without parole ahead of murderer's sentencing"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105733478",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -136,23 +175,21 @@
           "isMajor": false,
           "image": {
             "altText": "A man sitting with the ocean behind him has a slight smile in his hand he holds a black rock.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f48cc57c4e7e12f1eb81bb3b9838562?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f48cc57c4e7e12f1eb81bb3b9838562?impolicy=wcms_crop_resize&cropH=2869&cropW=4304&xPos=258&yPos=269&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-09-08/deep-sea-mining-minerals-gerard-barron-trump-four-corners/105733478"
           },
-          "contentUri": "coremedia://article/105746462",
+          "contentUri": "coremedia://article/105733478",
           "canonicalURL": "https://www.abc.net.au/news/2025-09-08/deep-sea-mining-minerals-gerard-barron-trump-four-corners/105733478",
           "video": null,
-          "reactKey": "national-105746462-1",
+          "reactKey": "national-105733478-1",
           "synopsis": "He has the chic of a Silicon Valley tech bro and a clean energy pitch for investors, but will Gerard Barron's deep-sea mining dream do more harm than good?",
           "title": {
             "children": "He's been called Australia's Elon Musk. This is his 'trillion-dollar' plan"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -184,66 +221,6 @@
             "children": "'Beautiful' young man among pair mourned after fatal Melbourne attacks"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105734146",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A woman with tied back brown hair in a brown top looks upwards as she is helped out of a white van by three men dressed in blue.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/686742dcd66405ef96ff2c2d8bf21d0f?impolicy=wcms_crop_resize&cropH=555&cropW=832&xPos=608&yPos=311&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-08/live-updates-erin-patterson-sentence-mushroom-murders/105734146"
-          },
-          "contentUri": "coremedia://article/105734146",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-08/live-updates-erin-patterson-sentence-mushroom-murders/105734146",
-          "video": null,
-          "reactKey": "national-105734146-1",
-          "synopsis": "Erin Patterson will return to the Supreme Court today to be sentenced for the murders of three relatives and the attempted murder of a fourth. Follow live.",
-          "title": {
-            "children": "Court to sentence Erin Patterson for death cap mushroom murders"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "220843",
-              "date": "2025-09-07T22:24:56.000Z",
-              "title": "What did the court hear last time?"
-            },
-            {
-              "id": "220778",
-              "date": "2025-09-07T20:12:00.000Z",
-              "title": "The key players and events"
-            },
-            {
-              "id": "220770",
-              "date": "2025-09-07T19:47:28.000Z",
-              "title": "Live television coverage of proceedings"
-            }
-          ]
         }
       },
       {
@@ -609,6 +586,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "220885",
+              "date": "2025-09-07T23:11:11.000Z",
+              "title": "EV Resources in trading halt pending acquisition announcement"
+            },
+            {
               "id": "220877",
               "date": "2025-09-07T23:02:05.000Z",
               "title": "ASX 200 changes sees DroneShield added and Lifestyle Communities cut"
@@ -617,11 +599,6 @@
               "id": "220844",
               "date": "2025-09-07T22:29:35.000Z",
               "title": "Trump's Fed chair shortlist includes White House advisor"
-            },
-            {
-              "id": "220832",
-              "date": "2025-09-07T22:00:36.000Z",
-              "title": "Oil price under pressure as OPEC+ raises production again"
             }
           ]
         }
