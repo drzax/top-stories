@@ -37,7 +37,7 @@
           "uri": "coremedia://article/105751422"
         },
         {
-          "uri": "coremedia://article/105751484"
+          "uri": "coremedia://article/105746990"
         },
         {
           "uri": "coremedia://article/105751534"
@@ -55,7 +55,7 @@
           "uri": "coremedia://article/105751816"
         },
         {
-          "uri": "coremedia://article/105746990"
+          "uri": "coremedia://article/105751484"
         },
         {
           "uri": "coremedia://article/105748520"
@@ -170,7 +170,7 @@
           "isMajor": false,
           "image": {
             "altText": "A camera on a highway",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/afa3db9de69166af689b6bb4773fb2f9?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=67&width=160&height=107",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/afa3db9de69166af689b6bb4773fb2f9?impolicy=wcms_crop_resize&cropH=689&cropW=1033&xPos=291&yPos=201&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -345,9 +345,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105751484",
+          "id": "105746990",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -355,22 +361,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The logo of the ANZ Banking Group is displayed in the window of a newly opened branch in central Sydney",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6bdc206754eda10105ca28660d460ac8?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=0&yPos=7&width=160&height=107",
+            "altText": "An ASX board with ASX in focus and stock prices out of focus.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a10a96b8fb841e8baf05fd853e8b2c09?impolicy=wcms_crop_resize&cropH=1686&cropW=2529&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-09/anz-to-cut-jobs-3500-to-go-by-sept-2026/105751484"
+            "to": "/news/2025-09-09/asx-markets-business-live-news-sept-9-2025/105746990"
           },
-          "contentUri": "coremedia://article/105751484",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-09/anz-to-cut-jobs-3500-to-go-by-sept-2026/105751484",
+          "contentUri": "coremedia://article/105746990",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-09/asx-markets-business-live-news-sept-9-2025/105746990",
           "video": null,
-          "reactKey": "wa-105751484-1",
-          "synopsis": "ANZ announces a restructure that will see thousands of roles go and fewer contracts with consultants and third parties.",
+          "reactKey": "wa-105746990-1",
+          "synopsis": "ANZ's share price is falling along with the other major banks, despite the announcement of a mass cost-cutting program resulting in about 4,500 job losses. Follow the day's events and insights from our business reporters on the ABC News live markets blog.  ",
           "title": {
-            "children": "ANZ to cut 3,500 jobs in next year in broader restructure"
+            "children": "ASX falls, ANZ shares down despite mass sackings"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "221413",
+              "date": "2025-09-09T01:21:29.000Z",
+              "title": "Job cuts to be finalised sooner than 12 months: ANZ boss"
+            },
+            {
+              "id": "221409",
+              "date": "2025-09-09T01:10:18.000Z",
+              "title": "ANZ boss speaking, says he's been transparent about restructure."
+            },
+            {
+              "id": "221393",
+              "date": "2025-09-09T00:25:19.000Z",
+              "title": "ASX opens lower"
+            }
+          ]
         }
       },
       {
@@ -447,6 +476,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "221430",
+              "date": "2025-09-09T01:50:27.000Z",
+              "title": "How much is Australia's deportation deal with Nauru actually going to cost?"
+            },
+            {
               "id": "221340",
               "date": "2025-09-08T22:20:29.000Z",
               "title": "Nampijinpa Price should apologise, PM says"
@@ -455,11 +489,6 @@
               "id": "221335",
               "date": "2025-09-08T22:12:15.000Z",
               "title": "PM claims Nauru deal figures not 'necessarily correct'"
-            },
-            {
-              "id": "221317",
-              "date": "2025-09-08T21:43:20.000Z",
-              "title": "Vanuatu deal not expected to be signed today: PM"
             }
           ]
         }
@@ -560,15 +589,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105746990",
+          "id": "105751484",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -576,45 +599,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An ASX board with ASX in focus and stock prices out of focus.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a10a96b8fb841e8baf05fd853e8b2c09?impolicy=wcms_crop_resize&cropH=1686&cropW=2529&xPos=0&yPos=0&width=160&height=107",
+            "altText": "The logo of the ANZ Banking Group is displayed in the window of a newly opened branch in central Sydney",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6bdc206754eda10105ca28660d460ac8?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=0&yPos=7&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-09/asx-markets-business-live-news-sept-9-2025/105746990"
+            "to": "/news/2025-09-09/anz-to-cut-jobs-3500-to-go-by-sept-2026/105751484"
           },
-          "contentUri": "coremedia://article/105746990",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-09/asx-markets-business-live-news-sept-9-2025/105746990",
+          "contentUri": "coremedia://article/105751484",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-09/anz-to-cut-jobs-3500-to-go-by-sept-2026/105751484",
           "video": null,
-          "reactKey": "wa-105746990-1",
-          "synopsis": "We'll get more insight into the Australian economy as business turnover data is revealed. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "reactKey": "wa-105751484-1",
+          "synopsis": "ANZ announces a restructure that will see thousands of roles go and fewer contracts with consultants and third parties.",
           "title": {
-            "children": "ASX falls, business turnover data to inform inflation result"
+            "children": "ANZ to cut 3,500 jobs in next year in broader restructure"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "221393",
-              "date": "2025-09-09T00:25:19.000Z",
-              "title": "ASX opens lower"
-            },
-            {
-              "id": "221384",
-              "date": "2025-09-08T23:56:21.000Z",
-              "title": "Australia Post to resume parcel deliveries to US"
-            },
-            {
-              "id": "221325",
-              "date": "2025-09-08T21:58:49.000Z",
-              "title": "About 1,000 contractors to be affected by ANZ cuts"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
