@@ -535,7 +535,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105769036",
           "imagePosition": {
@@ -556,11 +562,24 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-09-14/porepunkah-shooting-police-operation-community-limbo/105769036",
           "video": null,
           "reactKey": "nt-105769036-1",
-          "synopsis": "As a police operation to find alleged gunman Dezi Freeman continues with no end in sight, Porepunkah residents share their anxiety about being left in limbo.",
+          "synopsis": "An update is being provided on the prolonged search for alleged police killer Dezi Freeman in Victoria's north-east. Follow the press conference live.",
           "title": {
-            "children": "As an intense Victorian manhunt continues, locals are feeling the pain"
+            "children": "Police give update on Dezi Freeman search as Porepunkah remains in limbo"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "223398",
+              "date": "2025-09-14T00:06:10.000Z",
+              "title": "Police are providing an update on the search for Dezi Freeman"
+            }
+          ]
         }
       },
       {
@@ -917,8 +936,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A graphic of a mobile phone held in a hand, grimacing emojis, and #cringe in big, black print in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55955e79b1b57a766eefe2309de7bcb8?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "altText": "An image of a woman holding her head in her hand. She wears a pale green top. Emojis are in the background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8bc6dae3a5d38fe6e13e1789b3174ab5?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
