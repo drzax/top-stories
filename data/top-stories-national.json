@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105796262"
+          "uri": "coremedia://article/105796480"
+        },
+        {
+          "uri": "coremedia://article/105796226"
         },
         {
           "uri": "coremedia://article/105795694"
@@ -25,13 +28,13 @@
           "uri": "coremedia://article/105793278"
         },
         {
-          "uri": "coremedia://article/105794018"
-        },
-        {
           "uri": "coremedia://article/105796366"
         },
         {
           "uri": "coremedia://article/105779366"
+        },
+        {
+          "uri": "coremedia://article/105794018"
         },
         {
           "uri": "coremedia://article/105792890"
@@ -40,16 +43,13 @@
           "uri": "coremedia://article/105794888"
         },
         {
-          "uri": "coremedia://article/105793458"
-        },
-        {
           "uri": "coremedia://article/105795910"
         },
         {
-          "uri": "coremedia://article/105783328"
+          "uri": "coremedia://article/105793458"
         },
         {
-          "uri": "coremedia://article/105787796"
+          "uri": "coremedia://article/105783328"
         },
         {
           "uri": "coremedia://article/105793244"
@@ -61,6 +61,9 @@
           "uri": "coremedia://article/105794698"
         },
         {
+          "uri": "coremedia://article/105787796"
+        },
+        {
           "uri": "coremedia://article/105790942"
         },
         {
@@ -70,10 +73,10 @@
           "uri": "coremedia://article/105792674"
         },
         {
-          "uri": "coremedia://article/105792818"
+          "uri": "coremedia://article/105795258"
         },
         {
-          "uri": "coremedia://article/105795258"
+          "uri": "coremedia://article/105792818"
         },
         {
           "uri": "coremedia://article/105785674"
@@ -85,10 +88,10 @@
           "uri": "coremedia://article/105790490"
         },
         {
-          "uri": "coremedia://article/105792972"
+          "uri": "coremedia://article/105793354"
         },
         {
-          "uri": "coremedia://article/105793354"
+          "uri": "coremedia://article/105792972"
         },
         {
           "uri": "coremedia://article/105735836"
@@ -100,9 +103,6 @@
           "uri": "coremedia://article/105792290"
         },
         {
-          "uri": "coremedia://article/105791580"
-        },
-        {
           "uri": "coremedia://article/105794366"
         }
       ]
@@ -111,11 +111,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105796262",
+          "id": "105796480",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "optus stock",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8487451767e4e765f3d9a50147b2804c?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/optus-reveals-three-dead-after-triple-zero-calls-impacted-live/105796298"
+          },
+          "contentUri": "coremedia://article/105796480",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/optus-reveals-three-dead-after-triple-zero-calls-impacted-live/105796298",
+          "video": null,
+          "reactKey": "national-105796480-1",
+          "synopsis": "Government and emergency authorities have criticised Optus for its response to a network outage that resulted in hundreds of failed triple-0 calls. Follow live. ",
+          "title": {
+            "children": "'Completely unacceptable': Optus outage that resulted in three deaths slammed"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105796226",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -124,23 +163,21 @@
           "isMajor": false,
           "image": {
             "altText": "close up sign of Optus",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc13113eb502a68566f60bde89910090?impolicy=wcms_crop_resize&cropH=1666&cropW=2499&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bc13113eb502a68566f60bde89910090?impolicy=wcms_crop_resize&cropH=1666&cropW=2499&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-09-19/optus-network-failure-three-people-dead-triple-zero/105796226"
           },
-          "contentUri": "coremedia://article/105796262",
+          "contentUri": "coremedia://article/105796226",
           "canonicalURL": "https://www.abc.net.au/news/2025-09-19/optus-network-failure-three-people-dead-triple-zero/105796226",
           "video": null,
-          "reactKey": "national-105796262-1",
+          "reactKey": "national-105796226-1",
           "synopsis": "Optus CEO Stephen Rue confirmed that a technical failure resulted in the failure of triple-0 emergency calls in South Australia, the Northern Territory and Western Australia, with around 600 customers impacted.",
           "title": {
-            "children": "Breaking: Three dead after Optus network failure prevented hundreds of triple-0 calls, CEO says"
+            "children": "Breaking: Optus network failure impacted triple-0 calls where three people died"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -239,37 +276,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105794018",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anthony Albanese and James Marape signing",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b5f17441cfa21d75f889270ac6f7dac?impolicy=wcms_crop_resize&cropH=2585&cropW=3877&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-19/china-warns-papua-new-guinea-against-bilateral-deal-australia/105794018"
-          },
-          "contentUri": "coremedia://article/105794018",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/china-warns-papua-new-guinea-against-bilateral-deal-australia/105794018",
-          "video": null,
-          "reactKey": "national-105794018-1",
-          "synopsis": "China has urged Papua New Guinea not to sign any deal that might exclude or restrict third parties from cooperating with the Pacific nation, as Australia scrambles to clinch a landmark defence treaty.",
-          "title": {
-            "children": "China responds to Australia's defence treaty with PNG"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "live",
@@ -286,8 +292,8 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Tori West and Camryn Newton-Smith composite",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/003b29601983e533c37b40a0342fd374?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Abigail Pawlett hits the deck",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/142fe4b00d35d223736399a3db124340?impolicy=wcms_crop_resize&cropH=2064&cropW=3096&xPos=171&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
@@ -299,7 +305,7 @@
           "reactKey": "national-105796366-1",
           "synopsis": "Australia's heptathletes get their World Athletics Championship campaigns up and running, as Aussie trios aim for a final spot in the women's 800m and the men's 5,000m. Follow live.",
           "title": {
-            "children": "Aussie heptathletes get their competition started, Hull shoots for final"
+            "children": "Heavy fall mars opening event of heptathlon as Aussies open campaign"
           },
           "imageContainerClassNames": []
         }
@@ -352,6 +358,37 @@
               "title": "No late changes in final confirmed team line-ups"
             }
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105794018",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Anthony Albanese and James Marape signing",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b5f17441cfa21d75f889270ac6f7dac?impolicy=wcms_crop_resize&cropH=2585&cropW=3877&xPos=0&yPos=2&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/china-warns-papua-new-guinea-against-bilateral-deal-australia/105794018"
+          },
+          "contentUri": "coremedia://article/105794018",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/china-warns-papua-new-guinea-against-bilateral-deal-australia/105794018",
+          "video": null,
+          "reactKey": "national-105794018-1",
+          "synopsis": "China has urged Papua New Guinea not to sign any deal that might exclude or restrict third parties from cooperating with the Pacific nation, as Australia scrambles to clinch a landmark defence treaty.",
+          "title": {
+            "children": "China responds to Australia's defence treaty with PNG"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -421,37 +458,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105793458",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Man wearing a suit and glasses, l;ooking dow, walks forward while surrounded by media",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59afc6a93810be326aa9657363fdb36b?impolicy=wcms_crop_resize&cropH=1219&cropW=1829&xPos=263&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-19/class-action-seeks-damages-after-fatal-greta-bus-crash/105793458"
-          },
-          "contentUri": "coremedia://article/105793458",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/class-action-seeks-damages-after-fatal-greta-bus-crash/105793458",
-          "video": null,
-          "reactKey": "national-105793458-1",
-          "synopsis": "Jailed bus driver Brett Button and the bus company that employed him have been added as defendants in a class action stemming from a crash that killed 10 people.",
-          "title": {
-            "children": "Deadly wedding crash class action includes jailed driver, bus company"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105795910",
           "imagePosition": {
             "mobile": "right",
@@ -483,6 +489,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "105793458",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Man wearing a suit and glasses, l;ooking dow, walks forward while surrounded by media",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/59afc6a93810be326aa9657363fdb36b?impolicy=wcms_crop_resize&cropH=1219&cropW=1829&xPos=263&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/class-action-seeks-damages-after-fatal-greta-bus-crash/105793458"
+          },
+          "contentUri": "coremedia://article/105793458",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/class-action-seeks-damages-after-fatal-greta-bus-crash/105793458",
+          "video": null,
+          "reactKey": "national-105793458-1",
+          "synopsis": "Jailed bus driver Brett Button and the bus company that employed him have been added as defendants in a class action stemming from a crash that killed 10 people.",
+          "title": {
+            "children": "Deadly wedding crash class action includes jailed driver, bus company"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "105783328",
           "imagePosition": {
             "mobile": "right",
@@ -505,43 +542,6 @@
           "synopsis": "The failed First Guardian and Shield schemes have cost about 12,000 Australians more than $1 billion in retirement savings and exposed deep flaws in how Australia's $4.3 trillion superannuation sector is regulated. ",
           "title": {
             "children": "Collapses expose deep flaws in Australia's $4.3 trillion super system"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/72cc41fa6ed66bed48962e861e19b65e?impolicy=wcms_crop_resize&cropH=1627&cropW=1627&xPos=709&yPos=241&width=160&height=160",
-              "authorName": "Jo Lauder"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105787796",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A number of wind turbines in a desert landscape at dusk with a full moon rising",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c03ea1ea3eb8a83ba4a1fc60667862c1?impolicy=wcms_crop_resize&cropH=1319&cropW=1979&xPos=111&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-19/climate-conversation-is-stuck-but-things-are-changing/105787796"
-          },
-          "contentUri": "coremedia://article/105787796",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/climate-conversation-is-stuck-but-things-are-changing/105787796",
-          "video": null,
-          "reactKey": "national-105787796-1",
-          "synopsis": "We don't have to wait for moonshot technologies to reach our climate targets. Most of the solutions to the climate crisis are already around us.",
-          "title": {
-            "children": "'How to keep the lights on' conversation totally ignores where we are already at"
           },
           "imageContainerClassNames": []
         }
@@ -635,6 +635,43 @@
           "synopsis": "As US President Donald Trump left Windsor to meet UK Prime Minister Sir Keir Starmer, first lady Melania Trump spent the day with the Princess of Wales and Queen Camilla.",
           "title": {
             "children": "Chequers, scout groups and a dolls' house — day two of Trump's state visit in pictures"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/72cc41fa6ed66bed48962e861e19b65e?impolicy=wcms_crop_resize&cropH=1627&cropW=1627&xPos=709&yPos=241&width=160&height=160",
+              "authorName": "Jo Lauder"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "105787796",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A number of wind turbines in a desert landscape at dusk with a full moon rising",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c03ea1ea3eb8a83ba4a1fc60667862c1?impolicy=wcms_crop_resize&cropH=1319&cropW=1979&xPos=111&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/climate-conversation-is-stuck-but-things-are-changing/105787796"
+          },
+          "contentUri": "coremedia://article/105787796",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/climate-conversation-is-stuck-but-things-are-changing/105787796",
+          "video": null,
+          "reactKey": "national-105787796-1",
+          "synopsis": "We don't have to wait for moonshot technologies to reach our climate targets. Most of the solutions to the climate crisis are already around us.",
+          "title": {
+            "children": "'How to keep the lights on' conversation totally ignores where we are already at"
           },
           "imageContainerClassNames": []
         }
@@ -737,37 +774,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105792818",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Matthew Draganoff in front of a Union Jack flag ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ba3225dc01f14a6d0de73dd9f83cc75e?impolicy=wcms_crop_resize&cropH=786&cropW=1179&xPos=0&yPos=35&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-19/matthew-draganoff-sentenced-murder/105792818"
-          },
-          "contentUri": "coremedia://article/105792818",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/matthew-draganoff-sentenced-murder/105792818",
-          "video": null,
-          "reactKey": "national-105792818-1",
-          "synopsis": "A man who was found guilty of the \"execution-style murder\" of his \"unarmed\" tenant on the northern outskirts of Adelaide has been jailed for at least 28 years.",
-          "title": {
-            "children": "Landlord who murdered tenant sentenced to at least 28 years in prison"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105795258",
           "imagePosition": {
             "mobile": "right",
@@ -790,6 +796,37 @@
           "synopsis": "A lot happened this week. Have you been paying attention?",
           "title": {
             "children": "Weekly news quiz: A royal visit, a glitzy award show and a new city plays host to Laneway"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105792818",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Matthew Draganoff in front of a Union Jack flag ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ba3225dc01f14a6d0de73dd9f83cc75e?impolicy=wcms_crop_resize&cropH=786&cropW=1179&xPos=0&yPos=35&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/matthew-draganoff-sentenced-murder/105792818"
+          },
+          "contentUri": "coremedia://article/105792818",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/matthew-draganoff-sentenced-murder/105792818",
+          "video": null,
+          "reactKey": "national-105792818-1",
+          "synopsis": "A man who was found guilty of the \"execution-style murder\" of his \"unarmed\" tenant on the northern outskirts of Adelaide has been jailed for at least 28 years.",
+          "title": {
+            "children": "Landlord who murdered tenant sentenced to at least 28 years in prison"
           },
           "imageContainerClassNames": []
         }
@@ -892,37 +929,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105792972",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "McLaren's Oscar Piastri during a press conference, smiling, hands on his heads",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/583d0d2531f984a75cb50da89c1c94f6?impolicy=wcms_crop_resize&cropH=3292&cropW=4938&xPos=31&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-19/oscar-piastri-says-mclaren-has-clarified-team-orders/105792972"
-          },
-          "contentUri": "coremedia://article/105792972",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/oscar-piastri-says-mclaren-has-clarified-team-orders/105792972",
-          "video": null,
-          "reactKey": "national-105792972-1",
-          "synopsis": "Formula 1 drivers' championship leader Oscar Piastri says McLaren has \"had a lot of discussions\" since the controversial ending to the Italian Grand Prix two weekends ago. ",
-          "title": {
-            "children": "Piastri ready to push forward after controversy over McLaren team orders"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105793354",
           "imagePosition": {
             "mobile": "right",
@@ -945,6 +951,37 @@
           "synopsis": "Australia's key drivers of weather variability are stacking up to produce another wet, severe-weather season, with an increased risk of flooding, thunderstorms and cyclones.",
           "title": {
             "children": "Surprise La Niña hints at another wet and stormy Australian summer"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105792972",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "McLaren's Oscar Piastri during a press conference, smiling, hands on his heads",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/583d0d2531f984a75cb50da89c1c94f6?impolicy=wcms_crop_resize&cropH=3292&cropW=4938&xPos=31&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-19/oscar-piastri-says-mclaren-has-clarified-team-orders/105792972"
+          },
+          "contentUri": "coremedia://article/105792972",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-19/oscar-piastri-says-mclaren-has-clarified-team-orders/105792972",
+          "video": null,
+          "reactKey": "national-105792972-1",
+          "synopsis": "Formula 1 drivers' championship leader Oscar Piastri says McLaren has \"had a lot of discussions\" since the controversial ending to the Italian Grand Prix two weekends ago. ",
+          "title": {
+            "children": "Piastri ready to push forward after controversy over McLaren team orders"
           },
           "imageContainerClassNames": []
         }
@@ -1038,37 +1075,6 @@
           "synopsis": "A quake that struck at a depth of 10 kilometres off Russia's Kamchatka Peninsula sparks warnings of potential waves three metres above a standard tide level in parts of the Pacific.",
           "title": {
             "children": "Magnitude-7.8 Russian quake rocks homes as residents flee into streets"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105791580",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man walks at a barrier, at the Allenby Bridge Crossing between the West Bank and Jordan",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd558ccb04a4acc3d78e611c48718336?impolicy=wcms_crop_resize&cropH=2909&cropW=4364&xPos=0&yPos=16&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-18/reported-shooting-israel-jordan-border/105791580"
-          },
-          "contentUri": "coremedia://article/105791580",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-18/reported-shooting-israel-jordan-border/105791580",
-          "video": null,
-          "reactKey": "national-105791580-1",
-          "synopsis": "In a statement, the IDF said a person \"arrived in a truck transporting humanitarian aid from Jordan, and opened fire\".",
-          "title": {
-            "children": "Two dead after shooting at West Bank-Jordan border crossing "
           },
           "imageContainerClassNames": []
         }
