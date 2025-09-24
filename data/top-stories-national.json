@@ -25,7 +25,7 @@
           "uri": "coremedia://article/105813654"
         },
         {
-          "uri": "coremedia://article/105814728"
+          "uri": "coremedia://article/105814572"
         },
         {
           "uri": "coremedia://article/105814786"
@@ -64,7 +64,7 @@
           "uri": "coremedia://article/105814668"
         },
         {
-          "uri": "coremedia://article/105814572"
+          "uri": "coremedia://article/105814728"
         },
         {
           "uri": "coremedia://article/105811296"
@@ -85,7 +85,7 @@
           "uri": "coremedia://article/105814274"
         },
         {
-          "uri": "coremedia://article/105814578"
+          "uri": "coremedia://article/105814626"
         },
         {
           "uri": "coremedia://article/105813086"
@@ -100,19 +100,19 @@
           "uri": "coremedia://article/105814486"
         },
         {
-          "uri": "coremedia://article/105814626"
-        },
-        {
-          "uri": "coremedia://article/105813820"
+          "uri": "coremedia://article/105814578"
         },
         {
           "uri": "coremedia://article/105801614"
         },
         {
-          "uri": "coremedia://article/105811790"
+          "uri": "coremedia://article/105753144"
         },
         {
-          "uri": "coremedia://article/105753144"
+          "uri": "coremedia://article/105805760"
+        },
+        {
+          "uri": "coremedia://article/105813820"
         },
         {
           "uri": "coremedia://article/105814368"
@@ -257,9 +257,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105814728",
+          "id": "105814572",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -267,22 +273,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A Macquarie sign.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40ceee381e466d5a3064865110e37db6?impolicy=wcms_crop_resize&cropH=3093&cropW=4640&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Macquarie sign at top of building.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e1e611577690197caf760277349e585?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-25/macquarie-admits-to-shield-contraventions/105814728"
+            "to": "/news/2025-09-25/asx-markets-business-news-live-updates/105814572"
           },
-          "contentUri": "coremedia://article/105814728",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/macquarie-admits-to-shield-contraventions/105814728",
+          "contentUri": "coremedia://article/105814572",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/asx-markets-business-news-live-updates/105814572",
           "video": null,
-          "reactKey": "national-105814728-1",
-          "synopsis": "Macquarie Investment Management has committed to repaying thousands of Australians who invested hundreds of millions of their retirement savings in the collapsed Shield Master Fund amid admissions it contravened the Corporations Act.",
+          "reactKey": "national-105814572-1",
+          "synopsis": "Corporate regulator ASIC reaches a deal with Macquarie to fully compensate investors in the collapsed super fund Shield. Meanwhile, major share indices are easing on worries that interest rates will not fall much further. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "Breaking: Macquarie to repay Shield investors after super platform failures"
+            "children": "Macquarie to compensate Shield investors, share markets fall as rate cut bets dialled back "
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "226575",
+              "date": "2025-09-24T22:41:43.000Z",
+              "title": "ASIC prioritises compensation over penalties from Macquarie in Shield collapse"
+            },
+            {
+              "id": "226571",
+              "date": "2025-09-24T22:16:53.000Z",
+              "title": "Macquarie to repay Shield investors after super platform failures"
+            },
+            {
+              "id": "226565",
+              "date": "2025-09-24T21:54:00.000Z",
+              "title": "Why is the market now pricing in only a 50-50 chance of a November RBA rate cut?"
+            }
+          ]
         }
       },
       {
@@ -373,7 +402,7 @@
           "reactKey": "national-105814558-1",
           "synopsis": "Tasmania records a magnitude-4.1 earthquake in the state's south-west that was felt from Maydena to Hobart.",
           "title": {
-            "children": "Breaking: Magnitude-4.1 earthquake rattles Tasmania like a 'thunderclap'"
+            "children": "Magnitude-4.1 earthquake rattles Tasmania like a 'thunderclap'"
           },
           "imageContainerClassNames": []
         }
@@ -660,15 +689,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "105814572",
+          "id": "105814728",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -676,45 +699,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Macquarie sign at top of building.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e1e611577690197caf760277349e585?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A Macquarie sign.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/40ceee381e466d5a3064865110e37db6?impolicy=wcms_crop_resize&cropH=3093&cropW=4640&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-25/asx-markets-business-news-live-updates/105814572"
+            "to": "/news/2025-09-25/macquarie-admits-to-shield-contraventions/105814728"
           },
-          "contentUri": "coremedia://article/105814572",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/asx-markets-business-news-live-updates/105814572",
+          "contentUri": "coremedia://article/105814728",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/macquarie-admits-to-shield-contraventions/105814728",
           "video": null,
-          "reactKey": "national-105814572-1",
-          "synopsis": "Corporate regulator ASIC reaches a deal with Macquarie to fully compensate investors in the collapsed super fund Shield. Meanwhile, major share indices are easing on worries that interest rates will not fall much further. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "reactKey": "national-105814728-1",
+          "synopsis": "Macquarie Investment Management has committed to repaying thousands of Australians who invested hundreds of millions of their retirement savings in the collapsed Shield Master Fund amid admissions it contravened the Corporations Act.",
           "title": {
-            "children": "Macquarie to compensate Shield investors, share markets fall as rate cut bets dialled back "
+            "children": "Breaking: Macquarie to repay Shield investors after super platform failures"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "226575",
-              "date": "2025-09-24T22:41:43.000Z",
-              "title": "ASIC prioritises compensation over penalties from Macquarie in Shield collapse"
-            },
-            {
-              "id": "226571",
-              "date": "2025-09-24T22:16:53.000Z",
-              "title": "Macquarie to repay Shield investors after super platform failures"
-            },
-            {
-              "id": "226565",
-              "date": "2025-09-24T21:54:00.000Z",
-              "title": "Why is the market now pricing in only a 50-50 chance of a November RBA rate cut?"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -908,7 +908,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105814578",
+          "id": "105814626",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -916,20 +916,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A large patch of land being used for farming, shot from above.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9c378d5e6f717a7d055d2f1ab8e289a?impolicy=wcms_crop_resize&cropH=2213&cropW=3320&xPos=308&yPos=0&width=160&height=107",
+            "altText": "A woman holding a flower in bushland",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e63636934cbf811ed03784ec8dbe021?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-25/lambells-lagoon-crocodile-farm-nt-high-e-coli-levels-in-water/105806340"
+            "to": "/news/2025-09-25/families-of-missing-persons-call-for-probe-into-police/105693338"
           },
-          "contentUri": "coremedia://article/105814578",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/lambells-lagoon-crocodile-farm-nt-high-e-coli-levels-in-water/105806340",
+          "contentUri": "coremedia://article/105814626",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/families-of-missing-persons-call-for-probe-into-police/105693338",
           "video": null,
-          "reactKey": "national-105814578-1",
-          "synopsis": "One of Australia's largest crocodile farms, owned by a subsidiary of luxury label Hermès, is consistently irrigating with water containing E. coli concentrations almost 500 times the national guidelines.",
+          "reactKey": "national-105814626-1",
+          "synopsis": "Nikii Smith is one of 10,000 people who signed a petition calling for a NSW inquiry into the handling of missing persons cases.",
           "title": {
-            "children": "Major Australian croc farm irrigating with water high in E. coli"
+            "children": "Tired of police ‘excuses’: Family of missing people demand change"
           },
           "imageContainerClassNames": []
         }
@@ -1063,7 +1063,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105814626",
+          "id": "105814578",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1071,51 +1071,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman holding a flower in bushland",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e63636934cbf811ed03784ec8dbe021?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A large patch of land being used for farming, shot from above.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9c378d5e6f717a7d055d2f1ab8e289a?impolicy=wcms_crop_resize&cropH=2213&cropW=3320&xPos=308&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-09-25/families-of-missing-persons-call-for-probe-into-police/105693338"
+            "to": "/news/2025-09-25/lambells-lagoon-crocodile-farm-nt-high-e-coli-levels-in-water/105806340"
           },
-          "contentUri": "coremedia://article/105814626",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/families-of-missing-persons-call-for-probe-into-police/105693338",
+          "contentUri": "coremedia://article/105814578",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/lambells-lagoon-crocodile-farm-nt-high-e-coli-levels-in-water/105806340",
           "video": null,
-          "reactKey": "national-105814626-1",
-          "synopsis": "Nikii Smith is one of 10,000 people who signed a petition calling for a NSW inquiry into the handling of missing persons cases.",
+          "reactKey": "national-105814578-1",
+          "synopsis": "One of Australia's largest crocodile farms, owned by a subsidiary of luxury label Hermès, is consistently irrigating with water containing E. coli concentrations almost 500 times the national guidelines.",
           "title": {
-            "children": "Tired of police ‘excuses’: Family of missing people demand change"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105813820",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in glasses looks to the right of the camera with a serious expression",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4618c3a1f703f0bc84dfd15069993f81?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-25/andrew-demetriou-says-afl-a-safe-space-for-gay-players/105813820"
-          },
-          "contentUri": "coremedia://article/105813820",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/andrew-demetriou-says-afl-a-safe-space-for-gay-players/105813820",
-          "video": null,
-          "reactKey": "national-105813820-1",
-          "synopsis": "Former AFL boss Andrew Demetriou says the public would embrace a gay men's player and rejects that the AFL is an unsafe environment.",
-          "title": {
-            "children": "Former AFL boss denies league is unsafe for gay men's players"
+            "children": "Major Australian croc farm irrigating with water high in E. coli"
           },
           "imageContainerClassNames": []
         }
@@ -1156,37 +1125,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105811790",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A fire ant nest ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/744c71f5aa0b585302ce69de2921188c?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-09-25/fire-ant-eradication-program-review-launched/105811790"
-          },
-          "contentUri": "coremedia://article/105811790",
-          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/fire-ant-eradication-program-review-launched/105811790",
-          "video": null,
-          "reactKey": "national-105811790-1",
-          "synopsis": "Authorities launch an independent review of Australia's national fire ant eradication program to evaluate the country's fight against one of the world’s most destructive pests.",
-          "title": {
-            "children": "Australia warned 'window of opportunity' to eradicate fire ants is 'closing'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105753144",
           "imagePosition": {
             "mobile": "right",
@@ -1209,6 +1147,68 @@
           "synopsis": "A Katanning school bus driver and local farmers are calling for urgent action to address a growing danger posed by wandering livestock on rural roads.",
           "title": {
             "children": "School bus driver fears the worst as untagged cattle roam roads "
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105805760",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a blue tracksuit and hat bowls on a green with flags of different countries flying in the background.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8fdbc0792956c2e6e1e89a9e8e0678d6?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=776&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-25/2025-world-bowls-champion-of-champions-barham-murray-river/105805760"
+          },
+          "contentUri": "coremedia://article/105805760",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/2025-world-bowls-champion-of-champions-barham-murray-river/105805760",
+          "video": null,
+          "reactKey": "national-105805760-1",
+          "synopsis": "It may not seem like the place to host a prestigious World Bowls competition, but a small Murray River town is doing just that.",
+          "title": {
+            "children": "World's best bowlers fight for prestigious title in small border town"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105813820",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in glasses looks to the right of the camera with a serious expression",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4618c3a1f703f0bc84dfd15069993f81?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-09-25/andrew-demetriou-says-afl-a-safe-space-for-gay-players/105813820"
+          },
+          "contentUri": "coremedia://article/105813820",
+          "canonicalURL": "https://www.abc.net.au/news/2025-09-25/andrew-demetriou-says-afl-a-safe-space-for-gay-players/105813820",
+          "video": null,
+          "reactKey": "national-105813820-1",
+          "synopsis": "Former AFL boss Andrew Demetriou says the public would embrace a gay men's player and rejects that the AFL is an unsafe environment.",
+          "title": {
+            "children": "Former AFL boss denies league is unsafe for gay men's players"
           },
           "imageContainerClassNames": []
         }
