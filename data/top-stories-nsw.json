@@ -101,7 +101,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105847752",
           "imagePosition": {
@@ -126,7 +132,14 @@
           "title": {
             "children": "Police swoop on Sydney home in dramatic scenes"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -209,15 +222,15 @@
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-10-03/daniel-billings-court-adjourned-mollie-ticehurst/105848224"
+            "to": "/news/2025-10-03/daniel-billings-court-adjourned-molly-ticehurst/105848224"
           },
           "contentUri": "coremedia://article/105848224",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-03/daniel-billings-court-adjourned-mollie-ticehurst/105848224",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-03/daniel-billings-court-adjourned-molly-ticehurst/105848224",
           "video": null,
           "reactKey": "nsw-105848224-1",
           "synopsis": "Daniel Billings's defence lawyer tells the court negotiations are in a \"fragile place\", as the case over the alleged murder of the 28-year-old mother is adjourned. ",
           "title": {
-            "children": "Negotiations 'fragile' in Mollie Ticehurst murder case, court hears"
+            "children": "Negotiations 'fragile' in Molly Ticehurst murder case, court hears"
           },
           "imageContainerClassNames": []
         }
