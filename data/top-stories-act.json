@@ -524,7 +524,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "105895350",
           "imagePosition": {
@@ -549,7 +555,14 @@
           "title": {
             "children": "Remains of missing woman found three years to the day after disappearance"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
