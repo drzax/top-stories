@@ -16,13 +16,16 @@
           "uri": "coremedia://article/105908938"
         },
         {
-          "uri": "coremedia://article/105885362"
+          "uri": "coremedia://article/105908854"
         },
         {
           "uri": "coremedia://article/105906370"
         },
         {
           "uri": "coremedia://article/105908688"
+        },
+        {
+          "uri": "coremedia://article/105885362"
         },
         {
           "uri": "coremedia://article/105908804"
@@ -34,19 +37,16 @@
           "uri": "coremedia://article/105898336"
         },
         {
-          "uri": "coremedia://article/105899494"
+          "uri": "coremedia://article/105908694"
         },
         {
-          "uri": "coremedia://article/105908694"
+          "uri": "coremedia://article/105899494"
         },
         {
           "uri": "coremedia://article/105902706"
         },
         {
           "uri": "coremedia://article/105902488"
-        },
-        {
-          "uri": "coremedia://article/105904754"
         },
         {
           "uri": "coremedia://article/105903264"
@@ -104,9 +104,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "105885362",
+          "id": "105908854",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -114,22 +120,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Building materials on front lawn of home",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ffab7fec91120479367b5935230e0db?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "altText": "A group of March for Australia protesters carrying Australian flags ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca9d129bb907acb9119e7d164065f131?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=208&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-10-19/qld-flood-mapping-local-council-development-ban-petition/105885362"
+            "to": "/news/2025-10-19/march-for-australia-anti-immigration-counter-protest/105908854"
           },
-          "contentUri": "coremedia://article/105885362",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-19/qld-flood-mapping-local-council-development-ban-petition/105885362",
+          "contentUri": "coremedia://article/105908854",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-19/march-for-australia-anti-immigration-counter-protest/105908854",
           "video": null,
-          "reactKey": "qld-105885362-1",
-          "synopsis": "Ben Parkinson is proud of the five acres he calls home in south-east Queensland, but what is missing is the ability to develop his land.",
+          "reactKey": "qld-105908854-1",
+          "synopsis": "Demonstrators are gathering in cities across the country today, with March for Australia rallies sparking counter-protests. Follow live. ",
           "title": {
-            "children": "Flood mapping is different between Queensland local councils, here's why"
+            "children": "Anti-immigration rallies and counter protests held across the country with lower numbers"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "233029",
+              "date": "2025-10-19T02:54:21.000Z",
+              "title": "Former Adelaide March For Australia organiser switches side to Rally Against Racism"
+            },
+            {
+              "id": "233025",
+              "date": "2025-10-19T02:39:35.000Z",
+              "title": "WATCH: Riot police move in on Melbourne protest"
+            },
+            {
+              "id": "233021",
+              "date": "2025-10-19T02:18:30.000Z",
+              "title": "Protesters clash at Canberra's Commonwealth Bridge"
+            }
+          ]
         }
       },
       {
@@ -190,6 +219,37 @@
           "synopsis": "The looming by-election in Hinchinbrook will not have a significant impact on the makeup of Queensland parliament, but it will give insight into the state of play of politics a year after the LNP swept to power.",
           "title": {
             "children": "By-election battle brewing in north Queensland"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105885362",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Building materials on front lawn of home",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ffab7fec91120479367b5935230e0db?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-10-19/qld-flood-mapping-local-council-development-ban-petition/105885362"
+          },
+          "contentUri": "coremedia://article/105885362",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-19/qld-flood-mapping-local-council-development-ban-petition/105885362",
+          "video": null,
+          "reactKey": "qld-105885362-1",
+          "synopsis": "Ben Parkinson is proud of the five acres he calls home in south-east Queensland, but what is missing is the ability to develop his land.",
+          "title": {
+            "children": "Flood mapping is different between Queensland local councils, here's why"
           },
           "imageContainerClassNames": []
         }
@@ -292,37 +352,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105899494",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Close up of two hands, palms facing upward, under a tap with running water in a sink.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3879b3b3d090245d42b7e35f86c6d7fa?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-10-18/murweh-mayor-charleville-hospital-negative-water-testing-amoeba/105899494"
-          },
-          "contentUri": "coremedia://article/105899494",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-18/murweh-mayor-charleville-hospital-negative-water-testing-amoeba/105899494",
-          "video": null,
-          "reactKey": "qld-105899494-1",
-          "synopsis": "South-west Queensland residents are questioning the detection of a dangerous amoeba at Queensland Health sites after all follow-up tests were negative.",
-          "title": {
-            "children": "Outback mayor calls for new hospital after brain-eating amoeba false alarm"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105908694",
           "imagePosition": {
             "mobile": "right",
@@ -345,6 +374,37 @@
           "synopsis": "Powerchair footballers spin 180 degrees and kick the ball up to 50 kph. They want the \"heart-pumping\" sport included in the 2032 Brisbane Paralympics after it missed out on Paris. ",
           "title": {
             "children": "Powerchair footballers bid for sport's inclusion in Brisbane Paralympics"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105899494",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Close up of two hands, palms facing upward, under a tap with running water in a sink.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3879b3b3d090245d42b7e35f86c6d7fa?impolicy=wcms_crop_resize&cropH=2624&cropW=3936&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-10-18/murweh-mayor-charleville-hospital-negative-water-testing-amoeba/105899494"
+          },
+          "contentUri": "coremedia://article/105899494",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-18/murweh-mayor-charleville-hospital-negative-water-testing-amoeba/105899494",
+          "video": null,
+          "reactKey": "qld-105899494-1",
+          "synopsis": "South-west Queensland residents are questioning the detection of a dangerous amoeba at Queensland Health sites after all follow-up tests were negative.",
+          "title": {
+            "children": "Outback mayor calls for new hospital after brain-eating amoeba false alarm"
           },
           "imageContainerClassNames": []
         }
@@ -407,37 +467,6 @@
           "synopsis": "The government says construction could begin from March 2027 and has suggested the site could feature over 4,000 homes, as well as \"event lawns\" and promenades.",
           "title": {
             "children": "Brisbane riverside site to be transformed with potential for thousands of homes"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "105904754",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Woman with dark brown hair and white shirt smiles",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1615bdbc884bdb3df416e14e75accdbd?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=85&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-10-17/jason-thomas-king-murder-trial-landlord-continues/105904754"
-          },
-          "contentUri": "coremedia://article/105904754",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-17/jason-thomas-king-murder-trial-landlord-continues/105904754",
-          "video": null,
-          "reactKey": "qld-105904754-1",
-          "synopsis": "Jason Thomas King has pleaded not guilty to the murder of his landlord Susan Walker on the Gold Coast in 2022.",
-          "title": {
-            "children": "Man on trial for landlord's murder was 'drunk' when he found her, court hears"
           },
           "imageContainerClassNames": []
         }
