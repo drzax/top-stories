@@ -13,16 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105913636"
+          "uri": "coremedia://article/105914366"
+        },
+        {
+          "uri": "coremedia://article/105895360"
         },
         {
           "uri": "coremedia://article/105913308"
         },
         {
-          "uri": "coremedia://article/105912134"
+          "uri": "coremedia://article/105914140"
         },
         {
-          "uri": "coremedia://article/105914140"
+          "uri": "coremedia://article/105912134"
         },
         {
           "uri": "coremedia://article/105911378"
@@ -32,9 +35,6 @@
         },
         {
           "uri": "coremedia://article/105792444"
-        },
-        {
-          "uri": "coremedia://article/105909072"
         },
         {
           "uri": "coremedia://article/105910710"
@@ -117,11 +117,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105913636",
+          "id": "105914366",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A man in a suit walking down stairs.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8bc5b8f2da28158298eea4f1a4edc1e5?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-10-21/donald-trump-and-anthony-albanese-at-white-house-live-coverage/105912260"
+          },
+          "contentUri": "coremedia://article/105914366",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-21/donald-trump-and-anthony-albanese-at-white-house-live-coverage/105912260",
+          "video": null,
+          "reactKey": "national-105914366-1",
+          "synopsis": "It will be the first official in-person meeting between the leaders of Australia and the United States since their election wins. Follow live. ",
+          "title": {
+            "children": "Anthony Albanese to meet Donald Trump at the White House"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105895360",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -130,23 +169,21 @@
           "isMajor": false,
           "image": {
             "altText": "A composite image of three men.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8132487b6ff56aa773049bc75ac29284?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8132487b6ff56aa773049bc75ac29284?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-10-20/military-advocates-scamming-vulnerable-veterans/105895360"
           },
-          "contentUri": "coremedia://article/105913636",
+          "contentUri": "coremedia://article/105895360",
           "canonicalURL": "https://www.abc.net.au/news/2025-10-20/military-advocates-scamming-vulnerable-veterans/105895360",
           "video": null,
-          "reactKey": "national-105913636-1",
+          "reactKey": "national-105895360-1",
           "synopsis": "A convicted \"fraudster\" has been able to represent vulnerable veterans, scamming them in the process.",
           "title": {
             "children": "'Fraudster, con-man, liar': Convicted scammer ripping off vulnerable veterans"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -185,37 +222,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105912134",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Emerald and diamond necklace at the centre surrounded by other jewels.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d083b56e4c6ffbcbbe5f88e976cbc9a8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-10-20/what-will-happen-to-stolen-louvre-jewellery/105912134"
-          },
-          "contentUri": "coremedia://article/105912134",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-20/what-will-happen-to-stolen-louvre-jewellery/105912134",
-          "video": null,
-          "reactKey": "national-105912134-1",
-          "synopsis": "Knowing exactly what they were after, four thieves entered the Louvre Museum and successfully stole precious jewellery. Here's what experts say comes next for the historical items.",
-          "title": {
-            "children": "Stolen Louvre jewellery unlikely to 'ever be seen again'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "105914140",
           "imagePosition": {
             "mobile": "right",
@@ -238,6 +244,37 @@
           "synopsis": "Amazon's cloud unit AWS has experienced a major global services outage that also disrupted hundreds of other platforms, including Robinhood, Snapchat, Roblox and Perplexity.",
           "title": {
             "children": "Amazon cloud unit outage impacts hundreds of platforms"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105912134",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Emerald and diamond necklace at the centre surrounded by other jewels.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d083b56e4c6ffbcbbe5f88e976cbc9a8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-10-20/what-will-happen-to-stolen-louvre-jewellery/105912134"
+          },
+          "contentUri": "coremedia://article/105912134",
+          "canonicalURL": "https://www.abc.net.au/news/2025-10-20/what-will-happen-to-stolen-louvre-jewellery/105912134",
+          "video": null,
+          "reactKey": "national-105912134-1",
+          "synopsis": "Knowing exactly what they were after, four thieves entered the Louvre Museum and successfully stole precious jewellery. Here's what experts say comes next for the historical items.",
+          "title": {
+            "children": "Stolen Louvre jewellery unlikely to 'ever be seen again'"
           },
           "imageContainerClassNames": []
         }
@@ -331,43 +368,6 @@
           "synopsis": "When Matthew Mapley questioned why the bank had paid his builder for unfinished works, it said it had his written authority — except he hadn't signed it.",
           "title": {
             "children": "'I have massive concerns': Home owner told bank he didn't sign payment form"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/e9097080dfb1bcd31d4e3f0e4837fa8e?impolicy=wcms_crop_resize&cropH=424&cropW=425&xPos=107&yPos=0&width=160&height=160",
-              "authorName": "Jane Norman"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105909072",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anthony Albanese takes a selfie with a smiling Donald Trump",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cd5232e088ec6df609efda27359fb75?impolicy=wcms_crop_resize&cropH=434&cropW=651&xPos=0&yPos=4&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-10-20/albanese-trump-meeting-timing-critical-minerals/105909072"
-          },
-          "contentUri": "coremedia://article/105909072",
-          "canonicalURL": "https://www.abc.net.au/news/2025-10-20/albanese-trump-meeting-timing-critical-minerals/105909072",
-          "video": null,
-          "reactKey": "national-105909072-1",
-          "synopsis": "Prime Minister Anthony Albanese is about to set foot inside the gilded cage of the Oval Office — and the timing could hardly be better. ",
-          "title": {
-            "children": "Delays to the meeting with Trump may play right into Albanese's hands"
           },
           "imageContainerClassNames": []
         }
