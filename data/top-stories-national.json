@@ -13,13 +13,13 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/105963724"
+          "uri": "coremedia://article/105965452"
+        },
+        {
+          "uri": "coremedia://article/105951072"
         },
         {
           "uri": "coremedia://article/105962434"
-        },
-        {
-          "uri": "coremedia://article/105958106"
         },
         {
           "uri": "coremedia://article/105964856"
@@ -73,6 +73,9 @@
           "uri": "coremedia://article/105964576"
         },
         {
+          "uri": "coremedia://article/105965586"
+        },
+        {
           "uri": "coremedia://article/105963086"
         },
         {
@@ -120,11 +123,50 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "105963724",
+          "id": "105965452",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "sarah henderson optus presser",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae7fdad6e3c61ba2ac02feec42d38a1a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-03/federal-politics-live-blog-nov-3/105958106"
+          },
+          "contentUri": "coremedia://article/105965452",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-03/federal-politics-live-blog-nov-3/105958106",
+          "video": null,
+          "reactKey": "national-105965452-1",
+          "synopsis": "Optus boss Stephen Rue acknowledges staff failed to appropriately escalate information to senior management after they learnt two people had died during a triple-0 outage.  Follow live.",
+          "title": {
+            "children": "Liberal senator slams Optus CEO for 'sitting on hands' for hours before reporting deaths"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105951072",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -133,23 +175,21 @@
           "isMajor": false,
           "image": {
             "altText": "A line of military trucks mounted with missiles passes a grand building in Tiananmen Square.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ec7951f9b5862e9ca288dc2cc854f50e?impolicy=wcms_crop_resize&cropH=2893&cropW=4339&xPos=0&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ec7951f9b5862e9ca288dc2cc854f50e?impolicy=wcms_crop_resize&cropH=2420&cropW=3630&xPos=700&yPos=473&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-11-03/china-critical-mineral-nuclear-program-australia-supplying/105951072"
           },
-          "contentUri": "coremedia://article/105963724",
+          "contentUri": "coremedia://article/105951072",
           "canonicalURL": "https://www.abc.net.au/news/2025-11-03/china-critical-mineral-nuclear-program-australia-supplying/105951072",
           "video": null,
-          "reactKey": "national-105963724-1",
+          "reactKey": "national-105951072-1",
           "synopsis": "Australia is supplying raw materials vital for China's military build-up, while at the same time signing up to be a partner of choice for the United States as it seeks to break Beijing's critical minerals stranglehold. ",
           "title": {
-            "children": "China lacks one mineral for its military build-up. Australia is chipping in"
+            "children": "China lacks one mineral for its military build-up. Australia's chipping in"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -192,66 +232,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "105958106",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Stephen Rue",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8c1fab3593deef8db33f044d2d5908e0?impolicy=wcms_crop_resize&cropH=2359&cropW=3539&xPos=327&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-03/federal-politics-live-blog-nov-3/105958106"
-          },
-          "contentUri": "coremedia://article/105958106",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-03/federal-politics-live-blog-nov-3/105958106",
-          "video": null,
-          "reactKey": "national-105958106-1",
-          "synopsis": "Optus boss Stephen Rue acknowledges staff failed to appropriately escalate information to senior management after they learnt two people had died during a triple-0 outage.  Follow live.",
-          "title": {
-            "children": "Optus staff took hours to escalate discovery of deaths in triple-0 failure"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "237094",
-              "date": "2025-11-02T23:31:17.000Z",
-              "title": "Staff didn't immediately escalate discovery of deaths to senior management"
-            },
-            {
-              "id": "237083",
-              "date": "2025-11-02T21:59:05.000Z",
-              "title": "Rue rejects that Optus misled minister in initial notification"
-            },
-            {
-              "id": "237078",
-              "date": "2025-11-02T21:36:05.000Z",
-              "title": "Rue waited hours to inform minister of deaths"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "105964856",
@@ -273,9 +253,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-11-03/leeuwin-damage-atsb-report-released-fremantle-port/105964856",
           "video": null,
           "reactKey": "national-105964856-1",
-          "synopsis": "An ATSB report finds the crew of a container ship which crashed into the sailing ship Leeuwin II last year failed to communicate effectively, contributing to the collision.",
+          "synopsis": "A lack of effective communication contributed to a collision between the sail training ship Leeuwin II and a container ship in Fremantle Harbour last year that injured two crew members, a new report has found.",
           "title": {
-            "children": "Breaking: Communication breakdown led to iconic ship's damage in Fremantle harbour"
+            "children": "Communication breakdown led to iconic ship's damage in Fremantle harbour"
           },
           "imageContainerClassNames": []
         }
@@ -577,6 +557,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "237124",
+              "date": "2025-11-03T02:40:52.000Z",
+              "title": "Blue chips make gains"
+            },
+            {
               "id": "237118",
               "date": "2025-11-03T01:59:20.000Z",
               "title": "ASX shares lift on ex-RBA governor appointment"
@@ -585,11 +570,6 @@
               "id": "237115",
               "date": "2025-11-03T01:29:25.000Z",
               "title": "Oil rises after OPEC+ pauses production hikes next year"
-            },
-            {
-              "id": "237113",
-              "date": "2025-11-03T01:21:42.000Z",
-              "title": "Household spending lifts in September"
             }
           ]
         }
@@ -807,6 +787,37 @@
           "synopsis": "As incarceration rates continue to soar in the Northern Territory, experts say mental health reform in the justice system is crucial for improving community safety in the long term.",
           "title": {
             "children": "Doctors warn mental health reforms needed to keep children out of prison"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "105965586",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "In a warehouse space, red lights, shaped like inverted crosses, hang from the ceiling, above candlelit tables, where people eat.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c83556cc280a3ca4cf3a5ee5f4ecceba?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-03/dark-mofo-announces-2026-dates-interstate-visitor-numbers-drop/105964376"
+          },
+          "contentUri": "coremedia://article/105965586",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-03/dark-mofo-announces-2026-dates-interstate-visitor-numbers-drop/105964376",
+          "video": null,
+          "reactKey": "national-105965586-1",
+          "synopsis": "Tasmania's provocative midwinter festival Dark Mofo will return in 2026, as this year's festival reports fewer interstate visitors as \"budgets are tightening\" across the country.",
+          "title": {
+            "children": "Interstate visitors down but local attendance up at this year's Dark Mofo"
           },
           "imageContainerClassNames": []
         }
