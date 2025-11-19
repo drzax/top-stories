@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106030404"
+          "uri": "coremedia://article/106031420"
+        },
+        {
+          "uri": "coremedia://article/106031090"
         },
         {
           "uri": "coremedia://article/106017148"
@@ -22,22 +25,19 @@
           "uri": "coremedia://article/105978234"
         },
         {
-          "uri": "coremedia://article/106029496"
-        },
-        {
           "uri": "coremedia://article/105966548"
         },
         {
           "uri": "coremedia://article/106031324"
         },
         {
+          "uri": "coremedia://article/106028014"
+        },
+        {
           "uri": "coremedia://article/106004284"
         },
         {
           "uri": "coremedia://article/106029782"
-        },
-        {
-          "uri": "coremedia://article/106026312"
         },
         {
           "uri": "coremedia://article/106029248"
@@ -58,7 +58,7 @@
           "uri": "coremedia://article/106030712"
         },
         {
-          "uri": "coremedia://article/106030324"
+          "uri": "coremedia://article/106031380"
         },
         {
           "uri": "coremedia://article/106031088"
@@ -123,11 +123,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106030404",
+          "id": "106031420",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -135,24 +141,61 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A black frAmed mobile phone featuring a Meta logo in front of blurred social media platform logos",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9bc97032e420d30dae005d4e3a703363?impolicy=wcms_crop_resize&cropH=2686&cropW=4029&xPos=0&yPos=364&width=862&height=575",
+            "altText": "Chris Bowen speaks at a podium.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bd64a42168a1288b666b8d5c204db05?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-19/meta-to-block-teens-from-instagram-facebook-week-early/106028014"
+            "to": "/news/2025-11-20/federal-politics-live-blog-nov-20/106029496"
           },
-          "contentUri": "coremedia://article/106030404",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-19/meta-to-block-teens-from-instagram-facebook-week-early/106028014",
+          "contentUri": "coremedia://article/106031420",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-20/federal-politics-live-blog-nov-20/106029496",
           "video": null,
-          "reactKey": "national-106030404-1",
-          "synopsis": "Meta has begun giving hundreds of thousands of Australian teens a two-week warning to \"download or delete\" their data from Instagram, Facebook and Threads.",
+          "reactKey": "national-106031420-1",
+          "synopsis": "Australia has ceded the COP31 climate summit to Türkiye but Climate Change Minister Chris Bowen will be the president of the summit pending Ankara's approval. Follow live.",
           "title": {
-            "children": "'In two weeks, you won't be able to use Instagram': Teen social media ban to start early"
+            "children": "Australia drops push to host COP31, Chris Bowen to lead summit"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [
+            {
+              "labelText": "analysis",
+              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/e9097080dfb1bcd31d4e3f0e4837fa8e?impolicy=wcms_crop_resize&cropH=424&cropW=425&xPos=107&yPos=0&width=160&height=160",
+              "authorName": "Jane Norman"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "106031090",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Donald Trump looks on as he sits at a desk wearing a dark suit and blue tie.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d8dd7af17b166883f2f7ded80f5964c?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-20/g20-trump-boycott-albanese-save-furniture/106031090"
+          },
+          "contentUri": "coremedia://article/106031090",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-20/g20-trump-boycott-albanese-save-furniture/106031090",
+          "video": null,
+          "reactKey": "national-106031090-1",
+          "synopsis": "Trump's absence could neuter the forum's ability to move the dial on the summit's priorities, including helping nations adapt to weather disasters, the transition to clean energy, cutting excessive debt costs and working together in the global rush for critical minerals.",
+          "title": {
+            "children": "G20 leaders are 'saving the furniture' as Trump leads a boycott"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -215,66 +258,6 @@
             "children": "Data of up to 3.6m people exposed in cyber breaches, FOI shows"
           },
           "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "106029496",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Chris Bowen speaks at a podium.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bd64a42168a1288b666b8d5c204db05?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-20/federal-politics-live-blog-nov-20/106029496"
-          },
-          "contentUri": "coremedia://article/106029496",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-20/federal-politics-live-blog-nov-20/106029496",
-          "video": null,
-          "reactKey": "national-106029496-1",
-          "synopsis": "Australia has ceded the COP31 climate summit to Türkiye but Climate Change Minister Chris Bowen will be the president of the summit pending Ankara's approval. Follow live.",
-          "title": {
-            "children": "Australia drops push to host COP31, Chris Bowen to lead summit"
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "240288",
-              "date": "2025-11-19T23:10:33.000Z",
-              "title": "Breaking: Australia cedes COP31 to Türkiye, Bowen to become summit president"
-            },
-            {
-              "id": "240269",
-              "date": "2025-11-19T22:04:14.000Z",
-              "title": "📹 Sussan Ley says Türkiye is doing Labor a favour by hosting COP31 climate summit"
-            },
-            {
-              "id": "240265",
-              "date": "2025-11-19T21:28:48.000Z",
-              "title": "Independent senator calls for national guidelines on PFAS"
-            }
-          ]
         }
       },
       {
@@ -344,6 +327,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106028014",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A black frAmed mobile phone featuring a Meta logo in front of blurred social media platform logos",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9bc97032e420d30dae005d4e3a703363?impolicy=wcms_crop_resize&cropH=2686&cropW=4029&xPos=20&yPos=433&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-19/meta-to-block-teens-from-instagram-facebook-week-early/106028014"
+          },
+          "contentUri": "coremedia://article/106028014",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-19/meta-to-block-teens-from-instagram-facebook-week-early/106028014",
+          "video": null,
+          "reactKey": "national-106028014-1",
+          "synopsis": "Meta begins giving hundreds of thousands of Australian teens a two-week warning to \"download or delete\" their data from Instagram, Facebook and Threads.",
+          "title": {
+            "children": "'In two weeks, you won't be able to use Instagram': Teen social media ban to start early"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106004284",
           "imagePosition": {
             "mobile": "right",
@@ -397,43 +411,6 @@
           "synopsis": "The family of a 17-year-old Indigenous boy says he was racially profiled when he was pulled from a Canberra bus by police officers who handcuffed him before realising he was the wrong person.",
           "title": {
             "children": "Aboriginal teen mistakenly pulled from bus at gunpoint after 'racial profiling'"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorImageURL": "https://live-production.wcms.abc-cdn.net.au/6102b21c5ca1bebaa545043a9ebaa432?impolicy=wcms_crop_resize&cropH=1530&cropW=1530&xPos=2233&yPos=640&width=160&height=160",
-              "authorName": "David Speers"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "106026312",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Anthony Albanese wears high-vis and a hard hat.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10681551c697a3f8df8d20ee0d91f523?impolicy=wcms_crop_resize&cropH=2139&cropW=3209&xPos=0&yPos=2&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-20/tomago-smelters-science-csiro-funding-cuts/106026312"
-          },
-          "contentUri": "coremedia://article/106026312",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-20/tomago-smelters-science-csiro-funding-cuts/106026312",
-          "video": null,
-          "reactKey": "national-106026312-1",
-          "synopsis": "The prime minister, when in opposition, accused the Coalition of \"hollowing out\" the CSIRO. Now, following the announcement 350 research positions at the organisation will be cut, he is being accused of being \"worse than Abbott\".",
-          "title": {
-            "children": "Government playing down impact of CSIRO job cuts "
           },
           "imageContainerClassNames": []
         }
@@ -635,7 +612,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106030324",
+          "id": "106031380",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -643,20 +620,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman with blonde hair speaks into a microphone on stage.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef2df99c8f7672f13a8672c701afc49b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "three astronauts smile and stack their hands together",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a108c8be6d3fe359df66b0ba8db14475?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-19/aria-awards-2025-arias-amyl-sniffers-ninajirachi/106030024"
+            "to": "/news/2025-11-20/today-in-history-november-20-international-space-station/106029526"
           },
-          "contentUri": "coremedia://article/106030324",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-19/aria-awards-2025-arias-amyl-sniffers-ninajirachi/106030024",
+          "contentUri": "coremedia://article/106031380",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-20/today-in-history-november-20-international-space-station/106029526",
           "video": null,
-          "reactKey": "national-106030324-1",
-          "synopsis": "The ARIAs belonged to two relative underdogs this year. Don't know who they are? It's time to pay attention. ",
+          "reactKey": "national-106031380-1",
+          "synopsis": "It was November 20, 1998, and a rocket wasn't an unusual sight in this remote part of Kazakhstan. But today's cargo was a piece of history that would have seemed impossible just years before.",
           "title": {
-            "children": "Meet the two artists who dominated this year's ARIAs"
+            "children": "How Cold War foes became close colleagues — until toilets get in the way"
           },
           "imageContainerClassNames": []
         }
@@ -828,6 +805,11 @@
           },
           "liveBlogKeyEvents": [
             {
+              "id": "240292",
+              "date": "2025-11-19T23:25:00.000Z",
+              "title": "Banking regulator fires warning shot on 'higher risk' home lending"
+            },
+            {
               "id": "240271",
               "date": "2025-11-19T22:08:32.000Z",
               "title": "Nvidia shares up more than 5% after-hours"
@@ -836,11 +818,6 @@
               "id": "240267",
               "date": "2025-11-19T21:55:03.000Z",
               "title": "Record sales from Nvidia"
-            },
-            {
-              "id": "240259",
-              "date": "2025-11-19T21:00:00.000Z",
-              "title": "Japan and tech movement"
             }
           ]
         }
