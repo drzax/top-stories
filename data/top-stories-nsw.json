@@ -98,7 +98,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106033464",
           "imagePosition": {
@@ -121,9 +127,16 @@
           "reactKey": "nsw-106033464-1",
           "synopsis": "NSW Police will address the media this afternoon after officers pepper sprayed an 87-year-old man in a nursing home in south-west Sydney.",
           "title": {
-            "children": "Breaking: Review launched as police pepper spray 87yo man in Sydney nursing home"
+            "children": "Review launched as police pepper spray 87yo man in Sydney nursing home"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
