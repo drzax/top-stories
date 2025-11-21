@@ -13,7 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106037234"
+          "uri": "coremedia://article/106037654"
         },
         {
           "uri": "coremedia://article/106033474"
@@ -69,28 +69,38 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106037234",
+          "id": "106037654",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
             "desktop": "left"
           },
           "isMajor": false,
-          "image": null,
+          "image": {
+            "altText": "A composite of a young man, a young woman and a middle aged man.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/642cd9e6bf65b897264b64aa0fd0941b?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=33&width=862&height=575",
+            "imgRatio": "3x2"
+          },
           "link": {
             "to": "/news/2025-11-21/wieambilla-police-shooting-inquiry-findings-terror-attack/106033342"
           },
-          "contentUri": "coremedia://article/106037234",
+          "contentUri": "coremedia://article/106037654",
           "canonicalURL": "https://www.abc.net.au/news/2025-11-21/wieambilla-police-shooting-inquiry-findings-terror-attack/106033342",
           "video": null,
-          "reactKey": "qld-106037234-1",
-          "synopsis": "Almost three years on, the Queensland coroner is handing down his findings into the deadly attack.",
+          "reactKey": "qld-106037654-1",
+          "synopsis": "Almost three years on, the Queensland coroner is handing down his findings into the Wieambilla attack, which claimed the lives of two young police officers and a neighbour.",
           "title": {
-            "children": "Breaking: Trio behind deadly police shooting had 'delusional disorder', coroner finds"
+            "children": "Trio behind deadly police shooting had 'delusional disorder', coroner finds"
           },
           "imageContainerClassNames": [
             "imageHalf"
