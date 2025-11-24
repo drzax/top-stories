@@ -91,13 +91,13 @@
           "uri": "coremedia://article/106047286"
         },
         {
-          "uri": "coremedia://article/106045146"
-        },
-        {
           "uri": "coremedia://article/106045814"
         },
         {
           "uri": "coremedia://article/106045702"
+        },
+        {
+          "uri": "coremedia://article/106047722"
         },
         {
           "uri": "coremedia://article/106047118"
@@ -243,7 +243,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106047158",
           "imagePosition": {
@@ -268,7 +274,14 @@
           "title": {
             "children": "Teenage boy dies in stabbing at reserve in Sydney's north-west"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -927,37 +940,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106045146",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "The front of Victoria's Parliament House.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c869d1f9d5e0526f46db25f32972c2c?impolicy=wcms_crop_resize&cropH=1200&cropW=1794&xPos=3&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-24/victoria-auditor-general-financial-report/106045146"
-          },
-          "contentUri": "coremedia://article/106045146",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-24/victoria-auditor-general-financial-report/106045146",
-          "video": null,
-          "reactKey": "national-106045146-1",
-          "synopsis": "A report found Victoria recorded an operating loss of $2.6 billion in 2024-25, adding to accumulated losses of $50.6 billion over the last 6 years.",
-          "title": {
-            "children": "Victoria's auditor-general reports $400 million government budget blowout"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106045814",
           "imagePosition": {
             "mobile": "right",
@@ -1011,6 +993,37 @@
           "synopsis": "Perry Kouroumblis's lawyer has questioned former officers about their handling of evidence in the 1977 murder case that the prosecution said relied on DNA.",
           "title": {
             "children": "Lawyer questions handling of DNA evidence in Easey Street murder"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106047722",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Batter plays a cover drive and begins to run during a cricket match",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab34f29fcce600137e606db6bd2f5cb4?impolicy=wcms_crop_resize&cropH=1971&cropW=2956&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-24/nikhil-chaudhary-sheffield-shield-century-tasmania/106047722"
+          },
+          "contentUri": "coremedia://article/106047722",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-24/nikhil-chaudhary-sheffield-shield-century-tasmania/106047722",
+          "video": null,
+          "reactKey": "national-106047722-1",
+          "synopsis": "Nikhil Chaudhary has become the first Indian to hit a Sheffield Shield hundred this century, helping put Tasmania in a position of utter dominance against NSW.",
+          "title": {
+            "children": "Stuck in Australia during COVID, Chaudhary now has a Shield century"
           },
           "imageContainerClassNames": []
         }
