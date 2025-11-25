@@ -34,7 +34,7 @@
           "uri": "coremedia://article/106050126"
         },
         {
-          "uri": "coremedia://article/106053690"
+          "uri": "coremedia://article/106053476"
         },
         {
           "uri": "coremedia://article/106053802"
@@ -43,10 +43,10 @@
           "uri": "coremedia://article/106050620"
         },
         {
-          "uri": "coremedia://article/106038158"
+          "uri": "coremedia://article/106053690"
         },
         {
-          "uri": "coremedia://article/106023210"
+          "uri": "coremedia://article/106038158"
         },
         {
           "uri": "coremedia://article/106052136"
@@ -55,10 +55,10 @@
           "uri": "coremedia://article/106053344"
         },
         {
-          "uri": "coremedia://article/106052086"
+          "uri": "coremedia://article/106023210"
         },
         {
-          "uri": "coremedia://article/106053476"
+          "uri": "coremedia://article/106053918"
         },
         {
           "uri": "coremedia://article/106053548"
@@ -344,9 +344,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "106053690",
+          "id": "106053476",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -354,22 +360,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An Asian woman with long dark hair shrouding her face looking down.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/588304e79758f54c407618726b2048af?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "The ASX building exterior.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e79a64c368a98d65c56f6ccc8821d9?impolicy=wcms_crop_resize&cropH=1675&cropW=2513&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-26/mother-sentenced-life-in-prison-new-zealand-suitcase-murders/106053690"
+            "to": "/news/2025-11-26/asx-markets-business-live-news-november-26/106053476"
           },
-          "contentUri": "coremedia://article/106053690",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/mother-sentenced-life-in-prison-new-zealand-suitcase-murders/106053690",
+          "contentUri": "coremedia://article/106053476",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/asx-markets-business-live-news-november-26/106053476",
           "video": null,
-          "reactKey": "national-106053690-1",
-          "synopsis": "A mother who murdered her two children and stuffed them into suitcases stashed inside a storage locker is sentenced to life imprisonment in New Zealand.",
+          "reactKey": "national-106053476-1",
+          "synopsis": "The Australian share market has risen sharply ahead of the latest monthly inflation figures from the ABS. It follows an upbeat session on Wall Street as the odds of a December interest rate cut jumped above 80 per cent. Meanwhile, oil prices have fallen sharply on reports of Ukraine's intention to enter a US-brokered peace deal with Russia. Follow live.",
           "title": {
-            "children": "Mother sentenced to life in prison for New Zealand's 'suitcase murders'"
+            "children": "ASX jumps ahead of inflation data as Wall Street rises on increased bets of rate cut"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "241912",
+              "date": "2025-11-25T23:19:35.000Z",
+              "title": "ASX jumps 1 per cent in early trade"
+            },
+            {
+              "id": "241909",
+              "date": "2025-11-25T22:57:11.000Z",
+              "title": "Nvidia's share price falling on reports Google is threatening its AI dominance"
+            },
+            {
+              "id": "241905",
+              "date": "2025-11-25T22:43:30.000Z",
+              "title": "Optus investigating 'significant' outage in Frankston and the Mornington Peninsula"
+            }
+          ]
         }
       },
       {
@@ -439,6 +468,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106053690",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "An Asian woman with long dark hair shrouding her face looking down.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/588304e79758f54c407618726b2048af?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-26/mother-sentenced-life-in-prison-new-zealand-suitcase-murders/106053690"
+          },
+          "contentUri": "coremedia://article/106053690",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/mother-sentenced-life-in-prison-new-zealand-suitcase-murders/106053690",
+          "video": null,
+          "reactKey": "national-106053690-1",
+          "synopsis": "A mother who murdered her two children and stuffed them into suitcases stashed inside a storage locker is sentenced to life imprisonment in New Zealand.",
+          "title": {
+            "children": "Mother sentenced to life in prison for New Zealand's 'suitcase murders'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106038158",
           "imagePosition": {
             "mobile": "right",
@@ -461,37 +521,6 @@
           "synopsis": "Convenience stores along the popular strip are scarcely stocked with chocolate bars and chewing gum but it's the merchandise under the counter that's really paying the rent.",
           "title": {
             "children": "Fremantle's cappuccino strip is hiding an illegal trade in plain sight "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106023210",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "An illustration of four hands grabbing into a paper written 'Work and Holiday Visa'.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f6d670ed012f48e02a5dae2ecb6640e4?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-26/working-holiday-visa-whv-indonesia-letter-support-scam-sale/106023210"
-          },
-          "contentUri": "coremedia://article/106023210",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/working-holiday-visa-whv-indonesia-letter-support-scam-sale/106023210",
-          "video": null,
-          "reactKey": "national-106023210-1",
-          "synopsis": "Thousands of young Indonesians want the chance to come to Australia to work, but first they have to win a visa application \"war\" that puts them in the sights of scammers and dodgy operators promising them what they want — for a price.",
-          "title": {
-            "children": "'The names have been selected': Crooked operators rig working visas"
           },
           "imageContainerClassNames": []
         }
@@ -592,7 +621,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106052086",
+          "id": "106023210",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -600,20 +629,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Ted O'Brien with Sussan Ley",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6b08e86b42079de83099c5ddf9cf839c?impolicy=wcms_crop_resize&cropH=3859&cropW=5788&xPos=804&yPos=197&width=160&height=107",
+            "altText": "An illustration of four hands grabbing into a paper written 'Work and Holiday Visa'.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f6d670ed012f48e02a5dae2ecb6640e4?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-26/coalition-makes-tax-cut-pitch-to-young/106052086"
+            "to": "/news/2025-11-26/working-holiday-visa-whv-indonesia-letter-support-scam-sale/106023210"
           },
-          "contentUri": "coremedia://article/106052086",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/coalition-makes-tax-cut-pitch-to-young/106052086",
+          "contentUri": "coremedia://article/106023210",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/working-holiday-visa-whv-indonesia-letter-support-scam-sale/106023210",
           "video": null,
-          "reactKey": "national-106052086-1",
-          "synopsis": "Shadow Treasurer Ted O'Brien will address the National Press Club on Wednesday.",
+          "reactKey": "national-106023210-1",
+          "synopsis": "Thousands of young Indonesians want the chance to come to Australia to work, but first they have to win a visa application \"war\" that puts them in the sights of scammers and dodgy operators promising them what they want — for a price.",
           "title": {
-            "children": "Coalition makes tax cut pitch in bid to restore credibility among young"
+            "children": "'The names have been selected': Crooked operators rig working visas"
           },
           "imageContainerClassNames": []
         }
@@ -621,15 +650,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "106053476",
+          "id": "106053918",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -637,45 +660,22 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "The ASX building exterior.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4e79a64c368a98d65c56f6ccc8821d9?impolicy=wcms_crop_resize&cropH=1675&cropW=2513&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Zach Merrett walks off the MCG after a Bombers' AFL loss in the 2025 season.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56ac8bd1fa7a3dd34c0ed700de9221e8?impolicy=wcms_crop_resize&cropH=2859&cropW=4288&xPos=10&yPos=88&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-26/asx-markets-business-live-news-november-26/106053476"
+            "to": "/news/2025-11-26/afl-zach-merrett-steps-down-as-bombers-captain/106053918"
           },
-          "contentUri": "coremedia://article/106053476",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/asx-markets-business-live-news-november-26/106053476",
+          "contentUri": "coremedia://article/106053918",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/afl-zach-merrett-steps-down-as-bombers-captain/106053918",
           "video": null,
-          "reactKey": "national-106053476-1",
-          "synopsis": "The Australian share market has risen sharply ahead of the latest monthly inflation figures from the ABS. It follows an upbeat session on Wall Street as the odds of a December interest rate cut jumped above 80 per cent. Meanwhile, oil prices have fallen sharply on reports of Ukraine's intention to enter a US-brokered peace deal with Russia. Follow live.",
+          "reactKey": "national-106053918-1",
+          "synopsis": "Zach Merrett steps down as Essendon men's captain after his failed trade request to Hawthorn left his position untenable.",
           "title": {
-            "children": "ASX jumps ahead of inflation data as Wall Street rises on increased bets of rate cut"
+            "children": "Merrett gives up Bombers captaincy after failed Hawks trade"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "241912",
-              "date": "2025-11-25T23:19:35.000Z",
-              "title": "ASX jumps 1 per cent in early trade"
-            },
-            {
-              "id": "241909",
-              "date": "2025-11-25T22:57:11.000Z",
-              "title": "Nvidia's share price falling on reports Google is threatening its AI dominance"
-            },
-            {
-              "id": "241905",
-              "date": "2025-11-25T22:43:30.000Z",
-              "title": "Optus investigating 'significant' outage in Frankston and the Mornington Peninsula"
-            }
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -1144,7 +1144,7 @@
           "reactKey": "national-106053568-1",
           "synopsis": "A newly formed Queensland company has taken over a majority shareholding in a Bowen Basin coal mine, securing 1,000 jobs.",
           "title": {
-            "children": "Newly formed Queensland company secures 1,000 coal mining jobs"
+            "children": "Premier says newly formed Queensland company secures 1,000 coal mining jobs"
           },
           "imageContainerClassNames": []
         }
