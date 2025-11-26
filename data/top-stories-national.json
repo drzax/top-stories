@@ -19,13 +19,13 @@
           "uri": "coremedia://article/106057960"
         },
         {
-          "uri": "coremedia://article/106057134"
-        },
-        {
           "uri": "coremedia://article/106050534"
         },
         {
           "uri": "coremedia://article/106058158"
+        },
+        {
+          "uri": "coremedia://article/106057134"
         },
         {
           "uri": "coremedia://article/106058148"
@@ -55,7 +55,7 @@
           "uri": "coremedia://article/106038102"
         },
         {
-          "uri": "coremedia://article/106056444"
+          "uri": "coremedia://article/106058006"
         },
         {
           "uri": "coremedia://article/106058156"
@@ -64,7 +64,10 @@
           "uri": "coremedia://article/106057094"
         },
         {
-          "uri": "coremedia://article/106058006"
+          "uri": "coremedia://article/106056444"
+        },
+        {
+          "uri": "coremedia://article/106058068"
         },
         {
           "uri": "coremedia://article/106057468"
@@ -79,10 +82,10 @@
           "uri": "coremedia://article/106054530"
         },
         {
-          "uri": "coremedia://article/106056528"
+          "uri": "coremedia://article/106058044"
         },
         {
-          "uri": "coremedia://article/106058044"
+          "uri": "coremedia://article/106056528"
         },
         {
           "uri": "coremedia://article/106054488"
@@ -92,9 +95,6 @@
         },
         {
           "uri": "coremedia://article/106048738"
-        },
-        {
-          "uri": "coremedia://article/106056074"
         },
         {
           "uri": "coremedia://article/106053778"
@@ -173,40 +173,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-11-27/national-guard-members-shot-in-washington-dc/106057960",
           "video": null,
           "reactKey": "national-106057960-1",
-          "synopsis": "Two members of the West Virginia National Guard have been shot near the White House, according to that state's governor. He says there are \"conflicting reports\" about their conditions.",
+          "synopsis": "Authorities say the soldiers were ambushed by a lone gunman while on patrol in Washington DC as part of a Trump-ordered crime crackdown.",
           "title": {
             "children": "Two National Guard members shot in 'targeted' attack near White House"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106057134",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A generic photo of two teenage schoolkids sitting side by side, using their phones.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/32bd2e27ab438bf36bd1ef264972e4c6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-27/nudify-services-used-by-australian-students-blocked/106057134"
-          },
-          "contentUri": "coremedia://article/106057134",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/nudify-services-used-by-australian-students-blocked/106057134",
-          "video": null,
-          "reactKey": "national-106057134-1",
-          "synopsis": "The platforms, which can be used to make real people appear nude in photos and videos, have been used in several high-profile cases in Australian schools.",
-          "title": {
-            "children": "'Nudify' services used by Australian school students blocked"
           },
           "imageContainerClassNames": []
         }
@@ -269,6 +238,37 @@
           "synopsis": "One woman has died and a man is in a critical condition after a shark attack at Crowdy Bay on the NSW Mid North Coast.",
           "title": {
             "children": "Breaking: Woman killed in shark attack on NSW Mid North Coast"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106057134",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A generic photo of two teenage schoolkids sitting side by side, using their phones.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/32bd2e27ab438bf36bd1ef264972e4c6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-27/nudify-services-used-by-australian-students-blocked/106057134"
+          },
+          "contentUri": "coremedia://article/106057134",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/nudify-services-used-by-australian-students-blocked/106057134",
+          "video": null,
+          "reactKey": "national-106057134-1",
+          "synopsis": "The platforms, which can be used to make real people appear nude in photos and videos, have been used in several high-profile cases in Australian schools.",
+          "title": {
+            "children": "'Nudify' services used by Australian school students blocked"
           },
           "imageContainerClassNames": []
         }
@@ -567,9 +567,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "106056444",
+          "id": "106058006",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -577,22 +583,45 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A woman next to a pink wall",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7cef48aa78d9686b7ba6ad47011f10ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A man looks at a share price board outside the ASX in Sydney.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56350bb4e8c429e1b2493b4ad9f9d9c8?impolicy=wcms_crop_resize&cropH=1138&cropW=1707&xPos=0&yPos=1&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-27/tmr-orders-shutdown-of-unauthorised-street-charity/106056444"
+            "to": "/news/2025-11-27/asx-markets-business-live-news-nov27-2025/106058006"
           },
-          "contentUri": "coremedia://article/106056444",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/tmr-orders-shutdown-of-unauthorised-street-charity/106056444",
+          "contentUri": "coremedia://article/106058006",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/asx-markets-business-live-news-nov27-2025/106058006",
           "video": null,
-          "reactKey": "national-106056444-1",
-          "synopsis": "Queensland's transport department has threatened to penalise residents who set up street-side charity cupboards without filling in the requisite paperwork. ",
+          "reactKey": "national-106058006-1",
+          "synopsis": "The Australian banking regulator will impose limits on large home loans from February, while the ASX is expected to rise as Wall Street extended a recent recovery. Follow the latest updates in our live blog.",
           "title": {
-            "children": "Government threatens to shut down 'illegal' street charity"
+            "children": "ASX to keep rising on Wall St rally, APRA to impose home loan limits"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "242172",
+              "date": "2025-11-26T22:09:38.000Z",
+              "title": "Financial abuse estimated to cost the economy nearly $11 billion a year"
+            },
+            {
+              "id": "242165",
+              "date": "2025-11-26T22:01:31.000Z",
+              "title": "APRA taking pre-emptive action to head off housing boom risks, may take further action"
+            },
+            {
+              "id": "242156",
+              "date": "2025-11-26T21:49:20.000Z",
+              "title": "Bank regulator announces limits on high debt-to-income loans"
+            }
+          ]
         }
       },
       {
@@ -660,15 +689,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "106058006",
+          "id": "106056444",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -676,45 +699,53 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A man looks at a share price board outside the ASX in Sydney.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/56350bb4e8c429e1b2493b4ad9f9d9c8?impolicy=wcms_crop_resize&cropH=1138&cropW=1707&xPos=0&yPos=1&width=160&height=107",
+            "altText": "A woman next to a pink wall",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7cef48aa78d9686b7ba6ad47011f10ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-27/asx-markets-business-live-news-nov27-2025/106058006"
+            "to": "/news/2025-11-27/tmr-orders-shutdown-of-unauthorised-street-charity/106056444"
           },
-          "contentUri": "coremedia://article/106058006",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/asx-markets-business-live-news-nov27-2025/106058006",
+          "contentUri": "coremedia://article/106056444",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/tmr-orders-shutdown-of-unauthorised-street-charity/106056444",
           "video": null,
-          "reactKey": "national-106058006-1",
-          "synopsis": "The Australian banking regulator will impose limits on large home loans from February, while the ASX is expected to rise as Wall Street extended a recent recovery. Follow the latest updates in our live blog.",
+          "reactKey": "national-106056444-1",
+          "synopsis": "Queensland's transport department has threatened to penalise residents who set up street-side charity cupboards without filling in the requisite paperwork. ",
           "title": {
-            "children": "ASX to keep rising on Wall St rally, APRA to impose home loan limits"
+            "children": "Government threatens to shut down 'illegal' street charity"
           },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106058068",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
           },
-          "liveBlogKeyEvents": [
-            {
-              "id": "242172",
-              "date": "2025-11-26T22:09:38.000Z",
-              "title": "Financial abuse estimated to cost the economy nearly $11 billion a year"
-            },
-            {
-              "id": "242165",
-              "date": "2025-11-26T22:01:31.000Z",
-              "title": "APRA taking pre-emptive action to head off housing boom risks, may take further action"
-            },
-            {
-              "id": "242156",
-              "date": "2025-11-26T21:49:20.000Z",
-              "title": "Bank regulator announces limits on high debt-to-income loans"
-            }
-          ]
+          "isMajor": false,
+          "image": {
+            "altText": "Usman Khawaja pictured in Australia's Test kit",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/22c4babeea223fea80449c7cfffa57a0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-27/cricket-matt-renshaw-backs-usman-khawaja-amid-test-battle/106058068"
+          },
+          "contentUri": "coremedia://article/106058068",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-27/cricket-matt-renshaw-backs-usman-khawaja-amid-test-battle/106058068",
+          "video": null,
+          "reactKey": "national-106058068-1",
+          "synopsis": "Matt Renshaw is gunning for a spot in Australia's Test side, but does not want it to come at the expense of Australia's veteran opener Usman Khawaja just yet.",
+          "title": {
+            "children": "Contender for Khawaja's Test spot calls him one of Australia's best ever"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
@@ -846,37 +877,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106056528",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Generic image of a phone displaying a folder of social media apps",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84ebfd7cf0fb573eff57425d179c333d?impolicy=wcms_crop_resize&cropH=2010&cropW=3015&xPos=0&yPos=1413&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-26/australia-social-media-ban-faces-legal-challenge/106056528"
-          },
-          "contentUri": "coremedia://article/106056528",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/australia-social-media-ban-faces-legal-challenge/106056528",
-          "video": null,
-          "reactKey": "national-106056528-1",
-          "synopsis": "Australia's social media age ban is being challenged in the High Court on the grounds that it restricts young teens' implied right to freedom of political communication.",
-          "title": {
-            "children": "Social media ban for under-16s challenged in High Court"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106058044",
           "imagePosition": {
             "mobile": "right",
@@ -899,6 +899,37 @@
           "synopsis": "Australia is expecting to see its medal chances boosted at the 2030 Commonwealth Games in Ahmedabad as sports such as cricket and hockey remain in contention to return.",
           "title": {
             "children": "Aussie stronghold sports in line for Commonwealth Games return in India"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106056528",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Generic image of a phone displaying a folder of social media apps",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84ebfd7cf0fb573eff57425d179c333d?impolicy=wcms_crop_resize&cropH=2010&cropW=3015&xPos=0&yPos=1413&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-26/australia-social-media-ban-faces-legal-challenge/106056528"
+          },
+          "contentUri": "coremedia://article/106056528",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/australia-social-media-ban-faces-legal-challenge/106056528",
+          "video": null,
+          "reactKey": "national-106056528-1",
+          "synopsis": "Australia's social media age ban is being challenged in the High Court on the grounds that it restricts young teens' implied right to freedom of political communication.",
+          "title": {
+            "children": "Social media ban for under-16s challenged in High Court"
           },
           "imageContainerClassNames": []
         }
@@ -992,37 +1023,6 @@
           "synopsis": "An Adelaide woman is suing a southern suburbs hospital for $1.5 million in damages alleging she suffered a \"permanent neurological injury\" when doctors failed to diagnose her with a stroke, court documents reveal.",
           "title": {
             "children": "SA woman suffered permanent brain injury after hospital failed to diagnose stroke, court hears"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106056074",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a blue suit, purple tie and white shirt stands speaking behind a lectern decorated with flowers",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6466d127b033c46d6efa4df1bc01dc2f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=189&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-26/taiwanese-president-announces-billion-dollar-defence-budget/106056074"
-          },
-          "contentUri": "coremedia://article/106056074",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-26/taiwanese-president-announces-billion-dollar-defence-budget/106056074",
-          "video": null,
-          "reactKey": "national-106056074-1",
-          "synopsis": "Taiwanese President Lai Ching-te says the budget was introduced for the country to defend itself in the face of a rising threat from China.",
-          "title": {
-            "children": "Taiwan announces $61 billion defence budget to defend itself against China"
           },
           "imageContainerClassNames": []
         }
