@@ -19,10 +19,10 @@
           "uri": "coremedia://article/106079074"
         },
         {
-          "uri": "coremedia://article/106076408"
+          "uri": "coremedia://article/106079562"
         },
         {
-          "uri": "coremedia://article/106078118"
+          "uri": "coremedia://article/106076408"
         },
         {
           "uri": "coremedia://article/106074360"
@@ -34,7 +34,7 @@
           "uri": "coremedia://article/106076576"
         },
         {
-          "uri": "coremedia://article/106037756"
+          "uri": "coremedia://article/106078118"
         },
         {
           "uri": "coremedia://article/106075564"
@@ -46,7 +46,10 @@
           "uri": "coremedia://article/106077040"
         },
         {
-          "uri": "coremedia://article/106077076"
+          "uri": "coremedia://article/106079720"
+        },
+        {
+          "uri": "coremedia://article/106078870"
         },
         {
           "uri": "coremedia://article/106076572"
@@ -58,10 +61,13 @@
           "uri": "coremedia://article/106078336"
         },
         {
+          "uri": "coremedia://article/106079498"
+        },
+        {
           "uri": "coremedia://article/106077692"
         },
         {
-          "uri": "coremedia://article/106079498"
+          "uri": "coremedia://article/106077076"
         },
         {
           "uri": "coremedia://article/106076150"
@@ -71,9 +77,6 @@
         },
         {
           "uri": "coremedia://article/106078776"
-        },
-        {
-          "uri": "coremedia://article/106020794"
         },
         {
           "uri": "coremedia://article/106076626"
@@ -155,7 +158,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106079074",
           "imagePosition": {
@@ -178,7 +187,45 @@
           "reactKey": "national-106079074-1",
           "synopsis": "An Adelaide shopping centre is in lockdown and people are being evacuated following a \"violent disturbance\".",
           "title": {
-            "children": "Breaking: Lockdown and injuries at Adelaide shopping centre following reported fight"
+            "children": "Lockdown and injuries at Adelaide shopping centre following reported fight"
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106079562",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Donald Trump speaking into a microphone.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7d382331c127d90ba3f85e6a0ca0e6fb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-28/donald-trump-migration-pause-from-third-world-countries-to-us/106079562"
+          },
+          "contentUri": "coremedia://article/106079562",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/donald-trump-migration-pause-from-third-world-countries-to-us/106079562",
+          "video": null,
+          "reactKey": "national-106079562-1",
+          "synopsis": "US President Donald Trump says his administration will work to permanently pause migration from all \"Third World Countries\" to allow the American system to fully recover.",
+          "title": {
+            "children": "Breaking: Trump says US is working to pause all migration from 'Third World countries'"
           },
           "imageContainerClassNames": []
         }
@@ -210,37 +257,6 @@
           "synopsis": "Australia will go into the second Ashes Test against England in Brisbane next week with an unchanged line-up, meaning there is no place for captain Pat Cummins.",
           "title": {
             "children": "No Cummins as Australia picks unchanged squad for second Ashes Test"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106078118",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Police officers next to a police car",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cd9cbf332ee2328f2f95efa231d4a41f?impolicy=wcms_crop_resize&cropH=1715&cropW=2573&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-28/nsw-shooting-blacktown-western-sydney-police-operation/106078118"
-          },
-          "contentUri": "coremedia://article/106078118",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/nsw-shooting-blacktown-western-sydney-police-operation/106078118",
-          "video": null,
-          "reactKey": "national-106078118-1",
-          "synopsis": "A man aged in his 20s has died after being shot multiple times near a police station in Western Sydney.",
-          "title": {
-            "children": "Man shot dead in Sydney street, two arrested after police pursuit"
           },
           "imageContainerClassNames": []
         }
@@ -314,7 +330,7 @@
           "reactKey": "national-106079460-1",
           "synopsis": "Exchange operator CME Group said trading in derivative markets was halted due to a cooling issue at data centres. The tech issue is affecting Wall Street futures trading.",
           "title": {
-            "children": "US futures markets halted"
+            "children": "Global financial markets flying blind as US futures market halted due to 'technical issue'"
           },
           "imageContainerClassNames": []
         }
@@ -355,7 +371,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106037756",
+          "id": "106078118",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -363,20 +379,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A graphic of Nicolas Maduro and Donald Trump in grey, facing each other in front of a Venezuela outline in the country's colours",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7139a7a4aeeea83a0256e49a0931a8b6?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Police officers next to a police car",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cd9cbf332ee2328f2f95efa231d4a41f?impolicy=wcms_crop_resize&cropH=1715&cropW=2573&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-28/us-venezuela-tension-flashpoints-and-history-explained/106037756"
+            "to": "/news/2025-11-28/nsw-shooting-blacktown-western-sydney-police-operation/106078118"
           },
-          "contentUri": "coremedia://article/106037756",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/us-venezuela-tension-flashpoints-and-history-explained/106037756",
+          "contentUri": "coremedia://article/106078118",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/nsw-shooting-blacktown-western-sydney-police-operation/106078118",
           "video": null,
-          "reactKey": "national-106037756-1",
-          "synopsis": "Tensions between Donald Trump and Venezuelan President Nicolás Maduro Moros have been escalating after months of launching lethal air strikes on vessels accused of shipping deadly drugs north to the US.",
+          "reactKey": "national-106078118-1",
+          "synopsis": "A man aged in his 20s has died after being shot multiple times near a police station in Western Sydney.",
           "title": {
-            "children": "Trump could soon attack this nation. These flashpoints explain why"
+            "children": "Man shot dead in Sydney street, two arrested after police pursuit"
           },
           "imageContainerClassNames": []
         }
@@ -479,7 +495,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106077076",
+          "id": "106079720",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -487,20 +503,51 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A split-screen image of a man and a woman, both wearing National Guard uniforms.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb768a801d65005ffe5162c2563d6e9b?impolicy=wcms_crop_resize&cropH=319&cropW=479&xPos=481&yPos=81&width=160&height=107",
+            "altText": "A graphic of Nicolas Maduro and Donald Trump in grey, facing each other in front of a Venezuela outline in the country's colours",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7139a7a4aeeea83a0256e49a0931a8b6?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-28/national-guard-member-shot-washington-dc-dies/106077076"
+            "to": "/news/2025-11-28/us-venezuela-tension-flashpoints-and-history-explained/106037756"
           },
-          "contentUri": "coremedia://article/106077076",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/national-guard-member-shot-washington-dc-dies/106077076",
+          "contentUri": "coremedia://article/106079720",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/us-venezuela-tension-flashpoints-and-history-explained/106037756",
           "video": null,
-          "reactKey": "national-106077076-1",
-          "synopsis": "Sarah Beckstrom, 20, has died in hospital after an ambush shooting near the White House on Wednesday. A male soldier who was also shot, Andrew Wolfe, is fighting for his life, the president says.",
+          "reactKey": "national-106079720-1",
+          "synopsis": "Tensions between Donald Trump and Venezuelan President Nicolás Maduro Moros have been escalating after months of launching lethal air strikes on vessels accused of shipping deadly drugs north to the US.",
           "title": {
-            "children": "Donald Trump says National Guard soldier shot in Washington DC has died"
+            "children": "Trump could soon attack this nation. These flashpoints explain why"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106078870",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a beach from overhead with vegetation and a short stretch of sand",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/83fda71e267f20de8f25dcf2c8a91ed1?impolicy=wcms_crop_resize&cropH=675&cropW=1013&xPos=94&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-28/toyah-cordingly-rajwinder-singh-murder-trial-cairns-dna-testing/106078870"
+          },
+          "contentUri": "coremedia://article/106078870",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/toyah-cordingly-rajwinder-singh-murder-trial-cairns-dna-testing/106078870",
+          "video": null,
+          "reactKey": "national-106078870-1",
+          "synopsis": "The former nurse accused of the 2018 murder of Toyah Cordingley was 3.7 billion times more likely than not to have contributed to a DNA sample found on a stick where she was buried, his trial has heard.",
+          "title": {
+            "children": "DNA samples found near Toyah Cordingley burial site scrutinised"
           },
           "imageContainerClassNames": []
         }
@@ -603,6 +650,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106079498",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A crystal egg is open to reveal a tiny basket of jeweled white flowers inside.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77d27710e4523985e7c198552d929718?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-11-28/crystal-faberg%C3%A9-egg-expected-to-sell-for-more-than-40-million/106078696"
+          },
+          "contentUri": "coremedia://article/106079498",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/crystal-faberg%C3%A9-egg-expected-to-sell-for-more-than-40-million/106078696",
+          "video": null,
+          "reactKey": "national-106079498-1",
+          "synopsis": "A rare crystal and diamond Fabergé egg is heading to auction with a price estimate of more than $40 million.",
+          "title": {
+            "children": "'Mona Lisa for decorative arts': Rare Fabergé egg set for $40m sale"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106077692",
           "imagePosition": {
             "mobile": "right",
@@ -634,7 +712,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106079498",
+          "id": "106077076",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -642,20 +720,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A crystal egg is open to reveal a tiny basket of jeweled white flowers inside.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77d27710e4523985e7c198552d929718?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "altText": "A split-screen image of a man and a woman, both wearing National Guard uniforms.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb768a801d65005ffe5162c2563d6e9b?impolicy=wcms_crop_resize&cropH=319&cropW=479&xPos=481&yPos=81&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-11-28/crystal-faberg%C3%A9-egg-expected-to-sell-for-more-than-40-million/106078696"
+            "to": "/news/2025-11-28/national-guard-member-shot-washington-dc-dies/106077076"
           },
-          "contentUri": "coremedia://article/106079498",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/crystal-faberg%C3%A9-egg-expected-to-sell-for-more-than-40-million/106078696",
+          "contentUri": "coremedia://article/106077076",
+          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/national-guard-member-shot-washington-dc-dies/106077076",
           "video": null,
-          "reactKey": "national-106079498-1",
-          "synopsis": "A rare crystal and diamond Fabergé egg is heading to auction with a price estimate of more than $40 million.",
+          "reactKey": "national-106077076-1",
+          "synopsis": "Sarah Beckstrom, 20, has died in hospital after an ambush shooting near the White House on Wednesday. A male soldier who was also shot, Andrew Wolfe, is fighting for his life, the president says.",
           "title": {
-            "children": "'Mona Lisa for decorative arts': Rare Fabergé egg set for $40m sale"
+            "children": "Donald Trump says National Guard soldier shot in Washington DC has died"
           },
           "imageContainerClassNames": []
         }
@@ -749,37 +827,6 @@
           "synopsis": "A strife-torn Aboriginal corporation crucial to heritage approvals across Perth wins a contract to oversee cultural services on Rottnest Island, Wadjemup, one of Western Australia's premier tourism destinations.",
           "title": {
             "children": "Embattled Aboriginal corporation to oversee cultural services at Rottnest Island"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106020794",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A shopper carrying a bag walks past a shop in Perth's city centre",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c9db0b188e5888b8bfa8891b8073125?impolicy=wcms_crop_resize&cropH=3264&cropW=4896&xPos=32&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-11-28/how-to-stay-vigilant-for-black-friday-cyber-monday-scams/106020794"
-          },
-          "contentUri": "coremedia://article/106020794",
-          "canonicalURL": "https://www.abc.net.au/news/2025-11-28/how-to-stay-vigilant-for-black-friday-cyber-monday-scams/106020794",
-          "video": null,
-          "reactKey": "national-106020794-1",
-          "synopsis": "As scammers look to exploit sales during Black Friday and Cyber Monday, we explain what you need to know to avoid being duped.",
-          "title": {
-            "children": "How to spot a scam during Black Friday and Cyber Monday"
           },
           "imageContainerClassNames": []
         }
@@ -903,7 +950,7 @@
           "reactKey": "national-106077516-1",
           "synopsis": "Tasmania's education department and a bus company have both appeared in court after a child with a disability was allegedly left unattended on a bus with access to a bottle of engine coolant in a plastic water bottle.",
           "title": {
-            "children": "Education department and bus company charged over child's access to engine coolant"
+            "children": "Child’s attempt to drink engine coolant on school bus leads to legal action"
           },
           "imageContainerClassNames": []
         }
