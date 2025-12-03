@@ -31,7 +31,7 @@
           "uri": "coremedia://article/106099554"
         },
         {
-          "uri": "coremedia://article/106098392"
+          "uri": "coremedia://article/106099782"
         },
         {
           "uri": "coremedia://article/106099444"
@@ -46,7 +46,7 @@
           "uri": "coremedia://article/106099684"
         },
         {
-          "uri": "coremedia://article/106095996"
+          "uri": "coremedia://article/106098392"
         },
         {
           "uri": "coremedia://article/106096956"
@@ -67,16 +67,19 @@
           "uri": "coremedia://article/106099580"
         },
         {
-          "uri": "coremedia://article/106097186"
+          "uri": "coremedia://article/106095996"
         },
         {
-          "uri": "coremedia://article/106097888"
+          "uri": "coremedia://article/106098458"
         },
         {
           "uri": "coremedia://article/106099646"
         },
         {
-          "uri": "coremedia://article/106098458"
+          "uri": "coremedia://article/106097186"
+        },
+        {
+          "uri": "coremedia://article/106097888"
         },
         {
           "uri": "coremedia://article/106079190"
@@ -88,22 +91,19 @@
           "uri": "coremedia://article/106095796"
         },
         {
-          "uri": "coremedia://article/106099046"
+          "uri": "coremedia://article/106098942"
         },
         {
-          "uri": "coremedia://article/106098942"
+          "uri": "coremedia://article/106099046"
         },
         {
           "uri": "coremedia://article/106095708"
         },
         {
-          "uri": "coremedia://article/106099062"
-        },
-        {
           "uri": "coremedia://article/106022700"
         },
         {
-          "uri": "coremedia://article/106096094"
+          "uri": "coremedia://article/106099062"
         },
         {
           "uri": "coremedia://article/106099678"
@@ -209,7 +209,7 @@
           "reactKey": "national-106086152-1",
           "synopsis": "Today marks the unofficial start of the teen social media ban. Here's everything you need to know.",
           "title": {
-            "children": "Today marks the unofficial start of the teen social media ban"
+            "children": "The teen social media ban is here. Here’s what you need to know"
           },
           "imageContainerClassNames": []
         }
@@ -315,9 +315,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "106098392",
+          "id": "106099782",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -325,22 +331,40 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A group of wind turbines dotted along a hillside against a hazy blue sky",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c6e909775005618c37b5a237f1a89f68?impolicy=wcms_crop_resize&cropH=1333&cropW=1999&xPos=0&yPos=0&width=160&height=107",
+            "altText": "a US flag is shown behind a Wall st street sign",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c48cc6d459dfa77c8ba78c1bd03d824?impolicy=wcms_crop_resize&cropH=1272&cropW=1914&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-04/aemc-flags-fall-in-power-prices-as-renewable-energy-surges/106098392"
+            "to": "/news/2025-12-04/asx-markets-business-news-live-updates-december-4/106099782"
           },
-          "contentUri": "coremedia://article/106098392",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/aemc-flags-fall-in-power-prices-as-renewable-energy-surges/106098392",
+          "contentUri": "coremedia://article/106099782",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/asx-markets-business-news-live-updates-december-4/106099782",
           "video": null,
-          "reactKey": "national-106098392-1",
-          "synopsis": "An energy watchdog says more renewable energy is projected to lower prices, but others warn the promise is illusory and more pain is coming.",
+          "reactKey": "national-106099782-1",
+          "synopsis": "Australian shares are set to edge higher as Wall Street keeps gaining on hopes of Fed rate cuts. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
           "title": {
-            "children": "Watchdog flags 5 per cent fall in power prices amid renewables surge"
+            "children": "Wall St gains as US jobs market weakens, ASX set to follow"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "243623",
+              "date": "2025-12-03T21:40:53.000Z",
+              "title": "Architect of the baby bonus Peter Costello on The Business"
+            },
+            {
+              "id": "243613",
+              "date": "2025-12-03T21:15:45.000Z",
+              "title": "US shares tick higher on weak jobs report"
+            }
+          ]
         }
       },
       {
@@ -400,7 +424,7 @@
           "reactKey": "national-106099756-1",
           "synopsis": "A California doctor is imprisoned for illegally supplying Friends sitcom star Matthew Perry with ketamine, the powerful sedative that caused the actor's drug overdose death in 2023.",
           "title": {
-            "children": "Breaking: Doctor in Matthew Perry overdose case jailed"
+            "children": "Doctor in Matthew Perry overdose case jailed"
           },
           "imageContainerClassNames": []
         }
@@ -431,7 +455,7 @@
           "reactKey": "national-106095962-1",
           "synopsis": "Care providers are trying to strongarm cash from suppliers of equipment, including wheelchairs, a month after the federal government reformed home care packages for senior Australians.",
           "title": {
-            "children": "'Borderline illegal': Kickbacks, coercion in fight for aged care funding"
+            "children": "'It's borderline illegal': The battle raging on the home care front"
           },
           "imageContainerClassNames": []
         }
@@ -478,7 +502,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106095996",
+          "id": "106098392",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -486,20 +510,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A pencil drawing of a man surrounded by a vortex of redress scheme forms ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15e76060de3c828378219e53f80ad9ad?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=160&height=107",
+            "altText": "A group of wind turbines dotted along a hillside against a hazy blue sky",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c6e909775005618c37b5a237f1a89f68?impolicy=wcms_crop_resize&cropH=1333&cropW=1999&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-04/national-redress-scheme-wait-times-growing/106095996"
+            "to": "/news/2025-12-04/aemc-flags-fall-in-power-prices-as-renewable-energy-surges/106098392"
           },
-          "contentUri": "coremedia://article/106095996",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/national-redress-scheme-wait-times-growing/106095996",
+          "contentUri": "coremedia://article/106098392",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/aemc-flags-fall-in-power-prices-as-renewable-energy-surges/106098392",
           "video": null,
-          "reactKey": "national-106095996-1",
-          "synopsis": "An independent audit of the National Redress Scheme has found wait times are increasing and causing significant distress to survivors of child sexual abuse.",
+          "reactKey": "national-106098392-1",
+          "synopsis": "An energy watchdog says more renewable energy is projected to lower prices, but others warn the promise is illusory and more pain is coming.",
           "title": {
-            "children": "Child sexual abuse victims face anxious wait for redress via official scheme"
+            "children": "Watchdog flags 5 per cent fall in power prices amid renewables surge"
           },
           "imageContainerClassNames": []
         }
@@ -695,6 +719,99 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106095996",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A pencil drawing of a man surrounded by a vortex of redress scheme forms ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15e76060de3c828378219e53f80ad9ad?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=100&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-04/national-redress-scheme-wait-times-growing/106095996"
+          },
+          "contentUri": "coremedia://article/106095996",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/national-redress-scheme-wait-times-growing/106095996",
+          "video": null,
+          "reactKey": "national-106095996-1",
+          "synopsis": "An independent audit of the National Redress Scheme has found wait times are increasing and causing significant distress to survivors of child sexual abuse.",
+          "title": {
+            "children": "Child sexual abuse victims face anxious wait for redress via official scheme"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106098458",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close-up of Donald Trump smiling.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d4af1f8cbb946cd41905670d1778817?impolicy=wcms_crop_resize&cropH=2265&cropW=3398&xPos=190&yPos=56&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-03/donald-trump-pardons-former-honduran-president-drug-trafficking/106095618"
+          },
+          "contentUri": "coremedia://article/106098458",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/donald-trump-pardons-former-honduran-president-drug-trafficking/106095618",
+          "video": null,
+          "reactKey": "national-106098458-1",
+          "synopsis": "Donald Trump says his country is at war with \"narco-terrorists\". But he is freeing the former president of Honduras, who was jailed in the US for overseeing one of the world's worst drug conspiracies.",
+          "title": {
+            "children": "What led Trump to free a president jailed for flooding the US with drugs"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106099646",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Aerial shot of cars",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0a3fc07128688192e0d4b307817ed3b?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-04/man-charged-with-murder-over-shooting-at-eungella/106099646"
+          },
+          "contentUri": "coremedia://article/106099646",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/man-charged-with-murder-over-shooting-at-eungella/106099646",
+          "video": null,
+          "reactKey": "national-106099646-1",
+          "synopsis": "A man is charged with murder after a shooting on the coast of northern NSW that left one man dead and two others injured.",
+          "title": {
+            "children": "Man charged with murder over shooting on NSW North Coast"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106097186",
           "imagePosition": {
             "mobile": "right",
@@ -748,68 +865,6 @@
           "synopsis": "Severe erosion caused by Cyclone Alfred forced the closure of several beaches in March. Now, extra lifeguards are being recruited as they anticipate a busy summer period.",
           "title": {
             "children": "Gold Coast beaches all open in time for summer holidays"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106099646",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Aerial shot of cars",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0a3fc07128688192e0d4b307817ed3b?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-04/man-charged-with-murder-over-shooting-at-eungella/106099646"
-          },
-          "contentUri": "coremedia://article/106099646",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/man-charged-with-murder-over-shooting-at-eungella/106099646",
-          "video": null,
-          "reactKey": "national-106099646-1",
-          "synopsis": "A man is charged with murder after a shooting on the coast of northern NSW that left one man dead and two others injured.",
-          "title": {
-            "children": "Man charged with murder over shooting on NSW North Coast"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106098458",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close-up of Donald Trump smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d4af1f8cbb946cd41905670d1778817?impolicy=wcms_crop_resize&cropH=2265&cropW=3398&xPos=190&yPos=56&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-03/donald-trump-pardons-former-honduran-president-drug-trafficking/106095618"
-          },
-          "contentUri": "coremedia://article/106098458",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/donald-trump-pardons-former-honduran-president-drug-trafficking/106095618",
-          "video": null,
-          "reactKey": "national-106098458-1",
-          "synopsis": "Donald Trump says his country is at war with \"narco-terrorists\". But he is freeing the former president of Honduras, who was jailed in the US for overseeing one of the world's worst drug conspiracies.",
-          "title": {
-            "children": "What led Trump to free a president jailed for flooding the US with drugs"
           },
           "imageContainerClassNames": []
         }
@@ -912,37 +967,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106099046",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Women and children with bags of belongings sit in the back of  a truck moving through a desert area.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb3a426ee7ea6029cad18f84a2ab7070?impolicy=wcms_crop_resize&cropH=2583&cropW=3875&xPos=1125&yPos=99&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-03/israeli-authorities-announce-rafah-border-crossing-opening/106099046"
-          },
-          "contentUri": "coremedia://article/106099046",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/israeli-authorities-announce-rafah-border-crossing-opening/106099046",
-          "video": null,
-          "reactKey": "national-106099046-1",
-          "synopsis": "Israeli authorities have announced the Rafah border crossing from Gaza into Egypt will open \"in coming days,\" but only for Palestinians wanting to leave the war-ravaged strip.",
-          "title": {
-            "children": "Rafah crossing will open to let Gazans cross into Egypt"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106098942",
           "imagePosition": {
             "mobile": "right",
@@ -965,6 +989,37 @@
           "synopsis": "A one-of-a-kind home, designed with the input of Tennant Creek families, has rolled up the Stuart Highway from Adelaide on a convoy of trucks. It is part of a new initiative aiming to transform housing in remote First Nations communities.",
           "title": {
             "children": "Home designed by Tennant Creek residents to live 'our way' arrives on truck"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106099046",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Women and children with bags of belongings sit in the back of  a truck moving through a desert area.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb3a426ee7ea6029cad18f84a2ab7070?impolicy=wcms_crop_resize&cropH=2583&cropW=3875&xPos=1125&yPos=99&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-03/israeli-authorities-announce-rafah-border-crossing-opening/106099046"
+          },
+          "contentUri": "coremedia://article/106099046",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/israeli-authorities-announce-rafah-border-crossing-opening/106099046",
+          "video": null,
+          "reactKey": "national-106099046-1",
+          "synopsis": "Israeli authorities have announced the Rafah border crossing from Gaza into Egypt will open \"in coming days,\" but only for Palestinians wanting to leave the war-ravaged strip.",
+          "title": {
+            "children": "Rafah crossing will open to let Gazans cross into Egypt"
           },
           "imageContainerClassNames": []
         }
@@ -1011,37 +1066,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106099062",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Little boy, little girl and their mum hug with Christmas tree in background",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dc870ea268f4e873a2455573dd6303fb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-04/cancer-patients-say-lack-of-proton-therapy-is-embarrassing/106099062"
-          },
-          "contentUri": "coremedia://article/106099062",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/cancer-patients-say-lack-of-proton-therapy-is-embarrassing/106099062",
-          "video": null,
-          "reactKey": "national-106099062-1",
-          "synopsis": "When seven-month-old Evelyn was diagnosed with a rare cancer, her mother was told proton beam therapy would be her daughter's best chance for survival. But the treatment was not available in Australia and still is not three years later.",
-          "title": {
-            "children": "Mother's fight for proton therapy highlights gaps in Australia's care"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106022700",
           "imagePosition": {
             "mobile": "right",
@@ -1073,7 +1097,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106096094",
+          "id": "106099062",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -1081,20 +1105,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Six members of rock band Foo Fighters stand side-by-side, smiling.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/66fcf0102910866d891111703bf341dd?impolicy=wcms_crop_resize&cropH=853&cropW=1280&xPos=0&yPos=505&width=160&height=107",
+            "altText": "Little boy, little girl and their mum hug with Christmas tree in background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dc870ea268f4e873a2455573dd6303fb?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-03/tas-to-pay-650000-for-foo-fighters-concert-in-launceston/106096094"
+            "to": "/news/2025-12-04/cancer-patients-say-lack-of-proton-therapy-is-embarrassing/106099062"
           },
-          "contentUri": "coremedia://article/106096094",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/tas-to-pay-650000-for-foo-fighters-concert-in-launceston/106096094",
+          "contentUri": "coremedia://article/106099062",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/cancer-patients-say-lack-of-proton-therapy-is-embarrassing/106099062",
           "video": null,
-          "reactKey": "national-106096094-1",
-          "synopsis": "Tasmania's \"biggest concert ever\" will take place at Launceston's York Park next month when American rock band Foo Fighters play their only Australian show.",
+          "reactKey": "national-106099062-1",
+          "synopsis": "When seven-month-old Evelyn was diagnosed with a rare cancer, her mother was told proton beam therapy would be her daughter's best chance for survival. But the treatment was not available in Australia and still is not three years later.",
           "title": {
-            "children": "Tasmania to pay $650,000 for Foo Fighters concert in Launceston"
+            "children": "Mother's fight for proton therapy highlights gaps in Australia's care"
           },
           "imageContainerClassNames": []
         }
