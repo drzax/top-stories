@@ -464,7 +464,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106101700",
           "imagePosition": {
@@ -487,9 +493,16 @@
           "reactKey": "nt-106101700-1",
           "synopsis": "Emergency bushfire warnings are issued for three Tasmanian communities — Glenlusk, near Hobart, Levendale in the state's south-east and Dolphin Sands on the east coast.",
           "title": {
-            "children": "Breaking: Three emergency bushfire warnings for Tasmania amid 100kph wind gusts"
+            "children": "Three emergency bushfire warnings for Tasmania amid 100kph wind gusts"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "pending",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
