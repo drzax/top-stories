@@ -146,7 +146,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106099748",
           "imagePosition": {
@@ -167,11 +173,34 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-12-04/tasmania-upper-house-hobart-stadium-december-4/106099748",
           "video": null,
           "reactKey": "tas-106099748-1",
-          "synopsis": "Debate on the Hobart stadium is set to go late into the night for a second consecutive evening.",
+          "synopsis": "Debate on the Hobart stadium is going late into the night for a second consecutive evening ahead of a final vote on the project. Follow live.",
           "title": {
-            "children": "Hobart stadium debate continues into the night ahead of expected 'yes' vote"
+            "children": "Hobart stadium debate nears end ahead of expected 'yes' vote"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "244038",
+              "date": "2025-12-04T11:17:51.000Z",
+              "title": "The upper house resumes"
+            },
+            {
+              "id": "244036",
+              "date": "2025-12-04T11:14:23.000Z",
+              "title": "Finding the money"
+            },
+            {
+              "id": "244032",
+              "date": "2025-12-04T10:54:48.000Z",
+              "title": "Question about money for Foo Fighters"
+            }
+          ]
         }
       },
       {
