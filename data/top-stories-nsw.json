@@ -25,7 +25,7 @@
           "uri": "coremedia://article/106097274"
         },
         {
-          "uri": "coremedia://article/106097988"
+          "uri": "coremedia://article/106092912"
         },
         {
           "uri": "coremedia://article/106100176"
@@ -34,10 +34,10 @@
           "uri": "coremedia://article/106053752"
         },
         {
-          "uri": "coremedia://article/106089740"
+          "uri": "coremedia://article/106098492"
         },
         {
-          "uri": "coremedia://article/106098944"
+          "uri": "coremedia://article/106089740"
         },
         {
           "uri": "coremedia://article/106095142"
@@ -49,16 +49,13 @@
           "uri": "coremedia://article/106022900"
         },
         {
-          "uri": "coremedia://article/106086300"
-        },
-        {
           "uri": "coremedia://article/106096580"
         },
         {
-          "uri": "coremedia://article/106092374"
+          "uri": "coremedia://article/106086300"
         },
         {
-          "uri": "coremedia://article/106073928"
+          "uri": "coremedia://article/106092374"
         }
       ]
     },
@@ -66,7 +63,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -95,7 +98,14 @@
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -194,14 +204,9 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "analysis",
-              "authorName": "Elizabeth Byrne"
-            }
-          ],
+          "contentLabels": [],
           "headingClassNames": [],
-          "id": "106097988",
+          "id": "106092912",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -209,20 +214,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Bruce Lehrmann walks away as a TV camera films him.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a6ec203577c224b0bb12f8bdebb9c4cc?impolicy=wcms_crop_resize&cropH=2008&cropW=3012&xPos=1250&yPos=357&width=160&height=107",
+            "altText": "A man wearing a blue shirt and bandana standing next to his yellow Vespa scooter.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1bf151af0590882b13a18b5422ffd64c?impolicy=wcms_crop_resize&cropH=3015&cropW=4523&xPos=0&yPos=332&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-04/bruce-lehrmann-running-out-of-courts-defamation-case/106097988"
+            "to": "/news/2025-12-04/cricket-fan-scott-stokes-vespa-roadtrip-ashes-tests/106092912"
           },
-          "contentUri": "coremedia://article/106097988",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/bruce-lehrmann-running-out-of-courts-defamation-case/106097988",
+          "contentUri": "coremedia://article/106092912",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-04/cricket-fan-scott-stokes-vespa-roadtrip-ashes-tests/106092912",
           "video": null,
-          "reactKey": "nsw-106097988-1",
-          "synopsis": "With his defamation appeal dismissed and legal costs rising, Bruce Lehrmann is almost out of options. A High Court bid is possible, but what would it take to get there?",
+          "reactKey": "nsw-106092912-1",
+          "synopsis": "One man, one little yellow Vespa and a 12,000-kilometre road trip to attend every Ashes Test.",
           "title": {
-            "children": "Bruce Lehrmann is running out of courts to continue his legal battle"
+            "children": "Cricket fanatic crisscrossing Australia on Vespa to attend every Ashes Test"
           },
           "imageContainerClassNames": []
         }
@@ -294,6 +299,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106098492",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "police officers lead away a man in handcuffs",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09bf2e9aaa1059826029fc98f1f909e7?impolicy=wcms_crop_resize&cropH=1511&cropW=2267&xPos=0&yPos=86&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-03/sydney-man-bail-allegedly-lied-to-get-million-dollar-home-loan/106098492"
+          },
+          "contentUri": "coremedia://article/106098492",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/sydney-man-bail-allegedly-lied-to-get-million-dollar-home-loan/106098492",
+          "video": null,
+          "reactKey": "nsw-106098492-1",
+          "synopsis": "Ali Jundi was arrested as part of an investigation into the Alameddine crime family, with police alleging he was part of the \"Afghan crew\".",
+          "title": {
+            "children": "Luxury cars seized after man allegedly lied about earnings to get home loan"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106089740",
           "imagePosition": {
             "mobile": "right",
@@ -316,37 +352,6 @@
           "synopsis": "The independent body in charge of overseeing NSW Police misconduct allegations will today probe the response to Lindy Lucena's fatal bashing in 2023.",
           "title": {
             "children": "Watchdog to probe why police took an hour to respond to bashing 600m away"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106098944",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "police officers lead away a man in handcuffs",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09bf2e9aaa1059826029fc98f1f909e7?impolicy=wcms_crop_resize&cropH=1511&cropW=2267&xPos=0&yPos=86&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-03/sydney-man-bail-allegedly-lied-to-get-million-dollar-home-loan/106098492"
-          },
-          "contentUri": "coremedia://article/106098944",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/sydney-man-bail-allegedly-lied-to-get-million-dollar-home-loan/106098492",
-          "video": null,
-          "reactKey": "nsw-106098944-1",
-          "synopsis": "Ali Jundi was arrested as part of an investigation into the Alameddine crime family, with police alleging he was part of the \"Afghan crew\".",
-          "title": {
-            "children": "Luxury cars seized after man allegedly lied about earnings to get home loan"
           },
           "imageContainerClassNames": []
         }
@@ -449,37 +454,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106086300",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A brick court house in the country, with a green lawn and a large leafy tree.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6aac22caab76d27a0badb9c43916f89e?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-02/robbie-wheeldon-pilliga-murder-trial-hinges-on-mental-state/106086300"
-          },
-          "contentUri": "coremedia://article/106086300",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-02/robbie-wheeldon-pilliga-murder-trial-hinges-on-mental-state/106086300",
-          "video": null,
-          "reactKey": "nsw-106086300-1",
-          "synopsis": "The mental state of a man who has admitted to killing his father at Pilliga in north-west New South Wales will be key to the outcome of his murder trial.\n\n ",
-          "title": {
-            "children": "Murder trial hinges on mental state of man who killed his father"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106096580",
           "imagePosition": {
             "mobile": "right",
@@ -511,6 +485,37 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
+          "id": "106086300",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A brick court house in the country, with a green lawn and a large leafy tree.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6aac22caab76d27a0badb9c43916f89e?impolicy=wcms_crop_resize&cropH=1988&cropW=2991&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-02/robbie-wheeldon-pilliga-murder-trial-hinges-on-mental-state/106086300"
+          },
+          "contentUri": "coremedia://article/106086300",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-02/robbie-wheeldon-pilliga-murder-trial-hinges-on-mental-state/106086300",
+          "video": null,
+          "reactKey": "nsw-106086300-1",
+          "synopsis": "The mental state of a man who has admitted to killing his father at Pilliga in north-west New South Wales will be key to the outcome of his murder trial.\n\n ",
+          "title": {
+            "children": "Murder trial hinges on mental state of man who killed his father"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
           "id": "106092374",
           "imagePosition": {
             "mobile": "right",
@@ -533,37 +538,6 @@
           "synopsis": "A data-entry mistake by a Qantas employee set off a series of errors that caused a Boeing 737 to take off slower than it should have.",
           "title": {
             "children": "Typing error 'cascaded' into series of mistakes on Qantas flight"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106073928",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Two young primary school girls working together in a classroom",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed996e29771e7ca193f7a534b47eefb4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-03/2025-school-naplan-results/106073928"
-          },
-          "contentUri": "coremedia://article/106073928",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-03/2025-school-naplan-results/106073928",
-          "video": null,
-          "reactKey": "nsw-106073928-1",
-          "synopsis": "Parents can check the latest NAPLAN scores for 10,000 schools across the country on the MySchool website.",
-          "title": {
-            "children": "The 'secret sauce' powering schools punching above their weight in NAPLAN"
           },
           "imageContainerClassNames": []
         }
