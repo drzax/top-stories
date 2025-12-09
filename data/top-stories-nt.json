@@ -371,7 +371,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106116798",
           "imagePosition": {
@@ -392,11 +398,18 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-12-09/government-apology-to-aboriginal-victorians-after-treaty/106116798",
           "video": null,
           "reactKey": "nt-106116798-1",
-          "synopsis": "The Victorian government is set to make a historic apology to Aboriginal Victorians today, in one of the first public acts to follow the signing of the state's treaty agreement.",
+          "synopsis": "The Victorian government is making a historic apology to Aboriginal Victorians, in one of the first public acts to follow the signing of the state's treaty agreement.",
           "title": {
-            "children": "Victorian government to make historic apology to Aboriginal Victorians"
+            "children": "Victorian government makes historic apology to Aboriginal people"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
