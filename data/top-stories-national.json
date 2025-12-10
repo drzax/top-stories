@@ -25,10 +25,13 @@
           "uri": "coremedia://article/106126784"
         },
         {
-          "uri": "coremedia://article/106121828"
+          "uri": "coremedia://article/106124374"
         },
         {
           "uri": "coremedia://article/106128310"
+        },
+        {
+          "uri": "coremedia://article/106121828"
         },
         {
           "uri": "coremedia://article/106128042"
@@ -37,31 +40,31 @@
           "uri": "coremedia://article/106120526"
         },
         {
-          "uri": "coremedia://article/105427012"
+          "uri": "coremedia://article/106125184"
+        },
+        {
+          "uri": "coremedia://article/106128568"
         },
         {
           "uri": "coremedia://article/106128382"
         },
         {
-          "uri": "coremedia://article/106128244"
+          "uri": "coremedia://article/106118714"
         },
         {
           "uri": "coremedia://article/106105394"
         },
         {
-          "uri": "coremedia://article/106125184"
-        },
-        {
           "uri": "coremedia://article/106077848"
-        },
-        {
-          "uri": "coremedia://article/106126738"
         },
         {
           "uri": "coremedia://article/106128240"
         },
         {
           "uri": "coremedia://article/106128392"
+        },
+        {
+          "uri": "coremedia://article/106126738"
         },
         {
           "uri": "coremedia://article/106128346"
@@ -242,9 +245,15 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
-          "id": "106121828",
+          "id": "106124374",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -252,22 +261,35 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "A protester holds up an Aboriginal Lives Matter placard in Sydney's CBD.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63aca0ce454ba01b6fadcb208b5cb862?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=1&width=160&height=107",
+            "altText": "A close up of Greg Lynn standing in front of a body of water near some rocks.  ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b38a267e08e69a37ed2edd2614b49b72?impolicy=wcms_crop_resize&cropH=851&cropW=1277&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-10/largest-number-of-indigenous-deaths-in-custody-since-1979/106121828"
+            "to": "/news/2025-12-11/live-blog-greg-lynn-high-country-appeal-court/106124374"
           },
-          "contentUri": "coremedia://article/106121828",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-10/largest-number-of-indigenous-deaths-in-custody-since-1979/106121828",
+          "contentUri": "coremedia://article/106124374",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-11/live-blog-greg-lynn-high-country-appeal-court/106124374",
           "video": null,
-          "reactKey": "national-106121828-1",
-          "synopsis": "Australia has recorded the highest number of Indigenous deaths in custody since 1979. Experts say over-incarceration remains a national crisis and prisons are neglecting the physical and mental health of vulnerable people.",
+          "reactKey": "national-106124374-1",
+          "synopsis": "High Country Killer Greg Lynn will learn his fate in Victoria's Court of Appeal after his legal team challenged both his murder conviction and his 32-year jail sentence. Follow live.",
           "title": {
-            "children": "'It's maddening': Anger and frustration amid record Black deaths in custody"
+            "children": "Convicted killer Greg Lynn to learn outcome of murder appeal"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "245395",
+              "date": "2025-12-10T21:40:00.000Z",
+              "title": "Greg Lynn appealing 32-year jail term"
+            }
+          ]
         }
       },
       {
@@ -297,6 +319,37 @@
           "synopsis": "After a year of waiting, Australia's world-leading laws to block kids from accessing social media are officially enacted. But the teens they're meant to impact say not much has actually changed.",
           "title": {
             "children": "Australia's grand experiment is finally live. Teens say nothing has changed"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106121828",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A protester holds up an Aboriginal Lives Matter placard in Sydney's CBD.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63aca0ce454ba01b6fadcb208b5cb862?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=1&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-10/largest-number-of-indigenous-deaths-in-custody-since-1979/106121828"
+          },
+          "contentUri": "coremedia://article/106121828",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-10/largest-number-of-indigenous-deaths-in-custody-since-1979/106121828",
+          "video": null,
+          "reactKey": "national-106121828-1",
+          "synopsis": "Australia has recorded the highest number of Indigenous deaths in custody since 1979. Experts say over-incarceration remains a national crisis and prisons are neglecting the physical and mental health of vulnerable people.",
+          "title": {
+            "children": "'It's maddening': Anger and frustration amid record Black deaths in custody"
           },
           "imageContainerClassNames": []
         }
@@ -368,7 +421,38 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "105427012",
+          "id": "106125184",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Fire burns from the top of a gas well at night.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4c6ec2d85a37d9eaf757f4c0e84d875?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-11/gas-reservation-power-price-fears/106125184"
+          },
+          "contentUri": "coremedia://article/106125184",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-11/gas-reservation-power-price-fears/106125184",
+          "video": null,
+          "reactKey": "national-106125184-1",
+          "synopsis": "A long-awaited scheme to force east coast energy giants to set aside gas for Australian use is being finalised in down-to-the-wire negotiations between half a dozen cabinet ministers grappling with concerns it may not lower prices as much as hoped.",
+          "title": {
+            "children": "Fears gas reservation plan will not lower prices as hoped"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106128568",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -383,10 +467,10 @@
           "link": {
             "to": "/news/2025-12-11/guilty-verdict-ends-seven-year-wait-justice-toyah-cordingley/105427012"
           },
-          "contentUri": "coremedia://article/105427012",
+          "contentUri": "coremedia://article/106128568",
           "canonicalURL": "https://www.abc.net.au/news/2025-12-11/guilty-verdict-ends-seven-year-wait-justice-toyah-cordingley/105427012",
           "video": null,
-          "reactKey": "national-105427012-1",
+          "reactKey": "national-106128568-1",
           "synopsis": "The 24-year-old is remembered for her generous spirit and love of animals. It took a protracted effort to bring her killer back to Australia and before a court, during which time he revealed little emotion. ",
           "title": {
             "children": "Inside the seven-year wait for justice for Toyah Cordingley"
@@ -418,7 +502,7 @@
           "canonicalURL": "https://www.abc.net.au/news/2025-12-11/us-seizes-oil-tanker-off-coast-of-venezuela/106128382",
           "video": null,
           "reactKey": "national-106128382-1",
-          "synopsis": "US President Donald Trump says it is \"the largest one ever seized\".",
+          "synopsis": "US President Donald Trump says the tanker is \"the largest one ever seized\".",
           "title": {
             "children": "US seizes oil tanker off coast of Venezuela, Trump says"
           },
@@ -430,7 +514,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106128244",
+          "id": "106118714",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -445,13 +529,13 @@
           "link": {
             "to": "/news/science/2025-12-11/oldest-fire-making-flint-ancient-humans/106118714"
           },
-          "contentUri": "coremedia://article/106128244",
+          "contentUri": "coremedia://article/106118714",
           "canonicalURL": "https://www.abc.net.au/news/science/2025-12-11/oldest-fire-making-flint-ancient-humans/106118714",
           "video": null,
-          "reactKey": "national-106128244-1",
+          "reactKey": "national-106118714-1",
           "synopsis": "Archaeologists have uncovered the earliest-known evidence of deliberately lit campfires at a site in the UK dated to be 400,000 years old. ",
           "title": {
-            "children": "Ancient campfire pushes back date early humans first made fires"
+            "children": "Neanderthals may have been fire starters 400,000 years ago "
           },
           "imageContainerClassNames": []
         }
@@ -492,37 +576,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106125184",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Fire burns from the top of a gas well at night.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4c6ec2d85a37d9eaf757f4c0e84d875?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-11/gas-reservation-power-price-fears/106125184"
-          },
-          "contentUri": "coremedia://article/106125184",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-11/gas-reservation-power-price-fears/106125184",
-          "video": null,
-          "reactKey": "national-106125184-1",
-          "synopsis": "A long-awaited scheme to force east coast energy giants to set aside gas for Australian use is being finalised in down-to-the-wire negotiations between half a dozen cabinet ministers grappling with concerns it may not lower prices as much as hoped.",
-          "title": {
-            "children": "Fears gas reservation plan will not lower prices as hoped"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106077848",
           "imagePosition": {
             "mobile": "right",
@@ -545,37 +598,6 @@
           "synopsis": "Tech giant Meta ran advertisements used to lure Australian investors into a fraudulent bond scheme that allegedly defrauded tens of millions of dollars from them.",
           "title": {
             "children": "'I know it's been stolen': Businessman loses $300k in alleged bond scam"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106126738",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A close shot of Brereton, who is sitting in the offices of the new national anti--corruption commission",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c5497e7bef609ba53a51fd8afd4000?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-11/nacc-chief-updates-official-declaration/106126738"
-          },
-          "contentUri": "coremedia://article/106126738",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-11/nacc-chief-updates-official-declaration/106126738",
-          "video": null,
-          "reactKey": "national-106126738-1",
-          "synopsis": "National Anti-Corruption Commission chief Paul Brereton formally discloses his consulting work for the defence watchdog after the ABC reveals the links. ",
-          "title": {
-            "children": "NACC chief updates official declaration of interests to disclose defence link"
           },
           "imageContainerClassNames": []
         }
@@ -638,6 +660,37 @@
           "synopsis": "Aryna Sabalenka is adamant her upcoming clash against Nick Kyrgios will not prove to be a gimmick that damages women's tennis.",
           "title": {
             "children": "Sabalenka declares polarising Kyrgios clash 'a win-win situation'"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106126738",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A close shot of Brereton, who is sitting in the offices of the new national anti--corruption commission",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80c5497e7bef609ba53a51fd8afd4000?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-11/nacc-chief-updates-official-declaration/106126738"
+          },
+          "contentUri": "coremedia://article/106126738",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-11/nacc-chief-updates-official-declaration/106126738",
+          "video": null,
+          "reactKey": "national-106126738-1",
+          "synopsis": "National Anti-Corruption Commission chief Paul Brereton formally discloses his consulting work for the defence watchdog after the ABC reveals the links. ",
+          "title": {
+            "children": "NACC chief updates official declaration of interests to disclose defence link"
           },
           "imageContainerClassNames": []
         }
