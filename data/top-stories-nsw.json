@@ -25,6 +25,9 @@
           "uri": "coremedia://article/106169360"
         },
         {
+          "uri": "coremedia://article/106169318"
+        },
+        {
           "uri": "coremedia://article/105486328"
         },
         {
@@ -43,22 +46,19 @@
           "uri": "coremedia://article/106154832"
         },
         {
-          "uri": "coremedia://article/106167928"
+          "uri": "coremedia://article/106033126"
         },
         {
-          "uri": "coremedia://article/106033126"
+          "uri": "coremedia://article/106167928"
         },
         {
           "uri": "coremedia://article/106051870"
         },
         {
-          "uri": "coremedia://article/106165670"
-        },
-        {
           "uri": "coremedia://article/106024028"
         },
         {
-          "uri": "coremedia://article/106166140"
+          "uri": "coremedia://article/106165670"
         }
       ]
     },
@@ -101,7 +101,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106169248",
           "imagePosition": {
@@ -126,7 +132,14 @@
           "title": {
             "children": "NSW opposition backs crackdown on guns, protests in wake of Bondi attack"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -187,6 +200,37 @@
           "synopsis": "Straight-pull rapid-fire rifles, social media campaigns, and a looming buyback scheme – Australia's gun debate is reloading.\n\n ",
           "title": {
             "children": "Gun dealers warn new gun law reform threatens livelihoods"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106169318",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "The Royal Hotel Capertee ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4e5a648730085b09c6ea3b17a72576b0?impolicy=wcms_crop_resize&cropH=878&cropW=1318&xPos=157&yPos=307&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-22/pub-crash-capertee-sees-seven-injured/106169318"
+          },
+          "contentUri": "coremedia://article/106169318",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-22/pub-crash-capertee-sees-seven-injured/106169318",
+          "video": null,
+          "reactKey": "nsw-106169318-1",
+          "synopsis": "A man has been charged after seven people were injured when a car crashed into a pub on the New South Wales central tablelands.",
+          "title": {
+            "children": "Driver charged after car hits patrons at NSW pub"
           },
           "imageContainerClassNames": []
         }
@@ -388,37 +432,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106167928",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Black and white newspaper clipping of les Warby being freed from prison",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4dbc8cd3644f4ffca1b2e1b56be8933?impolicy=wcms_crop_resize&cropH=221&cropW=331&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-21/warby-family-reflects-on-changing-baking-laws/106045298"
-          },
-          "contentUri": "coremedia://article/106167928",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-21/warby-family-reflects-on-changing-baking-laws/106045298",
-          "video": null,
-          "reactKey": "nsw-106167928-1",
-          "synopsis": "Richard Warby still remembers the day his local community piled into a mini-bus bound for Long Bay Jail to pay a fine and release his father, who was locked up for the bizarre crime of baking bread on a weekend.",
-          "title": {
-            "children": "Baker went to jail in 1977 so you can enjoy fresh bread at weekends"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106033126",
           "imagePosition": {
             "mobile": "right",
@@ -441,6 +454,37 @@
           "synopsis": "After hearing harrowing stories of abuse against young Nepalese women and girls, Port Macquarie man Ross Nancarrow wanted to help.",
           "title": {
             "children": "Small regional charity stops thousands of Nepali girls being trafficked"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106167928",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Black and white newspaper clipping of les Warby being freed from prison",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4dbc8cd3644f4ffca1b2e1b56be8933?impolicy=wcms_crop_resize&cropH=221&cropW=331&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-21/warby-family-reflects-on-changing-baking-laws/106045298"
+          },
+          "contentUri": "coremedia://article/106167928",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-21/warby-family-reflects-on-changing-baking-laws/106045298",
+          "video": null,
+          "reactKey": "nsw-106167928-1",
+          "synopsis": "Richard Warby still remembers the day his local community piled into a mini-bus bound for Long Bay Jail to pay a fine and release his father, who was locked up for the bizarre crime of baking bread on a weekend.",
+          "title": {
+            "children": "Baker went to jail in 1977 so you can enjoy fresh bread at weekends"
           },
           "imageContainerClassNames": []
         }
@@ -481,37 +525,6 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106165670",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Group with backs turned face TV with news presenter in blue blazer",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ea4a559c487a6a74083db643c191341?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=400&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-20/nsw-bondi-beach-cafe-households-help-strangers-terror-attack/106154094"
-          },
-          "contentUri": "coremedia://article/106165670",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-20/nsw-bondi-beach-cafe-households-help-strangers-terror-attack/106154094",
-          "video": null,
-          "reactKey": "nsw-106165670-1",
-          "synopsis": "These are the stories of everyday people who stepped up during dark times, and of a community coming together when two gunmen sought to tear them apart on December 14.\n\n ",
-          "title": {
-            "children": "Frankie helped drag 100 people to safety during Bondi terror attack"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
           "id": "106024028",
           "imagePosition": {
             "mobile": "right",
@@ -543,7 +556,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106166140",
+          "id": "106165670",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -551,20 +564,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Five lifeguards in yellow and red uniforms stand in a line holding hands on the sand",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c11230ee894b323a09d08be11c88634b?impolicy=wcms_crop_resize&cropH=1667&cropW=2500&xPos=0&yPos=0&width=160&height=107",
+            "altText": "Group with backs turned face TV with news presenter in blue blazer",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ea4a559c487a6a74083db643c191341?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=400&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2025-12-20/nsw-surf-lifesavers-pay-tribute-to-bondi-victims/106166140"
+            "to": "/news/2025-12-20/nsw-bondi-beach-cafe-households-help-strangers-terror-attack/106154094"
           },
-          "contentUri": "coremedia://article/106166140",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-20/nsw-surf-lifesavers-pay-tribute-to-bondi-victims/106166140",
+          "contentUri": "coremedia://article/106165670",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-20/nsw-bondi-beach-cafe-households-help-strangers-terror-attack/106154094",
           "video": null,
-          "reactKey": "nsw-106166140-1",
-          "synopsis": "Hundreds of surf lifesavers and lifeguards, many of whom responded to the Bondi terror attack, form a human chain in a moving tribute to the 15 people killed.",
+          "reactKey": "nsw-106165670-1",
+          "synopsis": "These are the stories of everyday people who stepped up during dark times, and of a community coming together when two gunmen sought to tear them apart on December 14.\n\n ",
           "title": {
-            "children": "In pictures: Surf lifesavers with heartfelt tribute to Bondi victims"
+            "children": "Frankie helped drag 100 people to safety during Bondi terror attack"
           },
           "imageContainerClassNames": []
         }
