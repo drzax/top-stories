@@ -13,22 +13,19 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106179454"
+          "uri": "coremedia://article/106180010"
+        },
+        {
+          "uri": "coremedia://article/106165964"
+        },
+        {
+          "uri": "coremedia://article/106171164"
         },
         {
           "uri": "coremedia://article/106179584"
         },
         {
           "uri": "coremedia://article/106178338"
-        },
-        {
-          "uri": "coremedia://article/106179470"
-        },
-        {
-          "uri": "coremedia://article/106173424"
-        },
-        {
-          "uri": "coremedia://article/106177108"
         },
         {
           "uri": "coremedia://audioepisode/106179620"
@@ -108,11 +105,81 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106179454",
+          "id": "106180010",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Two boats sailing on Sydney Harbour, with the nearest to camera having \"LawConnect\" on the mainsail.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a9aad0ad770632ccea4234b543b82ed8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-26/sydney-to-hobart-yacht-race-live-blog/106179718"
+          },
+          "contentUri": "coremedia://article/106180010",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-26/sydney-to-hobart-yacht-race-live-blog/106179718",
+          "video": null,
+          "reactKey": "tas-106180010-1",
+          "synopsis": "The world-famous Sydney to Hobart yacht race is set to begin on Sydney Harbour in the 80th edition of the blue water classic. Follow all the action in our live blog.",
+          "title": {
+            "children": "The countdown is on to the start of the 80th Sydney to Hobart"
+          },
+          "imageContainerClassNames": [
+            "imageHalf"
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106165964",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Yachts competing in the Rolex Sydney to Hobart Yacht Race on 26 December 2024",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/313ea1f62294a2dbb6b9df902411f2fe?impolicy=wcms_crop_resize&cropH=2531&cropW=3796&xPos=523&yPos=61&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2025-12-26/sydney-hobart-yacht-race-2025-how-to-watch-explainer/106165964"
+          },
+          "contentUri": "coremedia://article/106165964",
+          "canonicalURL": "https://www.abc.net.au/news/2025-12-26/sydney-hobart-yacht-race-2025-how-to-watch-explainer/106165964",
+          "video": null,
+          "reactKey": "tas-106165964-1",
+          "synopsis": "Black sails, a tiny cannon, no prize money — everything you need to know about the Sydney to Hobart yacht race, ahead of its 80th edition, starting today.",
+          "title": {
+            "children": "Your guide to the 2025 Sydney to Hobart yacht race"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106171164",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -121,23 +188,21 @@
           "isMajor": false,
           "image": {
             "altText": "A timelapse of the Adélie penguin colony in East Antarctica.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4ea50d5b61acc28603da3b95195e896?impolicy=wcms_crop_resize&cropH=211&cropW=317&xPos=10&yPos=0&width=862&height=575",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4ea50d5b61acc28603da3b95195e896?impolicy=wcms_crop_resize&cropH=211&cropW=317&xPos=10&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
             "to": "/news/2025-12-26/bird-flu-threat-looms-over-australian-antarctic-territory/106171164"
           },
-          "contentUri": "coremedia://article/106179454",
+          "contentUri": "coremedia://article/106171164",
           "canonicalURL": "https://www.abc.net.au/news/2025-12-26/bird-flu-threat-looms-over-australian-antarctic-territory/106171164",
           "video": null,
-          "reactKey": "tas-106179454-1",
+          "reactKey": "tas-106171164-1",
           "synopsis": "Preparations are underway for the arrival of the deadly H5 strain of bird flu in the Australian Antarctic Territory, as scientists gather baseline population data so they can measure potential deaths among wildlife.",
           "title": {
             "children": "Scientists race to secure 'baseline' data before devastating virus arrives"
           },
-          "imageContainerClassNames": [
-            "imageHalf"
-          ]
+          "imageContainerClassNames": []
         }
       },
       {
@@ -198,99 +263,6 @@
           "synopsis": "Snow has arrived in the island state on Christmas morning, but hotter conditions are expected around the country, including a scorcher in the west.",
           "title": {
             "children": "White Christmas in Tasmania as heat climbs in other states "
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106179470",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Yachts competing in the Rolex Sydney to Hobart Yacht Race on 26 December 2024",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/313ea1f62294a2dbb6b9df902411f2fe?impolicy=wcms_crop_resize&cropH=2531&cropW=3796&xPos=523&yPos=61&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-26/sydney-hobart-yacht-race-2025-how-to-watch-explainer/106165964"
-          },
-          "contentUri": "coremedia://article/106179470",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-26/sydney-hobart-yacht-race-2025-how-to-watch-explainer/106165964",
-          "video": null,
-          "reactKey": "tas-106179470-1",
-          "synopsis": "Black sails, a tiny cannon, no prize money — everything you need to know about the Sydney to Hobart yacht race, ahead of its 80th edition, starting today.",
-          "title": {
-            "children": "Your guide to the 2025 Sydney to Hobart yacht race"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106173424",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A man in a red shirt and cap holds a few raspberries in his hand as he stands in front of canes.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/857fa9381ce9e5dcc26cc71313e679cf?impolicy=wcms_crop_resize&cropH=2501&cropW=3751&xPos=219&yPos=409&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-24/cooler-spring-blamed-tas-late-berry-cherry-harvest/106173424"
-          },
-          "contentUri": "coremedia://article/106173424",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-24/cooler-spring-blamed-tas-late-berry-cherry-harvest/106173424",
-          "video": null,
-          "reactKey": "tas-106173424-1",
-          "synopsis": "Christmas is usually a boom time for Tasmanian berry producers, but this year's cold spring has slowed crops and hurt profits.",
-          "title": {
-            "children": "Christmas boom on hold as berries, cherries ripen too late"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106177108",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "Sign outside the Hobart Private Hospital",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1badb9fa9c0996ec9b4c350b02ed2066?impolicy=wcms_crop_resize&cropH=667&cropW=997&xPos=1&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2025-12-24/hobart-private-hospital-sale-calvary-abortion-concerns/106177108"
-          },
-          "contentUri": "coremedia://article/106177108",
-          "canonicalURL": "https://www.abc.net.au/news/2025-12-24/hobart-private-hospital-sale-calvary-abortion-concerns/106177108",
-          "video": null,
-          "reactKey": "tas-106177108-1",
-          "synopsis": "The operator of the Hobart Private Hospital has agreed to sell the facility to Catholic healthcare provider Calvary, leading to concerns about access to surgical abortions, vasectomies and some other legal procedures.",
-          "title": {
-            "children": "Hospital sale leads to concerns about private abortion access in Hobart"
           },
           "imageContainerClassNames": []
         }
