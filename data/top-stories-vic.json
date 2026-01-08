@@ -13,7 +13,10 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106212648"
+          "uri": "coremedia://article/106212726"
+        },
+        {
+          "uri": "coremedia://article/106212764"
         },
         {
           "uri": "coremedia://article/106210362"
@@ -117,11 +120,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106212648",
+          "id": "106212726",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -129,24 +138,55 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Burnt out trees and smouldering embers.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9869f043afb01153fa6400b58a103563?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=862&height=575",
+            "altText": "A photo of a bushfire taken during the night.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bdfe96af4b31dcf5e7413d4eec9d99ef?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=127&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2026-01-09/catastrophic-extreme-bushfire-warning-for-victoria/106211318"
+            "to": "/news/2026-01-09/fire-weather-heatwave-live-blog-victoria-sa-nsw/106212116"
           },
-          "contentUri": "coremedia://article/106212648",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-09/catastrophic-extreme-bushfire-warning-for-victoria/106211318",
+          "contentUri": "coremedia://article/106212726",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-09/fire-weather-heatwave-live-blog-victoria-sa-nsw/106212116",
           "video": null,
-          "reactKey": "vic-106212648-1",
-          "synopsis": "A \"catastrophic\" fire warning is now in place for large parts of Victoria and two out-of-control bushfires continue to spread, as authorities warn of \"dangerous\" conditions to come.",
+          "reactKey": "vic-106212726-1",
+          "synopsis": "Victorian and South Australian authorities are bracing for \"catastrophic\" and \"extreme\" fire conditions as Australia continues to swelter through a heatwave. Follow live.",
           "title": {
-            "children": "'Catastrophic' fire warning for Victoria as out-of-control bushfires grow"
+            "children": "Town of Ruffy 'severely' impacted by bushfire, CFA confirms, as thousands lose power across Victoria"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106212764",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "Christine Pulis pictured on her rural property. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c5d0fc0bd5f1d67e9fa6ac0f7a05f77f?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=132&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2026-01-09/vic-catastrophic-fire-warning-bushfires-fri-walwa-longwood/106210230"
+          },
+          "contentUri": "coremedia://article/106212764",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-09/vic-catastrophic-fire-warning-bushfires-fri-walwa-longwood/106210230",
+          "video": null,
+          "reactKey": "vic-106212764-1",
+          "synopsis": "Catastrophic fire danger warnings are in place across parts of Victoria's north and west today, with two significant fires already burning out of control and soaring temperatures forecast on Friday.",
+          "title": {
+            "children": "'It's my home': Victorians evacuate as fires intensify"
+          },
+          "imageContainerClassNames": []
         }
       },
       {
