@@ -13,7 +13,7 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106215542"
+          "uri": "coremedia://article/106215924"
         },
         {
           "uri": "coremedia://article/106214346"
@@ -22,10 +22,10 @@
           "uri": "coremedia://article/106213662"
         },
         {
-          "uri": "coremedia://article/106214222"
+          "uri": "coremedia://article/106214406"
         },
         {
-          "uri": "coremedia://article/106214406"
+          "uri": "coremedia://article/106214222"
         },
         {
           "uri": "coremedia://article/106215858"
@@ -114,11 +114,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106215542",
+          "id": "106215924",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -126,20 +132,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "Fires are blazing across Victoria, including the Walwa fire in the state's north-east.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bddd250cee14a11a87f3478043f0a095?impolicy=wcms_crop_resize&cropH=912&cropW=1368&xPos=183&yPos=0&width=862&height=575",
+            "altText": "A burnt-down home near Longwood.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9339a727e745a8f49e70991ea135db4f?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2026-01-10/bushfires-victoria-homes-razed-people-missing/106214638"
+            "to": "/news/2026-01-10/state-of-disaster-declared-bushfires-victoria/106215462"
           },
-          "contentUri": "coremedia://article/106215542",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-10/bushfires-victoria-homes-razed-people-missing/106214638",
+          "contentUri": "coremedia://article/106215924",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-10/state-of-disaster-declared-bushfires-victoria/106215462",
           "video": null,
-          "reactKey": "national-106215542-1",
-          "synopsis": "Three people remain missing and Victoria's premier has declared a state of disaster as fast-moving bushfires threaten dozens of towns.",
+          "reactKey": "national-106215924-1",
+          "synopsis": "Three emergency-level bushfires continue to rage across Victoria after a state of disaster was declared by Victorian Premier Jacinta Allen. Follow live. ",
           "title": {
-            "children": "State of disaster declared in Victoria as out-of-control fires continue to burn"
+            "children": "Emergency-level fires rage out of control across Victoria"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -211,37 +217,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106214222",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A Menorah moved to Bondi Beach by Waverley Council.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4842939127bd3de84a9a478e9d814ed5?impolicy=wcms_crop_resize&cropH=959&cropW=1439&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2026-01-10/nsw-bondi-beach-terror-attack-royal-commission-explainer/106214222"
-          },
-          "contentUri": "coremedia://article/106214222",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-10/nsw-bondi-beach-terror-attack-royal-commission-explainer/106214222",
-          "video": null,
-          "reactKey": "national-106214222-1",
-          "synopsis": "After growing calls for a royal commission into the Bondi terror attack, the prime minister has finally announced it would take place, saying it \"was what Australia needs\".",
-          "title": {
-            "children": "The Bondi royal commission is due to report in April. Here's what we know"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [
             {
               "labelText": "analysis",
@@ -272,6 +247,37 @@
           "synopsis": "There have been plenty of examples of the Trump administration's contempt for legalities, diplomacy and alliances but this week Trump and his lieutenants went further.",
           "title": {
             "children": "The rhetoric of the Trump administration has taken a chilling turn"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106214222",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A Menorah moved to Bondi Beach by Waverley Council.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4842939127bd3de84a9a478e9d814ed5?impolicy=wcms_crop_resize&cropH=959&cropW=1439&xPos=0&yPos=0&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2026-01-10/nsw-bondi-beach-terror-attack-royal-commission-explainer/106214222"
+          },
+          "contentUri": "coremedia://article/106214222",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-10/nsw-bondi-beach-terror-attack-royal-commission-explainer/106214222",
+          "video": null,
+          "reactKey": "national-106214222-1",
+          "synopsis": "After growing calls for a royal commission into the Bondi terror attack, the prime minister has finally announced it would take place, saying it \"was what Australia needs\".",
+          "title": {
+            "children": "The Bondi royal commission is due to report in April. Here's what we know"
           },
           "imageContainerClassNames": []
         }
