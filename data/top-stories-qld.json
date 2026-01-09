@@ -63,7 +63,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
@@ -86,13 +92,20 @@
           "canonicalURL": "https://www.abc.net.au/news/2026-01-09/tropical-low-to-hit-far-north-queensland-late-friday/106211562",
           "video": null,
           "reactKey": "qld-106211562-1",
-          "synopsis": "A tropical low off the Coral Coast could have the potential to become a tropical cyclone over the weekend, as residents across the far North Coast prepare for heavy rainfall. ",
+          "synopsis": "A tropical low off the Coral Coast could have the potential to become a tropical cyclone over the weekend, as residents across the far-north prepare for heavy rainfall. ",
           "title": {
-            "children": "Moderate chance of tropical cyclone developing off Qld's north-east coast"
+            "children": "'High' likelihood of a tropical cyclone developing off Qld's north-east coast"
           },
           "imageContainerClassNames": [
             "imageHalf"
-          ]
+          ],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
