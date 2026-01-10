@@ -189,7 +189,13 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [],
           "id": "106213662",
           "imagePosition": {
@@ -214,7 +220,14 @@
           "title": {
             "children": "North Queensland braces for tropical cyclone likely to form today"
           },
-          "imageContainerClassNames": []
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "moment",
+            "countdowns": null,
+            "isLiveMoment": true
+          },
+          "liveBlogKeyEvents": []
         }
       },
       {
@@ -900,7 +913,7 @@
           "reactKey": "national-106216272-1",
           "synopsis": "Behind every emergency in WA, from bushfires to whale rescues, a state duty officer is making critical decisions. New hire Erin Tassell is breaking new ground in a key government department.",
           "title": {
-            "children": "Former helicopter firefighter breaks down gender barriers in WA"
+            "children": "Ex-helicopter firefighter breaks down gender barriers in WA"
           },
           "imageContainerClassNames": []
         }
