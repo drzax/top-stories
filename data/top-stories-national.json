@@ -58,10 +58,16 @@
           "uri": "coremedia://article/106209074"
         },
         {
-          "uri": "coremedia://article/106205754"
+          "uri": "coremedia://article/106218522"
         },
         {
           "uri": "coremedia://article/106219008"
+        },
+        {
+          "uri": "coremedia://article/106205754"
+        },
+        {
+          "uri": "coremedia://article/106217588"
         },
         {
           "uri": "coremedia://article/106219162"
@@ -70,13 +76,7 @@
           "uri": "coremedia://article/106219014"
         },
         {
-          "uri": "coremedia://article/106218522"
-        },
-        {
           "uri": "coremedia://article/106218994"
-        },
-        {
-          "uri": "coremedia://article/106217588"
         },
         {
           "uri": "coremedia://article/106216122"
@@ -154,7 +154,7 @@
           "reactKey": "national-106219098-1",
           "synopsis": "Firefighters continue to battle fires across the state after the grim news that a person had been found dead and at least 390,000 hectares burnt. Follow live.\n\n ",
           "title": {
-            "children": "Fight to contain deadly Victorian blazes rages on with 300 buildings lost, one dead"
+            "children": "Fight to contain deadly Victorian blazes rages on with 300 buildings lost, one person dead"
           },
           "imageContainerClassNames": [
             "imageHalf"
@@ -469,9 +469,9 @@
           "canonicalURL": "https://www.abc.net.au/news/2026-01-12/cleanbill-bulk-bill-doctor-gp-report-medical/106212998",
           "video": null,
           "reactKey": "national-106212998-1",
-          "synopsis": "The percentage of fully bulk-billing GP clinics has almost doubled, according to a new report, however the government says the data cannot be relied upon.",
+          "synopsis": "The percentage of GP clinics fully bulk-billing has almost doubled, according to a new report, however, the government says the data cannot be relied on.",
           "title": {
-            "children": "Bulk billing rates have almost doubled new report indicates"
+            "children": "Bulk-billing rates have almost doubled, report indicates"
           },
           "imageContainerClassNames": []
         }
@@ -603,6 +603,87 @@
       {
         "name": "VolumeCard",
         "props": {
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
+          "headingClassNames": [],
+          "id": "106218522",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2026-01-12/asx-markets-business-news-live-updates/106218522"
+          },
+          "contentUri": "coremedia://article/106218522",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/asx-markets-business-news-live-updates/106218522",
+          "video": null,
+          "reactKey": "national-106218522-1",
+          "synopsis": "Stock markets in the US, Europe and UK closed at record highs on Friday, giving the ASX a positive lead for today. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
+          "title": {
+            "children": "ASX set to rise after Wall Street hits record despite disappointing jobs data "
+          },
+          "imageContainerClassNames": [],
+          "liveBlogClientContext": {
+            "status": "live",
+            "type": "default",
+            "countdowns": null,
+            "isLiveMoment": false
+          },
+          "liveBlogKeyEvents": [
+            {
+              "id": "251892",
+              "date": "2026-01-11T20:38:34.000Z",
+              "title": "No New Year hangover on Wall Street"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106219008",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "a woman in gloves holds a large cane toad by its feet",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7840d01e0996b4c344bf7ffc0bece2ce?impolicy=wcms_crop_resize&cropH=1515&cropW=2272&xPos=0&yPos=211&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2026-01-12/this-week-in-history-quiz-january-12/106193058"
+          },
+          "contentUri": "coremedia://article/106219008",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/this-week-in-history-quiz-january-12/106193058",
+          "video": null,
+          "reactKey": "national-106219008-1",
+          "synopsis": "How much do you know about giant toads, Batman and Elton John's EGOT? Have a go at our weekly history quiz.",
+          "title": {
+            "children": "History quiz: An EGOT, a giant toad and Sylvia Plath"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "106205754",
@@ -636,7 +717,7 @@
         "props": {
           "contentLabels": [],
           "headingClassNames": [],
-          "id": "106219008",
+          "id": "106217588",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -644,20 +725,20 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "a woman in gloves holds a large cane toad by its feet",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7840d01e0996b4c344bf7ffc0bece2ce?impolicy=wcms_crop_resize&cropH=1515&cropW=2272&xPos=0&yPos=211&width=160&height=107",
+            "altText": "People gathering at a big colourful music and food festival.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ae5f4a4ed31fbd7c560ac2432fd288b?impolicy=wcms_crop_resize&cropH=6336&cropW=9504&xPos=0&yPos=0&width=160&height=107",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2026-01-12/this-week-in-history-quiz-january-12/106193058"
+            "to": "/news/2026-01-12/tasmania-labor-mps-apologises-for-inappropriate-remarks/106217588"
           },
-          "contentUri": "coremedia://article/106219008",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/this-week-in-history-quiz-january-12/106193058",
+          "contentUri": "coremedia://article/106217588",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/tasmania-labor-mps-apologises-for-inappropriate-remarks/106217588",
           "video": null,
-          "reactKey": "national-106219008-1",
-          "synopsis": "Holy giant toads, Batman! Will you ace this week's look back at the past?",
+          "reactKey": "national-106217588-1",
+          "synopsis": "A federal assistant minister and two Tasmanian state Labor MPs apologise after a complaint was made about their behaviour at the Taste of Summer festival in Hobart. ",
           "title": {
-            "children": "History quiz: An EGOT, a giant toad and Sylvia Plath"
+            "children": "Labor MPs apologise over 'shoot, shag or marry' game at public festival"
           },
           "imageContainerClassNames": []
         }
@@ -727,56 +808,6 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [
-            {
-              "labelText": "live",
-              "contentType": "live",
-              "lang": "en"
-            }
-          ],
-          "headingClassNames": [],
-          "id": "106218522",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1714&cropW=2563&xPos=248&yPos=188&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2026-01-12/asx-markets-business-news-live-updates/106218522"
-          },
-          "contentUri": "coremedia://article/106218522",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/asx-markets-business-news-live-updates/106218522",
-          "video": null,
-          "reactKey": "national-106218522-1",
-          "synopsis": "Stock markets in the US, Europe and UK closed at record highs on Friday, giving the ASX a positive lead for today. Follow the day's events and insights from our business reporters on the ABC News live markets blog. ",
-          "title": {
-            "children": "ASX set to rise after Wall Street hits record despite disappointing jobs data "
-          },
-          "imageContainerClassNames": [],
-          "liveBlogClientContext": {
-            "status": "live",
-            "type": "default",
-            "countdowns": null,
-            "isLiveMoment": false
-          },
-          "liveBlogKeyEvents": [
-            {
-              "id": "251892",
-              "date": "2026-01-11T20:38:34.000Z",
-              "title": "No New Year hangover on Wall Street"
-            }
-          ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
           "contentLabels": [],
           "headingClassNames": [],
           "id": "106218994",
@@ -801,37 +832,6 @@
           "synopsis": "Police are investigating reports of an Islamic community leader being assaulted after he and his wife were forced off the road by a vehicle and racially abused in Dandenong South.",
           "title": {
             "children": "Muslim leader and wife allegedly abused, assaulted in Melbourne"
-          },
-          "imageContainerClassNames": []
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106217588",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "People gathering at a big colourful music and food festival.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ae5f4a4ed31fbd7c560ac2432fd288b?impolicy=wcms_crop_resize&cropH=6336&cropW=9504&xPos=0&yPos=0&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2026-01-12/tasmania-labor-mps-apologises-for-inappropriate-remarks/106217588"
-          },
-          "contentUri": "coremedia://article/106217588",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-12/tasmania-labor-mps-apologises-for-inappropriate-remarks/106217588",
-          "video": null,
-          "reactKey": "national-106217588-1",
-          "synopsis": "A federal assistant minister and two Tasmanian state Labor MPs apologise after a complaint was made about their behaviour at the Taste of Summer festival in Hobart. ",
-          "title": {
-            "children": "Labor MPs apologise over 'shoot, shag or marry' game at public festival"
           },
           "imageContainerClassNames": []
         }
