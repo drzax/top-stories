@@ -13,16 +13,16 @@
       },
       "items": [
         {
-          "uri": "coremedia://article/106222804"
-        },
-        {
-          "uri": "coremedia://article/106222802"
+          "uri": "coremedia://article/106222932"
         },
         {
           "uri": "coremedia://article/106220966"
         },
         {
           "uri": "coremedia://article/106219750"
+        },
+        {
+          "uri": "coremedia://article/106222802"
         },
         {
           "uri": "coremedia://article/106221530"
@@ -114,11 +114,17 @@
       {
         "name": "VolumeCard",
         "props": {
-          "contentLabels": [],
+          "contentLabels": [
+            {
+              "labelText": "live",
+              "contentType": "live",
+              "lang": "en"
+            }
+          ],
           "headingClassNames": [
             "headingBigDesktop"
           ],
-          "id": "106222804",
+          "id": "106222932",
           "imagePosition": {
             "mobile": "right",
             "tablet": "left",
@@ -126,55 +132,24 @@
           },
           "isMajor": false,
           "image": {
-            "altText": "An older man in a high-vis shirt stands near a fence, behind which stand the mangled remains of a large building.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b55a892b1507f1c5fe7819607e45a906?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
+            "altText": "The edge of a road with burnt buildings to the side",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e74f82d53f5858060d153bc8d82f436?impolicy=wcms_crop_resize&cropH=2811&cropW=4217&xPos=392&yPos=0&width=862&height=575",
             "imgRatio": "3x2"
           },
           "link": {
-            "to": "/news/2026-01-13/coolstore-harcourt-fires-aftermath-ravenswood/106221066"
+            "to": "/news/2026-01-13/live-blog-victorian-bushfires-emergency-weather/106222152"
           },
-          "contentUri": "coremedia://article/106222804",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-13/coolstore-harcourt-fires-aftermath-ravenswood/106221066",
+          "contentUri": "coremedia://article/106222932",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-13/live-blog-victorian-bushfires-emergency-weather/106222152",
           "video": null,
-          "reactKey": "vic-106222804-1",
-          "synopsis": "More than 90 businesses used the coolstore in the central Victorian town of Harcourt to store wine, beer, apples, and other produce. Now it's gone.",
+          "reactKey": "vic-106222932-1",
+          "synopsis": "Firefighters continue to battle fires across the state after the grim news that a person had been found dead and at least 400,000 hectares have been burnt. Follow live.",
           "title": {
-            "children": "Scores of businesses affected as bushfire destroys beloved storage facility"
+            "children": "Threat of more severe weather in Victoria as 179 homes lost to blazes"
           },
           "imageContainerClassNames": [
             "imageHalf"
           ]
-        }
-      },
-      {
-        "name": "VolumeCard",
-        "props": {
-          "contentLabels": [],
-          "headingClassNames": [],
-          "id": "106222802",
-          "imagePosition": {
-            "mobile": "right",
-            "tablet": "left",
-            "desktop": "left"
-          },
-          "isMajor": false,
-          "image": {
-            "altText": "A black and white photo of Eloise Worledge, aged 8, who went missing in 1976.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/662c6dafc9394f7536fd1ff631c9f957?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=201&width=160&height=107",
-            "imgRatio": "3x2"
-          },
-          "link": {
-            "to": "/news/2026-01-13/eloise-worledge-reward-missing-victoria-police/106221834"
-          },
-          "contentUri": "coremedia://article/106222802",
-          "canonicalURL": "https://www.abc.net.au/news/2026-01-13/eloise-worledge-reward-missing-victoria-police/106221834",
-          "video": null,
-          "reactKey": "vic-106222802-1",
-          "synopsis": "Fifty years after an eight-year-old girl vanished from her Beaumaris house, police increase their reward for information from $10,000 to $1 million. ",
-          "title": {
-            "children": "Police post $1m reward 50 years after Eloise disappeared from bedroom "
-          },
-          "imageContainerClassNames": []
         }
       },
       {
@@ -235,6 +210,37 @@
           "synopsis": "A town in the NSW Snowy Mountains is housing evacuees seeking refuge from the Victorian bushfires.",
           "title": {
             "children": "Tourists replaced by bushfire evacuees at border holiday town"
+          },
+          "imageContainerClassNames": []
+        }
+      },
+      {
+        "name": "VolumeCard",
+        "props": {
+          "contentLabels": [],
+          "headingClassNames": [],
+          "id": "106222802",
+          "imagePosition": {
+            "mobile": "right",
+            "tablet": "left",
+            "desktop": "left"
+          },
+          "isMajor": false,
+          "image": {
+            "altText": "A black and white photo of Eloise Worledge, aged 8, who went missing in 1976.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/662c6dafc9394f7536fd1ff631c9f957?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=201&width=160&height=107",
+            "imgRatio": "3x2"
+          },
+          "link": {
+            "to": "/news/2026-01-13/eloise-worledge-reward-missing-victoria-police/106221834"
+          },
+          "contentUri": "coremedia://article/106222802",
+          "canonicalURL": "https://www.abc.net.au/news/2026-01-13/eloise-worledge-reward-missing-victoria-police/106221834",
+          "video": null,
+          "reactKey": "vic-106222802-1",
+          "synopsis": "Fifty years after an eight-year-old girl vanished from her Beaumaris house, police increase their reward for information from $10,000 to $1 million. ",
+          "title": {
+            "children": "Police post $1m reward 50 years after Eloise disappeared from bedroom "
           },
           "imageContainerClassNames": []
         }
@@ -358,7 +364,7 @@
           "reactKey": "vic-106162622-1",
           "synopsis": "Throughout her career, former ice dancer Matilda Friend struggled with disordered eating and felt pressure to look a certain way. ABC's Women's Sport survey shows she isn't the only one.",
           "title": {
-            "children": "'How can I make my body look like that?': The pressures on elite female athletes"
+            "children": "'How can I make my body look like that?' The pressures on elite female athletes"
           },
           "imageContainerClassNames": []
         }
