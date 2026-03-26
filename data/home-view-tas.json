@@ -182,26 +182,14 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5512674",
-    "uri": "coremedia://collection/5512674",
-    "title": "Tas Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
-        "type": "generic",
-        "id": "106489496",
-        "contentUri": "coremedia://article/106489496",
+        "type": "rich",
+        "id": "106500916",
+        "targetId": "106495272",
+        "contentUri": "coremedia://teaser/106500916",
         "label": null,
-        "link": "/news/2026-03-24/fuel-prices-tourism-freight-economic-impacts-tasmania/106489496",
-        "title": "Travel bookings cancelled, freight costs up as fuel crisis deepens",
+        "title": "TassieCast: The manosphere creeping into Tassie classrooms",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -215,32 +203,80 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Rising fuel costs and concerns about supply affect the wider Tasmanian economy, and some service stations run out of unleaded petrol."
+                    "content": "The manosphere is reaching into Tassie classrooms, fuelling misogyny and anti-social behaviour."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "How and why are men, particular young men, getting caught up in it web?"
                   }
                 ]
               }
             ]
           }
         },
-        "image": {
-          "altText": "Fuel pumps and screens depicting prices for petrol and diesal at a service station.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b313b339f4e091181e5675f73ecfbc00?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=389&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-03-26T19:00:00+00:00",
+          "lastUpdated": "2026-03-26T19:00:00+00:00"
         },
-        "tags": [
+        "link": "https://www.abc.net.au/listen/programs/abc-tassiecast/abc-tassiecast-manosphere-teachers-students-families-influencers/106495272",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [
+            {
+              "id": "106495272",
+              "canonicalURL": "https://www.abc.net.au/listen/programs/abc-tassiecast/abc-tassiecast-manosphere-teachers-students-families-influencers/106495272",
+              "uri": "coremedia://audioepisode/106495272",
+              "duration": 870,
+              "url": "https://mediacore-live-production.akamaized.net/audio/02/iv/Z/s5.mp3"
+            }
+          ],
+          "articles": []
+        },
+        "gallery": [
           {
-            "title": "Petrol Prices",
-            "link": "/news/topic/petrol-prices",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
+            "altText": "Graphic of boy on phone while men yell in background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15222e1b44364f1b11bf73b6ad334c09?impolicy=wcms_crop_resize&cropH=2160&cropW=2160&xPos=840&yPos=0&width=862&height=862"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
-      },
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/15222e1b44364f1b11bf73b6ad334c09?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/15222e1b44364f1b11bf73b6ad334c09?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/15222e1b44364f1b11bf73b6ad334c09?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575",
+            "altText": "Graphic of boy on phone while men yell in background",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [],
+        "readTime": null
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5512674",
+    "uri": "coremedia://collection/5512674",
+    "title": "Tas Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106497922",
