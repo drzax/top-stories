@@ -9,6 +9,89 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106506346",
+        "targetId": "106501586",
+        "contentUri": "coremedia://teaser/106506346",
+        "label": null,
+        "title": "Calls to move Katherine Hospital after back-to-back flood evacuations",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "After Katherine's worst flood in 28 years, residents are calling for governments to act on a decades-old idea to relocate the NT town's hospital away from the flood-prone river."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-03-27T19:57:18+00:00",
+          "lastUpdated": "2026-03-27T19:57:18+00:00"
+        },
+        "link": "/news/2026-03-28/katherine-hospital-calls-for-relocation-after-flood-evacuations/106501586",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A white sign with katherine hospital main entrance written on it and a red part on the bottom which reads emergency",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12cbdc59c5b4675d11c4d8c964eda7c4?impolicy=wcms_crop_resize&cropH=3072&cropW=3072&xPos=768&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/12cbdc59c5b4675d11c4d8c964eda7c4?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=240&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/12cbdc59c5b4675d11c4d8c964eda7c4?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/12cbdc59c5b4675d11c4d8c964eda7c4?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A white sign with katherine hospital main entrance written on it and a red part on the bottom which reads emergency",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Matthew Garrick",
+            "title": "By Matthew Garrick",
+            "link": "https://www.abc.net.au/listen/programs/the-case-of/matthew-garrick/105635800",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "M",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6824ad687411f33a55b67202d2d0ff97?impolicy=wcms_crop_resize&cropH=2000&cropW=2000&xPos=0&yPos=46&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Floods",
+            "link": "/news/topic/floods",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4
+      },
+      {
         "type": "generic",
         "id": "106499742",
         "contentUri": "coremedia://article/106499742",
@@ -485,7 +568,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5555990",
+    "uri": "coremedia://collection/5555990",
+    "title": "NT Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106494864",
@@ -531,19 +626,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5555990",
-    "uri": "coremedia://collection/5555990",
-    "title": "NT Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106501226",
