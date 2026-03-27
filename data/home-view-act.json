@@ -9,11 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "rich",
-        "id": "106500040",
-        "targetId": "106498950",
-        "contentUri": "coremedia://teaser/106500040",
+        "type": "generic",
+        "id": "106498950",
+        "contentUri": "coremedia://article/106498950",
         "label": null,
+        "link": "/news/2026-03-26/rising-fuel-prices-drive-surge-demand-emergency-support-canberra/106498950",
         "title": "Fuel costs drive COVID-like surge in demand for emergency relief",
         "content": {
           "descriptor": {
@@ -35,56 +35,70 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-03-26T08:35:43+00:00",
-          "lastUpdated": "2026-03-26T23:14:06+00:00"
+        "image": {
+          "altText": "A Vinnie's worker from behind.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74fdc9b76566f4a30508fbce93ce86b9?impolicy=wcms_crop_resize&cropH=2342&cropW=3122&xPos=521&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-03-26/rising-fuel-prices-drive-surge-demand-emergency-support-canberra/106498950",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A Vinnie's worker from behind.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74fdc9b76566f4a30508fbce93ce86b9?impolicy=wcms_crop_resize&cropH=2342&cropW=2342&xPos=911&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/74fdc9b76566f4a30508fbce93ce86b9?impolicy=wcms_crop_resize&cropH=2342&cropW=4163&xPos=1&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/74fdc9b76566f4a30508fbce93ce86b9?impolicy=wcms_crop_resize&cropH=2342&cropW=3513&xPos=326&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74fdc9b76566f4a30508fbce93ce86b9?impolicy=wcms_crop_resize&cropH=2342&cropW=3513&xPos=326&yPos=0&width=862&height=575",
-            "altText": "A Vinnie's worker from behind.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
         "tags": [
-          {
-            "text": "Lois Maskiell",
-            "title": "By Lois Maskiell",
-            "link": "https://www.abc.net.au/news/lois-maskiell/105861140",
-            "type": "author",
-            "key": "Tag1"
-          },
           {
             "title": "Petrol Prices",
             "link": "/news/topic/petrol-prices",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag2"
+            "key": "Tag1"
           }
         ],
-        "readTime": 3
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106494962",
+        "contentUri": "coremedia://article/106494962",
+        "label": null,
+        "link": "/news/2026-03-27/goulburn-community-farm-opens-after-significant-delays/106494962",
+        "title": "'Electrons to the people:' Neighbours build commercial solar farm",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Hundreds of residents of a rural NSW town combine to build their own commercial solar farm, demonstrating the community benefits of renewable energy."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Family of six sitting and smailing amongst a solar farm",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ee9cdd21d54a95f7fbc72a9b4e314c10?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Renewable Energy",
+            "link": "/news/topic/renewable-energy",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -423,7 +437,19 @@
           }
         ],
         "readTime": 3
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5512668",
+    "uri": "coremedia://collection/5512668",
+    "title": "ACT Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106496520",
@@ -469,19 +495,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5512668",
-    "uri": "coremedia://collection/5512668",
-    "title": "ACT Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106496984",
@@ -2011,52 +2025,6 @@
           {
             "title": "World Politics",
             "link": "/news/topic/world-politics",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106495388",
-        "contentUri": "coremedia://article/106495388",
-        "label": null,
-        "link": "/news/2026-03-26/tasmanian-teacher-strike-to-hit-southern-schools/106495388",
-        "title": "Teachers' strike shuts Hobart and southern government schools",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Industrial action by teachers seeking better conditions means government schools in southern Tasmania, including in the Hobart area, are shut today."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Images from a rally with people holding placards.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6bba9ea3d459b3a708075057c1620885?impolicy=wcms_crop_resize&cropH=2832&cropW=3776&xPos=232&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Industrial Action",
-            "link": "/news/topic/industrial-action",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
