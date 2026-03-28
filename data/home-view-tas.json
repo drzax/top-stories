@@ -405,30 +405,91 @@
     "moduleLabel": "More News",
     "items": [
       {
-        "type": "medium",
-        "id": "106508114",
-        "contentUri": "coremedia://teaser/106508114",
+        "type": "rich",
+        "id": "106508110",
+        "targetId": "106423580",
+        "contentUri": "coremedia://teaser/106508110",
         "label": null,
-        "link": "/news/2026-03-29/mal-leyland-leyland-brothers-reveals-dementia-diagnosis-/106211680",
-        "title": "'A lover of life': Mal Leyland eyes off one final trip before dementia decline",
-        "image": {
-          "altText": "Man in his 80s wearing a collared shirt smiles, behind in post-graphic is a black and white photo of same man younger, shirtless",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/448a88969beb61e4be9a1890641067ff?impolicy=wcms_crop_resize&cropH=2025&cropW=2700&xPos=450&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+        "title": "'It's a nightmare': Complaints pile up over Booking.com grievances",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Hundreds of complaints against Booking.com are piling up as customers and hosts allege they've lost money, their property has been trashed and no one is taking responsibility."
+                  }
+                ]
+              }
+            ]
+          }
         },
+        "dates": {
+          "firstPublished": "2026-03-28T18:48:58+00:00",
+          "lastUpdated": "2026-03-28T18:48:58+00:00"
+        },
+        "link": "/news/2026-03-29/booking-com-complaints-accommodation-fair-trading/106423580",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A laptop on a table with the booking.com website, a coconut drink and two logos of a palm and umbrella.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d47a2f3c24079565e8175ff494ccafe?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/3d47a2f3c24079565e8175ff494ccafe?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/3d47a2f3c24079565e8175ff494ccafe?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d47a2f3c24079565e8175ff494ccafe?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "A laptop on a table with the booking.com website, a coconut drink and two logos of a palm and umbrella.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
-            "title": "Human Interest",
-            "link": "/news/topic/human-interest",
+            "title": "Consumer Protection",
+            "link": "/news/topic/consumer-protection",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Consumer Confidence",
+            "link": "/news/topic/consumer-confidence",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "readTime": 8
+      },
+      {
+        "type": "generic",
+        "id": "106211680",
+        "contentUri": "coremedia://article/106211680",
+        "label": null,
+        "link": "/news/2026-03-29/mal-leyland-leyland-brothers-reveals-dementia-diagnosis-/106211680",
+        "title": "'A lover of life': Mal Leyland eyes off one final trip before dementia decline",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -448,6 +509,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Man in his 80s wearing a collared shirt smiles, behind in post-graphic is a black and white photo of same man younger, shirtless",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/448a88969beb61e4be9a1890641067ff?impolicy=wcms_crop_resize&cropH=2025&cropW=2700&xPos=450&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Human Interest",
+            "link": "/news/topic/human-interest",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -456,7 +534,7 @@
         "contentUri": "coremedia://article/106496900",
         "label": null,
         "link": "/news/2026-03-29/apartment-living-with-children-housing-density-affordability/106496900",
-        "title": "In a quest for an affordable mortgage in our location of choice, my family tried apartment living",
+        "title": "Family's living experiment reveals horrors of Australian apartment design",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -490,58 +568,6 @@
             "link": "/news/topic/property-prices",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106485982",
-        "contentUri": "coremedia://article/106485982",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-03-29/artificial-intelligence-albanese-data-centres-anthropic/106485982",
-        "title": "Is Labor trusting big tech too much? ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As an artificial intelligence revolution approaches, the government is responding to a huge opportunity in data-centre development while balancing copyright concerns and workforce anxiety. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Rowland stands in the prime minister's courtyard smiling.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c15de5819a76510c0beafbe851a8e78?impolicy=wcms_crop_resize&cropH=2671&cropW=3561&xPos=441&yPos=147&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Clare Armstrong",
-            "title": "Analysis by Clare Armstrong",
-            "link": "https://www.abc.net.au/news/clare-armstrong/105969816",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "C",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/223fdd88faa7e2b5ceb352887a3e288a?impolicy=wcms_crop_resize&cropH=1363&cropW=1363&xPos=1506&yPos=36&width=160&height=160"
-            },
-            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -673,12 +699,12 @@
       },
       {
         "type": "generic",
-        "id": "106497978",
-        "contentUri": "coremedia://article/106497978",
+        "id": "106485982",
+        "contentUri": "coremedia://article/106485982",
         "theme": "sand",
         "label": null,
-        "link": "/news/2026-03-29/senate-report-misinformation-climate-change-recommendations/106497978",
-        "title": "Australia has to attack misinformation about climate change, Senate report says",
+        "link": "/news/2026-03-29/artificial-intelligence-albanese-data-centres-anthropic/106485982",
+        "title": "Is Labor trusting big tech too much? ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -692,7 +718,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Australia needs to increase its efforts to fight back against misinformation about climate change, a Senate report says."
+                    "content": "As an artificial intelligence revolution approaches, the government is responding to a huge opportunity in data-centre development while balancing copyright concerns and workforce anxiety. "
                   }
                 ]
               }
@@ -700,21 +726,21 @@
           }
         },
         "image": {
-          "altText": "The silhouette of an oil pumpjack in the foreground with a wind turbine in the background.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/db7c7fc537efe03818c5933963dfded1?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Rowland stands in the prime minister's courtyard smiling.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c15de5819a76510c0beafbe851a8e78?impolicy=wcms_crop_resize&cropH=2671&cropW=3561&xPos=441&yPos=147&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Gareth Hutchens",
-            "title": "Analysis by Gareth Hutchens",
-            "link": "https://www.abc.net.au/news/gareth-hutchens/12002796",
+            "text": "Clare Armstrong",
+            "title": "Analysis by Clare Armstrong",
+            "link": "https://www.abc.net.au/news/clare-armstrong/105969816",
             "avatar": {
               "alt": "",
-              "fallbackLetter": "G",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a881abfa24cfd146acd8f2c4ac909a45?impolicy=wcms_crop_resize&cropH=2541&cropW=2541&xPos=0&yPos=0&width=160&height=160"
+              "fallbackLetter": "C",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/223fdd88faa7e2b5ceb352887a3e288a?impolicy=wcms_crop_resize&cropH=1363&cropW=1363&xPos=1506&yPos=36&width=160&height=160"
             },
             "type": "combined",
             "key": "Tag1"
@@ -803,6 +829,58 @@
       },
       {
         "type": "generic",
+        "id": "106497978",
+        "contentUri": "coremedia://article/106497978",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-03-29/senate-report-misinformation-climate-change-recommendations/106497978",
+        "title": "Australia has to attack misinformation about climate change, Senate report says",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia needs to increase its efforts to fight back against misinformation about climate change, a Senate report says."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "The silhouette of an oil pumpjack in the foreground with a wind turbine in the background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/db7c7fc537efe03818c5933963dfded1?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Gareth Hutchens",
+            "title": "Analysis by Gareth Hutchens",
+            "link": "https://www.abc.net.au/news/gareth-hutchens/12002796",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "G",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a881abfa24cfd146acd8f2c4ac909a45?impolicy=wcms_crop_resize&cropH=2541&cropW=2541&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106485730",
         "contentUri": "coremedia://article/106485730",
         "theme": "lilac",
@@ -848,58 +926,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106506974",
-        "contentUri": "coremedia://article/106506974",
-        "label": null,
-        "link": "/news/2026-03-29/free-public-transport-april-victoria-fuel-prices-cost-of-living/106506974",
-        "title": "Public transport to be free for Victorians in April",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Victorian government says public transport will be free across the state in April in a bid to relieve cost-of-living pressure as fuel prices continue to climb."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Melbourne Metro city loop train",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9d3be3181d97a1491125aac14321daa0?impolicy=wcms_crop_resize&cropH=1723&cropW=2297&xPos=360&yPos=265&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Public Transport",
-            "link": "/news/topic/public-transport",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
-        "id": "106508152",
-        "targetId": "106405158",
-        "contentUri": "coremedia://teaser/106508152",
+        "id": "106508226",
+        "targetId": "106489672",
+        "contentUri": "coremedia://teaser/106508226",
         "label": null,
-        "title": "From confectionery to boot polish, show bags were originally free sample bags",
+        "title": "How a 5,000-year-old garment went from being called 'traditional' to the Met Gala",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -913,7 +945,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The \"uniquely Australian\" tradition of the show bag dates back more than a century, and shows no sign of dying out."
+                    "content": "For many South Asians, museums in the West have historically been places where their cultures were displayed as static artefacts. An exhibition like The Offbeat Sari has flipped that script, presenting South Asian creativity as innovative and globally influential. "
                   }
                 ]
               }
@@ -921,10 +953,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-03-28T21:04:56+00:00",
-          "lastUpdated": "2026-03-28T21:04:56+00:00"
+          "firstPublished": "2026-03-28T18:30:00+00:00",
+          "lastUpdated": "2026-03-28T18:30:00+00:00"
         },
-        "link": "/news/2026-03-29/show-bags-sideshow-alley-history-australian-tradition/106405158",
+        "link": "/news/2026-03-29/the-offbeat-sari-exhibition-priya-khanchandani-indian-fashion/106489672",
         "related": {
           "title": null,
           "videos": [],
@@ -933,37 +965,37 @@
         },
         "gallery": [
           {
-            "altText": "Two boys wearing headresses share a drink beside their sample bags",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=824&cropW=824&xPos=135&yPos=0&width=862&height=862"
+            "altText": "Priya Khanchandani wearing a cream coloured sari poses",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1d9958a5ad02afaa7e63d37cdd072bc?impolicy=wcms_crop_resize&cropH=1012&cropW=1012&xPos=0&yPos=195&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=606&cropW=1078&xPos=0&yPos=189&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/c1d9958a5ad02afaa7e63d37cdd072bc?impolicy=wcms_crop_resize&cropH=569&cropW=1012&xPos=0&yPos=416&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/c1d9958a5ad02afaa7e63d37cdd072bc?impolicy=wcms_crop_resize&cropH=673&cropW=1009&xPos=26&yPos=409&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575",
-            "altText": "Two boys wearing headresses share a drink beside their sample bags",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1d9958a5ad02afaa7e63d37cdd072bc?impolicy=wcms_crop_resize&cropH=673&cropW=1009&xPos=26&yPos=409&width=862&height=575",
+            "altText": "Priya Khanchandani wearing a cream coloured sari poses",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "text": "Sarah Moss",
-            "title": "By Sarah Moss",
-            "link": "https://www.abc.net.au/news/sarah-moss/9304316",
+            "text": "Angelica Silva",
+            "title": "By Angelica Silva",
+            "link": "https://www.abc.net.au/news/angelica-silva/13852448",
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "ABC Illawarra",
-            "link": "https://www.abc.net.au/illawarra/",
+            "title": "ABC Arts",
+            "link": "http://www.abc.net.au/arts/",
             "type": "infoSource",
             "key": "Tag2"
           }
@@ -971,11 +1003,11 @@
         "readTime": 4
       },
       {
-        "type": "rich",
-        "id": "106508080",
-        "targetId": "106489772",
-        "contentUri": "coremedia://teaser/106508080",
+        "type": "generic",
+        "id": "106489772",
+        "contentUri": "coremedia://article/106489772",
         "label": null,
+        "link": "/news/2026-03-29/obongjayar-paradise-now-australia-fred-again-little-simz-nigeria/106489772",
         "title": "Obongjayar is the genre-defying Nigerian star challenging stereotypes",
         "content": {
           "descriptor": {
@@ -997,55 +1029,24 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-03-28T18:30:00+00:00",
-          "lastUpdated": "2026-03-28T18:30:00+00:00"
+        "image": {
+          "altText": "Nigerian-British man with short dreads, wearing black sleeveless top and puffy, fashionable pants, crouches with arms out front.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c64b95ab1f4b57715b85731dc027930f?impolicy=wcms_crop_resize&cropH=768&cropW=1024&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-03-29/obongjayar-paradise-now-australia-fred-again-little-simz-nigeria/106489772",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Nigerian-British man with short dreads, wearing black sleeveless top and puffy, fashionable pants, crouches with arms out front.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c64b95ab1f4b57715b85731dc027930f?impolicy=wcms_crop_resize&cropH=768&cropW=768&xPos=128&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/c64b95ab1f4b57715b85731dc027930f?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=150&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/c64b95ab1f4b57715b85731dc027930f?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=85&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c64b95ab1f4b57715b85731dc027930f?impolicy=wcms_crop_resize&cropH=683&cropW=1024&xPos=0&yPos=85&width=862&height=575",
-            "altText": "Nigerian-British man with short dreads, wearing black sleeveless top and puffy, fashionable pants, crouches with arms out front.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
         "tags": [
           {
-            "text": "Al Newstead",
-            "title": "By Al Newstead",
-            "link": "https://www.abc.net.au/news/al-newstead/104160540",
-            "type": "author",
+            "title": "Music",
+            "link": "/news/topic/music",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
-          },
-          {
-            "title": "Double J",
-            "link": "https://www.abc.net.au/listen/doublej/",
-            "type": "infoSource",
-            "key": "Tag2"
           }
         ],
-        "readTime": 7
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -1085,52 +1086,6 @@
           {
             "title": "Comedy",
             "link": "/news/topic/comedy",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106489672",
-        "contentUri": "coremedia://article/106489672",
-        "label": null,
-        "link": "/news/2026-03-29/the-offbeat-sari-exhibition-priya-khanchandani-indian-fashion/106489672",
-        "title": "How a 5,000-year-old garment went from being called 'traditional' to the Met Gala",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "For many South Asians, museums in the West have historically been places where their cultures were displayed as static artefacts. An exhibition like The Offbeat Sari has flipped that script, presenting South Asian creativity as innovative and globally influential. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Priya Khanchandani wearing a cream coloured sari poses",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1d9958a5ad02afaa7e63d37cdd072bc?impolicy=wcms_crop_resize&cropH=758&cropW=1011&xPos=18&yPos=375&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Fashion",
-            "link": "/news/topic/fashion",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1264,6 +1219,52 @@
       },
       {
         "type": "generic",
+        "id": "106506974",
+        "contentUri": "coremedia://article/106506974",
+        "label": null,
+        "link": "/news/2026-03-29/free-public-transport-april-victoria-fuel-prices-cost-of-living/106506974",
+        "title": "Public transport to be free for Victorians in April",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Victorian government says public transport will be free across the state in April in a bid to relieve cost-of-living pressure as fuel prices continue to climb."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Melbourne Metro city loop train",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9d3be3181d97a1491125aac14321daa0?impolicy=wcms_crop_resize&cropH=1723&cropW=2297&xPos=360&yPos=265&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Public Transport",
+            "link": "/news/topic/public-transport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106167550",
         "contentUri": "coremedia://article/106167550",
         "label": null,
@@ -1355,6 +1356,119 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "106508152",
+        "targetId": "106405158",
+        "contentUri": "coremedia://teaser/106508152",
+        "label": null,
+        "title": "From confectionery to boot polish, show bags were originally free sample bags",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The \"uniquely Australian\" tradition of the show bag dates back more than a century, and shows no sign of dying out."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-03-28T21:04:56+00:00",
+          "lastUpdated": "2026-03-28T21:04:56+00:00"
+        },
+        "link": "/news/2026-03-29/show-bags-sideshow-alley-history-australian-tradition/106405158",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Two boys wearing headresses share a drink beside their sample bags",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=824&cropW=824&xPos=135&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "A showbag filled with lollipops held up in a showbag van. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10975beb65e988675fd9afd5443ea43e?impolicy=wcms_crop_resize&cropH=1154&cropW=1154&xPos=523&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "A woman holds a showbag in a showbag van. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1a18ccee67be15b498cf7adb86cb5c4d?impolicy=wcms_crop_resize&cropH=1154&cropW=1154&xPos=0&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=606&cropW=1078&xPos=0&yPos=189&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575",
+            "altText": "Two boys wearing headresses share a drink beside their sample bags",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/10975beb65e988675fd9afd5443ea43e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=2&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/10975beb65e988675fd9afd5443ea43e?impolicy=wcms_crop_resize&cropH=1154&cropW=1731&xPos=234&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10975beb65e988675fd9afd5443ea43e?impolicy=wcms_crop_resize&cropH=1154&cropW=1731&xPos=234&yPos=0&width=862&height=575",
+            "altText": "A showbag filled with lollipops held up in a showbag van. ",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/1a18ccee67be15b498cf7adb86cb5c4d?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=1&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/1a18ccee67be15b498cf7adb86cb5c4d?impolicy=wcms_crop_resize&cropH=1154&cropW=1731&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1a18ccee67be15b498cf7adb86cb5c4d?impolicy=wcms_crop_resize&cropH=1154&cropW=1731&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A woman holds a showbag in a showbag van. ",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Sarah Moss",
+            "title": "By Sarah Moss",
+            "link": "https://www.abc.net.au/news/sarah-moss/9304316",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Illawarra",
+            "link": "https://www.abc.net.au/illawarra/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4
+      },
+      {
         "type": "generic",
         "id": "106505004",
         "contentUri": "coremedia://article/106505004",
@@ -1392,6 +1506,52 @@
           {
             "title": "Government and Politics",
             "link": "/news/topic/government-and-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106507286",
+        "contentUri": "coremedia://article/106507286",
+        "label": null,
+        "link": "/news/2026-03-29/locations-of-two-new-sydney-shark-listening-stations-revealed/106507286",
+        "title": "Locations of two new shark listening stations for Sydney revealed",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Sydney's lower north shore and eastern suburbs are likely locations for two new shark listening devices following a spate of attacks earlier this year. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A female bull shark in the water ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef3e2efa6ac10d599892662d1d18c456?impolicy=wcms_crop_resize&cropH=2813&cropW=3750&xPos=0&yPos=1714&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Shark Attacks",
+            "link": "/news/topic/shark-attacks",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1480,52 +1640,6 @@
       },
       {
         "type": "generic",
-        "id": "106503578",
-        "contentUri": "coremedia://article/106503578",
-        "label": null,
-        "link": "/news/2026-03-29/millions-for-aboriginal-body-to-help-at-risk-families-keep-kids/106503578",
-        "title": "Program that helped Tarnika keep her child out of care is going statewide",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The team of case workers at Tharawal Aboriginal Corporation in south-west Sydney helping to prevent children from going into foster care is about to double in size."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Tarnika Steward holds her young son as she looks at him smiling",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce9533129d7d27132fdf2935c17388a6?impolicy=wcms_crop_resize&cropH=3072&cropW=4096&xPos=347&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Indigenous Australians",
-            "link": "/news/topic/indigenous-australians",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106506806",
         "contentUri": "coremedia://article/106506806",
         "label": null,
@@ -1572,11 +1686,11 @@
       },
       {
         "type": "generic",
-        "id": "106507286",
-        "contentUri": "coremedia://article/106507286",
+        "id": "106469934",
+        "contentUri": "coremedia://article/106469934",
         "label": null,
-        "link": "/news/2026-03-29/locations-of-two-new-sydney-shark-listening-stations-revealed/106507286",
-        "title": "Locations of two new shark listening stations for Sydney revealed",
+        "link": "/news/2026-03-29/wayne-coolwell-photography-first-nations-showcase-state-library/106469934",
+        "title": "'Cool cat' of journalism captured decades of Australian history on 35mm film",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1590,7 +1704,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Sydney's lower north shore and eastern suburbs are likely locations for two new shark listening devices following a spate of attacks earlier this year. "
+                    "content": "Journalist and broadcaster Wayne Coolwell documented years of Indigenous culture with his 35mm camera. The photographs are going on showcase at the State Library."
                   }
                 ]
               }
@@ -1598,16 +1712,16 @@
           }
         },
         "image": {
-          "altText": "A female bull shark in the water ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef3e2efa6ac10d599892662d1d18c456?impolicy=wcms_crop_resize&cropH=2813&cropW=3750&xPos=0&yPos=1714&width=160&height=120",
+          "altText": "Black and white film photo of a man sitting at a radio mic in a booth",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f0a74b85155de8f203a8bbfe8ffead1?impolicy=wcms_crop_resize&cropH=3313&cropW=4417&xPos=64&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Shark Attacks",
-            "link": "/news/topic/shark-attacks",
+            "title": "Indigenous Culture",
+            "link": "/news/topic/indigenous-culture",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1618,11 +1732,11 @@
       },
       {
         "type": "rich",
-        "id": "106508152",
-        "targetId": "106405158",
-        "contentUri": "coremedia://teaser/106508152",
+        "id": "106508170",
+        "targetId": "106503578",
+        "contentUri": "coremedia://teaser/106508170",
         "label": null,
-        "title": "From confectionery to boot polish, show bags were originally free sample bags",
+        "title": "$350m funding boost to help 'prevent another stolen generation'",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1636,7 +1750,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The \"uniquely Australian\" tradition of the show bag dates back more than a century, and shows no sign of dying out."
+                    "content": "The team of case workers at Tharawal Aboriginal Corporation in south-west Sydney helping to prevent children from going into foster care is about to double in size."
                   }
                 ]
               }
@@ -1644,10 +1758,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-03-28T21:04:56+00:00",
-          "lastUpdated": "2026-03-28T21:04:56+00:00"
+          "firstPublished": "2026-03-28T20:37:41+00:00",
+          "lastUpdated": "2026-03-28T21:46:27+00:00"
         },
-        "link": "/news/2026-03-29/show-bags-sideshow-alley-history-australian-tradition/106405158",
+        "link": "/news/2026-03-29/millions-for-aboriginal-body-to-help-at-risk-families-keep-kids/106503578",
         "related": {
           "title": null,
           "videos": [],
@@ -1656,38 +1770,44 @@
         },
         "gallery": [
           {
-            "altText": "Two boys wearing headresses share a drink beside their sample bags",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=824&cropW=824&xPos=135&yPos=0&width=862&height=862"
+            "altText": "Tarnika Steward holds her young son as she looks at him smiling",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce9533129d7d27132fdf2935c17388a6?impolicy=wcms_crop_resize&cropH=3072&cropW=3072&xPos=859&yPos=0&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=606&cropW=1078&xPos=0&yPos=189&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/ce9533129d7d27132fdf2935c17388a6?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ce9533129d7d27132fdf2935c17388a6?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/988404a95b1ccb42f37f5d4572c467eb?impolicy=wcms_crop_resize&cropH=719&cropW=1078&xPos=0&yPos=63&width=862&height=575",
-            "altText": "Two boys wearing headresses share a drink beside their sample bags",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce9533129d7d27132fdf2935c17388a6?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Tarnika Steward holds her young son as she looks at him smiling",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "text": "Sarah Moss",
-            "title": "By Sarah Moss",
-            "link": "https://www.abc.net.au/news/sarah-moss/9304316",
+            "text": "Gavin Coote",
+            "title": "By Gavin Coote",
+            "link": "https://www.abc.net.au/news/gavin-coote/7487088",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "G",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/39cc10a03e626124bd3ed5678c19c273?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=160&height=160"
+            },
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "ABC Illawarra",
-            "link": "https://www.abc.net.au/illawarra/",
-            "type": "infoSource",
+            "title": "Indigenous Australians",
+            "link": "/news/topic/indigenous-australians",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
@@ -1858,52 +1978,6 @@
       },
       {
         "type": "generic",
-        "id": "106469934",
-        "contentUri": "coremedia://article/106469934",
-        "label": null,
-        "link": "/news/2026-03-29/wayne-coolwell-photography-first-nations-showcase-state-library/106469934",
-        "title": "'Cool cat' of journalism captured decades of Australian history on 35mm film",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Journalist and broadcaster Wayne Coolwell documented years of Indigenous culture with his 35mm camera. The photographs are going on showcase at the State Library."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Black and white film photo of a man sitting at a radio mic in a booth",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f0a74b85155de8f203a8bbfe8ffead1?impolicy=wcms_crop_resize&cropH=3313&cropW=4417&xPos=64&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Indigenous Culture",
-            "link": "/news/topic/indigenous-culture",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106508090",
         "contentUri": "coremedia://article/106508090",
         "label": null,
@@ -1950,11 +2024,11 @@
       },
       {
         "type": "generic",
-        "id": "106507204",
-        "contentUri": "coremedia://article/106507204",
+        "id": "106506598",
+        "contentUri": "coremedia://article/106506598",
         "label": null,
-        "link": "/news/2026-03-28/lynwood-rideshare-crash-kills-baby-injures-woman-child/106507204",
-        "title": "Baby killed, woman and child injured as rideshare car hits tree",
+        "link": "/news/2026-03-29/act-police-prosecutors-egregious-conduct-botched-prosecution/106506598",
+        "title": "ACT police, prosecutors accused of 'egregious conduct' over botched prosecution",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1968,7 +2042,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A 7-month-old child has died after a rideshare vehicle crashed into a tree in Perth's south-east, leaving two other passengers seriously injured."
+                    "content": "Lawyers for a Canberra man cleared of 14 family violence charges are calling for an apology and compensation, after police found evidence the complainant fabricated some claims."
                   }
                 ]
               }
@@ -1976,16 +2050,16 @@
           }
         },
         "image": {
-          "altText": "Lynwood crash",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e5ae8d450a810f8f1f29fbc7b27e7188?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=0&yPos=0&width=160&height=120",
+          "altText": "ACT Magistrate Court",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9eadc49925060ffed75d1bd98626ce26?impolicy=wcms_crop_resize&cropH=2667&cropW=3556&xPos=222&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Crime",
-            "link": "/news/topic/crime",
+            "title": "Courts",
+            "link": "/news/topic/courts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
