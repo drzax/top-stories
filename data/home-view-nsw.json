@@ -9,6 +9,88 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106513846",
+        "targetId": "106501166",
+        "contentUri": "coremedia://teaser/106513846",
+        "label": null,
+        "title": "Driver was drinking, on phone when he fatally struck teen, court hears",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Bryson Dimovski, 14, was left on an embankment for six hours after Jaycob Gemza fatally struck him in Newcastle in 2023, a court has been told."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-03-30T08:14:25+00:00",
+          "lastUpdated": "2026-03-30T08:17:34+00:00"
+        },
+        "link": "/news/2026-03-30/jaycob-gemza-sentence-hearing-bryson-dimovski-fatal-hit-and-run/106501166",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "jaycob gemza smiling with cloud background",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f032ecc24d86943cda0a10ec4a486fb7?impolicy=wcms_crop_resize&cropH=1125&cropW=1125&xPos=0&yPos=228&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/f032ecc24d86943cda0a10ec4a486fb7?impolicy=wcms_crop_resize&cropH=633&cropW=1125&xPos=0&yPos=511&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/f032ecc24d86943cda0a10ec4a486fb7?impolicy=wcms_crop_resize&cropH=750&cropW=1125&xPos=0&yPos=410&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f032ecc24d86943cda0a10ec4a486fb7?impolicy=wcms_crop_resize&cropH=750&cropW=1125&xPos=0&yPos=410&width=862&height=575",
+            "altText": "jaycob gemza smiling with cloud background",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Nakita Jager",
+            "title": "By Nakita Jager",
+            "link": "https://www.abc.net.au/news/nakita-jager/13498194",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "N",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/258792515ab8c5a180d885c1710b5861?impolicy=wcms_crop_resize&cropH=726&cropW=725&xPos=509&yPos=30&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Newcastle",
+            "link": "https://www.abc.net.au/newcastle/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 2
+      },
+      {
         "type": "generic",
         "id": "106511822",
         "contentUri": "coremedia://article/106511822",
@@ -402,7 +484,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106513586",
@@ -480,19 +574,7 @@
           }
         ],
         "readTime": 4
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106472780",
