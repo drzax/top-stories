@@ -92,6 +92,52 @@
       },
       {
         "type": "generic",
+        "id": "106514676",
+        "contentUri": "coremedia://article/106514676",
+        "label": null,
+        "link": "/news/2026-03-31/qld-illegal-fishing-boats-destroyed-border-force-crackdown/106514676",
+        "title": "Five illegal fishing vessels burned at sea amid ABF crackdown",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Australian Border Force launched a crackdown on illegal fishing in the state's north last month, with 19 boats intercepted since the beginning of the year."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A small fishing skiff burning at sea with a Border Force boat in the background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d96b4824cf5db0d20c1ca9cb22c0ae7c?impolicy=wcms_crop_resize&cropH=1008&cropW=1344&xPos=0&yPos=162&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Illegal Fishing",
+            "link": "/news/topic/illegal-fishing",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106510004",
         "contentUri": "coremedia://article/106510004",
         "label": null,
@@ -129,52 +175,6 @@
             "title": "Agriculture",
             "link": "/news/topic/agriculture",
             "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106512928",
-        "contentUri": "coremedia://article/106512928",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-03-30/queensland-train-track-closures-fuel-crisis-april-easter-weekend/106512928",
-        "title": "What you need to know about track closures in Qld as fuel crisis deepens",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A series of major track closures are set to take place across south-east Queensland from Easter, impacting travellers just as fuel prices begin to bite. Here's what you need to know."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A train crossing a bridge over a river.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dac33dcad54e37cf6bbff44041d1d5af?impolicy=wcms_crop_resize&cropH=1666&cropW=2221&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -263,6 +263,52 @@
           }
         ],
         "readTime": 3
+      },
+      {
+        "type": "medium",
+        "id": "106515252",
+        "contentUri": "coremedia://teaser/106515252",
+        "label": null,
+        "link": "/news/2026-03-30/queensland-train-track-closures-fuel-crisis-april-easter-weekend/106512928",
+        "title": "What you need to know about track closures in Qld as fuel crisis deepens",
+        "theme": "sand",
+        "image": {
+          "altText": "A train crossing a bridge over a river.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dac33dcad54e37cf6bbff44041d1d5af?impolicy=wcms_crop_resize&cropH=1666&cropW=2221&xPos=0&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Explainer",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A series of major track closures are set to take place across south-east Queensland from Easter, impacting travellers just as fuel prices begin to bite. Here's what you need to know."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
       },
       {
         "type": "generic",
@@ -355,7 +401,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106513410",
@@ -447,19 +505,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106513942",
