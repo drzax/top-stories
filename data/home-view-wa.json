@@ -9,11 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "106530354",
-        "contentUri": "coremedia://teaser/106530354",
+        "type": "rich",
+        "id": "106531166",
+        "targetId": "106513492",
+        "contentUri": "coremedia://teaser/106531166",
         "label": null,
-        "link": "/news/2026-04-04/cyclone-narelle-destructive-path-across-australia-pictures-video/106513492",
         "title": "The destructive path of Cyclone Narelle, pieced together frame by frame",
         "content": {
           "descriptor": {
@@ -28,20 +28,85 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "From the very first news reports about Severe Tropical Cyclone Narelle, it was clear this wasn't just another storm. This is the story of how the powerful cyclone impacted the entire span of northern Australia and how communities came together to pick up the pieces."
+                    "content": "From the very first news reports about Severe Tropical Cyclone Narelle, it was clear this wasn't just another storm. This is the story of how the cyclone impacted the entire span of northern Australia and how communities came together to pick up the pieces."
                   }
                 ]
               }
             ]
           }
         },
-        "image": {
-          "altText": "A home shot from above showing extensive damage to a roof.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3f5ae054062abab71a222106f97f7eba?impolicy=wcms_crop_resize&cropH=678&cropW=904&xPos=151&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-04-03T19:39:26+00:00",
+          "lastUpdated": "2026-04-03T19:39:26+00:00"
         },
+        "link": "/news/2026-04-04/cyclone-narelle-destructive-path-across-australia-pictures-video/106513492",
+        "related": {
+          "title": null,
+          "videos": [
+            {
+              "id": "106506540",
+              "canonicalURL": "https://www.abc.net.au/news/2026-03-28/timelapse-of-ex-tropical-cyclone-narelle-s-path-/106506540",
+              "uri": "coremedia://video/106506540",
+              "duration": 9,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/j1/Z/sn.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 1240767,
+                  "bitrate": 928,
+                  "label": "928 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/j1/Z/sm.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 566339,
+                  "bitrate": 400,
+                  "label": "400 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/j1/Z/sl.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 268527,
+                  "bitrate": 169,
+                  "label": "169 kbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "16x9",
+              "image": {
+                "altText": "Timelapse of Tropical Cyclone Narelle's path ",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78ae032b9856b9157e62998ceedcecf2?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "width": "862",
+                "height": "485"
+              },
+              "isVerticalVideo": false
+            }
+          ],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A woman stands wearing sunglasses.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7a2ba512b6edc299c1199bdec82af1cc?impolicy=wcms_crop_resize&cropH=1280&cropW=1280&xPos=320&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/7a2ba512b6edc299c1199bdec82af1cc?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=100&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/7a2ba512b6edc299c1199bdec82af1cc?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7a2ba512b6edc299c1199bdec82af1cc?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A woman stands wearing sunglasses.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "Extreme Weather Events",
@@ -49,10 +114,16 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Cyclones",
+            "link": "/news/topic/cyclones",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 8
       },
       {
         "type": "generic",
