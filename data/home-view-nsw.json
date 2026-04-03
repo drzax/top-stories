@@ -9,6 +9,135 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106531172",
+        "targetId": "106507002",
+        "contentUri": "coremedia://teaser/106531172",
+        "label": null,
+        "title": "Poo of 'endearing' bat worth hundreds of millions, study says",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Bats are often thought of as smelly, ugly and noisy, but a study has revealed the economic and ecological value of one Australian species's poo."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-03T20:15:35+00:00",
+          "lastUpdated": "2026-04-03T20:15:35+00:00"
+        },
+        "link": "/news/2026-04-04/economic-value-australian-grey-headed-flying-fox-bat-poo/106507002",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A grey-headed flying fox hanging from an aviary roof eating from a pink plant as it hangs upside down.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad3b8b0096305fb97c9551deb7406c8f?impolicy=wcms_crop_resize&cropH=1536&cropW=1536&xPos=339&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ad3b8b0096305fb97c9551deb7406c8f?impolicy=wcms_crop_resize&cropH=1296&cropW=2304&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ad3b8b0096305fb97c9551deb7406c8f?impolicy=wcms_crop_resize&cropH=1536&cropW=2304&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad3b8b0096305fb97c9551deb7406c8f?impolicy=wcms_crop_resize&cropH=1536&cropW=2304&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A grey-headed flying fox hanging from an aviary roof eating from a pink plant as it hangs upside down.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Shannon Corvo",
+            "title": "By Shannon Corvo",
+            "link": "https://www.abc.net.au/news/shannon-corvo/10580266",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "S",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/652b6236642b2c8f60c9ee78d8f478fb?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Animals",
+            "link": "/news/topic/animals",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5
+      },
+      {
+        "type": "generic",
+        "id": "106465000",
+        "contentUri": "coremedia://article/106465000",
+        "label": null,
+        "link": "/news/2026-04-04/companion-dog-program-nsw-courts-guide-dogs/106465000",
+        "title": "Wet noses and silky coats helping to steady nerves ahead of court dates",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Therapy dogs in courthouses are helping victims and witnesses of crimes to confront some of their darkest moments, but volunteers say many more are needed."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A hand pats a smiling golden retriever on the head",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64b2dfb8324adf9f46269a864a324f78?impolicy=wcms_crop_resize&cropH=2760&cropW=3680&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "106530346",
         "contentUri": "coremedia://article/106530346",
@@ -319,7 +448,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106529716",
@@ -479,19 +620,7 @@
           }
         ],
         "readTime": 8
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106530486",
@@ -660,442 +789,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106527356",
-        "targetId": "106519800",
-        "contentUri": "coremedia://teaser/106527356",
-        "label": null,
-        "title": "Fridays off: NSW council wants to move to a four-day working week",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Millions of Australians are about to enjoy two consecutive four-day working weeks due to the Easter long weekend. One council in regional NSW wants to make that a permanent set up. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-01T20:29:11+00:00",
-          "lastUpdated": "2026-04-01T20:29:11+00:00"
-        },
-        "link": "/news/2026-04-02/murrumbidgee-council-four-day-work-week/106519800",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A woman wearing glasses stands at a counter in an office speaking to another woman. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0cc5b05ed8901452339c9c25266eb8e?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=924&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/b0cc5b05ed8901452339c9c25266eb8e?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=294&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/b0cc5b05ed8901452339c9c25266eb8e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0cc5b05ed8901452339c9c25266eb8e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A woman wearing glasses stands at a counter in an office speaking to another woman. ",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Melinda Hayter",
-            "title": "By Melinda Hayter",
-            "link": "https://www.abc.net.au/news/melinda-hayter/7105058",
-            "avatar": {
-              "alt": "ABC Riverina journalist, Melinda Hayter.",
-              "fallbackLetter": "M",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1d154e0c3087a5504f3d367784c04032?impolicy=wcms_crop_resize&cropH=560&cropW=560&xPos=391&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Riverina",
-            "link": "https://www.abc.net.au/riverina/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4
-      },
-      {
-        "type": "generic",
-        "id": "106520408",
-        "contentUri": "coremedia://article/106520408",
-        "label": null,
-        "link": "/news/2026-04-02/bestiality-sentence-mickayla-kerim-sydney-district-court/106520408",
-        "title": "Woman avoids jail following 'humiliation' of bestiality charges",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The NSW woman has been convicted of being an accessory to bestiality offences involving her then-husband."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a court building",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7269eabed7885e4209d3d3e25e23b7a4?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106525218",
-        "contentUri": "coremedia://article/106525218",
-        "label": null,
-        "link": "/news/2026-04-02/former-nsw-police-officer-sentenced-over-child-sexual-abuse/106525218",
-        "title": "Former police officer to appeal conviction for sexual assaulting stepdaughter",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A former NSW Police officer convicted of sexually assaulting his teenage step daughter has had his sentence suspended pending a Supreme Court appeal."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "coffs harbour local court sign ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3eef64ea94fdeed24921f50d97ea1924?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106525372",
-        "contentUri": "coremedia://article/106525372",
-        "label": null,
-        "link": "/news/2026-04-02/neo-nazi-joel-davis-granted-bail/106525372",
-        "title": "Neo-Nazi figure charged with threats to 'rhetorically rape' MP granted bail",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Neo-Nazi Joel Davis has been released from custody on bail after a Sydney court heard he only gets to shower once every four days while on remand."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Joel Davis - man with mullet and beard wears green suit jacket and large dark sunglasses taken away by police",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8658c9d0f7659eae8c167a0a955b942d?impolicy=wcms_crop_resize&cropH=1075&cropW=1433&xPos=365&yPos=5&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106525028",
-        "contentUri": "coremedia://article/106525028",
-        "label": null,
-        "link": "/news/2026-04-02/suppression-on-bondi-gunman-naveed-akram-family-identity-denied/106525028",
-        "title": "Bondi gunman fails to have family's identities suppressed for 40 years",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Lawyers for Bondi gunman Naveed Akram fail in a bid to have the identities of his mother, brother and sister protected by a decades-long court suppression order on safety grounds."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Naveed Akram",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72924d9b129058e4c5b1aff5833e2399?impolicy=wcms_crop_resize&cropH=646&cropW=861&xPos=0&yPos=123&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106527426",
-        "contentUri": "coremedia://article/106527426",
-        "label": null,
-        "link": "/news/2026-04-02/newington-teacher-benjamin-collinge-child-grooming-bail/106527426",
-        "title": "Child abuse material, upskirting videos found on teacher's devices, court told",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A former casual teacher at the prestigious Sydney school has been granted bail after his arrest over allegedly grooming a teenage girl last month."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Newington arrest (2)",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7b79cdaef5c0bbe7dd36d689051718c4?impolicy=wcms_crop_resize&cropH=898&cropW=1197&xPos=0&yPos=274&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106437540",
-        "contentUri": "coremedia://article/106437540",
-        "label": null,
-        "link": "/news/2026-04-02/nsw-domestic-and-family-violence-services-workforce-shrinks/106437540",
-        "title": "Why domestic violence social workers are leaving the field in droves",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "In the past year alone, NSW-based domestic and family violence services have seen a 22 per cent increase in new referrals — but in the meantime the workforce has shrunk by 12 per cent."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Michelle Lin Sydney social worker",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/700b8342c4fc6ea5090c3dc3d53f1c7d?impolicy=wcms_crop_resize&cropH=2241&cropW=2988&xPos=869&yPos=106&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Domestic Violence",
-            "link": "/news/topic/domestic-violence",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106528216",
-        "targetId": "106527706",
-        "contentUri": "coremedia://teaser/106528216",
-        "label": null,
-        "title": "Tszyu ready to revive world title dream with Easter Sunday bout",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Tim Tszyu is promising no more slip-ups while candidly confessing to \"falling apart\" after relinquishing his world title in the infamous Sebastian Fundora bloodbath in Las Vegas."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-02T06:30:56+00:00",
-          "lastUpdated": "2026-04-02T06:30:56+00:00"
-        },
-        "link": "/news/2026-04-02/tim-tszyu-denis-nurja-easter-sunday-boxing/106527706",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Australian boxer Tim Tszyu speaks to media during a press conference in Sydney",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a21eed9268ff8119123430d27215d889?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/a21eed9268ff8119123430d27215d889?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/a21eed9268ff8119123430d27215d889?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a21eed9268ff8119123430d27215d889?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Australian boxer Tim Tszyu speaks to media during a press conference in Sydney",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "Boxing",
-            "link": "/news/topic/boxing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "Sport",
-            "link": "/news/topic/sport",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3
       }
     ]
   }
