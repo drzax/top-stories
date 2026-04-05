@@ -92,30 +92,59 @@
         "readTime": 2
       },
       {
-        "type": "medium",
-        "id": "106532366",
-        "contentUri": "coremedia://teaser/106532366",
+        "type": "generic",
+        "id": "106526224",
+        "contentUri": "coremedia://article/106526224",
         "label": null,
-        "link": "/news/2026-04-05/ipswich-cooking-group-connecting-people-through-food/106510498",
-        "title": "For 20 years, this group has used food to connect people living alone",
+        "link": "/news/2026-04-05/bowen-summergarden-cinema-for-sale-after-64-years/106526224",
+        "title": "It hosted Kidman and Luhrmann, now famed regional cinema is up for sale",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "It's the cinema good enough for Luhrmann, Jackman and Kidman, and now this North Queensland icon is up for sale after 64 years."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "Group of mature-aged people eating at a table",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9bfcfb3c991e5ef514106f4249c5e26a?impolicy=wcms_crop_resize&cropH=2216&cropW=2955&xPos=491&yPos=0&width=862&height=647",
+          "altText": "An elderly man in a blue tropical printed shirt standing in front of a movie theatre popcorn.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f0e552b1dad2fa670e5dbc7a9782703?impolicy=wcms_crop_resize&cropH=4000&cropW=5333&xPos=334&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Friendship",
-            "link": "/news/topic/friendship",
+            "title": "Movies",
+            "link": "/news/topic/movies",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106510498",
+        "contentUri": "coremedia://article/106510498",
+        "label": null,
+        "link": "/news/2026-04-05/ipswich-cooking-group-connecting-people-through-food/106510498",
+        "title": "For 20 years, this group has used food to connect people living alone",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -135,6 +164,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Group of mature-aged people eating at a table",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9bfcfb3c991e5ef514106f4249c5e26a?impolicy=wcms_crop_resize&cropH=2216&cropW=2955&xPos=491&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Friendship",
+            "link": "/news/topic/friendship",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -397,7 +443,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106531166",
@@ -511,19 +569,7 @@
           }
         ],
         "readTime": 8
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106467436",
