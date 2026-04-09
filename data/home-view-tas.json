@@ -43,15 +43,7 @@
         "related": {
           "title": null,
           "videos": [],
-          "audio": [
-            {
-              "id": "106541474",
-              "canonicalURL": "https://www.abc.net.au/listen/programs/abc-tassiecast/abc-tassiecast-mental-health-politicians-stress/106541474",
-              "uri": "coremedia://audioepisode/106541474",
-              "duration": 1102,
-              "url": "https://mediacore-live-production.akamaized.net/audio/02/jd/Z/7s.mp3"
-            }
-          ],
+          "audio": [],
           "articles": []
         },
         "gallery": [
@@ -296,12 +288,64 @@
     "moduleLabel": "More News",
     "items": [
       {
+        "type": "generic",
+        "id": "106548400",
+        "contentUri": "coremedia://article/106548400",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-04-10/michelle-grattan-two-different-reactions-to-trump-grandstanding/106548400",
+        "title": "Two leaders, two very different reactions to Trump's Iran grandstanding",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "If you want a basic measure of the difference between Liberal leader Angus Taylor and Nationals leader Matt Canavan, compare their reactions to US President Donald Trump's extraordinary threat this week that \"a whole civilisation will die tonight\"."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Angus Taylor and Matt Canavan",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/840773e0a154ca22ef98b45cc1f7c277?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=676&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Michelle Grattan",
+            "title": "Analysis by Michelle Grattan",
+            "link": "https://www.abc.net.au/news/michelle-grattan/6531568",
+            "avatar": {
+              "alt": "Michelle Grattan",
+              "fallbackLetter": "M",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fd1a53f7146f26f84a3d82c911c6470?impolicy=wcms_crop_resize&cropH=238&cropW=238&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "rich",
         "id": "106549492",
         "targetId": "106402002",
         "contentUri": "coremedia://teaser/106549492",
         "label": null,
-        "title": "Super fund members claim they were 'misled' after being forced to sell assets",
+        "title": "Super members blindsided by change in fund terms and conditions",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -324,7 +368,7 @@
         },
         "dates": {
           "firstPublished": "2026-04-09T18:46:07+00:00",
-          "lastUpdated": "2026-04-09T18:46:07+00:00"
+          "lastUpdated": "2026-04-09T20:42:28+00:00"
         },
         "link": "/news/2026-04-10/telstra-super-direct-access-product-closure-affects-customers/106402002",
         "related": {
@@ -374,11 +418,11 @@
       },
       {
         "type": "generic",
-        "id": "106548194",
-        "contentUri": "coremedia://article/106548194",
+        "id": "106548994",
+        "contentUri": "coremedia://article/106548994",
         "label": null,
-        "link": "/news/2026-04-10/construction-sector-warns-of-housing-delays-mass-layoffs/106548194",
-        "title": "Construction businesses vulnerable to supply chain shock, experts warn",
+        "link": "/news/2026-04-10/uk-intercepts-russian-sub-threat/106548994",
+        "title": "UK deployed military to deter Russian submarines from targeting undersea cables",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -392,7 +436,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Contractors, business owners and economists are warning that thousands of construction industry businesses could go bust as a result of supply chain disruptions caused by the Iran War, unless the government intervenes. "
+                    "content": "The UK issues a warning to Moscow after revealing its military has tracked Russian submarines operating in the North Sea."
                   }
                 ]
               }
@@ -400,16 +444,16 @@
           }
         },
         "image": {
-          "altText": "Housing construction",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d1999f8935c743bdb0a4ee444a8330?impolicy=wcms_crop_resize&cropH=724&cropW=965&xPos=61&yPos=0&width=160&height=120",
+          "altText": "A submarine breaching the surface of the ocean.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/304d68a1b0219e05e3a6cce0013c5dff?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Housing Construction Industry",
-            "link": "/news/topic/housing-construction-industry",
+            "title": "Defence and National Security",
+            "link": "/news/topic/defence-and-national-security",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -420,12 +464,11 @@
       },
       {
         "type": "generic",
-        "id": "106541452",
-        "contentUri": "coremedia://article/106541452",
-        "theme": "sand",
+        "id": "106542626",
+        "contentUri": "coremedia://article/106542626",
         "label": null,
-        "link": "/news/2026-04-10/ndis-social-licence-is-already-crumbling/106541452",
-        "title": "The NDIS's image has taken a beating before — but not like this",
+        "link": "/news/2026-04-10/europe-travel-ess-border-changes-take-effect/106542626",
+        "title": "Travelling to Europe? New biometric border rules start today",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -439,7 +482,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The NDIS's reputation isn't just at risk of coming under pressure, it's well and truly crumbling, write Nas Campanella and Evan Young."
+                    "content": "Australians travelling to Europe will be fingerprinted and face-scanned at the border from today, as authorities activate a sweeping new digital system designed to track who enters and leaves the continent."
                   }
                 ]
               }
@@ -447,23 +490,18 @@
           }
         },
         "image": {
-          "altText": "Mark Butler standing in a corridor in a suit",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4954da6789cd0640c94cba08f2ff7a8f?impolicy=wcms_crop_resize&cropH=3510&cropW=4680&xPos=780&yPos=0&width=160&height=120",
+          "altText": "A man operates an automated EES kiosk at a european border",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c20e7ec42947ea206c250843245484d?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Nas Campanella",
-            "title": "Analysis by Nas Campanella",
-            "link": "https://www.abc.net.au/news/nas-campanella/8869846",
-            "avatar": {
-              "alt": "A vision impaired woman with long hair in a blue dress holding a cane",
-              "fallbackLetter": "N",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cfe008965628b7b6458ae41a1e48d346?impolicy=wcms_crop_resize&cropH=1125&cropW=1125&xPos=438&yPos=0&width=160&height=160"
-            },
-            "type": "combined",
+            "title": "Travel and Tourism",
+            "link": "/news/topic/travel-and-tourism",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -476,7 +514,7 @@
         "targetId": "106541164",
         "contentUri": "coremedia://teaser/106549514",
         "label": null,
-        "title": "Indians speak out after Little India announcement met with racism",
+        "title": "Racism erupts after Melbourne announces Little India plans",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -499,7 +537,7 @@
         },
         "dates": {
           "firstPublished": "2026-04-09T19:30:21+00:00",
-          "lastUpdated": "2026-04-09T20:10:48+00:00"
+          "lastUpdated": "2026-04-09T20:44:10+00:00"
         },
         "link": "/news/2026-04-10/little-india-cultural-precinct-melbourne-indian-community/106541164",
         "related": {
@@ -550,11 +588,12 @@
       },
       {
         "type": "generic",
-        "id": "106542626",
-        "contentUri": "coremedia://article/106542626",
+        "id": "106541452",
+        "contentUri": "coremedia://article/106541452",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-04-10/europe-travel-ess-border-changes-take-effect/106542626",
-        "title": "Queues expected as Europe brings in tighter border measures",
+        "link": "/news/2026-04-10/ndis-social-licence-is-already-crumbling/106541452",
+        "title": "The NDIS's 'social licence' isn't just at risk — it's close to collapse",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -568,7 +607,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Australians travelling to Europe will be fingerprinted and face-scanned at the border from today, as authorities activate a sweeping new digital system designed to track who enters and leaves the continent."
+                    "content": "The NDIS's reputation isn't just at risk of coming under pressure, it's well and truly crumbling, write Nas Campanella and Evan Young."
                   }
                 ]
               }
@@ -576,16 +615,67 @@
           }
         },
         "image": {
-          "altText": "A man operates an automated EES kiosk at a european border",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c20e7ec42947ea206c250843245484d?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=0&yPos=0&width=160&height=120",
+          "altText": "Mark Butler standing in a corridor in a suit",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4954da6789cd0640c94cba08f2ff7a8f?impolicy=wcms_crop_resize&cropH=3510&cropW=4680&xPos=780&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Travel and Tourism",
-            "link": "/news/topic/travel-and-tourism",
+            "text": "Nas Campanella",
+            "title": "Analysis by Nas Campanella",
+            "link": "https://www.abc.net.au/news/nas-campanella/8869846",
+            "avatar": {
+              "alt": "A vision impaired woman with long hair in a blue dress holding a cane",
+              "fallbackLetter": "N",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cfe008965628b7b6458ae41a1e48d346?impolicy=wcms_crop_resize&cropH=1125&cropW=1125&xPos=438&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106548194",
+        "contentUri": "coremedia://article/106548194",
+        "label": null,
+        "link": "/news/2026-04-10/construction-sector-warns-of-housing-delays-mass-layoffs/106548194",
+        "title": "Construction businesses vulnerable to supply chain shock, experts warn",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Contractors, business owners and economists are warning that thousands of construction industry businesses could go bust as a result of supply chain disruptions caused by the Iran War, unless the government intervenes. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Housing construction",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5d1999f8935c743bdb0a4ee444a8330?impolicy=wcms_crop_resize&cropH=724&cropW=965&xPos=61&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Housing Construction Industry",
+            "link": "/news/topic/housing-construction-industry",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -596,56 +686,10 @@
       },
       {
         "type": "generic",
-        "id": "106537496",
-        "contentUri": "coremedia://article/106537496",
+        "id": "106542452",
+        "contentUri": "coremedia://article/106542452",
         "label": null,
-        "link": "/news/2026-04-10/brisbane-renewal-precincts-moreton-bay/106537496",
-        "title": "Warning projects at risk of delay as Queensland suburbs build upwards",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "South-east Queensland councils are building upwards in a bid to house hundreds of thousands of new residents in the coming years."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A rendered image of a street with townhouses and apartments ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1502b1c898bbff50eb3d43dd90854e3?impolicy=wcms_crop_resize&cropH=654&cropW=872&xPos=121&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Urban Development and Planning",
-            "link": "/news/topic/urban-development-and-planning",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106549494",
-        "targetId": "106542452",
-        "contentUri": "coremedia://teaser/106549494",
-        "label": null,
+        "link": "/news/2026-04-10/global-wildlife-trade-report-disease/106542452",
         "title": "Animals on wildlife market more likely to carry human-infecting disease, report finds",
         "content": {
           "descriptor": {
@@ -667,95 +711,17 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-04-09T18:43:24+00:00",
-          "lastUpdated": "2026-04-09T18:43:24+00:00"
-        },
-        "link": "/news/2026-04-10/global-wildlife-trade-report-disease/106542452",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "four birds sit on a ledge inside a market ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f56795c749901b0a43ffad7e76dc9d8c?impolicy=wcms_crop_resize&cropH=2017&cropW=2017&xPos=1454&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/f56795c749901b0a43ffad7e76dc9d8c?impolicy=wcms_crop_resize&cropH=1729&cropW=3074&xPos=926&yPos=144&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/f56795c749901b0a43ffad7e76dc9d8c?impolicy=wcms_crop_resize&cropH=2017&cropW=3026&xPos=950&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f56795c749901b0a43ffad7e76dc9d8c?impolicy=wcms_crop_resize&cropH=2017&cropW=3026&xPos=950&yPos=0&width=862&height=575",
-            "altText": "four birds sit on a ledge inside a market ",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Brianna Morris-Grant",
-            "title": "By Brianna Morris-Grant",
-            "link": "https://www.abc.net.au/news/brianna-morris-grant/13965022",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Disease Outbreak",
-            "link": "/news/topic/disease-outbreak",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 5
-      },
-      {
-        "type": "generic",
-        "id": "106542620",
-        "contentUri": "coremedia://article/106542620",
-        "label": null,
-        "link": "/news/2026-04-09/afl-thursday-crows-blues-blog/106542620",
-        "title": "Crows get home against Blues in the wet in Gather Round opener ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Adelaide Crows send the fans home happy after ending its losing streak by beating Carlton at a packed Adelaide Oval to start Gather Round. Follow live."
-                  }
-                ]
-              }
-            ]
-          }
-        },
         "image": {
-          "altText": "An Adelaide AFL player tries to kick the ball near the boundary as he is tackled by a Carlton player in torrential rain.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4791b15a0aa2a5cbf211d55382ed498f?impolicy=wcms_crop_resize&cropH=3140&cropW=4187&xPos=407&yPos=0&width=160&height=120",
+          "altText": "four birds sit on a ledge inside a market ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f56795c749901b0a43ffad7e76dc9d8c?impolicy=wcms_crop_resize&cropH=2017&cropW=2690&xPos=1118&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "AFL",
-            "link": "/news/topic/afl",
+            "title": "Disease Outbreak",
+            "link": "/news/topic/disease-outbreak",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -766,11 +732,11 @@
       },
       {
         "type": "generic",
-        "id": "106548612",
-        "contentUri": "coremedia://article/106548612",
+        "id": "106547434",
+        "contentUri": "coremedia://article/106547434",
         "label": null,
-        "link": "/news/2026-04-09/nrl-live-updates-bulldogs-vs-panthers/106548612",
-        "title": "Bulldogs stun misfiring Panthers in big boilover victory",
+        "link": "/news/2026-04-10/severe-cyclone-maila-moving-towards-queensland-coast/106547434",
+        "title": "'A real tease': Cyclone Maila weakens as it moves towards Queensland",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -784,7 +750,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Penrith Panthers unbeaten start to the NRL season has been ended in comprehensive fashion by the Bulldogs at Stadium Australia."
+                    "content": "Cyclone Maila has stalled again, pushing back the expected time the category three system will make landfall to Tuesday."
                   }
                 ]
               }
@@ -792,16 +758,16 @@
           }
         },
         "image": {
-          "altText": "Lachlan Galvin celebrates with teammates",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/031df643c3187f6e86f5bdf0ecefcf3b?impolicy=wcms_crop_resize&cropH=2137&cropW=2849&xPos=178&yPos=0&width=160&height=120",
+          "altText": "A satellite image of cyclone Maila off the coast of Australia",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c27e1dde118dabd71e00d18460de80f9?impolicy=wcms_crop_resize&cropH=1271&cropW=1695&xPos=433&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
+            "title": "Cyclones",
+            "link": "/news/topic/cyclones",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -972,6 +938,267 @@
           {
             "title": "Explainer",
             "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106549562",
+        "targetId": "106541596",
+        "contentUri": "coremedia://teaser/106549562",
+        "label": null,
+        "title": "Sister pushes to raise awareness of male eating disorders after tragic loss",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Joe Cappello was 25 years old when he died after a 12-year struggle, and the statistics show many more men at are risk."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-09T19:49:19+00:00",
+          "lastUpdated": "2026-04-09T19:49:19+00:00"
+        },
+        "link": "/news/2026-04-10/jog-for-joe-set-to-raise-awareness-for-mens-eating-disorders/106541596",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A smiling young blonde woman in a brightly-coloured dress cuddles up with a smiling young dark-haired man for in a big house.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1bb066dd18d921d96f8530aee56951a9?impolicy=wcms_crop_resize&cropH=720&cropW=720&xPos=0&yPos=24&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/1bb066dd18d921d96f8530aee56951a9?impolicy=wcms_crop_resize&cropH=405&cropW=720&xPos=0&yPos=45&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/1bb066dd18d921d96f8530aee56951a9?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=54&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1bb066dd18d921d96f8530aee56951a9?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=54&width=862&height=575",
+            "altText": "A smiling young blonde woman in a brightly-coloured dress cuddles up with a smiling young dark-haired man for in a big house.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Jake Kearnan",
+            "title": "By Jake Kearnan",
+            "link": "https://www.abc.net.au/news/jake-kearnan/12941840",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Sunshine Coast",
+            "link": "https://www.abc.net.au/sunshine/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4
+      },
+      {
+        "type": "generic",
+        "id": "106537496",
+        "contentUri": "coremedia://article/106537496",
+        "label": null,
+        "link": "/news/2026-04-10/brisbane-renewal-precincts-moreton-bay/106537496",
+        "title": "Warning projects at risk of delay as Queensland suburbs build upwards",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "South-east Queensland councils are building upwards in a bid to house hundreds of thousands of new residents in the coming years."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A rendered image of a street with townhouses and apartments ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1502b1c898bbff50eb3d43dd90854e3?impolicy=wcms_crop_resize&cropH=654&cropW=872&xPos=121&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Urban Development and Planning",
+            "link": "/news/topic/urban-development-and-planning",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106542734",
+        "contentUri": "coremedia://article/106542734",
+        "label": null,
+        "link": "/news/2026-04-10/stawell-gift-2026-winner-olufemi-komolafe/106542734",
+        "title": "The fourth-year med student from Broken Hill who won the Stawell Gift",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Olufemi Komolafe is Broken Hill's first winner of the Stawell Gift since 1949. The 21-year-old sprinter and med student took out the men’s final at the iconic 2026 foot race in Western Victoria over the Easter long weekend.  "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A young male athelete smiles while holding a large golden trophy. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ff2407edc43a31edf3e56e3397165011?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Sports Achievement",
+            "link": "/news/topic/sports-achievement",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106542458",
+        "contentUri": "coremedia://article/106542458",
+        "label": null,
+        "link": "/news/2026-04-10/mental-health-politicians-better-politics-foundation-study/106542458",
+        "title": "'Most people didn't know': MPs share mental health struggles",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A national study has found 70 per cent of politicians feel their job is affecting their mental health. The ABC spoke to three Tasmanian MPs, including the state's premier, about their experiences."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A composite image using headshots of Ella Haddad, Jeremy Rockliff and Ruth Forrest.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab5887c65097b7c17fa1c4c085642123?impolicy=wcms_crop_resize&cropH=525&cropW=700&xPos=0&yPos=24&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Mental Health",
+            "link": "/news/topic/mental-health",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106537416",
+        "contentUri": "coremedia://article/106537416",
+        "label": null,
+        "link": "/news/2026-04-10/sa-gp-mark-rogers-registration-cancelled-professional-misconduct/106537416",
+        "title": "SA GP with an 'unhealthy obsession' for laser therapy disqualified",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An Adelaide doctor with an \"unhealthy obsession\" for low-level laser therapy has had his registration cancelled after a tribunal found he demonstrated a \"blatant disregard\" of previous orders imposed on his registration."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Close-up photo of a silver and white stethoscope. Dec 2022.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/634eb5b91266c0a2b8cdad64362c3b2f?impolicy=wcms_crop_resize&cropH=2000&cropW=2667&xPos=167&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Doctors and Medical Professionals",
+            "link": "/news/topic/doctors-and-medical-professionals",
+            "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -1202,11 +1429,11 @@
       },
       {
         "type": "generic",
-        "id": "106547468",
-        "contentUri": "coremedia://article/106547468",
+        "id": "106549502",
+        "contentUri": "coremedia://article/106549502",
         "label": null,
-        "link": "/news/2026-04-09/grace-tame-foundation-announces-closure/106547468",
-        "title": "Grace Tame Foundation announces closure",
+        "link": "/news/2026-04-10/police-arrest-three-people-over-fatal-shooting-at-box-hill-tower/106549502",
+        "title": "Police arrest three people over fatal shooting at Box Hill tower",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1220,7 +1447,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Grace Tame Foundation, established by the Tasmanian-born survivor of child sexual abuse, has announced it is closing because securing funding is becoming \"increasingly challenging\"."
+                    "content": "Two men from Bonnie Brook and a woman from Maryborough have been arrested over the death of a 32-year-old man in a suspected targeted shooting."
                   }
                 ]
               }
@@ -1228,16 +1455,16 @@
           }
         },
         "image": {
-          "altText": "A woman wearing a grey cardigan with her hair in a pony tail looks seriously at the camera in a building corridor.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c21f752aba7892404e4dd81db780a1c?impolicy=wcms_crop_resize&cropH=3390&cropW=4520&xPos=486&yPos=634&width=160&height=120",
+          "altText": "Fire trucks parked outside a tower in Box Hill",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aaebf27e4f678aa26182f67d9c480bbe?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=416&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Activism",
-            "link": "/news/topic/activism",
+            "title": "Shootings",
+            "link": "/news/topic/shootings",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1248,11 +1475,11 @@
       },
       {
         "type": "generic",
-        "id": "106545278",
-        "contentUri": "coremedia://article/106545278",
+        "id": "106542620",
+        "contentUri": "coremedia://article/106542620",
         "label": null,
-        "link": "/news/2026-04-10/goalkeeper-andrew-redmayne-marks-300-a-league-game-on-home-turf/106545278",
-        "title": "Goalkeeper Andrew Redmayne marks 300th A-League game on home turf",
+        "link": "/news/2026-04-09/afl-thursday-crows-blues-blog/106542620",
+        "title": "Crows get home against Blues in the wet in Gather Round opener ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1266,7 +1493,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "His career began as a substitute for Mark Bosnich almost 20 years ago, now Andrew Redmayne is joining the A-League's exclusive 300 club. "
+                    "content": "The Adelaide Crows send the fans home happy after ending its losing streak by beating Carlton at a packed Adelaide Oval to start Gather Round. Follow live."
                   }
                 ]
               }
@@ -1274,16 +1501,16 @@
           }
         },
         "image": {
-          "altText": "a white man with a long beard, looking into the distance, he is wearing a blue sports jersey, stadium in background",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b0da8b7847f10d2c5e2d05cc641c31c?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=213&yPos=0&width=160&height=120",
+          "altText": "An Adelaide AFL player tries to kick the ball near the boundary as he is tackled by a Carlton player in torrential rain.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4791b15a0aa2a5cbf211d55382ed498f?impolicy=wcms_crop_resize&cropH=3140&cropW=4187&xPos=407&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Soccer",
-            "link": "/news/topic/soccer",
+            "title": "AFL",
+            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1294,11 +1521,11 @@
       },
       {
         "type": "generic",
-        "id": "106535302",
-        "contentUri": "coremedia://article/106535302",
+        "id": "106548612",
+        "contentUri": "coremedia://article/106548612",
         "label": null,
-        "link": "/news/2026-04-10/werribee-easter-fun-day-families-request-refunds/106535302",
-        "title": "Families demand refunds for Easter carnival which left 'kids in tears'",
+        "link": "/news/2026-04-09/nrl-live-updates-bulldogs-vs-panthers/106548612",
+        "title": "Bulldogs stun misfiring Panthers in big boilover victory",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1312,7 +1539,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A Melbourne council is investigating an Easter event held at the Werribee racecourse after it was criticised by attendees, who said it felt unsafe, underwhelming and poorly organised."
+                    "content": "The Penrith Panthers unbeaten start to the NRL season has been ended in comprehensive fashion by the Bulldogs at Stadium Australia."
                   }
                 ]
               }
@@ -1320,16 +1547,16 @@
           }
         },
         "image": {
-          "altText": "A large number of children and adults search through hay, holding baskets on a sunny day.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55b52b0daab3fb73adde2606bf831159?impolicy=wcms_crop_resize&cropH=2304&cropW=3072&xPos=0&yPos=656&width=160&height=120",
+          "altText": "Lachlan Galvin celebrates with teammates",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/031df643c3187f6e86f5bdf0ecefcf3b?impolicy=wcms_crop_resize&cropH=2137&cropW=2849&xPos=178&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Community and Cultural Events",
-            "link": "/news/topic/community-and-cultural-events",
+            "title": "NRL",
+            "link": "/news/topic/nrl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1340,12 +1567,11 @@
       },
       {
         "type": "generic",
-        "id": "106545972",
-        "contentUri": "coremedia://article/106545972",
-        "theme": "sand",
+        "id": "106549512",
+        "contentUri": "coremedia://article/106549512",
         "label": null,
-        "link": "/news/2026-04-10/qld-what-to-know-about-train-track-closures/106545972",
-        "title": "Track closures continue in Queensland. Here's what you need to know",
+        "link": "/news/2026-04-10/goodna-crash-teenager-charged-dangerous-driving/106549512",
+        "title": "Teenager charged over Ipswich crash that killed 16yo passenger",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1359,7 +1585,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "After a week of \"chaotic\" disruptions, passengers should prepare for further impacts with the extended April track closures to get into full swing."
+                    "content": "A teenage driver has been charged with dangerous driving after a crash that killed his 16-year-old passenger."
                   }
                 ]
               }
@@ -1367,16 +1593,17 @@
           }
         },
         "image": {
-          "altText": "A train at a platform at Roma Street Station in Brisbane",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dad21836682e800cba10829e5d869af7?impolicy=wcms_crop_resize&cropH=1667&cropW=2223&xPos=0&yPos=0&width=160&height=120",
+          "altText": "Two police cars on a city street at night, sirens blazing",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/feb6cb721553baa86b30374f5949b2ae?impolicy=wcms_crop_resize&cropH=997&cropW=1326&xPos=260&yPos=4&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Explainer",
-            "type": "genre",
+            "title": "Police",
+            "link": "/news/topic/police",
+            "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -1505,11 +1732,11 @@
       },
       {
         "type": "generic",
-        "id": "106547604",
-        "contentUri": "coremedia://article/106547604",
+        "id": "106545278",
+        "contentUri": "coremedia://article/106545278",
         "label": null,
-        "link": "/news/2026-04-09/gang-rapist-michael-angok-escapes-custody-bankstown/106547604",
-        "title": "Gang rapist on the run after escaping custody at Sydney hospital",
+        "link": "/news/2026-04-10/goalkeeper-andrew-redmayne-marks-300-a-league-game-on-home-turf/106545278",
+        "title": "'Grey Wiggle' goalie with the World Cup-qualifying save marks 300 games",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1523,7 +1750,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A man convicted of gang raping a 14-year-old girl in a Western Sydney park has escaped from custody while at a hospital. Follow live."
+                    "content": "His career began as a substitute for Mark Bosnich almost 20 years ago, now Andrew Redmayne is joining the A-League's exclusive 300 club. "
                   }
                 ]
               }
@@ -1531,154 +1758,16 @@
           }
         },
         "image": {
-          "altText": "A composite image of a man's face and the same man running across a road.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/373c99ca6f235eadb17e7f3525106483?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=199&yPos=0&width=160&height=120",
+          "altText": "a white man with a long beard, looking into the distance, he is wearing a blue sports jersey, stadium in background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b0da8b7847f10d2c5e2d05cc641c31c?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=213&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Police",
-            "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106546878",
-        "contentUri": "coremedia://article/106546878",
-        "label": null,
-        "link": "/news/2026-04-09/act-bruce-lehrmann-appeal-rejected-by-high-court/106546878",
-        "title": "High Court refuses to hear Bruce Lehrmann's appeal",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The High Court was Bruce Lehrmann's last legal avenue to challenge a Federal Court ruling that found, on the balance of probabilities, he did rape Brittany Higgins."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Bruce walks outside, flanked by others, wearing a blue suit, white shirt and pink tie and glasses.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3b02d6caa9094f1fbac0aaf148098f53?impolicy=wcms_crop_resize&cropH=853&cropW=1137&xPos=456&yPos=127&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106544512",
-        "contentUri": "coremedia://article/106544512",
-        "label": null,
-        "link": "/news/2026-04-09/israel-attacks-lebanon-ceasefire-at-risk/106544512",
-        "title": "Post-ceasefire attacks in Lebanon spark fears war would get 'much worse'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As a shaky ceasefire struggles to get under way, deadly Israeli strikes on Lebanon risk worsening the Middle East conflict."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "thick black smoke rising from buildings",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ffb9a34078facf0193d738839c25303?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=309&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106542010",
-        "contentUri": "coremedia://article/106542010",
-        "label": null,
-        "link": "/news/2026-04-09/is-the-strait-of-hormuz-open-oil-ships-iran-war/106542010",
-        "title": "Is Hormuz open or closed? Shiptracking data reveals true picture",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Traffic through the Strait of Hormuz has remained at an effective standstill in the 24 hours since Iran conditionally lifted its blockade on the critical shipping lane, amid a fragile ceasefire with the US and Israel."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A satellite image of hundreds of ships floating in the ocean.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/69929e3dab86cd24caefe3bedef6838f?impolicy=wcms_crop_resize&cropH=2000&cropW=2667&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "War",
-            "link": "/news/topic/war",
+            "title": "Soccer",
+            "link": "/news/topic/soccer",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1808,180 +1897,6 @@
           }
         ],
         "readTime": 4
-      },
-      {
-        "type": "generic",
-        "id": "106543764",
-        "contentUri": "coremedia://article/106543764",
-        "label": null,
-        "link": "/news/2026-04-09/broome-police-video-shows-woman-shoved-to-ground/106543764",
-        "title": "WA Police launch probe after video shows officer shoving woman to ground during arrest",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "An internal police investigation is underway, after video footage emerged online showing a police officer pushing a woman to the ground in Western Australia's far north. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a woman with short hair looks sternly at the camera ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/abdc76ecbdc42165ab6bce502ee12e0a?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Police",
-            "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106544290",
-        "contentUri": "coremedia://article/106544290",
-        "label": null,
-        "link": "/news/2026-04-09/chinas-role-in-negotiating-ceasefire/106544290",
-        "title": "China's 26 phone calls that brought on a US-Iran ceasefire",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "China's Foreign Minister Wang Yi says he held 26 phone calls with his counterparts in Iran, Israel, Russia and Gulf countries before the ceasefire was reached."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man holds up his index finger while talking.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/503859b7c017ca7ad4df5c9ebfddf2e4?impolicy=wcms_crop_resize&cropH=1632&cropW=2176&xPos=83&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106546854",
-        "targetId": "106544932",
-        "contentUri": "coremedia://teaser/106546854",
-        "label": null,
-        "title": "She hasn't had an injury but $10m horse will never race, heading to retirement instead",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "An owner says she has \"no regrets\" after announcing that the first filly from champion race mare Winx will never race."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-09T03:07:29+00:00",
-          "lastUpdated": "2026-04-09T03:07:29+00:00"
-        },
-        "link": "/news/2026-04-09/10-million-dollar-winx-filly-quinceanera-will-never-race/106544932",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A smiling man with a foal and her mothert, both with dark coats, on a ccountry property.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d8da274df649c7b82d383e6abcf567d?impolicy=wcms_crop_resize&cropH=398&cropW=398&xPos=76&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/0d8da274df649c7b82d383e6abcf567d?impolicy=wcms_crop_resize&cropH=309&cropW=549&xPos=0&yPos=45&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/0d8da274df649c7b82d383e6abcf567d?impolicy=wcms_crop_resize&cropH=366&cropW=549&xPos=0&yPos=16&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d8da274df649c7b82d383e6abcf567d?impolicy=wcms_crop_resize&cropH=366&cropW=549&xPos=0&yPos=16&width=862&height=575",
-            "altText": "A smiling man with a foal and her mothert, both with dark coats, on a ccountry property.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Amelia Bernasconi",
-            "title": "By Amelia Bernasconi",
-            "link": "https://www.abc.net.au/news/amelia-bernasconi/10911684",
-            "avatar": {
-              "alt": "Amelia Bernasconi, wearing a bright pink jacket, leaning on a fence post.",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9f6f3fc29f5352d7ac0374c162d722df?impolicy=wcms_crop_resize&cropH=2443&cropW=2443&xPos=727&yPos=61&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Upper Hunter",
-            "link": "https://www.abc.net.au/upperhunter/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3
       }
     ]
   }
