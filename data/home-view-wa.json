@@ -23,7 +23,32 @@
       "related": {
         "title": null,
         "articles": [],
-        "videos": [],
+        "videos": [
+          {
+            "id": "167392",
+            "canonicalURL": "https://www.abc.net.au/news/2011-05-03/abc-news-channel-stream/167392",
+            "uri": "coremedia://video/167392",
+            "duration": 0,
+            "sources": [
+              {
+                "file": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8",
+                "type": "video/mp4",
+                "fileSize": 0,
+                "bitrate": 480,
+                "label": "480 kbps"
+              }
+            ],
+            "tracks": [],
+            "ratio": "16x9",
+            "image": {
+              "altText": "",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fbe42aac8b99c8e89c94a8c2d6eaecb?impolicy=wcms_crop_resize&cropH=2025&cropW=3600&xPos=0&yPos=0&width=862&height=485",
+              "width": "862",
+              "height": "485"
+            },
+            "isVerticalVideo": false
+          }
+        ],
         "cta": null
       },
       "synopsis": {
@@ -64,8 +89,15 @@
       ],
       "title": "Astronauts hoisted to recovery ship after 'perfect bullseye' landing",
       "theme": "live",
-      "typing": "Dannielle Maguire",
       "updates": [
+        {
+          "title": "First images of space crew's splashdown",
+          "id": "282877",
+          "link": "https://www.abc.net.au/news/2026-04-11/artemis-ii-splashdown-landing-abc-live-blog-moon-mission/106551526#live-blog-post-282877",
+          "dates": {
+            "firstPublished": "2026-04-11T03:31:54.000Z"
+          }
+        },
         {
           "title": "All four crew members have left the Orion",
           "id": "282783",
@@ -80,14 +112,6 @@
           "link": "https://www.abc.net.au/news/2026-04-11/artemis-ii-splashdown-landing-abc-live-blog-moon-mission/106551526#live-blog-post-282781",
           "dates": {
             "firstPublished": "2026-04-11T01:31:52.000Z"
-          }
-        },
-        {
-          "title": "Inflatable lift raft moved into position",
-          "id": "282773",
-          "link": "https://www.abc.net.au/news/2026-04-11/artemis-ii-splashdown-landing-abc-live-blog-moon-mission/106551526#live-blog-post-282773",
-          "dates": {
-            "firstPublished": "2026-04-11T01:24:40.000Z"
           }
         }
       ],
@@ -680,11 +704,15 @@
       },
       {
         "type": "generic",
-        "id": "106553158",
-        "contentUri": "coremedia://article/106553158",
-        "label": null,
-        "link": "/news/2026-04-10/afl-gather-round-collingwood-magpies-fremantle-dockers-adelaide/106553158",
-        "title": "Dockers launch late fightback to pip Magpies in frantic finish",
+        "id": "106542804",
+        "contentUri": "coremedia://article/106542804",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-04-11/afl-kangaroos-lions-bombers-demons-swans-suns-hawks-bulldogs/106542804",
+        "title": "Kangaroos take fight to Lions as Bombers search for first win",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -698,7 +726,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Fremantle wins its fourth match in a row after surviving a tense final few minutes against Collingwood at Adelaide Oval."
+                    "content": "North Melbourne faces its toughest challenge of the season so far against defending premiers Brisbane, while winless Essendon takes on the Demons. Follow live."
                   }
                 ]
               }
@@ -706,8 +734,8 @@
           }
         },
         "image": {
-          "altText": "Jye Amiss flexes his arms during the Dockers' AFL win over the Magpies.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/69b4df2b213f45c4cbc88d0dbff1b7d4?impolicy=wcms_crop_resize&cropH=2058&cropW=2744&xPos=0&yPos=415&width=160&height=120",
+          "altText": "Paul Curtis attempts to palm off Ryan Lester.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd301b57eef48f82e074965f9387f442?impolicy=wcms_crop_resize&cropH=2732&cropW=3642&xPos=0&yPos=46&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1011,7 +1039,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "In an AFL first, St Kilda's Lance Collard has faced an disciplinary tribunal hearing for conduct unbecoming. "
+                    "content": "In an AFL first, St Kilda's Lance Collard has faced a disciplinary tribunal hearing for conduct unbecoming. "
                   }
                 ]
               }
