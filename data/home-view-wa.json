@@ -128,6 +128,56 @@
       },
       {
         "type": "generic",
+        "id": "106580978",
+        "contentUri": "coremedia://article/106580978",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-04-19/afl-sunday-round-six-live-blog-nm-rich-melb-bris-wce-freo/106580978",
+        "title": "Demons star ruled out of epic Lions tussle, Western Derby underway",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Melbourne's Harrison Petty doesn't return for the fourth quarter after sustaining a head knock, with the Demons and Lions poised for an epic finale at the MCG. Follow live."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An AFL player in red and blue celebrates a goal with teammates",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c3e05d1c22ef35f6c5625185cf1f2f5?impolicy=wcms_crop_resize&cropH=2009&cropW=2679&xPos=209&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106579776",
         "contentUri": "coremedia://article/106579776",
         "label": null,
@@ -164,52 +214,6 @@
           {
             "title": "Beef Cattle Farming",
             "link": "/news/topic/beef-cattle-farming",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106571924",
-        "contentUri": "coremedia://article/106571924",
-        "label": null,
-        "link": "/news/2026-04-19/kimberley-diphtheria-diagnosis-rates-raise-northern-wa/106571924",
-        "title": "Kimberley diphtheria rates more than triple in a month after 50-year eradication",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "An outbreak of the long-dormant, highly contagious bacterial infection diphtheria in Western Australia's north is raising alarm among government officials and experts.  "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A student receives a measles vaccine injection at the Ecole Polytechnique Federale de Lausanne (EPFL).",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b1dc70d383eec1b21405d95405141bd9?impolicy=wcms_crop_resize&cropH=2057&cropW=2752&xPos=248&yPos=8&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Infectious Diseases",
-            "link": "/news/topic/infectious-diseases",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -294,6 +298,52 @@
         ],
         "theme": "lilac",
         "readTime": 2
+      },
+      {
+        "type": "generic",
+        "id": "106571924",
+        "contentUri": "coremedia://article/106571924",
+        "label": null,
+        "link": "/news/2026-04-19/kimberley-diphtheria-diagnosis-rates-raise-northern-wa/106571924",
+        "title": "Kimberley diphtheria rates more than triple in a month after 50-year eradication",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An outbreak of the long-dormant, highly contagious bacterial infection diphtheria in Western Australia's north is raising alarm among government officials and experts.  "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A student receives a measles vaccine injection at the Ecole Polytechnique Federale de Lausanne (EPFL).",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b1dc70d383eec1b21405d95405141bd9?impolicy=wcms_crop_resize&cropH=2057&cropW=2752&xPos=248&yPos=8&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Infectious Diseases",
+            "link": "/news/topic/infectious-diseases",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -432,7 +482,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106569140",
@@ -478,19 +540,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106575706",
@@ -529,52 +579,6 @@
           {
             "title": "Assault",
             "link": "/news/topic/assault",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106571188",
-        "contentUri": "coremedia://article/106571188",
-        "label": null,
-        "link": "/news/2026-04-19/ndis-unregistered-providers-6b-savings-price-reform/106571188",
-        "title": "Crackdown on unregistered NDIS providers coming in bid to save $6b a year",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "NDIS Minister Mark Butler will announce reforms to the disability scheme on Wednesday that will aim to save more than $6 billion a year by 2035 — and the largely unregulated market of NDIS providers is at the top of his reform list. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A tent with letters which read N D I S stands tall outside with trees in the background. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a0edb782f57ab83487403e465c732179?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Budget",
-            "link": "/news/topic/budget",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -698,6 +702,52 @@
       },
       {
         "type": "generic",
+        "id": "106571188",
+        "contentUri": "coremedia://article/106571188",
+        "label": null,
+        "link": "/news/2026-04-19/ndis-unregistered-providers-6b-savings-price-reform/106571188",
+        "title": "Crackdown on unregistered NDIS providers coming in bid to save $6b a year",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "NDIS Minister Mark Butler will announce reforms to the disability scheme on Wednesday that will aim to save more than $6 billion a year by 2035 — and the largely unregulated market of NDIS providers is at the top of his reform list. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A tent with letters which read N D I S stands tall outside with trees in the background. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a0edb782f57ab83487403e465c732179?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Budget",
+            "link": "/news/topic/budget",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106567284",
         "contentUri": "coremedia://article/106567284",
         "label": null,
@@ -780,6 +830,52 @@
           {
             "title": "Disabilities",
             "link": "/news/topic/disabilities",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106579712",
+        "contentUri": "coremedia://article/106579712",
+        "label": null,
+        "link": "/news/2026-04-18/gout-gout-wins-100m-under-20-at-junior-athletics-championships/106579712",
+        "title": "Gout celebrates early to win another title, says magic mark 'coming soon'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Gout Gout waves goodbye to his opponents en route to another national under-20 title in the 100m, as the wait goes on for him to dip below the 10-second barrier."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Gout Gout waves at an opponent in the national under-20 100m final.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3531c761a61d6fd31f89cedff644d08c?impolicy=wcms_crop_resize&cropH=467&cropW=623&xPos=389&yPos=240&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Athletics",
+            "link": "/news/topic/athletics",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -906,52 +1002,6 @@
           }
         ],
         "readTime": 7
-      },
-      {
-        "type": "generic",
-        "id": "106579712",
-        "contentUri": "coremedia://article/106579712",
-        "label": null,
-        "link": "/news/2026-04-18/gout-gout-wins-100m-under-20-at-junior-athletics-championships/106579712",
-        "title": "Gout celebrates early to win another title, says magic mark 'coming soon'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Gout Gout waves goodbye to his opponents en route to another national under-20 title in the 100m, as the wait goes on for him to dip below the 10-second barrier."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Gout Gout waves at an opponent in the national under-20 100m final.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3531c761a61d6fd31f89cedff644d08c?impolicy=wcms_crop_resize&cropH=467&cropW=623&xPos=389&yPos=240&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Athletics",
-            "link": "/news/topic/athletics",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -1129,52 +1179,6 @@
           {
             "title": "Taxis and Ride Sharing Services",
             "link": "/news/topic/taxis-and-ride-sharing-services",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106463628",
-        "contentUri": "coremedia://article/106463628",
-        "label": null,
-        "link": "/news/2026-04-17/broome-wayne-jeffrey-doherty-granted-bail-guilty-plea/106463628",
-        "title": "'Upset and angry': WA community shocked by rapist's bail status",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Wayne Jeffrey Doherty remained in the Broome community for five months after pleading guilty to rape."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man with a cowboy hat, sunglasses and beard",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2c2cd112b55a9faaf78dcb49c3ed1d27?impolicy=wcms_crop_resize&cropH=990&cropW=1320&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
