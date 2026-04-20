@@ -160,30 +160,59 @@
         "readTime": 4
       },
       {
-        "type": "medium",
-        "id": "106586670",
-        "contentUri": "coremedia://teaser/106586670",
+        "type": "generic",
+        "id": "106576724",
+        "contentUri": "coremedia://article/106576724",
         "label": null,
-        "link": "/news/2026-04-21/community-braces-for-murray-darling-basin-plan-review/106542666",
-        "title": "Calls for water quality over quantity in Murray-Darling basin plan review",
+        "link": "/news/2026-04-21/australian-war-memorial-curator-finds-4-metre-wwii-short-snorter/106576724",
+        "title": "Four metres of WWII 'short snorter' banknotes signify mateship ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "It is a crime to deface banknotes, but these rare wartime notes covered in scribbles cause excitement whenever they appear. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "Gomeroi elders Ron Waters and Sam Saunders sit on top of the E.J Beardmore Dam near St George, Queensland, August 2023.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3161acdb430245069da6a00835c3153d?impolicy=wcms_crop_resize&cropH=1333&cropW=1777&xPos=0&yPos=0&width=862&height=647",
+          "altText": "man in checkered shirt sitting at table with rows of coloured banknotes",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c25c7c7ab121fc541c35d7b043ee45d?impolicy=wcms_crop_resize&cropH=2001&cropW=2668&xPos=196&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Murray-Darling Basin",
-            "link": "/news/topic/murray-darling-basin",
+            "title": "Anzac Day",
+            "link": "/news/topic/anzac-day",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106542666",
+        "contentUri": "coremedia://article/106542666",
+        "label": null,
+        "link": "/news/2026-04-21/community-braces-for-murray-darling-basin-plan-review/106542666",
+        "title": "Calls for water quality over quantity in Murray-Darling basin plan review",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -203,6 +232,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Gomeroi elders Ron Waters and Sam Saunders sit on top of the E.J Beardmore Dam near St George, Queensland, August 2023.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3161acdb430245069da6a00835c3153d?impolicy=wcms_crop_resize&cropH=1333&cropW=1777&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Murray-Darling Basin",
+            "link": "/news/topic/murray-darling-basin",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -374,7 +420,19 @@
           }
         ],
         "readTime": 2
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "medium",
         "id": "106586552",
@@ -512,19 +570,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106583410",
