@@ -88,6 +88,52 @@
       },
       {
         "type": "generic",
+        "id": "106602120",
+        "contentUri": "coremedia://article/106602120",
+        "label": null,
+        "link": "/news/2026-04-25/anzac-donkey-animals-lost-to-war-mount-gambier/106602120",
+        "title": "The donkey marching for the memory of all animals that serve in war",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Penny the donkey, adorned in bright purple poppies, is spreading the Anzac Day legacy not just in Australia, but also in Cheshire in England."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A grey donkey face up close in a paddock",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5040ef9835c2b771e19461cc0a08a0d1?impolicy=wcms_crop_resize&cropH=1062&cropW=1416&xPos=0&yPos=93&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Anzac Day",
+            "link": "/news/topic/anzac-day",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106601830",
         "contentUri": "coremedia://article/106601830",
         "label": null,
@@ -225,52 +271,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106601670",
-        "contentUri": "coremedia://article/106601670",
-        "label": null,
-        "link": "/news/2026-04-24/oyster-growing-closed-again-toxic-phytoplankton-yorke-peninsula/106601670",
-        "title": "Oyster growers enduring 'death by a thousand cuts' after being closed again",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Oyster growing areas on the Yorke Peninsula are ordered to close due to the detection of a toxic phytoplankton for the second time this year."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man standing waist deep in water ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30121eb76786a7b3dcde064d9392af38?impolicy=wcms_crop_resize&cropH=1303&cropW=1740&xPos=985&yPos=402&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Marine Biology",
-            "link": "/news/topic/marine-biology",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106604478",
         "targetId": "106597168",
@@ -350,6 +350,52 @@
       },
       {
         "type": "generic",
+        "id": "106601670",
+        "contentUri": "coremedia://article/106601670",
+        "label": null,
+        "link": "/news/2026-04-24/oyster-growing-closed-again-toxic-phytoplankton-yorke-peninsula/106601670",
+        "title": "Oyster growers enduring 'death by a thousand cuts' after being closed again",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Oyster growing areas on the Yorke Peninsula are ordered to close due to the detection of a toxic phytoplankton for the second time this year."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man standing waist deep in water ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30121eb76786a7b3dcde064d9392af38?impolicy=wcms_crop_resize&cropH=1303&cropW=1740&xPos=985&yPos=402&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Marine Biology",
+            "link": "/news/topic/marine-biology",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106602274",
         "contentUri": "coremedia://article/106602274",
         "label": null,
@@ -393,7 +439,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106497614",
@@ -439,26 +497,14 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106604112",
         "contentUri": "coremedia://article/106604112",
         "label": null,
         "link": "/news/2026-04-24/afl-round-seven-friday-richmond-melbourne-live-blog/106604112",
-        "title": "Ruthless Demons notch big win as Richmond's winless season continues",
+        "title": "Pickett takes mark of the year contender in Demon's stunning outing",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -480,8 +526,8 @@
           }
         },
         "image": {
-          "altText": "An AFL player in red and blue has his tongue out and fist pumped in front of a player in yellow and black",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3f843b552461a94b98743178dc040141?impolicy=wcms_crop_resize&cropH=2556&cropW=3408&xPos=5&yPos=0&width=160&height=120",
+          "altText": "Melbourne Demons' Kysaiah Pickett jumps into a Richmond player to take a mark in an AFL game.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00f0ba84c80547266d7337f6510130fb?impolicy=wcms_crop_resize&cropH=2918&cropW=3890&xPos=611&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -536,6 +582,52 @@
           {
             "title": "Pests - Horticulture",
             "link": "/news/topic/pests---horticulture",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106598518",
+        "contentUri": "coremedia://article/106598518",
+        "label": null,
+        "link": "/news/2026-04-23/unusually-prolonged-heat-warm-weather-in-adelaide/106598518",
+        "title": "'Unusual' warm weather sees Adelaide residents spending days at beach",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Adelaide residents have been making the most of unusually warm weather for the end of April, with crowds flocking to the beach before the school holidays finish."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "People walking on a jetty",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e66524866164231751e4e55d6c8f14c2?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=170&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Weather",
+            "link": "/news/topic/weather",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -624,52 +716,6 @@
       },
       {
         "type": "generic",
-        "id": "106598518",
-        "contentUri": "coremedia://article/106598518",
-        "label": null,
-        "link": "/news/2026-04-23/unusually-prolonged-heat-warm-weather-in-adelaide/106598518",
-        "title": "'Unusual' warm weather sees Adelaide residents spending days at beach",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Adelaide residents have been making the most of unusually warm weather for the end of April, with crowds flocking to the beach before the school holidays finish."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "People walking on a jetty",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e66524866164231751e4e55d6c8f14c2?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=170&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Weather",
-            "link": "/news/topic/weather",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106604488",
         "contentUri": "coremedia://article/106604488",
         "theme": "sand",
@@ -708,6 +754,58 @@
             "title": "Explainer",
             "type": "genre",
             "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106485956",
+        "contentUri": "coremedia://article/106485956",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-04-25/outcome-farrer-byelection-one-nation-watershed-moment/106485956",
+        "title": "One Nation's outcome in Farrer could be a watershed moment",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Coalition's preference deals in Farrer could help fracture the Liberal Party's moderate base and invigorate dissatisfied voters."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "David Farley speaks while reclining on a park bench.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c3790f86c37af1b48c58ea99ef79f14a?impolicy=wcms_crop_resize&cropH=2323&cropW=3097&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Jacob Greber",
+            "title": "Analysis by Jacob Greber",
+            "link": "https://www.abc.net.au/news/jacob-greber/104135740",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe05d5b4b5df3f4f6bb309d570958f0b?impolicy=wcms_crop_resize&cropH=2053&cropW=2053&xPos=1344&yPos=116&width=160&height=160"
+            },
+            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -793,58 +891,6 @@
       },
       {
         "type": "generic",
-        "id": "106485956",
-        "contentUri": "coremedia://article/106485956",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-04-25/outcome-farrer-byelection-one-nation-watershed-moment/106485956",
-        "title": "One Nation's outcome in Farrer could be a watershed moment",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Coalition's preference deals in Farrer could help fracture the Liberal Party's moderate base and invigorate dissatisfied voters."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "David Farley speaks while reclining on a park bench.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c3790f86c37af1b48c58ea99ef79f14a?impolicy=wcms_crop_resize&cropH=2323&cropW=3097&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Jacob Greber",
-            "title": "Analysis by Jacob Greber",
-            "link": "https://www.abc.net.au/news/jacob-greber/104135740",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "J",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe05d5b4b5df3f4f6bb309d570958f0b?impolicy=wcms_crop_resize&cropH=2053&cropW=2053&xPos=1344&yPos=116&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106601268",
         "contentUri": "coremedia://article/106601268",
         "label": null,
@@ -881,6 +927,52 @@
           {
             "title": "Radio",
             "link": "/news/topic/radio",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106604984",
+        "contentUri": "coremedia://article/106604984",
+        "label": null,
+        "link": "/news/2026-04-25/nato-falklands-spain/106604984",
+        "title": "Leaked Pentagon email shows US wants to punish NATO allies over Iran war",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The email suggests the US may review the UK's claim to the Falkland Islands and Spain's NATO membership as punishment over their stance on the Iran war."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Falkland islanders celebrate referendum result.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f8a52ef4f824f83769c611924e76e1ac?impolicy=wcms_crop_resize&cropH=1362&cropW=1817&xPos=557&yPos=300&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "World Politics",
+            "link": "/news/topic/world-politics",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -971,52 +1063,6 @@
           }
         ],
         "readTime": 13
-      },
-      {
-        "type": "generic",
-        "id": "106604984",
-        "contentUri": "coremedia://article/106604984",
-        "label": null,
-        "link": "/news/2026-04-25/nato-falklands-spain/106604984",
-        "title": "Leaked Pentagon email shows US wants to punish NATO allies over Iran war",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The email suggests the US may review the UK's claim to the Falkland Islands and Spain's NATO membership as punishment over their stance on the Iran war."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Falkland islanders celebrate referendum result.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f8a52ef4f824f83769c611924e76e1ac?impolicy=wcms_crop_resize&cropH=1362&cropW=1817&xPos=557&yPos=300&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "World Politics",
-            "link": "/news/topic/world-politics",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -1111,44 +1157,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106601084",
-        "contentUri": "coremedia://article/106601084",
-        "label": null,
-        "link": "/news/2026-04-25/april-25-5050-quiz/106601084",
-        "title": "Quiz: Test yourself on The Shawshank Redemption, hair metal and Bugs Bunny",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Every question has only two options: one is right, and the other is wrong. You have an even chance of guessing correctly each time."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two prisoners talk in a prison yard.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9988f33c99dd8aa95b8e17d778b73d07?impolicy=wcms_crop_resize&cropH=730&cropW=973&xPos=161&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106605476",
         "targetId": "106587158",
@@ -1233,6 +1241,44 @@
       },
       {
         "type": "generic",
+        "id": "106601084",
+        "contentUri": "coremedia://article/106601084",
+        "label": null,
+        "link": "/news/2026-04-25/april-25-5050-quiz/106601084",
+        "title": "Quiz: Test yourself on The Shawshank Redemption, hair metal and Bugs Bunny",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Every question has only two options: one is right, and the other is wrong. You have an even chance of guessing correctly each time."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Two prisoners talk in a prison yard.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9988f33c99dd8aa95b8e17d778b73d07?impolicy=wcms_crop_resize&cropH=730&cropW=973&xPos=161&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106600970",
         "contentUri": "coremedia://article/106600970",
         "label": null,
@@ -1269,52 +1315,6 @@
           {
             "title": "Drama Movies",
             "link": "/news/topic/drama-movies",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106591508",
-        "contentUri": "coremedia://article/106591508",
-        "label": null,
-        "link": "/news/2026-04-24/nrl-live-updates-cowboys-sharks-broncos-bulldogs/106591508",
-        "title": "Broncos score two NRL Try of the Year contenders in win over Bulldogs",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Injury-hit Brisbane stands tall at a wet and wild Lang Park, scoring two remarkable tries in a 32-12 defeat of Canterbury-Bankstown."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A rugby league player in maroon scores a try in the corner, players in blue and white behind him",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dfd4033760b2751811760d7c2c978f0?impolicy=wcms_crop_resize&cropH=2274&cropW=3032&xPos=340&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
