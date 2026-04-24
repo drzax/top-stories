@@ -36,7 +36,32 @@
         "related": {
           "title": null,
           "articles": [],
-          "videos": [],
+          "videos": [
+            {
+              "id": "167392",
+              "canonicalURL": "https://www.abc.net.au/news/2011-05-03/abc-news-channel-stream/167392",
+              "uri": "coremedia://video/167392",
+              "duration": 0,
+              "sources": [
+                {
+                  "file": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8",
+                  "type": "video/mp4",
+                  "fileSize": 0,
+                  "bitrate": 480,
+                  "label": "480 kbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "16x9",
+              "image": {
+                "altText": "",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fbe42aac8b99c8e89c94a8c2d6eaecb?impolicy=wcms_crop_resize&cropH=2025&cropW=3600&xPos=0&yPos=0&width=862&height=485",
+                "width": "862",
+                "height": "485"
+              },
+              "isVerticalVideo": false
+            }
+          ],
           "cta": null
         },
         "synopsis": {
@@ -72,6 +97,14 @@
         "theme": "live",
         "updates": [
           {
+            "title": "March starts at Australian War Memorial in Canberra",
+            "id": "288744",
+            "link": "https://www.abc.net.au/news/2026-04-25/anzac-day-2026-marches-services-live-updates/106597328#live-blog-post-288744",
+            "dates": {
+              "firstPublished": "2026-04-24T23:35:37.000Z"
+            }
+          },
+          {
             "title": "Ode to the Fallen read by 11yo at Sydney Dawn Service",
             "id": "288740",
             "link": "https://www.abc.net.au/news/2026-04-25/anzac-day-2026-marches-services-live-updates/106597328#live-blog-post-288740",
@@ -86,17 +119,55 @@
             "dates": {
               "firstPublished": "2026-04-24T22:39:22.000Z"
             }
-          },
-          {
-            "title": "Tens of thousands at Melbourne shrine post-service",
-            "id": "288736",
-            "link": "https://www.abc.net.au/news/2026-04-25/anzac-day-2026-marches-services-live-updates/106597328#live-blog-post-288736",
-            "dates": {
-              "firstPublished": "2026-04-24T22:35:56.000Z"
-            }
           }
         ],
         "uri": "coremedia://teaser/106605596"
+      },
+      {
+        "type": "generic",
+        "id": "106605604",
+        "contentUri": "coremedia://article/106605604",
+        "label": null,
+        "link": "/news/2026-04-25/thousands-attend-anzac-day-commemorations-across-sydney-nsw/106605604",
+        "title": "Tears, hymns and prayer as thousands gather at Anzac services in Sydney",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Among the crowd, some held wreaths adorned with the words \"Lest We Forget\" while others pinned sprigs of rosemary and rows of medals to their shirts."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Servicemen and women gather at Martin Place for Anzac Day",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f26eab0d481f3cff40bc37ac0770ba58?impolicy=wcms_crop_resize&cropH=3072&cropW=4096&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Anzac Day",
+            "link": "/news/topic/anzac-day",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -104,7 +175,7 @@
         "contentUri": "coremedia://article/106600788",
         "label": null,
         "link": "/news/2026-04-25/voluntary-assisted-dying-awareness-abc-james-valentine-death/106600788",
-        "title": "James Valentine's 'generous gift' in being public with assisted dying choice",
+        "title": "'Generous gift': James Valentine's voluntary assisted dying legacy",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -136,52 +207,6 @@
           {
             "title": "Death and Dying",
             "link": "/news/topic/death-and-dying",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106603146",
-        "contentUri": "coremedia://article/106603146",
-        "label": null,
-        "link": "/news/2026-04-25/australia-weather-forecasts-suddenly-identical-each-day/106603146",
-        "title": "Why Australia's weather forecasts are suddenly identical each day",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Darwin to Melbourne, and everywhere in between, the seven-day forecasts reveal a monotonous similarity."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a gravel road surrounded by trees in autumnal colours in victoria's yarra valley",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b664b22a0842618268bb03d29ea58be?impolicy=wcms_crop_resize&cropH=934&cropW=1245&xPos=755&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Weather Forecasts",
-            "link": "/news/topic/weather-forecasts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -274,6 +299,98 @@
       },
       {
         "type": "generic",
+        "id": "106603146",
+        "contentUri": "coremedia://article/106603146",
+        "label": null,
+        "link": "/news/2026-04-25/australia-weather-forecasts-suddenly-identical-each-day/106603146",
+        "title": "Why Australia's weather forecasts are suddenly identical each day",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Darwin to Melbourne, and everywhere in between, the seven-day forecasts reveal a monotonous similarity."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a gravel road surrounded by trees in autumnal colours in victoria's yarra valley",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b664b22a0842618268bb03d29ea58be?impolicy=wcms_crop_resize&cropH=934&cropW=1245&xPos=755&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Weather Forecasts",
+            "link": "/news/topic/weather-forecasts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106600658",
+        "contentUri": "coremedia://article/106600658",
+        "label": null,
+        "link": "/news/2026-04-25/mv-steve-irwin-sets-sail-conservation-comeback/106600658",
+        "title": "Scrapped anti-whaling ship bought for $10 makes conservation comeback",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The MV Steve Irwin anti-whaling vessel returns to marine conservation, restored to its former glory, after more than seven years out of action."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a large camo painted ship sails through a harbour",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5859238dbdd03f39ab156c876085bbb8?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Conservation",
+            "link": "/news/topic/conservation",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106542416",
         "contentUri": "coremedia://article/106542416",
         "label": null,
@@ -363,7 +480,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106601308",
@@ -412,64 +541,6 @@
       },
       {
         "type": "generic",
-        "id": "106591508",
-        "contentUri": "coremedia://article/106591508",
-        "label": null,
-        "link": "/news/2026-04-24/nrl-live-updates-cowboys-sharks-broncos-bulldogs/106591508",
-        "title": "Injury-decimated Broncos score spectacular tries to heap more pain on Dogs",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Injury-hit Brisbane stands tall at a wet and wild Lang Park, scoring two remarkable tries in a 32-12 defeat of Canterbury-Bankstown."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A rugby league player in maroon scores a try in the corner, players in blue and white behind him",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dfd4033760b2751811760d7c2c978f0?impolicy=wcms_crop_resize&cropH=2274&cropW=3032&xPos=340&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
-      {
-        "type": "generic",
         "id": "106600726",
         "contentUri": "coremedia://article/106600726",
         "label": null,
@@ -506,52 +577,6 @@
           {
             "title": "Mining Accidents and Incidents",
             "link": "/news/topic/mining-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106597450",
-        "contentUri": "coremedia://article/106597450",
-        "label": null,
-        "link": "/news/2026-04-24/sick-kangaroos-coffs-coast-look-at-me-now-headland/106597450",
-        "title": "Living on idyllic headland poses health problems for mob of kangaroos",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Kangaroos lying on a NSW mid north coast headland may be a \"selfie\" dream for tourists, but some are becoming weak from malnutrition."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "three kangaroos on a beach in dune grass",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8c3c9f6730224ac8baa017699db4733?impolicy=wcms_crop_resize&cropH=1881&cropW=2508&xPos=605&yPos=462&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Animals",
-            "link": "/news/topic/animals",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -642,6 +667,52 @@
           }
         ],
         "readTime": 5
+      },
+      {
+        "type": "generic",
+        "id": "106597450",
+        "contentUri": "coremedia://article/106597450",
+        "label": null,
+        "link": "/news/2026-04-24/sick-kangaroos-coffs-coast-look-at-me-now-headland/106597450",
+        "title": "Living on idyllic headland poses health problems for mob of kangaroos",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Kangaroos lying on a NSW mid north coast headland may be a \"selfie\" dream for tourists, but some are becoming weak from malnutrition."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "three kangaroos on a beach in dune grass",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c8c3c9f6730224ac8baa017699db4733?impolicy=wcms_crop_resize&cropH=1881&cropW=2508&xPos=605&yPos=462&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Animals",
+            "link": "/news/topic/animals",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -773,52 +844,6 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106588220",
-        "contentUri": "coremedia://article/106588220",
-        "label": null,
-        "link": "/news/2026-04-24/nsw-anzac-day-public-holiday-dawn-service-guide/106588220",
-        "title": "Everything to know about Anzac Day in NSW",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "From when to catch the dawn service to what shops will be open, here is everything you need to know about the Anzac Day long weekend in NSW."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A close up of a bouquet of flowers.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f818b99ce021be6b3cb59a10a7fe8702?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=176&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Anzac Day",
-            "link": "/news/topic/anzac-day",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
