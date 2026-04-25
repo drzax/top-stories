@@ -155,32 +155,7 @@
               "dates": null
             }
           ],
-          "videos": [
-            {
-              "id": "167392",
-              "canonicalURL": "https://www.abc.net.au/news/2011-05-03/abc-news-channel-stream/167392",
-              "uri": "coremedia://video/167392",
-              "duration": 0,
-              "sources": [
-                {
-                  "file": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8",
-                  "type": "video/mp4",
-                  "fileSize": 0,
-                  "bitrate": 480,
-                  "label": "480 kbps"
-                }
-              ],
-              "tracks": [],
-              "ratio": "16x9",
-              "image": {
-                "altText": "",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fbe42aac8b99c8e89c94a8c2d6eaecb?impolicy=wcms_crop_resize&cropH=2025&cropW=3600&xPos=0&yPos=0&width=862&height=485",
-                "width": "862",
-                "height": "485"
-              },
-              "isVerticalVideo": false
-            }
-          ],
+          "videos": [],
           "cta": null
         },
         "synopsis": {
@@ -212,7 +187,7 @@
             "key": "Tag1"
           }
         ],
-        "title": "Dawn service in Villers-Bretonneux underway as Australians mark Anzac Day in solemn memorials",
+        "title": "Australians come together to mark Anzac Day in solemn memorials",
         "theme": "live",
         "updates": [
           {
@@ -241,6 +216,54 @@
           }
         ],
         "uri": "coremedia://teaser/106605480"
+      },
+      {
+        "type": "generic",
+        "id": "106606080",
+        "contentUri": "coremedia://article/106606080",
+        "label": {
+          "variant": "breaking"
+        },
+        "link": "/news/2026-04-25/inman-valley-body-valley-murder/106606080",
+        "title": "Police say body found on Fleurieu Peninsula was historic murder victim",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "SA Police say initial investigations suggest a person whose body has been found in bushland south of Adelaide was murdered. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An SA police car parked on the side of a street with trees on the opposite side",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4af9f5648266be32f43f2b6a0cfc7134?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Homicide",
+            "link": "/news/topic/homicide",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -473,52 +496,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106602274",
-        "contentUri": "coremedia://article/106602274",
-        "label": null,
-        "link": "/news/2026-04-24/council-member-charged-drink-driving-berri-barmera-loss-licence/106602274",
-        "title": "Councillor convicted of drink driving still able to attend Anzac Day parade",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Berri Barmera Councillor Ian Schlein will hand in his licence several days after a regional court convicted him of drink driving, to allow him to attend an Anzac Day parade."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a man smiles at the camera ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/783c16b0666a5b2a2ca3126b077a8ecb?impolicy=wcms_crop_resize&cropH=2400&cropW=3200&xPos=0&yPos=505&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106606186",
         "targetId": "106601670",
@@ -607,6 +584,52 @@
     "moduleKey": "app://module/news-homepage-more-news",
     "moduleLabel": "More News",
     "items": [
+      {
+        "type": "generic",
+        "id": "106602274",
+        "contentUri": "coremedia://article/106602274",
+        "label": null,
+        "link": "/news/2026-04-24/council-member-charged-drink-driving-berri-barmera-loss-licence/106602274",
+        "title": "Councillor convicted of drink driving still able to attend Anzac Day parade",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Berri Barmera Councillor Ian Schlein will hand in his licence several days after a regional court convicted him of drink driving, to allow him to attend an Anzac Day parade."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a man smiles at the camera ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/783c16b0666a5b2a2ca3126b077a8ecb?impolicy=wcms_crop_resize&cropH=2400&cropW=3200&xPos=0&yPos=505&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "generic",
         "id": "106597168",
@@ -700,84 +723,6 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106604662",
-        "targetId": "106559044",
-        "contentUri": "coremedia://teaser/106604662",
-        "label": null,
-        "title": "Figure skating teen makes history for Australia",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "At just 15, Hana Bath became the first Australian female to ever land a triple axel in competition. The rising star now has her eye on the 2030 Winter Olympics."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-23T20:11:59+00:00",
-          "lastUpdated": "2026-04-24T05:05:59+00:00"
-        },
-        "link": "/news/2026-04-24/figure-skating-teen-makes-history-for-australia/106559044",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A figure skater wearing skates on ice holders her hands in the air",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/428cec57fbddff74b71f3f4212ee9714?impolicy=wcms_crop_resize&cropH=2785&cropW=2785&xPos=0&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/428cec57fbddff74b71f3f4212ee9714?impolicy=wcms_crop_resize&cropH=1567&cropW=2785&xPos=0&yPos=68&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/428cec57fbddff74b71f3f4212ee9714?impolicy=wcms_crop_resize&cropH=1857&cropW=2785&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/428cec57fbddff74b71f3f4212ee9714?impolicy=wcms_crop_resize&cropH=1857&cropW=2785&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A figure skater wearing skates on ice holders her hands in the air",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Sharne Wakefield",
-            "title": "By Sharne Wakefield",
-            "link": "https://www.abc.net.au/news/sharne-wakefield/105153524",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Figure Skating",
-            "link": "/news/topic/figure-skating",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4
-      },
-      {
         "type": "generic",
         "id": "106604198",
         "contentUri": "coremedia://article/106604198",
@@ -787,7 +732,7 @@
           "status": "live"
         },
         "link": "/news/2026-04-25/afl-round-seven-live-blog-haw-gc-ess-coll-pa-gee-freo-carl/106604198",
-        "title": "Hawks get the jump over Suns before Anzac Day blockbuster at the MCG",
+        "title": "Suns threaten comeback against Hawks before Anzac Day blockbuster",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1224,7 +1169,7 @@
         },
         "dates": {
           "firstPublished": "2026-04-24T19:18:29+00:00",
-          "lastUpdated": "2026-04-24T19:18:29+00:00"
+          "lastUpdated": "2026-04-25T04:07:34+00:00"
         },
         "link": "/news/2026-04-25/in-search-of-the-missing-artist-jean-paul-mangin/106593220",
         "related": {
@@ -2046,7 +1991,7 @@
         },
         "dates": {
           "firstPublished": "2026-04-24T19:12:32+00:00",
-          "lastUpdated": "2026-04-24T19:12:32+00:00"
+          "lastUpdated": "2026-04-25T04:33:18+00:00"
         },
         "link": "/news/2026-04-25/anzac-day-test-australia-new-zealand-wallaroos-piper-duck/106601970",
         "related": {
