@@ -88,7 +88,46 @@
               "dates": null
             }
           ],
-          "videos": [],
+          "videos": [
+            {
+              "id": "106609900",
+              "canonicalURL": "https://www.abc.net.au/news/2026-04-27/witness-vision-of-trump-jd-vance-being-evacuated/106609900",
+              "uri": "coremedia://video/106609900",
+              "duration": 28,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/ju/Z/q5.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 3705512,
+                  "bitrate": 928,
+                  "label": "928 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/ju/Z/q4.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 1681642,
+                  "bitrate": 400,
+                  "label": "400 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/ju/Z/q3.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 795147,
+                  "bitrate": 169,
+                  "label": "169 kbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "16x9",
+              "image": {
+                "altText": "",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf62ecd94b08fa8a18dd5df4028b04fb?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "width": "862",
+                "height": "485"
+              },
+              "isVerticalVideo": false
+            }
+          ],
           "cta": null
         },
         "synopsis": {
@@ -202,7 +241,7 @@
         "contentUri": "coremedia://article/106609766",
         "label": null,
         "link": "/news/2026-04-27/donald-trump-white-house-correspondents-dinner-shooter-manifesto/106609766",
-        "title": "Trump says shooter's 'manifesto' shows he was a 'sick guy'",
+        "title": "Trump says shooter's 'manifesto' shows he is a 'sick guy'",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -216,7 +255,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Several US media outlets are reporting on the existence of the manifesto, which reportedly states the shooter wanted to target administration officials, and was sent to the suspect's family members just before the attack. "
+                    "content": "Several US media outlets are reporting on the existence of the manifesto, which reportedly states the shooter wanted to target administration officials and was sent to the suspect's family members just before the attack. "
                   }
                 ]
               }
@@ -373,30 +412,59 @@
         "readTime": 8
       },
       {
-        "type": "medium",
-        "id": "106609856",
-        "contentUri": "coremedia://teaser/106609856",
+        "type": "generic",
+        "id": "106602790",
+        "contentUri": "coremedia://article/106602790",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-04-26/israel-strikes-villages-in-lebanon-demands-residents-to-leave/106609282",
-        "title": "Israel demands residents evacuate villages in southern Lebanon",
+        "link": "/news/2026-04-27/iran-israel-war-news-briefing/106602790",
+        "title": "Iran daily briefing: Israel sets sights deeper into Lebanon despite ceasefire",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "It's a ceasefire in name only between Israel and its targets in Lebanon, as the wait continues for more talks between the US and Iran."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "Several trees surrounding an army vehicle driving through the dirt.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ff964ea5746a64313c9f0fd818c360c?impolicy=wcms_crop_resize&cropH=2780&cropW=3707&xPos=232&yPos=0&width=862&height=647",
+          "altText": "Man with Jerusalem in the background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3609aec22ae28d93a6b578aaa8508069?impolicy=wcms_crop_resize&cropH=2790&cropW=3720&xPos=228&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
-            "type": "subject",
+            "title": "Explainer",
+            "type": "genre",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106609282",
+        "contentUri": "coremedia://article/106609282",
+        "label": null,
+        "link": "/news/2026-04-26/israel-strikes-villages-in-lebanon-demands-residents-to-leave/106609282",
+        "title": "Israel demands residents evacuate villages in southern Lebanon",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -416,6 +484,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Several trees surrounding an army vehicle driving through the dirt.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ff964ea5746a64313c9f0fd818c360c?impolicy=wcms_crop_resize&cropH=2780&cropW=3707&xPos=232&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Unrest, Conflict and War",
+            "link": "/news/topic/unrest-conflict-and-war",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -620,6 +705,52 @@
       },
       {
         "type": "generic",
+        "id": "106602092",
+        "contentUri": "coremedia://article/106602092",
+        "label": null,
+        "link": "/news/2026-04-27/street-artist-peter-drew-aussie-posters/106602092",
+        "title": "Street artist Peter Drew on why his 'Aussie' posters are still important",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Peter Drew has been hanging 'Aussie' posters in cities around Australia for 10 years, and has no plans to stop. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man with dark hair and a big smile",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f05930e4947196c655af0d80215528f?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Art",
+            "link": "/news/topic/art",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106607656",
         "contentUri": "coremedia://article/106607656",
         "label": null,
@@ -666,11 +797,11 @@
       },
       {
         "type": "generic",
-        "id": "106604090",
-        "contentUri": "coremedia://article/106604090",
+        "id": "106609262",
+        "contentUri": "coremedia://article/106609262",
         "label": null,
-        "link": "/news/2026-04-27/qld-police-launch-road-safety-operation/106604090",
-        "title": "Law breaking drivers to be targeted amid horror year on Queensland roads ",
+        "link": "/news/2026-04-26/sabastian-sawe-breaks-world-record-london-marathon/106609262",
+        "title": "Two-hour barrier smashed twice in history-making London Marathon",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -684,7 +815,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The ABC last year revealed a sharp drop in road safety enforcement hours from police in the wake of the COVID-19 pandemic."
+                    "content": "Kenya's Sabastian Sawe has become the first man to run a marathon in under two hours, winning the London Marathon with a time of 1:59:30."
                   }
                 ]
               }
@@ -692,139 +823,16 @@
           }
         },
         "image": {
-          "altText": "Police officers at checkpoint with driver line-up at Queensland-NSW border at Coolangatta.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f318b72d7ae0cfc29513055857718b8a?impolicy=wcms_crop_resize&cropH=994&cropW=1324&xPos=90&yPos=0&width=160&height=120",
+          "altText": "A runner in pink has his arms outstretched while crossing the finish line, world record time on a screen above his head.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/523c2cf2f2863b14136ab336b5de68f1?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Road Accidents and Incidents",
-            "link": "/news/topic/road-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106609848",
-        "targetId": "106602092",
-        "contentUri": "coremedia://teaser/106609848",
-        "label": null,
-        "title": "Street artist Peter Drew on why his 'Aussie' posters are still important",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Peter Drew has been hanging 'Aussie' posters in cities around Australia for 10 years, and has no plans to stop. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-26T19:14:17+00:00",
-          "lastUpdated": "2026-04-26T19:14:17+00:00"
-        },
-        "link": "/news/2026-04-27/street-artist-peter-drew-aussie-posters/106602092",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A man with dark hair and a big smile",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f05930e4947196c655af0d80215528f?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/5f05930e4947196c655af0d80215528f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=126&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/5f05930e4947196c655af0d80215528f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f05930e4947196c655af0d80215528f?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A man with dark hair and a big smile",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "David Marchese",
-            "title": "By David Marchese",
-            "link": "https://www.abc.net.au/news/david-marchese/7316576",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "triple j Hack",
-            "link": "https://www.abc.net.au/triplej/programs/hack/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 5
-      },
-      {
-        "type": "generic",
-        "id": "106608000",
-        "contentUri": "coremedia://article/106608000",
-        "label": null,
-        "link": "/news/2026-04-26/netherlands-buys-bushmaster-fleet-australia-commits-to-more/106608000",
-        "title": "Australia to sell fleet of Bushmaster armoured vehicles to the Dutch",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Australian Bushmaster armoured vehicles are being sent to the Netherlands following a request to Australia by the Dutch government. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=1959&cropW=2612&xPos=346&yPos=51&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Defence Industry",
-            "link": "/news/topic/defence-industry",
+            "title": "Marathon",
+            "link": "/news/topic/marathon",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1067,6 +1075,181 @@
     "items": [
       {
         "type": "rich",
+        "id": "106609946",
+        "targetId": "106608000",
+        "contentUri": "coremedia://teaser/106609946",
+        "label": null,
+        "title": "Australia to sell fleet of Bushmaster armoured vehicles to the Dutch",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australian Bushmaster armoured vehicles are being sent to the Netherlands following a request to Australia by the Dutch government. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-26T12:34:13+00:00",
+          "lastUpdated": "2026-04-26T12:34:13+00:00"
+        },
+        "link": "/news/2026-04-26/netherlands-buys-bushmaster-fleet-australia-commits-to-more/106608000",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=2560&xPos=214&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=265&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=3840&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=3840&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Nicole Asher",
+            "title": "By Nicole Asher",
+            "link": "https://www.abc.net.au/news/nicole-asher/6465000",
+            "avatar": {
+              "alt": "A headshot of ABC News reporter Nicole Asher.",
+              "fallbackLetter": "N",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/516278fcc88069980a26665cfdc56e89?impolicy=wcms_crop_resize&cropH=966&cropW=966&xPos=84&yPos=135&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Defence Industry",
+            "link": "/news/topic/defence-industry",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3
+      },
+      {
+        "type": "generic",
+        "id": "106604090",
+        "contentUri": "coremedia://article/106604090",
+        "label": null,
+        "link": "/news/2026-04-27/qld-police-launch-road-safety-operation/106604090",
+        "title": "Law breaking drivers to be targeted amid horror year on Queensland roads ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The ABC last year revealed a sharp drop in road safety enforcement hours from police in the wake of the COVID-19 pandemic."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Police officers at checkpoint with driver line-up at Queensland-NSW border at Coolangatta.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f318b72d7ae0cfc29513055857718b8a?impolicy=wcms_crop_resize&cropH=994&cropW=1324&xPos=90&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106608294",
+        "contentUri": "coremedia://article/106608294",
+        "label": null,
+        "link": "/news/2026-04-27/family-violence-victoria-security-upgrades-state-budget/106608294",
+        "title": "Government to fund security upgrades for family violence victim-survivors",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Almost 1,700 women facing the danger of family violence will be able to upgrade their home security under a $3.5 million pledge by the Victorian government. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A fist in the foreground, a woman blurred in the background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc18009b3d8b53052222d5251736f40f?impolicy=wcms_crop_resize&cropH=576&cropW=768&xPos=128&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Domestic Violence",
+            "link": "/news/topic/domestic-violence",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
         "id": "106609896",
         "targetId": "106609718",
         "contentUri": "coremedia://teaser/106609896",
@@ -1145,11 +1328,11 @@
       },
       {
         "type": "generic",
-        "id": "106608294",
-        "contentUri": "coremedia://article/106608294",
+        "id": "106520128",
+        "contentUri": "coremedia://article/106520128",
         "label": null,
-        "link": "/news/2026-04-27/family-violence-victoria-security-upgrades-state-budget/106608294",
-        "title": "Government to fund security upgrades for family violence victim-survivors",
+        "link": "/news/2026-04-27/platypuses-should-be-threatened-species-in-nsw-researcher-says/106520128",
+        "title": "Platypus researcher says the species is just 'hanging on' in NSW",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1163,7 +1346,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Almost 1,700 women facing the danger of family violence will be able to upgrade their home security under a $3.5 million pledge by the Victorian government. "
+                    "content": "A leading researcher is calling for the platypus to be recognised as a threatened species in NSW, saying a lack of data is the only reason it has not been reclassified."
                   }
                 ]
               }
@@ -1171,16 +1354,16 @@
           }
         },
         "image": {
-          "altText": "A fist in the foreground, a woman blurred in the background.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc18009b3d8b53052222d5251736f40f?impolicy=wcms_crop_resize&cropH=576&cropW=768&xPos=128&yPos=0&width=160&height=120",
+          "altText": "Close up of a platypus face, poking out of a box.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5e21967e999ccdf2fa0f86c02e39bb1e?impolicy=wcms_crop_resize&cropH=580&cropW=773&xPos=95&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Domestic Violence",
-            "link": "/news/topic/domestic-violence",
+            "title": "Animals",
+            "link": "/news/topic/animals",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1227,98 +1410,6 @@
           {
             "title": "Urban Development and Planning",
             "link": "/news/topic/urban-development-and-planning",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106609262",
-        "contentUri": "coremedia://article/106609262",
-        "label": null,
-        "link": "/news/2026-04-26/sabastian-sawe-breaks-world-record-london-marathon/106609262",
-        "title": "Two-hour barrier smashed twice in history-making London Marathon",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Kenya's Sabastian Sawe has become the first man to run a marathon in under two hours, winning the London Marathon with a time of 1:59:30."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A runner in pink has his arms outstretched while crossing the finish line, world record time on a screen above his head.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/523c2cf2f2863b14136ab336b5de68f1?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Marathon",
-            "link": "/news/topic/marathon",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106607520",
-        "contentUri": "coremedia://article/106607520",
-        "label": null,
-        "link": "/news/2026-04-26/angus-taylor-migration-isis-families-syria/106607520",
-        "title": "Taylor avoids backing ASIO amid questions on ISIS-linked families",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Government action needs to be taken to prevent a group of Australian families with links to former ISIS fighters from re-entering the country, Opposition Leader Angus Taylor says."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man in a blue jacket and brown pants sits on a chair gesticulating with one hand. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/df079a9fef4d984d5f8f99cf7e0aebeb?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=1249&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Federal Government",
-            "link": "/news/topic/federal-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1412,6 +1503,52 @@
       },
       {
         "type": "generic",
+        "id": "106609886",
+        "contentUri": "coremedia://article/106609886",
+        "label": null,
+        "link": "/news/2026-04-27/caitlin-foord-shines-for-arsenal-in-champions-league-semi/106609886",
+        "title": "Foord stars for Arsenal, Kerr equals record in WSL ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Arsenal's Matildas are scenting more Champions League glory after the holders beat OL Lyonnes 2-1 in the first leg of their semi-final at the Emirates Stadium, while Matildas captain Sam Kerr scored twice to keep Chelsea's slim WSL title ambitions alive in a 4-1 win over Everton."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Caitlin Foord celebrates with Olivia Smith",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f2fe52c0d6ac3b1ee720eb43c26535ba?impolicy=wcms_crop_resize&cropH=1041&cropW=1388&xPos=455&yPos=237&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Matildas",
+            "link": "/news/topic/matildas",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106589360",
         "contentUri": "coremedia://article/106589360",
         "label": null,
@@ -1448,52 +1585,6 @@
           {
             "title": "AI",
             "link": "/news/topic/ai",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106588936",
-        "contentUri": "coremedia://article/106588936",
-        "label": null,
-        "link": "/news/2026-04-26/narco-subs-crossing-the-pacific-to-australia/106588936",
-        "title": "A narco-sub washed up near their village. Inside was a troubling clue to its origins",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "At least seven narco subs have been discovered in Pacific waters in recent years, signalling a troubling new reality. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "People talking next to the sub.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0381aa925a1550e60fc5844c50d16230?impolicy=wcms_crop_resize&cropH=2160&cropW=2880&xPos=480&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Drugs",
-            "link": "/news/topic/drugs",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1657,6 +1748,52 @@
       },
       {
         "type": "generic",
+        "id": "106607520",
+        "contentUri": "coremedia://article/106607520",
+        "label": null,
+        "link": "/news/2026-04-26/angus-taylor-migration-isis-families-syria/106607520",
+        "title": "Taylor avoids backing ASIO amid questions on ISIS-linked families",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Government action needs to be taken to prevent a group of Australian families with links to former ISIS fighters from re-entering the country, Opposition Leader Angus Taylor says."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man in a blue jacket and brown pants sits on a chair gesticulating with one hand. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/df079a9fef4d984d5f8f99cf7e0aebeb?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=1249&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Federal Government",
+            "link": "/news/topic/federal-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106607930",
         "contentUri": "coremedia://article/106607930",
         "label": null,
@@ -1794,52 +1931,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106597820",
-        "contentUri": "coremedia://article/106597820",
-        "label": null,
-        "link": "/news/2026-04-26/junee-hardware-store-couple-retires/106597820",
-        "title": "Couple in 90s hand over keys to country town's only hardware store",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Pickles have been running the only hardware store in Junee for six decades, but now they are handing over the keys. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Old photo of Peter and Margaret Pickles",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4033450930bfdc4949b59b88262abc25?impolicy=wcms_crop_resize&cropH=2133&cropW=2844&xPos=345&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Human Interest",
-            "link": "/news/topic/human-interest",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106609894",
         "targetId": "106608282",
@@ -1916,175 +2007,6 @@
           }
         ],
         "readTime": 3
-      },
-      {
-        "type": "generic",
-        "id": "106607784",
-        "contentUri": "coremedia://article/106607784",
-        "label": null,
-        "link": "/news/2026-04-26/nsw-beaches-to-remain-closed-due-to-whale-carcass/106607784",
-        "title": "Shark-attracting 25-tonne whale carcass to close Sydney beaches for days",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Popular beaches along Sydney's Royal National Park will remain closed for days, as authorities face the immense task of moving a large whale carcass that is attracting sharks. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A large deceased whale washed up at Era Point in the Royal National Park, Sydney",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0b162c5347c6f28a2ce37d022219451d?impolicy=wcms_crop_resize&cropH=1440&cropW=1920&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "National Parks",
-            "link": "/news/topic/national-parks",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106588662",
-        "contentUri": "coremedia://article/106588662",
-        "label": null,
-        "link": "/news/2026-04-26/chernobyl-40-nuclear-explosion-power-plant-nature-survives/106588662",
-        "title": "Inside Chernobyl is a toxic world where frogs have turned black ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Nuclear meltdown in 1986 reshaped ecosystems and human lives. Four decades on the legacy of the Chernobyl disaster is still unfolding."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two brown eyes with yellow and black nuclear symbols painted around them",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f4b64877e7100b4b51fc2b66b81230f3?impolicy=wcms_crop_resize&cropH=2017&cropW=2689&xPos=386&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Nuclear Accidents and Incidents",
-            "link": "/news/topic/nuclear-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106608382",
-        "targetId": "106362192",
-        "contentUri": "coremedia://teaser/106608382",
-        "label": null,
-        "title": "I expected a rush of love for my baby, but it didn’t happen",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Perinatal depression and anxiety meant I thought my daughter would be better off with a different mum. But with the right support, things got better.  "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-26T02:00:00+00:00",
-          "lastUpdated": "2026-04-26T02:00:00+00:00"
-        },
-        "link": "/news/2026-04-26/falling-in-love-with-your-baby-later-than-expected/106362192",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Molly smiling with daughter in carrier",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/acd4773b776ee21b9e1070c56a7bf3ef?impolicy=wcms_crop_resize&cropH=1440&cropW=1440&xPos=0&yPos=179&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/acd4773b776ee21b9e1070c56a7bf3ef?impolicy=wcms_crop_resize&cropH=810&cropW=1440&xPos=0&yPos=494&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/acd4773b776ee21b9e1070c56a7bf3ef?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=419&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/acd4773b776ee21b9e1070c56a7bf3ef?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=419&width=862&height=575",
-            "altText": "Molly smiling with daughter in carrier",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "Perspective",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Lifestyle",
-            "link": "https://www.abc.net.au/news/lifestyle/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "theme": "green",
-        "readTime": 5
       }
     ]
   }
