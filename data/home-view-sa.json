@@ -124,6 +124,52 @@
       },
       {
         "type": "generic",
+        "id": "106612360",
+        "contentUri": "coremedia://article/106612360",
+        "label": null,
+        "link": "/news/2026-04-27/motorists-fined-40km-per-hour-school-zones-adelaide/106612360",
+        "title": "Adelaide motorists fined nearly $700,000 at new 40km/h school zones",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The effectiveness of new speed limit signage has been questioned after the RAA revealed 1,100 people had been fined in just over one school term at two new 40km/h zones. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Illuminated speed limit sign that says 40",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8100776537de464b930f3393fc31f540?impolicy=wcms_crop_resize&cropH=1500&cropW=2000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Roads",
+            "link": "/news/topic/roads",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106610844",
         "contentUri": "coremedia://article/106610844",
         "label": null,
@@ -160,52 +206,6 @@
           {
             "title": "Police",
             "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106534576",
-        "contentUri": "coremedia://article/106534576",
-        "label": null,
-        "link": "/news/2026-04-27/linley-moyle-push-for-cerebral-palsy-disability-access/106534576",
-        "title": "Mother's impassioned plea after young daughter's cerebral palsy diagnosis",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Ayla doesn't let disability slow her down, but her mother wants her to have the same opportunities as others."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A girl in a blue and white dress, with pink glasses smiling while sitting in a park",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9431d172b45ba99a2b70c1bce9a024cb?impolicy=wcms_crop_resize&cropH=2989&cropW=3985&xPos=498&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Disabilities",
-            "link": "/news/topic/disabilities",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -296,6 +296,52 @@
           }
         ],
         "readTime": 3
+      },
+      {
+        "type": "generic",
+        "id": "106534576",
+        "contentUri": "coremedia://article/106534576",
+        "label": null,
+        "link": "/news/2026-04-27/linley-moyle-push-for-cerebral-palsy-disability-access/106534576",
+        "title": "Mother's impassioned plea after young daughter's cerebral palsy diagnosis",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Ayla doesn't let disability slow her down, but her mother wants her to have the same opportunities as others."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A girl in a blue and white dress, with pink glasses smiling while sitting in a park",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9431d172b45ba99a2b70c1bce9a024cb?impolicy=wcms_crop_resize&cropH=2989&cropW=3985&xPos=498&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Disabilities",
+            "link": "/news/topic/disabilities",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -434,7 +480,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106606080",
@@ -480,19 +538,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106561960",
@@ -531,52 +577,6 @@
           {
             "title": "Native Species",
             "link": "/news/topic/native-species",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106607930",
-        "contentUri": "coremedia://article/106607930",
-        "label": null,
-        "link": "/news/2026-04-26/afl-live-blog-saints-eagles-lions-crows-giants-kangaroos/106607930",
-        "title": "Dawson fights back tears after return as GWS edge Roos amid ARC drama",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Adelaide skipper Jordan Dawson breaks down in tears after playing his first match since his brother's tragic death, as GWS prevails against North with the aid of a major ARC blunder."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Jordan Dawson shares a heartfelt hug with Hugh McCluggage",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/655b40bb185cdf332594ac9f15bab46c?impolicy=wcms_crop_resize&cropH=907&cropW=1209&xPos=150&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AFL",
-            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -662,6 +662,52 @@
           }
         ],
         "readTime": 5
+      },
+      {
+        "type": "generic",
+        "id": "106607930",
+        "contentUri": "coremedia://article/106607930",
+        "label": null,
+        "link": "/news/2026-04-26/afl-live-blog-saints-eagles-lions-crows-giants-kangaroos/106607930",
+        "title": "Dawson fights back tears after return as GWS edge Roos amid ARC drama",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Adelaide skipper Jordan Dawson breaks down in tears after playing his first match since his brother's tragic death, as GWS prevails against North with the aid of a major ARC blunder."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Jordan Dawson shares a heartfelt hug with Hugh McCluggage",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/655b40bb185cdf332594ac9f15bab46c?impolicy=wcms_crop_resize&cropH=907&cropW=1209&xPos=150&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -757,11 +803,11 @@
       },
       {
         "type": "generic",
-        "id": "106610242",
-        "contentUri": "coremedia://article/106610242",
+        "id": "106610544",
+        "contentUri": "coremedia://article/106610544",
         "label": null,
-        "link": "/news/2026-04-27/missing-alice-springs-five-year-old-sharon-believed-abduction/106610242",
-        "title": "Missing 5yo girl believed to have been abducted near Alice Springs, police say",
+        "link": "/news/2026-04-27/record-tasmania-may-temperature-bushfire-season-extends/106610544",
+        "title": "This week could see Tasmania's hottest May day in nearly 140 years",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -775,7 +821,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Northern Territory Police say they believe a missing five-year-old girl in Alice Springs was abducted from her home at a town camp early on Sunday morning."
+                    "content": "Tasmania is well into autumn, but firefighters remain on alert as late-season bushfires have threatened communities. This Friday marks the first day of May, and with it could come one of the state's hottest May days in nearly 140 years of record-keeping."
                   }
                 ]
               }
@@ -783,16 +829,436 @@
           }
         },
         "image": {
-          "altText": "Young girl in pink dress does peace sign with fingers ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3b3b39d1affbb726978d0aec40cd4bdb?impolicy=wcms_crop_resize&cropH=377&cropW=502&xPos=0&yPos=0&width=160&height=120",
+          "altText": "The sun looks like a glowing yellow-white ball in an orange sky above trees that are silhouetted brown-black.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd817033ad979e91ef30ef4b32262ca2?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=196&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Missing Person",
-            "link": "/news/topic/missing-person",
+            "title": "Bushfires",
+            "link": "/news/topic/bushfires",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106613574",
+        "targetId": "106607660",
+        "contentUri": "coremedia://teaser/106613574",
+        "label": null,
+        "title": "The $560k bet on a military raid that exposed a growing online grey zone",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A US soldier accused of using classified information to place bets on a covert military operation has thrown a spotlight on the fast-growing world of prediction markets."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-27T07:39:46+00:00",
+          "lastUpdated": "2026-04-27T07:39:46+00:00"
+        },
+        "link": "/news/2026-04-27/the-560-000-bet-that-exposed-a-growing-online-grey-zone/106607660",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Nicolas Maduro in tan clothing ducking his head while surrounded by three DEA officers, next to a black helicopter",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc35b1183af576642f8616f9afd7852f?impolicy=wcms_crop_resize&cropH=2530&cropW=2530&xPos=1261&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/fc35b1183af576642f8616f9afd7852f?impolicy=wcms_crop_resize&cropH=2132&cropW=3791&xPos=0&yPos=311&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/fc35b1183af576642f8616f9afd7852f?impolicy=wcms_crop_resize&cropH=2527&cropW=3791&xPos=0&yPos=1&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc35b1183af576642f8616f9afd7852f?impolicy=wcms_crop_resize&cropH=2527&cropW=3791&xPos=0&yPos=1&width=862&height=575",
+            "altText": "Nicolas Maduro in tan clothing ducking his head while surrounded by three DEA officers, next to a black helicopter",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Audrey Courty",
+            "title": "By Audrey Courty",
+            "link": "https://www.abc.net.au/news/audrey-courty/13735048",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Explainer",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "theme": "sand",
+        "readTime": 5
+      },
+      {
+        "type": "generic",
+        "id": "106610080",
+        "contentUri": "coremedia://article/106610080",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-04-27/sabastian-sawe-marathon-believe-the-unbelievable/106610080",
+        "title": "Sabastian Sawe ran the marathon in an 'unbelievable time'. Here's why we can believe in it",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Sabastian Sawe smashes one of athletics' seemingly unbreakable barriers by running a marathon faster than two hours. Some call it unbelievable, but the Kenyan runner has done everything he can to ensure it stands the test of time.  "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Sabastian Sawe stands next to his record time",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/190aecbb1673b89d7249aa47636b4e77?impolicy=wcms_crop_resize&cropH=3468&cropW=4624&xPos=188&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Simon Smale",
+            "title": "Analysis by Simon Smale",
+            "link": "https://www.abc.net.au/news/simon-smale/10007892",
+            "avatar": {
+              "alt": "Simon Smale",
+              "fallbackLetter": "S",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f87ce62e8c54de2bd5b3ed71ee8e48b0?impolicy=wcms_crop_resize&cropH=893&cropW=893&xPos=103&yPos=16&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106611664",
+        "contentUri": "coremedia://article/106611664",
+        "label": null,
+        "link": "/news/2026-04-27/mick-malthouse-house-break-in-bail-application-court/106611664",
+        "title": "Mick Malthouse fought off alleged intruders with exercise bar, court told",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Legendary AFL coach Mick Malthouse \"swung an exercise pole\" and hit an intruder in the head as he defended his family during an alleged attempted home invasion last year, a Melbourne court has heard."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Mick Malthouse is pictured at the MCG",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9cc7b700f150d689c9e412c04c27e7ff?impolicy=wcms_crop_resize&cropH=1149&cropW=1529&xPos=0&yPos=4&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106613570",
+        "targetId": "106611094",
+        "contentUri": "coremedia://teaser/106613570",
+        "label": null,
+        "title": "Citizen's arrest halts alleged tiny home thief in Queensland",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A chance sighting of a social media post detailing the theft of two tiny homes leads to two friends making a dramatic citizen's arrest on the Sunshine Coast."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-27T07:46:05+00:00",
+          "lastUpdated": "2026-04-27T07:46:05+00:00"
+        },
+        "link": "/news/2026-04-27/citizens-arrest-alleged-tiny-home-thief-sunshine-coast/106611094",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Smiling men with arms folded in front of tiny home inside larger shed",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/95377f28e913b5cc0601f9d10ca729e6?impolicy=wcms_crop_resize&cropH=3750&cropW=3750&xPos=118&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "tiny home on trailer towed by car",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fefc311428c1cb89611625cfaa60cd3f?impolicy=wcms_crop_resize&cropH=1200&cropW=1200&xPos=200&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "tiny home",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce2cc5e66f757e5290c332a5007c3fa7?impolicy=wcms_crop_resize&cropH=514&cropW=514&xPos=60&yPos=9&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/95377f28e913b5cc0601f9d10ca729e6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=469&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/95377f28e913b5cc0601f9d10ca729e6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=414&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/95377f28e913b5cc0601f9d10ca729e6?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=414&width=862&height=575",
+            "altText": "Smiling men with arms folded in front of tiny home inside larger shed",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/fefc311428c1cb89611625cfaa60cd3f?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=110&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/fefc311428c1cb89611625cfaa60cd3f?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=67&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fefc311428c1cb89611625cfaa60cd3f?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=67&width=862&height=575",
+            "altText": "tiny home on trailer towed by car",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ce2cc5e66f757e5290c332a5007c3fa7?impolicy=wcms_crop_resize&cropH=405&cropW=720&xPos=0&yPos=48&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ce2cc5e66f757e5290c332a5007c3fa7?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=15&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce2cc5e66f757e5290c332a5007c3fa7?impolicy=wcms_crop_resize&cropH=480&cropW=720&xPos=0&yPos=15&width=862&height=575",
+            "altText": "tiny home",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "ABC Sunshine Coast",
+            "link": "https://www.abc.net.au/sunshine/",
+            "type": "infoSource",
+            "key": "Tag1"
+          }
+        ],
+        "readTime": 2
+      },
+      {
+        "type": "generic",
+        "id": "106610068",
+        "contentUri": "coremedia://article/106610068",
+        "label": null,
+        "link": "/news/2026-04-27/vic-mcdonalds-wins-northcote-restaurant-battle/106610068",
+        "title": "Maccas wins battle to set up in 'world's coolest street'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The fast food giant has been cleared to set up an outlet in the Melbourne suburb of Northcote after successfully challenging a council decision to block its restaurant plans."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An architectural rendering of a McDonald's store on High Street in Northcote.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8cebd5298718b3b855668359470c9439?impolicy=wcms_crop_resize&cropH=386&cropW=515&xPos=46&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Local Government",
+            "link": "/news/topic/local-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106613050",
+        "contentUri": "coremedia://article/106613050",
+        "label": null,
+        "link": "/news/2026-04-27/cafe-shooting-gavin-preston-murder-trial-court-theories/106613050",
+        "title": "Police flooded with theories surrounding Gavin Preston's death, court hears",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Victoria's Supreme Court hears police received numerous tip-offs after underworld figure Gavin Preston was shot dead, including claims of a cemetery desecration and a feud with an illegal tobacco kingpin."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A pale photo of an unsmiling, bald man between two blurred figures.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89999c958ea0922c85f7c9b9bcac820f?impolicy=wcms_crop_resize&cropH=720&cropW=960&xPos=76&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106612718",
+        "contentUri": "coremedia://article/106612718",
+        "label": null,
+        "link": "/news/2026-04-27/afl-concedes-error-in-controversial-arc-review-calls/106612718",
+        "title": "AFL boss says umpiring 'as good as it's been' despite admitting ARC errors",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "AFL football boss Greg Swann says most of the feedback he receives from the clubs surrounding the officiating in the league is positive despite a pair of controversial review calls in Round 7."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "AFL umpire points with his right arm ahead of Mason Cox",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d03f0090ca244e719d61dada5b06b6f?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=556&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -849,11 +1315,11 @@
       },
       {
         "type": "rich",
-        "id": "106610744",
-        "targetId": "106610080",
-        "contentUri": "coremedia://teaser/106610744",
+        "id": "106612628",
+        "targetId": "106595948",
+        "contentUri": "coremedia://teaser/106612628",
         "label": null,
-        "title": "Sabastian Sawe ran the marathon in an 'unbelievable time'. Here's why we can believe in it",
+        "title": "Four easy egg recipes to add to your regular rotation",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -867,7 +1333,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Sabastian Sawe has smashed through one of athletics' unbreakable barriers by running a marathon faster than two hours. Some call it unbelievable, but the Kenyan runner has done everything he can to ensure it stands the test of time. "
+                    "content": "If you're looking to add the humble egg into your weekly meals, we have you covered."
                   }
                 ]
               }
@@ -875,10 +1341,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-04-27T00:37:21+00:00",
-          "lastUpdated": "2026-04-27T00:37:21+00:00"
+          "firstPublished": "2026-04-27T05:03:15+00:00",
+          "lastUpdated": "2026-04-27T05:03:15+00:00"
         },
-        "link": "/news/2026-04-27/sabastian-sawe-marathon-believe-the-unbelievable/106610080",
+        "link": "/news/2026-04-27/egg-recipes-midweek-meals/106595948",
         "related": {
           "title": null,
           "videos": [],
@@ -887,404 +1353,83 @@
         },
         "gallery": [
           {
-            "altText": "Sabastian Sawe stands next to his record time",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/190aecbb1673b89d7249aa47636b4e77?impolicy=wcms_crop_resize&cropH=3381&cropW=3381&xPos=1337&yPos=87&width=862&height=862"
+            "altText": "A tray of devilled eggs topped with small crispy pancetta",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63b9e156f9a9fd0f289d177df41614c6?impolicy=wcms_crop_resize&cropH=3456&cropW=3456&xPos=864&yPos=0&width=862&height=862"
           },
           {
-            "altText": "Sabastian Sawe holds out his hands",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c772051fdd0b303f24fb1b8cdfdb03a?impolicy=wcms_crop_resize&cropH=3232&cropW=3232&xPos=61&yPos=630&width=862&height=862"
+            "altText": "A wide pan with baked eggs sitting on top of baby spinach, leeks and broccolini, with feta and dill scattered on top, dinner.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4f5c99cd9789947f852b3706c238831?impolicy=wcms_crop_resize&cropH=1141&cropW=1140&xPos=486&yPos=4&width=862&height=862"
           },
           {
-            "altText": "Sabastian Sawe runs past Big Ben",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a99f2356eba394e90f5f3a8477b99ff4?impolicy=wcms_crop_resize&cropH=2000&cropW=2000&xPos=0&yPos=0&width=862&height=862"
+            "altText": "Fried eggs covered in herbs in a hot pan",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f2208ef4624b0ee7d1e9130f461a7a4?impolicy=wcms_crop_resize&cropH=1035&cropW=1035&xPos=173&yPos=0&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/190aecbb1673b89d7249aa47636b4e77?impolicy=wcms_crop_resize&cropH=2370&cropW=4213&xPos=533&yPos=120&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/190aecbb1673b89d7249aa47636b4e77?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=67&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/63b9e156f9a9fd0f289d177df41614c6?impolicy=wcms_crop_resize&cropH=2916&cropW=5184&xPos=0&yPos=270&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/63b9e156f9a9fd0f289d177df41614c6?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/190aecbb1673b89d7249aa47636b4e77?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=67&width=862&height=575",
-            "altText": "Sabastian Sawe stands next to his record time",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63b9e156f9a9fd0f289d177df41614c6?impolicy=wcms_crop_resize&cropH=3456&cropW=5184&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A tray of devilled eggs topped with small crispy pancetta",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/5c772051fdd0b303f24fb1b8cdfdb03a?impolicy=wcms_crop_resize&cropH=1695&cropW=3013&xPos=182&yPos=775&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/5c772051fdd0b303f24fb1b8cdfdb03a?impolicy=wcms_crop_resize&cropH=1877&cropW=2815&xPos=315&yPos=787&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/e4f5c99cd9789947f852b3706c238831?impolicy=wcms_crop_resize&cropH=968&cropW=1720&xPos=0&yPos=68&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/e4f5c99cd9789947f852b3706c238831?impolicy=wcms_crop_resize&cropH=1147&cropW=1719&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c772051fdd0b303f24fb1b8cdfdb03a?impolicy=wcms_crop_resize&cropH=1877&cropW=2815&xPos=315&yPos=787&width=862&height=575",
-            "altText": "Sabastian Sawe holds out his hands",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4f5c99cd9789947f852b3706c238831?impolicy=wcms_crop_resize&cropH=1147&cropW=1719&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A wide pan with baked eggs sitting on top of baby spinach, leeks and broccolini, with feta and dill scattered on top, dinner.",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/a99f2356eba394e90f5f3a8477b99ff4?impolicy=wcms_crop_resize&cropH=1687&cropW=2998&xPos=0&yPos=232&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/a99f2356eba394e90f5f3a8477b99ff4?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/5f2208ef4624b0ee7d1e9130f461a7a4?impolicy=wcms_crop_resize&cropH=776&cropW=1380&xPos=0&yPos=129&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/5f2208ef4624b0ee7d1e9130f461a7a4?impolicy=wcms_crop_resize&cropH=920&cropW=1380&xPos=0&yPos=58&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a99f2356eba394e90f5f3a8477b99ff4?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Sabastian Sawe runs past Big Ben",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5f2208ef4624b0ee7d1e9130f461a7a4?impolicy=wcms_crop_resize&cropH=920&cropW=1380&xPos=0&yPos=58&width=862&height=575",
+            "altText": "Fried eggs covered in herbs in a hot pan",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "text": "Simon Smale",
-            "title": "Analysis by Simon Smale",
-            "link": "https://www.abc.net.au/news/simon-smale/10007892",
-            "avatar": {
-              "alt": "Simon Smale",
-              "fallbackLetter": "S",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f87ce62e8c54de2bd5b3ed71ee8e48b0?impolicy=wcms_crop_resize&cropH=893&cropW=893&xPos=103&yPos=16&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          },
-          {
-            "title": "Marathon",
-            "link": "/news/topic/marathon",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "theme": "sand",
-        "readTime": 8
-      },
-      {
-        "type": "generic",
-        "id": "106610742",
-        "contentUri": "coremedia://article/106610742",
-        "label": null,
-        "link": "/news/2026-04-27/di-ryder-responds-to-booing-during-anzac-day-welcome-to-country/106610742",
-        "title": "Indigenous veteran booed at Anzac Day service 'mortified' by heckling",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Whadjuk Noongar elder who was booed while giving a Welcome to Country at Perth's Anzac Day dawn service says she had a right to speak at the event and will not back down."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An older woman, an Aboriginal elder, sits at an outdoor event wearing a dark jacket with military medals pinned to it.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c5e8770df890217eecc73a3bd5bb7a0?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=213&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Anzac Day",
-            "link": "/news/topic/anzac-day",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106606874",
-        "contentUri": "coremedia://article/106606874",
-        "label": null,
-        "link": "/news/2026-04-27/asx-markets-business-news-live-updates/106606874",
-        "title": "ASX 200 down, oil prices up, AUD stronger — as it happened",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The ASX 200 has made a disappointing start to the week, despite both the S&P 500 and tech-centric Nasdaq indexes setting new record highs, while oil prices are surging with Brent crude around $US107 a barrel. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A stock trader looks down at a tablet as he works on the floor of a busy stock exchange while surrounded by screens.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/243afdeb72b57081273fdf917bd143e4?impolicy=wcms_crop_resize&cropH=1628&cropW=2169&xPos=428&yPos=214&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Stock Market",
-            "link": "/news/topic/stock-market",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106610188",
-        "targetId": "106473020",
-        "contentUri": "coremedia://teaser/106610188",
-        "label": null,
-        "title": "Australia's fugitives found sanctuary in Istanbul. Then it all fell apart",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Istanbul was once the hideout of choice for Australian crooks. Now a Sydney gangster's legal challenge has revealed how it all unravelled for the \"Aussie Cartel\". "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-26T20:29:48+00:00",
-          "lastUpdated": "2026-04-26T21:24:54+00:00"
-        },
-        "link": "/news/2026-04-27/masood-zakaria-turkiye-extradition-secret-file/106473020",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A graphic of a bearded man in grainy black-and-white against a red backdrop of the Turkish flag and Istanbul skyline.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ed8fdf05a1cffac9f56eb023299be25?impolicy=wcms_crop_resize&cropH=745&cropW=745&xPos=290&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/1ed8fdf05a1cffac9f56eb023299be25?impolicy=wcms_crop_resize&cropH=745&cropW=1324&xPos=0&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/1ed8fdf05a1cffac9f56eb023299be25?impolicy=wcms_crop_resize&cropH=745&cropW=1118&xPos=103&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ed8fdf05a1cffac9f56eb023299be25?impolicy=wcms_crop_resize&cropH=745&cropW=1118&xPos=103&yPos=0&width=862&height=575",
-            "altText": "A graphic of a bearded man in grainy black-and-white against a red backdrop of the Turkish flag and Istanbul skyline.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Anton Rose",
-            "title": "By Anton Rose",
-            "link": "https://www.abc.net.au/news/anton-rose/105260824",
+            "text": "Gemma Breen",
+            "title": "By Gemma Breen",
+            "link": "https://www.abc.net.au/news/gemma-breen/166912",
             "avatar": {
               "alt": "",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea109ccdab55f858e0228c7cfb2838ec?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=807&yPos=0&width=160&height=160"
+              "fallbackLetter": "G",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/439ba1655da9520041915d23bab367b7?impolicy=wcms_crop_resize&cropH=720&cropW=719&xPos=0&yPos=119&width=160&height=160"
             },
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Crime",
-            "link": "/news/topic/crime",
-            "type": "subject",
-            "screenReader": "Topic",
+            "title": "ABC Lifestyle",
+            "link": "https://www.abc.net.au/news/lifestyle/",
+            "type": "infoSource",
             "key": "Tag2"
           }
         ],
-        "readTime": 7
-      },
-      {
-        "type": "generic",
-        "id": "106577042",
-        "contentUri": "coremedia://article/106577042",
-        "label": null,
-        "link": "/news/2026-04-27/wild-west-of-rewards-clubs-operating-on-fringe-of-regulation/106577042",
-        "title": "'Membership to nothing': The multi-million-dollar Wild West of rewards clubs",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "\"Rewards clubs\" have exploded in Australia, claiming to have given away hundreds of millions in prizes, but they operate with almost no legal scrutiny. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A large 4 wheel drive in a showroom clouded in smoke with dramatic red lighting.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4dffbc99f80d45b7b9107516961ac93?impolicy=wcms_crop_resize&cropH=684&cropW=912&xPos=61&yPos=193&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Business and Industry Regulation",
-            "link": "/news/topic/business-and-industry-regulation",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106607838",
-        "contentUri": "coremedia://article/106607838",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-04-27/budget-recession-we-had-to-have-hormuz-oil-shock-iran/106607838",
-        "title": "An oil shock, a federal budget and the recession we may have to have",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Accompanying the oil shock unfolding in the Strait of Hormuz is a profound change in the way fiscal and monetary policymakers operate. And as the government prepares the budget with the impact of the Iran war still unfolding, a recession may be ahead. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man in a suit from a side profile with his chin jutted out defiantly.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1c7302a6849b1174a8dbbe44b7bfe01?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=200&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Alan Kohler",
-            "title": "Analysis by Alan Kohler",
-            "link": "https://www.abc.net.au/news/alan-kohler/167112",
-            "avatar": {
-              "alt": "A man in a suit jacket wearing glasses",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/170a4afe9369ee07aee9ddba717f557e?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=566&yPos=0&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106610014",
-        "contentUri": "coremedia://article/106610014",
-        "label": null,
-        "link": "/news/2026-04-27/japan-hokkaido-earthquake-wildfires-north-evacuations/106610014",
-        "title": "Magnitude-6.1 earthquake and raging wildfires strike Japan's north",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A preliminary magnitude-6.1 earthquake struck northern Japan early today, the US Geological Survey has reported, but there are no immediate reports of fatalities or damage."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A firefighter in a forest in Japan spraying water onto burnt areas",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bdbdfcb79d41a312544b0c2dce0d7d94?impolicy=wcms_crop_resize&cropH=720&cropW=960&xPos=160&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Earthquakes",
-            "link": "/news/topic/earthquakes",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 1
       },
       {
         "type": "generic",
@@ -1333,12 +1478,12 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106611306",
-        "targetId": "106591210",
-        "contentUri": "coremedia://teaser/106611306",
+        "type": "generic",
+        "id": "106612872",
+        "contentUri": "coremedia://article/106612872",
         "label": null,
-        "title": "Australian surgeon returns for fourth Gaza mission ",
+        "link": "/news/2026-04-27/bairnsdale-power-station-fire/106612872",
+        "title": "Fire breaks out during maintenance on gas power station in Victoria's east",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1352,7 +1497,53 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Orthopaedic surgeon Herwig Drobetz returns to Gaza for fourth mercy mission.  "
+                    "content": "Firefighters have battled a blaze that broke out at a gas power station in Victoria's east."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A night image of a power station",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8fd7e42408a38de59ccb4216f2c0951?impolicy=wcms_crop_resize&cropH=562&cropW=749&xPos=125&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Industrial Fires",
+            "link": "/news/topic/industrial-fires",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106613032",
+        "targetId": "106612122",
+        "contentUri": "coremedia://teaser/106613032",
+        "label": null,
+        "title": "Paralympic champion shares emotional volatility after traumatic brain injury",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Alexa Leary sustained a traumatic brain injury (TBI) after a cycling accident at age 19. The two-time Paralympic gold medallist turned author is calling for a day to recognise TBI and the unique challenges it brings."
                   }
                 ]
               }
@@ -1360,10 +1551,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-04-27T02:10:17+00:00",
-          "lastUpdated": "2026-04-27T08:24:13+00:00"
+          "firstPublished": "2026-04-27T06:29:19+00:00",
+          "lastUpdated": "2026-04-27T06:29:19+00:00"
         },
-        "link": "/news/2026-04-27/orthopaedic-surgeon-returns-to-gaza-medic-humanitarian/106591210",
+        "link": "/news/2026-04-27/alexa-leary-paralympic-champion-traumatic-brain-injury-awareness/106612122",
         "related": {
           "title": null,
           "videos": [],
@@ -1372,86 +1563,92 @@
         },
         "gallery": [
           {
-            "altText": "doctor in scrubs",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/27c17f360da9f3834f8d1ed09571a128?impolicy=wcms_crop_resize&cropH=1200&cropW=1200&xPos=0&yPos=200&width=862&height=862"
+            "altText": "Swimmer with one arm on the edge of the pool, screaming and pumping her fist with joy after winning",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49172e7396c159805ccc4287cb6d33ba?impolicy=wcms_crop_resize&cropH=1999&cropW=1999&xPos=501&yPos=0&width=862&height=862"
           },
           {
-            "altText": "29 nurses and doctors in scrubs, male and female standing, facing the camera in front of tents on sandy soil",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20e8fae9500af4b924c1529d3b7a837c?impolicy=wcms_crop_resize&cropH=1200&cropW=1200&xPos=200&yPos=0&width=862&height=862"
+            "altText": "Alexa Leary reacts with her mouth wide open",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3df0eaaf4baa0ef14cada3bdcddf53da?impolicy=wcms_crop_resize&cropH=3280&cropW=3280&xPos=824&yPos=0&width=862&height=862"
           },
           {
-            "altText": "field hospital with sun setting",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe87ad35964e599d9f50fe34e1fca02f?impolicy=wcms_crop_resize&cropH=1200&cropW=1200&xPos=0&yPos=386&width=862&height=862"
+            "altText": "",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fdc9e8c44cd737a319cb0a49e2a6298?impolicy=wcms_crop_resize&cropH=2690&cropW=2690&xPos=671&yPos=0&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/27c17f360da9f3834f8d1ed09571a128?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=463&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/27c17f360da9f3834f8d1ed09571a128?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=400&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/49172e7396c159805ccc4287cb6d33ba?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=38&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/49172e7396c159805ccc4287cb6d33ba?impolicy=wcms_crop_resize&cropH=1999&cropW=2999&xPos=1&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/27c17f360da9f3834f8d1ed09571a128?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=400&width=862&height=575",
-            "altText": "doctor in scrubs",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49172e7396c159805ccc4287cb6d33ba?impolicy=wcms_crop_resize&cropH=1999&cropW=2999&xPos=1&yPos=0&width=862&height=575",
+            "altText": "Swimmer with one arm on the edge of the pool, screaming and pumping her fist with joy after winning",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/20e8fae9500af4b924c1529d3b7a837c?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=76&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/20e8fae9500af4b924c1529d3b7a837c?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/3df0eaaf4baa0ef14cada3bdcddf53da?impolicy=wcms_crop_resize&cropH=2772&cropW=4928&xPos=0&yPos=254&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/3df0eaaf4baa0ef14cada3bdcddf53da?impolicy=wcms_crop_resize&cropH=3280&cropW=4920&xPos=4&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20e8fae9500af4b924c1529d3b7a837c?impolicy=wcms_crop_resize&cropH=1067&cropW=1600&xPos=0&yPos=0&width=862&height=575",
-            "altText": "29 nurses and doctors in scrubs, male and female standing, facing the camera in front of tents on sandy soil",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3df0eaaf4baa0ef14cada3bdcddf53da?impolicy=wcms_crop_resize&cropH=3280&cropW=4920&xPos=4&yPos=0&width=862&height=575",
+            "altText": "Alexa Leary reacts with her mouth wide open",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/fe87ad35964e599d9f50fe34e1fca02f?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=648&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/fe87ad35964e599d9f50fe34e1fca02f?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=586&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/5fdc9e8c44cd737a319cb0a49e2a6298?impolicy=wcms_crop_resize&cropH=2269&cropW=4033&xPos=0&yPos=211&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/5fdc9e8c44cd737a319cb0a49e2a6298?impolicy=wcms_crop_resize&cropH=2689&cropW=4033&xPos=0&yPos=1&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe87ad35964e599d9f50fe34e1fca02f?impolicy=wcms_crop_resize&cropH=800&cropW=1200&xPos=0&yPos=586&width=862&height=575",
-            "altText": "field hospital with sun setting",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5fdc9e8c44cd737a319cb0a49e2a6298?impolicy=wcms_crop_resize&cropH=2689&cropW=4033&xPos=0&yPos=1&width=862&height=575",
+            "altText": "A smiling woman stands between two men in front of a helicopter",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "title": "ABC North Coast",
-            "link": "https://www.abc.net.au/northcoast/",
-            "type": "infoSource",
+            "text": "Kate O'Halloran",
+            "title": "By Kate O'Halloran",
+            "link": "https://www.abc.net.au/news/kate-ohalloran/10821058",
+            "avatar": {
+              "alt": "Profile picture of ABC journalist Kate O'Halloran. She is smiling, wearing a black polo shirt with a white stripe on the collar",
+              "fallbackLetter": "K",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f4081d9308b59104a7847c2a92b722e3?impolicy=wcms_crop_resize&cropH=1158&cropW=1158&xPos=91&yPos=0&width=160&height=160"
+            },
+            "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "War Victims",
-            "link": "/news/topic/war-victims",
+            "title": "Swimming",
+            "link": "/news/topic/swimming",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
-        "readTime": 4
+        "readTime": 5
       },
       {
         "type": "generic",
-        "id": "106610816",
-        "contentUri": "coremedia://article/106610816",
+        "id": "106612074",
+        "contentUri": "coremedia://article/106612074",
         "label": null,
-        "link": "/news/2026-04-27/tadej-pogacar-liege-bastogne-liege-paul-seixas-tour-de-france/106610816",
-        "title": "Pogačar looks unbeatable, but Seixas could be France's next new hope",
+        "link": "/news/2026-04-27/climber-rescued-after-fall-near-mount-arapiles/106612074",
+        "title": "Climber sustains life-threatening injuries in fall near Mount Arapiles",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1465,7 +1662,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Tadej Pogačar claims a third monument win out of four for the year at Liège-Bastogne-Liège, but a new power is rising in the form of 19-year-old Paul Seixas, with an unlikely Tour de France tilt seemingly on the cards."
+                    "content": "A rock climber is recovering in hospital after falling from a rock face near Mount Arapiles in Victoria's west."
                   }
                 ]
               }
@@ -1473,16 +1670,16 @@
           }
         },
         "image": {
-          "altText": "Tadej Pogacar looks behind him at Paul Seixas",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0ec83f9c5c28fc9156c143bd4fe4d082?impolicy=wcms_crop_resize&cropH=2461&cropW=3281&xPos=503&yPos=1223&width=160&height=120",
+          "altText": "A helicopter in the air with person hanging from a rope below",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/90c164be5f9cc14c74eb4ac86c299bda?impolicy=wcms_crop_resize&cropH=2268&cropW=3024&xPos=0&yPos=39&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Road Cycle Racing",
-            "link": "/news/topic/road-cycle-racing",
+            "title": "Accidents and Emergency Incidents",
+            "link": "/news/topic/accidents-and-emergency-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1493,12 +1690,11 @@
       },
       {
         "type": "generic",
-        "id": "106608232",
-        "contentUri": "coremedia://article/106608232",
-        "theme": "sand",
+        "id": "106609972",
+        "contentUri": "coremedia://article/106609972",
         "label": null,
-        "link": "/news/2026-04-27/trump-albanese-kryptonite-us-alliance-but-not-reverential/106608232",
-        "title": "Trump turmoil is political kryptonite in Australia",
+        "link": "/news/2026-04-27/children-in-house-fire-bowen-mountain-hawkesbury/106609972",
+        "title": "Two dead in house fire on day family were due to move interstate",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1512,7 +1708,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "As Donald Trump's approval in Australia sinks, Anthony Albanese needs to walk a careful line: keep voters convinced of the merits of the alliance, while avoiding the impression he is being too reverential. "
+                    "content": "Two bodies found in a house that was extensively damaged by fire in the foothills of the NSW Blue Mountains are believed to be those of two missing children."
                   }
                 ]
               }
@@ -1520,113 +1716,16 @@
           }
         },
         "image": {
-          "altText": "Anthony Albanese takes a selfie with a smiling Donald Trump",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2cd5232e088ec6df609efda27359fb75?impolicy=wcms_crop_resize&cropH=284&cropW=379&xPos=142&yPos=64&width=160&height=120",
+          "altText": "Bowen Mountain heli shot",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3cfb712ea551a4322c7f8556c73fed2c?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Patricia Karvelas",
-            "title": "Analysis by Patricia Karvelas",
-            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
-            "avatar": {
-              "alt": "Patricia Karvelas portrait",
-              "fallbackLetter": "P",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106414900",
-        "contentUri": "coremedia://article/106414900",
-        "label": null,
-        "link": "/news/2026-04-27/drought-stricken-farmers-praise-sheep-health-course/106414900",
-        "title": "Farmers examine sheep for magic numbers to navigate drought",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "With a quick feel of a sheep's back, farmers score their flock, finding the magic numbers to help them navigate record-breaking drought, and now diesel price spikes."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man in a shed feels a sheep's back",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e67232251aeb203789caba1f67670eb?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=625&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Sheep Farming",
-            "link": "/news/topic/sheep-farming",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106609926",
-        "contentUri": "coremedia://article/106609926",
-        "label": null,
-        "link": "/news/2026-04-27/esteban-andrada-gets-sent-off-punches-opposition-in-the-fa/106609926",
-        "title": "Spanish derby descends into chaos after keeper punches opponent in face",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Aragonese derby between Real Zaragoza and Huesca descends into a wild brawl after Zaragoza goalkeeper Esteban Andrada punches Huesca skipper Jorge Pulido in the face."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Esteban Andrada punches Jorge Pulido",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63e1a84e0b1f7e448c8fa82600dda077?impolicy=wcms_crop_resize&cropH=632&cropW=843&xPos=102&yPos=30&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Soccer",
-            "link": "/news/topic/soccer",
+            "title": "House Fires",
+            "link": "/news/topic/house-fires",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1637,10 +1736,263 @@
       },
       {
         "type": "rich",
-        "id": "106609946",
-        "targetId": "106608000",
-        "contentUri": "coremedia://teaser/106609946",
+        "id": "106612792",
+        "targetId": "106611156",
+        "contentUri": "coremedia://teaser/106612792",
         "label": null,
+        "title": "'Security was extraordinarily lax': ABC's Americas editor on how the shooting played out",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "ABC's Americas editor John Lyons said there was less security than your average Australian airport at the event."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "He describes people screaming around him as the shots were heard."
+                  },
+                  {
+                    "type": "tagname",
+                    "key": "br",
+                    "props": {},
+                    "children": []
+                  },
+                  {
+                    "type": "tagname",
+                    "key": "br",
+                    "props": {},
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "content": "Cabinet ministers and other important people were being plucked from tables as the Secret Service started running through the room in \"extraordinary\" scenes."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-04-27T06:02:55+00:00",
+          "lastUpdated": "2026-04-27T06:02:55+00:00"
+        },
+        "link": "/news/2026-04-27/-security-was-extraordinarily-lax-abc-s-americas-editor-on-how-t/106611156",
+        "related": {
+          "title": null,
+          "videos": [
+            {
+              "id": "106611156",
+              "canonicalURL": "https://www.abc.net.au/news/2026-04-27/-security-was-extraordinarily-lax-abc-s-americas-editor-on-how-t/106611156",
+              "uri": "coremedia://video/106611156",
+              "duration": 204,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/jv/Z/h8.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 35157125,
+                  "bitrate": 1053,
+                  "label": "1.05 mbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "9x16",
+              "image": {
+                "altText": "John Lyons outdoors in Washington DC wearing a dark coat and shirt and tie with his hands clasped together",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5f9aed38f4d0be324ed8458f9f533bd?impolicy=wcms_crop_resize&cropH=1920&cropW=1080&xPos=0&yPos=0&width=862&height=1533",
+                "width": "862",
+                "height": "1533"
+              },
+              "isVerticalVideo": true
+            }
+          ],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "John Lyons outdoors in Washington DC wearing a dark coat and shirt and tie with his hands clasped together",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5f9aed38f4d0be324ed8458f9f533bd?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=0&yPos=57&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/d5f9aed38f4d0be324ed8458f9f533bd?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=293&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/d5f9aed38f4d0be324ed8458f9f533bd?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=237&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d5f9aed38f4d0be324ed8458f9f533bd?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=237&width=862&height=575",
+            "altText": "John Lyons outdoors in Washington DC wearing a dark coat and shirt and tie with his hands clasped together",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [],
+        "readTime": null
+      },
+      {
+        "type": "generic",
+        "id": "106612594",
+        "contentUri": "coremedia://article/106612594",
+        "label": null,
+        "link": "/news/2026-04-27/two-young-girls-die-after-viveash-car-crash/106612594",
+        "title": "Two young girls die as WA records another dire weekend on roads",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Two young girls, aged three and four, die more than a week after a car crash in Viveash, with the news emerging after another two fatalities on WA roads over the Anzac Day long weekend. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A section of road with some trees alongside. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc978423b9b290dac24d2ce23cee0818?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106609938",
+        "contentUri": "coremedia://article/106609938",
+        "label": null,
+        "link": "/news/2026-04-27/qld-e-mobility-inquiry-new-legislation-neuron-lime/106609938",
+        "title": "E-scooter rental companies say proposed laws threaten Qld viability",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The government's proposed legislation — including new licensing requirements, a 10km/h speed limit on footpaths, and an age restriction — are expected to become law in July."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A range of Neuron e-scooters lined up ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe416624ec64cf7694fa714fe77a0649?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=273&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Transport",
+            "link": "/news/topic/transport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106591210",
+        "contentUri": "coremedia://article/106591210",
+        "label": null,
+        "link": "/news/2026-04-27/orthopaedic-surgeon-returns-to-gaza-medic-humanitarian/106591210",
+        "title": "Australian surgeon returns for 'very important' fourth mission in Gaza",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Orthopaedic surgeon Herwig Drobetz returns to Gaza for fourth mercy mission. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "doctor in scrubs",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/27c17f360da9f3834f8d1ed09571a128?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=0&yPos=350&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "War Victims",
+            "link": "/news/topic/war-victims",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106608000",
+        "contentUri": "coremedia://article/106608000",
+        "label": null,
+        "link": "/news/2026-04-26/netherlands-buys-bushmaster-fleet-australia-commits-to-more/106608000",
         "title": "Australia to sell fleet of Bushmaster armoured vehicles to the Dutch",
         "content": {
           "descriptor": {
@@ -1662,61 +2014,24 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-04-26T12:34:13+00:00",
-          "lastUpdated": "2026-04-27T00:53:21+00:00"
+        "image": {
+          "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=1959&cropW=2612&xPos=346&yPos=51&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-04-26/netherlands-buys-bushmaster-fleet-australia-commits-to-more/106608000",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=2560&xPos=214&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=265&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=3840&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a44f99891fa4936036d8a1f79f463329?impolicy=wcms_crop_resize&cropH=2560&cropW=3840&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A Bushmaster sporting Ukrainian flags stands in front of a Globemaster airplane on the tarmac",
-            "height": "485",
-            "width": "862"
-          }
-        ],
         "tags": [
-          {
-            "text": "Nicole Asher",
-            "title": "By Nicole Asher",
-            "link": "https://www.abc.net.au/news/nicole-asher/6465000",
-            "avatar": {
-              "alt": "A headshot of ABC News reporter Nicole Asher.",
-              "fallbackLetter": "N",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/516278fcc88069980a26665cfdc56e89?impolicy=wcms_crop_resize&cropH=966&cropW=966&xPos=84&yPos=135&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
           {
             "title": "Defence Industry",
             "link": "/news/topic/defence-industry",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag2"
+            "key": "Tag1"
           }
         ],
-        "readTime": 4
+        "mediaIndicator": null,
+        "dates": null
       }
     ]
   }
