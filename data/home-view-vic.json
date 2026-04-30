@@ -88,6 +88,54 @@
       },
       {
         "type": "generic",
+        "id": "106626366",
+        "contentUri": "coremedia://article/106626366",
+        "label": {
+          "variant": "breaking"
+        },
+        "link": "/news/2026-04-30/paramedic-stabbed-in-reservoir-in-melbournes-north/106626366",
+        "title": "On-duty paramedic stabbed outside cafe in Melbourne's north",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Police have arrested a man who allegedly stabbed an on-duty paramedic in the suburb of Reservoir, in Melbourne's north, before fleeing the scene."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A close up image of a uniform paramedic badge which says Ambulance Victoria",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24336acb474eadf575e0149304c82fcf?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=480&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Emergency Services",
+            "link": "/news/topic/emergency-services",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106614568",
         "contentUri": "coremedia://article/106614568",
         "label": null,
@@ -225,52 +273,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106623166",
-        "contentUri": "coremedia://article/106623166",
-        "label": null,
-        "link": "/news/2026-04-30/geelong-melbourne-vline-commuter-public-transport/106623166",
-        "title": "Melbourne rush-hour chaos as hundreds of rail passengers left stranded",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A rail equipment fault caused havoc on the V/Line Geelong Line on Wednesday night, with rail operators warning of more delays today."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Jūn Háo Bái 2",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/82d34adccd3af0209d62884e927fb05f?impolicy=wcms_crop_resize&cropH=1536&cropW=2048&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Public Transport",
-            "link": "/news/topic/public-transport",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106621210",
         "targetId": "106620512",
@@ -350,6 +352,52 @@
       },
       {
         "type": "generic",
+        "id": "106623166",
+        "contentUri": "coremedia://article/106623166",
+        "label": null,
+        "link": "/news/2026-04-30/geelong-melbourne-vline-commuter-public-transport/106623166",
+        "title": "Melbourne rush-hour chaos as hundreds of rail passengers left stranded",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A rail equipment fault caused havoc on the V/Line Geelong Line on Wednesday night, with rail operators warning of more delays today."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Jūn Háo Bái 2",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/82d34adccd3af0209d62884e927fb05f?impolicy=wcms_crop_resize&cropH=1536&cropW=2048&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Public Transport",
+            "link": "/news/topic/public-transport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106615850",
         "contentUri": "coremedia://article/106615850",
         "label": null,
@@ -393,7 +441,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106622130",
@@ -439,19 +499,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106618916",
@@ -490,52 +538,6 @@
           {
             "title": "Public Service",
             "link": "/news/topic/public-service",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106621516",
-        "contentUri": "coremedia://article/106621516",
-        "label": null,
-        "link": "/news/2026-04-29/afl-pushes-ahead-with-draft-changes-and-not-everyone-is-happy/106621516",
-        "title": "AFL pushes ahead with draft changes and not everyone is happy",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The AFL is pushing ahead with draft and player-movement changes for this off-season, with Carlton president Rob Priestly and Western Bulldogs coach Luke Beveridge criticising the move."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "First-night draftees from the 2025 AFL draft in their new teams' guernseys",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2784ddf44e2704e833cd4cb771b0996?impolicy=wcms_crop_resize&cropH=2915&cropW=3886&xPos=530&yPos=132&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AFL",
-            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -621,6 +623,52 @@
           }
         ],
         "readTime": 3
+      },
+      {
+        "type": "generic",
+        "id": "106621516",
+        "contentUri": "coremedia://article/106621516",
+        "label": null,
+        "link": "/news/2026-04-29/afl-pushes-ahead-with-draft-changes-and-not-everyone-is-happy/106621516",
+        "title": "AFL pushes ahead with draft changes and not everyone is happy",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The AFL is pushing ahead with draft and player-movement changes for this off-season, with Carlton president Rob Priestly and Western Bulldogs coach Luke Beveridge criticising the move."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "First-night draftees from the 2025 AFL draft in their new teams' guernseys",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2784ddf44e2704e833cd4cb771b0996?impolicy=wcms_crop_resize&cropH=2915&cropW=3886&xPos=530&yPos=132&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -761,52 +809,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106587334",
-        "contentUri": "coremedia://article/106587334",
-        "label": null,
-        "link": "/news/2026-04-29/autism-self-employment-helps-avoid-workplace-barriers/106587334",
-        "title": "How self-employment can help autistic people avoid workplace challenges",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "After the National Autism Strategy identifies the potential of self-employment to provide meaningful work for people with autism, neurodivergent people who are already self-employed say it can help overcome workplace barriers."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A young girl with long dark blonde hair with pink tips sits on a green velvet sofa with a woman with short blonde hair, smiling",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80d5748e2e504b62d088b836e369c52c?impolicy=wcms_crop_resize&cropH=2697&cropW=3596&xPos=246&yPos=303&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Autism Spectrum Disorder",
-            "link": "/news/topic/autism-spectrum-disorder",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106621458",
         "targetId": "106617462",
@@ -921,6 +923,52 @@
           {
             "title": "Theatre",
             "link": "/news/topic/theatre",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106587334",
+        "contentUri": "coremedia://article/106587334",
+        "label": null,
+        "link": "/news/2026-04-29/autism-self-employment-helps-avoid-workplace-barriers/106587334",
+        "title": "How self-employment can help autistic people avoid workplace challenges",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "After the National Autism Strategy identifies the potential of self-employment to provide meaningful work for people with autism, neurodivergent people who are already self-employed say it can help overcome workplace barriers."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A young girl with long dark blonde hair with pink tips sits on a green velvet sofa with a woman with short blonde hair, smiling",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/80d5748e2e504b62d088b836e369c52c?impolicy=wcms_crop_resize&cropH=2697&cropW=3596&xPos=246&yPos=303&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Autism Spectrum Disorder",
+            "link": "/news/topic/autism-spectrum-disorder",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
