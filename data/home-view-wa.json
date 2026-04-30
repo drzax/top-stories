@@ -110,30 +110,13 @@
         "readTime": 2
       },
       {
-        "type": "medium",
-        "id": "106628304",
-        "contentUri": "coremedia://teaser/106628304",
+        "type": "generic",
+        "id": "106616186",
+        "contentUri": "coremedia://article/106616186",
         "label": null,
         "link": "/news/2026-04-30/synergy-scott-river-windfarm-approved/106616186",
         "title": "Controversial $500m South West wind farm approved",
-        "image": {
-          "altText": "Ariel shot of the Scott River winding through green bushland",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0ef3028692a43bd1b984200a2f957fb?impolicy=wcms_crop_resize&cropH=2812&cropW=3749&xPos=625&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "Wind Energy",
-            "link": "/news/topic/wind-energy",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -153,6 +136,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Ariel shot of the Scott River winding through green bushland",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0ef3028692a43bd1b984200a2f957fb?impolicy=wcms_crop_resize&cropH=2812&cropW=3749&xPos=625&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Wind Energy",
+            "link": "/news/topic/wind-energy",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -200,14 +200,26 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
-        "type": "generic",
-        "id": "106618050",
-        "contentUri": "coremedia://article/106618050",
+        "type": "rich",
+        "id": "106625664",
+        "targetId": "106623074",
+        "contentUri": "coremedia://teaser/106625664",
         "label": null,
-        "link": "/news/2026-04-30/rent-price-up-wa-median-affordable-housing/106618050",
-        "title": "WA's rental vacancy half the national average, according to new report",
+        "title": "Just one rental in Australia affordable for JobSeekers like Jess",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -221,20 +233,46 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Western Australians are increasingly being driven towards financial distress and homelessness as the cost of renting continues to surge, according to new data from Anglicare WA."
+                    "content": "Anglicare Australia's latest look at rentals shows the private market effectively does not exist for poorer Australians. "
                   }
                 ]
               }
             ]
           }
         },
-        "image": {
-          "altText": "Brett and his mother sit on the couch in a dimly lit, small apartment living room.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a94124aec2a6b4a3544bf0f9a00d2dc1?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=279&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-04-29T20:53:55+00:00",
+          "lastUpdated": "2026-04-30T04:27:27+00:00"
         },
+        "link": "/news/2026-04-30/rental-affordability-snapshot-dire-for-poorer-australian/106623074",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A young woman smiles while playing with her cat on a desk.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/defdc96e05394f1b3c47e397a1f5259c?impolicy=wcms_crop_resize&cropH=4284&cropW=4284&xPos=714&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/defdc96e05394f1b3c47e397a1f5259c?impolicy=wcms_crop_resize&cropH=3213&cropW=5712&xPos=0&yPos=310&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/defdc96e05394f1b3c47e397a1f5259c?impolicy=wcms_crop_resize&cropH=3808&cropW=5712&xPos=0&yPos=238&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/defdc96e05394f1b3c47e397a1f5259c?impolicy=wcms_crop_resize&cropH=3808&cropW=5712&xPos=0&yPos=238&width=862&height=575",
+            "altText": "A young woman smiles while playing with her cat on a desk.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "Rental Housing",
@@ -244,8 +282,7 @@
             "key": "Tag1"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 5
       },
       {
         "type": "rich",
@@ -343,30 +380,13 @@
         "readTime": 3
       },
       {
-        "type": "medium",
-        "id": "106628488",
-        "contentUri": "coremedia://teaser/106628488",
+        "type": "generic",
+        "id": "106598556",
+        "contentUri": "coremedia://article/106598556",
         "label": null,
         "link": "/news/2026-04-30/wa-police-sanctioned-linton-ryan-death-in-custody-kalgoorlie/106598556",
         "title": "Officer who laughed at prison death among six sanctioned by WA Police",
-        "image": {
-          "altText": "JAIL",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1845cb1295daaeeef8d6948c22dd1bc0?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "Black Deaths In Custody",
-            "link": "/news/topic/black-deaths-in-custody",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -386,20 +406,71 @@
             ]
           }
         },
+        "image": {
+          "altText": "JAIL",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1845cb1295daaeeef8d6948c22dd1bc0?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Black Deaths In Custody",
+            "link": "/news/topic/black-deaths-in-custody",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106624310",
+        "contentUri": "coremedia://article/106624310",
+        "label": null,
+        "link": "/news/2026-04-30/perth-fog-city-wakes-to-thick-blanket/106624310",
+        "title": "Perth awakes blanketed in a thick shroud of fog — see the pictures here",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Perth has been blanketed with thick fog, prompting warnings for motorists to use caution in the conditions."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Fog shrounds suburban Perth. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/21393a8df5bc77a3ecca11816cf35a09?impolicy=wcms_crop_resize&cropH=1815&cropW=2420&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Weather",
+            "link": "/news/topic/weather",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "106623744",
@@ -516,52 +587,6 @@
       },
       {
         "type": "generic",
-        "id": "106624310",
-        "contentUri": "coremedia://article/106624310",
-        "label": null,
-        "link": "/news/2026-04-30/perth-fog-city-wakes-to-thick-blanket/106624310",
-        "title": "Perth awakes blanketed in a thick shroud of fog — see the pictures here",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Perth has been blanketed with thick fog, prompting warnings for motorists to use caution in the conditions."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Fog shrounds suburban Perth. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/21393a8df5bc77a3ecca11816cf35a09?impolicy=wcms_crop_resize&cropH=1815&cropW=2420&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Weather",
-            "link": "/news/topic/weather",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106628104",
         "contentUri": "coremedia://article/106628104",
         "label": null,
@@ -598,52 +623,6 @@
           {
             "title": "AFL",
             "link": "/news/topic/afl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106623682",
-        "contentUri": "coremedia://article/106623682",
-        "label": null,
-        "link": "/news/2026-04-30/rebel-wilson-court-evidence-defamation-trial-the-deb/106623682",
-        "title": "Rebel Wilson trial told of 'culturally inappropriate Indian outfit' post",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Rebel Wilson tells a court several social media posts targeting the lead actor on her film The Deb are all true, on her final day of cross-examination in a defamation trial."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Rebel Wilson outside court April 30 for defamation trial",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ddd0019c4fc1a80ada207e9f6e33fc66?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=88&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -699,129 +678,6 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106625408",
-        "targetId": "106616628",
-        "contentUri": "coremedia://teaser/106625408",
-        "label": null,
-        "title": "Artist who taught himself to paint after seeing Roy and HG portrait wins prize",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Sean Layh has won the $3,000 Packing Room Prize at this year's Archibald Prize for his portrait of Jacob Collins, titled The tragicall historie of Hamlet, Prince of Denmarke."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-30T01:28:53+00:00",
-          "lastUpdated": "2026-04-30T05:19:45+00:00"
-        },
-        "link": "/news/2026-04-30/archibald-packing-room-prize-2026-sean-layh-jacob-collins/106616628",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Portrait of Jacob Collins by Sean Layh; a man laying in a disheveled bed.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4eca2ca2e96d2f68e2952bf05754590?impolicy=wcms_crop_resize&cropH=2276&cropW=2276&xPos=362&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/d4eca2ca2e96d2f68e2952bf05754590?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=294&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/d4eca2ca2e96d2f68e2952bf05754590?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=138&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4eca2ca2e96d2f68e2952bf05754590?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=138&width=862&height=575",
-            "altText": "Portrait of Jacob Collins by Sean Layh; a man laying in a disheveled bed.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Arts",
-            "link": "http://www.abc.net.au/arts/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Visual Art",
-            "link": "/news/topic/visual-art",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 10
-      },
-      {
-        "type": "generic",
-        "id": "106622306",
-        "contentUri": "coremedia://article/106622306",
-        "label": null,
-        "link": "/news/2026-04-30/bondi-antisemitism-social-cohesion-royal-commission-report/106622306",
-        "title": "Royal commission recommends national firearms agreement and buyback scheme",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Royal Commission on Antisemitism and Social Cohesion releases its interim report, making 14 recommendations."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Sam Mostyn holds a copy of the interim report. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/975cba291dc52cd9f953bb9c63df9f16?impolicy=wcms_crop_resize&cropH=901&cropW=1201&xPos=199&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Royal Commissions",
-            "link": "/news/topic/royal-commissions",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "generic",
         "id": "106620348",
         "contentUri": "coremedia://article/106620348",
@@ -859,6 +715,52 @@
           {
             "title": "Veterans",
             "link": "/news/topic/veterans",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106622166",
+        "contentUri": "coremedia://article/106622166",
+        "label": null,
+        "link": "/news/2026-04-29/nathan-odriscoll-fremantle-docker-reveals-mental-health-battle/106622166",
+        "title": "Docker O'Driscoll reveals he contemplated suicide in emotional post",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Fremantle Dockers player Nathan O'Driscoll reveals his mental health struggles in an emotional social media post, amid a push from players for the AFL to implement a mental health round."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Nathan handballing a football ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf6b2d301be1ce3eaffac70ca7230e2f?impolicy=wcms_crop_resize&cropH=1714&cropW=2285&xPos=284&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -964,52 +866,6 @@
       },
       {
         "type": "generic",
-        "id": "106622166",
-        "contentUri": "coremedia://article/106622166",
-        "label": null,
-        "link": "/news/2026-04-29/nathan-odriscoll-fremantle-docker-reveals-mental-health-battle/106622166",
-        "title": "Docker O'Driscoll reveals he contemplated suicide in emotional post",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Fremantle Dockers player Nathan O'Driscoll reveals his mental health struggles in an emotional social media post, amid a push from players for the AFL to implement a mental health round."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Nathan handballing a football ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf6b2d301be1ce3eaffac70ca7230e2f?impolicy=wcms_crop_resize&cropH=1714&cropW=2285&xPos=284&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AFL",
-            "link": "/news/topic/afl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106625026",
         "contentUri": "coremedia://teaser/106625026",
         "label": null,
@@ -1046,6 +902,63 @@
           {
             "title": "Government and Politics",
             "link": "/news/topic/government-and-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106622864",
+        "contentUri": "coremedia://audiosegment/106622864",
+        "label": null,
+        "link": "https://www.abc.net.au/listen/programs/perth-drive/g8-childcare-closures-wa/106622864",
+        "title": "Shock closure of 12 WA childcare centres ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia's largest childcare operator G8 Education will shut 40 of its centres - 12 of those are in WA. "
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Read the full list of local closures and hear from the union representing childcare workers"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A non-identifiable child playing with toys.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed0595a96391aec5899ee64379ba381d?impolicy=wcms_crop_resize&cropH=769&cropW=1025&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Early Childhood Education and Care Services",
+            "link": "/news/topic/early-childhood-education-and-care-services",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1157,11 +1070,11 @@
       },
       {
         "type": "generic",
-        "id": "106585314",
-        "contentUri": "coremedia://article/106585314",
+        "id": "106601304",
+        "contentUri": "coremedia://article/106601304",
         "label": null,
-        "link": "/news/2026-04-30/inflation-tracker-see-how-prices-have-changed/106585314",
-        "title": "From cereal to clothing, see how the price of everyday items has changed",
+        "link": "/news/2026-04-29/goldfields-defensive-driving-course-begins/106601304",
+        "title": "New course helps teens navigate unique outback driving hazards",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1175,7 +1088,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "If it feels like everything is getting more expensive, that's because it is. With the rate of inflation rising this week, we've tracked how the price of everyday items has increased."
+                    "content": "A new defensive driving course being offered in Kalgoorlie aims to equip young motorists with the skills to cope with the unique challenges of outback driving."
                   }
                 ]
               }
@@ -1183,16 +1096,16 @@
           }
         },
         "image": {
-          "altText": "A group of everyday items; coffee, light bulb, lemon with chart lines",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d346d5518f83214423605d37d9a9f8ca?impolicy=wcms_crop_resize&cropH=1282&cropW=1709&xPos=34&yPos=0&width=160&height=120",
+          "altText": "A teenage boy behind the wheel of a car next to an instructor in a driver trainer course.  ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0365100de4be008062d227a586cd87c?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=277&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Inflation",
-            "link": "/news/topic/inflation",
+            "title": "Driver Education",
+            "link": "/news/topic/driver-education",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1203,11 +1116,11 @@
       },
       {
         "type": "generic",
-        "id": "106622864",
-        "contentUri": "coremedia://audiosegment/106622864",
+        "id": "106620310",
+        "contentUri": "coremedia://article/106620310",
         "label": null,
-        "link": "https://www.abc.net.au/listen/programs/perth-drive/g8-childcare-closures-wa/106622864",
-        "title": "Shock closure of 12 WA childcare centres ",
+        "link": "/news/2026-04-29/perth-council-monitor-appointed-serpentine-jarrahdale-shire/106620310",
+        "title": "Monitor appointed to address tensions between councillors at Perth shire",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1221,18 +1134,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Australia's largest childcare operator G8 Education will shut 40 of its centres - 12 of those are in WA. "
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Read the full list of local closures and hear from the union representing childcare workers"
+                    "content": "A fifth local authority in WA has been assigned an independent monitor, this time at the council's request, to focus on council member conduct and improving relationships."
                   }
                 ]
               }
@@ -1240,16 +1142,16 @@
           }
         },
         "image": {
-          "altText": "A non-identifiable child playing with toys.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed0595a96391aec5899ee64379ba381d?impolicy=wcms_crop_resize&cropH=769&cropW=1025&xPos=0&yPos=0&width=160&height=120",
+          "altText": "Row of six men in dark blue suits with one woman in a red pantsuit.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/edbf86e591b016af9fcb720d01be218c?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=256&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Early Childhood Education and Care Services",
-            "link": "/news/topic/early-childhood-education-and-care-services",
+            "title": "Local Government",
+            "link": "/news/topic/local-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1364,381 +1266,6 @@
           {
             "title": "Agriculture",
             "link": "/news/topic/agriculture",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3
-      },
-      {
-        "type": "generic",
-        "id": "106601304",
-        "contentUri": "coremedia://article/106601304",
-        "label": null,
-        "link": "/news/2026-04-29/goldfields-defensive-driving-course-begins/106601304",
-        "title": "New course helps teens navigate unique outback driving hazards",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A new defensive driving course being offered in Kalgoorlie aims to equip young motorists with the skills to cope with the unique challenges of outback driving."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A teenage boy behind the wheel of a car next to an instructor in a driver trainer course.  ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f0365100de4be008062d227a586cd87c?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=277&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Driver Education",
-            "link": "/news/topic/driver-education",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106620310",
-        "contentUri": "coremedia://article/106620310",
-        "label": null,
-        "link": "/news/2026-04-29/perth-council-monitor-appointed-serpentine-jarrahdale-shire/106620310",
-        "title": "Monitor appointed to address tensions between councillors at Perth shire",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A fifth local authority in WA has been assigned an independent monitor, this time at the council's request, to focus on council member conduct and improving relationships."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Row of six men in dark blue suits with one woman in a red pantsuit.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/edbf86e591b016af9fcb720d01be218c?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=256&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Local Government",
-            "link": "/news/topic/local-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106619028",
-        "targetId": "106610292",
-        "contentUri": "coremedia://teaser/106619028",
-        "label": null,
-        "title": "Experts offer theories on why WA is 'wild west' for ADHD prescriptions",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "With WA home to seven out of Australia's top-10 highest ADHD prescribing neighbourhoods, experts, psychiatrists and doctors weigh in with their theories. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-28T21:15:19+00:00",
-          "lastUpdated": "2026-04-28T21:15:19+00:00"
-        },
-        "link": "/news/2026-04-29/adhd-medication-prescriptions-high-in-western-australia-explain/106610292",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Attention Deficit Hyperactivity Disorder (ADHD) medications Concerta, Vyvanse and Ritalin on a pharmacy counter.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e701ff5a434514339d4f230db6224682?impolicy=wcms_crop_resize&cropH=4672&cropW=4672&xPos=2336&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/e701ff5a434514339d4f230db6224682?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=573&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/e701ff5a434514339d4f230db6224682?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e701ff5a434514339d4f230db6224682?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Attention Deficit Hyperactivity Disorder (ADHD) medications Concerta, Vyvanse and Ritalin on a pharmacy counter.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "ADHD",
-            "link": "/news/topic/adhd",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "Doctors and Medical Professionals",
-            "link": "/news/topic/doctors-and-medical-professionals",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 5
-      },
-      {
-        "type": "generic",
-        "id": "106622798",
-        "contentUri": "coremedia://article/106622798",
-        "label": null,
-        "link": "/news/2026-04-30/diesel-price-surge-threatens-projects-jobs-and-household-bills/106622798",
-        "title": "Fuel shock pushes civil contractors to cut jobs and pause works",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Civil construction firms warn surging diesel and material costs driven by the global oil crisis will force lay-offs and project delays, with nearly a third considering winding down."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Diesel is pumped into a black ute",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d4af1291e207fd7f88fb159895bfe8fe?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Construction and Real Estate Industry",
-            "link": "/news/topic/construction-and-real-estate-industry",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106614880",
-        "contentUri": "coremedia://article/106614880",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-04-30/what-is-inflation-cpi-explainer/106614880",
-        "title": "Why the latest inflation data matters to you",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The latest inflation data is making headlines. Find out what it means for you in three minutes."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Torn page with eyes peering through",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a45eeea54efdedc79b382098103e771b?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=90&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106620158",
-        "targetId": "106615364",
-        "contentUri": "coremedia://teaser/106620158",
-        "label": null,
-        "title": "Ultra-swimmer sets world record with 55km solo feat in crocodile-filled river",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Andy Donaldson took less than 12 hours to swim the challenging 55-kilometre course down the Upper Ord River in Western Australia's north."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-04-29T01:03:31+00:00",
-          "lastUpdated": "2026-04-29T01:47:45+00:00"
-        },
-        "link": "/news/2026-04-29/andy-donaldson-sets-swimming-world-record-kununurra-wa/106615364",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Wasian male swimmer greeted by children at sunset",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7b9c4c3281c0d4a9270bddfcd0579821?impolicy=wcms_crop_resize&cropH=427&cropW=427&xPos=107&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "swimmers and boat at sunset",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/008a2bb085b205618e8eb881083c3dd5?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=398&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "A man wearing a speedo speaking with a man in a white shirt at sunset",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d0d79d5c518d60cb1904591ed869a14b?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=807&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/7b9c4c3281c0d4a9270bddfcd0579821?impolicy=wcms_crop_resize&cropH=360&cropW=640&xPos=0&yPos=33&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/7b9c4c3281c0d4a9270bddfcd0579821?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7b9c4c3281c0d4a9270bddfcd0579821?impolicy=wcms_crop_resize&cropH=427&cropW=640&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Wasian male swimmer greeted by children at sunset",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/008a2bb085b205618e8eb881083c3dd5?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/008a2bb085b205618e8eb881083c3dd5?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/008a2bb085b205618e8eb881083c3dd5?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "swimmers and boat at sunset",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/d0d79d5c518d60cb1904591ed869a14b?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/d0d79d5c518d60cb1904591ed869a14b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d0d79d5c518d60cb1904591ed869a14b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A man wearing a speedo speaking with a man in a white shirt at sunset",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Kimberley",
-            "link": "https://www.abc.net.au/kimberley/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Sports Record",
-            "link": "/news/topic/sports-record",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
