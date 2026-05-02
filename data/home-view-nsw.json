@@ -9,13 +9,13 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "106635600",
-        "contentUri": "coremedia://article/106635600",
+        "type": "rich",
+        "id": "106635632",
+        "targetId": "106635600",
+        "contentUri": "coremedia://teaser/106635632",
         "label": {
           "variant": "breaking"
         },
-        "link": "/news/2026-05-03/nsw-man-arrested-death-three-people-rosemeadow/106635600",
         "title": "Three dead, man arrested after incident at home in Sydney",
         "content": {
           "descriptor": {
@@ -37,13 +37,39 @@
             ]
           }
         },
-        "image": {
-          "altText": "Generic NSW Police blue and white tape",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73768e1510a61a8e924f033e53db257a?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-05-02T21:15:55+00:00",
+          "lastUpdated": "2026-05-02T21:20:17+00:00"
         },
+        "link": "/news/2026-05-03/nsw-man-arrested-death-three-people-rosemeadow/106635600",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Generic NSW Police blue and white tape",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73768e1510a61a8e924f033e53db257a?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/73768e1510a61a8e924f033e53db257a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/73768e1510a61a8e924f033e53db257a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73768e1510a61a8e924f033e53db257a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Generic NSW Police blue and white tape",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "Crime",
@@ -51,10 +77,16 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Homicide",
+            "link": "/news/topic/homicide",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 1
       },
       {
         "type": "generic",
@@ -104,57 +136,11 @@
       },
       {
         "type": "generic",
-        "id": "106625858",
-        "contentUri": "coremedia://article/106625858",
-        "label": null,
-        "link": "/news/2026-05-03/kindness-of-strangers-helped-ukrainian-family/106625858",
-        "title": "Ukrainian vet saved humans and animals before finding refuge in Australia",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Wildlife veterinarian Maria Mykytiuk led an idyllic life in Bucha, Ukraine, before Russian forces invaded the city in 2022."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Ukrainian woman sits on ground surrounded by her young son and daughter. They are wrapped in a blanket covered in sunflowers.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f3c88a0e82854b854e0f78abeedaae5?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "War",
-            "link": "/news/topic/war",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106611056",
         "contentUri": "coremedia://article/106611056",
         "label": null,
         "link": "/news/2026-05-03/local-pub-community-changing-corporate-buy/106611056",
-        "title": "What we lose when big business buys up our favourite little pubs",
+        "title": "'If the cops came, you'd slip out the back': The shifting role of Aussie pubs",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -195,12 +181,89 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "106635636",
+        "targetId": "106625858",
+        "contentUri": "coremedia://teaser/106635636",
+        "label": null,
+        "title": "Ukrainian vet saved humans and animals before finding refuge in Australia",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Wildlife veterinarian Maria Mykytiuk led an idyllic life in Bucha, Ukraine, before Russian forces invaded the city in 2022."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-02T19:19:14+00:00",
+          "lastUpdated": "2026-05-02T19:19:14+00:00"
+        },
+        "link": "/news/2026-05-03/kindness-of-strangers-helped-ukrainian-family/106625858",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Ukrainian woman sits on ground surrounded by her young son and daughter. They are wrapped in a blanket covered in sunflowers.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f3c88a0e82854b854e0f78abeedaae5?impolicy=wcms_crop_resize&cropH=3024&cropW=3024&xPos=618&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/8f3c88a0e82854b854e0f78abeedaae5?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=73&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/8f3c88a0e82854b854e0f78abeedaae5?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=296&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8f3c88a0e82854b854e0f78abeedaae5?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=296&width=862&height=575",
+            "altText": "Ukrainian woman sits on ground surrounded by her young son and daughter. They are wrapped in a blanket covered in sunflowers.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Anna Klauzner",
+            "title": "By Anna Klauzner",
+            "link": "https://www.abc.net.au/news/anna-klauzner/105082442",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Compass",
+            "link": "https://www.abc.net.au/religion/watch/compass/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 6
+      },
+      {
         "type": "generic",
         "id": "106211520",
         "contentUri": "coremedia://article/106211520",
         "label": null,
         "link": "/news/2026-05-03/james-valentines-year-of-living-gratefully/106211520",
-        "title": "James Valentine's year of living gratefully ",
+        "title": "'Can't my last days be happy?' How James Valentine faced the end",
         "content": {
           "descriptor": {
             "type": "tagname",
