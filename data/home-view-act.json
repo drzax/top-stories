@@ -9,13 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "106639800",
-        "contentUri": "coremedia://article/106639800",
-        "label": {
-          "variant": "breaking"
-        },
-        "link": "/news/2026-05-04/cit-ceo-recruitment-inquiry-disclose-misconduct-investigation/106639800",
+        "type": "rich",
+        "id": "106640512",
+        "targetId": "106639800",
+        "contentUri": "coremedia://teaser/106640512",
+        "label": null,
         "title": "CIT CEO misled board over TAFE misconduct investigation, inquiry finds",
         "content": {
           "descriptor": {
@@ -37,13 +35,39 @@
             ]
           }
         },
-        "image": {
-          "altText": "A woman with classes in a green suit.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17fa72794870323aad82602ab60b0f37?impolicy=wcms_crop_resize&cropH=2625&cropW=3500&xPos=218&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-05-04T06:16:42+00:00",
+          "lastUpdated": "2026-05-04T08:15:27+00:00"
         },
+        "link": "/news/2026-05-04/cit-ceo-recruitment-inquiry-disclose-misconduct-investigation/106639800",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A woman with classes in a green suit.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17fa72794870323aad82602ab60b0f37?impolicy=wcms_crop_resize&cropH=2625&cropW=2625&xPos=656&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/17fa72794870323aad82602ab60b0f37?impolicy=wcms_crop_resize&cropH=2215&cropW=3937&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/17fa72794870323aad82602ab60b0f37?impolicy=wcms_crop_resize&cropH=2625&cropW=3937&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17fa72794870323aad82602ab60b0f37?impolicy=wcms_crop_resize&cropH=2625&cropW=3937&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A woman with classes in a green suit.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "Vocational Education and Training",
@@ -51,10 +75,17 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Higher Education",
+            "link": "/news/topic/higher-education",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -94,6 +125,52 @@
           {
             "title": "Transport",
             "link": "/news/topic/transport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106628234",
+        "contentUri": "coremedia://article/106628234",
+        "label": null,
+        "link": "/news/2026-05-03/clare-nowland-taser-death-inquest-family-four-corners/106628234",
+        "title": "'Inhumane': Mick's disgust at cops' justification over the tasering of his 95yo mum",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "In an in-depth interview ahead of the inquest into his mother Clare Nowland's nursing home death, Mick says the family wants changes that will prevent another tragedy."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An older man wearing a short-sleeve black button up shirt stands in his backyard in front of a green fence and hedges.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/81957436d690c946d84f93c59f365fb4?impolicy=wcms_crop_resize&cropH=2001&cropW=2668&xPos=875&yPos=339&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Police",
+            "link": "/news/topic/police",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -224,52 +301,6 @@
       },
       {
         "type": "generic",
-        "id": "106628234",
-        "contentUri": "coremedia://article/106628234",
-        "label": null,
-        "link": "/news/2026-05-03/clare-nowland-taser-death-inquest-family-four-corners/106628234",
-        "title": "'Inhumane': Mick's disgust at cops' justification over the tasering of his 95yo mum",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "In an in-depth interview ahead of the inquest into his mother Clare Nowland's nursing home death, Mick says the family wants changes that will prevent another tragedy."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An older man wearing a short-sleeve black button up shirt stands in his backyard in front of a green fence and hedges.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/81957436d690c946d84f93c59f365fb4?impolicy=wcms_crop_resize&cropH=2001&cropW=2668&xPos=875&yPos=339&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Police",
-            "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106477520",
         "contentUri": "coremedia://article/106477520",
         "theme": "sand",
@@ -314,6 +345,52 @@
               "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c00e716e9225c0b2ccdfd388e72e0006?impolicy=wcms_crop_resize&cropH=2667&cropW=2667&xPos=1121&yPos=0&width=160&height=160"
             },
             "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106630174",
+        "contentUri": "coremedia://article/106630174",
+        "label": null,
+        "link": "/news/2026-05-01/man-guilty-negligent-driving-motorcycle-fatal-crash-holt/106630174",
+        "title": "Truck driver found guilty of negligent driving over fatal crash in Canberra",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Sean Joshua Walton was driving his truck and turning right at an intersection when he crashed into a black Harley Davidson motorbike being driven by 47-year-old Craig O'Neil."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A crumpled motorbike on the ground near a parked truck, at night at an intersection.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8157b425e01f1b01129f5e3f2a985b5?impolicy=wcms_crop_resize&cropH=2667&cropW=3556&xPos=222&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -398,98 +475,6 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106628126",
-        "contentUri": "coremedia://article/106628126",
-        "label": null,
-        "link": "/news/2026-05-01/act-vascular-registrar-face-disciplinary-action-lying-under-oath/106628126",
-        "title": "'Obvious I lied': Former Canberra doctor faces disciplinary action for lying under oath",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Former Canberra vascular registrar Imran Kader will face disciplinary action after he lied under oath and tried to interfere with a witness during criminal proceedings for an alleged rape."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A building sign that reads 'ACT Civil and Administrative Tribunal'. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b5b9645363ca908fe46b0976b11f41eb?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=289&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106630174",
-        "contentUri": "coremedia://article/106630174",
-        "label": null,
-        "link": "/news/2026-05-01/man-guilty-negligent-driving-motorcycle-fatal-crash-holt/106630174",
-        "title": "Truck driver found guilty of negligent driving over fatal crash in Canberra",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Sean Joshua Walton was driving his truck and turning right at an intersection when he crashed into a black Harley Davidson motorbike being driven by 47-year-old Craig O'Neil."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A crumpled motorbike on the ground near a parked truck, at night at an intersection.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8157b425e01f1b01129f5e3f2a985b5?impolicy=wcms_crop_resize&cropH=2667&cropW=3556&xPos=222&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       }
     ],
     "stateRail": {
@@ -503,98 +488,6 @@
     "moduleKey": "app://module/news-homepage-more-news",
     "moduleLabel": "More News",
     "items": [
-      {
-        "type": "generic",
-        "id": "106637434",
-        "contentUri": "coremedia://article/106637434",
-        "label": null,
-        "link": "/news/2026-05-04/hantavirus-outbreak-atlantic-cruise-ship-three-dead/106637434",
-        "title": "Three die after suspected hantavirus outbreak on cruise ship ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A suspected outbreak of hantavirus, which is spread by contact with rat and mice faeces, has killed three people on a cruise ship."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A cruise ship on the open ocean with a smaller dinghy approaching.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b5027b0a68e8ee2586aba7d75689850?impolicy=wcms_crop_resize&cropH=448&cropW=597&xPos=120&yPos=97&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Infectious Diseases",
-            "link": "/news/topic/infectious-diseases",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106610886",
-        "contentUri": "coremedia://article/106610886",
-        "label": null,
-        "link": "/news/2026-05-04/police-location-tracked-bluetooth-flaw-axon-tasers-bodycams/106610886",
-        "title": "A hacker built a tool to track police officers. Then he tried to warn them",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A security flaw means the location of devices used by police, potentially including undercover officers and those travelling home, is visible to anyone with a phone or laptop."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man wearing a dark hoodie is silhouetted against the lights of a police station with police cars in front.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60a26a0fa9fc3e61cbeae6d3213d7614?impolicy=wcms_crop_resize&cropH=1752&cropW=2336&xPos=174&yPos=28&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Police",
-            "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
       {
         "type": "rich",
         "id": "106637580",
@@ -632,84 +525,6 @@
           "videos": [],
           "audio": [],
           "articles": [
-            {
-              "id": "106629966",
-              "contentUri": "coremedia://article/106629966",
-              "label": null,
-              "link": "/news/2026-05-04/audience-callout-federal-budget-2026/106629966",
-              "title": "What would you like to see in the federal budget?",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "We want to know what issues matter to you ahead of the federal budget. Have your say."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A graphic showing a range of reader comments about potential issues in Australia's 2025 federal election.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fb46071ff1f7aed6db4cd1798e36866?impolicy=wcms_crop_resize&cropH=1125&cropW=1500&xPos=250&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            },
-            {
-              "id": "106636410",
-              "contentUri": "coremedia://article/106636410",
-              "theme": "live",
-              "label": {
-                "variant": "live",
-                "status": "live"
-              },
-              "link": "/news/2026-05-04/asx-markets-business-news-live-updates/106636410",
-              "title": "NAB profit drops as bank warns of Middle East uncertainty",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "The ASX has slipped on opening, despite strong corporate earnings propelling the S&P 500 to a new record close. Follow the day's events and insights from our business reporters on the ABC News live markets blog."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "NAB bank signage in red, black and white colours",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1580af3c87bff61a597ee4f387f9f7c7?impolicy=wcms_crop_resize&cropH=480&cropW=643&xPos=150&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            },
             {
               "id": "106624070",
               "contentUri": "coremedia://article/106624070",
@@ -752,6 +567,43 @@
                   "key": "Tag1"
                 }
               ],
+              "mediaIndicator": null,
+              "dates": null
+            },
+            {
+              "id": "106629966",
+              "contentUri": "coremedia://article/106629966",
+              "label": null,
+              "link": "/news/2026-05-04/audience-callout-federal-budget-2026/106629966",
+              "title": "What would you like to see in the federal budget?",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "We want to know what issues matter to you ahead of the federal budget. Have your say."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A graphic showing a range of reader comments about potential issues in Australia's 2025 federal election.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1fb46071ff1f7aed6db4cd1798e36866?impolicy=wcms_crop_resize&cropH=1125&cropW=1500&xPos=250&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
               "mediaIndicator": null,
               "dates": null
             }
@@ -797,6 +649,52 @@
         ],
         "readTime": 8,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106637348",
+        "contentUri": "coremedia://article/106637348",
+        "label": null,
+        "link": "/news/2026-05-04/jacky-feng-charged-over-rosemeadow-triple-murders-denied-bail/106637348",
+        "title": "Sydney man accused of murdering parents and brother denied bail",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Jacky Amazing Feng, 32, faced court for the first time on Monday, following the alleged murder of three family members and attempted murder of another."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Man with black hair smiling, blurred blue background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4400fe0cd029a884206e859ed21f4a7b?impolicy=wcms_crop_resize&cropH=432&cropW=576&xPos=102&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -846,12 +744,11 @@
       },
       {
         "type": "generic",
-        "id": "106635950",
-        "contentUri": "coremedia://article/106635950",
-        "theme": "sand",
+        "id": "105732706",
+        "contentUri": "coremedia://article/105732706",
         "label": null,
-        "link": "/news/2026-05-04/anu-polling-one-nation-economy-trust-government-coalition/106635950",
-        "title": "A new poll tells us a lot about One Nation's new-found support",
+        "link": "/news/2026-05-04/russia-domestic-violence-on-rise-analysts-say-amid-ukraine-war/105732706",
+        "title": "Russian woman's husband beat her but police were no help, so she wrote to Putin",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -865,7 +762,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A new poll asks Australians specifically about One Nation and the results show that rather than being a flash in the pan, the minor party's freight train may be a more lasting phenomenon."
+                    "content": "Domestic violence and abuse have been described as an \"epidemic\" in multiple countries, but analysts argue there is something that sets Russia apart: the government is making things worse."
                   }
                 ]
               }
@@ -873,23 +770,64 @@
           }
         },
         "image": {
-          "altText": "Pauline Hanson smiling at the camera",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dbaa0132c5bf1b79a8a17f81ae934c32?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=779&yPos=0&width=160&height=120",
+          "altText": "Close up of a woman who bears the results of being assaulted, with one eye partly closed.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e874c740b588f4cef5aba3f15c190bb1?impolicy=wcms_crop_resize&cropH=515&cropW=686&xPos=0&yPos=343&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Patricia Karvelas",
-            "title": "Analysis by Patricia Karvelas",
-            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
-            "avatar": {
-              "alt": "Patricia Karvelas portrait",
-              "fallbackLetter": "P",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
-            },
-            "type": "combined",
+            "title": "Domestic Violence",
+            "link": "/news/topic/domestic-violence",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106525684",
+        "contentUri": "coremedia://article/106525684",
+        "label": null,
+        "link": "/news/2026-05-04/abc-pay-dispute-ends-with-latest-enterprise-agreement/106525684",
+        "title": "ABC staff accept enterprise agreement after pay dispute strike",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "ABC staff have struck an enterprise agreement with the broadcaster, bringing an end to a pay dispute that culminated in a 24-hour strike. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "People strike and hold up signs.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dca66bae7c63e6727ebb3a98f1004772?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "ABC",
+            "link": "/news/topic/abc",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -898,11 +836,11 @@
       },
       {
         "type": "rich",
-        "id": "106637954",
-        "targetId": "106624670",
-        "contentUri": "coremedia://teaser/106637954",
+        "id": "106640460",
+        "targetId": "106638368",
+        "contentUri": "coremedia://teaser/106640460",
         "label": null,
-        "title": "Busloads of tourists turn quiet street into 'internet sensation'",
+        "title": "Sports broadcaster Dennis Cometti farewelled at state memorial service",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -916,7 +854,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "For years, the residents of Tasman Drive in Gerringong knew they lived in a stunningly beautiful part of the world, but then social media discovered it too."
+                    "content": "A host of high-profile Australians gather at Perth Stadium to pay tribute to one of the nation's most well-known sports broadcasters, Dennis Cometti."
                   }
                 ]
               }
@@ -924,10 +862,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-05-03T22:04:05+00:00",
-          "lastUpdated": "2026-05-03T23:56:00+00:00"
+          "firstPublished": "2026-05-04T07:32:09+00:00",
+          "lastUpdated": "2026-05-04T07:53:57+00:00"
         },
-        "link": "/news/2026-05-04/gerringong-tasman-drive-tourism-social-media/106624670",
+        "link": "/news/2026-05-04/dennis-cometti-state-memorial-service-broadcast-legend/106638368",
         "related": {
           "title": null,
           "videos": [],
@@ -936,51 +874,57 @@
         },
         "gallery": [
           {
-            "altText": "Aerial photo of a street with ocean views opposite a grassy headland",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1140&xPos=390&yPos=0&width=862&height=862"
+            "altText": "A yellow jacket and a framed picture of Dennis Cometti on a stage in Perth. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8a6a92276ff01fff438d970d75fd9bf?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=195&yPos=0&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=30&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1710&xPos=105&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/a8a6a92276ff01fff438d970d75fd9bf?impolicy=wcms_crop_resize&cropH=909&cropW=1616&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/a8a6a92276ff01fff438d970d75fd9bf?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1710&xPos=105&yPos=0&width=862&height=575",
-            "altText": "Aerial photo of a street with ocean views opposite a grassy headland",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8a6a92276ff01fff438d970d75fd9bf?impolicy=wcms_crop_resize&cropH=1077&cropW=1616&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A yellow jacket and a framed picture of Dennis Cometti on a stage in Perth. ",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "title": "ABC Illawarra",
-            "link": "https://www.abc.net.au/illawarra/",
-            "type": "infoSource",
+            "text": "Blake Kagi",
+            "title": "By Blake Kagi",
+            "link": "https://www.abc.net.au/news/blake-kagi/3572186",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "B",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/83a598770a6d27d312b4aaa7b547e7c5?impolicy=wcms_crop_resize&cropH=536&cropW=536&xPos=214&yPos=88&width=160&height=160"
+            },
+            "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Travel and Tourism",
-            "link": "/news/topic/travel-and-tourism",
+            "title": "Sport",
+            "link": "/news/topic/sport",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
-        "readTime": 3,
+        "readTime": 5,
         "hasLoadPriority": false
       },
       {
         "type": "generic",
-        "id": "106617614",
-        "contentUri": "coremedia://article/106617614",
+        "id": "106639408",
+        "contentUri": "coremedia://article/106639408",
         "label": null,
-        "link": "/news/2026-05-04/remote-indigenous-communities-impacted-fuel-cost-of-diesel/106617614",
-        "title": "Cultural practices harder to do with price of fuel in remote Australia",
+        "link": "/news/2026-05-04/lawn-mower-racing-championships-rockhampton/106639408",
+        "title": "Forget the lawn, these mower racers are cutting loose on the race track",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -994,7 +938,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Cultural obligations and essential services are being impacted by the cost of fuel in Australia's most remote communities."
+                    "content": "The 2026 All Australian Mower Racing Championships ran for three days over the weekend featuring competitors ready to tear around a track on refurbished ride-ons."
                   }
                 ]
               }
@@ -1002,16 +946,16 @@
           }
         },
         "image": {
-          "altText": "A woman at the fuel pump",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e5586746c48cdd7d257b4ea24424663?impolicy=wcms_crop_resize&cropH=3456&cropW=4608&xPos=576&yPos=0&width=160&height=120",
+          "altText": "A lawn mower race.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d2b70ec1533fe56d9f78abd3fc009c01?impolicy=wcms_crop_resize&cropH=1019&cropW=1358&xPos=170&yPos=61&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Rural and Remote Communities",
-            "link": "/news/topic/rural-and-remote-communities",
+            "title": "Motor Sports",
+            "link": "/news/topic/motor-sports",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1022,11 +966,11 @@
       },
       {
         "type": "generic",
-        "id": "106638474",
-        "contentUri": "coremedia://article/106638474",
+        "id": "106638240",
+        "contentUri": "coremedia://article/106638240",
         "label": null,
-        "link": "/news/2026-05-04/police-issue-warning-over-absurd-triple-zero-calls/106638474",
-        "title": "Chook left in oven, lost remote among 'absurd' reasons for Triple Zero calls",
+        "link": "/news/2026-05-04/tasracing-hobart-cup-short-course-blunder/106638240",
+        "title": "It was a record race time. Moments later spectators were suspicious",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1040,7 +984,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Triple Zero call centres are seeing an increase in \"absurd\" calls, ranging from lost television remote controls to ducks crossing the road."
+                    "content": "Tasmania's top horse race was run 37 metres shorter than advertised. Officials knew the track distance was likely incorrect but proceeded anyway. This is what happened."
                   }
                 ]
               }
@@ -1048,16 +992,16 @@
           }
         },
         "image": {
-          "altText": "Signage for the Australian emergency call number Triple 000 is seen on the side of a police car ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5b48532f73b5b756fcff24224fd7c99?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Elevated view of horse racing event with crowd looking on.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c404782bd3380b3f9cd73c4bab6b287?impolicy=wcms_crop_resize&cropH=1365&cropW=1820&xPos=228&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Police",
-            "link": "/news/topic/police",
+            "title": "Horse Racing",
+            "link": "/news/topic/horse-racing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1187,52 +1131,6 @@
       },
       {
         "type": "generic",
-        "id": "106638240",
-        "contentUri": "coremedia://article/106638240",
-        "label": null,
-        "link": "/news/2026-05-04/tasracing-hobart-cup-short-course-blunder/106638240",
-        "title": "It was a record race time. Moments later spectators were suspicious",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Tasmania's top horse race was run 37 metres shorter than advertised. Officials knew the track distance was likely incorrect but proceeded anyway. This is what happened."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Elevated view of horse racing event with crowd looking on.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c404782bd3380b3f9cd73c4bab6b287?impolicy=wcms_crop_resize&cropH=1365&cropW=1820&xPos=228&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Horse Racing",
-            "link": "/news/topic/horse-racing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106615006",
         "contentUri": "coremedia://article/106615006",
         "label": null,
@@ -1269,6 +1167,314 @@
           {
             "title": "Movies",
             "link": "/news/topic/movies",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106636388",
+        "contentUri": "coremedia://article/106636388",
+        "label": null,
+        "link": "/news/2026-05-04/this-week-in-history-quiz/106636388",
+        "title": "Quiz: Can you name the typo on the $50 note?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Take a trip back in time with this week's history quiz. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A shot of the $50 Australian note with a thumb holding it.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/258e4e78d67ef52e9e2d3a35db7d3513?impolicy=wcms_crop_resize&cropH=1684&cropW=2250&xPos=0&yPos=514&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "History",
+            "link": "/news/topic/history",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106637954",
+        "targetId": "106624670",
+        "contentUri": "coremedia://teaser/106637954",
+        "label": null,
+        "title": "Busloads of tourists turn quiet street into 'internet sensation'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "For years, the residents of Tasman Drive in Gerringong knew they lived in a stunningly beautiful part of the world, but then social media discovered it too."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-03T22:04:05+00:00",
+          "lastUpdated": "2026-05-03T23:56:00+00:00"
+        },
+        "link": "/news/2026-05-04/gerringong-tasman-drive-tourism-social-media/106624670",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Aerial photo of a street with ocean views opposite a grassy headland",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1140&xPos=390&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=30&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1710&xPos=105&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55c77174aac25c9987df813e6e094aae?impolicy=wcms_crop_resize&cropH=1140&cropW=1710&xPos=105&yPos=0&width=862&height=575",
+            "altText": "Aerial photo of a street with ocean views opposite a grassy headland",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "ABC Illawarra",
+            "link": "https://www.abc.net.au/illawarra/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Travel and Tourism",
+            "link": "/news/topic/travel-and-tourism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106639340",
+        "contentUri": "coremedia://article/106639340",
+        "label": null,
+        "link": "/news/2026-05-04/alleged-anzac-day-hecklers-face-court-melbourne/106639340",
+        "title": "Alleged Anzac Day hecklers face court over 2025 booing",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Witnesses have told a court they were \"disgusted\" when a group of men interrupted last year's Anzac Day Dawn Service in Melbourne."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "ANZAC Day dawn service at Shrine of Remembrance",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/232c4d8d2176ec0c85582454b8f2644b?impolicy=wcms_crop_resize&cropH=2307&cropW=3076&xPos=514&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106637434",
+        "contentUri": "coremedia://article/106637434",
+        "label": null,
+        "link": "/news/2026-05-04/hantavirus-outbreak-atlantic-cruise-ship-three-dead/106637434",
+        "title": "Three die after suspected hantavirus outbreak on cruise ship ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A suspected outbreak of hantavirus, which is spread by contact with rat and mice faeces, has killed three people on a cruise ship."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A cruise ship on the open ocean with a smaller dinghy approaching.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b5027b0a68e8ee2586aba7d75689850?impolicy=wcms_crop_resize&cropH=448&cropW=597&xPos=120&yPos=97&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Infectious Diseases",
+            "link": "/news/topic/infectious-diseases",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106639904",
+        "contentUri": "coremedia://teaser/106639904",
+        "label": null,
+        "link": "/news/2026-05-04/herdsman-lake-bushfire-warning-issued/106639798",
+        "title": "Ember warning issued for Perth bushfire",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Authorities issue a warning for possible ember attacks as an unseasonal bushfire burns at Herdsman Lake in suburban Perth."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A large plume of smoke by a lake in a sunny day. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e569f8ffe6d299a3c39b182d0ecf6c13?impolicy=wcms_crop_resize&cropH=2142&cropW=2856&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Bushfires",
+            "link": "/news/topic/bushfires",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106638474",
+        "contentUri": "coremedia://article/106638474",
+        "label": null,
+        "link": "/news/2026-05-04/police-issue-warning-over-absurd-triple-zero-calls/106638474",
+        "title": "Chook left in oven, lost remote among 'absurd' reasons for Triple Zero calls",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Triple Zero call centres are seeing an increase in \"absurd\" calls, ranging from lost television remote controls to ducks crossing the road."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Signage for the Australian emergency call number Triple 000 is seen on the side of a police car ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5b48532f73b5b756fcff24224fd7c99?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Police",
+            "link": "/news/topic/police",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1351,11 +1557,11 @@
       },
       {
         "type": "generic",
-        "id": "106636388",
-        "contentUri": "coremedia://article/106636388",
+        "id": "106610886",
+        "contentUri": "coremedia://article/106610886",
         "label": null,
-        "link": "/news/2026-05-04/this-week-in-history-quiz/106636388",
-        "title": "Quiz: Can you name the typo on the $50 note?",
+        "link": "/news/2026-05-04/police-location-tracked-bluetooth-flaw-axon-tasers-bodycams/106610886",
+        "title": "A hacker built a tool to track police officers. Then he tried to warn them",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1369,7 +1575,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Take a trip back in time with this week's history quiz. "
+                    "content": "A security flaw means the location of devices used by police, potentially including undercover officers and those travelling home, is visible to anyone with a phone or laptop."
                   }
                 ]
               }
@@ -1377,16 +1583,16 @@
           }
         },
         "image": {
-          "altText": "A shot of the $50 Australian note with a thumb holding it.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/258e4e78d67ef52e9e2d3a35db7d3513?impolicy=wcms_crop_resize&cropH=1684&cropW=2250&xPos=0&yPos=514&width=160&height=120",
+          "altText": "A man wearing a dark hoodie is silhouetted against the lights of a police station with police cars in front.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60a26a0fa9fc3e61cbeae6d3213d7614?impolicy=wcms_crop_resize&cropH=1752&cropW=2336&xPos=174&yPos=28&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "History",
-            "link": "/news/topic/history",
+            "title": "Police",
+            "link": "/news/topic/police",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1442,131 +1648,13 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106638624",
-        "targetId": "106637786",
-        "contentUri": "coremedia://teaser/106638624",
-        "label": null,
-        "title": "Traffic gridlock as park visitors turn out to see the turning of the fagus",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Nature lovers who went to see the autumn colours of the fagus at Tasmania's Mt Field National Park on Saturday say there were no car spaces and nowhere to turn around."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-04T01:52:42+00:00",
-          "lastUpdated": "2026-05-04T06:19:25+00:00"
-        },
-        "link": "/news/2026-05-04/traffic-chaos-to-see-turning-of-the-fagus/106637786",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Two rows of cars trying to pass on a narrow dirt road.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe98b6e7ecc5b60a828a23e2b6a877e5?impolicy=wcms_crop_resize&cropH=1082&cropW=1082&xPos=179&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "Yellow fagus leaves on a tree hang over a boulder.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/070fc866972c75de2ff472963da2c29c?impolicy=wcms_crop_resize&cropH=1536&cropW=1536&xPos=0&yPos=200&width=862&height=862"
-          },
-          {
-            "altText": "The fagus turns yellow as it borders a lake in a national park.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f51a1083436890fb1d90d0f13093ca4?impolicy=wcms_crop_resize&cropH=619&cropW=619&xPos=256&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/fe98b6e7ecc5b60a828a23e2b6a877e5?impolicy=wcms_crop_resize&cropH=810&cropW=1440&xPos=0&yPos=194&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/fe98b6e7ecc5b60a828a23e2b6a877e5?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=122&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe98b6e7ecc5b60a828a23e2b6a877e5?impolicy=wcms_crop_resize&cropH=960&cropW=1440&xPos=0&yPos=122&width=862&height=575",
-            "altText": "Two rows of cars trying to pass on a narrow dirt road.",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/070fc866972c75de2ff472963da2c29c?impolicy=wcms_crop_resize&cropH=864&cropW=1536&xPos=0&yPos=592&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/070fc866972c75de2ff472963da2c29c?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=512&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/070fc866972c75de2ff472963da2c29c?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=512&width=862&height=575",
-            "altText": "Yellow fagus leaves on a tree hang over a boulder.",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/6f51a1083436890fb1d90d0f13093ca4?impolicy=wcms_crop_resize&cropH=619&cropW=1100&xPos=15&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/6f51a1083436890fb1d90d0f13093ca4?impolicy=wcms_crop_resize&cropH=619&cropW=929&xPos=101&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f51a1083436890fb1d90d0f13093ca4?impolicy=wcms_crop_resize&cropH=619&cropW=929&xPos=101&yPos=0&width=862&height=575",
-            "altText": "The fagus turns yellow as it borders a lake in a national park.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Jessica Moran",
-            "title": "By Jessica Moran",
-            "link": "https://www.abc.net.au/news/jessica-moran/11274720",
-            "avatar": {
-              "alt": "A woman smiling at the camera.",
-              "fallbackLetter": "J",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f667f4d5a9927c76b57ea07e8cc2414?impolicy=wcms_crop_resize&cropH=4027&cropW=4027&xPos=0&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "936 ABC Hobart",
-            "link": "https://www.abc.net.au/hobart/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
-        "id": "106637864",
-        "contentUri": "coremedia://article/106637864",
+        "id": "106635950",
+        "contentUri": "coremedia://article/106635950",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-05-04/rudy-giuliani-hospitalised-in-critical-condition/106637864",
-        "title": "Trump's former personal lawyer Rudy Giuliani in critical condition",
+        "link": "/news/2026-05-04/anu-polling-one-nation-economy-trust-government-coalition/106635950",
+        "title": "A new poll tells us a lot about One Nation's new-found support",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1580,7 +1668,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Former New York mayor and US President Donald Trump's former personal lawyer Rudy Giuliani is in hospital in a critical condition."
+                    "content": "A new poll asks Australians specifically about One Nation and the results show that rather than being a flash in the pan, the minor party's freight train may be a more lasting phenomenon."
                   }
                 ]
               }
@@ -1588,18 +1676,23 @@
           }
         },
         "image": {
-          "altText": "Rudy Giuliani, wearing a red tie and USA pin on his lapel, frowns as reporters shove microphones towards him",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b05417be8c0a7f7b85336bf0008eb5b2?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=538&yPos=0&width=160&height=120",
+          "altText": "Pauline Hanson smiling at the camera",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dbaa0132c5bf1b79a8a17f81ae934c32?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=779&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "World Politics",
-            "link": "/news/topic/world-politics",
-            "type": "subject",
-            "screenReader": "Topic",
+            "text": "Patricia Karvelas",
+            "title": "Analysis by Patricia Karvelas",
+            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
+            "avatar": {
+              "alt": "Patricia Karvelas portrait",
+              "fallbackLetter": "P",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
+            },
+            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -1608,12 +1701,11 @@
       },
       {
         "type": "generic",
-        "id": "106635938",
-        "contentUri": "coremedia://article/106635938",
-        "theme": "sand",
+        "id": "106638220",
+        "contentUri": "coremedia://article/106638220",
         "label": null,
-        "link": "/news/2026-05-04/artificial-intelligence-fog-layoff-data-centres-craig-scroggie/106635938",
-        "title": "We're headed into an AI fog as the automation arms race begins",
+        "link": "/news/2026-05-04/sa-public-servants-removed-word-harmful-about-algal-bloom/106638220",
+        "title": "Public servants asked to remove word 'harmful' about SA algal bloom, FOI reveals",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1627,7 +1719,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Artificial intelligence might be driving growth for data centre companies, but society is unprepared for the long-term risks posed to the rest of us. "
+                    "content": "Emails released under FOI laws and obtained by the SA Liberal Party show government workers were removing the word \"harmful\" from communications about the algal bloom in SA waters, with one team leader labelling it \"bizarre\"."
                   }
                 ]
               }
@@ -1635,23 +1727,18 @@
           }
         },
         "image": {
-          "altText": "a man walks between rows of servers",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/66442b8650487cf4e49a3c4861dd0ed7?impolicy=wcms_crop_resize&cropH=1365&cropW=1820&xPos=95&yPos=0&width=160&height=120",
+          "altText": "dead, dried up fishes on sand",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a4f542db5570d92c3b859976f297dc9d?impolicy=wcms_crop_resize&cropH=1661&cropW=2215&xPos=356&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Alan Kohler",
-            "title": "Analysis by Alan Kohler",
-            "link": "https://www.abc.net.au/news/alan-kohler/167112",
-            "avatar": {
-              "alt": "A man in a suit jacket wearing glasses",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/170a4afe9369ee07aee9ddba717f557e?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=566&yPos=0&width=160&height=160"
-            },
-            "type": "combined",
+            "title": "Oceans",
+            "link": "/news/topic/oceans",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -1744,11 +1831,11 @@
       },
       {
         "type": "generic",
-        "id": "106637926",
-        "contentUri": "coremedia://article/106637926",
+        "id": "106512976",
+        "contentUri": "coremedia://article/106512976",
         "label": null,
-        "link": "/news/2026-05-04/police-renew-calls-information-disappearance-gordana-kotevski/106637926",
-        "title": "Police search properties 32 years after teenager's disappearance",
+        "link": "/news/2026-05-04/silverleaves-phillip-island-land-tax-bills-incorrect/106512976",
+        "title": "Island residents fight land valuations as authorities block building work",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1762,7 +1849,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Gordana Kotevski was last seen in 1994 when witnesses saw the 16-year-old being forced into a vehicle by at least two people near Newcastle."
+                    "content": "Residents on Phillip Island, where building is limited because of inundation and erosion risk, are battling to have their property valuations reduced."
                   }
                 ]
               }
@@ -1770,16 +1857,62 @@
           }
         },
         "image": {
-          "altText": "Smiling headshot of Gordana Kotevski.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c65e1d1d4c1e497c3389b737c26953b4?impolicy=wcms_crop_resize&cropH=471&cropW=629&xPos=0&yPos=163&width=160&height=120",
+          "altText": "A group of older people, dressed for cold weather, stand in front of a street sign. One lady is holding a little dog.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5bba27a53fd494a25f9a6455c6b92dd0?impolicy=wcms_crop_resize&cropH=1845&cropW=2461&xPos=898&yPos=899&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Missing Person",
-            "link": "/news/topic/missing-person",
+            "title": "Tax",
+            "link": "/news/topic/tax",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106637922",
+        "contentUri": "coremedia://article/106637922",
+        "label": null,
+        "link": "/news/2026-05-04/wa-to-ban-no-grounds-evictions-in-housing-policy-shift/106637922",
+        "title": "Landlords to lose ability to evict without reason under WA reforms",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Under the proposed laws, landlords will no longer be allowed to terminate a tenant's lease without giving a reason."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Tony Buti speaks at a press conference in front of a blue backdrop. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/944cfea43c9a5133c4be05d116dc67fe?impolicy=wcms_crop_resize&cropH=2667&cropW=3556&xPos=222&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Rental Housing",
+            "link": "/news/topic/rental-housing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1836,57 +1969,11 @@
       },
       {
         "type": "generic",
-        "id": "106637990",
-        "contentUri": "coremedia://article/106637990",
-        "label": null,
-        "link": "/news/2026-05-04/tennis-wta-125-daria-kasatkina-wins-catalonia-open/106637990",
-        "title": "Kasatkina wins first tournament as an Australian citizen",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Fighting back from a set down, Daria Kasatkina wins the Catalonia Open final in Spain."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": " Daria Kasatkina plays a double-fisted backhand at the 2026 Madrid Open.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4bb678780717afdd77851796b5dd4c8?impolicy=wcms_crop_resize&cropH=2044&cropW=2725&xPos=755&yPos=84&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Tennis",
-            "link": "/news/topic/tennis",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106638342",
         "contentUri": "coremedia://article/106638342",
         "label": null,
         "link": "/news/2026-05-04/socceroos-midfielder-aiden-o-neill-injured-ahead-of-world-cup/106638342",
-        "title": "Socceroos sweat on mainstay's injury blow ahead of World Cup",
+        "title": "Socceroos mainstay's injury blow ahead of World Cup, as key defender returns",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1900,7 +1987,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "US-based Socceroos midfielder Aiden O'Neill suffers an ankle injury less than six weeks out from the start of the World Cup finals."
+                    "content": "US-based Socceroos midfielder Aiden O'Neill suffers an ankle injury less than six weeks out from the start of the FIFA World Cup in North America."
                   }
                 ]
               }
@@ -1908,8 +1995,8 @@
           }
         },
         "image": {
-          "altText": "A Socceroos player runs with the ball as he is being chased by a Cameroon defender.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7f295dc804cffb308d9355939f74a0ad?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "New York City footballer Aiden O'Neill is running with the ball during a game",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9f9a9198b5bc1622d7030753a3c12b9c?impolicy=wcms_crop_resize&cropH=2360&cropW=3147&xPos=197&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -2020,182 +2107,6 @@
           }
         ],
         "readTime": 6,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106637922",
-        "contentUri": "coremedia://article/106637922",
-        "label": null,
-        "link": "/news/2026-05-04/wa-to-ban-no-grounds-evictions-in-housing-policy-shift/106637922",
-        "title": "Landlords to lose ability to evict without reason under WA reforms",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Under the proposed laws, landlords will no longer be allowed to terminate a tenant's lease without giving a reason."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Tony Buti speaks at a press conference in front of a blue backdrop. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/944cfea43c9a5133c4be05d116dc67fe?impolicy=wcms_crop_resize&cropH=2667&cropW=3556&xPos=222&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Rental Housing",
-            "link": "/news/topic/rental-housing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106635834",
-        "contentUri": "coremedia://article/106635834",
-        "label": null,
-        "link": "/news/2026-05-04/shortage-of-workers-to-help-homeless-in-victoria-report-finds/106635834",
-        "title": "Worker shortage sees people struggle in 'most extreme form of homelessness'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Victoria needs almost five times as many outreach field workers to support people who are sleeping rough, according to a study by the Council to Homeless Persons."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A person kneeling on a footpath under a blanket with a sign saying 'homeless please help'",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/254337ffbaa4e3c1df92af3473887a12?impolicy=wcms_crop_resize&cropH=897&cropW=1196&xPos=73&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Homelessness",
-            "link": "/news/topic/homelessness",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106637462",
-        "targetId": "105732706",
-        "contentUri": "coremedia://teaser/106637462",
-        "label": null,
-        "title": "Russian woman's husband beat her but police were no help, so she wrote to Putin",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Domestic violence and abuse have been described as an \"epidemic\" in multiple countries, but analysts argue there is something that sets Russia apart: the government is making things worse."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-03T18:38:33+00:00",
-          "lastUpdated": "2026-05-03T18:38:33+00:00"
-        },
-        "link": "/news/2026-05-04/russia-domestic-violence-on-rise-analysts-say-amid-ukraine-war/105732706",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Close up of a woman who bears the results of being assaulted, with one eye partly closed.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e874c740b588f4cef5aba3f15c190bb1?impolicy=wcms_crop_resize&cropH=688&cropW=688&xPos=0&yPos=235&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/e874c740b588f4cef5aba3f15c190bb1?impolicy=wcms_crop_resize&cropH=387&cropW=688&xPos=0&yPos=442&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/e874c740b588f4cef5aba3f15c190bb1?impolicy=wcms_crop_resize&cropH=459&cropW=688&xPos=0&yPos=376&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e874c740b588f4cef5aba3f15c190bb1?impolicy=wcms_crop_resize&cropH=459&cropW=688&xPos=0&yPos=376&width=862&height=575",
-            "altText": "Close up of a woman who bears the results of being assaulted, with one eye partly closed.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Riley Stuart",
-            "title": "By Riley Stuart",
-            "link": "https://www.abc.net.au/news/riley-stuart/8151366",
-            "avatar": {
-              "alt": "A man looks at the camera.",
-              "fallbackLetter": "R",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6b3a3aab3f8e003541ad04963b0fe4d?impolicy=wcms_crop_resize&cropH=975&cropW=975&xPos=0&yPos=30&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Domestic Violence",
-            "link": "/news/topic/domestic-violence",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 8,
         "hasLoadPriority": false
       }
     ]
