@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v6
     - name: Fetch latest data
       run: |-
         curl https://www.abc.net.au/news-web/api/loader/homeView?view=national | jq . > data/home-view-national.json
