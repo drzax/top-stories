@@ -421,7 +421,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106675370",
@@ -508,11 +520,11 @@
       },
       {
         "type": "generic",
-        "id": "106674312",
-        "contentUri": "coremedia://article/106674312",
+        "id": "106665162",
+        "contentUri": "coremedia://article/106665162",
         "label": null,
-        "link": "/news/2026-05-13/proposed-new-laws-to-protect-wa-home-buyers-if-builder-folds/106674312",
-        "title": "Homebuilding reforms to let WA customers walk away from failing builders sooner",
+        "link": "/news/2026-05-14/aged-care-average-wait-times-blow-out/106665162",
+        "title": "Australians 'literally dying' while they wait months for aged care packages",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -526,7 +538,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "New legislation introduced to state parliament aim to prevent Western Australians from having to suffer the financial and emotional strain of not having a home if their building company collapses."
+                    "content": "Opposition MPs accuse the federal government of burying figures showing Australians are waiting a year for residential aged care and at-home support packages."
                   }
                 ]
               }
@@ -534,16 +546,62 @@
           }
         },
         "image": {
-          "altText": "A couple inspects their unfinished Nicheliving home.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/13f91e23dede3a682798f087b67540ce?impolicy=wcms_crop_resize&cropH=4128&cropW=5504&xPos=344&yPos=0&width=160&height=120",
+          "altText": "A bed in a resident's room in an aged care home.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6ecfbd3afa0b46e3cfe83623ec2563e5?impolicy=wcms_crop_resize&cropH=3205&cropW=4273&xPos=363&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "State and Territory Government",
-            "link": "/news/topic/state-and-territory-government",
+            "title": "Aged Care",
+            "link": "/news/topic/aged-care",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106672572",
+        "contentUri": "coremedia://article/106672572",
+        "label": null,
+        "link": "/news/2026-05-14/australian-diaspora-communities-budget-housing-reaction/106672572",
+        "title": "Investors, renters and home owners react to housing reforms",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Housing policy changes announced in the federal budget could make it easier for some to buy homes, but others are planning to sell before they lose too much."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman sits with her legs crossed on a stone wall overlooking the ocean.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14d305edc625e2f1aba3f82602ee3b3a?impolicy=wcms_crop_resize&cropH=645&cropW=860&xPos=76&yPos=300&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Budget",
+            "link": "/news/topic/budget",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -597,19 +655,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106674312",
+        "contentUri": "coremedia://article/106674312",
+        "label": null,
+        "link": "/news/2026-05-13/proposed-new-laws-to-protect-wa-home-buyers-if-builder-folds/106674312",
+        "title": "Homebuilding reforms to let WA customers walk away from failing builders sooner",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "New legislation introduced to state parliament aim to prevent Western Australians from having to suffer the financial and emotional strain of not having a home if their building company collapses."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A couple inspects their unfinished Nicheliving home.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/13f91e23dede3a682798f087b67540ce?impolicy=wcms_crop_resize&cropH=4128&cropW=5504&xPos=344&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "State and Territory Government",
+            "link": "/news/topic/state-and-territory-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "106677368",
@@ -778,52 +870,6 @@
       },
       {
         "type": "generic",
-        "id": "106674242",
-        "contentUri": "coremedia://article/106674242",
-        "label": null,
-        "link": "/news/2026-05-14/property-tax-changes-tipped-to-hit-home-prices-budget/106674242",
-        "title": "Economists divided on extent of property price hit from budget tax overhaul",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Some economists are forecasting price falls of up to 5 per cent as a result of measures to reduce intergenerational housing inequality."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A house is advertised for auction in the south-west Sydney suburb of Punchbowl.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed6fa4daf867d04fb2b2120848eaf1f4?impolicy=wcms_crop_resize&cropH=1440&cropW=1920&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Housing Policy",
-            "link": "/news/topic/housing-policy",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106673370",
         "contentUri": "coremedia://article/106673370",
         "label": null,
@@ -908,6 +954,58 @@
             "link": "/news/topic/domestic-violence",
             "type": "subject",
             "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106674314",
+        "contentUri": "coremedia://article/106674314",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-05-14/afl-michael-voss-exit-carlton-blues-tenure-analysis/106674314",
+        "title": "Voss exit shuts door on Carlton's premiership era that never was",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Michael Voss leaves Carlton having taken the club to places it has rarely been in a quarter of a century, but still adrift from where it ultimately wants to be."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Michael Voss with both fists raised in celebration",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c886b581622f8d06f987097f2723e90f?impolicy=wcms_crop_resize&cropH=3087&cropW=4116&xPos=109&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Chris De Silva",
+            "title": "Analysis by Chris De Silva",
+            "link": "https://www.abc.net.au/news/chris-de-silva/103728856",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "C",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/95a9a59f78d43e8422bc5153550274f2?impolicy=wcms_crop_resize&cropH=400&cropW=400&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -1030,58 +1128,6 @@
       },
       {
         "type": "generic",
-        "id": "106674314",
-        "contentUri": "coremedia://article/106674314",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-05-14/afl-michael-voss-exit-carlton-blues-tenure-analysis/106674314",
-        "title": "Voss exit shuts door on Carlton's premiership era that never was",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Michael Voss leaves Carlton having taken the club to places it has rarely been in a quarter of a century, but still adrift from where it ultimately wants to be."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Michael Voss with both fists raised in celebration",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c886b581622f8d06f987097f2723e90f?impolicy=wcms_crop_resize&cropH=3087&cropW=4116&xPos=109&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Chris De Silva",
-            "title": "Analysis by Chris De Silva",
-            "link": "https://www.abc.net.au/news/chris-de-silva/103728856",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "C",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/95a9a59f78d43e8422bc5153550274f2?impolicy=wcms_crop_resize&cropH=400&cropW=400&xPos=0&yPos=0&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106669698",
         "contentUri": "coremedia://article/106669698",
         "label": null,
@@ -1174,15 +1220,12 @@
       },
       {
         "type": "generic",
-        "id": "106676514",
-        "contentUri": "coremedia://article/106676514",
-        "theme": "live",
-        "label": {
-          "variant": "live",
-          "status": "live"
-        },
-        "link": "/news/2026-05-14/federal-politics-live-blog-budget-reaction/106676514",
-        "title": "Labor recruits former Jacqui Lambie party senator Tammy Tyrrell",
+        "id": "106675902",
+        "contentUri": "coremedia://article/106675902",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-05-14/budget-reply-housing-tax-liberals-jim-chalmers-anthony-albanese/106675902",
+        "title": "The rising populist tide is making Labor bolder",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1196,7 +1239,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Former Jacqui Lambie party senator Tammy Tyrrell defects to Labor. Follow live."
+                    "content": "If this week's budget marked the start of the Albanese government's campaign for a third term in office, tonight's budget reply marks Angus Taylor's pitch to prevent a Liberal wipe-out."
                   }
                 ]
               }
@@ -1204,16 +1247,67 @@
           }
         },
         "image": {
-          "altText": "A woman looks stern in glasses ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/00ef8fb8ef65a655e626876d9020fbb4?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Anthony Albanese wears a suit and blue tie, and black-rimmed glasses. He stares intently just past the camera.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1deb55bdd2fe42cd466c826426bf42a1?impolicy=wcms_crop_resize&cropH=3027&cropW=4036&xPos=251&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Government and Politics",
-            "link": "/news/topic/government-and-politics",
+            "text": "David Speers",
+            "title": "Analysis by David Speers",
+            "link": "https://www.abc.net.au/news/david-speers/11841154",
+            "avatar": {
+              "alt": "David Speers sits on a couch in front of a yellow screen, smiling at the camera, in a suit and open-necked shirt.",
+              "fallbackLetter": "D",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6102b21c5ca1bebaa545043a9ebaa432?impolicy=wcms_crop_resize&cropH=1530&cropW=1530&xPos=2233&yPos=640&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106674242",
+        "contentUri": "coremedia://article/106674242",
+        "label": null,
+        "link": "/news/2026-05-14/property-tax-changes-tipped-to-hit-home-prices-budget/106674242",
+        "title": "Economists divided on extent of property price hit from budget tax overhaul",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Some economists are forecasting price falls of up to 5 per cent as a result of measures to reduce intergenerational housing inequality."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A house is advertised for auction in the south-west Sydney suburb of Punchbowl.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed6fa4daf867d04fb2b2120848eaf1f4?impolicy=wcms_crop_resize&cropH=1440&cropW=1920&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Housing Policy",
+            "link": "/news/topic/housing-policy",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1344,52 +1438,6 @@
       },
       {
         "type": "generic",
-        "id": "106674686",
-        "contentUri": "coremedia://article/106674686",
-        "label": null,
-        "link": "/news/2026-05-14/instructure-dealing-with-canvas-cyberhackers-dangerous-tactic/106674686",
-        "title": "Canvas developers could be added to 'sucker list' after deal with hackers",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The company that runs Canvas has painted a target on its back for future extortion attempts by making a deal with hackers, according to cybersecurity experts."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a man sitting at a computer",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0677389f3f44887ee189e80649175743?impolicy=wcms_crop_resize&cropH=914&cropW=1219&xPos=31&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Cyber Security",
-            "link": "/news/topic/cyber-security",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106677350",
         "contentUri": "coremedia://article/106677350",
         "label": null,
@@ -1426,6 +1474,52 @@
           {
             "title": "Cricket",
             "link": "/news/topic/cricket",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106674686",
+        "contentUri": "coremedia://article/106674686",
+        "label": null,
+        "link": "/news/2026-05-14/instructure-dealing-with-canvas-cyberhackers-dangerous-tactic/106674686",
+        "title": "Canvas developers could be added to 'sucker list' after deal with hackers",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The company that runs Canvas has painted a target on its back for future extortion attempts by making a deal with hackers, according to cybersecurity experts."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a man sitting at a computer",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0677389f3f44887ee189e80649175743?impolicy=wcms_crop_resize&cropH=914&cropW=1219&xPos=31&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Cyber Security",
+            "link": "/news/topic/cyber-security",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
