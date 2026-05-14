@@ -12,11 +12,9 @@
         "type": "generic",
         "id": "106680220",
         "contentUri": "coremedia://article/106680220",
-        "label": {
-          "variant": "breaking"
-        },
+        "label": null,
         "link": "/news/2026-05-14/woman-stabbed-canberra-oconnor-police-say/106680220",
-        "title": "Woman dead, man arrested after stabbing in Canberra",
+        "title": "Arrested man a relative of Canberra stabbing victim, police say",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -62,7 +60,7 @@
         "contentUri": "coremedia://article/106678584",
         "label": null,
         "link": "/news/2026-05-14/man-arrested-after-3d-printed-weapons-found-at-canberra-home/106678584",
-        "title": "'Foldable' pistols and 3D-printed guns seized in Canberra ",
+        "title": "'Foldable' pistols, 3D-printed guns seized in raid 450m from police station",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -655,30 +653,13 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
+        "type": "rich",
         "id": "106680082",
+        "targetId": "106678288",
         "contentUri": "coremedia://teaser/106680082",
         "label": null,
-        "link": "/news/2026-05-14/coles-grocery-pricing-down-down-accc-court-visual-guide/106678288",
         "title": "Here's how the Coles Down Down campaign duped shoppers",
-        "image": {
-          "altText": "A illustration mockup of a chart showing the Coles white label price vs the Down Down price.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf37bdcc30ea84391a5fd587d604d753?impolicy=wcms_crop_resize&cropH=1400&cropW=1867&xPos=168&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -698,7 +679,94 @@
             ]
           }
         },
-        "dates": null
+        "dates": {
+          "firstPublished": "2026-05-14T02:38:44+00:00",
+          "lastUpdated": "2026-05-14T03:24:23+00:00"
+        },
+        "link": "/news/2026-05-14/coles-grocery-pricing-down-down-accc-court-visual-guide/106678288",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": [
+            {
+              "id": "106673800",
+              "contentUri": "coremedia://article/106673800",
+              "label": null,
+              "link": "/news/2026-05-14/coles-accc-federal-court-judgment/106673800",
+              "title": "Coles found to have misled shoppers in bombshell Federal Court case ",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Supermarket giant Coles broke consumer law by misleading shoppers on discount prices, a Federal Court judge has found."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A close up of a red sign with Coles spelt out in white letters.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7645a49b916f79e9614b33b093324f07?impolicy=wcms_crop_resize&cropH=2336&cropW=3115&xPos=195&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
+        },
+        "gallery": [
+          {
+            "altText": "A illustration mockup of a chart showing the Coles white label price vs the Down Down price.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf37bdcc30ea84391a5fd587d604d753?impolicy=wcms_crop_resize&cropH=1400&cropW=1400&xPos=454&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/cf37bdcc30ea84391a5fd587d604d753?impolicy=wcms_crop_resize&cropH=1181&cropW=2100&xPos=0&yPos=109&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/cf37bdcc30ea84391a5fd587d604d753?impolicy=wcms_crop_resize&cropH=1400&cropW=2100&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf37bdcc30ea84391a5fd587d604d753?impolicy=wcms_crop_resize&cropH=1400&cropW=2100&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A illustration mockup of a chart showing the Coles white label price vs the Down Down price.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "Story Lab",
+            "link": "https://www.abc.net.au/news/interactives/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 6,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -821,7 +889,7 @@
         },
         "dates": {
           "firstPublished": "2026-05-14T05:21:45+00:00",
-          "lastUpdated": "2026-05-14T05:21:45+00:00"
+          "lastUpdated": "2026-05-14T06:13:03+00:00"
         },
         "link": "/news/2026-05-14/korean-researcher-antarctica-knife-incident-jang-bogo-station/106677948",
         "related": {
