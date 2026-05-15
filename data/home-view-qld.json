@@ -174,11 +174,11 @@
       },
       {
         "type": "generic",
-        "id": "106680752",
-        "contentUri": "coremedia://article/106680752",
+        "id": "106683000",
+        "contentUri": "coremedia://article/106683000",
         "label": null,
-        "link": "/news/2026-05-15/patchy-showers-warm-weather-queensland-weekend/106680752",
-        "title": "Patchy showers and warm weather forecast across Queensland this weekend",
+        "link": "/news/2026-05-15/driver-critical-car-rollover-sunshine-coast-railway/106683000",
+        "title": "Driver in life-threatening condition after car rollover onto railway line",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -192,7 +192,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A trough in the west and onshore winds in the east will bring showers to parts of Queensland, however the driest parts are set to miss out."
+                    "content": "One person is in a life-threatening condition after a serious crash on the Sunshine Coast this morning. "
                   }
                 ]
               }
@@ -200,16 +200,16 @@
           }
         },
         "image": {
-          "altText": "A wet view of Margaret Street in Toowoomba. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a7a36f07f7151214d3019ccfc56a3bbd?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
+          "altText": "A police officer standing on a road in front of a police vehicle, blocking traffic.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7b2dbfffc30c60bbbe813d295478f1d1?impolicy=wcms_crop_resize&cropH=872&cropW=1163&xPos=682&yPos=500&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Weather Forecasts",
-            "link": "/news/topic/weather-forecasts",
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -299,6 +299,52 @@
       },
       {
         "type": "generic",
+        "id": "106680752",
+        "contentUri": "coremedia://article/106680752",
+        "label": null,
+        "link": "/news/2026-05-15/patchy-showers-warm-weather-queensland-weekend/106680752",
+        "title": "Patchy showers and warm weather forecast across Queensland this weekend",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A trough in the west and onshore winds in the east will bring showers to parts of Queensland, however the driest parts are set to miss out."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A wet view of Margaret Street in Toowoomba. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a7a36f07f7151214d3019ccfc56a3bbd?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Weather Forecasts",
+            "link": "/news/topic/weather-forecasts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106673492",
         "contentUri": "coremedia://article/106673492",
         "label": null,
@@ -342,7 +388,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106678766",
@@ -388,19 +446,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106678808",
