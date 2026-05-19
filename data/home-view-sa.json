@@ -37,7 +37,7 @@
         },
         "dates": {
           "firstPublished": "2026-05-19T06:33:09+00:00",
-          "lastUpdated": "2026-05-19T09:07:59+00:00"
+          "lastUpdated": "2026-05-19T10:06:34+00:00"
         },
         "link": "/news/2026-05-19/suppression-order-lifts-on-snowtown-killer-james-vlassakis-image/106695276",
         "related": {
@@ -89,8 +89,54 @@
             "key": "Tag2"
           }
         ],
-        "readTime": 3,
+        "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106695682",
+        "contentUri": "coremedia://article/106695682",
+        "label": null,
+        "link": "/news/2026-05-19/man-died-after-prescription-medication-bungle-inquest-told/106695682",
+        "title": "Inquest hears elderly man who died was given another person's medication",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An 82-year-old South Australian man died after he ingested prescription medication that was meant for another person and had been incorrectly labelled, a coronial inquest is told."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A sign on a window for CHEMIST WAREHOUSE with another saying STOP PAYING TOO MUCH! and a trolley out the front",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef91a962675cf6d6f457e17d1d25badb?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=4&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -130,52 +176,6 @@
           {
             "title": "Disease Outbreak",
             "link": "/news/topic/disease-outbreak",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106695502",
-        "contentUri": "coremedia://article/106695502",
-        "label": null,
-        "link": "/news/2026-05-19/network-10-win-television-mount-gambier-riverland-riverina/106695502",
-        "title": "Network 10 to go off air in country SA and NSW as WIN Television deal lapses",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The end of a broadcast deal between Network 10 and Win Television is set to leave three regional markets without access to multiple channels. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Sign of the number 10 in a blue circle on a brown wall",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae90c17cba9604d89692c78b09588e37?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Television Industry",
-            "link": "/news/topic/television-industry",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -297,6 +297,52 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106695502",
+        "contentUri": "coremedia://article/106695502",
+        "label": null,
+        "link": "/news/2026-05-19/network-10-win-television-mount-gambier-riverland-riverina/106695502",
+        "title": "Network 10 to go off air in country SA and NSW as WIN Television deal lapses",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The end of a broadcast deal between Network 10 and Win Television is set to leave three regional markets without access to multiple channels. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Sign of the number 10 in a blue circle on a brown wall",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae90c17cba9604d89692c78b09588e37?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Television Industry",
+            "link": "/news/topic/television-industry",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -435,7 +481,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106675408",
@@ -481,19 +539,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106691408",
+        "contentUri": "coremedia://article/106691408",
+        "label": null,
+        "link": "/news/2026-05-18/nicola-spurrier-on-road-safety-after-car-crash-knocked-her-bike/106691408",
+        "title": "'This is the end': SA health chief recalls terrifying moment she was hit by car",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "SA public health chief Nicola Spurrier opens up about the moment when she was knocked from her bike by a car last year, and recounted the experience — which left her with broken bones and fearing for her life — only hours after a 39-year-old motorcyclist was killed in a crash in the Adelaide Hills."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman pulls the top of her blouse aside, showing a 5-centimetre scar on her left shoulder",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7c015d3f7f1062125547d5c003dd8f3?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "106697426",
@@ -658,52 +750,6 @@
       },
       {
         "type": "generic",
-        "id": "106691408",
-        "contentUri": "coremedia://article/106691408",
-        "label": null,
-        "link": "/news/2026-05-18/nicola-spurrier-on-road-safety-after-car-crash-knocked-her-bike/106691408",
-        "title": "'This is the end': SA health chief recalls terrifying moment she was hit by car",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "SA public health chief Nicola Spurrier opens up about the moment when she was knocked from her bike by a car last year, and recounted the experience — which left her with broken bones and fearing for her life — only hours after a 39-year-old motorcyclist was killed in a crash in the Adelaide Hills."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman pulls the top of her blouse aside, showing a 5-centimetre scar on her left shoulder",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7c015d3f7f1062125547d5c003dd8f3?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Road Accidents and Incidents",
-            "link": "/news/topic/road-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106685318",
         "contentUri": "coremedia://article/106685318",
         "label": null,
@@ -796,11 +842,11 @@
       },
       {
         "type": "generic",
-        "id": "106697598",
-        "contentUri": "coremedia://article/106697598",
+        "id": "106697230",
+        "contentUri": "coremedia://article/106697230",
         "label": null,
-        "link": "/news/2026-05-19/refunds-but-no-price-caps-for-ripped-off-older-australians/106697598",
-        "title": "Refunds but no price caps for ripped-off older Australians",
+        "link": "/news/2026-05-19/bureau-of-meteorology-executive-peter-stone-set-to-resign/106697230",
+        "title": "Top BOM exec who led bungled $96M website revamp departs role",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -814,7 +860,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Support at Home program price caps, due to start in July, have been deferred indefinitely. Hundreds of thousands of older people rely on the federal government program, which provides help with cleaning, showering and clinical supports like nursing."
+                    "content": "Peter Stone was acting CEO when the BOM launched its new website, which was widely criticised for its costs and poor design."
                   }
                 ]
               }
@@ -822,16 +868,16 @@
           }
         },
         "image": {
-          "altText": "An elderly man sits in a rocking chair facing away into a sunlit garden, next to a vase of flowers on a table.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/50a1e191286e02c033944768c8f3ede9?impolicy=wcms_crop_resize&cropH=895&cropW=1192&xPos=81&yPos=0&width=160&height=120",
+          "altText": "A man in front of behind blue screens. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/22aa02c8bb11a4bfa7917803c11f8b78?impolicy=wcms_crop_resize&cropH=402&cropW=536&xPos=123&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Aged Care",
-            "link": "/news/topic/aged-care",
+            "title": "Weather",
+            "link": "/news/topic/weather",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -887,58 +933,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106696290",
-        "contentUri": "coremedia://article/106696290",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-05-19/what-we-know-about-the-shooting-at-a-san-diego-mosque/106696290",
-        "title": "What we know about the deadly shooting at a San Diego mosque",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Two teenagers opened fire at the largest mosque in San Diego, California on Monday, killing three men. Here is what we know about the attack."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An aerial view of the mosque and police cars parked along side streets.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7b4040c45147e02da3bb45f07e80c96?impolicy=wcms_crop_resize&cropH=1622&cropW=2163&xPos=135&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
-        "id": "106697374",
-        "targetId": "106645526",
-        "contentUri": "coremedia://teaser/106697374",
+        "id": "106697966",
+        "targetId": "106661536",
+        "contentUri": "coremedia://teaser/106697966",
         "label": null,
-        "title": "Mystery illness killing magpies sparks fears of population decline",
+        "title": "Ex-GP charged with 148 counts of rape and sexual assault",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -952,7 +952,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Researchers say they are still far from identifying the cause of a deadly paralytic illness spreading through populations of the iconic Australian birds."
+                    "content": "A former Brisbane doctor has been charged with 148 counts of rape and sexual assault following an extensive police investigation."
                   }
                 ]
               }
@@ -960,10 +960,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-05-19T02:37:23+00:00",
-          "lastUpdated": "2026-05-19T05:06:44+00:00"
+          "firstPublished": "2026-05-19T05:11:56+00:00",
+          "lastUpdated": "2026-05-19T07:05:18+00:00"
         },
-        "link": "/news/2026-05-19/wa-magpie-paralysis-syndrome-mystery-illness-population-decline/106645526",
+        "link": "/news/2026-05-19/gp-stellios-theodoros-charges-148-counts-rape-sexual-assault/106661536",
         "related": {
           "title": null,
           "videos": [],
@@ -972,52 +972,57 @@
         },
         "gallery": [
           {
-            "altText": "A mapgie pokes its head out of the towel it is wrapped in.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
+            "altText": "A man with a stethoscope around his neck. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/abf972f68fdc17b871b593fe29ae5b1e?impolicy=wcms_crop_resize&cropH=999&cropW=999&xPos=250&yPos=0&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2702&cropW=4053&xPos=494&yPos=294&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/abf972f68fdc17b871b593fe29ae5b1e?impolicy=wcms_crop_resize&cropH=844&cropW=1500&xPos=0&yPos=5&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/abf972f68fdc17b871b593fe29ae5b1e?impolicy=wcms_crop_resize&cropH=999&cropW=1499&xPos=1&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2702&cropW=4053&xPos=494&yPos=294&width=862&height=575",
-            "altText": "A mapgie pokes its head out of the towel it is wrapped in.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/abf972f68fdc17b871b593fe29ae5b1e?impolicy=wcms_crop_resize&cropH=999&cropW=1499&xPos=1&yPos=0&width=862&height=575",
+            "altText": "A man with a stethoscope around his neck. ",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "title": "Birds",
-            "link": "/news/topic/birds",
-            "type": "subject",
-            "screenReader": "Topic",
+            "text": "Eden Gillespie",
+            "title": "By Eden Gillespie",
+            "link": "https://www.abc.net.au/news/eden-gillespie/104068766",
+            "avatar": {
+              "alt": "A portrait shot of Eden standing next to a tree.",
+              "fallbackLetter": "E",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/976e41483d8bb9180b4946ff8be33309?impolicy=wcms_crop_resize&cropH=1278&cropW=1278&xPos=819&yPos=773&width=160&height=160"
+            },
+            "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Animals",
-            "link": "/news/topic/animals",
+            "title": "Crime",
+            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
-        "readTime": 4,
+        "readTime": 1,
         "hasLoadPriority": false
       },
       {
         "type": "generic",
-        "id": "106695588",
-        "contentUri": "coremedia://article/106695588",
+        "id": "106693972",
+        "contentUri": "coremedia://article/106693972",
         "label": null,
-        "link": "/news/2026-05-19/campbelltown-murder-wife-and-sons-man-faces-court/106695588",
-        "title": "Man accused of killing wife and two children in Sydney home fronts court",
+        "link": "/news/2026-05-19/musk-v-altman-openai-key-takeaways/106693972",
+        "title": "Key takeaways from Sam Altman and Elon Musk's bitter legal battle",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1031,7 +1036,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The 47-year-old has faced court charged with what police describe as the \"particularly violent\" murder of his wife and sons in Sydney's south-west."
+                    "content": "A legal showdown between two of the tech world's most powerful men has reached its end. Here's what we learned throughout the trial."
                   }
                 ]
               }
@@ -1039,193 +1044,18 @@
           }
         },
         "image": {
-          "altText": "A police officer stood in front of a police van.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/61a623aa0e3a0cb1113f75d744722e40?impolicy=wcms_crop_resize&cropH=2393&cropW=3190&xPos=877&yPos=533&width=160&height=120",
+          "altText": "elon musk and sam altman on a gradient background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5c4b5b3a9b187f7db1b2d5af47362dd?impolicy=wcms_crop_resize&cropH=893&cropW=1190&xPos=269&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Courts",
-            "link": "/news/topic/courts",
+            "title": "AI",
+            "link": "/news/topic/ai",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106694490",
-        "targetId": "106694198",
-        "contentUri": "coremedia://teaser/106694490",
-        "label": null,
-        "title": "Will the war in Iran make Australia use less plastic?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Could the war in Iran change the way we recycle back home?"
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Australia mostly relies on importing plastic from overseas."
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As well as petrol and diesel, the Strait of Hormuz is a key delivery route for a crucial backbone of plastic production. But, that's now cut off."
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "It's led to a growing conversation about how Australia might transition to fully recycling plastic packaging onshore."
-                  },
-                  {
-                    "type": "tagname",
-                    "key": "br",
-                    "props": {},
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-18T08:30:41+00:00",
-          "lastUpdated": "2026-05-18T08:30:41+00:00"
-        },
-        "link": "/news/2026-05-18/will-the-war-in-iran-make-australia-use-less-plastic-/106694198",
-        "related": {
-          "title": null,
-          "videos": [
-            {
-              "id": "106694198",
-              "canonicalURL": "https://www.abc.net.au/news/2026-05-18/will-the-war-in-iran-make-australia-use-less-plastic-/106694198",
-              "uri": "coremedia://video/106694198",
-              "duration": 291,
-              "sources": [
-                {
-                  "file": "https://mediacore-live-production.akamaized.net/video/02/kl/Z/02.mp4",
-                  "type": "video/mp4",
-                  "fileSize": 350001396,
-                  "bitrate": 9468,
-                  "label": "9.47 mbps"
-                }
-              ],
-              "tracks": [],
-              "ratio": "9x16",
-              "image": {
-                "altText": "TN_PlasticIran",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=1920&cropW=1080&xPos=0&yPos=0&width=862&height=1533",
-                "width": "862",
-                "height": "1533"
-              },
-              "isVerticalVideo": true
-            }
-          ],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "TN_PlasticIran",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=0&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=211&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=155&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=155&width=862&height=575",
-            "altText": "TN_PlasticIran",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [],
-        "readTime": null,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106697268",
-        "contentUri": "coremedia://article/106697268",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-05-19/sam-walker-queensland-state-of-origin-debut-halfback/106697268",
-        "title": "Why Sam Walker is the great unknown of State of Origin I",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Sam Walker has always seemed like a player destined for the highest levels of rugby league, but ahead of his State of Origin debut, it's impossible to know what comes next for the new Queensland halfback. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man poses in a Queensland Origin jersey ahead of his debut ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d9c64d03b6f4a2fc34fcc7022541744b?impolicy=wcms_crop_resize&cropH=1725&cropW=2300&xPos=1325&yPos=314&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Nick Campton",
-            "title": "Analysis by Nick Campton",
-            "link": "https://www.abc.net.au/news/nick-campton/13913790",
-            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -1270,6 +1100,215 @@
           {
             "title": "Music",
             "link": "/news/topic/music",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106698818",
+        "targetId": "106697688",
+        "contentUri": "coremedia://teaser/106698818",
+        "label": null,
+        "title": "Undersea volcanic eruption visible from space",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Titan Ridge Volcano is erupting in the Bismarck Sea, sending ash and smoke into the sky and prompting authorities to warn of possible tsunamis in the area."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-19T07:45:53+00:00",
+          "lastUpdated": "2026-05-19T07:45:53+00:00"
+        },
+        "link": "/news/2026-05-19/papua-new-guinea-volcanic-eruption-bismarck-sea/106697688",
+        "related": {
+          "title": null,
+          "videos": [
+            {
+              "id": "106698734",
+              "canonicalURL": "https://www.abc.net.au/news/2026-05-19/undersea-volcano-in-papua-new-guinea-s-bismarck-sea-erupts/106698734",
+              "uri": "coremedia://video/106698734",
+              "duration": 30,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/km/Z/5r.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 3866400,
+                  "bitrate": 0,
+                  "label": "0 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/km/Z/5q.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 1757735,
+                  "bitrate": 0,
+                  "label": "0 kbps"
+                },
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/km/Z/5p.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 832329,
+                  "bitrate": 0,
+                  "label": "0 kbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "16x9",
+              "image": {
+                "altText": "Plume of smoke on distant ocean horizon.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/347e8dff5ef503c561ca00cc753d91fe?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "width": "862",
+                "height": "485"
+              },
+              "isVerticalVideo": false
+            }
+          ],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A volcano erupts under the ocean sending smoke and ash into the sky",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1c8f6a0c2fd079c44cd404dd48cdaa7?impolicy=wcms_crop_resize&cropH=864&cropW=864&xPos=510&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/e1c8f6a0c2fd079c44cd404dd48cdaa7?impolicy=wcms_crop_resize&cropH=760&cropW=1352&xPos=93&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/e1c8f6a0c2fd079c44cd404dd48cdaa7?impolicy=wcms_crop_resize&cropH=750&cropW=1124&xPos=125&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e1c8f6a0c2fd079c44cd404dd48cdaa7?impolicy=wcms_crop_resize&cropH=750&cropW=1124&xPos=125&yPos=0&width=862&height=575",
+            "altText": "A volcano erupts under the ocean sending smoke and ash into the sky",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "Pacific Beat",
+            "link": "https://www.abc.net.au/pacific/programs/pacificbeat/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Volcanic Eruptions",
+            "link": "/news/topic/volcanic-eruptions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 2,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106697728",
+        "contentUri": "coremedia://article/106697728",
+        "label": null,
+        "link": "/news/2026-05-19/cameron-petrie-pleads-guilty-to-raping-sunshine-coast-mother/106697728",
+        "title": "'Silence is not consent': Mother raped by massage therapist",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A Queensland massage therapist has been imprisoned for raping a client who says \"silence is not consent\" and that the \"degrading\" experience devastated her emotionally, physically and financially."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Middle aged woman standing outside of court wearing a shirt which reads no more silence",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=803&cropW=1071&xPos=0&yPos=18&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Sexual Offences",
+            "link": "/news/topic/sexual-offences",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106698586",
+        "contentUri": "coremedia://article/106698586",
+        "label": null,
+        "link": "/news/2026-05-19/glasgow-2026-commonwealth-games-australian-lawn-bowls/106698586",
+        "title": "Aussie great-grandmother to compete at Comm Games",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "At 75 years old, Jacky Hudson will tread an unlikely path for a great-grandmother after earning selection in Australia's Commonwealth Games lawn bowls squad."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Australian Jackaroos lawn bowls athlete Jacky Hudson during a team photo",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/625065b7ab2e803d974cfcafdc4b075f?impolicy=wcms_crop_resize&cropH=1787&cropW=2383&xPos=1046&yPos=262&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Commonwealth Games",
+            "link": "/news/topic/commonwealth-games",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1657,58 +1696,12 @@
       },
       {
         "type": "generic",
-        "id": "106693972",
-        "contentUri": "coremedia://article/106693972",
-        "label": null,
-        "link": "/news/2026-05-19/musk-v-altman-openai-key-takeaways/106693972",
-        "title": "Key takeaways from Sam Altman and Elon Musk's bitter legal battle",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A legal showdown between two of the tech world's most powerful men has reached its end. Here's what we learned throughout the trial."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "elon musk and sam altman on a gradient background",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5c4b5b3a9b187f7db1b2d5af47362dd?impolicy=wcms_crop_resize&cropH=893&cropW=1190&xPos=269&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AI",
-            "link": "/news/topic/ai",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106598118",
-        "contentUri": "coremedia://article/106598118",
+        "id": "106696290",
+        "contentUri": "coremedia://article/106696290",
         "theme": "sand",
         "label": null,
-        "link": "/news/science/2026-05-19/how-to-spot-ai-psychosis-red-flags-chatbot-delusions/106598118",
-        "title": "Spotting these AI relationship warning signs may avoid a delusional spiral",
+        "link": "/news/2026-05-19/what-we-know-about-the-shooting-at-a-san-diego-mosque/106696290",
+        "title": "What we know about the deadly shooting at a San Diego mosque",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1722,7 +1715,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Intensive chatbot use may be amplifying dangerous and harmful delusions for some users. Here are some of the \"red flags\" for \"AI psychosis\"."
+                    "content": "Two teenagers opened fire at the largest mosque in San Diego, California on Monday, killing three men. Here is what we know about the attack."
                   }
                 ]
               }
@@ -1730,8 +1723,8 @@
           }
         },
         "image": {
-          "altText": "Hands typing on a smartphone with a glowing screen in low-light",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ecf7b6d0eb1d1706f7cdc76764e2ad6?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "An aerial view of the mosque and police cars parked along side streets.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7b4040c45147e02da3bb45f07e80c96?impolicy=wcms_crop_resize&cropH=1622&cropW=2163&xPos=135&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1748,175 +1741,12 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106695812",
-        "targetId": "106695244",
-        "contentUri": "coremedia://teaser/106695812",
-        "label": null,
-        "title": "Stranded driver, students among 10 rescues during heavy rainfall in NSW and Qld",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Almost 50 high school students and teachers have been rescued after becoming stranded by floodwater at a national park in the Scenic Rim while on a school camp."
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Earlier, near the New South Wales and Queensland border, crews worked to rescue a person stuck in a vehicle at Numinbah Valley near Murwillumbah."
-                  }
-                ]
-              },
-              {
-                "type": "tagname",
-                "key": "p",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "NSW SES volunteers and emergency service partners have responded to 197 incidents since Monday afternoon."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-18T20:58:24+00:00",
-          "lastUpdated": "2026-05-19T04:49:59+00:00"
-        },
-        "link": "/news/2026-05-19/school-students-rescued-mt-barney-gold-coast-rainfall/106695244",
-        "related": {
-          "title": null,
-          "videos": [
-            {
-              "id": "106695536",
-              "canonicalURL": "https://www.abc.net.au/news/2026-05-19/numinbah-rescue/106695536",
-              "uri": "coremedia://video/106695536",
-              "duration": 43,
-              "sources": [
-                {
-                  "file": "https://mediacore-live-production.akamaized.net/video/02/kl/Z/jq.mp4",
-                  "type": "video/mp4",
-                  "fileSize": 4558986,
-                  "bitrate": 662,
-                  "label": "662 kbps"
-                }
-              ],
-              "tracks": [],
-              "ratio": "9x16",
-              "image": {
-                "altText": "vlcsnap-2026-05-19-08h30m33s229",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/583e780f3d361f8449ca4826f4bb6f59?impolicy=wcms_crop_resize&cropH=640&cropW=360&xPos=0&yPos=0&width=862&height=1533",
-                "width": "862",
-                "height": "1533"
-              },
-              "isVerticalVideo": true
-            }
-          ],
-          "audio": [],
-          "articles": [
-            {
-              "id": "106693958",
-              "contentUri": "coremedia://article/106693958",
-              "label": null,
-              "link": "/news/2026-05-19/federal-politics-live-blog-tobacco-lobbying/106693958",
-              "title": "Collins-class submarine overhaul scaled back in 'pivot to reduce risk' — as it happened",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Changes are being made to massive program aiming to upgrade and extend the life of Australia's aging fleet of Collins Class submarines, Defence Minister Richard Marles has confirmed. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Crew stand on the top of a submarine.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0689a16e4c9ce5dd0cb5c921806f8197?impolicy=wcms_crop_resize&cropH=1787&cropW=2382&xPos=819&yPos=613&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
-        },
-        "gallery": [
-          {
-            "altText": "A mountain range in regional Queensland.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd01bdaed96d459d599e97474e42a843?impolicy=wcms_crop_resize&cropH=778&cropW=778&xPos=301&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/dd01bdaed96d459d599e97474e42a843?impolicy=wcms_crop_resize&cropH=776&cropW=1380&xPos=0&yPos=1&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/dd01bdaed96d459d599e97474e42a843?impolicy=wcms_crop_resize&cropH=778&cropW=1167&xPos=107&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dd01bdaed96d459d599e97474e42a843?impolicy=wcms_crop_resize&cropH=778&cropW=1167&xPos=107&yPos=0&width=862&height=575",
-            "altText": "A mountain range in regional Queensland.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Emily Dobson",
-            "title": "By Emily Dobson",
-            "link": "https://www.abc.net.au/news/emily-dobson/13745256",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Gold Coast",
-            "link": "https://www.abc.net.au/goldcoast/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
-        "id": "106696536",
-        "contentUri": "coremedia://article/106696536",
+        "id": "106695174",
+        "contentUri": "coremedia://article/106695174",
         "label": null,
-        "link": "/news/2026-05-19/evidence-delays-for-pheobe-bishop-murder-accused-tanika-bromley/106696536",
-        "title": "Late ballistics report delays progress on Pheobe Bishop murder case",
+        "link": "/news/2026-05-19/ebola-treatment-centres-congo-american-doctor-diagnosed/106695174",
+        "title": "WHO 'deeply concerned' over Ebola outbreak after at least 131 people die",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1930,7 +1760,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The defence team for Tanika Bromley, who is charged over the murder of Queensland teenager Pheobe Bishop, raises issues about delays in receiving parts of the brief of evidence."
+                    "content": "The cash-strapped World Health Organization is sending a team of experts to the Democratic Republic of the Congo as hundreds of cases of Ebola are suspected."
                   }
                 ]
               }
@@ -1938,16 +1768,16 @@
           }
         },
         "image": {
-          "altText": "A close up photo of a woman with red hair",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1c369fde8b82df552df6d92843e3e2de?impolicy=wcms_crop_resize&cropH=786&cropW=1048&xPos=0&yPos=153&width=160&height=120",
+          "altText": "A man wearing a medical face mask and protective clothing reaches his hand through an open car window.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06ddf205991ce6e1171638344c9a46de?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=115&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Courts",
-            "link": "/news/topic/courts",
+            "title": "Ebola",
+            "link": "/news/topic/ebola",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1957,12 +1787,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106692286",
-        "contentUri": "coremedia://article/106692286",
+        "type": "rich",
+        "id": "106694490",
+        "targetId": "106694198",
+        "contentUri": "coremedia://teaser/106694490",
         "label": null,
-        "link": "/news/2026-05-19/salmon-mortality-impact-on-tasmania-waste-systems/106692286",
-        "title": "The dead fish waste disaster that Tasmania failed to plan for",
+        "title": "Will the war in Iran make Australia use less plastic?",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1976,7 +1806,135 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "High-volume salmon mortalities last year swamped Tasmania's waste streams as companies scrambled to find somewhere to accept them, documents show. There are now concerns the state remains unprepared for future mass deaths."
+                    "content": "Could the war in Iran change the way we recycle back home?"
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia mostly relies on importing plastic from overseas."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "As well as petrol and diesel, the Strait of Hormuz is a key delivery route for a crucial backbone of plastic production. But, that's now cut off."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "It's led to a growing conversation about how Australia might transition to fully recycling plastic packaging onshore."
+                  },
+                  {
+                    "type": "tagname",
+                    "key": "br",
+                    "props": {},
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-18T08:30:41+00:00",
+          "lastUpdated": "2026-05-18T08:30:41+00:00"
+        },
+        "link": "/news/2026-05-18/will-the-war-in-iran-make-australia-use-less-plastic-/106694198",
+        "related": {
+          "title": null,
+          "videos": [
+            {
+              "id": "106694198",
+              "canonicalURL": "https://www.abc.net.au/news/2026-05-18/will-the-war-in-iran-make-australia-use-less-plastic-/106694198",
+              "uri": "coremedia://video/106694198",
+              "duration": 291,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/kl/Z/02.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 350001396,
+                  "bitrate": 9468,
+                  "label": "9.47 mbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "9x16",
+              "image": {
+                "altText": "TN_PlasticIran",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=1920&cropW=1080&xPos=0&yPos=0&width=862&height=1533",
+                "width": "862",
+                "height": "1533"
+              },
+              "isVerticalVideo": true
+            }
+          ],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "TN_PlasticIran",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=0&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=211&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=155&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d7e7dfb65a911542fd50a661226a08fe?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=155&width=862&height=575",
+            "altText": "TN_PlasticIran",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [],
+        "readTime": null,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106675332",
+        "contentUri": "coremedia://article/106675332",
+        "label": null,
+        "link": "/news/2026-05-19/weight-loss-surgery-superannuation-overseas-risks/106675332",
+        "title": "'Two years to live': Why we used our super for weight loss surgery",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Weight loss surgery has become an increasingly common option for people grappling with obesity — and many are funding it using retirement savings."
                   }
                 ]
               }
@@ -1984,16 +1942,16 @@
           }
         },
         "image": {
-          "altText": "A large amount of fish are laid out in a trench",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/540dbf26618a90866b2ee163b7a9d9fb?impolicy=wcms_crop_resize&cropH=771&cropW=1028&xPos=0&yPos=17&width=160&height=120",
+          "altText": "A man with glasses, a white t-shirt and a sleeve tattoo, stands beside a woman with glasses and a dark blue top.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/50c057c4759e0763084c192e0d9d9006?impolicy=wcms_crop_resize&cropH=2518&cropW=3358&xPos=343&yPos=477&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Fishing and Aquaculture Industry",
-            "link": "/news/topic/fishing-and-aquaculture-industry",
+            "title": "Medical Procedures",
+            "link": "/news/topic/medical-procedures",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -2049,113 +2007,12 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "106696230",
-        "targetId": "106683312",
-        "contentUri": "coremedia://teaser/106696230",
-        "label": null,
-        "title": "Road with no name leads emergency crews astray",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "When Chris Stehbens spied a lost ambulance driving up and down his road during a Triple Zero (000) emergency response, he was not surprised by the struggle to find the right address."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-18T23:59:31+00:00",
-          "lastUpdated": "2026-05-18T23:59:31+00:00"
-        },
-        "link": "/news/2026-05-19/unnamed-road-leads-central-queensland-emergency-services-astray/106683312",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A man wearing a cap and blue shirt standing at the entrance of a rural road.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d137edc9e4160287c4a1240954dc4a7?impolicy=wcms_crop_resize&cropH=3024&cropW=3024&xPos=504&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "A man wearing a cap and blue shirt standing at the entrance of a rural road looking down it.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6082ccf951afe4cd73fb1439d61f5c03?impolicy=wcms_crop_resize&cropH=3024&cropW=3024&xPos=533&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/5d137edc9e4160287c4a1240954dc4a7?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/5d137edc9e4160287c4a1240954dc4a7?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d137edc9e4160287c4a1240954dc4a7?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
-            "altText": "A man wearing a cap and blue shirt standing at the entrance of a rural road.",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/6082ccf951afe4cd73fb1439d61f5c03?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=636&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/6082ccf951afe4cd73fb1439d61f5c03?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6082ccf951afe4cd73fb1439d61f5c03?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=336&width=862&height=575",
-            "altText": "A man wearing a cap and blue shirt standing at the entrance of a rural road looking down it.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Frazer Pearce",
-            "title": "By Frazer Pearce",
-            "link": "https://www.abc.net.au/news/frazer-pearce/13483622",
-            "avatar": {
-              "alt": "A profile image of a man with white hair and brown eyes.",
-              "fallbackLetter": "F",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c3c749a61aefab620d74031c42c1617b?impolicy=wcms_crop_resize&cropH=660&cropW=660&xPos=445&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Capricornia",
-            "link": "https://www.abc.net.au/capricornia/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
-        "id": "106695894",
-        "contentUri": "coremedia://article/106695894",
+        "id": "106697598",
+        "contentUri": "coremedia://article/106697598",
         "label": null,
-        "link": "/news/2026-05-19/randwick-mayor-defends-beaches-parking-meter-plan/106695894",
-        "title": "Mayor defends plan to introduce parking meters at popular Sydney beaches",
+        "link": "/news/2026-05-19/refunds-but-no-price-caps-for-ripped-off-older-australians/106697598",
+        "title": "Refunds but no price caps for ripped-off older Australians",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -2169,7 +2026,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A recent survey of residents found 54 per cent supported the plan that would introduce paid parking for visitors. "
+                    "content": "Support at Home program price caps, due to start in July, have been deferred indefinitely. Hundreds of thousands of older people rely on the federal government program, which provides help with cleaning, showering and clinical supports like nursing."
                   }
                 ]
               }
@@ -2177,16 +2034,16 @@
           }
         },
         "image": {
-          "altText": "a crowded beach",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7bbce2ba46d214693bfe603296501bec?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "altText": "An elderly man sits in a rocking chair facing away into a sunlit garden, next to a vase of flowers on a table.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/50a1e191286e02c033944768c8f3ede9?impolicy=wcms_crop_resize&cropH=895&cropW=1192&xPos=81&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Local Government",
-            "link": "/news/topic/local-government",
+            "title": "Aged Care",
+            "link": "/news/topic/aged-care",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -2240,6 +2097,85 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106697374",
+        "targetId": "106645526",
+        "contentUri": "coremedia://teaser/106697374",
+        "label": null,
+        "title": "Mystery illness killing magpies sparks fears of population decline",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Researchers say they are still far from identifying the cause of a deadly paralytic illness spreading through populations of the iconic Australian birds."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-19T02:37:23+00:00",
+          "lastUpdated": "2026-05-19T05:06:44+00:00"
+        },
+        "link": "/news/2026-05-19/wa-magpie-paralysis-syndrome-mystery-illness-population-decline/106645526",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A mapgie pokes its head out of the towel it is wrapped in.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2702&cropW=4053&xPos=494&yPos=294&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/007a565fafc19ea9b7fd6cc8d1f3e9da?impolicy=wcms_crop_resize&cropH=2702&cropW=4053&xPos=494&yPos=294&width=862&height=575",
+            "altText": "A mapgie pokes its head out of the towel it is wrapped in.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "Birds",
+            "link": "/news/topic/birds",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          },
+          {
+            "title": "Animals",
+            "link": "/news/topic/animals",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4,
+        "hasLoadPriority": false
       }
     ]
   }
