@@ -127,6 +127,52 @@
         "hasLoadPriority": false
       },
       {
+        "type": "medium",
+        "id": "106700006",
+        "contentUri": "coremedia://teaser/106700006",
+        "label": null,
+        "link": "/news/2026-05-20/whales-travelling-between-continents-found-in-photo-research/106697918",
+        "title": "Researchers uncover longest whale journey ever documented",
+        "image": {
+          "altText": "A drone shot of three humpback whales in the ocean",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6f12ca1245bab7fba29f414baabff7ed?impolicy=wcms_crop_resize&cropH=843&cropW=1124&xPos=0&yPos=141&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Animals",
+            "link": "/news/topic/animals",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Scientists analysing a database of photos find two humpback whales travelled from Queensland to Brazil, covering a record distance of 14,200km. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "106698234",
         "contentUri": "coremedia://article/106698234",
@@ -429,7 +475,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106699746",
@@ -512,96 +570,6 @@
           }
         ],
         "readTime": 1,
-        "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
-      {
-        "type": "rich",
-        "id": "106699568",
-        "targetId": "106697728",
-        "contentUri": "coremedia://teaser/106699568",
-        "label": null,
-        "title": "'Silence is not consent': Mother raped by massage therapist",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A Queensland massage therapist has been imprisoned for raping a client who says \"silence is not consent\" and that the \"degrading\" experience devastated her emotionally, physically and financially."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-19T07:01:00+00:00",
-          "lastUpdated": "2026-05-19T08:01:33+00:00"
-        },
-        "link": "/news/2026-05-19/cameron-petrie-pleads-guilty-to-raping-sunshine-coast-mother/106697728",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Middle aged woman standing outside of court wearing a shirt which reads no more silence",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=840&cropW=840&xPos=0&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=602&cropW=1071&xPos=0&yPos=32&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=713&cropW=1069&xPos=0&yPos=26&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=713&cropW=1069&xPos=0&yPos=26&width=862&height=575",
-            "altText": "Middle aged woman standing outside of court wearing a shirt which reads no more silence",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Madeline Grace",
-            "title": "By Madeline Grace",
-            "link": "https://www.abc.net.au/news/madeline-grace/105327646",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Sunshine Coast",
-            "link": "https://www.abc.net.au/sunshine/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
         "hasLoadPriority": false
       },
       {
@@ -695,6 +663,84 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106699568",
+        "targetId": "106697728",
+        "contentUri": "coremedia://teaser/106699568",
+        "label": null,
+        "title": "'Silence is not consent': Mother raped by massage therapist",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A Queensland massage therapist has been imprisoned for raping a client who says \"silence is not consent\" and that the \"degrading\" experience devastated her emotionally, physically and financially."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-19T07:01:00+00:00",
+          "lastUpdated": "2026-05-19T08:01:33+00:00"
+        },
+        "link": "/news/2026-05-19/cameron-petrie-pleads-guilty-to-raping-sunshine-coast-mother/106697728",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Middle aged woman standing outside of court wearing a shirt which reads no more silence",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=840&cropW=840&xPos=0&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=602&cropW=1071&xPos=0&yPos=32&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=713&cropW=1069&xPos=0&yPos=26&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e4056fe94bf42d5cef2da5333752dcd3?impolicy=wcms_crop_resize&cropH=713&cropW=1069&xPos=0&yPos=26&width=862&height=575",
+            "altText": "Middle aged woman standing outside of court wearing a shirt which reads no more silence",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Madeline Grace",
+            "title": "By Madeline Grace",
+            "link": "https://www.abc.net.au/news/madeline-grace/105327646",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Sunshine Coast",
+            "link": "https://www.abc.net.au/sunshine/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
