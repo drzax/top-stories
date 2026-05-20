@@ -93,30 +93,59 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "106704428",
-        "contentUri": "coremedia://teaser/106704428",
+        "type": "generic",
+        "id": "106702142",
+        "contentUri": "coremedia://article/106702142",
         "label": null,
-        "link": "/news/2026-05-21/2026-international-cybersecurity-challenge-on-the-gold-coast/106696754",
-        "title": "Hackers in an 'ethical battle' beyond cyber attacks and exploits",
+        "link": "/news/2026-05-21/queensland-e-bike-law-exemption-for-tourism/106702142",
+        "title": "Whitsunday tour operators fear e-bike ban could destroy business",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Guided tour operators say proposed laws banning under-16s from using personal mobility devices will put them out of businesses."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "MAN SMILING IN FRONT OF COMPUTER",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d12b7a9aee9d6e4539bd3578091bd58f?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=1023&yPos=0&width=862&height=647",
+          "altText": "A man holds a mountain bike over his head, standing on a platform overlooking a tropical island bay.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f1635251728fb33e706ab0622cffe027?impolicy=wcms_crop_resize&cropH=1222&cropW=1630&xPos=298&yPos=128&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Cyber Security",
-            "link": "/news/topic/cyber-security",
+            "title": "Travel and Tourism",
+            "link": "/news/topic/travel-and-tourism",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106696754",
+        "contentUri": "coremedia://article/106696754",
+        "label": null,
+        "link": "/news/2026-05-21/2026-international-cybersecurity-challenge-on-the-gold-coast/106696754",
+        "title": "Hackers in an 'ethical battle' beyond cyber attacks and exploits",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -136,6 +165,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "MAN SMILING IN FRONT OF COMPUTER",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d12b7a9aee9d6e4539bd3578091bd58f?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=1208&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Cyber Security",
+            "link": "/news/topic/cyber-security",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -144,7 +190,7 @@
         "contentUri": "coremedia://article/106695662",
         "label": null,
         "link": "/news/2026-05-21/karumba-fishing-industry-fears-locals-wonder-what-on-horizon/106695662",
-        "title": "Trawlers may sit idle but residents are holding onto Karumba's future",
+        "title": "Why the future of one of Queensland's last true fishing towns is on the brink",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -441,7 +487,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106702158",
@@ -612,19 +670,7 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106697766",
