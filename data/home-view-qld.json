@@ -94,30 +94,59 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "106714310",
-        "contentUri": "coremedia://teaser/106714310",
+        "type": "generic",
+        "id": "106712682",
+        "contentUri": "coremedia://article/106712682",
         "label": null,
-        "link": "/news/2026-05-23/qld-man-charged-joint-counter-terrorism-team/106714206",
-        "title": "Queensland man charged by anti-terrorism police",
+        "link": "/news/2026-05-23/queensland-jockey-shane-mcgovern-dies-after-training-accident/106712682",
+        "title": "Queensland jockey dies in hospital after training accident",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Both of Shane McGovern's legs were amputated during a weeks-long stay in hospital."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "Uniformed AFP officers standing in a line",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/94adfcd2748c837210535674a747b08d?impolicy=wcms_crop_resize&cropH=630&cropW=840&xPos=253&yPos=0&width=862&height=647",
+          "altText": "A male jockey atop a horse in a country area.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f4b6f82467187cdffb93f40be5f0edc?impolicy=wcms_crop_resize&cropH=243&cropW=324&xPos=0&yPos=5&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Terrorism",
-            "link": "/news/topic/terrorism",
+            "title": "Horse Racing",
+            "link": "/news/topic/horse-racing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106714206",
+        "contentUri": "coremedia://article/106714206",
+        "label": null,
+        "link": "/news/2026-05-23/qld-man-charged-joint-counter-terrorism-team/106714206",
+        "title": "Queensland man charged by anti-terrorism police",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -137,6 +166,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "Uniformed AFP officers standing in a line",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/94adfcd2748c837210535674a747b08d?impolicy=wcms_crop_resize&cropH=630&cropW=840&xPos=253&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Terrorism",
+            "link": "/news/topic/terrorism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -145,7 +191,7 @@
         "contentUri": "coremedia://article/106713004",
         "label": null,
         "link": "/news/2026-05-23/adult-and-baby-die-in-port-douglas-highway-crash/106713004",
-        "title": "Woman and baby die after highway crash north of Cairns",
+        "title": "Woman and toddler die after highway crash north of Cairns",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -167,8 +213,8 @@
           }
         },
         "image": {
-          "altText": "An ambulance, police car and boat sitting on a road.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d50d535903f09c484f5a94b268718446?impolicy=wcms_crop_resize&cropH=2656&cropW=3541&xPos=276&yPos=0&width=160&height=120",
+          "altText": "local ruby league club jersey near road with yellow paint markings",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/144a3e744c1f72b485cc8d1a31c8eacd?impolicy=wcms_crop_resize&cropH=800&cropW=1067&xPos=121&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -446,7 +492,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106709768",
@@ -538,19 +596,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106710270",
@@ -761,351 +807,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106710526",
-        "targetId": "106680274",
-        "contentUri": "coremedia://teaser/106710526",
-        "label": null,
-        "title": "Rundown Rockhampton hotel sells for millions at court-ordered auction  ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "After its closure in 2014, the formerly popular hotel became dilapidated and was frequented by squatters. It has now sold at a court-ordered auction for $5.75 million. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-21T04:15:09+00:00",
-          "lastUpdated": "2026-05-21T04:15:09+00:00"
-        },
-        "link": "/news/2026-05-21/rockhampton-plaza-hotel-sold-at-auction/106680274",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "Drone shot of multi storey concrete building with overgrown gardens, empty pool, smashed windows",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e678552f9082fb9f61543ed2a05fc10?impolicy=wcms_crop_resize&cropH=585&cropW=585&xPos=220&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/2e678552f9082fb9f61543ed2a05fc10?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=4&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/2e678552f9082fb9f61543ed2a05fc10?impolicy=wcms_crop_resize&cropH=585&cropW=878&xPos=73&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e678552f9082fb9f61543ed2a05fc10?impolicy=wcms_crop_resize&cropH=585&cropW=878&xPos=73&yPos=0&width=862&height=575",
-            "altText": "Drone shot of multi storey concrete building with overgrown gardens, empty pool, smashed windows",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Capricornia",
-            "link": "https://www.abc.net.au/capricornia/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Urban Development and Planning",
-            "link": "/news/topic/urban-development-and-planning",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 2,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106705550",
-        "contentUri": "coremedia://article/106705550",
-        "label": null,
-        "link": "/news/2026-05-22/big-waves-on-way-as-qld-braces-for-beach-erosion/106705550",
-        "title": "Four-metre waves on the way as south-east Queensland braces for beach erosion",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Large swells driven by a Tasman Sea low are expected to bring hazardous surf and further erosion to already affected Gold Coast beaches over the weekend, before easing early next week."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A 'no swimming' sign at Burleigh Heads, Gold Coast.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce01bd635e2b20beb868f40e85ddba41?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=625&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Erosion",
-            "link": "/news/topic/erosion",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106690068",
-        "contentUri": "coremedia://article/106690068",
-        "label": null,
-        "link": "/news/2026-05-22/cv-loses-value-artificial-intelligence-changes-recruitment/106690068",
-        "title": "AI-generated resumes making hiring 'incredibly difficult', recruiters say",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "AI-perfected CVs are becoming the norm as more job applicants and employers use artificial intelligence, but recruiters say the technology could be making hiring trickier."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A close up of text on a computer screen over a woman's shoulder.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3573f615f7de3bf291dc9b2b2b3813f?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AI",
-            "link": "/news/topic/ai",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106705466",
-        "contentUri": "coremedia://article/106705466",
-        "label": null,
-        "link": "/news/2026-05-21/kiesha-thompson-hit-run-murder-court-larissa-sant/106705466",
-        "title": "Woman accused of hit-and-run murder to stand trial",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Larissa Rita Mae-Leigh Sant is accused of planning to kill her then-partner's ex-girlfriend, Kiesha Thompson, before striking her with a car while she was walking."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "CCTV shows the car moments before the alleged hit-and-run murder.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/81a52ed1d85709d5935a64fb9a6913ae?impolicy=wcms_crop_resize&cropH=576&cropW=768&xPos=128&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106642970",
-        "contentUri": "coremedia://article/106642970",
-        "label": null,
-        "link": "/news/2026-05-21/container-exchange-u-can-recycle-federal-court-case/106642970",
-        "title": "Recycling contractor accused of having employees sleep on floor sues for $5m",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Allegations that a depot operator in Queensland's container exchange recycling program conducted itself in a manner that could be likened to modern slavery have been detailed during a court hearing in a multi-million dollar federal court dispute."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A birds eye view of green sheds. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b7dc2fb91b502e21a33609cfbda2846?impolicy=wcms_crop_resize&cropH=1920&cropW=2560&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106709766",
-        "targetId": "106704580",
-        "contentUri": "coremedia://teaser/106709766",
-        "label": null,
-        "title": "Deliberations begin in murder trial of farm worker who amputated pensioner's leg",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A jury is deciding whether John Yalu, 41, committed murder when he used a circular saw to amputate the leg of a pensioner who had been \"pressuring\" him to remove the limb in exchange for $5,000."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-21T02:18:21+00:00",
-          "lastUpdated": "2026-05-21T06:50:56+00:00"
-        },
-        "link": "/news/2026-05-21/jury-hears-recording-john-yalu-police-interview-kalman-tal-death/106704580",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A sketch of a man in a court dock with a woman leaning in speaking to him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6efb9c62279162a1baf15574d4836916?impolicy=wcms_crop_resize&cropH=3750&cropW=3750&xPos=554&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/6efb9c62279162a1baf15574d4836916?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/6efb9c62279162a1baf15574d4836916?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6efb9c62279162a1baf15574d4836916?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A sketch of a man in a court dock with a woman leaning in speaking to him",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Christopher Testa",
-            "title": "By Christopher Testa",
-            "link": "https://www.abc.net.au/news/christopher-testa/11550638",
-            "avatar": {
-              "alt": "A profile image of a young man with brown eyes and dark hair.",
-              "fallbackLetter": "C",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/49d9791e9017e2210cc5f9bc4b98e9da?impolicy=wcms_crop_resize&cropH=672&cropW=672&xPos=418&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Far North",
-            "link": "https://www.abc.net.au/farnorth/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 5,
-        "hasLoadPriority": false
       }
     ]
   }
