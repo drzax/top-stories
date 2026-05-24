@@ -9,6 +9,85 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106716826",
+        "targetId": "106696074",
+        "contentUri": "coremedia://teaser/106716826",
+        "label": null,
+        "title": "Top spy boss first witness as antisemitism royal commission resumes",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The head of Australia's spy agency will be the first witness when the royal commission on antisemitism resumes this week."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-24T19:30:59+00:00",
+          "lastUpdated": "2026-05-24T19:30:59+00:00"
+        },
+        "link": "/news/2026-05-25/bondi-royal-commission-starts-second-block-on-terror-attack/106696074",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Director-General of the Australian Security Intelligence Organisation (ASIO) Mike Burgess",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed1123c8e60632d813a899305793bdf5?impolicy=wcms_crop_resize&cropH=3040&cropW=3040&xPos=902&yPos=291&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ed1123c8e60632d813a899305793bdf5?impolicy=wcms_crop_resize&cropH=2799&cropW=4976&xPos=0&yPos=293&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ed1123c8e60632d813a899305793bdf5?impolicy=wcms_crop_resize&cropH=3040&cropW=4560&xPos=305&yPos=293&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed1123c8e60632d813a899305793bdf5?impolicy=wcms_crop_resize&cropH=3040&cropW=4560&xPos=305&yPos=293&width=862&height=575",
+            "altText": "Director-General of the Australian Security Intelligence Organisation (ASIO) Mike Burgess",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Phoebe Pin",
+            "title": "By Phoebe Pin",
+            "link": "https://www.abc.net.au/news/phoebe-pin/14048812",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Royal Commissions",
+            "link": "/news/topic/royal-commissions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "106711360",
         "contentUri": "coremedia://article/106711360",
@@ -515,7 +594,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106715410",
@@ -629,19 +720,7 @@
         ],
         "readTime": 11,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106714464",
