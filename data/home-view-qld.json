@@ -118,13 +118,30 @@
         "hasLoadPriority": false
       },
       {
-        "type": "generic",
-        "id": "106730454",
-        "contentUri": "coremedia://article/106730454",
+        "type": "medium",
+        "id": "106731772",
+        "contentUri": "coremedia://teaser/106731772",
         "label": null,
         "link": "/news/2026-05-28/childers-murder-assault-charges/106730454",
         "title": "Man charged with murder after several people attacked in regional Queensland",
-        "content": {
+        "image": {
+          "altText": "A police car parked on a road lined with trees. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20a62a28343b6a4a1a59f6bfe863dccf?impolicy=wcms_crop_resize&cropH=1500&cropW=2000&xPos=0&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -144,23 +161,6 @@
             ]
           }
         },
-        "image": {
-          "altText": "A police car parked on a road lined with trees. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20a62a28343b6a4a1a59f6bfe863dccf?impolicy=wcms_crop_resize&cropH=1500&cropW=2000&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Crime",
-            "link": "/news/topic/crime",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -201,6 +201,52 @@
           {
             "title": "Public Transport",
             "link": "/news/topic/public-transport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106728954",
+        "contentUri": "coremedia://article/106728954",
+        "label": null,
+        "link": "/news/2026-05-28/freshwater-development-triggers-calls-for-protections-of-trees/106728954",
+        "title": "Calls for a higher bar for developers to protect significant Cairns shade trees",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "After several failed court challenges, a council has angered a community with its approval to remove a significant tree to make way for a duplex development, but experts say local governments need to start paying more attention to resident's concerns."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Celebrity gardener Costa Georgadis in his signature colourful overalls stands with residents beneath the giant raintree.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/322f5ca5cf5f2cd32f0c2653370075d0?impolicy=wcms_crop_resize&cropH=1575&cropW=2100&xPos=131&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -492,7 +538,19 @@
         "theme": "sand",
         "readTime": 6,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106723794",
@@ -584,19 +642,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106728244",
