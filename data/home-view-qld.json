@@ -93,6 +93,52 @@
         "hasLoadPriority": false
       },
       {
+        "type": "medium",
+        "id": "106742176",
+        "contentUri": "coremedia://teaser/106742176",
+        "label": null,
+        "link": "/news/2026-05-31/kate-ceberano-swaps-singing-for-art-quilting-embroidery/106723202",
+        "title": "Kate Ceberano swaps singing for embroidery",
+        "image": {
+          "altText": "Lady wearing bright coloured kimono",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d478f9a3567eaea31c332636decc9691?impolicy=wcms_crop_resize&cropH=1061&cropW=1415&xPos=0&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Craft",
+            "link": "/news/topic/craft",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Australian rock icon is sharing her other passion: embroidery and quilting."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "106742010",
         "contentUri": "coremedia://article/106742010",
@@ -302,7 +348,19 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106740612",
@@ -514,96 +572,6 @@
         ],
         "readTime": 7,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
-      {
-        "type": "rich",
-        "id": "106740852",
-        "targetId": "106721880",
-        "contentUri": "coremedia://teaser/106740852",
-        "label": null,
-        "title": "Mount Isa mum calls for more support after birth of premature twins",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Mount Isa mother Kristen Curd spent four months in Townsville after giving birth to premature twin boys, and says the hardest part began when they finally came home."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-05-29T21:00:00+00:00",
-          "lastUpdated": "2026-05-29T21:00:00+00:00"
-        },
-        "link": "/news/2026-05-30/mount-isa-regional-mum-premature-twins/106721880",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A mother holding her twin boys, standing infront of a Royal Flying Doctor Service aeroplane. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=2816&xPos=1181&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2808&cropW=4991&xPos=9&yPos=8&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=477&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=477&yPos=0&width=862&height=575",
-            "altText": "A mother holding her twin boys, standing infront of a Royal Flying Doctor Service aeroplane. ",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Kavina Kumar",
-            "title": "By Kavina Kumar",
-            "link": "https://www.abc.net.au/news/kavina-kumar/106442012",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC North West Qld",
-            "link": "https://www.abc.net.au/northwest/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -696,6 +664,84 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106740852",
+        "targetId": "106721880",
+        "contentUri": "coremedia://teaser/106740852",
+        "label": null,
+        "title": "Mount Isa mum calls for more support after birth of premature twins",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Mount Isa mother Kristen Curd spent four months in Townsville after giving birth to premature twin boys, and says the hardest part began when they finally came home."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-05-29T21:00:00+00:00",
+          "lastUpdated": "2026-05-29T21:00:00+00:00"
+        },
+        "link": "/news/2026-05-30/mount-isa-regional-mum-premature-twins/106721880",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A mother holding her twin boys, standing infront of a Royal Flying Doctor Service aeroplane. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=2816&xPos=1181&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2808&cropW=4991&xPos=9&yPos=8&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=477&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e69da10488ee7f87e18bd42def1a7a4?impolicy=wcms_crop_resize&cropH=2816&cropW=4224&xPos=477&yPos=0&width=862&height=575",
+            "altText": "A mother holding her twin boys, standing infront of a Royal Flying Doctor Service aeroplane. ",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Kavina Kumar",
+            "title": "By Kavina Kumar",
+            "link": "https://www.abc.net.au/news/kavina-kumar/106442012",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC North West Qld",
+            "link": "https://www.abc.net.au/northwest/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
