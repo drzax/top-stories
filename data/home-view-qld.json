@@ -10,6 +10,52 @@
     "items": [
       {
         "type": "generic",
+        "id": "106744372",
+        "contentUri": "coremedia://article/106744372",
+        "label": null,
+        "link": "/news/2026-06-01/clontarf-beaumont-fire-wardle/106744372",
+        "title": "House fire allegedly started by half-brother of murdered teen Angus Beaumont",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A fire that destroyed a Redcliffe home and damaged two other was allegedly started by the half-brother of murdered teenager Angus Beaumont."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A shirtless man with a beard takes a selfie ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a8310d850f494fff1e4edd376bec6137?impolicy=wcms_crop_resize&cropH=949&cropW=1265&xPos=12&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106736746",
         "contentUri": "coremedia://article/106736746",
         "label": null,
@@ -46,52 +92,6 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106743606",
-        "contentUri": "coremedia://article/106743606",
-        "label": null,
-        "link": "/news/2026-06-01/brisbane-olympics-victoria-park-protest-2032-crisafulli/106743606",
-        "title": "Olympic stadium work underway as premier warns off protesters",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The last protesters were removed from Victoria Park in the early hours of Monday morning."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "police at the entrance of Victoria Park",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4104885b189bedd9fd06204b29b1f77a?impolicy=wcms_crop_resize&cropH=1126&cropW=1501&xPos=249&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Olympic Games",
-            "link": "/news/topic/olympic-games",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -186,6 +186,52 @@
       },
       {
         "type": "generic",
+        "id": "106743606",
+        "contentUri": "coremedia://article/106743606",
+        "label": null,
+        "link": "/news/2026-06-01/brisbane-olympics-victoria-park-protest-2032-crisafulli/106743606",
+        "title": "Olympic stadium work underway as premier warns off protesters",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The last protesters were removed from Victoria Park in the early hours of Monday morning."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "police at the entrance of Victoria Park",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4104885b189bedd9fd06204b29b1f77a?impolicy=wcms_crop_resize&cropH=1126&cropW=1501&xPos=249&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Olympic Games",
+            "link": "/news/topic/olympic-games",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106743680",
         "contentUri": "coremedia://article/106743680",
         "label": null,
@@ -229,13 +275,25 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
-        "type": "generic",
-        "id": "106587290",
-        "contentUri": "coremedia://article/106587290",
+        "type": "rich",
+        "id": "106744936",
+        "targetId": "106587290",
+        "contentUri": "coremedia://teaser/106744936",
         "label": null,
-        "link": "/news/2026-05-31/qld-morning-in-cleveland-magistrates-court/106587290",
         "title": "In a dark courtroom, a video of horrific accidents plays as a woman cries",
         "content": {
           "descriptor": {
@@ -257,17 +315,101 @@
             ]
           }
         },
+        "dates": {
+          "firstPublished": "2026-05-30T21:19:41+00:00",
+          "lastUpdated": "2026-05-30T21:19:41+00:00"
+        },
+        "link": "/news/2026-05-31/qld-morning-in-cleveland-magistrates-court/106587290",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "court sketch showing man in blue polo in front of a magistrate",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1cbccf53d1b2101eab96a7fd303b972?impolicy=wcms_crop_resize&cropH=2160&cropW=2160&xPos=840&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/c1cbccf53d1b2101eab96a7fd303b972?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/c1cbccf53d1b2101eab96a7fd303b972?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1cbccf53d1b2101eab96a7fd303b972?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575",
+            "altText": "court sketch showing man in blue polo in front of a magistrate",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Lottie Twyford",
+            "title": "By Lottie Twyford",
+            "link": "https://www.abc.net.au/news/lottie-twyford/102670316",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "L",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3fe79fc01739cccdb8f212701ad68b8a?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 7,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106712340",
+        "contentUri": "coremedia://article/106712340",
+        "label": null,
+        "link": "/news/rural/2026-06-01/richmond-shire-council-sorghum-crop-rates-outback-queensland/106712340",
+        "title": "Outback council hopes sorghum crop will reduce pressure on ratepayers",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An outback Queensland council grows sorghum in a bid to create new income streams, reduce pressure on ratepayers, and support jobs in the region. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "court sketch showing man in blue polo in front of a magistrate",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c1cbccf53d1b2101eab96a7fd303b972?impolicy=wcms_crop_resize&cropH=2160&cropW=2880&xPos=480&yPos=0&width=160&height=120",
+          "altText": "Close up of yellow grain in hands.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64510bed612bc7606b8498f7064e2115?impolicy=wcms_crop_resize&cropH=2832&cropW=3776&xPos=232&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Courts",
-            "link": "/news/topic/courts",
+            "title": "Local Government",
+            "link": "/news/topic/local-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -275,19 +417,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106737542",
+        "contentUri": "coremedia://article/106737542",
+        "label": null,
+        "link": "/news/2026-05-31/mercury-health-effects-explained-as-queensland-town-contaminated/106737542",
+        "title": "Why 'irresponsible' dumping of mercury caused evacuations in outback town",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An outback town's hospital, service station and school were affected when students discovered vials of mercury at the tip. Experts have explained why specialists have spent days doing testing in Cunnamulla."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "two people in protective suits walk along a footpath holding a bucket and neck of an atmospheric tester",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4f455cf5996478f5f57dc45c719d8fd4?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=0&yPos=209&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Chemical Spills",
+            "link": "/news/topic/chemical-spills",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "106742008",
@@ -406,98 +582,6 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106737542",
-        "contentUri": "coremedia://article/106737542",
-        "label": null,
-        "link": "/news/2026-05-31/mercury-health-effects-explained-as-queensland-town-contaminated/106737542",
-        "title": "Why 'irresponsible' dumping of mercury caused evacuations in outback town",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "An outback town's hospital, service station and school were affected when students discovered vials of mercury at the tip. Experts have explained why specialists have spent days doing testing in Cunnamulla."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "two people in protective suits walk along a footpath holding a bucket and neck of an atmospheric tester",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4f455cf5996478f5f57dc45c719d8fd4?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=0&yPos=209&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Chemical Spills",
-            "link": "/news/topic/chemical-spills",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106742010",
-        "contentUri": "coremedia://article/106742010",
-        "label": null,
-        "link": "/news/2026-05-31/man-charged-arson-domestic-violence-offence-fire-clontarf/106742010",
-        "title": "Attempted murder, arson charges laid after house destroyed north of Brisbane",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Police will allege a 36-year-old man used accelerant to start a fire at a house in Clontarf yesterday."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Flames engulf a home.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8d0cc3d4a552c93dca60c23b51adfe9?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "House Fires",
-            "link": "/news/topic/house-fires",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
