@@ -10,6 +10,85 @@
     "items": [
       {
         "type": "rich",
+        "id": "106748156",
+        "targetId": "106747136",
+        "contentUri": "coremedia://teaser/106748156",
+        "label": null,
+        "title": "Antibiotic used by salmon farm detected 14 kilometres from treatment site",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Tasmania's Natural Resources and Environment Department has confirmed the antibiotic florfenicol was detected at a 'low level' in wild seafood 14 kilometres from where the drug was administered."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-01T19:23:51+00:00",
+          "lastUpdated": "2026-06-01T19:23:51+00:00"
+        },
+        "link": "/news/2026-06-02/florfenicol-detection-14-km-from-salmon-farm-site/106747136",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Tassal salmon pens in Macquarie Harbour, southwest Tasmania.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6412d50611f3fc7187861440b3f626ea?impolicy=wcms_crop_resize&cropH=555&cropW=555&xPos=112&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/6412d50611f3fc7187861440b3f626ea?impolicy=wcms_crop_resize&cropH=394&cropW=700&xPos=40&yPos=112&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/6412d50611f3fc7187861440b3f626ea?impolicy=wcms_crop_resize&cropH=467&cropW=700&xPos=40&yPos=88&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6412d50611f3fc7187861440b3f626ea?impolicy=wcms_crop_resize&cropH=467&cropW=700&xPos=40&yPos=88&width=862&height=575",
+            "altText": "Tassal salmon pens in Macquarie Harbour, southwest Tasmania.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "Fishing and Aquaculture Industry",
+            "link": "/news/topic/fishing-and-aquaculture-industry",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          },
+          {
+            "title": "Trade",
+            "link": "/news/topic/trade",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "rich",
         "id": "106744502",
         "targetId": "106742112",
         "contentUri": "coremedia://teaser/106744502",
@@ -172,6 +251,52 @@
           {
             "title": "Greyhound Racing",
             "link": "/news/topic/greyhound-racing",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106745136",
+        "contentUri": "coremedia://article/106745136",
+        "label": null,
+        "link": "/news/2026-06-02/little-dog-island-cat-eradication/106745136",
+        "title": "Penguins return after feral cats culled from Little Dog Island",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Penguins have been sighted on a remote Bass Strait island for the first time in decades after the successful eradication of feral cats and possums."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Short tailed shearwaters Little Dog Island - Sue Robinson",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/627813c519157111c3b9a0928bd7f2d6?impolicy=wcms_crop_resize&cropH=1249&cropW=1666&xPos=367&yPos=191&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Environmental Management",
+            "link": "/news/topic/environmental-management",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -348,7 +473,19 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5512674",
+    "uri": "coremedia://collection/5512674",
+    "title": "Tas Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106742110",
@@ -432,19 +569,7 @@
         "tags": [],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5512674",
-    "uri": "coremedia://collection/5512674",
-    "title": "Tas Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106746280",
