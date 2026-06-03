@@ -88,6 +88,52 @@
       },
       {
         "type": "generic",
+        "id": "106728336",
+        "contentUri": "coremedia://article/106728336",
+        "label": null,
+        "link": "/news/2026-06-03/townsville-council-to-repair-repair-causeway-at-creek-drownings/106728336",
+        "title": "Council waiting for dry weather to fix creek causeway after drownings",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Two people drowned days after several near-drownings at Kaluna Creek, north of Townsville, but the delays in fixing the deadly creek causeway means the danger will likely remain until later this year."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Warning sign saying danger, cross across swimming among bush lit by sunlight. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/99b0b765c095f3c1e90f847ae188b8b8?impolicy=wcms_crop_resize&cropH=3944&cropW=5259&xPos=875&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Drownings",
+            "link": "/news/topic/drownings",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106752868",
         "contentUri": "coremedia://article/106752868",
         "label": null,
@@ -225,11 +271,11 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106733562",
-        "contentUri": "coremedia://article/106733562",
+        "type": "rich",
+        "id": "106754976",
+        "targetId": "106733562",
+        "contentUri": "coremedia://teaser/106754976",
         "label": null,
-        "link": "/news/2026-06-03/queensland-crackdown-cuts-illicit-tobacco-shops/106733562",
         "title": "Black market adapts after Qld's illicit tobacco and vape shop crackdown",
         "content": {
           "descriptor": {
@@ -251,25 +297,69 @@
             ]
           }
         },
-        "image": {
-          "altText": "Close of a person lighting a cigarette",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/422f8ba6a26bcd618e1b04ca9bc2eb90?impolicy=wcms_crop_resize&cropH=514&cropW=685&xPos=107&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-06-02T22:32:38+00:00",
+          "lastUpdated": "2026-06-02T22:32:38+00:00"
         },
-        "tags": [
+        "link": "/news/2026-06-03/queensland-crackdown-cuts-illicit-tobacco-shops/106733562",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
           {
-            "title": "Illicit Goods",
-            "link": "/news/topic/illicit-goods",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
+            "altText": "Close of a person lighting a cigarette",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/422f8ba6a26bcd618e1b04ca9bc2eb90?impolicy=wcms_crop_resize&cropH=514&cropW=514&xPos=193&yPos=0&width=862&height=862"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
-      },
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/422f8ba6a26bcd618e1b04ca9bc2eb90?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=4&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/422f8ba6a26bcd618e1b04ca9bc2eb90?impolicy=wcms_crop_resize&cropH=514&cropW=771&xPos=64&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/422f8ba6a26bcd618e1b04ca9bc2eb90?impolicy=wcms_crop_resize&cropH=514&cropW=771&xPos=64&yPos=0&width=862&height=575",
+            "altText": "Close of a person lighting a cigarette",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Dominic Cansdale",
+            "title": "By Dominic Cansdale",
+            "link": "https://www.abc.net.au/news/dominic-cansdale/7567508",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Gold Coast",
+            "link": "https://www.abc.net.au/goldcoast/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4,
+        "hasLoadPriority": false
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106751718",
@@ -347,19 +437,7 @@
         ],
         "readTime": 2,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106751460",
