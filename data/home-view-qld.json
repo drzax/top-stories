@@ -97,7 +97,7 @@
         "contentUri": "coremedia://teaser/106765452",
         "label": null,
         "link": "/news/2026-06-05/flu-numbers-down-ahead-of-winter-season/106764148",
-        "title": "Recorded flu numbers drop drastically but expert warns caution",
+        "title": "Flu numbers are down for now — this could be why",
         "image": {
           "altText": "Microscope image of a round red-coloured virus against a blue background.",
           "imgSrc": "https://live-production.wcms.abc-cdn.net.au/009856e1fe6d85f5c9bd23bc70be0609?impolicy=wcms_crop_resize&cropH=746&cropW=995&xPos=0&yPos=6&width=862&height=647",
@@ -135,6 +135,52 @@
             ]
           }
         },
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106765200",
+        "contentUri": "coremedia://article/106765200",
+        "label": null,
+        "link": "/news/2026-06-05/qld-sharon-graham-appeals-woodchipper-murder-conviction/106765200",
+        "title": "Woman appeals conviction for arranging ex-boyfriend's woodchipper murder",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Sharon Graham was found guilty in 2023 of masterminding 54-year-old Bruce Sauders' murder, in an elaborate plan to get almost $1 million worth of his life insurance, superannuation and assets."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Smiling photo of Sharon Graham.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63547d1efbd3eeec8feaaadaa7c9b44c?impolicy=wcms_crop_resize&cropH=390&cropW=520&xPos=142&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -276,11 +322,11 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106651956",
-        "contentUri": "coremedia://article/106651956",
+        "type": "rich",
+        "id": "106766170",
+        "targetId": "106651956",
+        "contentUri": "coremedia://teaser/106766170",
         "label": null,
-        "link": "/news/2026-06-05/frustration-indian-myna-bird-driving-grassroots-action/106651956",
         "title": "Wildlife carer puts $5 bounty on Indian mynas, the 'cane toads of the sky'",
         "content": {
           "descriptor": {
@@ -302,25 +348,69 @@
             ]
           }
         },
-        "image": {
-          "altText": "An Indian myna bird aggressively flying behind a red rumped grass parrot",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e0e27b07b9f3fc397bda1e58724433c?impolicy=wcms_crop_resize&cropH=1673&cropW=2230&xPos=0&yPos=41&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-06-04T19:59:03+00:00",
+          "lastUpdated": "2026-06-05T04:50:53+00:00"
         },
+        "link": "/news/2026-06-05/frustration-indian-myna-bird-driving-grassroots-action/106651956",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "An Indian myna bird aggressively flying behind a red rumped grass parrot",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e0e27b07b9f3fc397bda1e58724433c?impolicy=wcms_crop_resize&cropH=1801&cropW=1801&xPos=98&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/9e0e27b07b9f3fc397bda1e58724433c?impolicy=wcms_crop_resize&cropH=1254&cropW=2230&xPos=0&yPos=378&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/9e0e27b07b9f3fc397bda1e58724433c?impolicy=wcms_crop_resize&cropH=1487&cropW=2230&xPos=0&yPos=243&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9e0e27b07b9f3fc397bda1e58724433c?impolicy=wcms_crop_resize&cropH=1487&cropW=2230&xPos=0&yPos=243&width=862&height=575",
+            "altText": "An Indian myna bird aggressively flying behind a red rumped grass parrot",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
+          {
+            "title": "ABC Western Qld",
+            "link": "https://www.abc.net.au/westqld/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
           {
             "title": "Invasive Species",
             "link": "/news/topic/invasive-species",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
-      },
+        "readTime": 5,
+        "hasLoadPriority": false
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106760394",
@@ -429,19 +519,7 @@
         ],
         "readTime": 2,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106759228",
