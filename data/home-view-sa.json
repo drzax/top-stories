@@ -209,6 +209,52 @@
       },
       {
         "type": "generic",
+        "id": "106100622",
+        "contentUri": "coremedia://article/106100622",
+        "label": null,
+        "link": "/news/2026-06-06/modest-activewear-yasmin-jammoul-empower-women/106100622",
+        "title": "Mother creates modest activewear to empower herself and others",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Yasmin Jammoul was sick of wearing oversized men's T-shirts to the gym when she started exercising postpartum, so she created her own clothing line."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman with a dark green hijab and black outfit sitting on a chair smiling.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/76071be6b12a2dd0afef7cb814f30a04?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Fashion",
+            "link": "/news/topic/fashion",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106762594",
         "contentUri": "coremedia://article/106762594",
         "label": null,
@@ -245,52 +291,6 @@
           {
             "title": "Company News",
             "link": "/news/topic/company-news",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106760808",
-        "contentUri": "coremedia://article/106760808",
-        "label": null,
-        "link": "/news/2026-06-05/sa-public-servant-claims-threat-of-4m-golf-course-damages-bill/106760808",
-        "title": "Public servant claims threat of $4m damages bill in golf course fight",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A South Australian public servant taking the state government to court over a controversial redevelopment in the Adelaide Parklands says he will continue to fight the case despite it potentially leading to him losing his house or becoming bankrupt."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man wearing a green shirt standing in front of a line of trees and a dirt path while holding folders",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6052573b473d10f05619d1df28780406?impolicy=wcms_crop_resize&cropH=2752&cropW=3670&xPos=174&yPos=310&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Golf",
-            "link": "/news/topic/golf",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -376,6 +376,52 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106760808",
+        "contentUri": "coremedia://article/106760808",
+        "label": null,
+        "link": "/news/2026-06-05/sa-public-servant-claims-threat-of-4m-golf-course-damages-bill/106760808",
+        "title": "Public servant claims threat of $4m damages bill in golf course fight",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A South Australian public servant taking the state government to court over a controversial redevelopment in the Adelaide Parklands says he will continue to fight the case despite it potentially leading to him losing his house or becoming bankrupt."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man wearing a green shirt standing in front of a line of trees and a dirt path while holding folders",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6052573b473d10f05619d1df28780406?impolicy=wcms_crop_resize&cropH=2752&cropW=3670&xPos=174&yPos=310&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Golf",
+            "link": "/news/topic/golf",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -514,7 +560,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106755362",
@@ -560,19 +618,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106757642",
@@ -712,6 +758,84 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "106767552",
+        "targetId": "106753288",
+        "contentUri": "coremedia://teaser/106767552",
+        "label": null,
+        "title": "'Too dangerous to push ahead': Aussie diver leaves Laos cave rescue",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australian diver Josh Richards has left Laos, after several days spent trying to rescue miners missing in a cave."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-03T05:34:46+00:00",
+          "lastUpdated": "2026-06-03T06:59:49+00:00"
+        },
+        "link": "/news/2026-06-03/aussie-diver-josh-richards-leaves-laos-cave-rescue/106753288",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A man with a beard and cap in a jungle camp",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/741a23fbb7af5ac3db23d53ac04dd14d?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/741a23fbb7af5ac3db23d53ac04dd14d?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/741a23fbb7af5ac3db23d53ac04dd14d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/741a23fbb7af5ac3db23d53ac04dd14d?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "A man with a beard and cap in a jungle camp",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Josh Brine",
+            "title": "By Josh Brine",
+            "link": "https://www.abc.net.au/news/josh-brine/102478468",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC South East SA",
+            "link": "https://www.abc.net.au/southeastsa/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "106746992",
         "contentUri": "coremedia://article/106746992",
@@ -795,52 +919,6 @@
           {
             "title": "Agricultural Crops",
             "link": "/news/topic/agricultural-crops",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106753288",
-        "contentUri": "coremedia://article/106753288",
-        "label": null,
-        "link": "/news/2026-06-03/aussie-diver-josh-richards-leaves-laos-cave-rescue/106753288",
-        "title": "'Too dangerous to push ahead': Aussie diver leaves Laos cave rescue",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Josh Richards is on his way back to Australia, after multiple days helping rescue miners trapped in a Laos cave."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man with a beard and cap in a jungle camp",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/741a23fbb7af5ac3db23d53ac04dd14d?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Marine Incidents",
-            "link": "/news/topic/marine-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
