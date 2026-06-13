@@ -12,9 +12,7 @@
         "type": "generic",
         "id": "106794530",
         "contentUri": "coremedia://article/106794530",
-        "label": {
-          "variant": "breaking"
-        },
+        "label": null,
         "link": "/news/2026-06-13/nsw-man-dead-missing-child-found-in-concord-waters/106794530",
         "title": "Body of girl recovered from Sydney bay where father was found dead",
         "content": {
@@ -158,7 +156,7 @@
           "status": "live"
         },
         "link": "/news/2026-06-13/nrl-live-updates-warriors-sharks-eels-raiders/106794716",
-        "title": "Warriors return home after 56 days on the road ",
+        "title": "Eels and Raiders fight it out in desperate battle ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -172,7 +170,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Warriors will play their first home game in almost two months when they host Cronulla on Saturday evening in the first NRL match of the day. Follow live."
+                    "content": "Both Parramatta and Canberra will be trying to stay in touch with the top eight when they meet on Saturday night. Follow live."
                   }
                 ]
               }
@@ -180,8 +178,8 @@
           }
         },
         "image": {
-          "altText": "A group of Warriors players celebrate a try during an NRL match ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c857b5d17643e65f0dc63eb51abea409?impolicy=wcms_crop_resize&cropH=1211&cropW=1614&xPos=101&yPos=0&width=160&height=120",
+          "altText": "A man scores a try in an NRL match",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/893335ff9e1e140b8bb9f56f6253dc5e?impolicy=wcms_crop_resize&cropH=2093&cropW=2791&xPos=209&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -538,11 +536,11 @@
     "moduleLabel": "More News",
     "items": [
       {
-        "type": "generic",
-        "id": "106794380",
-        "contentUri": "coremedia://article/106794380",
+        "type": "rich",
+        "id": "106794928",
+        "targetId": "106794380",
+        "contentUri": "coremedia://teaser/106794928",
         "label": null,
-        "link": "/news/2026-06-13/state-of-origin-ii-casey-mclean-ruled-out-with-injury/106794380",
         "title": "Blues cop Origin blow as young gun suffers fresh injury at training",
         "content": {
           "descriptor": {
@@ -564,13 +562,39 @@
             ]
           }
         },
-        "image": {
-          "altText": "Casey McLean poses for a photo in his New South Wales Origin jersey",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c8d1278235099975caa16c491873a7d?impolicy=wcms_crop_resize&cropH=3335&cropW=4447&xPos=340&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-06-13T01:37:19+00:00",
+          "lastUpdated": "2026-06-13T06:14:24+00:00"
         },
+        "link": "/news/2026-06-13/state-of-origin-ii-casey-mclean-ruled-out-with-injury/106794380",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Casey McLean poses for a photo in his New South Wales Origin jersey",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c8d1278235099975caa16c491873a7d?impolicy=wcms_crop_resize&cropH=3335&cropW=3335&xPos=896&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/4c8d1278235099975caa16c491873a7d?impolicy=wcms_crop_resize&cropH=2812&cropW=5000&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/4c8d1278235099975caa16c491873a7d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c8d1278235099975caa16c491873a7d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Casey McLean poses for a photo in his New South Wales Origin jersey",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "State of Origin",
@@ -578,10 +602,17 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Sport",
+            "link": "/news/topic/sport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
