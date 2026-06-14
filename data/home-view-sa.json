@@ -89,6 +89,102 @@
       },
       {
         "type": "generic",
+        "id": "106796000",
+        "contentUri": "coremedia://article/106796000",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-06-14/world-cup-live-updates-australia-vs-turkiye-socceroos/106796000",
+        "title": "Socceroos selection shock as stars miss World Cup opener against Türkiye",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Socceroos begin their 2026 World Cup journey in Vancouver with their opening Group D match against a talented Türkiye. Follow live."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Australian fans with AUS painted on their stomachs outside a stadium",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d53dd861e3936f8814bd678d876a5bbc?impolicy=wcms_crop_resize&cropH=3049&cropW=4065&xPos=462&yPos=284&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "FIFA World Cup",
+            "link": "/news/topic/fifa-world-cup",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106789868",
+        "contentUri": "coremedia://article/106789868",
+        "label": null,
+        "link": "/news/2026-06-13/brothers-cheer-on-socceroos-rising-stars-in-world-cup/106789868",
+        "title": "'A footballer's dream': From humble beginnings to the world stage",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Touré brothers snuck into their local football field after hours to play the game they loved, while the Yengi brothers kicked around makeshift balls made of plastic bags. Two of them have now made it onto the world stage as Socceroos."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "composite of a Mo Toure as a young boy in a soccer field and him as an adult in a Socceroos guernsey",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17b8f8ccb6c719cebb130974ebbd1b37?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Soccer",
+            "link": "/news/topic/soccer",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106794520",
         "contentUri": "coremedia://article/106794520",
         "label": null,
@@ -171,52 +267,6 @@
           {
             "title": "AFL",
             "link": "/news/topic/afl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106780590",
-        "contentUri": "coremedia://article/106780590",
-        "label": null,
-        "link": "/news/2026-06-14/why-teens-say-social-media-ban-isnt-working-for-under-16s/106780590",
-        "title": "Why young people say the social media ban is not working six months on",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Research suggests many under-16s are still active on social media platforms. BTN High explores why and tests the accuracy of popular technology used to estimate age."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A teenage boy holds up a mobile phone with the number 16 on it. Logos for Facebook, X and other platforms swirl near his face.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96f8891fe58def33cf481eab2ee8c835?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=191&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Social Media",
-            "link": "/news/topic/social-media",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -316,7 +366,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106791500",
@@ -362,26 +424,14 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
-        "id": "106789868",
-        "contentUri": "coremedia://article/106789868",
+        "id": "106780590",
+        "contentUri": "coremedia://article/106780590",
         "label": null,
-        "link": "/news/2026-06-13/brothers-cheer-on-socceroos-rising-stars-in-world-cup/106789868",
-        "title": "'A footballer's dream': From humble beginnings to the world stage",
+        "link": "/news/2026-06-14/why-teens-say-social-media-ban-isnt-working-for-under-16s/106780590",
+        "title": "Why young people say the social media ban is not working six months on",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -395,7 +445,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Touré brothers snuck into their local football field after hours to play the game they loved, while the Yengi brothers kicked around makeshift balls made of plastic bags. Two of them have now made it onto the world stage as Socceroos."
+                    "content": "Research suggests many under-16s are still active on social media platforms. BTN High explores why and tests the accuracy of popular technology used to estimate age."
                   }
                 ]
               }
@@ -403,16 +453,16 @@
           }
         },
         "image": {
-          "altText": "composite of a Mo Toure as a young boy in a soccer field and him as an adult in a Socceroos guernsey",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17b8f8ccb6c719cebb130974ebbd1b37?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
+          "altText": "A teenage boy holds up a mobile phone with the number 16 on it. Logos for Facebook, X and other platforms swirl near his face.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96f8891fe58def33cf481eab2ee8c835?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=191&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Soccer",
-            "link": "/news/topic/soccer",
+            "title": "Social Media",
+            "link": "/news/topic/social-media",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -606,52 +656,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106780434",
-        "contentUri": "coremedia://article/106780434",
-        "label": null,
-        "link": "/news/2026-06-13/sambar-deer-spotted-riverland-south-australia/106780434",
-        "title": "Feral sambar deer likely brought to SA for hunting purposes",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "One of Australia's largest feral deer species was spotted in SA's Riverland for the first time earlier this month. While its existence is being investigated, the Invasive Species Council says it was likely transported across state lines for hunting purposes. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Fallow deer seen through a rifle scope.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f8980dcbf22f791097fb053137a1b90?impolicy=wcms_crop_resize&cropH=687&cropW=918&xPos=0&yPos=44&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Pests",
-            "link": "/news/topic/pests",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106789260",
         "targetId": "106779430",
@@ -765,6 +769,52 @@
         "theme": "lilac",
         "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106780434",
+        "contentUri": "coremedia://article/106780434",
+        "label": null,
+        "link": "/news/2026-06-13/sambar-deer-spotted-riverland-south-australia/106780434",
+        "title": "Feral sambar deer likely brought to SA for hunting purposes",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "One of Australia's largest feral deer species was spotted in SA's Riverland for the first time earlier this month. While its existence is being investigated, the Invasive Species Council says it was likely transported across state lines for hunting purposes. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Fallow deer seen through a rifle scope.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f8980dcbf22f791097fb053137a1b90?impolicy=wcms_crop_resize&cropH=687&cropW=918&xPos=0&yPos=44&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Pests",
+            "link": "/news/topic/pests",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -932,8 +982,8 @@
           }
         },
         "image": {
-          "altText": "Socceroos1",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0216d5c6f57df4b9acec3a626b243d93?impolicy=wcms_crop_resize&cropH=720&cropW=960&xPos=129&yPos=0&width=160&height=120",
+          "altText": "Socceroos1 (1)",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/edf0350a2ae367110be98317279ce505?impolicy=wcms_crop_resize&cropH=720&cropW=960&xPos=160&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -949,201 +999,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "live",
-        "id": "106795568",
-        "targetId": "106794480",
-        "images": [
-          {
-            "altText": "Vinicius Junior holds the Brazilian emblem on his jersey and yells in celebration",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f57fbd0c79253ec02e978b190fa10bf4?impolicy=wcms_crop_resize&cropH=2854&cropW=4281&xPos=1&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          },
-          {
-            "altText": "Brazil fans",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d47801b2f94bca14573519dcb7b98a4f?impolicy=wcms_crop_resize&cropH=2806&cropW=4209&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          },
-          {
-            "altText": "",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/336816390ee1518aa9a73e422d83d408?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          }
-        ],
-        "label": {
-          "variant": "live",
-          "status": "live"
-        },
-        "link": "/news/2026-06-14/world-cup-live-qatar-switzerland-brazil-morocco-haiti-scotland/106794480",
-        "related": {
-          "title": null,
-          "articles": [
-            {
-              "id": "106794650",
-              "contentUri": "coremedia://article/106794650",
-              "theme": "sand",
-              "label": null,
-              "link": "/news/2026-06-14/socceroos-vs-turkiye-how-to-watch-australia-fifa-world-cup/106794650",
-              "title": "When and how to watch the Socceroos first World Cup match today",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "The Socceroos will face Türkiye in their first Group D match at the 2026 FIFA World Cup. Here's everything you need to know."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Soccer player poses with a flexted arm, and pointing down the camera",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7120c1c7c599148d799c58f1b08796d7?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=84&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [
-                {
-                  "title": "Explainer",
-                  "type": "genre",
-                  "screenReader": "Topic",
-                  "key": "Tag1"
-                }
-              ],
-              "mediaIndicator": null,
-              "dates": null
-            },
-            {
-              "id": "106758222",
-              "contentUri": "coremedia://article/106758222",
-              "theme": "sand",
-              "label": null,
-              "link": "/news/2026-06-14/pocket-guide-to-the-fifa-world-cup-2026/106758222",
-              "title": "What to know if you're jumping on the Socceroos bandwagon",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "The world's biggest sporting event is back on our screens, and Australia is just hours away from taking the pitch. Here's a quick guide to get you across the basics. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A soccer player holds his hand in the air.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/abda64765275eec68f6ddfb45a538857?impolicy=wcms_crop_resize&cropH=2946&cropW=3928&xPos=130&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [
-                {
-                  "title": "Explainer",
-                  "type": "genre",
-                  "screenReader": "Topic",
-                  "key": "Tag1"
-                }
-              ],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ],
-          "videos": [],
-          "cta": null
-        },
-        "synopsis": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Brazil meets Morocco in a blockbuster clash after Qatar salvaged a late draw against Switzerland in San Francisco, while later Haiti faces Scotland. Follow live."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "tags": [
-          {
-            "title": "FIFA World Cup",
-            "link": "/news/topic/fifa-world-cup",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "Soccer",
-            "link": "/news/topic/soccer",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "title": "Brazil and Morocco share World Cup spoils after trading brilliant goals",
-        "theme": "live",
-        "updates": [
-          {
-            "title": "28' Goal Scotland!",
-            "id": "304457",
-            "link": "https://www.abc.net.au/news/2026-06-14/world-cup-live-qatar-switzerland-brazil-morocco-haiti-scotland/106794480#live-blog-post-304457",
-            "dates": {
-              "firstPublished": "2026-06-14T01:31:52.000Z"
-            }
-          },
-          {
-            "title": "Teams news: Haiti vs Scotand",
-            "id": "304444",
-            "link": "https://www.abc.net.au/news/2026-06-14/world-cup-live-qatar-switzerland-brazil-morocco-haiti-scotland/106794480#live-blog-post-304444",
-            "dates": {
-              "firstPublished": "2026-06-14T00:33:47.000Z"
-            }
-          },
-          {
-            "title": "Ghana government threatens legal action over Partey visa denial",
-            "id": "304443",
-            "link": "https://www.abc.net.au/news/2026-06-14/world-cup-live-qatar-switzerland-brazil-morocco-haiti-scotland/106794480#live-blog-post-304443",
-            "dates": {
-              "firstPublished": "2026-06-14T00:30:16.000Z"
-            }
-          }
-        ],
-        "uri": "coremedia://teaser/106795568"
       },
       {
         "type": "generic",
