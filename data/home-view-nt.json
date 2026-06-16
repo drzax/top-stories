@@ -373,32 +373,41 @@
     "moduleLabel": "More News",
     "items": [
       {
-        "type": "live",
+        "type": "rich",
         "id": "106801480",
         "targetId": "106797716",
-        "images": [
-          {
-            "altText": "Elijah Just celebrates a goal by holding his hands up to his eyes like binoculars ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea3bec51a0e30566d4d1812aacf4a865?impolicy=wcms_crop_resize&cropH=2263&cropW=3395&xPos=0&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          },
-          {
-            "altText": "A protester draped in an Iranian flag holds her fingers up",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/18e8ca35b6f9ab200ed0b0e48fa7701d?impolicy=wcms_crop_resize&cropH=3292&cropW=4938&xPos=31&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
+        "contentUri": "coremedia://teaser/106801480",
+        "label": null,
+        "title": "New Zealand denied maiden win as Iranians protest outside stadium",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Protesters demonstrate outside the stadium as Iran opens its World Cup with a 2-2 draw against New Zealand, ending a day of stalemates."
+                  }
+                ]
+              }
+            ]
           }
-        ],
-        "label": {
-          "variant": "live",
-          "status": "live"
+        },
+        "dates": {
+          "firstPublished": "2026-06-15T15:33:05+00:00",
+          "lastUpdated": "2026-06-16T03:27:18+00:00"
         },
         "link": "/news/2026-06-16/world-cup-live-esp-cab-bel-egy-sau-uru-ira-nzl/106797716",
         "related": {
           "title": null,
+          "videos": [],
+          "audio": [],
           "articles": [
             {
               "id": "106801784",
@@ -474,30 +483,48 @@
               "mediaIndicator": null,
               "dates": null
             }
-          ],
-          "videos": [],
-          "cta": null
+          ]
         },
-        "synopsis": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Protesters gather outside the stadium ahead of Iran's first World Cup match against New Zealand. Follow live."
-                  }
-                ]
-              }
-            ]
+        "gallery": [
+          {
+            "altText": "Elijah Just celebrates a goal by holding his hands up to his eyes like binoculars ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea3bec51a0e30566d4d1812aacf4a865?impolicy=wcms_crop_resize&cropH=2263&cropW=2263&xPos=641&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "A protester draped in an Iranian flag holds her fingers up",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/18e8ca35b6f9ab200ed0b0e48fa7701d?impolicy=wcms_crop_resize&cropH=3292&cropW=3292&xPos=748&yPos=0&width=862&height=862"
           }
-        },
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ea3bec51a0e30566d4d1812aacf4a865?impolicy=wcms_crop_resize&cropH=1910&cropW=3395&xPos=0&yPos=177&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ea3bec51a0e30566d4d1812aacf4a865?impolicy=wcms_crop_resize&cropH=2263&cropW=3395&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ea3bec51a0e30566d4d1812aacf4a865?impolicy=wcms_crop_resize&cropH=2263&cropW=3395&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Elijah Just celebrates a goal by holding his hands up to his eyes like binoculars ",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/18e8ca35b6f9ab200ed0b0e48fa7701d?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=240&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/18e8ca35b6f9ab200ed0b0e48fa7701d?impolicy=wcms_crop_resize&cropH=3292&cropW=4938&xPos=31&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/18e8ca35b6f9ab200ed0b0e48fa7701d?impolicy=wcms_crop_resize&cropH=3292&cropW=4938&xPos=31&yPos=0&width=862&height=575",
+            "altText": "A protester draped in an Iranian flag holds her fingers up",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
           {
             "title": "FIFA World Cup",
@@ -514,35 +541,8 @@
             "key": "Tag2"
           }
         ],
-        "title": "New Zealand scores against Iran amid protests outside stadium",
-        "theme": "live",
-        "updates": [
-          {
-            "title": "63' Another goal for Iran!!",
-            "id": "305682",
-            "link": "https://www.abc.net.au/news/2026-06-16/world-cup-live-esp-cab-bel-egy-sau-uru-ira-nzl/106797716#live-blog-post-305682",
-            "dates": {
-              "firstPublished": "2026-06-16T02:32:16.000Z"
-            }
-          },
-          {
-            "title": "54' Stunning goal for New Zealand!",
-            "id": "305671",
-            "link": "https://www.abc.net.au/news/2026-06-16/world-cup-live-esp-cab-bel-egy-sau-uru-ira-nzl/106797716#live-blog-post-305671",
-            "dates": {
-              "firstPublished": "2026-06-16T02:23:08.000Z"
-            }
-          },
-          {
-            "title": "31' Goal for Iran!!!",
-            "id": "305611",
-            "link": "https://www.abc.net.au/news/2026-06-16/world-cup-live-esp-cab-bel-egy-sau-uru-ira-nzl/106797716#live-blog-post-305611",
-            "dates": {
-              "firstPublished": "2026-06-16T01:37:12.000Z"
-            }
-          }
-        ],
-        "uri": "coremedia://teaser/106801480"
+        "readTime": 1,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -692,7 +692,7 @@
           "status": "live"
         },
         "link": "/news/2026-06-16/federal-politics-live-blog-tim-wilson-criticises-cgt-inquiry/106801734",
-        "title": "Extension of fuel excise cut under 'active consideration', minister says",
+        "title": "PM confirms Treasury will release discussion paper for 'further input' on CGT changes",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -706,7 +706,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Finance Minister Katy Gallagher says an extension to the fuel excise cut is under \"active consideration\". Follow live."
+                    "content": "Anthony Albanese says Treasury will release a discussion paper for \"further input\" on CGT changes, after Finance Minister Katy Gallagher reveals an extension to the fuel excise cut is under \"active consideration\". Follow live."
                   }
                 ]
               }
@@ -714,8 +714,8 @@
           }
         },
         "image": {
-          "altText": "Katy Gallagher doorstop",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e19a7367c124a6adceb38bf4c6007694?impolicy=wcms_crop_resize&cropH=3979&cropW=5305&xPos=332&yPos=0&width=160&height=120",
+          "altText": "Albanese looks serious, behind him is a dark background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fafdfdf6c9e0c5573230fe301ee21b5d?impolicy=wcms_crop_resize&cropH=3332&cropW=4443&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1426,8 +1426,8 @@
           }
         },
         "image": {
-          "altText": "Patients being treated at the Royal Melbourne Hospital road trauma unit.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/35f1bc9225503ef36b8db79f1483c44c?impolicy=wcms_crop_resize&cropH=4000&cropW=5333&xPos=334&yPos=0&width=160&height=120",
+          "altText": "A large crowd of people holding signs and banners including one saying \"respect allied health\" stand on a city road.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bcca4b95954f77538b96e28423f46e5?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1448,9 +1448,11 @@
         "type": "generic",
         "id": "106799316",
         "contentUri": "coremedia://article/106799316",
-        "label": null,
+        "label": {
+          "variant": "breaking"
+        },
         "link": "/news/2026-06-16/nsw-police-watchdog-findings-lindy-lucena-death/106799316",
-        "title": "Police watchdog review imminent amid 'unfair public attack' accusation",
+        "title": "Police watchdog finds response to woman's fatal bashing 'inadequate'",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1464,7 +1466,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The police watchdog is set to deliver its findings into an investigation of the response to Lindy Lucena's death after her family called for scrutiny."
+                    "content": "The NSW Police watchdog has found the response on the night Lindy Lucena was beaten to death by her abusive partner was \"inadequate\" but did not amount to serious misconduct."
                   }
                 ]
               }
