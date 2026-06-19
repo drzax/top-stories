@@ -125,30 +125,59 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "106818386",
-        "contentUri": "coremedia://teaser/106818386",
+        "type": "generic",
+        "id": "106817478",
+        "contentUri": "coremedia://article/106817478",
         "label": null,
-        "link": "/news/2026-06-19/socceroos-world-cup-trip-tribute-after-death-of-friend/106812438",
-        "title": "Boys' trip to World Cup takes on new meaning after mate's death",
+        "link": "/news/2026-06-19/steven-angus-townsville-veteran-suicide-by-police-shooting/106817478",
+        "title": "Coroner finds no failings in care of suicidal veteran shot by police",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Townsville veteran Steven Angus, 52, was fatally shot after running at Queensland Police officers while armed with knives."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "A group of seven men standing behind a pink backdrop holding out their hands towards a football trophy",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b959f51eb24f47fe8267dc0827411c1?impolicy=wcms_crop_resize&cropH=558&cropW=744&xPos=158&yPos=82&width=862&height=647",
+          "altText": "A young male soldier in uniform is photographed in front of an Australian flag.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ed9f40065c613b8bc07e39301208e443?impolicy=wcms_crop_resize&cropH=1148&cropW=1530&xPos=0&yPos=69&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "FIFA World Cup",
-            "link": "/news/topic/fifa-world-cup",
+            "title": "Suicide",
+            "link": "/news/topic/suicide",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106812438",
+        "contentUri": "coremedia://article/106812438",
+        "label": null,
+        "link": "/news/2026-06-19/socceroos-world-cup-trip-tribute-after-death-of-friend/106812438",
+        "title": "Boys' trip to World Cup takes on new meaning after mate's death",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -168,6 +197,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "A group of seven men standing behind a pink backdrop holding out their hands towards a football trophy",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8b959f51eb24f47fe8267dc0827411c1?impolicy=wcms_crop_resize&cropH=555&cropW=740&xPos=149&yPos=82&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "FIFA World Cup",
+            "link": "/news/topic/fifa-world-cup",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -345,7 +391,19 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106813640",
@@ -437,19 +495,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106810352",
