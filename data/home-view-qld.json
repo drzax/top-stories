@@ -9,6 +9,85 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106831566",
+        "targetId": "106820704",
+        "contentUri": "coremedia://teaser/106831566",
+        "label": null,
+        "title": "Photo gives clues to missing man's final hours before disappearance",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A previously unreleased image answers one question in the case of missing Queensland man Jack McLennan, but many others remain."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-22T19:04:36+00:00",
+          "lastUpdated": "2026-06-22T19:30:39+00:00"
+        },
+        "link": "/news/2026-06-23/last-known-photo-missing-jack-mclennan/106820704",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Jack McLennan jumps into Barambah Creek hours before he vanished.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74d179ae1b510f282c453b5291a756f3?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=0&yPos=501&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/74d179ae1b510f282c453b5291a756f3?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=737&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/74d179ae1b510f282c453b5291a756f3?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=681&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/74d179ae1b510f282c453b5291a756f3?impolicy=wcms_crop_resize&cropH=720&cropW=1080&xPos=0&yPos=681&width=862&height=575",
+            "altText": "Jack McLennan jumps into Barambah Creek hours before he vanished.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Robert Burgin",
+            "title": "By Robert Burgin",
+            "link": "https://www.abc.net.au/news/robert-burgin/102338998",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Missing Person",
+            "link": "/news/topic/missing-person",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "106790228",
         "contentUri": "coremedia://article/106790228",
@@ -178,7 +257,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106829286",
@@ -270,19 +361,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106828312",
