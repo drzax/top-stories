@@ -96,6 +96,51 @@
               "tags": [],
               "mediaIndicator": null,
               "dates": null
+            },
+            {
+              "id": "106537852",
+              "contentUri": "coremedia://article/106537852",
+              "theme": "sand",
+              "label": null,
+              "link": "/news/science/2026-06-24/native-marsupials-bird-flu-risk/106537852",
+              "title": "Australia's mammals are at risk of bird flu. This is what we know",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "While birds are the most likely victims of the deadly strain of bird flu, researchers are also sounding the alarm for native mammals and marsupial species. These are some of the steps being taken to protect them."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "small black animal with white stripe across chest looking at straight at the viewer, standing over dead animal",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0dfeaed7ba99cd64ac83ddf84ed1c6d5?impolicy=wcms_crop_resize&cropH=503&cropW=671&xPos=235&yPos=120&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [
+                {
+                  "title": "Explainer",
+                  "type": "genre",
+                  "screenReader": "Topic",
+                  "key": "Tag1"
+                }
+              ],
+              "mediaIndicator": null,
+              "dates": null
             }
           ]
         },
@@ -188,6 +233,52 @@
       },
       {
         "type": "generic",
+        "id": "106838266",
+        "contentUri": "coremedia://article/106838266",
+        "label": null,
+        "link": "/news/2026-06-24/gina-rinehart-ben-roberts-smith-veteran-housing/106838266",
+        "title": "Gina Rinehart names veteran accommodation after Ben Roberts-Smith",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia's richest person has opened a facility for homeless veterans in a beachside Perth suburb."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An apartment building with \"Ben Roberts-Smith Beach Houses\" written on the side in large writing",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/60840c0a88e91493f38114de0d4de2e0?impolicy=wcms_crop_resize&cropH=349&cropW=465&xPos=294&yPos=167&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Veterans",
+            "link": "/news/topic/veterans",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106838314",
         "contentUri": "coremedia://teaser/106838314",
         "label": null,
@@ -233,13 +324,30 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106836910",
-        "contentUri": "coremedia://article/106836910",
+        "type": "medium",
+        "id": "106838584",
+        "contentUri": "coremedia://teaser/106838584",
         "label": null,
         "link": "/news/2026-06-24/pilot-dies-in-light-plane-crash-near-northam-east-of-perth/106836910",
         "title": "Man, 76, dies in plane crash near Northam, north-east of Perth",
-        "content": {
+        "image": {
+          "altText": "Aerials of a light plane crash.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f072c067b162255059a2b1e764afbf7e?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=138&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Air Incidents",
+            "link": "/news/topic/air-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -259,23 +367,6 @@
             ]
           }
         },
-        "image": {
-          "altText": "Aerials of a light plane crash.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f072c067b162255059a2b1e764afbf7e?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=162&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Air Incidents",
-            "link": "/news/topic/air-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -391,7 +482,19 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106833632",
@@ -483,19 +586,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106834832",
