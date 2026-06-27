@@ -9,6 +9,84 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "106851246",
+        "targetId": "106850936",
+        "contentUri": "coremedia://teaser/106851246",
+        "label": null,
+        "title": "Daughter of stabbing victims calls for better mobile coverage",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The daughter of an elderly couple attacked in an alleged home invasion in northern NSW wants to see mobile coverage improved across regional areas. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-27T08:11:58+00:00",
+          "lastUpdated": "2026-06-27T08:11:58+00:00"
+        },
+        "link": "/news/2026-06-27/torrington-stabbing-community-meeting-calls-better-coverage/106850936",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A woman stands in front of a shed",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a5ea31d4cd1b8dfc0b68ce74eb0764e?impolicy=wcms_crop_resize&cropH=1377&cropW=1377&xPos=274&yPos=63&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/9a5ea31d4cd1b8dfc0b68ce74eb0764e?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=180&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/9a5ea31d4cd1b8dfc0b68ce74eb0764e?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=158&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a5ea31d4cd1b8dfc0b68ce74eb0764e?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=158&width=862&height=575",
+            "altText": "A woman stands in front of a shed",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "ABC New England",
+            "link": "https://www.abc.net.au/newengland/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "106846712",
         "contentUri": "coremedia://article/106846712",
@@ -64,7 +142,7 @@
           "status": "live"
         },
         "link": "/news/2026-06-27/nrl-live-dolphins-warriors-cowboys-panthers-sea-eagles-storm/106828922",
-        "title": "Dolphins win NRL epic after star half suffers dislocated wrist",
+        "title": "Cowboys and Panthers struggle to hold the ball in NRL 'drop-a-thon'",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -78,7 +156,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Dolphins have overcome the loss of their halfback with a wrist dislocation to defeat the New Zealand Warriors 26-24. Follow live."
+                    "content": "The Cowboys host the NRL-leading Panthers in Townsville, after the Dolphins won a thrilling game over the Warriors. Follow live."
                   }
                 ]
               }
@@ -86,8 +164,8 @@
           }
         },
         "image": {
-          "altText": "Jamayne Isaako of the Dolphins scores a try, diving in the air and grounding with one hand",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d823b585d1f93486f5727e911b9e6f98?impolicy=wcms_crop_resize&cropH=1942&cropW=2589&xPos=291&yPos=0&width=160&height=120",
+          "altText": "Thomas Jenkins of the Panthers scores with a defender on his back",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f1f6446997a6d02b2a5ea8d973c79f02?impolicy=wcms_crop_resize&cropH=2453&cropW=3271&xPos=115&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -429,7 +507,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106847426",
@@ -521,19 +611,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "106848594",
