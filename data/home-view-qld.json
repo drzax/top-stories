@@ -9,11 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "106854314",
-        "contentUri": "coremedia://article/106854314",
+        "type": "rich",
+        "id": "106859160",
+        "targetId": "106854314",
+        "contentUri": "coremedia://teaser/106859160",
         "label": null,
-        "link": "/news/2026-06-30/queensland-police-3d-homemade-guns-laws/106854314",
         "title": "One person charged a fortnight in lethal homemade gun crackdown",
         "content": {
           "descriptor": {
@@ -35,23 +35,107 @@
             ]
           }
         },
-        "image": {
-          "altText": "an open shoulder bag with several glocks inside",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89e4ddfb0051f4af4222afae01a0bd48?impolicy=wcms_crop_resize&cropH=1536&cropW=2048&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-06-29T19:50:27+00:00",
+          "lastUpdated": "2026-06-29T20:03:33+00:00"
         },
+        "link": "/news/2026-06-30/queensland-police-3d-homemade-guns-laws/106854314",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "an open shoulder bag with several glocks inside",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89e4ddfb0051f4af4222afae01a0bd48?impolicy=wcms_crop_resize&cropH=1536&cropW=1536&xPos=256&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/89e4ddfb0051f4af4222afae01a0bd48?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=192&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/89e4ddfb0051f4af4222afae01a0bd48?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=85&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89e4ddfb0051f4af4222afae01a0bd48?impolicy=wcms_crop_resize&cropH=1365&cropW=2048&xPos=0&yPos=85&width=862&height=575",
+            "altText": "an open shoulder bag with several glocks inside",
+            "height": "485",
+            "width": "862"
+          }
+        ],
         "tags": [
+          {
+            "text": "Liz Gwynn",
+            "title": "By Liz Gwynn",
+            "link": "https://www.abc.net.au/news/liz-gwynn/13309906",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "L",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e447cb5a650e0b3697572277af34099?impolicy=wcms_crop_resize&cropH=3180&cropW=3180&xPos=0&yPos=631&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
           {
             "title": "Gun Control",
             "link": "/news/topic/gun-control",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "medium",
+        "id": "106859162",
+        "contentUri": "coremedia://teaser/106859162",
+        "label": null,
+        "link": "/news/2026-06-30/great-barrier-reef-marine-park-authority-review-racism-claims/106773636",
+        "title": "'Systemic racism' claims tip of the iceberg in buried reef authority review",
+        "image": {
+          "altText": "A collage with a reef theme, corals and a scuba diver on blue background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d1a50b87d3a1c086d09a4d6817daa22?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=107&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Great Barrier Reef",
+            "link": "/news/topic/great-barrier-reef",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The damning results of a review into the agency tasked with managing the Great Barrier Reef, an area bigger than New Zealand and home to 70 traditional owner groups, has never before seen the light of day."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "dates": null
       },
       {
@@ -60,7 +144,7 @@
         "contentUri": "coremedia://article/106842192",
         "label": null,
         "link": "/news/2026-06-30/private-ramsay-health-care-access-to-public-emergency-patients/106842192",
-        "title": "Concern as private health giant wins access to public Emergency patients",
+        "title": "Concern as private health giant wins access to public emergency patients",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -98,136 +182,6 @@
           }
         ],
         "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106859102",
-        "targetId": "106773636",
-        "contentUri": "coremedia://teaser/106859102",
-        "label": null,
-        "title": "'Systemic racism' claims tip of the iceberg in buried reef authority review",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The damning results of a review into the agency tasked with managing the Great Barrier Reef, an area bigger than New Zealand and home to 70 traditional owner groups, has never before seen the light of day."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-06-29T18:42:40+00:00",
-          "lastUpdated": "2026-06-29T18:42:40+00:00"
-        },
-        "link": "/news/2026-06-30/great-barrier-reef-marine-park-authority-review-racism-claims/106773636",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A collage with a reef theme, corals and a scuba diver on blue background.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d1a50b87d3a1c086d09a4d6817daa22?impolicy=wcms_crop_resize&cropH=1280&cropW=1280&xPos=320&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/5d1a50b87d3a1c086d09a4d6817daa22?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=100&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/5d1a50b87d3a1c086d09a4d6817daa22?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d1a50b87d3a1c086d09a4d6817daa22?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A collage with a reef theme, corals and a scuba diver on blue background.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Angela Heathcote",
-            "title": "By Angela Heathcote",
-            "link": "https://www.abc.net.au/news/angela-heathcote/104930656",
-            "avatar": {
-              "alt": "ABC journalist Angela Heathcote",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84f0391f6c032a6df32f8b294434fdb4?impolicy=wcms_crop_resize&cropH=1344&cropW=1344&xPos=0&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Great Barrier Reef",
-            "link": "/news/topic/great-barrier-reef",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 10,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "medium",
-        "id": "106859120",
-        "contentUri": "coremedia://teaser/106859120",
-        "label": null,
-        "link": "/news/2026-06-30/simpson-desert-in-bloom-but-birdsville-tourism-season-in-limbo/106837000",
-        "title": "Simpson Desert has never looked better but where are the tourists?",
-        "image": {
-          "altText": "A sandbar overlooking flooded desert landscape.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca93a15428122869963187d671eba6a1?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "Travel and Tourism",
-            "link": "/news/topic/travel-and-tourism",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Birdsville, a pilgrimage point for outback travellers, navigates the ripple effects of flood, fuel fears and the cancellation of a massive music festival, when the surrounding country has rarely looked so green and alive."
-                  }
-                ]
-              }
-            ]
-          }
-        },
         "dates": null
       },
       {
@@ -277,6 +231,84 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "106859186",
+        "targetId": "106837000",
+        "contentUri": "coremedia://teaser/106859186",
+        "label": null,
+        "title": "Simpson Desert has never looked better but where are the tourists?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Birdsville, a pilgrimage point for outback travellers, navigates the ripple effects of flood, fuel fears and the cancellation of a massive music festival, when the surrounding country has rarely looked so green and alive."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-29T20:00:40+00:00",
+          "lastUpdated": "2026-06-29T20:00:40+00:00"
+        },
+        "link": "/news/2026-06-30/simpson-desert-in-bloom-but-birdsville-tourism-season-in-limbo/106837000",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A sandbar overlooking flooded desert landscape.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca93a15428122869963187d671eba6a1?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ca93a15428122869963187d671eba6a1?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ca93a15428122869963187d671eba6a1?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca93a15428122869963187d671eba6a1?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+            "altText": "A sandbar overlooking flooded desert landscape.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Hannah Walsh",
+            "title": "By Hannah Walsh",
+            "link": "https://www.abc.net.au/news/hannah-walsh/13599330",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Western Qld",
+            "link": "https://www.abc.net.au/westqld/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "106856948",
         "contentUri": "coremedia://article/106856948",
@@ -321,19 +353,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106854338",
@@ -379,7 +399,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106854200",
