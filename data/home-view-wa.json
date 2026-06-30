@@ -411,7 +411,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106855548",
@@ -526,96 +538,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
-        "type": "live",
-        "id": "106858942",
-        "targetId": "106854744",
-        "images": [
-          {
-            "altText": "Gustavo Gomez screams in delight and runs off in celebration",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/dcbb0085b5e62459c9156c9286656e4f?impolicy=wcms_crop_resize&cropH=2214&cropW=3321&xPos=0&yPos=25&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          },
-          {
-            "altText": "Germany players react as a Paraguay player celebrates in the foreground.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/881c7432509d1333af1f824500a9eba6?impolicy=wcms_crop_resize&cropH=2787&cropW=4181&xPos=1&yPos=0&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          },
-          {
-            "altText": "Orlando Gill screams towards the crowd while players celebrate behind him",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e0a22098598b3a2f45592020c34a9d4?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=68&width=862&height=575",
-            "imgRatio": "3x2",
-            "width": "862",
-            "height": "575"
-          }
-        ],
+        "type": "generic",
+        "id": "106858094",
+        "contentUri": "coremedia://article/106858094",
+        "theme": "live",
         "label": {
           "variant": "live",
           "status": "live"
         },
-        "link": "/news/2026-06-30/world-cup-live-brazil-japan-germany-paraguay-netherland-morocco/106854744",
-        "related": {
-          "title": null,
-          "articles": [
-            {
-              "id": "106859142",
-              "contentUri": "coremedia://article/106859142",
-              "label": null,
-              "link": "/news/2026-06-30/socceroos-volpato-not-immune-to-criticism/106859142",
-              "title": "How a punt on a trial in Italy created the Socceroos' next star",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Cristian Volpato was rejected by two Australian soccer academies. His family dropped everything to go for a trial in Italy. That was the making of Australia's next star."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Cristian Volpato #20 of Australia strikes the ball during the FIFA World Cup",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9262e7cd2e27639125bb59a053d44f29?impolicy=wcms_crop_resize&cropH=2516&cropW=3355&xPos=480&yPos=73&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ],
-          "videos": [],
-          "cta": null
-        },
-        "synopsis": {
+        "link": "/news/2026-06-30/federal-politics-live-blog-june-30/106858094",
+        "title": "Treasurer 'willing to engage' on super for under-18s",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -628,59 +563,31 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Paraguay knocks Germany out of the 2026 World Cup, beating the four-time world champions Germany in a penalty shootout, while Brazil's Gabriel Martinelli scores in the 96th minute to break Japanese hearts. Follow live."
+                    "content": "Treasurer Jim Chalmers says he's open to discussing a guarantee for superannuation to be paid for teenage workers but stresses that's not the government's focus at the moment. Follow live. "
                   }
                 ]
               }
             ]
           }
         },
+        "image": {
+          "altText": "A man wearing a suit standing in front of an Australian flag.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/05870f2a8fb9f1fb9d1088a56db598d5?impolicy=wcms_crop_resize&cropH=618&cropW=823&xPos=529&yPos=135&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
         "tags": [
           {
-            "title": "FIFA World Cup",
-            "link": "/news/topic/fifa-world-cup",
+            "title": "Government and Politics",
+            "link": "/news/topic/government-and-politics",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
-          },
-          {
-            "title": "Soccer",
-            "link": "/news/topic/soccer",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
           }
         ],
-        "title": "Paraguay knocks Germany out after incredible penalty shootout drama",
-        "theme": "live",
-        "typing": "Simon Smale",
-        "updates": [
-          {
-            "title": "PARAGUAY WIN!",
-            "id": "312504",
-            "link": "https://www.abc.net.au/news/2026-06-30/world-cup-live-brazil-japan-germany-paraguay-netherland-morocco/106854744#live-blog-post-312504",
-            "dates": {
-              "firstPublished": "2026-06-29T23:29:03.000Z"
-            }
-          },
-          {
-            "title": "Germany to kick first in the shootout",
-            "id": "312492",
-            "link": "https://www.abc.net.au/news/2026-06-30/world-cup-live-brazil-japan-germany-paraguay-netherland-morocco/106854744#live-blog-post-312492",
-            "dates": {
-              "firstPublished": "2026-06-29T23:18:30.000Z"
-            }
-          },
-          {
-            "title": "Germany and Paraguay head to penalties",
-            "id": "312488",
-            "link": "https://www.abc.net.au/news/2026-06-30/world-cup-live-brazil-japan-germany-paraguay-netherland-morocco/106854744#live-blog-post-312488",
-            "dates": {
-              "firstPublished": "2026-06-29T23:14:23.000Z"
-            }
-          }
-        ],
-        "uri": "coremedia://teaser/106858942"
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -736,6 +643,52 @@
       },
       {
         "type": "generic",
+        "id": "106858454",
+        "contentUri": "coremedia://article/106858454",
+        "label": null,
+        "link": "/news/2026-06-30/judith-whelan-fellowship-abc-sydney-morning-herald-sydney-uni/106858454",
+        "title": "New fellowship for mid-career journalists honours Judith Whelan",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The ABC, The Sydney Morning Herald and Sydney University have created a new fellowship to honour the late Judith Whelan, a trailblazing leader in media."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A blonde woman smiling with black round glasses. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fbbdae106c43e5597d58d800519cd2d9?impolicy=wcms_crop_resize&cropH=454&cropW=605&xPos=101&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Journalism",
+            "link": "/news/topic/journalism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106858306",
         "contentUri": "coremedia://article/106858306",
         "label": null,
@@ -772,6 +725,280 @@
           {
             "title": "Federal Government",
             "link": "/news/topic/federal-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106859620",
+        "targetId": "106840754",
+        "contentUri": "coremedia://teaser/106859620",
+        "label": null,
+        "title": "More Australians are doing their own tax returns and making these mistakes",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "With side hustles, working from home, crypto investments, renting out rooms and receiving income through digital platforms or apps, experts say people are at greater risk of making errors with their tax. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-06-29T18:30:00+00:00",
+          "lastUpdated": "2026-06-29T18:30:00+00:00"
+        },
+        "link": "/news/2026-06-30/common-mistakes-people-make-when-doing-their-tax/106840754",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "woman looking at laptop on the couch with paperwork",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6ad8d686242e921b6acc29133532190?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=0&yPos=1135&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/d6ad8d686242e921b6acc29133532190?impolicy=wcms_crop_resize&cropH=1875&cropW=3333&xPos=0&yPos=1864&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/d6ad8d686242e921b6acc29133532190?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=1690&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6ad8d686242e921b6acc29133532190?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=1690&width=862&height=575",
+            "altText": "woman looking at laptop on the couch with paperwork",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Kellie Scott",
+            "title": "By Kellie Scott",
+            "link": "https://www.abc.net.au/news/kellie-scott/6830306",
+            "avatar": {
+              "alt": "Kellie Scott black and white headshot",
+              "fallbackLetter": "K",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1a8a61a6bc41e2960f9d414e73617e42?impolicy=wcms_crop_resize&cropH=1606&cropW=1606&xPos=0&yPos=155&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Lifestyle",
+            "link": "https://www.abc.net.au/news/lifestyle/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106855232",
+        "contentUri": "coremedia://teaser/106855232",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-06-29/angus-taylor-coalition-liberals-leadership-one-nation/106852176",
+        "title": "Hastie talks tough on One Nation while Taylor hesitates ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "As Angus Taylor grapples with the Coalition's dilemma of how to keep the centre while diverting voters away from Pauline Hanson's party, Andrew Hastie lays out his vision for fighting One Nation."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Andrew Hastie stands in a crowd of people wearing a suit and tie with a sticker showing his name.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9eb6b124664142184cddf9ca566b45c5?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=320&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Patricia Karvelas",
+            "title": "Analysis by Patricia Karvelas",
+            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
+            "avatar": {
+              "alt": "Patricia Karvelas portrait",
+              "fallbackLetter": "P",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106847404",
+        "contentUri": "coremedia://article/106847404",
+        "label": null,
+        "link": "/news/2026-06-29/coal-gas-presence-schools-children-sport/106847404",
+        "title": "Report finds 'extensive' coal and gas presence in schools and children's sport",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Santos, BHP, Woodside and others have an \"extensive presence\" in childhood settings through more than 260 programs, a new report identifies, as senators say classroom programs and lessons written by the industry should be examined through a senate inquiry."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Children look at a laptop. The word Glencore can be seen on the lid. A person in an orange high-vis shirt is nearby.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d0f8e2d89d51dc867dce9c9f38738d3a?impolicy=wcms_crop_resize&cropH=558&cropW=744&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Mining and Metals Industry",
+            "link": "/news/topic/mining-and-metals-industry",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106854774",
+        "contentUri": "coremedia://article/106854774",
+        "theme": "light-blue",
+        "label": null,
+        "link": "/news/2026-06-30/flag-quiz-part-4/106854774",
+        "title": "Will you raise the white flag on these tricky flag questions?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "How many stars are there on the US flag? And how many stars are on the Europe flag?"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "The Australian, Aboriginal and Torres Strait flags fly in Canberra.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d3f5cb6aeeefe9b29f961f474ff260ca?impolicy=wcms_crop_resize&cropH=2000&cropW=2666&xPos=167&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Quiz",
+            "type": "genre",
+            "screenReader": "Topic",
+            "link": "/news/quizzes",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106847702",
+        "contentUri": "coremedia://article/106847702",
+        "label": null,
+        "link": "/news/2026-06-30/crackdown-on-ndis-shell-companies-amid-registration-requirements/106847702",
+        "title": "NDIS shell company boom sparks crackdown",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The federal government says it is moving to crack down on the growing trade in \"off-the-shelf\" NDIS providers."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A middle aged white woman with short fair hair and red suit sitting in an office chair",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aecf2dc12bd3c350f31b5f31b948c778?impolicy=wcms_crop_resize&cropH=1425&cropW=1900&xPos=1780&yPos=222&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Businesses",
+            "link": "/news/topic/businesses",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -866,11 +1093,61 @@
       },
       {
         "type": "generic",
+        "id": "106859328",
+        "contentUri": "coremedia://article/106859328",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-06-30/asx-markets-business-live-news/106859328",
+        "title": "ASX trading sideways, Wall Street jumps as AI-related stocks rebound",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Australian share market has started its day relatively flat despite a rebound in oil prices ahead of the next round of US-Iran peace talks. On Wall Street, the Dow Jones Industrial Average hit a record high. Follow live."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Picture of stock market board with ASX sign at the top left corner.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e82554cfb24e2e63759d27d90f957f4a?impolicy=wcms_crop_resize&cropH=2801&cropW=3735&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Financial Markets",
+            "link": "/news/topic/financial-markets",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106857512",
         "contentUri": "coremedia://article/106857512",
         "label": null,
         "link": "/news/2026-06-30/giveaway-club-rs-rewards-nsw-fair-trading-prize-draw-ban/106857512",
-        "title": "Giveaway club RS Rewards accused of 'ongoing and misleading conduct'",
+        "title": "Popular 'rewards club' banned in NSW as national crackdown looms",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -912,12 +1189,11 @@
       },
       {
         "type": "generic",
-        "id": "106855232",
-        "contentUri": "coremedia://teaser/106855232",
-        "theme": "sand",
+        "id": "106798208",
+        "contentUri": "coremedia://article/106798208",
         "label": null,
-        "link": "/news/2026-06-29/angus-taylor-coalition-liberals-leadership-one-nation/106852176",
-        "title": "Hastie talks tough on One Nation while Taylor hesitates ",
+        "link": "/news/health/2026-06-30/black-triangle-scheme-tga-awareness-public/106798208",
+        "title": "The medicine safety system most Australians have never heard of",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -931,7 +1207,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "As Angus Taylor grapples with the Coalition's dilemma of how to keep the centre while diverting voters away from Pauline Hanson's party, Andrew Hastie lays out his vision for fighting One Nation."
+                    "content": "A little black triangle on medicine information leaflets is meant to make it easier to report adverse effects of new medications. Problem is, many Australians don't know what it means."
                   }
                 ]
               }
@@ -939,70 +1215,18 @@
           }
         },
         "image": {
-          "altText": "Andrew Hastie stands in a crowd of people wearing a suit and tie with a sticker showing his name.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9eb6b124664142184cddf9ca566b45c5?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=320&yPos=0&width=160&height=120",
+          "altText": "A pile of drugs on a table, all are different shapes and sizes.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/525fa84a4f85a09c4efe9713299a8ab7?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Patricia Karvelas",
-            "title": "Analysis by Patricia Karvelas",
-            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
-            "avatar": {
-              "alt": "Patricia Karvelas portrait",
-              "fallbackLetter": "P",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106854774",
-        "contentUri": "coremedia://article/106854774",
-        "theme": "light-blue",
-        "label": null,
-        "link": "/news/2026-06-30/flag-quiz-part-4/106854774",
-        "title": "Will you raise the white flag on these tricky flag questions?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "How many stars are there on the US flag? And how many stars are on the Europe flag?"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "The Australian, Aboriginal and Torres Strait flags fly in Canberra.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d3f5cb6aeeefe9b29f961f474ff260ca?impolicy=wcms_crop_resize&cropH=2000&cropW=2666&xPos=167&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Quiz",
-            "type": "genre",
+            "title": "Pharmaceuticals",
+            "link": "/news/topic/pharmaceuticals",
+            "type": "subject",
             "screenReader": "Topic",
-            "link": "/news/quizzes",
             "key": "Tag1"
           }
         ],
@@ -1011,15 +1235,11 @@
       },
       {
         "type": "generic",
-        "id": "106859328",
-        "contentUri": "coremedia://article/106859328",
-        "theme": "live",
-        "label": {
-          "variant": "live",
-          "status": "live"
-        },
-        "link": "/news/2026-06-30/asx-markets-business-live-news/106859328",
-        "title": "ASX headed for cautious start, Wall Street jumps as AI-related stocks rebound",
+        "id": "106853944",
+        "contentUri": "coremedia://article/106853944",
+        "label": null,
+        "link": "/news/2026-06-29/bondi-antisemitism-royal-commission-social-media-hate/106853944",
+        "title": "Bondi terror attack survivor received 'influx of hate' hours after shooting",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1033,7 +1253,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Australian share market is likely to start its day relatively flat despite a rebound in oil prices ahead of the next round of US-Iran peace talks. On Wall Street, the Dow Jones Industrial Average hit a record high. Follow live. "
+                    "content": "Deepfake and altered images depicting a Bondi Beach terror attack survivor holding an Academy Award while covered in blood spread \"like wildfire\" online just hours after the shooting, a royal commission has heard."
                   }
                 ]
               }
@@ -1041,16 +1261,16 @@
           }
         },
         "image": {
-          "altText": "Picture of stock market board with ASX sign at the top left corner.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e82554cfb24e2e63759d27d90f957f4a?impolicy=wcms_crop_resize&cropH=2801&cropW=3735&xPos=0&yPos=0&width=160&height=120",
+          "altText": "Arsen Ostrovsky in a suit and blue tie outside a building",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a44b6e1ae704181e3af52b463553a1c?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Financial Markets",
-            "link": "/news/topic/financial-markets",
+            "title": "Royal Commissions",
+            "link": "/news/topic/royal-commissions",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1175,190 +1395,6 @@
       },
       {
         "type": "generic",
-        "id": "106840754",
-        "contentUri": "coremedia://article/106840754",
-        "label": null,
-        "link": "/news/2026-06-30/common-mistakes-people-make-when-doing-their-tax/106840754",
-        "title": "More Australians are doing their own tax returns and making these mistakes",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "With side hustles, working from home, crypto investments, renting out rooms and receiving income through digital platforms or apps, experts say people are at greater risk of making errors with their tax. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "woman looking at laptop on the couch with paperwork",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d6ad8d686242e921b6acc29133532190?impolicy=wcms_crop_resize&cropH=2500&cropW=3333&xPos=0&yPos=1551&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Personal Finance",
-            "link": "/news/topic/personal-finance",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106847702",
-        "contentUri": "coremedia://article/106847702",
-        "label": null,
-        "link": "/news/2026-06-30/crackdown-on-ndis-shell-companies-amid-registration-requirements/106847702",
-        "title": "NDIS shell company boom sparks crackdown",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The federal government says it is moving to crack down on the growing trade in \"off-the-shelf\" NDIS providers."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A middle aged white woman with short fair hair and red suit sitting in an office chair",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aecf2dc12bd3c350f31b5f31b948c778?impolicy=wcms_crop_resize&cropH=1425&cropW=1900&xPos=1780&yPos=222&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Businesses",
-            "link": "/news/topic/businesses",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106847404",
-        "contentUri": "coremedia://article/106847404",
-        "label": null,
-        "link": "/news/2026-06-29/coal-gas-presence-schools-children-sport/106847404",
-        "title": "Report finds 'extensive' coal and gas presence in schools and children's sport",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Santos, BHP, Woodside and others have an \"extensive presence\" in childhood settings through more than 260 programs, a new report identifies, as senators say classroom programs and lessons written by the industry should be examined through a senate inquiry."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Children look at a laptop. The word Glencore can be seen on the lid. A person in an orange high-vis shirt is nearby.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d0f8e2d89d51dc867dce9c9f38738d3a?impolicy=wcms_crop_resize&cropH=558&cropW=744&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Mining and Metals Industry",
-            "link": "/news/topic/mining-and-metals-industry",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106853944",
-        "contentUri": "coremedia://article/106853944",
-        "label": null,
-        "link": "/news/2026-06-29/bondi-antisemitism-royal-commission-social-media-hate/106853944",
-        "title": "Bondi terror attack survivor received 'influx of hate' hours after shooting",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Deepfake and altered images depicting a Bondi Beach terror attack survivor holding an Academy Award while covered in blood spread \"like wildfire\" online just hours after the shooting, a royal commission has heard."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Arsen Ostrovsky in a suit and blue tie outside a building",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a44b6e1ae704181e3af52b463553a1c?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Royal Commissions",
-            "link": "/news/topic/royal-commissions",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106856814",
         "contentUri": "coremedia://article/106856814",
         "label": null,
@@ -1405,176 +1441,11 @@
       },
       {
         "type": "generic",
-        "id": "106798208",
-        "contentUri": "coremedia://article/106798208",
-        "label": null,
-        "link": "/news/health/2026-06-30/black-triangle-scheme-tga-awareness-public/106798208",
-        "title": "The medicine safety system most Australians have never heard of",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A little black triangle on medicine information leaflets is meant to make it easier to report adverse effects of new medications. Problem is, many Australians don't know what it means."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A pile of drugs on a table, all are different shapes and sizes.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/525fa84a4f85a09c4efe9713299a8ab7?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Pharmaceuticals",
-            "link": "/news/topic/pharmaceuticals",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106852148",
-        "targetId": "106840056",
-        "contentUri": "coremedia://teaser/106852148",
-        "label": null,
-        "title": "Key observatory shut for months prior to bird flu detection",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Volunteers and wildlife advocates push to reopen the Eyre Bird Observatory, arguing the station will be critical in monitoring the potential impact of avian flu."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-06-27T23:00:00+00:00",
-          "lastUpdated": "2026-06-28T04:31:29+00:00"
-        },
-        "link": "/news/2026-06-28/bird-flu-push-reopen-eyre-observatory/106840056",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A large number of galas sitting on a branch",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1280&xPos=472&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "A timber sign reads \"Welcome to Eyre Bird Observatory, Wonundra\".",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
-          },
-          {
-            "altText": "A view over white sandy dunes covered in dark green scrub, with a house nestled in the middle.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=1519&xPos=713&yPos=7&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=61&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A large number of galas sitting on a branch",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A timber sign reads \"Welcome to Eyre Bird Observatory, Wonundra\".",
-            "height": "485",
-            "width": "862"
-          },
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1404&cropW=2496&xPos=0&yPos=57&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=2275&xPos=221&yPos=7&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=2275&xPos=221&yPos=7&width=862&height=575",
-            "altText": "A view over white sandy dunes covered in dark green scrub, with a house nestled in the middle.",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Nicholas R Ward",
-            "title": "By Nicholas R Ward",
-            "link": "https://www.abc.net.au/news/nicholas-r-ward/106671120",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "N",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06214b24f66111a84ab3cc650802e357?impolicy=wcms_crop_resize&cropH=2378&cropW=2378&xPos=1350&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Goldfields",
-            "link": "https://www.abc.net.au/goldfields/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
         "id": "106854088",
         "contentUri": "coremedia://article/106854088",
         "label": null,
         "link": "/news/2026-06-30/tourism-operator-south-australia-feels-unprepared-bird-flu/106854088",
-        "title": "Tourism operator at coalface of bird flu response feels unprepared",
+        "title": "Tourism operator says 'silence is deafening' about how to spot bird flu cases",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1707,58 +1578,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106827402",
-        "contentUri": "coremedia://article/106827402",
-        "label": null,
-        "link": "/news/2026-06-28/shearing-industry-regional-western-australia-alternate-training/106827402",
-        "title": "WA shearing teams look for new ways to make ends meet",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Almost 100 shearing shed workers across regional WA sign up to a new training program aimed at helping contractors and their teams find work beyond the shearing industry. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a lady sitting in a tractor ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0fe4afd400416f8c45a34ac35575ab08?impolicy=wcms_crop_resize&cropH=2812&cropW=3749&xPos=625&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Agriculture",
-            "link": "/news/topic/agriculture",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
-        "id": "106852270",
-        "targetId": "106786380",
-        "contentUri": "coremedia://teaser/106852270",
+        "id": "106852148",
+        "targetId": "106840056",
+        "contentUri": "coremedia://teaser/106852148",
         "label": null,
-        "title": "How Ben overcame his dilemma about disclosing his autism in job interviews",
+        "title": "Key observatory shut for months prior to bird flu detection",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1772,7 +1597,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The cybersecurity sector is projected to need tens of thousands of roles filled by 2030. Now, a university-based program is helping provide those workers by tapping into the abilities of autistic people."
+                    "content": "Volunteers and wildlife advocates push to reopen the Eyre Bird Observatory, arguing the station will be critical in monitoring the potential impact of avian flu."
                   }
                 ]
               }
@@ -1780,10 +1605,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-06-28T00:10:02+00:00",
-          "lastUpdated": "2026-06-28T00:10:02+00:00"
+          "firstPublished": "2026-06-27T23:00:00+00:00",
+          "lastUpdated": "2026-06-28T04:31:29+00:00"
         },
-        "link": "/news/2026-06-28/curtin-university-program-austistic-workers-cyber-security/106786380",
+        "link": "/news/2026-06-28/bird-flu-push-reopen-eyre-observatory/106840056",
         "related": {
           "title": null,
           "videos": [],
@@ -1792,84 +1617,83 @@
         },
         "gallery": [
           {
-            "altText": "Ben on laptop.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c80587dedea0a328afba4f882ae151fb?impolicy=wcms_crop_resize&cropH=4672&cropW=4672&xPos=1168&yPos=0&width=862&height=862"
+            "altText": "A large number of galas sitting on a branch",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1280&xPos=472&yPos=0&width=862&height=862"
           },
           {
-            "altText": "A man types on a computer.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b35aa34f08fbebf7308c9b78e9f0b07b?impolicy=wcms_crop_resize&cropH=4672&cropW=4672&xPos=1168&yPos=0&width=862&height=862"
+            "altText": "A timber sign reads \"Welcome to Eyre Bird Observatory, Wonundra\".",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
           },
           {
-            "altText": "Ben smiles at camera.",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd850e7b9273407ac0483a55a03c0ab0?impolicy=wcms_crop_resize&cropH=4672&cropW=4672&xPos=460&yPos=0&width=862&height=862"
+            "altText": "A view over white sandy dunes covered in dark green scrub, with a house nestled in the middle.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=1519&xPos=713&yPos=7&width=862&height=862"
           }
         ],
         "thumbnail": [
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/c80587dedea0a328afba4f882ae151fb?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=365&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/c80587dedea0a328afba4f882ae151fb?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=61&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c80587dedea0a328afba4f882ae151fb?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Ben on laptop.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb8f8a030da52a2195c712b020b7f4aa?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A large number of galas sitting on a branch",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/b35aa34f08fbebf7308c9b78e9f0b07b?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=365&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/b35aa34f08fbebf7308c9b78e9f0b07b?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b35aa34f08fbebf7308c9b78e9f0b07b?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A man types on a computer.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9a4e3cdcf8d54f83c5c661efa27c3f5a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A timber sign reads \"Welcome to Eyre Bird Observatory, Wonundra\".",
             "height": "485",
             "width": "862"
           },
           {
             "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/bd850e7b9273407ac0483a55a03c0ab0?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=365&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/bd850e7b9273407ac0483a55a03c0ab0?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575 575w"
+              "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1404&cropW=2496&xPos=0&yPos=57&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=2275&xPos=221&yPos=7&width=862&height=575 575w"
             ],
             "sizesArray": [
               "(max-width:767px) 485px",
               "575px"
             ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bd850e7b9273407ac0483a55a03c0ab0?impolicy=wcms_crop_resize&cropH=4672&cropW=7008&xPos=0&yPos=0&width=862&height=575",
-            "altText": "Ben smiles at camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ceaad8c38ed1f799d2fad4ed3eb39e24?impolicy=wcms_crop_resize&cropH=1519&cropW=2275&xPos=221&yPos=7&width=862&height=575",
+            "altText": "A view over white sandy dunes covered in dark green scrub, with a house nestled in the middle.",
             "height": "485",
             "width": "862"
           }
         ],
         "tags": [
           {
-            "text": "Nick McAllister",
-            "title": "By Nick McAllister",
-            "link": "https://www.abc.net.au/news/nick-mcallister/13260718",
+            "text": "Nicholas R Ward",
+            "title": "By Nicholas R Ward",
+            "link": "https://www.abc.net.au/news/nicholas-r-ward/106671120",
             "avatar": {
               "alt": "",
               "fallbackLetter": "N",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/09d79fce8fc9bce04807f3eeaf00814c?impolicy=wcms_crop_resize&cropH=2274&cropW=2274&xPos=42&yPos=0&width=160&height=160"
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/06214b24f66111a84ab3cc650802e357?impolicy=wcms_crop_resize&cropH=2378&cropW=2378&xPos=1350&yPos=0&width=160&height=160"
             },
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Cyber Security",
-            "link": "/news/topic/cyber-security",
-            "type": "subject",
-            "screenReader": "Topic",
+            "title": "ABC Goldfields",
+            "link": "https://www.abc.net.au/goldfields/",
+            "type": "infoSource",
             "key": "Tag2"
           }
         ],
-        "readTime": 3,
+        "readTime": 4,
         "hasLoadPriority": false
       }
     ]
