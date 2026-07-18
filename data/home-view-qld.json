@@ -95,11 +95,11 @@
       },
       {
         "type": "generic",
-        "id": "106926986",
-        "contentUri": "coremedia://article/106926986",
+        "id": "106926336",
+        "contentUri": "coremedia://article/106926336",
         "label": null,
-        "link": "/news/2026-07-18/bill-clinton-portrait-epstein-files-artist-gold-coast-origins/106926986",
-        "title": "Artist behind Clinton portrait in Epstein files remembers first piece",
+        "link": "/news/2026-07-18/australia-hosts-over-70s-football-world-cup/106926336",
+        "title": "Australia's next football world cup is on home soil between seniors",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -113,7 +113,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A high school art portrait launched Petrina Ryan-Kleid's career. Forty years and several satirical portraits later, she has been reunited with the person who bought her first work."
+                    "content": "Around 90 of Australia's finest older footballers will play for the world title on home soil in October this year. "
                   }
                 ]
               }
@@ -121,16 +121,16 @@
           }
         },
         "image": {
-          "altText": "A portrait of Bill Clinton in a dress. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aa53c1b1631274f51c0bec18254f26f4?impolicy=wcms_crop_resize&cropH=2554&cropW=3405&xPos=97&yPos=0&width=160&height=120",
+          "altText": "two older men holding a football smiling",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c38710d49f43f417df0f20d8d585a6cc?impolicy=wcms_crop_resize&cropH=3456&cropW=4608&xPos=288&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Art",
-            "link": "/news/topic/art",
+            "title": "Soccer",
+            "link": "/news/topic/soccer",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -184,6 +184,84 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106931492",
+        "targetId": "106926986",
+        "contentUri": "coremedia://teaser/106931492",
+        "label": null,
+        "title": "Artist behind Clinton portrait in Epstein files remembers first piece",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A high school art portrait launched Petrina Ryan-Kleid's career. Forty years and several satirical portraits later, she has been reunited with the person who bought her first work."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-07-17T21:40:28+00:00",
+          "lastUpdated": "2026-07-17T22:39:21+00:00"
+        },
+        "link": "/news/2026-07-18/bill-clinton-portrait-epstein-files-artist-gold-coast-origins/106926986",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A portrait of Bill Clinton in a dress. ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aa53c1b1631274f51c0bec18254f26f4?impolicy=wcms_crop_resize&cropH=2554&cropW=2554&xPos=523&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/aa53c1b1631274f51c0bec18254f26f4?impolicy=wcms_crop_resize&cropH=2025&cropW=3600&xPos=0&yPos=265&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/aa53c1b1631274f51c0bec18254f26f4?impolicy=wcms_crop_resize&cropH=2400&cropW=3600&xPos=0&yPos=77&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/aa53c1b1631274f51c0bec18254f26f4?impolicy=wcms_crop_resize&cropH=2400&cropW=3600&xPos=0&yPos=77&width=862&height=575",
+            "altText": "A portrait of Bill Clinton in a dress. ",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "title": "ABC Gold Coast",
+            "link": "https://www.abc.net.au/goldcoast/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Art",
+            "link": "/news/topic/art",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -276,7 +354,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "106930112",
@@ -360,19 +450,7 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106926828",
