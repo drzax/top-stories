@@ -348,7 +348,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106926716",
@@ -394,19 +406,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106960552",
+        "contentUri": "coremedia://article/106960552",
+        "label": null,
+        "link": "/news/2026-07-27/berlin-pride-attack-suspect-shot-dead/106960552",
+        "title": "Alleged attacker at Berlin Pride event shot dead by police",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A nationwide manhunt in Germany ends as details about the suspected attacker, Abdul B, who was born in Germany in 2005, begin to emerge. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman lighting a candle at a vigil with others looking on.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/85f3ea9d258a2ebf9ca3abab2eff668b?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Terrorism",
+            "link": "/news/topic/terrorism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "live",
         "id": "106960074",
@@ -442,6 +488,43 @@
         "related": {
           "title": null,
           "articles": [
+            {
+              "id": "106942068",
+              "contentUri": "coremedia://article/106942068",
+              "label": null,
+              "link": "/news/2026-07-27/victoria-belando-nicholson-commonwealth-games-2026-para-swimming/106942068",
+              "title": "Found lifeless in the water, Vicky is now a swimming medallist",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Victoria Belando Nicholson was a baby when she was pulled lifeless from the water after falling from a refugee boat. Now she's a swimming bronze medallist for Australia."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Bronze medallist Vicky Belando Nicholson",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fb98f2840e1aab279d55898a8bcbe787?impolicy=wcms_crop_resize&cropH=3041&cropW=4055&xPos=254&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            },
             {
               "id": "106960198",
               "contentUri": "coremedia://article/106960198",
@@ -521,7 +604,6 @@
         ],
         "title": "King Cam reigns supreme as distance queen Pallister dominates",
         "theme": "live",
-        "typing": "Hanan Dervisevic",
         "updates": [
           {
             "title": "Medal tally: Can't hear you from the top of the podium",
@@ -549,52 +631,6 @@
           }
         ],
         "uri": "coremedia://teaser/106960074"
-      },
-      {
-        "type": "generic",
-        "id": "106960552",
-        "contentUri": "coremedia://article/106960552",
-        "label": null,
-        "link": "/news/2026-07-27/berlin-pride-attack-suspect-shot-dead/106960552",
-        "title": "Alleged attacker at Berlin Pride event shot dead by police",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A nationwide manhunt in Germany ends as details about the suspected attacker, Abdul B, who was born in Germany in 2005, begin to emerge. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman lighting a candle at a vigil with others looking on.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/85f3ea9d258a2ebf9ca3abab2eff668b?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Terrorism",
-            "link": "/news/topic/terrorism",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -643,12 +679,58 @@
         "dates": null
       },
       {
+        "type": "generic",
+        "id": "106960114",
+        "contentUri": "coremedia://article/106960114",
+        "label": null,
+        "link": "/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
+        "title": "Victorian premier facing leadership challenge this week",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Factional convenors from both the right and left of the party room met on Sunday night to discuss whether Jacinta Allan still had the support of a majority of caucus. The ABC understands they agreed she did not."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Jacinta Allan stands in front of a lectern with a serious facial expression.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72c482af51ccf199827c8158da8e9f29?impolicy=wcms_crop_resize&cropH=548&cropW=731&xPos=304&yPos=4&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "State and Territory Government",
+            "link": "/news/topic/state-and-territory-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "rich",
         "id": "106960862",
         "targetId": "106896866",
         "contentUri": "coremedia://teaser/106960862",
         "label": null,
-        "title": "Luke Bateman earned $400K a year and gambled away every cent",
+        "title": "He earned $400k a year, but Luke Bateman couldn't afford groceries",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -757,104 +839,6 @@
         "hasLoadPriority": false
       },
       {
-        "type": "generic",
-        "id": "106960066",
-        "contentUri": "coremedia://article/106960066",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-07-27/india-cockroach-party-victory-over-narendra-modi-government/106960066",
-        "title": "How student 'cockroaches' brought down a pillar of Modi's government",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Narendra Modi's government has a history of taking a tough stance on protesters, but with millions of India's young people at the gates, something finally had to give."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A close up of the Indian prime minister at the G7 ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8cb426dbd166f957fe1dbcc11604c9d2?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Rachel Clayton",
-            "title": "Analysis by Rachel Clayton",
-            "link": "https://www.abc.net.au/news/rachel-clayton/11559482",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "R",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/36d8938d863141d104b36746e79878a9?impolicy=wcms_crop_resize&cropH=3337&cropW=3337&xPos=0&yPos=0&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106960114",
-        "contentUri": "coremedia://article/106960114",
-        "label": null,
-        "link": "/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
-        "title": "Victorian premier facing leadership challenge this week",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Factional convenors from both the right and left of the party room met on Sunday night to discuss whether Jacinta Allan still had the support of a majority of caucus. The ABC understands they agreed she did not."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Jacinta Allan stands in front of a lectern with a serious facial expression.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72c482af51ccf199827c8158da8e9f29?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "State and Territory Government",
-            "link": "/news/topic/state-and-territory-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106961098",
         "targetId": "106959946",
@@ -890,86 +874,7 @@
           "title": null,
           "videos": [],
           "audio": [],
-          "articles": [
-            {
-              "id": "106960978",
-              "contentUri": "coremedia://article/106960978",
-              "theme": "live",
-              "label": {
-                "variant": "live",
-                "status": "live"
-              },
-              "link": "/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978",
-              "title": "Plibersek defends PM's attendance at dinner hosted by billionaire family",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Social Services Minister Tanya Plibersek has defended the prime minister's attendance at an intimate dinner hosted by a billionaire family. Follow live. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A blonde woman wearing a pale blue suit jacket, speaking.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e063612303d1d45c848287c913e4e7fc?impolicy=wcms_crop_resize&cropH=4573&cropW=6097&xPos=0&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            },
-            {
-              "id": "106959648",
-              "contentUri": "coremedia://article/106959648",
-              "label": null,
-              "link": "/news/2026-07-26/albanese-questioned-over-point-piper-dinner/106959648",
-              "title": "Albanese evasive over Point Piper dinner attendance",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Prime Minister Anthony Albanese attempts to skirt questions about his attendance at a dinner hosted by a billionaire family accused of funnelling money from China, saying he attends \"a lot of dinners\". "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A man in a suit, sitting in a chair as he speaks.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/248b7c18f078ac0f97575b9a25cfc9de?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=512&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
+          "articles": []
         },
         "gallery": [
           {
@@ -1070,7 +975,7 @@
         "contentUri": "coremedia://article/106728062",
         "label": null,
         "link": "/news/2026-07-27/race-around-the-world-documentary-wrap/106728062",
-        "title": "Travel from a Transylvanian village to Madagascar with these films",
+        "title": "Influencers and cultural rituals: Race Around the World's films",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1092,8 +997,8 @@
           }
         },
         "image": {
-          "altText": "A black bull with large horns.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/076e18d7cd844529c03761dbdea77448?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "altText": "Two men snorkelling in clear water.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/373a10d5236529e554265b7416b0e706?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1116,7 +1021,7 @@
         "targetId": "106908468",
         "contentUri": "coremedia://teaser/106960864",
         "label": null,
-        "title": "AI chatbots might feel supportive, but do they give good relationship advice?",
+        "title": "The risks to be aware of when using AI chatbots for relationship advice",
         "content": {
           "descriptor": {
             "type": "tagname",
