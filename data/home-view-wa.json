@@ -94,6 +94,56 @@
       },
       {
         "type": "generic",
+        "id": "106965008",
+        "contentUri": "coremedia://article/106965008",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-07-28/federal-politics-live-blog-coalition-signal-oil-refinery-support/106965008",
+        "title": "Shadow treasurer indicates Coalition support for new WA oil refinery",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Shadow Treasurer Tim Wilson indicates the Coalition will support the construction of a new oil refinery in Western Australia. Follow live. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Tim Wilson",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7d8f52cced6901d794108543f9b46aec?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=310&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Government and Politics",
+            "link": "/news/topic/government-and-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106962820",
         "contentUri": "coremedia://article/106962820",
         "label": null,
@@ -130,52 +180,6 @@
           {
             "title": "Animal Cruelty",
             "link": "/news/topic/animal-cruelty",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106962890",
-        "contentUri": "coremedia://article/106962890",
-        "label": null,
-        "link": "/news/2026-07-27/child-rapist-jeffrey-lawrence-oreo-jailed-broome/106962890",
-        "title": "Child rapist jailed over 'persistent attempts' to groom and abuse 12yo boy",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "West Australian man Jeffrey Lawrence Oreo has been jailed after trying to abuse a 12-year-old in Broome and possessing 1,800 child exploitation videos and photos."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Mobile phone lit up with blue and red lights with signal and telegram apps installed",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/61f1f6412848c37e8023229eba1b7167?impolicy=wcms_crop_resize&cropH=1440&cropW=1920&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Child Abuse",
-            "link": "/news/topic/child-abuse",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -344,6 +348,52 @@
       },
       {
         "type": "generic",
+        "id": "106962890",
+        "contentUri": "coremedia://article/106962890",
+        "label": null,
+        "link": "/news/2026-07-27/child-rapist-jeffrey-lawrence-oreo-jailed-broome/106962890",
+        "title": "Child rapist jailed over 'persistent attempts' to groom and abuse 12yo boy",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "West Australian man Jeffrey Lawrence Oreo has been jailed after trying to abuse a 12-year-old in Broome and possessing 1,800 child exploitation videos and photos."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Mobile phone lit up with blue and red lights with signal and telegram apps installed",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/61f1f6412848c37e8023229eba1b7167?impolicy=wcms_crop_resize&cropH=1440&cropW=1920&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Child Abuse",
+            "link": "/news/topic/child-abuse",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106964000",
         "contentUri": "coremedia://article/106964000",
         "label": null,
@@ -387,13 +437,25 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5313390",
+    "uri": "coremedia://collection/5313390",
+    "title": "WA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
-        "type": "generic",
-        "id": "106939514",
-        "contentUri": "coremedia://article/106939514",
+        "type": "rich",
+        "id": "106961492",
+        "targetId": "106939514",
+        "contentUri": "coremedia://teaser/106961492",
         "label": null,
-        "link": "/news/2026-07-27/kalumburu-residents-child-safety-concerns-teacher-conduct/106939514",
         "title": "When a teacher suddenly left this remote community, residents wanted answers ",
         "content": {
           "descriptor": {
@@ -415,19 +477,818 @@
             ]
           }
         },
+        "dates": {
+          "firstPublished": "2026-07-26T23:01:15+00:00",
+          "lastUpdated": "2026-07-26T23:01:15+00:00"
+        },
+        "link": "/news/2026-07-27/kalumburu-residents-child-safety-concerns-teacher-conduct/106939514",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "Close-up of a woman's hands in her lap.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ccc84f04c579b7aeb8a28763760024de?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=1168&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "A woman in a red shirt looking sternly at the camera.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/272fbc2437467aa8c8099498172d80ab?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=1287&yPos=0&width=862&height=862"
+          },
+          {
+            "altText": "Swimming pool at night.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e2b1441a637dd79342481eb34713dbb2?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=985&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/ccc84f04c579b7aeb8a28763760024de?impolicy=wcms_crop_resize&cropH=2810&cropW=4995&xPos=0&yPos=365&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/ccc84f04c579b7aeb8a28763760024de?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ccc84f04c579b7aeb8a28763760024de?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Close-up of a woman's hands in her lap.",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/272fbc2437467aa8c8099498172d80ab?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/272fbc2437467aa8c8099498172d80ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/272fbc2437467aa8c8099498172d80ab?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A woman in a red shirt looking sternly at the camera.",
+            "height": "485",
+            "width": "862"
+          },
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/e2b1441a637dd79342481eb34713dbb2?impolicy=wcms_crop_resize&cropH=2810&cropW=4995&xPos=0&yPos=268&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/e2b1441a637dd79342481eb34713dbb2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e2b1441a637dd79342481eb34713dbb2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "Swimming pool at night.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Dunja Karagic",
+            "title": "By Dunja Karagic",
+            "link": "https://www.abc.net.au/news/dunja-karagic/13833228",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Kimberley",
+            "link": "https://www.abc.net.au/kimberley/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 6,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106963778",
+        "contentUri": "coremedia://article/106963778",
+        "label": null,
+        "link": "/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778",
+        "title": "Australia should brace for war impact to get worse, Treasury warns",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The federal government is yet to reveal whether it will extend the fuel excise discount, which is set to expire this week. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "A woman in a red shirt looking sternly at the camera.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/272fbc2437467aa8c8099498172d80ab?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "A man wearing a suit standing in front of an Australian flag.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/05870f2a8fb9f1fb9d1088a56db598d5?impolicy=wcms_crop_resize&cropH=618&cropW=823&xPos=529&yPos=135&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Police",
-            "link": "/news/topic/police",
+            "title": "Economy",
+            "link": "/news/topic/economy",
             "type": "subject",
             "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106959902",
+        "contentUri": "coremedia://article/106959902",
+        "label": null,
+        "link": "/news/2026-07-28/angus-taylor-broken-back-kitchen-cabinet/106959902",
+        "title": "Angus Taylor on the accident that changed his life",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Liberal leader opens about a balcony fall that left him with a broken back and altered the course of his life."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man in a navy suit, with green leaves blurred in background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/63576e7fbc2aa8cdb9cc57a15847ff08?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=49&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Political Leadership",
+            "link": "/news/topic/political-leadership",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "live",
+        "id": "106964130",
+        "targetId": "106961304",
+        "images": [
+          {
+            "altText": "A woman holds an Australian flag over her head and smiles",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/54792832bf96e07fca13a49493b8553e?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "imgRatio": "3x2",
+            "width": "862",
+            "height": "575"
+          },
+          {
+            "altText": "Three swimmers in yellow caps celebrate a medal in the pool",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c5a4df9629373eee914d27febb92667e?impolicy=wcms_crop_resize&cropH=2026&cropW=3039&xPos=21&yPos=0&width=862&height=575",
+            "imgRatio": "3x2",
+            "width": "862",
+            "height": "575"
+          },
+          {
+            "altText": "Three swimmers in black suits smile and celebrate medals",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cff4c0ac0592e08ca004e94f2003598?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=862&height=575",
+            "imgRatio": "3x2",
+            "width": "862",
+            "height": "575"
+          },
+          {
+            "altText": "A swimmer in a yellow cap hugs a teammate over the lane rope",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e1eec2abe2f71f3cc2bad11151cc591?impolicy=wcms_crop_resize&cropH=3164&cropW=4746&xPos=127&yPos=0&width=862&height=575",
+            "imgRatio": "3x2",
+            "width": "862",
+            "height": "575"
+          }
+        ],
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-07-27/commonwealth-games-glasgow-day-four-live-blog/106961304",
+        "related": {
+          "title": null,
+          "articles": [
+            {
+              "id": "106964158",
+              "contentUri": "coremedia://article/106964158",
+              "label": null,
+              "link": "/news/2026-07-27/commonwealth-games-rohan-browning-eddie-nketia-glasgow-heats/106964158",
+              "title": "Aussie Rohan Browning clips 'unfair' 100m surprise sprung on sprinters",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "A surprise new qualification system was sprung on the sprinters as they arrived in Glasgow, and Australian Rohan Browning said it is \"clearly not fair\"."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Australian Rohan Browning running towards the camera during a 100m heat at the Glasgow 2026 Commonwealth Games.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f06100b04caba6ecd8f94ea36bc1f735?impolicy=wcms_crop_resize&cropH=1100&cropW=1466&xPos=732&yPos=68&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            },
+            {
+              "id": "106961028",
+              "contentUri": "coremedia://article/106961028",
+              "label": null,
+              "link": "/news/2026-07-27/commonwealth-games-iona-anderson-scottish-glasgow-gold/106961028",
+              "title": "Scottish-blooded Anderson thrilled to win gold in Glasgow instead of Victoria",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Many Australians may be bemoaning the controversial and costly relocation of the Commonwealth Games from regional Victoria to Glasgow, but gold medallist Iona Anderson is not one of them. "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Iona Anderson raises her arms after winning gold in front of the Commonwealth Games logo.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/07b91d4af529cfdf150fe5d27c0e3a68?impolicy=wcms_crop_resize&cropH=1642&cropW=2190&xPos=1422&yPos=1507&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ],
+          "videos": [],
+          "cta": null
+        },
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia is enjoying another wildly successful day at the Commonwealth Games, with Rose Davies claiming her nation's first athletics gold and the Dolphins sweeping the medals in two events in the pool."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "tags": [
+          {
+            "title": "Commonwealth Games",
+            "link": "/news/topic/commonwealth-games",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          },
+          {
+            "title": "Sport Event",
+            "link": "/news/topic/sport-event",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "title": "Australia claims first athletics gold, Dolphins dominating once more",
+        "theme": "live",
+        "updates": [
+          {
+            "title": "Medal tally update, as requested",
+            "id": "323960",
+            "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-glasgow-day-four-live-blog/106961304#live-blog-post-323960",
+            "dates": {
+              "firstPublished": "2026-07-27T20:53:39.000Z"
+            }
+          },
+          {
+            "title": "Wilson out of gold medal contention!",
+            "id": "323958",
+            "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-glasgow-day-four-live-blog/106961304#live-blog-post-323958",
+            "dates": {
+              "firstPublished": "2026-07-27T20:43:18.000Z"
+            }
+          },
+          {
+            "title": "🥇GOLD FOR 4X200M FREESTYLE RELAY",
+            "id": "323954",
+            "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-glasgow-day-four-live-blog/106961304#live-blog-post-323954",
+            "dates": {
+              "firstPublished": "2026-07-27T20:29:51.000Z"
+            }
+          }
+        ],
+        "uri": "coremedia://teaser/106964130"
+      },
+      {
+        "type": "generic",
+        "id": "106946500",
+        "contentUri": "coremedia://article/106946500",
+        "label": null,
+        "link": "/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500",
+        "title": "What to expect from antisemitism royal commission in coming weeks",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Royal Commission on Antisemitism and Social Cohesion is continuing in Sydney, with witnesses to give evidence about ways to improve education and training to prevent hate."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a star of david at a vigil in bondi after the terror attack",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b0c7badacadd2172957bd627733f6629?impolicy=wcms_crop_resize&cropH=535&cropW=713&xPos=43&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Royal Commissions",
+            "link": "/news/topic/royal-commissions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106963506",
+        "contentUri": "coremedia://article/106963506",
+        "label": null,
+        "link": "/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+        "title": "Not satire: The Utopia-style regulations holding Australia back from building homes",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A new report from the Productivity Commission has called on governments to embrace a \"build mindset\" to make housing more affordable."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Housing construction",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b85d8ca7715753fa44908904895d8b9d?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Federal Government",
+            "link": "/news/topic/federal-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106954188",
+        "contentUri": "coremedia://article/106954188",
+        "label": null,
+        "link": "/news/2026-07-27/commonwealth-prac-payment-excludes-veterinary-students/106954188",
+        "title": "Veterinary students denied paid training ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The government's expansion of paid university placement programs excludes veterinary students, even though many are required to complete a full year of compulsory practical training."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a girl patting a dog",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96ee80d026434b06492198977327eeb3?impolicy=wcms_crop_resize&cropH=3335&cropW=4447&xPos=277&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Veterinary Medicine",
+            "link": "/news/topic/veterinary-medicine",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106961406",
+        "contentUri": "coremedia://teaser/106961406",
+        "label": null,
+        "link": "/news/2026-07-27/woman-killed-after-crash-with-man-fleeing-stabbing/106960894",
+        "title": "Nurse dies after head-on crash with WA man who had stabbed partner and fled",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A man says it is \"unfair\" his wife and the mother of their two young boys has died following a head-on car crash with a man police say had been driving erratically after stabbing his partner."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman in a oink hat and glasses smiling while sitting near a paddock.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c2fea518595f7115d1f280c3d8ad8f8b?impolicy=wcms_crop_resize&cropH=621&cropW=828&xPos=0&yPos=70&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "106961102",
+        "targetId": "106937992",
+        "contentUri": "coremedia://teaser/106961102",
+        "label": null,
+        "title": "There's a chance your local MP doesn't live in your neighbourhood. Does that matter?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Secret Harbour by-election — in which none of the key candidates live in the electorate in Perth's south — has raised an interesting question: should MPs live in the area they represent?"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-07-26T21:14:18+00:00",
+          "lastUpdated": "2026-07-27T04:39:32+00:00"
+        },
+        "link": "/news/2026-07-27/secret-harbour-by-election-candidates-live-outside-electorate/106937992",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A graphic showing red, blue, green and orange figures with arrows pointing to  electoral seats on a map ",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a51a9bf4d02ccf2b32395ddc42abe0c7?impolicy=wcms_crop_resize&cropH=2160&cropW=2160&xPos=840&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/a51a9bf4d02ccf2b32395ddc42abe0c7?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/a51a9bf4d02ccf2b32395ddc42abe0c7?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a51a9bf4d02ccf2b32395ddc42abe0c7?impolicy=wcms_crop_resize&cropH=2160&cropW=3240&xPos=300&yPos=0&width=862&height=575",
+            "altText": "A graphic showing red, blue, green and orange figures with arrows pointing to  electoral seats on a map ",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Keane Bourke",
+            "title": "By Keane Bourke",
+            "link": "https://www.abc.net.au/news/keane-bourke/12799768",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "K",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c9d7a95ada3a54e2b1dfbfb16ee407d?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=946&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "State and Territory Government",
+            "link": "/news/topic/state-and-territory-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106922228",
+        "contentUri": "coremedia://article/106922228",
+        "label": null,
+        "link": "/news/2026-07-28/increase-in-men-being-diagnosed-with-eating-disorders/106922228",
+        "title": "Men four times as likely to go undiagnosed with eating disorders",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "About 365,000 men across Australia are living with an eating disorder, but they face a system still dismissing them.  "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a man with a moustache sits outside holding a small bulldog ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8cd2b527f91daa95e39b355c1bb9dd8?impolicy=wcms_crop_resize&cropH=904&cropW=1205&xPos=90&yPos=407&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Eating Disorders",
+            "link": "/news/topic/eating-disorders",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106964976",
+        "contentUri": "coremedia://article/106964976",
+        "label": null,
+        "link": "/news/2026-07-28/carly-simon-parkinsons-new-album/106964976",
+        "title": "Carly Simon refuses to be defined by Parkinson's diagnosis",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Singer Carly Simon has been diagnosed with Parkinson's disease and is releasing a new album, Comes in Waves, in August."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Carly Simon sings into a microphone, wearing a green silk shirt.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3939e5cab90fa68cf49552df10917867?impolicy=wcms_crop_resize&cropH=2566&cropW=3421&xPos=7&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Music",
+            "link": "/news/topic/music",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106937688",
+        "contentUri": "coremedia://article/106937688",
+        "label": null,
+        "link": "/news/2026-07-28/hack-depop-vinted-secondhand-clothing-resale-apps/106937688",
+        "title": "'Massive growth' of second-hand fashion apps in Australia",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Resale app users are balancing convenience with overconsumption in the second-hand fashion conversation."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Hand on phone with clothes on screen",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad50b4e618452cd45079e8de6ca13bf1?impolicy=wcms_crop_resize&cropH=3768&cropW=5024&xPos=1330&yPos=904&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Fashion",
+            "link": "/news/topic/fashion",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106949432",
+        "contentUri": "coremedia://article/106949432",
+        "theme": "light-blue",
+        "label": null,
+        "link": "/news/2026-07-28/abc-places-quiz-july-28/106949432",
+        "title": "ABC Places quiz: Where in the world are we?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Your challenge in the ABC Places quiz is to work out the location of 10 photos from around the world. Be warned; we might try to trick you."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "People in silhouette hold up phones to record a drone show in the night sky",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/99f1d5dc42eabc9956fafc7d45889f0d?impolicy=wcms_crop_resize&cropH=1314&cropW=1752&xPos=1460&yPos=547&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Quiz",
+            "type": "genre",
+            "screenReader": "Topic",
+            "link": "/news/quizzes",
             "key": "Tag1"
           }
         ],
@@ -551,11 +1412,11 @@
       },
       {
         "type": "generic",
-        "id": "106937992",
-        "contentUri": "coremedia://article/106937992",
+        "id": "106964222",
+        "contentUri": "coremedia://article/106964222",
         "label": null,
-        "link": "/news/2026-07-27/secret-harbour-by-election-candidates-live-outside-electorate/106937992",
-        "title": "There's a chance your local MP doesn't live in your neighbourhood. Does that matter?",
+        "link": "/news/2026-07-27/bill-oddie-a-member-of-the-goodies-dead-at-85/106964222",
+        "title": "Bill Oddie, member of The Goodies comedy series, dead at 85",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -569,7 +1430,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Secret Harbour by-election — in which none of the key candidates live in the electorate in Perth's south — has raised an interesting question: should MPs live in the area they represent?"
+                    "content": "British actor, comedian and broadcaster Bill Oddie, best known to Australian audiences as a member of the 1970s comedy trio The Goodies, has died aged 85, his agent has announced."
                   }
                 ]
               }
@@ -577,16 +1438,16 @@
           }
         },
         "image": {
-          "altText": "A graphic showing red, blue, green and orange figures with arrows pointing to  electoral seats on a map ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a51a9bf4d02ccf2b32395ddc42abe0c7?impolicy=wcms_crop_resize&cropH=2160&cropW=2880&xPos=480&yPos=0&width=160&height=120",
+          "altText": "Bill Oddie with the other members of The Goodies standing in a field in a 1970s photo",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eb15b27d72ad91060e96add937cd31b0?impolicy=wcms_crop_resize&cropH=728&cropW=971&xPos=29&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "State and Territory Government",
-            "link": "/news/topic/state-and-territory-government",
+            "title": "Death and Dying",
+            "link": "/news/topic/death-and-dying",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -597,11 +1458,11 @@
       },
       {
         "type": "generic",
-        "id": "106954188",
-        "contentUri": "coremedia://article/106954188",
+        "id": "106964928",
+        "contentUri": "coremedia://article/106964928",
         "label": null,
-        "link": "/news/2026-07-27/commonwealth-prac-payment-excludes-veterinary-students/106954188",
-        "title": "Veterinary students denied paid training ",
+        "link": "/news/2026-07-28/cabo-verde-stunner-gets-people-s-vote-as-best-world-cup-goal/106964928",
+        "title": "Cabo Verde stunner gets people's vote as best World Cup goal",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -615,7 +1476,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The government's expansion of paid university placement programs excludes veterinary students, even though many are required to complete a full year of compulsory practical training."
+                    "content": "A stunning strike from World Cup minnows Cabo Verde against Argentina is voted as the goal for the tournament. "
                   }
                 ]
               }
@@ -623,16 +1484,16 @@
           }
         },
         "image": {
-          "altText": "a girl patting a dog",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96ee80d026434b06492198977327eeb3?impolicy=wcms_crop_resize&cropH=3335&cropW=4447&xPos=277&yPos=0&width=160&height=120",
+          "altText": "A Cabo Verde footballer looks down as his foot connects with the ball to send it to the net at a World Cup.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24df3756bee69aa15272f4904acf36f2?impolicy=wcms_crop_resize&cropH=1323&cropW=1764&xPos=110&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Veterinary Medicine",
-            "link": "/news/topic/veterinary-medicine",
+            "title": "FIFA World Cup",
+            "link": "/news/topic/fifa-world-cup",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -643,11 +1504,11 @@
       },
       {
         "type": "generic",
-        "id": "106961406",
-        "contentUri": "coremedia://teaser/106961406",
+        "id": "106961262",
+        "contentUri": "coremedia://teaser/106961262",
         "label": null,
-        "link": "/news/2026-07-27/woman-killed-after-crash-with-man-fleeing-stabbing/106960894",
-        "title": "Nurse dies after head-on crash with WA man who had stabbed partner and fled",
+        "link": "/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+        "title": "WA to host SA in AFL State of Origin next year, but will miss out in 2028",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -661,7 +1522,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A man says it is \"unfair\" his wife and the mother of their two young boys has died following a head-on car crash with a man police say had been driving erratically after stabbing his partner."
+                    "content": "The AFL confirms the future of State of Origin, with Western Australia to host South Australia next year — but WA will be the one left out in 2028 when South Australia hosts Victoria."
                   }
                 ]
               }
@@ -669,16 +1530,16 @@
           }
         },
         "image": {
-          "altText": "A woman in a oink hat and glasses smiling while sitting near a paddock.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c2fea518595f7115d1f280c3d8ad8f8b?impolicy=wcms_crop_resize&cropH=621&cropW=828&xPos=0&yPos=70&width=160&height=120",
+          "altText": "Kysaiah Pickett of Western Australia is tackled by Hugh McCluggage of Victoria",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/11a3cd755ce98cacfea9c69b23a79f46?impolicy=wcms_crop_resize&cropH=2869&cropW=3825&xPos=237&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Crime",
-            "link": "/news/topic/crime",
+            "title": "AFL",
+            "link": "/news/topic/afl",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -686,19 +1547,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5313390",
-    "uri": "coremedia://collection/5313390",
-    "title": "WA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106959916",
+        "contentUri": "coremedia://article/106959916",
+        "label": null,
+        "link": "/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
+        "title": "WA government considering new gas-fired power plant as coal phases out",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The state government has confirmed it is investigating building and running a new gas-fired power plant in the south of Perth as it prepares to switch off coal by 2030. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Smoke billows out of a power plant during golden hour on a cloudy day, casting the scene in an orange hue.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c374c056ebac2974ae6e1fc4544770dd?impolicy=wcms_crop_resize&cropH=3376&cropW=4501&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Oil and Gas",
+            "link": "/news/topic/oil-and-gas",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "106961348",
@@ -815,374 +1710,6 @@
       },
       {
         "type": "generic",
-        "id": "106962048",
-        "contentUri": "coremedia://article/106962048",
-        "label": null,
-        "link": "/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
-        "title": "Hanson 'disappointed' after losing racial discrimination appeal",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "One Nation leader Pauline Hanson loses an appeal against a court ruling which found she racially discriminated against Greens senator Mehreen Faruqi."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A composite image of Pauline Hanson and Mehreen Faruqi",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8a4ef689e9fa447d5b21828baeb2e976?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106960940",
-        "contentUri": "coremedia://article/106960940",
-        "label": null,
-        "link": "/news/2026-07-27/bondi-antisemitism-royal-commission-arming-security-guards/106960940",
-        "title": "Risk consultant defends arming private security at Jewish events",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A royal commission on antisemitism has pressed a risk and security consultant on his belief that the private security sector should be armed when protecting open air events."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Mr Schneider walking in front of a building while wearing a blue suit and red tie with a serious look on his face.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6052c84e7b70f512552ceca976567b29?impolicy=wcms_crop_resize&cropH=1716&cropW=2288&xPos=92&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Royal Commissions",
-            "link": "/news/topic/royal-commissions",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106961030",
-        "contentUri": "coremedia://article/106961030",
-        "label": null,
-        "link": "/news/2026-07-27/nsw-icac-operation-rosny-jean-nassif-perrottet-brothers/106961030",
-        "title": "Fugitive developer sought influence via ex-premier's brothers, ICAC told",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The corruption watchdog has heard that fugitive developer Jean Nassif allegedly sought to use former NSW premier Dominic Perrottet's brothers to influence government decisions."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Woman with brown hair dark-rimmed glasses and dark suit jacket, white shirt",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2ce45ee71e9386ffeb9fc4790b9c7efc?impolicy=wcms_crop_resize&cropH=842&cropW=1123&xPos=135&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Corruption",
-            "link": "/news/topic/corruption",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106959916",
-        "contentUri": "coremedia://article/106959916",
-        "label": null,
-        "link": "/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
-        "title": "WA government considering new gas-fired power plant as coal phases out",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The state government has confirmed it is investigating building and running a new gas-fired power plant in the south of Perth as it prepares to switch off coal by 2030. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Smoke billows out of a power plant during golden hour on a cloudy day, casting the scene in an orange hue.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c374c056ebac2974ae6e1fc4544770dd?impolicy=wcms_crop_resize&cropH=3376&cropW=4501&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Oil and Gas",
-            "link": "/news/topic/oil-and-gas",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106961262",
-        "contentUri": "coremedia://teaser/106961262",
-        "label": null,
-        "link": "/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
-        "title": "WA to host SA in AFL State of Origin next year, but will miss out in 2028",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The AFL confirms the future of State of Origin, with Western Australia to host South Australia next year — but WA will be the one left out in 2028 when South Australia hosts Victoria."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Kysaiah Pickett of Western Australia is tackled by Hugh McCluggage of Victoria",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/11a3cd755ce98cacfea9c69b23a79f46?impolicy=wcms_crop_resize&cropH=2869&cropW=3825&xPos=237&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AFL",
-            "link": "/news/topic/afl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106961794",
-        "contentUri": "coremedia://article/106961794",
-        "label": null,
-        "link": "/news/2026-07-27/seven-suspected-h5-bird-flu-cases-in-sa/106961794",
-        "title": "Seven new suspected H5 bird flu cases detected in SA",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Federal Agriculture Minister Julie Collins says urgent testing is being conducted by the CSIRO."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A flock of white-and-black birds on the wing near a rock wall.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/73ae667b571b2a5f04a7801451f70bcd?impolicy=wcms_crop_resize&cropH=1365&cropW=1820&xPos=227&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Birds",
-            "link": "/news/topic/birds",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106963058",
-        "contentUri": "coremedia://article/106963058",
-        "label": null,
-        "link": "/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
-        "title": "Baby still missing after bodies of woman and toddler found off SA coast",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A baby under 12 months old remains missing after the bodies of a woman and a toddler were recovered from waters off the coast of Port MacDonnell in South Australia's South East, police say."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two people in orange high-visibility clothing stand in front of a Special emergency Service truck and look at flying helicopter ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bda90552530e4c93a1a00dc171647549?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Police",
-            "link": "/news/topic/police",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106728062",
-        "contentUri": "coremedia://article/106728062",
-        "label": null,
-        "link": "/news/2026-07-27/race-around-the-world-documentary-wrap/106728062",
-        "title": "Influencers and cultural rituals: Race Around the World's films",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "From bullfighting in Madagascar to swimming the English Channel in Jersey, catch up on every week eight film from Race Around the World."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two men snorkelling in clear water.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/373a10d5236529e554265b7416b0e706?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Documentaries",
-            "link": "/news/topic/documentaries",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "106950558",
         "contentUri": "coremedia://article/106950558",
         "label": null,
@@ -1219,287 +1746,6 @@
           {
             "title": "Oil and Gas",
             "link": "/news/topic/oil-and-gas",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106964230",
-        "targetId": "106963350",
-        "contentUri": "coremedia://teaser/106964230",
-        "label": null,
-        "title": "Australia's most disaster-hit state to opt out of AusAlert as government hails national test a success",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The AusAlert system was tested today, with millions of devices receiving alerts, but many Australians reported issues and delays."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-07-27T07:50:27+00:00",
-          "lastUpdated": "2026-07-27T10:13:36+00:00"
-        },
-        "link": "/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350",
-        "related": {
-          "title": null,
-          "videos": [
-            {
-              "id": "106963914",
-              "canonicalURL": "https://www.abc.net.au/news/2026-07-27/where-were-you-when-ausalert-went-off-/106963914",
-              "uri": "coremedia://video/106963914",
-              "duration": 139,
-              "sources": [
-                {
-                  "file": "https://mediacore-live-production.akamaized.net/video/02/ms/Z/ov.mp4",
-                  "type": "video/mp4",
-                  "fileSize": 173917184,
-                  "bitrate": 9828,
-                  "label": "9.83 mbps"
-                }
-              ],
-              "tracks": [],
-              "ratio": "9x16",
-              "image": {
-                "altText": "Two students smiling to camera while holding their phones. Blue background with white ABC News Loop logo.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2fc674134606b8d9f0bf081ea6f51c08?impolicy=wcms_crop_resize&cropH=1920&cropW=1080&xPos=0&yPos=0&width=862&height=1533",
-                "width": "862",
-                "height": "1533"
-              },
-              "isVerticalVideo": true
-            }
-          ],
-          "audio": [],
-          "articles": [
-            {
-              "id": "106919574",
-              "contentUri": "coremedia://article/106919574",
-              "theme": "sand",
-              "label": null,
-              "link": "/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
-              "title": "Hear that siren? That was the first test of a national emergency alert",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Australia gets its first taste of a new nationwide emergency warning system as millions of devices across the country sound off simultaneously. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Stylised graphic of smartphone with large message screen with exclaimation point and sound lines.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6334d2d486124f9ca6cf10c9b4d4ce51?impolicy=wcms_crop_resize&cropH=1400&cropW=1867&xPos=117&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [
-                {
-                  "title": "Explainer",
-                  "type": "genre",
-                  "screenReader": "Topic",
-                  "key": "Tag1"
-                }
-              ],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
-        },
-        "gallery": [
-          {
-            "altText": "AusAlert text example on an iphone. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c9d7244de0e9cfea6881b8e2744ce870?impolicy=wcms_crop_resize&cropH=485&cropW=485&xPos=131&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/c9d7244de0e9cfea6881b8e2744ce870?impolicy=wcms_crop_resize&cropH=485&cropW=862&xPos=0&yPos=0&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/c9d7244de0e9cfea6881b8e2744ce870?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=67&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c9d7244de0e9cfea6881b8e2744ce870?impolicy=wcms_crop_resize&cropH=485&cropW=728&xPos=67&yPos=0&width=862&height=575",
-            "altText": "AusAlert text example on an iphone. ",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Fergus Gregg",
-            "title": "By Fergus Gregg",
-            "link": "https://www.abc.net.au/news/fergus-gregg/106409876",
-            "type": "author",
-            "key": "Tag1"
-          }
-        ],
-        "readTime": 5,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106896866",
-        "contentUri": "coremedia://article/106896866",
-        "label": null,
-        "link": "/news/2026-07-27/luke-bateman-survived-gambling-addiction/106896866",
-        "title": "He earned $400K a year, but the NRL's Luke Bateman couldn't afford groceries",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Luke Bateman was 19 and living out his NRL dream when he went to a casino for the first time. It kickstarted a gambling addiction, and he retired from sport $250,000 in debt."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Luke Bateman lies on ground amid dry grassland. He holds a book on his chest and wears jeans and a flannelette shirt",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f169551451a08fc4ed7e958ad006aa05?impolicy=wcms_crop_resize&cropH=1415&cropW=1887&xPos=917&yPos=98&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Gambling",
-            "link": "/news/topic/gambling",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106908468",
-        "contentUri": "coremedia://article/106908468",
-        "label": null,
-        "link": "/news/2026-07-27/the-risk-of-using-ai-chatbots-for-relationship-advice/106908468",
-        "title": "The risks to be aware of when using AI chatbots for relationship advice",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "While the accessibility and \"judgement-free zone\" of AI chatbots can be attractive when seeking relationship advice, experts warn there are risks you need to be aware of.  "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "woman sitting on couch looking at phone",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b57801076aef6f730e7d3609e77f4afc?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=254&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Relationships",
-            "link": "/news/topic/relationships",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106891632",
-        "contentUri": "coremedia://article/106891632",
-        "label": null,
-        "link": "/news/2026-07-27/kogan-exclusive-brands-website-pricing/106891632",
-        "title": "Kogan running 'clone' website selling same products at higher prices",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "An ABC investigation has discovered that leading online retailer Kogan is operating a second website called Exclusive Brands, selling the same products with large price hikes. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Close up of a woman looking at a laptop with Kogan website on the screen.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ca84d6d945a55264ee42ec02d16b740?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Consumer Protection",
-            "link": "/news/topic/consumer-protection",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
