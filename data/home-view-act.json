@@ -9,11 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "106971840",
-        "contentUri": "coremedia://article/106971840",
+        "type": "rich",
+        "id": "106973734",
+        "targetId": "106971840",
+        "contentUri": "coremedia://teaser/106973734",
         "label": null,
-        "link": "/news/2026-07-29/former-political-staffer-settles-case-brittany-higgins-fallout/106971840",
         "title": "Staffer to whom Brittany Higgins first confided rape allegation settles case",
         "content": {
           "descriptor": {
@@ -35,9 +35,93 @@
             ]
           }
         },
+        "dates": {
+          "firstPublished": "2026-07-29T05:06:06+00:00",
+          "lastUpdated": "2026-07-29T06:49:19+00:00"
+        },
+        "link": "/news/2026-07-29/former-political-staffer-settles-case-brittany-higgins-fallout/106971840",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "altText": "A close up of Fiona Brown in a grey suit leaving court.",
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30b825a54edbe064c6205166ab8dba8d?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=1101&yPos=0&width=862&height=862"
+          }
+        ],
+        "thumbnail": [
+          {
+            "srcSetArray": [
+              "https://live-production.wcms.abc-cdn.net.au/30b825a54edbe064c6205166ab8dba8d?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=239&width=862&height=485 485w",
+              "https://live-production.wcms.abc-cdn.net.au/30b825a54edbe064c6205166ab8dba8d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575 575w"
+            ],
+            "sizesArray": [
+              "(max-width:767px) 485px",
+              "575px"
+            ],
+            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30b825a54edbe064c6205166ab8dba8d?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+            "altText": "A close up of Fiona Brown in a grey suit leaving court.",
+            "height": "485",
+            "width": "862"
+          }
+        ],
+        "tags": [
+          {
+            "text": "Jade Toomey",
+            "title": "By Jade Toomey",
+            "link": "https://www.abc.net.au/news/jade-toomey/13310134",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad5a48bccfc8f30ffa8304b90c0f54c3?impolicy=wcms_crop_resize&cropH=349&cropW=349&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106972228",
+        "contentUri": "coremedia://article/106972228",
+        "label": null,
+        "link": "/news/2026-07-29/man-appeals-against-murder-sentence-canberra-zoo-stabbing/106972228",
+        "title": "'Jealous, possessive man' appeals against sentence for murdering zoo colleague",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "It remains one of the ACT's most significant sentences, with Chief Justice McCallum stopping short of sentencing the offender to life in jail."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "A close up of Fiona Brown in a grey suit leaving court.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30b825a54edbe064c6205166ab8dba8d?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=546&yPos=0&width=160&height=120",
+          "altText": "A police car outside National Zoo and Aquarium.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a2d1e2d02358efdb0e83c6b1fbbfe031?impolicy=wcms_crop_resize&cropH=1113&cropW=1483&xPos=694&yPos=1103&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -509,7 +593,7 @@
         "targetId": "106970640",
         "contentUri": "coremedia://teaser/106972234",
         "label": null,
-        "title": "Resident describes earth 'ripping itself apart' as quake hit Japan",
+        "title": "Japan in 'race against time' to rescue earthquake victims",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -523,7 +607,29 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Thirteen people have now been confirmed dead after a magnitude-7.1 earthquake hit Japan's south."
+                    "content": "After a magnitude-7.1 earthquake struck the Japanese island of Kyushu on Tuesday, 13 people have been confirmed dead."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Two of that number were women who were at a Kumamoto shopping centre, where an explosion caused widespread damage an hour after people were evacuated."
+                  }
+                ]
+              },
+              {
+                "type": "tagname",
+                "key": "p",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Multiple people remain missing at a Yatsushiro factory, where a chimney collapsed, according to NHK."
                   }
                 ]
               }
@@ -537,7 +643,32 @@
         "link": "/news/2026-07-29/japan-explosion-at-mall-after-earthquake-damage/106970640",
         "related": {
           "title": null,
-          "videos": [],
+          "videos": [
+            {
+              "id": "106973842",
+              "canonicalURL": "https://www.abc.net.au/news/2026-07-29/shopping-mall-collapses-in-japan-after-magnitude-7-1-earthquake/106973842",
+              "uri": "coremedia://video/106973842",
+              "duration": 62,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/mv/Z/7r.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 77180334,
+                  "bitrate": 9782,
+                  "label": "9.78 mbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "9x16",
+              "image": {
+                "altText": "Smoke seen rising from a building in an urban scene, power poles, power lines and a parked van can be seen in the foreground",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dedcd0e3c60445a7649fd8369b01911?impolicy=wcms_crop_resize&cropH=1920&cropW=1080&xPos=0&yPos=0&width=862&height=1533",
+                "width": "862",
+                "height": "1533"
+              },
+              "isVerticalVideo": true
+            }
+          ],
           "audio": [],
           "articles": []
         },
@@ -1726,8 +1857,8 @@
           }
         },
         "image": {
-          "altText": "A tanned woman, with blue dress, short curly black hair, being walked out of building with officers either side of her.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/eae3069d68e699b8a6f7538c64579922?impolicy=wcms_crop_resize&cropH=922&cropW=1230&xPos=244&yPos=126&width=160&height=120",
+          "altText": "Genevine Ifunanya Ebelebe leaves court with black fabric over her head.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d3863e14a0123072b17c5c8463a10cf9?impolicy=wcms_crop_resize&cropH=2832&cropW=3776&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -2052,85 +2183,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "106969736",
-        "targetId": "106962176",
-        "contentUri": "coremedia://teaser/106969736",
-        "label": null,
-        "title": "Hundreds of Queensland social housing tenants evicted after review",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Dozens of households have been kicked out of social housing in Queensland after being found to own property or earn more than $80,000 a year."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-07-28T19:41:32+00:00",
-          "lastUpdated": "2026-07-28T19:41:32+00:00"
-        },
-        "link": "/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "altText": "A wide shot of suburban housing on a hill. ",
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb192aff74d83d827fa560f4fef66101?impolicy=wcms_crop_resize&cropH=533&cropW=533&xPos=134&yPos=0&width=862&height=862"
-          }
-        ],
-        "thumbnail": [
-          {
-            "srcSetArray": [
-              "https://live-production.wcms.abc-cdn.net.au/bb192aff74d83d827fa560f4fef66101?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=41&width=862&height=485 485w",
-              "https://live-production.wcms.abc-cdn.net.au/bb192aff74d83d827fa560f4fef66101?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575 575w"
-            ],
-            "sizesArray": [
-              "(max-width:767px) 485px",
-              "575px"
-            ],
-            "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bb192aff74d83d827fa560f4fef66101?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=0&width=862&height=575",
-            "altText": "A wide shot of suburban housing on a hill. ",
-            "height": "485",
-            "width": "862"
-          }
-        ],
-        "tags": [
-          {
-            "text": "Claudia Williams",
-            "title": "By Claudia Williams",
-            "link": "https://www.abc.net.au/news/claudia-williams/101870526",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Public Housing",
-            "link": "/news/topic/public-housing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
       }
     ]
   }
