@@ -94,6 +94,52 @@
       },
       {
         "type": "generic",
+        "id": "106983170",
+        "contentUri": "coremedia://article/106983170",
+        "label": null,
+        "link": "/news/2026-08-01/vigil-for-aboriginal-man-who-died-in-police-custody-adelaide/106983170",
+        "title": "Family pays tribute to Aboriginal man who died in police custody",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Family and friends of an Aboriginal man who died in police custody in Adelaide just over a week ago have paid tribute to the 23-year-old at a CBD vigil."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman at a private vigil for an Aboriginal man who died in custody.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2e1810a36359e81bbd1deb31cb52ae0?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Black Deaths In Custody",
+            "link": "/news/topic/black-deaths-in-custody",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "106981748",
         "contentUri": "coremedia://article/106981748",
         "label": null,
@@ -130,52 +176,6 @@
           {
             "title": "Justice System",
             "link": "/news/topic/justice-system",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106980254",
-        "contentUri": "coremedia://article/106980254",
-        "label": null,
-        "link": "/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254",
-        "title": "Shopping centre, ATO still without power after burst main in Adelaide",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A major shopping complex and the ATO's Adelaide offices are among several CBD sites expected to remain without power for another 24 hours after a burst water main flooded an electrical substation."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Flooding at an electrical substation on Coromandel Place in Adelaide's CBD.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bfb010f0ec3ca1f52e9a2e28d1385d97?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=0&yPos=350&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Road Accidents and Incidents",
-            "link": "/news/topic/road-accidents-and-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -261,6 +261,52 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106980254",
+        "contentUri": "coremedia://article/106980254",
+        "label": null,
+        "link": "/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254",
+        "title": "Shopping centre, ATO still without power after burst main in Adelaide",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A major shopping complex and the ATO's Adelaide offices are among several CBD sites expected to remain without power for another 24 hours after a burst water main flooded an electrical substation."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Flooding at an electrical substation on Coromandel Place in Adelaide's CBD.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bfb010f0ec3ca1f52e9a2e28d1385d97?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=0&yPos=350&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -399,7 +445,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106966246",
@@ -445,19 +503,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "106970836",
@@ -496,52 +542,6 @@
           {
             "title": "Local Government",
             "link": "/news/topic/local-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106975694",
-        "contentUri": "coremedia://article/106975694",
-        "label": null,
-        "link": "/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694",
-        "title": "SA nurses and midwives reject government pay rise offer",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "South Australia's public sector nurses and midwives have voted to reject the state government's latest pay rise offer, sending the matter to the SA Employment Tribunal."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Emergency department signage at the Lyell McEwin Hospital.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/305a42d966dd5fa1498521fea33fd2e0?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Nurses",
-            "link": "/news/topic/nurses",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -703,6 +703,52 @@
         ],
         "readTime": 1,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106975694",
+        "contentUri": "coremedia://article/106975694",
+        "label": null,
+        "link": "/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694",
+        "title": "SA nurses and midwives reject government pay rise offer",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "South Australia's public sector nurses and midwives have voted to reject the state government's latest pay rise offer, sending the matter to the SA Employment Tribunal."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Emergency department signage at the Lyell McEwin Hospital.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/305a42d966dd5fa1498521fea33fd2e0?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Nurses",
+            "link": "/news/topic/nurses",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -935,58 +981,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106982608",
-        "contentUri": "coremedia://article/106982608",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-08-01/us-military-personnel-aukus-deployment-conroy-remarks/106982608",
-        "title": "A week of AUKUS double-speak leaves everyone scratching their heads",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "This week's back-and-forth over AUKUS adds to the hubbub in June about whether it was a major setback that Australia's future Virginia-class submarines will be used US boats rather than some fresh off the construction dock."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man with short hair and black rimmed glasses, talking.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2dcc3aa558ed8494357d27e3fa7374ee?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=295&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Jacob Greber",
-            "title": "Analysis by Jacob Greber",
-            "link": "https://www.abc.net.au/news/jacob-greber/104135740",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "J",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe05d5b4b5df3f4f6bb309d570958f0b?impolicy=wcms_crop_resize&cropH=2053&cropW=2053&xPos=1344&yPos=116&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "106984472",
         "targetId": "106980504",
@@ -1103,11 +1097,12 @@
       },
       {
         "type": "generic",
-        "id": "106978476",
-        "contentUri": "coremedia://article/106978476",
+        "id": "106982608",
+        "contentUri": "coremedia://article/106982608",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-08-01/ben-carroll-new-cabinet-jacinta-allan-leadership-spill/106978476",
-        "title": "The Labor MPs chasing promotions after Vic leadership spill ",
+        "link": "/news/2026-08-01/us-military-personnel-aukus-deployment-conroy-remarks/106982608",
+        "title": "A week of AUKUS double-speak leaves everyone scratching their heads",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1121,7 +1116,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "New Victorian Premier Ben Carroll is expected to announce his new-look ministry on Monday, with a handful of Labor MPs now jostling for promotions following the resignation of Jacinta Allan."
+                    "content": "This week's back-and-forth over AUKUS adds to the hubbub in June about whether it was a major setback that Australia's future Virginia-class submarines will be used US boats rather than some fresh off the construction dock."
                   }
                 ]
               }
@@ -1129,18 +1124,23 @@
           }
         },
         "image": {
-          "altText": "A blonde woman in a white suit stands at a table in the middle of curved wooden rows of people in a room with green carpet.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/192f23d9250aba2dba992fc71b0f9041?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "altText": "A man with short hair and black rimmed glasses, talking.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2dcc3aa558ed8494357d27e3fa7374ee?impolicy=wcms_crop_resize&cropH=3512&cropW=4683&xPos=295&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Government and Politics",
-            "link": "/news/topic/government-and-politics",
-            "type": "subject",
-            "screenReader": "Topic",
+            "text": "Jacob Greber",
+            "title": "Analysis by Jacob Greber",
+            "link": "https://www.abc.net.au/news/jacob-greber/104135740",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe05d5b4b5df3f4f6bb309d570958f0b?impolicy=wcms_crop_resize&cropH=2053&cropW=2053&xPos=1344&yPos=116&width=160&height=160"
+            },
+            "type": "combined",
             "key": "Tag1"
           }
         ],
