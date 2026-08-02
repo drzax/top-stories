@@ -14,7 +14,7 @@
         "targetId": "106985440",
         "contentUri": "coremedia://teaser/106988846",
         "label": null,
-        "title": "Minister instructs Qld Health to review 'discriminatory' fertility guidance",
+        "title": "Queensland's IVF guidance to be reviewed 'as a matter of priority'",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -91,6 +91,52 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106962542",
+        "contentUri": "coremedia://article/106962542",
+        "label": null,
+        "link": "/news/2026-08-03/texas-community-push-to-build-much-needed-aged-care-facility/106962542",
+        "title": "Residents hope to raise $750,000 to fix small town's aged care problem",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Residents in Texas are kept awake at night wondering what will happen to them as they get older, but they are dreaming big."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman standing on a quiet street.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/16de48477123748a996f387486e54717?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=1006&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Aged Care",
+            "link": "/news/topic/aged-care",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -229,7 +275,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106980508",
@@ -268,6 +326,52 @@
           {
             "title": "Unions",
             "link": "/news/topic/unions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106976660",
+        "contentUri": "coremedia://article/106976660",
+        "label": null,
+        "link": "/news/2026-08-02/lockyer-valley-sandstone-quarry-application-withdrawn/106976660",
+        "title": "Sandstone miner scraps Lockyer Valley project after farmers' pleas",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A quiet farming community found itself at the centre of a major battle when mining threatened their land. What happened next surprised everyone."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a man stands in front of sandstone",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3842f5292b346ca8e2df66e1bafe5486?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Agriculture",
+            "link": "/news/topic/agriculture",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -358,64 +462,6 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
-      {
-        "type": "generic",
-        "id": "106976660",
-        "contentUri": "coremedia://article/106976660",
-        "label": null,
-        "link": "/news/2026-08-02/lockyer-valley-sandstone-quarry-application-withdrawn/106976660",
-        "title": "Sandstone miner scraps Lockyer Valley project after farmers' pleas",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A quiet farming community found itself at the centre of a major battle when mining threatened their land. What happened next surprised everyone."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a man stands in front of sandstone",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3842f5292b346ca8e2df66e1bafe5486?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Agriculture",
-            "link": "/news/topic/agriculture",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -455,6 +501,52 @@
           {
             "title": "Universities",
             "link": "/news/topic/universities",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106976638",
+        "contentUri": "coremedia://article/106976638",
+        "label": null,
+        "link": "/news/2026-07-31/qld-cairns-court-npo-high-profile-man/106976638",
+        "title": "Judge reserves decision in unmasking high-profile man in alleged extortion case",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "MM's name has been suppressed by a Cairns court since late May, although he was not the direct target of the alleged threat."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a silhouette of a man in front of a set of law scales",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4474dcaf84a5449ae1659154366138db?impolicy=wcms_crop_resize&cropH=840&cropW=1120&xPos=280&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -546,52 +638,6 @@
         ],
         "readTime": 6,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106976638",
-        "contentUri": "coremedia://article/106976638",
-        "label": null,
-        "link": "/news/2026-07-31/qld-cairns-court-npo-high-profile-man/106976638",
-        "title": "Judge reserves decision in unmasking high-profile man in alleged extortion case",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "MM's name has been suppressed by a Cairns court since late May, although he was not the direct target of the alleged threat."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a silhouette of a man in front of a set of law scales",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4474dcaf84a5449ae1659154366138db?impolicy=wcms_crop_resize&cropH=840&cropW=1120&xPos=280&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -732,6 +778,52 @@
         "dates": null
       },
       {
+        "type": "generic",
+        "id": "106981428",
+        "contentUri": "coremedia://article/106981428",
+        "label": null,
+        "link": "/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428",
+        "title": "Government questioned over cost blowout for proposed weirs",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The LNP state government made an election commitment to build two new weirs in the North Burnett and the South Burnett regions."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "computer generated image of a weir",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cc9712c7c62d009a462005cf0ff1960?impolicy=wcms_crop_resize&cropH=563&cropW=751&xPos=121&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Infrastructure",
+            "link": "/news/topic/infrastructure",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "rich",
         "id": "106985306",
         "targetId": "106949612",
@@ -844,190 +936,6 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106981428",
-        "contentUri": "coremedia://article/106981428",
-        "label": null,
-        "link": "/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428",
-        "title": "Government questioned over cost blowout for proposed weirs",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The LNP state government made an election commitment to build two new weirs in the North Burnett and the South Burnett regions."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "computer generated image of a weir",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cc9712c7c62d009a462005cf0ff1960?impolicy=wcms_crop_resize&cropH=563&cropW=751&xPos=121&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Infrastructure",
-            "link": "/news/topic/infrastructure",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106981678",
-        "contentUri": "coremedia://article/106981678",
-        "label": null,
-        "link": "/news/2026-07-31/families-taipan-crash-launch-class-action-commonwealth-airbus/106981678",
-        "title": "Families of men killed in Taipan army helicopter crash launch class action",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The families of four defence personnel killed in an army helicopter crash in 2023 have launched a class action lawsuit."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A boy and woman look at a memorial. The water visible in the background. Their backs are towards the camera.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6c99a68965c6cbe18fd2439e86c279b9?impolicy=wcms_crop_resize&cropH=2832&cropW=3776&xPos=232&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Defence Forces",
-            "link": "/news/topic/defence-forces",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106974888",
-        "contentUri": "coremedia://article/106974888",
-        "label": null,
-        "link": "/news/2026-07-31/stolen-wagyu-cattle-central-queensland/106974888",
-        "title": "Pregnant wagyu cows and calves worth $200,000 stolen from station",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Pregnant cows and calves are among 142 wagyu cross cattle believed to have been stolen from a central Queensland station."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman faces away from the camera, watching cattle, in a wide-brimmed hat, pink shirt and long hair.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c172252d6624d20fbed6649cda9bbb46?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=843&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Agriculture",
-            "link": "/news/topic/agriculture",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106978124",
-        "contentUri": "coremedia://article/106978124",
-        "label": null,
-        "link": "/news/2026-07-31/amanda-camm-budget-estimates/106978124",
-        "title": "Qld domestic violence minister blames former government for system failings",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Amanda Camm told budget estimates a \"shameful scare campaign\" had some women \"more frightened to seek support\" from domestic violence services."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Amanda Camm",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/baddf41d3cf0494028f6eb5f46d46df7?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "State and Territory Parliament",
-            "link": "/news/topic/state-and-territory-parliament",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       }
     ]
   }
