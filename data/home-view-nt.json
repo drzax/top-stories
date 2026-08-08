@@ -614,12 +614,12 @@
     "moduleLabel": "More News",
     "items": [
       {
-        "type": "generic",
-        "id": "106995760",
-        "contentUri": "coremedia://article/106995760",
+        "type": "rich",
+        "id": "107012334",
+        "targetId": "107006170",
+        "contentUri": "coremedia://teaser/107012334",
         "label": null,
-        "link": "/news/2026-08-07/afl-round-22-brisbane-lions-hawthorn-hawks-live-blog/106995760",
-        "title": "Ruthless Lions send ominous warning to AFL rivals by dismantling Hawks",
+        "title": "Drugs, sex and explosive claims light a fire under gambling reform",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -633,7 +633,138 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Brisbane shows the rest of the competition why it has won the last two premierships by dominating Hawthorn at the Gabba."
+                    "content": "The explosive evidence heard at a two-day inquiry into Labor's proposed crackdown on wagering advertising has proved a watershed moment for the increasingly friendless bill."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-07T19:00:00+00:00",
+          "lastUpdated": "2026-08-07T19:00:00+00:00"
+        },
+        "link": "/news/2026-08-08/gambling-ad-restrictions-senate-inquiry-albanese-labor-broadcast/107006170",
+        "related": {
+          "title": "More politics",
+          "videos": [],
+          "audio": [],
+          "articles": [
+            {
+              "id": "107008424",
+              "contentUri": "coremedia://article/107008424",
+              "label": null,
+              "link": "/news/2026-08-07/migration-cuts-tony-burke-cabinet/107008424",
+              "title": "Visa overstayers to have work rights revoked if asylum claim rejected",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "The federal government is expected to take a hard line on temporary visas as it continues to consider ways to reduce Australia's migration figures."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A clean-shaven man with grey hair and glasses, speaking at a lectern.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/811da37622023a2d1846922c6960087e?impolicy=wcms_crop_resize&cropH=3264&cropW=4352&xPos=724&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A man in a white shirt sits at a table with a microphone",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17501012a46557f9a3d94ddcee005f29?impolicy=wcms_crop_resize&cropH=2770&cropW=2770&xPos=1076&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A man in a white shirt sits at a table with a microphone",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17501012a46557f9a3d94ddcee005f29?impolicy=wcms_crop_resize&cropH=2770&cropW=4155&xPos=384&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A man in a white shirt sits at a table with a microphone",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17501012a46557f9a3d94ddcee005f29?impolicy=wcms_crop_resize&cropH=2768&cropW=4922&xPos=0&yPos=1&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Clare Armstrong",
+            "title": "Analysis by Clare Armstrong",
+            "link": "https://www.abc.net.au/news/clare-armstrong/105969816",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "C",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/223fdd88faa7e2b5ceb352887a3e288a?impolicy=wcms_crop_resize&cropH=1363&cropW=1363&xPos=1506&yPos=36&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          },
+          {
+            "title": "Government and Politics",
+            "link": "/news/topic/government-and-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "theme": "sand",
+        "readTime": 6,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106953804",
+        "contentUri": "coremedia://article/106953804",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-08-08/how-to-avoid-singles-tax-cost-of-living-your-say/106953804",
+        "title": "What is the 'singles tax' and is it real?",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The singles tax has nothing to do with the ATO, it's the extra people pay when they can't split costs like rent, internet, insurance and other household bills the way couples can."
                   }
                 ]
               }
@@ -641,16 +772,61 @@
           }
         },
         "image": {
-          "altText": "Logan Morris celebrates a goal with Brisbane teammates",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2dd76964c79a91cb65d28dc2ae5e6142?impolicy=wcms_crop_resize&cropH=1722&cropW=2296&xPos=144&yPos=0&width=160&height=120",
+          "altText": "A woman with short hair looks at a laptop computer",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c5bc98579d4128bf0b9429c3e373959b?impolicy=wcms_crop_resize&cropH=1333&cropW=1777&xPos=223&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "AFL",
-            "link": "/news/topic/afl",
+            "title": "Explainer",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107012460",
+        "contentUri": "coremedia://article/107012460",
+        "label": null,
+        "link": "/news/2026-08-08/brk-us-court-halts-trump-s-ballroom-project/107012460",
+        "title": "Trump's White House ballroom project stalled",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Appearing to be a major setback in a case testing his presidential authority, Donald Trump has signalled involving US Supreme Court."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Donald Trump holds up a picture of a grand ballroom while he sits in the Oval Office",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84aebc2fdb38b7111c33f6affa5c0980?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "World Politics",
+            "link": "/news/topic/world-politics",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -661,11 +837,11 @@
       },
       {
         "type": "generic",
-        "id": "107010022",
-        "contentUri": "coremedia://article/107010022",
+        "id": "106995440",
+        "contentUri": "coremedia://article/106995440",
         "label": null,
-        "link": "/news/2026-08-07/naoero-and-kiribati-stir-frustration-at-pif/107010022",
-        "title": "China accused as Pacific nations block statement condemning missile test",
+        "link": "/news/2026-08-08/week-one-alan-jones-trial-done-at-sydney-s-downing-centre/106995440",
+        "title": "Alan Jones once ruled the airwaves. Now he's the one doing the listening",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -679,7 +855,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Naoero and Kiribati stir frustration at the opening day of the Pacific Islands Forum by blocking a regional statement criticising China's ballistic missile test."
+                    "content": "Alan Jones sat impassively, legs crossed, with a notebook and pen in hand as the first of six male complainants began testifying this week in his indecent assault trial."
                   }
                 ]
               }
@@ -687,16 +863,62 @@
           }
         },
         "image": {
-          "altText": "A conference room full of peoplel sitting in circles around a large central table.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7bfd3c2dc6d8ebfa7d61dcb01db440e?impolicy=wcms_crop_resize&cropH=1424&cropW=1899&xPos=437&yPos=0&width=160&height=120",
+          "altText": "Alan Jones exits a car surrounded by men taking photos.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0210ff34dcbd13bb52f544c169bba5a8?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Foreign Affairs",
-            "link": "/news/topic/foreign-affairs",
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107009160",
+        "contentUri": "coremedia://article/107009160",
+        "label": null,
+        "link": "/news/2026-08-08/abc-business-reporter-david-taylor-hacked-on-x/107009160",
+        "title": "I was hacked. Here's the real story and what's happening next",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "ABC business reporter David Taylor was hacked on X and warns how easily it could happen to you."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Business Correspondent David Taylor in ABC News studio.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/30018609a9a8da266216e5de1b734efc?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Online Safety",
+            "link": "/news/topic/online-safety",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -836,104 +1058,12 @@
       },
       {
         "type": "generic",
-        "id": "107010162",
-        "contentUri": "coremedia://article/107010162",
-        "label": null,
-        "link": "/news/2026-08-07/victoria-h5n1-bird-flu-poultry-lockdown/107010162",
-        "title": "Victoria announces poultry lockdown as bird flu cases spread",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Testing confirmed a further 20 cases of H5N1avian influenza in Victoria on Friday, all in greater crested terns along the state's south-west coast."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Isa brown chickens",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0bf9d35b7412586738c8c29b918776de?impolicy=wcms_crop_resize&cropH=800&cropW=1066&xPos=67&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Avian Influenza",
-            "link": "/news/topic/avian-influenza",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107008516",
-        "contentUri": "coremedia://article/107008516",
-        "label": null,
-        "link": "/news/2026-08-07/nsw-sydney-alan-jones-trial-court/107008516",
-        "title": "Man says he was 'very scared' during alleged Alan Jones bedroom assault",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A man accusing Alan Jones of historical indecent assault has told a court he followed the broadcaster's alleged direction to have a shower and come out in a robe because he did not want to disappoint Mr Jones."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Alan Jones, dressed in a pastel green suit, arrives at court.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/96ef39b6d9c65b5efc87465535aa6378?impolicy=wcms_crop_resize&cropH=1162&cropW=1549&xPos=515&yPos=99&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107009810",
-        "contentUri": "coremedia://article/107009810",
+        "id": "106994084",
+        "contentUri": "coremedia://article/106994084",
         "theme": "sand",
         "label": null,
-        "link": "/news/2026-08-07/trump-birthright-executive-orders-explained/107009810",
-        "title": "Five quick questions about Trump's birthright orders answered",
+        "link": "/news/2026-08-08/port-hedland-strike-importance-australia-largest-bulk-port/106994084",
+        "title": " Strikes at the country's largest port this weekend could cost millions",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -947,7 +1077,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "US President Donald Trump is taking another swing at limiting birthright citizenship. Here are five simple questions to break down what's happened."
+                    "content": "As unions begin 48 hours of industrial action at BHP's operations in Port Hedland, what makes the mammoth export facility so critical to Australia's economy? "
                   }
                 ]
               }
@@ -955,8 +1085,8 @@
           }
         },
         "image": {
-          "altText": "Donald Trump raises his eyebrows while sitting at the Resolute Desk.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4283e4753cf34773b289b14ff7a64d2c?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=334&yPos=0&width=160&height=120",
+          "altText": "A man in a high visibility orange BHP uniform talks to another man in a black strike shirt. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44a6945bed1003a3a926206ac83ff94f?impolicy=wcms_crop_resize&cropH=3335&cropW=4447&xPos=277&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -974,11 +1104,11 @@
       },
       {
         "type": "generic",
-        "id": "107007854",
-        "contentUri": "coremedia://article/107007854",
+        "id": "106994802",
+        "contentUri": "coremedia://article/106994802",
         "label": null,
-        "link": "/news/2026-08-07/ai-models-design-viruses-not-found-in-nature-for-first-time/107007854",
-        "title": "AI models design viruses not found in nature for first time",
+        "link": "/news/2026-08-08/rugby-union-sevens-australia-2016-rio-olympics-gold-medal/106994802",
+        "title": "The Rio legacy: Why Aussie rugby sevens gold will forever have an impact",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -992,7 +1122,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Researchers from Stanford University have synthesised brand-new, self-replicating viruses using genomes designed by artificial intelligence for the first time, raising the possibility of significant medical advancements but also prompting concerns the technology could be misused."
+                    "content": "It may be 10 years since Australia won gold in women's rugby sevens at the Rio Olympics, but the impact of the victory will be felt for generations to come."
                   }
                 ]
               }
@@ -1000,16 +1130,16 @@
           }
         },
         "image": {
-          "altText": "A number of small white masses with white strands tailing them gang up on a large white circle against a blue-green background.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3613fc3faffdaf34816af7dc397062dc?impolicy=wcms_crop_resize&cropH=1551&cropW=2068&xPos=543&yPos=0&width=160&height=120",
+          "altText": "The Australian women's rugby sevens team celebrates with their Rio gold medals.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/07c5e2f0cd5daafe39969354304ebe00?impolicy=wcms_crop_resize&cropH=3478&cropW=4637&xPos=62&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Medical Ethics",
-            "link": "/news/topic/medical-ethics",
+            "title": "Rugby Union",
+            "link": "/news/topic/rugby-union",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1020,11 +1150,11 @@
       },
       {
         "type": "rich",
-        "id": "107010078",
-        "targetId": "107008108",
-        "contentUri": "coremedia://teaser/107010078",
+        "id": "107012356",
+        "targetId": "107001096",
+        "contentUri": "coremedia://teaser/107012356",
         "label": null,
-        "title": "A 'gasp' and he was gone. Coroner warns of Federation Peak dangers",
+        "title": "The unexpected day jobs of Australia's female footballers",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1038,7 +1168,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A Victorian bushwalker who wanted to climb Federation Peak in Tasmania's south-west as part of his \"bucket list\" had turned back with his companions when he fell, a coroner says."
+                    "content": "The dual lives that female athletes have to balance to play at an elite level and have a career is often forgotten."
                   }
                 ]
               }
@@ -1046,10 +1176,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-08-07T04:19:46+00:00",
-          "lastUpdated": "2026-08-07T04:39:12+00:00"
+          "firstPublished": "2026-08-07T18:30:00+00:00",
+          "lastUpdated": "2026-08-07T18:30:00+00:00"
         },
-        "link": "/news/2026-08-07/coronial-findings-federation-peak-death-victorian-bushwalker/107008108",
+        "link": "/news/2026-08-08/aflw-women-dual-jobs-caitlin-reid-emily-pease/107001096",
         "related": {
           "title": null,
           "videos": [],
@@ -1059,24 +1189,24 @@
         "gallery": [
           {
             "desktop": {
-              "altText": "three people a climbing a sheer rock face on a mountain, holding on to the side",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b3da99a66378041848364086b7ee750?impolicy=wcms_crop_resize&cropH=637&cropW=637&xPos=24&yPos=3&width=862&height=862"
+              "altText": "woman hand passing a football in her red jersey to herself in blue doctor's uniform in scrubs",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/02ebcdbc0e18ec8d315b7d6ac7ef33ae?impolicy=wcms_crop_resize&cropH=3750&cropW=3750&xPos=890&yPos=0&width=862&height=862"
             }
           }
         ],
         "thumbnail": [
           {
             "desktop": {
-              "altText": "three people a climbing a sheer rock face on a mountain, holding on to the side",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b3da99a66378041848364086b7ee750?impolicy=wcms_crop_resize&cropH=679&cropW=1019&xPos=3&yPos=0&width=862&height=575",
+              "altText": "woman hand passing a football in her red jersey to herself in blue doctor's uniform in scrubs",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/02ebcdbc0e18ec8d315b7d6ac7ef33ae?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "three people a climbing a sheer rock face on a mountain, holding on to the side",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4b3da99a66378041848364086b7ee750?impolicy=wcms_crop_resize&cropH=608&cropW=1080&xPos=0&yPos=24&width=862&height=485",
+                "altText": "woman hand passing a football in her red jersey to herself in blue doctor's uniform in scrubs",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/02ebcdbc0e18ec8d315b7d6ac7ef33ae?impolicy=wcms_crop_resize&cropH=2505&cropW=4453&xPos=274&yPos=96&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -1087,419 +1217,15 @@
         ],
         "tags": [
           {
-            "text": "Sandy Powell",
-            "title": "By Sandy Powell",
-            "link": "https://www.abc.net.au/news/sandy-powell/103646422",
+            "text": "Arianna Levy",
+            "title": "By Arianna Levy",
+            "link": "https://www.abc.net.au/news/arianna-levy/13324730",
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Hiking",
-            "link": "/news/topic/hiking",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107001910",
-        "contentUri": "coremedia://article/107001910",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-08-07/grieving-dolphin-carries-calfs-body-for-eleven-days/107001910",
-        "title": "Do dolphins grieve the way humans do?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A dolphin mother has carried its calf's remains for 11 days in what researchers believe could potentially reveal something new about dolphin mourning."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A dead baby dolphin balance atop her mother's back in green ocean waters.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2e5208431453e60dbe15c89c106dec94?impolicy=wcms_crop_resize&cropH=227&cropW=302&xPos=194&yPos=3&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107009410",
-        "contentUri": "coremedia://article/107009410",
-        "label": null,
-        "link": "/news/2026-08-07/lane-cove-public-school-150-years-nicole-kidman/107009410",
-        "title": "Nicole Kidman delivers message to former school on 150th anniversary",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Lane Cove Public School students put out an appeal inviting Nicole Kidman to their 150th birthday celebrations. The famous actress couldn't make it in the flesh, but she did send a message from Greece."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Year 6 students in uniform including a young Nicole Kidman with hands clasped and long wavy hair in school photo",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c7c9fede3418c71ea1c5538c911c5775?impolicy=wcms_crop_resize&cropH=2165&cropW=2887&xPos=343&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Public Schools",
-            "link": "/news/topic/public-schools",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107010444",
-        "targetId": "106976094",
-        "contentUri": "coremedia://teaser/107010444",
-        "label": null,
-        "title": "What to know about air fryers if you’re conscious of PFAS and microplastics",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Here's what three experts have to say about choosing and using an air fryer."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-07T05:06:31+00:00",
-          "lastUpdated": "2026-08-07T05:06:31+00:00"
-        },
-        "link": "/news/2026-08-07/expert-advice-air-fryers-concerned-pfas-microplastics/106976094",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A roast in a basket of an air fryer",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e885bda547e0ab6fc83c38dfdab75642?impolicy=wcms_crop_resize&cropH=3750&cropW=3750&xPos=0&yPos=625&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A roast in a basket of an air fryer",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e885bda547e0ab6fc83c38dfdab75642?impolicy=wcms_crop_resize&cropH=2500&cropW=3750&xPos=0&yPos=1250&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A roast in a basket of an air fryer",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e885bda547e0ab6fc83c38dfdab75642?impolicy=wcms_crop_resize&cropH=2109&cropW=3750&xPos=0&yPos=1445&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Anna Chisholm",
-            "title": "By Anna Chisholm",
-            "link": "https://www.abc.net.au/news/anna-chisholm/12817446",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/428febf03a503956cae5be7276a3902f?impolicy=wcms_crop_resize&cropH=683&cropW=683&xPos=0&yPos=72&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Lifestyle",
-            "link": "https://www.abc.net.au/news/lifestyle/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "rich",
-        "id": "107011640",
-        "targetId": "106992592",
-        "contentUri": "coremedia://teaser/107011640",
-        "label": null,
-        "title": "Artwork riffing on Renaissance painting and George Orwell wins $100k",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Ryan Presley has won the top prize at the National Aboriginal and Torres Strait Islander Art Awards for an oil painting riffing on Renaissance art."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-07T08:00:00+00:00",
-          "lastUpdated": "2026-08-07T08:00:00+00:00"
-        },
-        "link": "/news/2026-08-07/natsiaa-art-awards-winners-ryan-presley-jenna-mayilema-lee/106992592",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Ryan Presley, an Indigenous man in his late 30s, stands, hands clasped, in front of an oil painting of a young Indigenous man.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77115cfd568050619f44247750e5549e?impolicy=wcms_crop_resize&cropH=3072&cropW=3072&xPos=886&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Ryan Presley, an Indigenous man in his late 30s, stands, hands clasped, in front of an oil painting of a young Indigenous man.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77115cfd568050619f44247750e5549e?impolicy=wcms_crop_resize&cropH=3072&cropW=4608&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Ryan Presley, an Indigenous man in his late 30s, stands, hands clasped, in front of an oil painting of a young Indigenous man.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77115cfd568050619f44247750e5549e?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=235&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Arts",
-            "link": "http://www.abc.net.au/arts/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Aboriginal and Torres Strait Islander Art",
-            "link": "/news/topic/aboriginal-and-torres-strait-islander-art",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 6,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107002762",
-        "contentUri": "coremedia://article/107002762",
-        "label": null,
-        "link": "/news/2026-08-07/alcohol-gambling-sponsorships-in-nrl-afl-sport/107002762",
-        "title": "NRL and AFL 'saturated' with gambling and alcohol sponsors, report finds",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Every NRL and AFL club has an alcohol sponsor this season while every NRL and five AFL clubs are sponsored by gambling companies, a new report has found."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Stephen Crichton celebrates a try with Jethro Rinakama.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8ec150eca749ba5e7ce10e222dd9157?impolicy=wcms_crop_resize&cropH=1460&cropW=1946&xPos=937&yPos=53&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Gambling",
-            "link": "/news/topic/gambling",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107011402",
-        "targetId": "107009790",
-        "contentUri": "coremedia://teaser/107011402",
-        "label": null,
-        "title": "New jumper revealed as NRL grants Perth Bears salary concessions",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The NRL says the Perth Bears can leave some player wages outside its salary cap as it pursues a marquee signing."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-07T07:20:21+00:00",
-          "lastUpdated": "2026-08-07T07:28:38+00:00"
-        },
-        "link": "/news/2026-08-07/nrl-grants-perth-bears-salary-concessions/107009790",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Mal Meninga poses with the new Perth Bears guernsey",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d109f0b4c9c4bf1549a5385ed118de7a?impolicy=wcms_crop_resize&cropH=2000&cropW=2000&xPos=500&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Mal Meninga poses with the new Perth Bears guernsey",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d109f0b4c9c4bf1549a5385ed118de7a?impolicy=wcms_crop_resize&cropH=2000&cropW=3000&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Mal Meninga poses with the new Perth Bears guernsey",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d109f0b4c9c4bf1549a5385ed118de7a?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Tom Wildie",
-            "title": "By Tom Wildie",
-            "link": "https://www.abc.net.au/news/tom-wildie/8097894",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "T",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9c73e506a23987cedd11f838770282bd?impolicy=wcms_crop_resize&cropH=1333&cropW=1333&xPos=334&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
+            "title": "AFL Women’s",
+            "link": "/news/topic/afl-womens",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
@@ -1510,11 +1236,11 @@
       },
       {
         "type": "generic",
-        "id": "107005874",
-        "contentUri": "coremedia://article/107005874",
+        "id": "107006898",
+        "contentUri": "coremedia://article/107006898",
         "label": null,
-        "link": "/news/2026-08-07/men-violence-national-standards-women-children/107005874",
-        "title": "Men's behaviour change groups could soon face new rules",
+        "link": "/news/2026-08-08/bennelong-in-london-play-sydney-theatre-company-jane-harrison/107006898",
+        "title": "Tragic figure or traitor? New show looks at life of Bennelong",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1528,7 +1254,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Programs range from one day sessions in schools educating boys on respectful relationships to months-long programs working with men who have abused their partners and children."
+                    "content": "Bennelong sang the first Aboriginal song on English soil in 1793. His life and legacy is under the microscope in Jane Harrison's play Bennelong in London."
                   }
                 ]
               }
@@ -1536,16 +1262,16 @@
           }
         },
         "image": {
-          "altText": "a young brunette white man with a moustache and beard wearing a denim shirt stands in a residential street.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/66ff15ae1e0c082a72f6639d0e973651?impolicy=wcms_crop_resize&cropH=497&cropW=662&xPos=0&yPos=251&width=160&height=120",
+          "altText": "On stage, a shirtless and irate Googoorewon Knox, also in face paint, points at a rattled Guy Simon.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/72044a6ba2c8a9fd0650e0ab65ac28e2?impolicy=wcms_crop_resize&cropH=1441&cropW=1921&xPos=119&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Federal Government",
-            "link": "/news/topic/federal-government",
+            "title": "Theatre",
+            "link": "/news/topic/theatre",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1556,11 +1282,11 @@
       },
       {
         "type": "generic",
-        "id": "107008546",
-        "contentUri": "coremedia://article/107008546",
+        "id": "107008226",
+        "contentUri": "coremedia://article/107008226",
         "label": null,
-        "link": "/news/2026-08-07/man-who-stole-from-employer-to-fund-online-gambling-sentenced/107008546",
-        "title": "'No money left': Man stole $220k in three months to fund online bets",
+        "link": "/news/2026-08-08/north-queensland-pinball-revival/107008226",
+        "title": "Retro game pinging, popping and buzzing as new generation has a ball",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1574,7 +1300,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Supreme Court in Hobart has heard online gambling has been \"the primary cause of problems\" in the man's life. He'll spend six months in prison after pleading guilty to 20 charges relating to the theft from Salmon Tasmania."
+                    "content": "Tash Anderson has become Australia's top female pinball competitor since being roped into attending a social event three years ago."
                   }
                 ]
               }
@@ -1582,16 +1308,16 @@
           }
         },
         "image": {
-          "altText": "Close up of phone with someone about to place a bet on a sports game",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d350b7c91108946a7704f561c2d5c7ef?impolicy=wcms_crop_resize&cropH=911&cropW=1214&xPos=1189&yPos=613&width=160&height=120",
+          "altText": "Tash Anderson won the women's title at the Brisbane Pinball Arcade Collective",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a55a6cb2bad6459e825acda482c6ae22?impolicy=wcms_crop_resize&cropH=2817&cropW=3755&xPos=485&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Courts",
-            "link": "/news/topic/courts",
+            "title": "Video Games",
+            "link": "/news/topic/video-games",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1602,11 +1328,12 @@
       },
       {
         "type": "generic",
-        "id": "107002938",
-        "contentUri": "coremedia://article/107002938",
+        "id": "106994352",
+        "contentUri": "coremedia://article/106994352",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-08-07/ndis-senate-inquiry-main-takeaways/107002938",
-        "title": "The key takeaways from six days of evidence at NDIS Senate inquiry",
+        "link": "/news/2026-08-08/bird-flu-spreading-but-actions-can-help-protect-at-risk-animals/106994352",
+        "title": "'Bad luck' for Australia's bird flu epicentre, but worse is to come",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1620,7 +1347,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A Senate inquiry into the proposed NDIS shake-up was told the government must stamp out rorting, while avoiding cuts that could put participants in unsafe environments and cause carers to burn out. Here are the key takeaways from the six days of hearings."
+                    "content": "South Australia has quickly become the country's hotspot for H5N1 bird flu and while the bulk of the cases are from coastal birds, what does a spread look like if it continues inland and crosses into other species? "
                   }
                 ]
               }
@@ -1628,17 +1355,16 @@
           }
         },
         "image": {
-          "altText": "An NDIS logo is seen on a building",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/28a24e9b5f510e694b60f07ea07cb582?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Many ducks flying over a wetland.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e616f128bac6ae1cb0e97299ecbb1b9f?impolicy=wcms_crop_resize&cropH=1666&cropW=2221&xPos=1389&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Disabilities",
-            "link": "/news/topic/disabilities",
-            "type": "subject",
+            "title": "Explainer",
+            "type": "genre",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -1648,11 +1374,11 @@
       },
       {
         "type": "generic",
-        "id": "107007802",
-        "contentUri": "coremedia://article/107007802",
+        "id": "107009614",
+        "contentUri": "coremedia://article/107009614",
         "label": null,
-        "link": "/news/2026-08-07/nsw-royal-commission-antisemitism-imam-rally-comments/107007802",
-        "title": "Imam calls out pro-Palestine rally comments as 'inappropriate'",
+        "link": "/news/2026-08-08/vec-party-registration-free-palestine-avi-yemini/107009614",
+        "title": "Deliberately misleading party name approved for Victorian election",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1666,7 +1392,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A prominent Australian imam has said comments made at a pro-Palestinian rally at which another imam described October 7, 2023 as a \"day of pride\" and \"victory\" were inappropriate."
+                    "content": "A political party with a deliberately misleading name has been successfully registered for the Victorian election, aiming to redirect left-wing votes towards parties on the right."
                   }
                 ]
               }
@@ -1674,16 +1400,16 @@
           }
         },
         "image": {
-          "altText": "Sheikh Alsuleiman in a black blazer and pants with a white longsleeve walking on a street path.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4cfaa454d8a1994ab1d53da4ee65f7f4?impolicy=wcms_crop_resize&cropH=1716&cropW=2288&xPos=169&yPos=0&width=160&height=120",
+          "altText": "A man wearing headphones with a logo in the background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89d1f182a878177b4bd5a91e679453a1?impolicy=wcms_crop_resize&cropH=356&cropW=475&xPos=205&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Royal Commissions",
-            "link": "/news/topic/royal-commissions",
+            "title": "Elections",
+            "link": "/news/topic/elections",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1694,11 +1420,11 @@
       },
       {
         "type": "rich",
-        "id": "107008468",
-        "targetId": "106989968",
-        "contentUri": "coremedia://teaser/107008468",
+        "id": "107012560",
+        "targetId": "107008338",
+        "contentUri": "coremedia://teaser/107012560",
         "label": null,
-        "title": "Even with new tech, experts say US is 'poorly prepared' to de-mine strait",
+        "title": "Concerns planned Qld boot camps may allow child abuse to go unreported ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1712,7 +1438,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Even with a range of high-tech equipment such as underwater drones and helicopter-mounted lasers, clearing the Strait of Hormuz of Iranian sea mine threats will be a painstaking and challenging process. "
+                    "content": "The Queensland government wants to allow Circuit Breaker Program operators to not report child harm if doing so would incriminate themselves. Welfare groups are concerned this would leave children vulnerable to abuse."
                   }
                 ]
               }
@@ -1720,262 +1446,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-08-07T01:10:33+00:00",
-          "lastUpdated": "2026-08-07T01:10:33+00:00"
+          "firstPublished": "2026-08-07T07:25:27+00:00",
+          "lastUpdated": "2026-08-07T07:25:27+00:00"
         },
-        "link": "/news/2026-08-07/clearing-strait-of-hormuz-iran-sea-mines-underwater-drones/106989968",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": [
-            {
-              "id": "107005708",
-              "contentUri": "coremedia://article/107005708",
-              "label": null,
-              "link": "/news/2026-08-07/iran-war-us-stockpile-impacts-ukraine-conflict/107005708",
-              "title": "As US burns through interceptors, Ukraine looks for backup elsewhere",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Ukraine has reported that it could not defend itself against a recent barrage of ballistic missiles from Russia, which analysts say comes down to the US war with Iran. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Ukraine's President Volodymyr Zelenskyy sits in a chair surrounded by two others.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f68707a7cb7e89fe84e76b77ec668806?impolicy=wcms_crop_resize&cropH=717&cropW=956&xPos=633&yPos=149&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A grey autonomous US Navy ship in the water, resembling a large enclosed speedboat. ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9acf415cb6dad083000f01b48b4456d8?impolicy=wcms_crop_resize&cropH=476&cropW=476&xPos=79&yPos=0&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Yellow cone-shaped mine lying on the sea floor.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a27ceb5ec81476d104f76df7bd1704c9?impolicy=wcms_crop_resize&cropH=2456&cropW=2456&xPos=612&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A grey autonomous US Navy ship in the water, resembling a large enclosed speedboat. ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9acf415cb6dad083000f01b48b4456d8?impolicy=wcms_crop_resize&cropH=423&cropW=634&xPos=0&yPos=27&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A grey autonomous US Navy ship in the water, resembling a large enclosed speedboat. ",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9acf415cb6dad083000f01b48b4456d8?impolicy=wcms_crop_resize&cropH=357&cropW=634&xPos=0&yPos=60&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "Yellow cone-shaped mine lying on the sea floor.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a27ceb5ec81476d104f76df7bd1704c9?impolicy=wcms_crop_resize&cropH=2453&cropW=3680&xPos=0&yPos=1&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Yellow cone-shaped mine lying on the sea floor.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a27ceb5ec81476d104f76df7bd1704c9?impolicy=wcms_crop_resize&cropH=2070&cropW=3680&xPos=0&yPos=193&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Annika Burgess",
-            "title": "By Annika Burgess",
-            "link": "https://www.abc.net.au/news/annika-burgess/13489366",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b260245fb07b562cd65fd60834247f91?impolicy=wcms_crop_resize&cropH=1738&cropW=1738&xPos=0&yPos=0&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 7,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107005272",
-        "contentUri": "coremedia://article/107005272",
-        "label": null,
-        "link": "/news/2026-08-07/former-broome-bishop-will-not-testify-in-sexual-abuse-trial/107005272",
-        "title": "Jury told to disregard seven sex assault charges against former Catholic bishop",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The judge in the sexual abuse trial of the former Catholic Bishop of Broome has told the jury that he can not be found guilty of seven of the charges against him. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man walks out of a sliding door while looking to his left.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55a3bf748445e2631c64a1910f42b38c?impolicy=wcms_crop_resize&cropH=2468&cropW=3290&xPos=207&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107009548",
-        "contentUri": "coremedia://article/107009548",
-        "label": null,
-        "link": "/news/2026-08-07/rachel-smith-fertility-freezing-eggs-high-court-appeal/107009548",
-        "title": "Drug trafficker takes fight to freeze eggs while in prison to High Court",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Rachel Smith, who is serving a 10-year prison sentence for drug trafficking, requested leave to freeze her eggs while incarcerated."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Gloved hands hold a tube over a canister which has mist coming out of it.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f0ed9a2a9a4720860246a2a59b66a45?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=88&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107010330",
-        "targetId": "107006800",
-        "contentUri": "coremedia://teaser/107010330",
-        "label": null,
-        "title": "TV personality Ian Fairweather remembered as 'talented, brilliant man'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Tributes are flowing for 86-year-old Ian Fairweather who achieved renown through his work on shows such as as Here's Humphrey. "
-                  },
-                  {
-                    "type": "tagname",
-                    "key": "br",
-                    "props": {},
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-07T04:36:23+00:00",
-          "lastUpdated": "2026-08-07T09:20:50+00:00"
-        },
-        "link": "/news/2026-08-07/tv-personality-ian-fairweather-dies-aged-86/107006800",
+        "link": "/news/2026-08-07/welfare-groups-warn-qld-boot-camp-could-hide-child-abuse/107008338",
         "related": {
           "title": null,
           "videos": [],
@@ -1985,24 +1459,24 @@
         "gallery": [
           {
             "desktop": {
-              "altText": "A black-and-white photo of TV personalities.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25be6fd703487bcfd1a7ed019697189c?impolicy=wcms_crop_resize&cropH=1083&cropW=1083&xPos=0&yPos=66&width=862&height=862"
+              "altText": "A close up shot of a police officer's hands fixing handcuffs to a man's hands that are behind his back.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5aecf3b3e0bed9164154c2c664fbebed?impolicy=wcms_crop_resize&cropH=895&cropW=895&xPos=513&yPos=0&width=862&height=862"
             }
           }
         ],
         "thumbnail": [
           {
             "desktop": {
-              "altText": "A black-and-white photo of TV personalities.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25be6fd703487bcfd1a7ed019697189c?impolicy=wcms_crop_resize&cropH=722&cropW=1083&xPos=0&yPos=246&width=862&height=575",
+              "altText": "A close up shot of a police officer's hands fixing handcuffs to a man's hands that are behind his back.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5aecf3b3e0bed9164154c2c664fbebed?impolicy=wcms_crop_resize&cropH=895&cropW=1342&xPos=289&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "A black-and-white photo of TV personalities.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25be6fd703487bcfd1a7ed019697189c?impolicy=wcms_crop_resize&cropH=609&cropW=1083&xPos=0&yPos=303&width=862&height=485",
+                "altText": "A close up shot of a police officer's hands fixing handcuffs to a man's hands that are behind his back.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5aecf3b3e0bed9164154c2c664fbebed?impolicy=wcms_crop_resize&cropH=895&cropW=1591&xPos=165&yPos=0&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -2013,15 +1487,294 @@
         ],
         "tags": [
           {
-            "title": "Television Industry",
-            "link": "/news/topic/television-industry",
-            "type": "subject",
-            "screenReader": "Topic",
+            "text": "Ellen Fanning",
+            "title": "By Ellen Fanning",
+            "link": "https://www.abc.net.au/news/ellen-fanning/102385172",
+            "avatar": {
+              "alt": "Profile of a woman.",
+              "fallbackLetter": "E",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/29b729c7db5f2a32d264268f99d51c9c?impolicy=wcms_crop_resize&cropH=1125&cropW=1125&xPos=438&yPos=0&width=160&height=160"
+            },
+            "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Death and Dying",
-            "link": "/news/topic/death-and-dying",
+            "title": "612 ABC Brisbane",
+            "link": "https://www.abc.net.au/brisbane/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 7,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107000580",
+        "contentUri": "coremedia://article/107000580",
+        "label": null,
+        "link": "/news/2026-08-08/queensland-mushroom-growers-close-as-farm-costs-soar/107000580",
+        "title": "Crippling costs force family to close mushroom farm after 45 years",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A Queensland grower of popular supermarket mushrooms says operational costs are too high to make the industry viable."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Couple out front of shed",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/168748455e5252f51db5b69fae0cfb1c?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Cost of Living",
+            "link": "/news/topic/cost-of-living",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107010752",
+        "contentUri": "coremedia://article/107010752",
+        "label": null,
+        "link": "/news/2026-08-08/ccc-michael-corboy-interview-call-for-more-resources/107010752",
+        "title": "Corruption hunter wants more resources to tackle government contractors",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "WA's corruption watchdog faces \"significant\" resourcing challenges and needs new powers to perform its functions effectively, according to its commissioner."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Michael Corboy looks directly at the camera. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0d7b5e269ace223f7de0329e571bd1d1?impolicy=wcms_crop_resize&cropH=6453&cropW=8604&xPos=538&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Corruption",
+            "link": "/news/topic/corruption",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "106982988",
+        "contentUri": "coremedia://article/106982988",
+        "label": null,
+        "link": "/news/2026-08-08/cory-doctorow-on-the-ai-bubble-and-inevitability/106982988",
+        "title": "Cory Doctorow thinks Australia should be worried about digital sovereignty",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Cory Doctorow says the AI revolution promised by tech bros isn't inevitable but the bursting of an AI bubble is. He wants to remind us another future is possible.  "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Cory smiles at camera, he wears orange glasses and a bold stripy suit",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3fa7f302f48c376a818a6054fa934734?impolicy=wcms_crop_resize&cropH=2500&cropW=3333&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AI",
+            "link": "/news/topic/ai",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107005626",
+        "contentUri": "coremedia://article/107005626",
+        "label": null,
+        "link": "/news/2026-08-08/vulnerable-community-members-push-for-census-recognition/107005626",
+        "title": "Vulnerable community members push for Census recognition",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Australian Bureau of Statistics has sent field officers to services helping people without permanent homes to ensure everyone can be counted in Tuesday's Census."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Woman seated at table holds a pen to a form, talking with older man in a church hall",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ecc69bcc595a0411efcb38d84c85e94f?impolicy=wcms_crop_resize&cropH=2432&cropW=3243&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Census",
+            "link": "/news/topic/census",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107012518",
+        "targetId": "107011068",
+        "contentUri": "coremedia://teaser/107012518",
+        "label": null,
+        "title": "Bodies of WWI and WWII diggers finally identified",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The soldiers died on the same day, 24 years apart. The first fell in Europe towards the end of World War I and the second in the Pacific Theatre during World War II."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-07T12:30:39+00:00",
+          "lastUpdated": "2026-08-07T12:30:39+00:00"
+        },
+        "link": "/news/2026-08-07/unknown-australian-soldiers-identified/107011068",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Two male soldiers pose unsmiling for a portrait",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b6bcd45571ffeb4530505561df1dfb3?impolicy=wcms_crop_resize&cropH=887&cropW=887&xPos=0&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Two male soldiers pose unsmiling for a portrait",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b6bcd45571ffeb4530505561df1dfb3?impolicy=wcms_crop_resize&cropH=592&cropW=888&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Two male soldiers pose unsmiling for a portrait",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1b6bcd45571ffeb4530505561df1dfb3?impolicy=wcms_crop_resize&cropH=500&cropW=888&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Laura Lavelle",
+            "title": "By Laura Lavelle",
+            "link": "https://www.abc.net.au/news/laura-lavelle/13887120",
+            "avatar": {
+              "alt": "A journalist holding a microphone and smiling. ",
+              "fallbackLetter": "L",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2d6e3b68fe0df9d324809ea7f1cac590?impolicy=wcms_crop_resize&cropH=400&cropW=400&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "History",
+            "link": "/news/topic/history",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
@@ -2032,11 +1785,11 @@
       },
       {
         "type": "generic",
-        "id": "107002916",
-        "contentUri": "coremedia://article/107002916",
+        "id": "107010318",
+        "contentUri": "coremedia://article/107010318",
         "label": null,
-        "link": "/news/2026-08-07/sa-police-chief-grant-stevens-on-port-macdonnell-murder-suicide/107002916",
-        "title": "Police chief reflects on TV interview by grandmother of missing boy Gus",
+        "link": "/news/2026-08-08/political-candidates-election-signage-safety-concerns/107010318",
+        "title": "Gun owner candidate says signage rules make him a target",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -2050,7 +1803,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "SA's police chief says the actions of officers leading up to last week's murder-suicide will be investigated as detectives continue to consider \"further search opportunities\" for missing four-year-old Gus Lamont."
+                    "content": "Candidates in Tasmania's election continue to feel exposed as election material such as advertisements, signs or pamphlets must include the \"true name and address\" of whoever produced them."
                   }
                 ]
               }
@@ -2058,8 +1811,54 @@
           }
         },
         "image": {
-          "altText": "Man in police uniform sits and looks at camera in front of flags. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d5ca6efddfadbca0b526628e66c101b?impolicy=wcms_crop_resize&cropH=2358&cropW=3144&xPos=997&yPos=212&width=160&height=120",
+          "altText": "Bearded man wearing a hat holds a rifle.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/10c3acc5c83541263df94f518d68c91a?impolicy=wcms_crop_resize&cropH=1016&cropW=1355&xPos=164&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Political Candidates",
+            "link": "/news/topic/political-candidates",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107010472",
+        "contentUri": "coremedia://article/107010472",
+        "label": null,
+        "link": "/news/2026-08-08/tasmania-police-officer-in-personal-relationship-with-criminal/107010472",
+        "title": "Police officer in alleged relationship with criminal 'lied' about her whereabouts",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A man of \"dubious character\" who was under active criminal investigation was in an alleged relationship with a Tasmanian police officer who disclosed police information to him, an investigation has found."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Unidentified Tasmania Police officers in parade uniform standing in line.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e69871ca040b9bfde1dd6a835d2e5d5d?impolicy=wcms_crop_resize&cropH=595&cropW=793&xPos=60&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -2077,12 +1876,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107007784",
-        "contentUri": "coremedia://article/107007784",
+        "type": "rich",
+        "id": "107012524",
+        "targetId": "106987290",
+        "contentUri": "coremedia://teaser/107012524",
         "label": null,
-        "link": "/news/2026-08-07/south-korean-satellite-before-and-after-image-spacex-moon-crash/107007784",
-        "title": "First images show Moon's fresh crater after stray rocket impact",
+        "title": "Country drivers dig deep for man tackling 'catastrophic' pothole crisis",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -2096,7 +1895,92 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A satellite has captured the first pictures of the Moon's fresh crash scene caused by a stray SpaceX rocket, showing noticeably darker terrain."
+                    "content": "Victorian residents donate money to a man's mission to make crumbling country roads safer as they wait for government action."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-07T22:41:50+00:00",
+          "lastUpdated": "2026-08-07T22:42:35+00:00"
+        },
+        "link": "/news/2026-08-08/residents-donate-paint-to-make-potholes-more-visible/106987290",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A man stands on the roadside with a paint can while cars whizz behind him ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/57d420e9bd5a0bf2e49cd900fed79b4d?impolicy=wcms_crop_resize&cropH=2813&cropW=2813&xPos=945&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A man stands on the roadside with a paint can while cars whizz behind him ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/57d420e9bd5a0bf2e49cd900fed79b4d?impolicy=wcms_crop_resize&cropH=2813&cropW=4220&xPos=390&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A man stands on the roadside with a paint can while cars whizz behind him ",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/57d420e9bd5a0bf2e49cd900fed79b4d?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Erin Somerville",
+            "title": "By Erin Somerville",
+            "link": "https://www.abc.net.au/news/erin-somerville/8295700",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Goulburn Murray",
+            "link": "https://www.abc.net.au/goulburnmurray/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107012438",
+        "contentUri": "coremedia://article/107012438",
+        "label": null,
+        "link": "/news/2026-08-08/teenager-charged-arson-attacks-call-the-commission-notes-vic/107012438",
+        "title": "Melbourne teen charged amid 'call Commission' notes, arson probe",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A 17-year-old boy has been charged amid an ongoing investigation into ominous notes left on shopfronts across Melbourne before alleged arson attacks, believed to be linked to an offshore crime syndicate."
                   }
                 ]
               }
@@ -2104,16 +1988,16 @@
           }
         },
         "image": {
-          "altText": "A before image on the left, and after on the right, shows dust marks on the moon.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f91fb3cc66bdf116c626b76a6d191c7f?impolicy=wcms_crop_resize&cropH=1405&cropW=1873&xPos=58&yPos=0&width=160&height=120",
+          "altText": "A fire truck and white vehicle are parked outside several fire-gutted shopfronts.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44f8623137155c66e3e2d953f60c93e4?impolicy=wcms_crop_resize&cropH=1204&cropW=1605&xPos=2&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Space",
-            "link": "/news/topic/space",
+            "title": "Crime",
+            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -2124,11 +2008,11 @@
       },
       {
         "type": "generic",
-        "id": "106866554",
-        "contentUri": "coremedia://article/106866554",
+        "id": "106993614",
+        "contentUri": "coremedia://article/106993614",
         "label": null,
-        "link": "/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554",
-        "title": "How Australians on JobSeeker are living on $68 a day",
+        "link": "/news/2026-08-08/former-police-officer-attacked-by-teenage-girls-broome/106993614",
+        "title": "Teenage girls film attack on former police officer in WA's far north",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -2142,7 +2026,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Despite calls to increase the base rate of JobSeeker payments in this year's federal budget, there has been no change and experts say it means the cost of living is hurting those who can least afford it."
+                    "content": "A German national and former police officer says she is disappointed by the WA Police response after she and her friend were attacked by a group of girls while riding through Broome."
                   }
                 ]
               }
@@ -2150,16 +2034,16 @@
           }
         },
         "image": {
-          "altText": "Illustration of three puzzle pieces and two coins making up $68",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a5fa0032897f692a9e3d3b29d7da10c6?impolicy=wcms_crop_resize&cropH=1141&cropW=1521&xPos=355&yPos=235&width=160&height=120",
+          "altText": "WA police car bonnet",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cafb2a22239d6b04a81c66cecc03c4cc?impolicy=wcms_crop_resize&cropH=480&cropW=640&xPos=108&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Unemployment",
-            "link": "/news/topic/unemployment",
+            "title": "Assault",
+            "link": "/news/topic/assault",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -2167,6 +2051,96 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107012348",
+        "targetId": "107010678",
+        "contentUri": "coremedia://teaser/107012348",
+        "label": null,
+        "title": "ACCC launches food labelling inquiry after Four Corners investigation",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Australia's consumer watchdog has launched an inquiry into allegations of misleading consumer conduct after a major Four Corners investigation examining food fraud."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-07T07:23:12+00:00",
+          "lastUpdated": "2026-08-07T07:23:12+00:00"
+        },
+        "link": "/news/2026-08-07/accc-launches-inquiry-into-food-labelling-after-four-corners/107010678",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "a young woman wearing a grey shirt looking at supermarket shelves",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f9ea3df3664fc802fb96369a8e89575?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "a young woman wearing a grey shirt looking at supermarket shelves",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f9ea3df3664fc802fb96369a8e89575?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "a young woman wearing a grey shirt looking at supermarket shelves",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1f9ea3df3664fc802fb96369a8e89575?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Samantha Dick",
+            "title": "By Samantha Dick",
+            "link": "https://www.abc.net.au/news/samantha-dick/13495040",
+            "avatar": {
+              "alt": "a headshot of a female reporter ",
+              "fallbackLetter": "S",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c08a2dd2069fe0c77629893ade273a80?impolicy=wcms_crop_resize&cropH=3011&cropW=3011&xPos=1004&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Four Corners",
+            "link": "https://www.abc.net.au/news/programs/4corners/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 2,
+        "hasLoadPriority": false
       }
     ]
   }
