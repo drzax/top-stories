@@ -84,15 +84,60 @@
             "key": "Tag1"
           },
           {
-            "title": "Small Businesses",
-            "link": "/news/topic/small-businesses",
-            "type": "subject",
-            "screenReader": "Topic",
+            "title": "Your Say",
+            "link": "https://www.abc.net.au/news/2026-07-15/have-your-say-audience-callout/106876918",
+            "type": "infoSource",
             "key": "Tag2"
           }
         ],
-        "readTime": 3,
+        "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107003700",
+        "contentUri": "coremedia://article/107003700",
+        "label": null,
+        "link": "/news/2026-08-10/beachport-sea-mine-tragedy-world-war-ii-memorial/107003700",
+        "title": "Push for memorial to two men killed in sea mine tragedy on home soil",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The granddaughter of Able Seaman Thomas Todd, who was killed at Beachport by an exploding German sea mine, is calling for a memorial to him and another man killed during World War II."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Black and white family photo from the 1940s.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f5983e9243e733f7e9d20a2bd54325ab?impolicy=wcms_crop_resize&cropH=611&cropW=815&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "World War II",
+            "link": "/news/topic/world-war-ii",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -233,52 +278,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "106994352",
-        "contentUri": "coremedia://article/106994352",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-08-08/bird-flu-spreading-but-actions-can-help-protect-at-risk-animals/106994352",
-        "title": "'Bad luck' for Australia's bird flu epicentre, but worse is to come",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "South Australia has quickly become the country's hotspot for H5N1 bird flu and while the bulk of the cases are from coastal birds, what does a spread look like if it continues inland and crosses into other species? "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Many ducks flying over a wetland.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e616f128bac6ae1cb0e97299ecbb1b9f?impolicy=wcms_crop_resize&cropH=1666&cropW=2221&xPos=1389&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "107014232",
         "targetId": "107014598",
@@ -359,6 +358,52 @@
       },
       {
         "type": "generic",
+        "id": "106994352",
+        "contentUri": "coremedia://article/106994352",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-08-08/bird-flu-spreading-but-actions-can-help-protect-at-risk-animals/106994352",
+        "title": "'Bad luck' for Australia's bird flu epicentre, but worse is to come",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "South Australia has quickly become the country's hotspot for H5N1 bird flu and while the bulk of the cases are from coastal birds, what does a spread look like if it continues inland and crosses into other species? "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Many ducks flying over a wetland.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e616f128bac6ae1cb0e97299ecbb1b9f?impolicy=wcms_crop_resize&cropH=1666&cropW=2221&xPos=1389&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Explainer",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107010068",
         "contentUri": "coremedia://article/107010068",
         "theme": "sand",
@@ -402,7 +447,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "106999162",
@@ -448,19 +505,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107014074",
@@ -490,7 +535,7 @@
         },
         "dates": {
           "firstPublished": "2026-08-09T00:28:41+00:00",
-          "lastUpdated": "2026-08-09T09:07:00+00:00"
+          "lastUpdated": "2026-08-09T21:44:15+00:00"
         },
         "link": "/news/2026-08-09/sydney-airport-near-miss-jetstar-qatar-airlines/107014048",
         "related": {
@@ -2190,92 +2235,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107014518",
-        "targetId": "107014434",
-        "contentUri": "coremedia://teaser/107014518",
-        "label": null,
-        "title": "Rising Aussie UFC star calls for tougher fighters after first-round win",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Australian Quillan Salkilld wins his first UFC main event, defeating Mateusz Gamrot with a rear-naked choke in Las Vegas."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-09T04:25:22+00:00",
-          "lastUpdated": "2026-08-09T04:25:22+00:00"
-        },
-        "link": "/news/2026-08-09/quillan-salkilld-wins-his-first-ufc-main-event/107014434",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "UFC fighter Quillan Salkilld of Australia has his hand raised in victory by the referee",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47fc925046889bf2f90390a78b64ec23?impolicy=wcms_crop_resize&cropH=1816&cropW=1816&xPos=454&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "UFC fighter Quillan Salkilld of Australia has his hand raised in victory by the referee",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47fc925046889bf2f90390a78b64ec23?impolicy=wcms_crop_resize&cropH=1816&cropW=2724&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "UFC fighter Quillan Salkilld of Australia has his hand raised in victory by the referee",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47fc925046889bf2f90390a78b64ec23?impolicy=wcms_crop_resize&cropH=1532&cropW=2724&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "Mixed Martial Arts",
-            "link": "/news/topic/mixed-martial-arts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "Sport",
-            "link": "/news/topic/sport",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 2,
-        "hasLoadPriority": false
       }
     ]
   }
