@@ -94,6 +94,52 @@
         "hasLoadPriority": false
       },
       {
+        "type": "medium",
+        "id": "107021768",
+        "contentUri": "coremedia://teaser/107021768",
+        "label": null,
+        "link": "/news/2026-08-10/another-pay-offer-to-be-put-to-victorian-teachers/107017424",
+        "title": "Victorian teachers to vote on new pay offer before strike",
+        "image": {
+          "altText": "People exclaim as teachers march at a strike in Melbourne.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bf28e2169d68b207d8e685cd79e6c75b?impolicy=wcms_crop_resize&cropH=1079&cropW=1439&xPos=241&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Teachers",
+            "link": "/news/topic/teachers",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The new pay offer includes a $2,000 lump-sum payment if they agree to the deal, which would head off a third statewide strike."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "107017114",
         "contentUri": "coremedia://article/107017114",
@@ -545,7 +591,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "107015818",
@@ -630,19 +688,7 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107013890",
@@ -1983,91 +2029,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107007796",
-        "targetId": "105367282",
-        "contentUri": "coremedia://teaser/107007796",
-        "label": null,
-        "title": "BOM orders an inquiry after tumultuous 12 months, but will it restore trust?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Farmers say the BOM has lost the trust of those who need weather information for critical and expensive business decisions such as spraying, fertilising, planting and harvesting crops."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-06T20:33:37+00:00",
-          "lastUpdated": "2026-08-06T20:33:37+00:00"
-        },
-        "link": "/news/2026-08-07/bom-website-backlash-sparks-independent-inquiry-weather-minchin/105367282",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A graphic showing the BOM website. ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c19c7ff13ed5332253c2d83f33e92dbe?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=657&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A graphic showing the BOM website. ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c19c7ff13ed5332253c2d83f33e92dbe?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=133&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A graphic showing the BOM website. ",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c19c7ff13ed5332253c2d83f33e92dbe?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Rural",
-            "link": "https://www.abc.net.au/news/rural/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Weather Forecasts",
-            "link": "/news/topic/weather-forecasts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
       }
     ]
   }
