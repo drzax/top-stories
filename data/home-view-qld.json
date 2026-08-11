@@ -146,6 +146,52 @@
       },
       {
         "type": "generic",
+        "id": "107026608",
+        "contentUri": "coremedia://article/107026608",
+        "label": null,
+        "link": "/news/2026-08-12/police-launch-murder-probe-into-slacks-creek-death/107026608",
+        "title": "Police launch murder probe into woman's death in Logan",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A 37-year-old man was arrested at the same Slacks Creek property where the woman was declared dead. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Police tape in the foreground with trees and car in the background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1cbdb9326824a2a7e6c9f84e67308c5e?impolicy=wcms_crop_resize&cropH=3456&cropW=4608&xPos=288&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Homicide",
+            "link": "/news/topic/homicide",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107023536",
         "contentUri": "coremedia://article/107023536",
         "label": null,
@@ -189,7 +235,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107024544",
@@ -327,19 +385,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107016454",
@@ -479,52 +525,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107016050",
-        "contentUri": "coremedia://article/107016050",
-        "label": null,
-        "link": "/news/2026-08-10/trial-begins-man-accused-of-bogie-triple-murder/107016050",
-        "title": "Trial begins in case of man accused of Bogie triple murder",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The trial of a man accused of murdering three people on a Queensland cattle property in 2022 has begun. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A sketch of a middle aged bald man in dark clothes tilting his head away from view. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e2236ebfde50b5a58d67df0c0aca3ba?impolicy=wcms_crop_resize&cropH=777&cropW=1036&xPos=34&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "107015478",
         "targetId": "106989154",
@@ -609,6 +609,52 @@
         ],
         "readTime": 6,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107016050",
+        "contentUri": "coremedia://article/107016050",
+        "label": null,
+        "link": "/news/2026-08-10/trial-begins-man-accused-of-bogie-triple-murder/107016050",
+        "title": "Trial begins in case of man accused of Bogie triple murder",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The trial of a man accused of murdering three people on a Queensland cattle property in 2022 has begun. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A sketch of a middle aged bald man in dark clothes tilting his head away from view. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e2236ebfde50b5a58d67df0c0aca3ba?impolicy=wcms_crop_resize&cropH=777&cropW=1036&xPos=34&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -740,52 +786,6 @@
           {
             "title": "State and Territory Government",
             "link": "/news/topic/state-and-territory-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107015488",
-        "contentUri": "coremedia://article/107015488",
-        "label": null,
-        "link": "/news/2026-08-10/mount-isa-miners-memorial-funded-after-30-years-of-advocacy/107015488",
-        "title": "After decades of pleas, fallen miners from a historic mine will be memorialised",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The 151 workers who have died at the Mount Isa Mines will finally be honoured after residents have advocated for a memorial for almost 30 years.  "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "mine workers walking into a mine shaft at the mount isa copper mine",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b190a4ae3fc982ced7752a6fd77ff35f?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=439&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Mining Accidents and Incidents",
-            "link": "/news/topic/mining-accidents-and-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
