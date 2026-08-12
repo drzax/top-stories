@@ -141,6 +141,52 @@
       },
       {
         "type": "generic",
+        "id": "107025662",
+        "contentUri": "coremedia://article/107025662",
+        "label": null,
+        "link": "/news/science/2026-08-12/phillip-island-penguins-to-be-rounded-up-for-bird-flu-vaccine/107025662",
+        "title": "Phillip Island penguins to be vaccinated for bird flu",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The targeted vaccination of 5,000 penguins is claimed to be the largest wild bird vaccination program undertaken globally."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Two penguins walking along a track",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/47b240014415bcb2f2e2f45acb8a0f88?impolicy=wcms_crop_resize&cropH=2177&cropW=2903&xPos=985&yPos=1022&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Avian Influenza",
+            "link": "/news/topic/avian-influenza",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107025806",
         "contentUri": "coremedia://article/107025806",
         "label": null,
@@ -177,52 +223,6 @@
           {
             "title": "Health",
             "link": "/news/topic/health",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107023236",
-        "contentUri": "coremedia://article/107023236",
-        "label": null,
-        "link": "/news/2026-08-11/vic-work-from-home-delayed/107023236",
-        "title": "Victoria's work-from-home laws delayed until July 2027",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Premier Ben Carroll has promised to reset his relationship with Victorian businesses, and says he is open to \"common-sense\" amendments to the proposed work-from-home legislation."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man wearing headphones and sitting at a home office desk with a laptop looks at his phone.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7bd216a220bbd76b2b99eaf3966b7d73?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=107&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Remote Working",
-            "link": "/news/topic/remote-working",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -365,6 +365,52 @@
       },
       {
         "type": "generic",
+        "id": "107023236",
+        "contentUri": "coremedia://article/107023236",
+        "label": null,
+        "link": "/news/2026-08-11/vic-work-from-home-delayed/107023236",
+        "title": "Victoria's work-from-home laws delayed until July 2027",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Premier Ben Carroll has promised to reset his relationship with Victorian businesses, and says he is open to \"common-sense\" amendments to the proposed work-from-home legislation."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man wearing headphones and sitting at a home office desk with a laptop looks at his phone.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7bd216a220bbd76b2b99eaf3966b7d73?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=107&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Remote Working",
+            "link": "/news/topic/remote-working",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107025360",
         "contentUri": "coremedia://article/107025360",
         "label": null,
@@ -408,7 +454,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107022594",
@@ -469,19 +527,53 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "106990254",
+        "contentUri": "coremedia://article/106990254",
+        "label": null,
+        "link": "/news/2026-08-11/loddon-prison-reading-program-shannon-trust/106990254",
+        "title": "These men in a Victorian prison are teaching each other to read",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Prisoners in central Victoria are teaching each other to read as part of a phonics-based program adopted from the United Kingdom."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A hand points to a page in a book. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f81ec2adacc82d851113f3706d26bd1e?impolicy=wcms_crop_resize&cropH=2661&cropW=3548&xPos=586&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Prisons",
+            "link": "/news/topic/prisons",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "107021808",
@@ -567,52 +659,6 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "106990254",
-        "contentUri": "coremedia://article/106990254",
-        "label": null,
-        "link": "/news/2026-08-11/loddon-prison-reading-program-shannon-trust/106990254",
-        "title": "These men in a Victorian prison are teaching each other to read",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Prisoners in central Victoria are teaching each other to read as part of a phonics-based program adopted from the United Kingdom."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A hand points to a page in a book. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f81ec2adacc82d851113f3706d26bd1e?impolicy=wcms_crop_resize&cropH=2661&cropW=3548&xPos=586&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Prisons",
-            "link": "/news/topic/prisons",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -799,52 +845,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107015828",
-        "contentUri": "coremedia://article/107015828",
-        "label": null,
-        "link": "/news/2026-08-10/mildura-kindergarten-cleaner-jailed-over-child-abuse-material/107015828",
-        "title": "Former kindergarten cleaner jailed over AI-produced child abuse material",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A Mildura man who used AI to generate explicit material of 10 victims, including four children known to him, has been sentenced"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man in a black face mask walking",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/add70a0482ed0e6965a1b7865792bce2?impolicy=wcms_crop_resize&cropH=1183&cropW=1578&xPos=1118&yPos=460&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Child Abuse",
-            "link": "/news/topic/child-abuse",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "107015462",
         "targetId": "106994288",
@@ -931,11 +931,11 @@
       },
       {
         "type": "generic",
-        "id": "107017114",
-        "contentUri": "coremedia://article/107017114",
+        "id": "107015828",
+        "contentUri": "coremedia://article/107015828",
         "label": null,
-        "link": "/news/2026-08-10/melbourne-alleged-fake-doctor-warning-health-complaints/107017114",
-        "title": "Victorian health watchdog issues warning over alleged fake doctor",
+        "link": "/news/2026-08-10/mildura-kindergarten-cleaner-jailed-over-child-abuse-material/107015828",
+        "title": "Former kindergarten cleaner jailed over AI-produced child abuse material",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -949,7 +949,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The Victorian Health Complaints Commissioner has issued a public warning about a Melbourne woman who is alleged to have charged $20,000 for unapproved treatments while pretending to be a doctor."
+                    "content": "A Mildura man who used AI to generate explicit material of 10 victims, including four children known to him, has been sentenced"
                   }
                 ]
               }
@@ -957,16 +957,16 @@
           }
         },
         "image": {
-          "altText": "packets of pills in silver blister packets",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca457a89c78bbfe7842bd600147f1b6f?impolicy=wcms_crop_resize&cropH=3096&cropW=4128&xPos=0&yPos=0&width=160&height=120",
+          "altText": "A man in a black face mask walking",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/add70a0482ed0e6965a1b7865792bce2?impolicy=wcms_crop_resize&cropH=1183&cropW=1578&xPos=1118&yPos=460&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Health",
-            "link": "/news/topic/health",
+            "title": "Child Abuse",
+            "link": "/news/topic/child-abuse",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
