@@ -9,12 +9,12 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "107026608",
-        "contentUri": "coremedia://article/107026608",
+        "type": "rich",
+        "id": "107027552",
+        "targetId": "107026608",
+        "contentUri": "coremedia://teaser/107027552",
         "label": null,
-        "link": "/news/2026-08-12/police-launch-murder-probe-into-slacks-creek-death/107026608",
-        "title": "Police launch murder probe into woman's death in Logan",
+        "title": "Queensland man charged with murdering ex-partner",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -28,31 +28,76 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A 37-year-old man was arrested at the same Slacks Creek property where the woman was declared dead. "
+                    "content": "Police said the accused rang emergency services to report a woman was unresponsive after an assault."
                   }
                 ]
               }
             ]
           }
         },
-        "image": {
-          "altText": "a police van outside a low redbrick house with police tape around it",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3a83e084721a3ae50cab7c542e9a6f27?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-08-11T20:49:15+00:00",
+          "lastUpdated": "2026-08-12T01:31:26+00:00"
         },
+        "link": "/news/2026-08-12/police-launch-murder-probe-into-slacks-creek-death/107026608",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "police officers look at documents on the front of a police vehicle outside a property",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4bd08be587c244d83626444394a2593b?impolicy=wcms_crop_resize&cropH=3024&cropW=3024&xPos=504&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "police officers look at documents on the front of a police vehicle outside a property",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4bd08be587c244d83626444394a2593b?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "police officers look at documents on the front of a police vehicle outside a property",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4bd08be587c244d83626444394a2593b?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
+          {
+            "text": "Jessica Black",
+            "title": "By Jessica Black",
+            "link": "https://www.abc.net.au/news/jessica-black/14017854",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/44e34c3c4f6ebc179089ece7c2c4bfed?impolicy=wcms_crop_resize&cropH=529&cropW=529&xPos=22&yPos=60&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
           {
             "title": "Homicide",
             "link": "/news/topic/homicide",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 1,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -92,6 +137,52 @@
           {
             "title": "Housing Policy",
             "link": "/news/topic/housing-policy",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107024828",
+        "contentUri": "coremedia://article/107024828",
+        "label": null,
+        "link": "/news/2026-08-12/failed-chimp-reunion-attempt-rockhampton-zoo/107024828",
+        "title": "Zoo's attempted reunion between baby chimp and mum ends in aggression",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Baby Cassie has been cared for by zookeepers since her mother dropped her hours after birth. But an attempt to reunite the pair hasn't gone as planned."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Baby chimpanzee on chest with felt strips, wide eyes ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31854dc772fe311a21a8f0a460540550?impolicy=wcms_crop_resize&cropH=635&cropW=847&xPos=617&yPos=98&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Animals",
+            "link": "/news/topic/animals",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -237,30 +328,13 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "107026878",
-        "contentUri": "coremedia://teaser/107026878",
+        "type": "generic",
+        "id": "107023390",
+        "contentUri": "coremedia://article/107023390",
         "label": null,
         "link": "/news/rural/2026-08-12/dairy-farmer-loses-supply-contract/107023390",
-        "title": "After 80 years of dairying, no-one wants this farm's milk. ",
-        "image": {
-          "altText": "A man stands in a milking pit looking serious.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7a20ca70f7a56e0dc38cecbda8b1a520?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=293&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "Dairy Farming",
-            "link": "/news/topic/dairy-farming",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "title": "After 80 years of dairying, no-one wants this farm's milk",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -280,6 +354,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "A man stands in a milking pit looking serious.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7a20ca70f7a56e0dc38cecbda8b1a520?impolicy=wcms_crop_resize&cropH=1055&cropW=1407&xPos=366&yPos=43&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Dairy Farming",
+            "link": "/news/topic/dairy-farming",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -420,13 +511,25 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
-        "type": "generic",
-        "id": "107023712",
-        "contentUri": "coremedia://article/107023712",
+        "type": "rich",
+        "id": "107027560",
+        "targetId": "107023712",
+        "contentUri": "coremedia://teaser/107027560",
         "label": null,
-        "link": "/news/2026-08-11/community-guidelines-around-helping-stranded-whales-on-kgari-qld/107023712",
         "title": "Calls for increased awareness about whale strandings",
         "content": {
           "descriptor": {
@@ -448,37 +551,64 @@
             ]
           }
         },
-        "image": {
-          "altText": "A birds-eye view shot of a group of people circling a stranded whale in the shallow waters.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e662c7f04bc843d53c926bb8092426b?impolicy=wcms_crop_resize&cropH=768&cropW=1024&xPos=567&yPos=465&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-08-11T08:50:34+00:00",
+          "lastUpdated": "2026-08-12T01:57:28+00:00"
         },
+        "link": "/news/2026-08-11/community-guidelines-around-helping-stranded-whales-on-kgari/107023712",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A birds-eye view shot of a group of people circling a stranded whale in the shallow waters.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e662c7f04bc843d53c926bb8092426b?impolicy=wcms_crop_resize&cropH=897&cropW=897&xPos=623&yPos=420&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A birds-eye view shot of a group of people circling a stranded whale in the shallow waters.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e662c7f04bc843d53c926bb8092426b?impolicy=wcms_crop_resize&cropH=757&cropW=1135&xPos=516&yPos=482&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A birds-eye view shot of a group of people circling a stranded whale in the shallow waters.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0e662c7f04bc843d53c926bb8092426b?impolicy=wcms_crop_resize&cropH=516&cropW=917&xPos=589&yPos=622&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
+          {
+            "title": "ABC Wide Bay",
+            "link": "https://www.abc.net.au/widebay/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
           {
             "title": "Animals",
             "link": "/news/topic/animals",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+        "readTime": 4,
+        "hasLoadPriority": false
+      },
       {
         "type": "generic",
         "id": "107023536",
