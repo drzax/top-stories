@@ -9,12 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "107034120",
-        "contentUri": "coremedia://article/107034120",
-        "theme": "sand",
+        "type": "rich",
+        "id": "107037498",
+        "targetId": "107034120",
+        "contentUri": "coremedia://teaser/107037498",
         "label": null,
-        "link": "/news/2026-08-14/act-david-mcbride-released-on-parole-no-whistleblowing-comment/107034120",
         "title": "David McBride had a lot to say as he left jail, but not about whistleblowing",
         "content": {
           "descriptor": {
@@ -36,13 +35,84 @@
             ]
           }
         },
-        "image": {
-          "altText": "A man waves from a car as it drives along.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a129f7896142a06b4d299b2731ddf615?impolicy=wcms_crop_resize&cropH=1212&cropW=1616&xPos=1330&yPos=601&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-08-13T20:39:30+00:00",
+          "lastUpdated": "2026-08-13T20:39:30+00:00"
         },
+        "link": "/news/2026-08-14/act-david-mcbride-released-on-parole-no-whistleblowing-comment/107034120",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": [
+            {
+              "id": "107030620",
+              "contentUri": "coremedia://article/107030620",
+              "label": null,
+              "link": "/news/2026-08-13/jailed-whistleblower-david-mcbride-to-be-released/107030620",
+              "title": "'Beautiful day to be free': Jailed whistleblower David McBride released on parole",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "The former military lawyer was convicted in 2024 for stealing and sharing top-secret defence material with journalists."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A man speaks into a microphone from a car window.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/418d5815ca8c08e6878105dbb5d30f7c?impolicy=wcms_crop_resize&cropH=2166&cropW=2888&xPos=549&yPos=227&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A man waves from a car as it drives along.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a129f7896142a06b4d299b2731ddf615?impolicy=wcms_crop_resize&cropH=2108&cropW=2108&xPos=1369&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A man waves from a car as it drives along.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a129f7896142a06b4d299b2731ddf615?impolicy=wcms_crop_resize&cropH=2108&cropW=3162&xPos=586&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A man waves from a car as it drives along.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a129f7896142a06b4d299b2731ddf615?impolicy=wcms_crop_resize&cropH=2108&cropW=3748&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
           {
             "text": "Jade Toomey",
@@ -55,10 +125,18 @@
             },
             "type": "combined",
             "key": "Tag1"
+          },
+          {
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "theme": "sand",
+        "readTime": 4,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -66,7 +144,7 @@
         "contentUri": "coremedia://article/107032060",
         "label": null,
         "link": "/news/2026-08-13/uc-vice-chancellor-bill-shorten-proposes-merger/107032060",
-        "title": "UC Vice-Chancellor Bill Shorten revives push to merge with major TAFE provider",
+        "title": "UC Vice-Chancellor Bill Shorten revives push to merge with CIT",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -107,85 +185,6 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "107033152",
-        "targetId": "107030620",
-        "contentUri": "coremedia://teaser/107033152",
-        "label": null,
-        "title": "'Beautiful day to be free': David McBride released on parole",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The former military lawyer was convicted in 2024 for stealing and sharing top-secret defence material with journalists."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-12T23:35:27+00:00",
-          "lastUpdated": "2026-08-13T04:05:14+00:00"
-        },
-        "link": "/news/2026-08-13/jailed-whistleblower-david-mcbride-to-be-released/107030620",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A man speaks into a microphone from a car window.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/418d5815ca8c08e6878105dbb5d30f7c?impolicy=wcms_crop_resize&cropH=2592&cropW=2592&xPos=758&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A man speaks into a microphone from a car window.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/418d5815ca8c08e6878105dbb5d30f7c?impolicy=wcms_crop_resize&cropH=2592&cropW=3888&xPos=110&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A man speaks into a microphone from a car window.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/418d5815ca8c08e6878105dbb5d30f7c?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "Courts",
-            "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "readTime": 5,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
         "id": "107028152",
         "contentUri": "coremedia://article/107028152",
@@ -223,52 +222,6 @@
           {
             "title": "Dental Care",
             "link": "/news/topic/dental-care",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107025288",
-        "contentUri": "coremedia://article/107025288",
-        "label": null,
-        "link": "/news/2026-08-11/service-stations-raided-over-illegal-tobacco-vapes/107025288",
-        "title": "Service stations nationwide raided over illegal tobacco, vapes",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "More than 100 service stations across the country have been raided, in a coordinated blitz targeting \"suspected criminal activity\" and the alleged sale of illicit tobacco and vapes."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two people stand at doors of service station",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/106e3f17d549798f6221a9ccc10032e3?impolicy=wcms_crop_resize&cropH=682&cropW=909&xPos=272&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Crime",
-            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -690,7 +643,7 @@
         "contentUri": "coremedia://article/107033254",
         "label": null,
         "link": "/news/2026-08-14/cotality-aus-house-price-downturn-scenarios-5pc-10pc-15pc-20pc/107033254",
-        "title": "How a minor or major housing downturn could impact your city",
+        "title": "What a housing downturn would look like in your city",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -851,7 +804,7 @@
         },
         "dates": {
           "firstPublished": "2026-08-13T19:05:33+00:00",
-          "lastUpdated": "2026-08-13T22:16:27+00:00"
+          "lastUpdated": "2026-08-14T00:53:20+00:00"
         },
         "link": "/news/2026-08-14/everybody-wants-to-cut-migration-but-nobody-wants-to-say-how/107034230",
         "related": {
@@ -1208,7 +1161,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Small businesses call for support to develop financial literacy skills as new research reveals a sobering reality."
+                    "content": "Small businesses call for support to develop financial literacy skills as new research reveals a sobering reality. "
                   }
                 ]
               }
@@ -1377,7 +1330,7 @@
         "id": "107035866",
         "contentUri": "coremedia://article/107035866",
         "label": null,
-        "link": "/news/2026-08-14/train-derail-sussex-uk/107035866",
+        "link": "/news/2026-08-14/train-derails-in-sussex-england/107035866",
         "title": "Passenger train derails and flips over in southern England",
         "content": {
           "descriptor": {
@@ -1392,7 +1345,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A major emergency response is underway after carriages came off the track at Lewes, near the seaside town of Brighton. "
+                    "content": "Eleven people are injured, two of them seriously, when a busy commuter train from London derails in England's south-east."
                   }
                 ]
               }
@@ -1510,7 +1463,7 @@
         "contentUri": "coremedia://article/106992596",
         "label": null,
         "link": "/news/2026-08-14/death-of-a-salesman-melbourne-alison-whyte-anthony-lapaglia/106992596",
-        "title": "A revival of Death of a Salesman is shining a light on the 'manosphere'",
+        "title": "Making Frontline was 'kamikaze telly', says Death of a Salesman star",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1832,7 +1785,7 @@
         "contentUri": "coremedia://article/107035462",
         "label": null,
         "link": "/news/2026-08-14/israeli-settlers-besiege-west-bank-village/107035462",
-        "title": "US ambassador criticises 'Israeli terrorists' in West Bank village",
+        "title": "'Thuggish behaviour': West Bank settler siege blasted by Huckabee",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -2353,6 +2306,143 @@
           {
             "title": "Crime",
             "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107034380",
+        "targetId": "107031674",
+        "contentUri": "coremedia://teaser/107034380",
+        "label": null,
+        "title": "ICE plans to equip officers with electric shock gloves",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A device designed to enforce compliance by delivering a painful electric shock is condemned by a former ICE director and elected officials."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-13T03:49:55+00:00",
+          "lastUpdated": "2026-08-13T03:49:55+00:00"
+        },
+        "link": "/news/2026-08-13/ice-electric-shock-gloves-us-immigration-officers/107031674",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "two black gloves sit on a desk - a close up",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/172217b17cc734fbd6caa85decf04c39?impolicy=wcms_crop_resize&cropH=721&cropW=721&xPos=180&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "two black gloves sit on a desk - a close up",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/172217b17cc734fbd6caa85decf04c39?impolicy=wcms_crop_resize&cropH=721&cropW=1081&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "two black gloves sit on a desk - a close up",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/172217b17cc734fbd6caa85decf04c39?impolicy=wcms_crop_resize&cropH=505&cropW=898&xPos=84&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Maddie Nixon",
+            "title": "By Maddie Nixon",
+            "link": "https://www.abc.net.au/news/maddie-nixon/104194144",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "M",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9fcf23df24558ac74da646b66e01261b?impolicy=wcms_crop_resize&cropH=800&cropW=800&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "World Politics",
+            "link": "/news/topic/world-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107031556",
+        "contentUri": "coremedia://article/107031556",
+        "label": null,
+        "link": "/news/2026-08-13/governments-deadlocked-on-nt-remote-housing-agreement/107031556",
+        "title": "Senator says NT doesn't 'want to stick to' terms of $4b housing deal",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Two levels of government are in a deadlock over what to do about the Northern Territory Remote Housing agreement, which Senator Lidia Thorpe says is falling \"behind schedule\" and failing those it is designed to help."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A group of houses lined up on red dirt, with green foliage separating the properties, which have been photographed from above.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fda158515aca54abd5b4032dcbb079e3?impolicy=wcms_crop_resize&cropH=3049&cropW=4065&xPos=473&yPos=147&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Housing Policy",
+            "link": "/news/topic/housing-policy",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
