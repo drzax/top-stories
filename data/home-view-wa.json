@@ -444,6 +444,11 @@
             "text": "Aaron Bryans",
             "title": "Analysis by Aaron Bryans",
             "link": "https://www.abc.net.au/news/aaron-bryans/106999498",
+            "avatar": {
+              "alt": "A person standing against a blue background.",
+              "fallbackLetter": "A",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5ee3c1e4d1b88188b2e651946fb02967?impolicy=wcms_crop_resize&cropH=2694&cropW=2694&xPos=339&yPos=197&width=160&height=160"
+            },
             "type": "combined",
             "key": "Tag1"
           }
@@ -1006,50 +1011,13 @@
         "dates": null
       },
       {
-        "type": "live",
-        "id": "107037446",
-        "targetId": "107034980",
-        "images": [
-          {
-            "desktop": {
-              "altText": "Pat Cummins holds out his hands",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5388122be4d48e99d257d90041e97d18?impolicy=wcms_crop_resize&cropH=1266&cropW=1899&xPos=1118&yPos=327&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Mitch Starc celebrates",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5cba5ae0c38f09880e35d0fbe599c843?impolicy=wcms_crop_resize&cropH=1354&cropW=2031&xPos=1316&yPos=170&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Josh Hazlewood stares at Hossain Shanto",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f644d052c0f0f29d2471b945676731b8?impolicy=wcms_crop_resize&cropH=1714&cropW=2570&xPos=428&yPos=35&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            }
-          }
-        ],
-        "label": {
-          "variant": "live",
-          "status": "live"
-        },
+        "type": "generic",
+        "id": "107034980",
+        "contentUri": "coremedia://article/107034980",
+        "label": null,
         "link": "/news/2026-08-14/australia-vs-bangladesh-day-two-live-updates/107034980",
-        "related": {
-          "title": null,
-          "articles": [],
-          "videos": [],
-          "cta": null
-        },
-        "synopsis": {
+        "title": "Bangladesh grinds Australia into the Darwin dirt as rookie scores sparkling ton",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -1062,12 +1030,19 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Rookie Bangladesh opener Tanzid Hasan scores a maiden Test century on another humbling day for Australia in Darwin. Follow live."
+                    "content": "Rookie Bangladesh opener Tanzid Hasan scores a maiden Test century on another humbling day for Australia in Darwin."
                   }
                 ]
               }
             ]
           }
+        },
+        "image": {
+          "altText": "A cricketer in white has his hands on his head in front of crowd",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c03afc9de50d707c04d9e7c0ab625806?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=1510&yPos=157&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
@@ -1076,44 +1051,56 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
-          },
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107036904",
+        "contentUri": "coremedia://article/107036904",
+        "label": null,
+        "link": "/news/2026-08-14/aus-ban-day-two-quick-hits-smith-tanzid-starc-darwin-turf/107036904",
+        "title": "Quick hits: Tempers flare as Aussies wilt, Starc's heart-in-mouth moment",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Mitchell Starc vents his frustration at a Bangladeshi batter, while a star is born on treacherous Darwin turf. Here are the quick hits from day two of the first Test between Australia and Bangladesh."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A composite image of a cricketer raising his bat and helmet in celebration of a century and another sliding in the turf",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d4df35f421763531275b80acafc6883?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
           {
-            "title": "Sport",
-            "link": "/news/topic/sport",
+            "title": "Cricket",
+            "link": "/news/topic/cricket",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag2"
+            "key": "Tag1"
           }
         ],
-        "title": "'Get off the wicket': Tempers flare as Aussies wilt in Darwin heat",
-        "theme": "live",
-        "updates": [
-          {
-            "title": "STUMPS: Bangladesh 6-351 (Mehidy 32, Hasan 13)",
-            "id": "330232",
-            "link": "https://www.abc.net.au/news/2026-08-14/australia-vs-bangladesh-day-two-live-updates/107034980#live-blog-post-330232",
-            "dates": {
-              "firstPublished": "2026-08-14T08:04:15.000Z"
-            }
-          },
-          {
-            "title": "Another one! Cummins gets in on the act!",
-            "id": "330173",
-            "link": "https://www.abc.net.au/news/2026-08-14/australia-vs-bangladesh-day-two-live-updates/107034980#live-blog-post-330173",
-            "dates": {
-              "firstPublished": "2026-08-14T06:09:44.000Z"
-            }
-          },
-          {
-            "title": "OUT! STARC STRIKES!",
-            "id": "330166",
-            "link": "https://www.abc.net.au/news/2026-08-14/australia-vs-bangladesh-day-two-live-updates/107034980#live-blog-post-330166",
-            "dates": {
-              "firstPublished": "2026-08-14T06:03:59.000Z"
-            }
-          }
-        ],
-        "uri": "coremedia://teaser/107037446"
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -1163,11 +1150,11 @@
       },
       {
         "type": "generic",
-        "id": "107036750",
-        "contentUri": "coremedia://article/107036750",
+        "id": "107037146",
+        "contentUri": "coremedia://article/107037146",
         "label": null,
-        "link": "/news/2026-08-14/anu-plan-to-restore-reputation/107036750",
-        "title": "ANU seeking to turn a new page as cloud of controversy lingers",
+        "link": "/news/2026-08-14/anthony-albanese-podcast-shag-marry-date-melons-gestures/107037146",
+        "title": "PM denies knowing about 'shag, marry, date' podcast game",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1181,7 +1168,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Professor Rebekah Brown says the Australian National University has too few students and she's looking to change that."
+                    "content": "Anthony Albanese also doubles down on his defence of gestures made while talking about a pair of melon's given to him by the Japanese prime minister."
                   }
                 ]
               }
@@ -1189,16 +1176,16 @@
           }
         },
         "image": {
-          "altText": "A uni leader at a press coference",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7839cdcd3d14fffe94427c6555bb6273?impolicy=wcms_crop_resize&cropH=2365&cropW=3153&xPos=974&yPos=294&width=160&height=120",
+          "altText": "Prime Minister stands at the lecturn with his two hands raised in front.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ba6bef40bfa5a58c7fd0bbc947819564?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=256&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Educational Institutions",
-            "link": "/news/topic/educational-institutions",
+            "title": "Federal Government",
+            "link": "/news/topic/federal-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1337,6 +1324,98 @@
         "hasLoadPriority": false
       },
       {
+        "type": "medium",
+        "id": "107040686",
+        "contentUri": "coremedia://teaser/107040686",
+        "label": null,
+        "link": "/news/2026-08-14/ocean-photographer-of-the-year-2026-finalists/107036498",
+        "title": "Breathtaking finalists from the Ocean Photographer of the Year awards",
+        "theme": "lilac",
+        "image": {
+          "altText": "A vibrant coral reef with a pair of twospot cardinal fish swimming",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/302d8faa8f37f1d6e4c0447a84db48e0?impolicy=wcms_crop_resize&cropH=1280&cropW=1707&xPos=164&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Feel Good",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A pair of orcas working in tandem and a monk seal resting with its week-old pup are among the finalists of this year's Ocean Photographer of the Year competition."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107036750",
+        "contentUri": "coremedia://article/107036750",
+        "label": null,
+        "link": "/news/2026-08-14/anu-plan-to-restore-reputation/107036750",
+        "title": "ANU seeking to turn a new page as cloud of controversy lingers",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Professor Rebekah Brown says the Australian National University has too few students and she's looking to change that."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A uni leader at a press coference",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7839cdcd3d14fffe94427c6555bb6273?impolicy=wcms_crop_resize&cropH=2365&cropW=3153&xPos=974&yPos=294&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Educational Institutions",
+            "link": "/news/topic/educational-institutions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "107026886",
         "contentUri": "coremedia://article/107026886",
@@ -1374,144 +1453,6 @@
           {
             "title": "Domestic Violence",
             "link": "/news/topic/domestic-violence",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107036452",
-        "contentUri": "coremedia://article/107036452",
-        "label": null,
-        "link": "/news/2026-08-14/atsb-sydney-airport-third-safety-issue-runway-airservices/107036452",
-        "title": "PM demands 'immediate' airport issues reporting after Sydney 'delay'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A third safety issue on the tarmac at Sydney Airport in recent weeks prompted the nation's air safety boss question why investigators were not notified for four days about another incident on Sunday."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Passenger plane and air traffic control tower at Sydney airport - good generic",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/145bd7372ed97b8fdfe8e933450046cc?impolicy=wcms_crop_resize&cropH=1390&cropW=1853&xPos=173&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Air Transport Industry",
-            "link": "/news/topic/air-transport-industry",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107028938",
-        "contentUri": "coremedia://article/107028938",
-        "label": null,
-        "link": "/news/2026-08-13/cliff-head-oil-rig-unlit/107028938",
-        "title": "Maritime union calls for action as lights go out on WA ghost oil rig",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A month after administrators were called in, the Cliff Head oil platform prompts a safety warning from the Maritime Union of Australia."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An aerial view shows the worn platform's peeling paintwork, its once-vibrant green and yellow now faded to a pale white.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/363e73267f8e8c6700c15b4e4af0f194?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=224&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Oil and Gas",
-            "link": "/news/topic/oil-and-gas",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107033254",
-        "contentUri": "coremedia://article/107033254",
-        "label": null,
-        "link": "/news/2026-08-14/cotality-aus-house-price-downturn-scenarios-5pc-10pc-15pc-20pc/107033254",
-        "title": "What a housing downturn would look like in your city",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "New Cotality modelling data shows what property prices could look like across the capitals if the market falls by 5, 10, 15 or 20 per cent. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Bright signs in front of properties saying 'For Sale'",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84b59cef9a7f38d6f918aaff4e54ed04?impolicy=wcms_crop_resize&cropH=998&cropW=1330&xPos=606&yPos=432&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Property Prices",
-            "link": "/news/topic/property-prices",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1637,11 +1578,11 @@
       },
       {
         "type": "generic",
-        "id": "107036160",
-        "contentUri": "coremedia://article/107036160",
+        "id": "107028938",
+        "contentUri": "coremedia://article/107028938",
         "label": null,
-        "link": "/news/2026-08-14/australian-teen-golfer-jessica-bang-dies-in-thailand/107036160",
-        "title": "Australian teen golfer Jessica Bang dies in Thailand",
+        "link": "/news/2026-08-13/cliff-head-oil-rig-unlit/107028938",
+        "title": "Maritime union calls for action as lights go out on WA ghost oil rig",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1655,7 +1596,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Teenage Australian golfer Jessica Bang dies in Thailand after suffering a brain haemorrhage in early August."
+                    "content": "A month after administrators were called in, the Cliff Head oil platform prompts a safety warning from the Maritime Union of Australia."
                   }
                 ]
               }
@@ -1663,16 +1604,16 @@
           }
         },
         "image": {
-          "altText": "Teenage female golfer Jessica Bang holding a trophy, posing",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/57cdde81a2f0d9875aa34b8af85763b0?impolicy=wcms_crop_resize&cropH=709&cropW=946&xPos=759&yPos=177&width=160&height=120",
+          "altText": "An aerial view shows the worn platform's peeling paintwork, its once-vibrant green and yellow now faded to a pale white.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/363e73267f8e8c6700c15b4e4af0f194?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=224&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Golf",
-            "link": "/news/topic/golf",
+            "title": "Oil and Gas",
+            "link": "/news/topic/oil-and-gas",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1683,12 +1624,11 @@
       },
       {
         "type": "generic",
-        "id": "107034230",
-        "contentUri": "coremedia://article/107034230",
-        "theme": "sand",
+        "id": "107033254",
+        "contentUri": "coremedia://article/107033254",
         "label": null,
-        "link": "/news/2026-08-14/everybody-wants-to-cut-migration-but-nobody-wants-to-say-how/107034230",
-        "title": "Everybody wants to cut migration but nobody wants to say how",
+        "link": "/news/2026-08-14/cotality-aus-house-price-downturn-scenarios-5pc-10pc-15pc-20pc/107033254",
+        "title": "What a housing downturn would look like in your city",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1702,7 +1642,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The causes of migration are murky and it is harder for politicians to control than they would like to admit. "
+                    "content": "New Cotality modelling data shows what property prices could look like across the capitals if the market falls by 5, 10, 15 or 20 per cent. "
                   }
                 ]
               }
@@ -1710,23 +1650,18 @@
           }
         },
         "image": {
-          "altText": "A woman with red hair speaks at a lectern.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a0237e9d9b7798cc1228c51d075b821b?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=72&yPos=0&width=160&height=120",
+          "altText": "Bright signs in front of properties saying 'For Sale'",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/84b59cef9a7f38d6f918aaff4e54ed04?impolicy=wcms_crop_resize&cropH=998&cropW=1330&xPos=606&yPos=432&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Tom Crowley",
-            "title": "Analysis by Tom Crowley",
-            "link": "https://www.abc.net.au/news/tom-crowley/103219804",
-            "avatar": {
-              "alt": "Tom Crowley headshot",
-              "fallbackLetter": "T",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5af9cbe578ab49b332c80b32deca38ca?impolicy=wcms_crop_resize&cropH=1273&cropW=1273&xPos=1609&yPos=215&width=160&height=160"
-            },
-            "type": "combined",
+            "title": "Property Prices",
+            "link": "/news/topic/property-prices",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -1845,6 +1780,58 @@
       },
       {
         "type": "generic",
+        "id": "107034230",
+        "contentUri": "coremedia://article/107034230",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-08-14/everybody-wants-to-cut-migration-but-nobody-wants-to-say-how/107034230",
+        "title": "Everybody wants to cut migration but nobody wants to say how",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The causes of migration are murky and it is harder for politicians to control than they would like to admit. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman with red hair speaks at a lectern.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a0237e9d9b7798cc1228c51d075b821b?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=72&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Tom Crowley",
+            "title": "Analysis by Tom Crowley",
+            "link": "https://www.abc.net.au/news/tom-crowley/103219804",
+            "avatar": {
+              "alt": "Tom Crowley headshot",
+              "fallbackLetter": "T",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5af9cbe578ab49b332c80b32deca38ca?impolicy=wcms_crop_resize&cropH=1273&cropW=1273&xPos=1609&yPos=215&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107032730",
         "contentUri": "coremedia://article/107032730",
         "label": null,
@@ -1883,58 +1870,6 @@
             "link": "/news/topic/dairy-farming",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107032932",
-        "contentUri": "coremedia://article/107032932",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-08-14/concussion-risks-question-of-consent-jake-kolodjashnij/107032932",
-        "title": "Long careers increase risk of brain damage, but is informed consent enough?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As debate rages over Geelong defender Jake Kolodjashnij's controversial concussion waiver, what is the answer for players being exposed to potential brain damage in contact sports?"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Jake Kolodjashnij of the Cats warming up, running",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e3c497e93b5b3d4a73af0ddff321adac?impolicy=wcms_crop_resize&cropH=1831&cropW=2441&xPos=154&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "David Mark",
-            "title": "Analysis by David Mark",
-            "link": "https://www.abc.net.au/news/david-mark/167166",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "D",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/42717a6d6bad30125a393cc9b19202ed?impolicy=wcms_crop_resize&cropH=1663&cropW=1662&xPos=40&yPos=97&width=160&height=160"
-            },
-            "type": "combined",
             "key": "Tag1"
           }
         ],

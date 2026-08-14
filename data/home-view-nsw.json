@@ -9,13 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "107040378",
-        "contentUri": "coremedia://article/107040378",
-        "label": {
-          "variant": "breaking"
-        },
-        "link": "/news/2026-08-14/overhead-wires-come-down-on-passenger-train-causing-major-delays/107040378",
+        "type": "rich",
+        "id": "107040614",
+        "targetId": "107040378",
+        "contentUri": "coremedia://teaser/107040614",
+        "label": null,
         "title": "Major delays after overhead wires come down on Sydney passenger train",
         "content": {
           "descriptor": {
@@ -37,13 +35,46 @@
             ]
           }
         },
-        "image": {
-          "altText": "A Sydney train at a red light",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/120a0b4b4245669439589f18b085c5c7?impolicy=wcms_crop_resize&cropH=1043&cropW=1390&xPos=85&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-08-14T07:55:13+00:00",
+          "lastUpdated": "2026-08-14T09:18:10+00:00"
         },
+        "link": "/news/2026-08-14/overhead-wires-come-down-on-passenger-train-causing-major-delays/107040378",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "commuters taken off a train after overhead wires fell on top of it",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cf8bd5a72546cc839edfd7d0623b7bf?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "commuters taken off a train after overhead wires fell on top of it",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cf8bd5a72546cc839edfd7d0623b7bf?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "commuters taken off a train after overhead wires fell on top of it",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6cf8bd5a72546cc839edfd7d0623b7bf?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
           {
             "title": "Transport",
@@ -53,8 +84,8 @@
             "key": "Tag1"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -195,12 +226,62 @@
         "dates": null
       },
       {
+        "type": "generic",
+        "id": "107038814",
+        "contentUri": "coremedia://article/107038814",
+        "theme": "live",
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-08-14/nrl-live-updates-manly-dolphins-bulldogs-rabbitohs-/107038814",
+        "title": "Phins take lead in low-scoring clash with Manly",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Dolphins have produced a rugged defensive performance to take a narrow lead over Manly in a low-scoring clash at Brookvale Oval. Follow live."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man runs the ball during a rugby league match",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8cbc2ae2ad785feb13218e8bbd873f8a?impolicy=wcms_crop_resize&cropH=2620&cropW=3493&xPos=437&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "NRL",
+            "link": "/news/topic/nrl",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "rich",
         "id": "107039622",
         "targetId": "107029760",
         "contentUri": "coremedia://teaser/107039622",
         "label": null,
-        "title": "New mosque with capacity for 1,000 worshippers opens in cherry capital",
+        "title": "Muslim community 'part of the fabric' in NSW town as new mosque opens",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -278,56 +359,6 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107038814",
-        "contentUri": "coremedia://article/107038814",
-        "theme": "live",
-        "label": {
-          "variant": "live",
-          "status": "live"
-        },
-        "link": "/news/2026-08-14/nrl-live-updates-manly-dolphins-bulldogs-rabbitohs-/107038814",
-        "title": "Manly prepare for Fozball's last stand for 2026",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Manly's finals hopes in their first season under Kieran Foran are hanging by the barest of threads when they face the Dolphins at Brookvale Oval. Follow live."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man runs the ball during a rugby league match ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c2b953052196554a89ca0359c42c63dc?impolicy=wcms_crop_resize&cropH=3271&cropW=4361&xPos=272&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
       },
       {
         "type": "generic",
@@ -413,52 +444,6 @@
           {
             "title": "Missing Person",
             "link": "/news/topic/missing-person",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107032376",
-        "contentUri": "coremedia://article/107032376",
-        "label": null,
-        "link": "/news/2026-08-14/skip-bin-operator-allegedly-dumps-rubbish-near-grafton/107032376",
-        "title": "Asbestos in 320 tonnes of rubbish allegedly dumped near waterway",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The NSW Environment Protection Authority finds asbestos among rubbish allegedly dumped by a Clarence Valley skip-bin operator near a \"sensitive waterway\". "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Piles of rubbish dumped on grass.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d64ba06d8f4204d68efe5fea0e1c0c19?impolicy=wcms_crop_resize&cropH=1745&cropW=2326&xPos=892&yPos=1001&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Recycling and Waste Management",
-            "link": "/news/topic/recycling-and-waste-management",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -616,6 +601,52 @@
       },
       {
         "type": "generic",
+        "id": "107032376",
+        "contentUri": "coremedia://article/107032376",
+        "label": null,
+        "link": "/news/2026-08-14/skip-bin-operator-allegedly-dumps-rubbish-near-grafton/107032376",
+        "title": "Asbestos in 320 tonnes of rubbish allegedly dumped near waterway",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The NSW Environment Protection Authority finds asbestos among rubbish allegedly dumped by a Clarence Valley skip-bin operator near a \"sensitive waterway\". "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Piles of rubbish dumped on grass.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d64ba06d8f4204d68efe5fea0e1c0c19?impolicy=wcms_crop_resize&cropH=1745&cropW=2326&xPos=892&yPos=1001&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Recycling and Waste Management",
+            "link": "/news/topic/recycling-and-waste-management",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107039742",
         "contentUri": "coremedia://article/107039742",
         "label": null,
@@ -652,52 +683,6 @@
           {
             "title": "Workplace Accidents and Incidents",
             "link": "/news/topic/workplace-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107036528",
-        "contentUri": "coremedia://article/107036528",
-        "label": null,
-        "link": "/news/2026-08-14/nsw-bushfires-elevated-fire-season-risk-hazard-reduction/107036528",
-        "title": "Hazard reduction burns fast-tracked as NSW faces higher fire risk",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Authorities say they have \"accelerated\" hazard reduction burning in NSW ahead of an elevated fire risk this summer. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Generic images of flames, equipment and RFS volunteers and staff conducting a hazard reduction burn at Tura Beach, NSW",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c9b8f16db0f6fb4a7ce08548af891e0?impolicy=wcms_crop_resize&cropH=3444&cropW=4592&xPos=0&yPos=2&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Fires",
-            "link": "/news/topic/fires",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -799,6 +784,52 @@
       },
       {
         "type": "generic",
+        "id": "107036528",
+        "contentUri": "coremedia://article/107036528",
+        "label": null,
+        "link": "/news/2026-08-14/nsw-bushfires-elevated-fire-season-risk-hazard-reduction/107036528",
+        "title": "Hazard reduction burns fast-tracked as NSW faces higher fire risk",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Authorities say they have \"accelerated\" hazard reduction burning in NSW ahead of an elevated fire risk this summer. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Generic images of flames, equipment and RFS volunteers and staff conducting a hazard reduction burn at Tura Beach, NSW",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3c9b8f16db0f6fb4a7ce08548af891e0?impolicy=wcms_crop_resize&cropH=3444&cropW=4592&xPos=0&yPos=2&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Fires",
+            "link": "/news/topic/fires",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107033534",
         "contentUri": "coremedia://article/107033534",
         "label": null,
@@ -835,52 +866,6 @@
           {
             "title": "Public Transport",
             "link": "/news/topic/public-transport",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107023256",
-        "contentUri": "coremedia://article/107023256",
-        "label": null,
-        "link": "/news/2026-08-14/kangaroo-drownings-in-riverina-canal/107023256",
-        "title": "Kangaroo drownings in canal spark community concern",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A bus driver noticed dead kangaroos floating in a canal on her route. Plastic sheeting on the banks of the waterway could be the cause."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A sign warning people to not swim in the canal on a fence ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b013a1689891e9526c7ab45aab2a98b5?impolicy=wcms_crop_resize&cropH=3064&cropW=4085&xPos=507&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Animals",
-            "link": "/news/topic/animals",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
