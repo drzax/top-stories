@@ -9,32 +9,13 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "live",
+        "type": "rich",
         "id": "107046270",
         "targetId": "107046058",
-        "images": [
-          {
-            "desktop": {
-              "altText": "Unidentified Sydney Swans players walk up the tunnel onto an AFL field.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd8aa5680e2378cb03551d2384a6ae07?impolicy=wcms_crop_resize&cropH=1151&cropW=1727&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            }
-          }
-        ],
-        "label": {
-          "variant": "live",
-          "status": "ended"
-        },
-        "link": "/news/2026-08-17/sydney-swans-afl-footballers-involved-in-incident-in-melbourne/107046058",
-        "related": {
-          "title": null,
-          "articles": [],
-          "videos": [],
-          "cta": null
-        },
-        "synopsis": {
+        "contentUri": "coremedia://teaser/107046270",
+        "label": null,
+        "title": "Sydney Swans CEO confirms police investigating alleged incident 'involving several players' ",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -54,6 +35,46 @@
             ]
           }
         },
+        "dates": {
+          "firstPublished": "2026-08-17T02:52:35+00:00",
+          "lastUpdated": "2026-08-17T04:42:27+00:00"
+        },
+        "link": "/news/2026-08-17/sydney-swans-afl-footballers-involved-in-incident-in-melbourne/107046058",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Unidentified Sydney Swans players walk up the tunnel onto an AFL field.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd8aa5680e2378cb03551d2384a6ae07?impolicy=wcms_crop_resize&cropH=1151&cropW=1151&xPos=289&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Unidentified Sydney Swans players walk up the tunnel onto an AFL field.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd8aa5680e2378cb03551d2384a6ae07?impolicy=wcms_crop_resize&cropH=1151&cropW=1727&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Unidentified Sydney Swans players walk up the tunnel onto an AFL field.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fd8aa5680e2378cb03551d2384a6ae07?impolicy=wcms_crop_resize&cropH=971&cropW=1727&xPos=0&yPos=54&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
           {
             "title": "AFL",
@@ -61,13 +82,17 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
+          },
+          {
+            "title": "Sport",
+            "link": "/news/topic/sport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
           }
         ],
-        "title": "Sydney Swans involved in 'alleged incident' as police probe sexual assault",
-        "theme": "live",
-        "typing": null,
-        "updates": [],
-        "uri": "coremedia://teaser/107046270"
+        "readTime": 2,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -117,12 +142,58 @@
       },
       {
         "type": "generic",
+        "id": "107045036",
+        "contentUri": "coremedia://article/107045036",
+        "label": null,
+        "link": "/news/2026-08-17/coles-and-woolworths-to-test-facial-recognition-technology/107045036",
+        "title": "Coles and Woolworths test facial recognition technology",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The technology captures the faces of customers and matches their features against databases to identify repeat violent offenders. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Coles and Woolies signage ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e6e58a996b9459f8207d4d24d483154?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AI",
+            "link": "/news/topic/ai",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107044990",
         "contentUri": "coremedia://article/107044990",
         "theme": "sand",
         "label": null,
         "link": "/news/2026-08-17/teen-social-media-ban-efficacy-sharks-tech-companies/107044990",
-        "title": "How much longer should Australia wait for the social media ban to work?",
+        "title": "Anthony Albanese's teen social media ban has a shark problem",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -214,52 +285,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107046246",
-        "contentUri": "coremedia://article/107046246",
-        "label": {
-          "variant": "breaking"
-        },
-        "link": "/news/2026-08-17/us-actress-hayden-panettiere-dies-at-36/107046246",
-        "title": "US actress Hayden Panettiere dies aged 36",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Hayden Panettiere, star of popular television series including Heroes and Nashville, has died. She was 36."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Hayden Panettiere poses at a premiere, wearing a high-neck black top and her blonde hair tied up.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0707b37da613e6e14fe78decda243927?impolicy=wcms_crop_resize&cropH=2116&cropW=2821&xPos=134&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
-        "id": "107044776",
-        "targetId": "107044090",
-        "contentUri": "coremedia://teaser/107044776",
+        "id": "107046796",
+        "targetId": "107044958",
+        "contentUri": "coremedia://teaser/107046796",
         "label": null,
-        "title": "Sam Pang wins Logies gold, Andrew Denton's stand-out speech and Szubanski's cameo",
+        "title": "Search for missing 18yo bushwalker enters sixth day",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -273,7 +304,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Sam Pang takes home the gold at the 66th TV Week Logies as Robert Irwin takes over the hosting duties. Here are your key moments. "
+                    "content": "Police examine telecommunications data and continue to deploy a thermal-imaging helicopter as the search for missing bushwalker Lily Hooper, 18, enters its sixth day."
                   }
                 ]
               }
@@ -281,140 +312,37 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-08-16T19:50:44+00:00",
-          "lastUpdated": "2026-08-16T19:50:44+00:00"
+          "firstPublished": "2026-08-17T01:01:23+00:00",
+          "lastUpdated": "2026-08-17T01:42:09+00:00"
         },
-        "link": "/news/2026-08-17/logies-2026-key-moments-robert-irwin-sam-pang-sam-neill/107044090",
+        "link": "/news/2026-08-17/lily-hooper-search-nattai-national-park-sixth-day/107044958",
         "related": {
           "title": null,
           "videos": [],
           "audio": [],
-          "articles": [
-            {
-              "id": "107025284",
-              "contentUri": "coremedia://article/107025284",
-              "label": null,
-              "link": "/news/2026-08-16/logies-2026-winners-list-gold-logie/107025284",
-              "title": "Logies 2026 winners list",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Sam Pang"
-                        },
-                        {
-                          "type": "tagname",
-                          "key": "strong",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "text",
-                              "content": " "
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "content": "has won the Gold Logie for 2026, with ABC shows Goolagong and Dog Park the night's other big winners. Here is the complete list of 2026 Logies winners."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "Sam Pang in a black suite and bowtie on stage holding a small gold statue. The background is black and purple",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab76b711987e7ee49c6dd4e0fd5fffef?impolicy=wcms_crop_resize&cropH=1321&cropW=1762&xPos=935&yPos=85&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
+          "articles": []
         },
         "gallery": [
           {
             "desktop": {
-              "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2728&cropW=2728&xPos=706&yPos=0&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "A man in an Australia Zoo uniform holding a massive python",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=759&yPos=0&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2884&cropW=2884&xPos=976&yPos=0&width=862&height=862"
+              "altText": "A navy blue and white helicopter about to land in a paddock of dry grass. Trees are in the background.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77c0f57253c2d52fb3631b1c4e4e7cde?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=319&yPos=0&width=862&height=862"
             }
           }
         ],
         "thumbnail": [
           {
             "desktop": {
-              "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2728&cropW=4092&xPos=4&yPos=0&width=862&height=575",
+              "altText": "A navy blue and white helicopter about to land in a paddock of dry grass. Trees are in the background.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77c0f57253c2d52fb3631b1c4e4e7cde?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2304&cropW=4096&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "A man in an Australia Zoo uniform holding a massive python",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A man in an Australia Zoo uniform holding a massive python",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2884&cropW=4326&xPos=4&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2436&cropW=4330&xPos=0&yPos=0&width=862&height=485",
+                "altText": "A navy blue and white helicopter about to land in a paddock of dry grass. Trees are in the background.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/77c0f57253c2d52fb3631b1c4e4e7cde?impolicy=wcms_crop_resize&cropH=863&cropW=1535&xPos=276&yPos=71&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -425,26 +353,20 @@
         ],
         "tags": [
           {
-            "text": "Mawunyo Gbogbo",
-            "title": "By Mawunyo Gbogbo",
-            "link": "https://www.abc.net.au/news/mawunyo-gbogbo/9312686",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "M",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71ba4ad437d9fd688b5cb46504e6f838?impolicy=wcms_crop_resize&cropH=1988&cropW=1989&xPos=505&yPos=0&width=160&height=160"
-            },
-            "type": "author",
+            "title": "ABC Illawarra",
+            "link": "https://www.abc.net.au/illawarra/",
+            "type": "infoSource",
             "key": "Tag1"
           },
           {
-            "title": "Awards and Prizes",
-            "link": "/news/topic/awards-and-prizes",
+            "title": "Missing Person",
+            "link": "/news/topic/missing-person",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
-        "readTime": 5,
+        "readTime": 3,
         "hasLoadPriority": false
       },
       {
@@ -495,6 +417,52 @@
       },
       {
         "type": "generic",
+        "id": "107046246",
+        "contentUri": "coremedia://article/107046246",
+        "label": null,
+        "link": "/news/2026-08-17/us-actress-hayden-panettiere-dies-at-36/107046246",
+        "title": "US star Hayden Panettiere dies aged 36",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Hayden Panettiere, star of popular television series including Heroes and Nashville, has died. She was 36."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Hayden Panettiere poses at a premiere, wearing a high-neck black top and her blonde hair tied up.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0707b37da613e6e14fe78decda243927?impolicy=wcms_crop_resize&cropH=2116&cropW=2821&xPos=134&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Actor",
+            "link": "/news/topic/actor",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107044768",
         "contentUri": "coremedia://article/107044768",
         "theme": "live",
@@ -535,52 +503,6 @@
           {
             "title": "Government and Politics",
             "link": "/news/topic/government-and-politics",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107044958",
-        "contentUri": "coremedia://article/107044958",
-        "label": null,
-        "link": "/news/2026-08-17/lily-hooper-search-nattai-national-park-sixth-day/107044958",
-        "title": "Family and friends help search for missing 18yo bushwalker",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Police examine telecommunications data and continue to deploy a thermal-imaging helicopter as the search for missing bushwalker Lily Hooper, 18, enters its sixth day."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman with long blonde hair, wearing a green tank top. She is smiling and has one arm raised near her ear.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d08f19b6262b8a7b48912b03555f941a?impolicy=wcms_crop_resize&cropH=133&cropW=178&xPos=76&yPos=12&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Missing Person",
-            "link": "/news/topic/missing-person",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -867,11 +789,11 @@
       },
       {
         "type": "rich",
-        "id": "107045214",
-        "targetId": "107043538",
-        "contentUri": "coremedia://teaser/107045214",
+        "id": "107044776",
+        "targetId": "107044090",
+        "contentUri": "coremedia://teaser/107044776",
         "label": null,
-        "title": "What the stars wore at the 2026 Logies",
+        "title": "Sam Pang wins Logies gold, Andrew Denton's stand-out speech and Szubanski's cameo",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -885,7 +807,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The stars of the Australian television industry have arrived at the 2026 Logie Awards. Here's a look at some of the outfits."
+                    "content": "Sam Pang takes home the gold at the 66th TV Week Logies as Robert Irwin takes over the hosting duties. Here are your key moments. "
                   }
                 ]
               }
@@ -893,49 +815,139 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-08-16T07:28:23+00:00",
-          "lastUpdated": "2026-08-16T20:01:16+00:00"
+          "firstPublished": "2026-08-16T19:50:44+00:00",
+          "lastUpdated": "2026-08-16T19:50:44+00:00"
         },
-        "link": "/news/2026-08-16/logies-red-carpet-television-awards-ceremony-2026/107043538",
+        "link": "/news/2026-08-17/logies-2026-key-moments-robert-irwin-sam-pang-sam-neill/107044090",
         "related": {
-          "title": null,
+          "title": "More from the Logies:",
           "videos": [],
           "audio": [],
-          "articles": []
+          "articles": [
+            {
+              "id": "107025284",
+              "contentUri": "coremedia://article/107025284",
+              "label": null,
+              "link": "/news/2026-08-16/logies-2026-winners-list-gold-logie/107025284",
+              "title": "Logies 2026 winners list",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Sam Pang"
+                        },
+                        {
+                          "type": "tagname",
+                          "key": "strong",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": " "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "has won the Gold Logie for 2026, with ABC shows Goolagong and Dog Park the night's other big winners. Here is the complete list of 2026 Logies winners."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Sam Pang in a black suite and bowtie on stage holding a small gold statue. The background is black and purple",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ab76b711987e7ee49c6dd4e0fd5fffef?impolicy=wcms_crop_resize&cropH=1321&cropW=1762&xPos=935&yPos=85&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            },
+            {
+              "id": "107043538",
+              "contentUri": "coremedia://article/107043538",
+              "label": null,
+              "link": "/news/2026-08-16/logies-red-carpet-television-awards-ceremony-2026/107043538",
+              "title": "What the stars wore at the 2026 Logies",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "The stars of the Australian television industry have arrived at the 2026 Logie Awards. Here's a look at some of the outfits."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Northeast wears a tiered baby pink fringe dress with A-line skirt and strapless bodice. Chung wears a shiny black pinstripe suit",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/def3d161958ac3e0c2998f11e9340a95?impolicy=wcms_crop_resize&cropH=1370&cropW=1826&xPos=641&yPos=640&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
         },
         "gallery": [
           {
             "desktop": {
-              "altText": "Gelmi wears a tulle top with one off-the-shoulder strap and a silver chainmail column skirt",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1dd6ea344bb379cabdcda15f689e693?impolicy=wcms_crop_resize&cropH=3332&cropW=3332&xPos=0&yPos=0&width=862&height=862"
+              "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2728&cropW=2728&xPos=706&yPos=0&width=862&height=862"
             }
           },
           {
             "desktop": {
-              "altText": "Mailman wears a sequined black blazer cinched at her waist.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3cf312f6c42e1cb4b4fe957083c31a0?impolicy=wcms_crop_resize&cropH=3334&cropW=3334&xPos=833&yPos=0&width=862&height=862"
+              "altText": "A man in an Australia Zoo uniform holding a massive python",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=759&yPos=0&width=862&height=862"
             }
           },
           {
             "desktop": {
-              "altText": "Hart wears a powder blue tiered tulle dress and McGuire wears a scoop neck A-line dress with colourful embroidery.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad924428f56e00faa348a7c8397dd98a?impolicy=wcms_crop_resize&cropH=3334&cropW=3334&xPos=845&yPos=0&width=862&height=862"
+              "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2884&cropW=2884&xPos=976&yPos=0&width=862&height=862"
             }
           }
         ],
         "thumbnail": [
           {
             "desktop": {
-              "altText": "Gelmi wears a tulle top with one off-the-shoulder strap and a silver chainmail column skirt",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1dd6ea344bb379cabdcda15f689e693?impolicy=wcms_crop_resize&cropH=2221&cropW=3332&xPos=0&yPos=486&width=862&height=575",
+              "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2728&cropW=4092&xPos=4&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "Gelmi wears a tulle top with one off-the-shoulder strap and a silver chainmail column skirt",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a1dd6ea344bb379cabdcda15f689e693?impolicy=wcms_crop_resize&cropH=1874&cropW=3332&xPos=0&yPos=660&width=862&height=485",
+                "altText": "A young white man in a suit next to an Asian man in a tux on stage in front of a mic",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/681d944391175d73d46aa3a2de325a95?impolicy=wcms_crop_resize&cropH=2304&cropW=4096&xPos=0&yPos=0&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -945,16 +957,16 @@
           },
           {
             "desktop": {
-              "altText": "Mailman wears a sequined black blazer cinched at her waist.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3cf312f6c42e1cb4b4fe957083c31a0?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "altText": "A man in an Australia Zoo uniform holding a massive python",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "Mailman wears a sequined black blazer cinched at her waist.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3cf312f6c42e1cb4b4fe957083c31a0?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=133&width=862&height=485",
+                "altText": "A man in an Australia Zoo uniform holding a massive python",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a017134ef56688da14945de72e27afa8?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -964,16 +976,16 @@
           },
           {
             "desktop": {
-              "altText": "Hart wears a powder blue tiered tulle dress and McGuire wears a scoop neck A-line dress with colourful embroidery.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad924428f56e00faa348a7c8397dd98a?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2884&cropW=4326&xPos=4&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "Hart wears a powder blue tiered tulle dress and McGuire wears a scoop neck A-line dress with colourful embroidery.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ad924428f56e00faa348a7c8397dd98a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=36&width=862&height=485",
+                "altText": "A man with his back to the camera in front of a short woman who is bandaged up and wearing an Australia Zoo uniform",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e8451b96dd61ff39e2f12655ec1dda95?impolicy=wcms_crop_resize&cropH=2436&cropW=4330&xPos=0&yPos=0&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -984,26 +996,26 @@
         ],
         "tags": [
           {
-            "text": "Elissa Fitzgerald",
-            "title": "By Elissa Fitzgerald",
-            "link": "https://www.abc.net.au/news/elissa-fitzgerald/103913586",
+            "text": "Mawunyo Gbogbo",
+            "title": "By Mawunyo Gbogbo",
+            "link": "https://www.abc.net.au/news/mawunyo-gbogbo/9312686",
             "avatar": {
               "alt": "",
-              "fallbackLetter": "E",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5dadff90cb658f4434b0be5dd74d7e74?impolicy=wcms_crop_resize&cropH=3840&cropW=3840&xPos=0&yPos=0&width=160&height=160"
+              "fallbackLetter": "M",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71ba4ad437d9fd688b5cb46504e6f838?impolicy=wcms_crop_resize&cropH=1988&cropW=1989&xPos=505&yPos=0&width=160&height=160"
             },
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "Fashion",
-            "link": "/news/topic/fashion",
+            "title": "Awards and Prizes",
+            "link": "/news/topic/awards-and-prizes",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
           }
         ],
-        "readTime": 1,
+        "readTime": 5,
         "hasLoadPriority": false
       },
       {
@@ -1198,6 +1210,52 @@
       },
       {
         "type": "generic",
+        "id": "107027670",
+        "contentUri": "coremedia://article/107027670",
+        "label": null,
+        "link": "/news/2026-08-17/dead-pelicans-menindee-lakes-h5n1-bird-flu-negative-test/107027670",
+        "title": "Hundreds of pelicans found dead in outback NSW",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Bird flu is ruled out as the cause of the deaths of hundreds of pelicans discovered by an ecologist at the Menindee Lakes."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Photo of a pile of dead birds",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e13d155cf7cb29c734fbc2a64f6c298?impolicy=wcms_crop_resize&cropH=1200&cropW=1600&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Birds",
+            "link": "/news/topic/birds",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107040504",
         "contentUri": "coremedia://article/107040504",
         "theme": "sand",
@@ -1304,7 +1362,7 @@
           "status": "live"
         },
         "link": "/news/2026-08-17/asx-markets-business-live-news/107043886",
-        "title": "NAB home lending decline led by investors, more loans 'on watch'",
+        "title": "JB Hi-Fi shares slump as sales outlook worries investors",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1318,7 +1376,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "National Australia Bank reports a quarterly profit rise, despite a softening of home lending, led by investors. Wilting consumer confidence has halted Wall Street's recent rally and the ASX is priced to slide lower again today. Follow live.  "
+                    "content": "JB Hi-Fi is leading the losses on the ASX 200, with the broader index modestly lower. National Australia Bank reports a quarterly profit rise, despite a softening of home lending, led by investors. Follow live.  "
                   }
                 ]
               }
@@ -1326,8 +1384,8 @@
           }
         },
         "image": {
-          "altText": "FILE PHOTO: The logo of the National Australia Bank is displayed outside their headquarters building in central Sydney, Australia August 4, 2017.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6c2358d3cd3ab6101d9b3183b4045e25?impolicy=wcms_crop_resize&cropH=866&cropW=1159&xPos=58&yPos=0&width=160&height=120",
+          "altText": "JB HI-FI",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/98772fbe0ae47d892490c71df3bdc173?impolicy=wcms_crop_resize&cropH=750&cropW=1000&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1336,52 +1394,6 @@
           {
             "title": "Stock Market",
             "link": "/news/topic/stock-market",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107045364",
-        "contentUri": "coremedia://article/107045364",
-        "label": null,
-        "link": "/news/2026-08-17/anu-appoints-new-chancellor-to-replace-julie-bishop/107045364",
-        "title": "ANU replaces Julie Bishop as chancellor after long period of controversy",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Adjunct Professor of Economics Gordon de Brouwer will be the ANU's 14th chancellor in its 80-year history when he takes up the role on August 19."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A man wearing a grey suit sitting on a red chair. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20ceec433ca099721c759df82c46cbc7?impolicy=wcms_crop_resize&cropH=291&cropW=388&xPos=155&yPos=37&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Education",
-            "link": "/news/topic/education",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1478,6 +1490,52 @@
       },
       {
         "type": "generic",
+        "id": "107045364",
+        "contentUri": "coremedia://article/107045364",
+        "label": null,
+        "link": "/news/2026-08-17/anu-appoints-new-chancellor-to-replace-julie-bishop/107045364",
+        "title": "ANU replaces Julie Bishop as chancellor after long period of controversy",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Adjunct Professor of Economics Gordon de Brouwer will be the ANU's 14th chancellor in its 80-year history when he takes up the role on August 19."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A man wearing a grey suit sitting on a red chair. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/20ceec433ca099721c759df82c46cbc7?impolicy=wcms_crop_resize&cropH=291&cropW=388&xPos=155&yPos=37&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Education",
+            "link": "/news/topic/education",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107043758",
         "contentUri": "coremedia://article/107043758",
         "label": null,
@@ -1514,52 +1572,6 @@
           {
             "title": "Women's Health",
             "link": "/news/topic/womens-health",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106999484",
-        "contentUri": "coremedia://article/106999484",
-        "label": null,
-        "link": "/news/2026-08-17/increasing-incidence-of-strokes-in-young-people/106999484",
-        "title": "Strokes are increasingly impacting young people and experts say the factors are complex",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Stroke Foundation says one in four strokes in Australia now occur in those aged under 65, despite the overall incidence going down."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A caucasian man wearing a dark blue puffer jacket, jeans and a brown cap stands in front of a grassy area on a verandah",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e475409c595c33b2f9a829d4d6d4467b?impolicy=wcms_crop_resize&cropH=1173&cropW=1564&xPos=2875&yPos=695&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Stroke",
-            "link": "/news/topic/stroke",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1819,98 +1831,6 @@
           {
             "title": "Birds",
             "link": "/news/topic/birds",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107027670",
-        "contentUri": "coremedia://article/107027670",
-        "label": null,
-        "link": "/news/2026-08-17/dead-pelicans-menindee-lakes-h5n1-bird-flu-negative-test/107027670",
-        "title": "Hundreds of pelicans found dead in outback NSW",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Bird flu is ruled out as the cause of the deaths of hundreds of pelicans discovered by an ecologist at the Menindee Lakes."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Photo of a pile of dead birds",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e13d155cf7cb29c734fbc2a64f6c298?impolicy=wcms_crop_resize&cropH=1200&cropW=1600&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Birds",
-            "link": "/news/topic/birds",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "105507238",
-        "contentUri": "coremedia://article/105507238",
-        "label": null,
-        "link": "/news/2026-08-17/mundella-dairy-collapse-liquidation-investigation/105507238",
-        "title": "Director faces investigations following Mundella collapse",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The collapse of a well-known WA dairy processor and associated companies has left unsecured creditors empty-handed. Now liquidators are set to investigate possible insolvent trading and hundreds of potentially \"unreasonable transactions\" by the director."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A tub of Mundella Foods yoghurt.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a3a796e8a05a6e8cbc2e453ed0923203?impolicy=wcms_crop_resize&cropH=2624&cropW=3499&xPos=437&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Dairy Farming",
-            "link": "/news/topic/dairy-farming",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
