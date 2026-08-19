@@ -14,7 +14,7 @@
         "contentUri": "coremedia://article/107053398",
         "label": null,
         "link": "/news/2026-08-19/afl-sydney-swans-ban-five-players-amid-police-investigation/107053398",
-        "title": "Swans say players' bans relate to drinking and bringing women to hotel",
+        "title": "Swans say potential to 'torpedo' season didn't factor into banning players",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -106,7 +106,7 @@
         "contentUri": "coremedia://article/107054326",
         "label": null,
         "link": "/news/2026-08-19/bondi-royal-antisemitism-commission-marcia-langton/107054326",
-        "title": "Academic abused for support of Jewish Australians, royal commission told",
+        "title": "Indigenous academic abused by members of pro-Palestinian movement",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -148,10 +148,56 @@
       },
       {
         "type": "generic",
-        "id": "107053550",
-        "contentUri": "coremedia://article/107053550",
+        "id": "107053710",
+        "contentUri": "coremedia://article/107053710",
         "label": null,
-        "link": "/news/2026-08-19/mundi-mundi-bash-music-festival-heavy-rain-nsw/107053550",
+        "link": "/news/2026-08-19/coordinated-mortgage-fraud-uncovered-austrac-banks-on-notice/107053710",
+        "title": "'Liar loans' leave property market open to criminal exploitation",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Hundreds of millions of dollars worth of property, largely in Sydney, has been bought by people who have submitted fake incomes statements and other fraudulent documents to support their borrowing."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A sold sticker on a for sale sign.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/04b81ec77def3563c45b6e1cd75767b4?impolicy=wcms_crop_resize&cropH=2250&cropW=3000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Mortgages",
+            "link": "/news/topic/mortgages",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107054538",
+        "targetId": "107053550",
+        "contentUri": "coremedia://teaser/107054538",
+        "label": null,
         "title": "Days of downpour threaten outback music festival as gates remain closed",
         "content": {
           "descriptor": {
@@ -173,31 +219,70 @@
             ]
           }
         },
-        "image": {
-          "altText": "A long line of vehicles and caravans on a dirt road next to a big puddle.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7806d90c86e3941bdc1a6662097a0425?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-08-19T03:15:32+00:00",
+          "lastUpdated": "2026-08-19T03:23:33+00:00"
         },
+        "link": "/news/2026-08-19/mundi-mundi-bash-music-festival-heavy-rain-nsw/107053550",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A long line of vehicles and caravans on a dirt road next to a big puddle.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7806d90c86e3941bdc1a6662097a0425?impolicy=wcms_crop_resize&cropH=3024&cropW=3024&xPos=504&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A long line of vehicles and caravans on a dirt road next to a big puddle.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7806d90c86e3941bdc1a6662097a0425?impolicy=wcms_crop_resize&cropH=2688&cropW=4032&xPos=0&yPos=168&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A long line of vehicles and caravans on a dirt road next to a big puddle.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7806d90c86e3941bdc1a6662097a0425?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=378&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
+          {
+            "title": "ABC Broken Hill",
+            "link": "https://www.abc.net.au/brokenhill/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
           {
             "title": "Arts Festivals",
             "link": "/news/topic/arts-festivals",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
-        "type": "rich",
-        "id": "107054112",
-        "targetId": "107052766",
-        "contentUri": "coremedia://teaser/107054112",
+        "type": "generic",
+        "id": "107052766",
+        "contentUri": "coremedia://article/107052766",
         "label": null,
+        "link": "/news/2026-08-19/federal-government-great-western-highway-funding/107052766",
         "title": "Closed highway gets funding for overtaking lane after community push",
         "content": {
           "descriptor": {
@@ -219,63 +304,24 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-08-18T23:18:54+00:00",
-          "lastUpdated": "2026-08-19T00:46:08+00:00"
+        "image": {
+          "altText": "A picture of a road with no cars and closure signs",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17ab1bf03089f77f82bf61949d4549f6?impolicy=wcms_crop_resize&cropH=2812&cropW=3749&xPos=625&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-08-19/federal-government-great-western-highway-funding/107052766",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A picture of a road with no cars and closure signs",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17ab1bf03089f77f82bf61949d4549f6?impolicy=wcms_crop_resize&cropH=2812&cropW=2812&xPos=1094&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A picture of a road with no cars and closure signs",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17ab1bf03089f77f82bf61949d4549f6?impolicy=wcms_crop_resize&cropH=2812&cropW=4218&xPos=391&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A picture of a road with no cars and closure signs",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17ab1bf03089f77f82bf61949d4549f6?impolicy=wcms_crop_resize&cropH=2812&cropW=4999&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
         "tags": [
-          {
-            "title": "ABC Central West",
-            "link": "https://www.abc.net.au/centralwest/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
           {
             "title": "Roads",
             "link": "/news/topic/roads",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag2"
+            "key": "Tag1"
           }
         ],
-        "readTime": 3,
-        "hasLoadPriority": false
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -370,11 +416,11 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "107053284",
-        "targetId": "107049888",
-        "contentUri": "coremedia://teaser/107053284",
+        "type": "generic",
+        "id": "107049888",
+        "contentUri": "coremedia://article/107049888",
         "label": null,
+        "link": "/news/2026-08-19/white-cliffs-camel-cup-outback-event-far-west-nsw/107049888",
         "title": "Lawyers replace jockeys in 'chaos' of camel race",
         "content": {
           "descriptor": {
@@ -396,118 +442,24 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-08-18T23:15:20+00:00",
-          "lastUpdated": "2026-08-18T23:15:20+00:00"
+        "image": {
+          "altText": "A volunteer camel jockey races in the annual White Cliffs Camel Cup and Bikekhana.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ca34d7a5224cdb449a865217f7745a2?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-08-19/white-cliffs-camel-cup-outback-event-far-west-nsw/107049888",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A volunteer camel jockey races in the annual White Cliffs Camel Cup and Bikekhana.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ca34d7a5224cdb449a865217f7745a2?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Kids and adults climb the fence alongside the camel racetrack at the White Cliffs Camel Cup",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bfc7ce64374a1e8ad48e63f8c6c3c2c?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=821&yPos=0&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Two competitors race camels on the red dirt.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/183b5c22186464a9292fc5ab6bbfaed3?impolicy=wcms_crop_resize&cropH=3173&cropW=3173&xPos=237&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A volunteer camel jockey races in the annual White Cliffs Camel Cup and Bikekhana.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ca34d7a5224cdb449a865217f7745a2?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A volunteer camel jockey races in the annual White Cliffs Camel Cup and Bikekhana.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7ca34d7a5224cdb449a865217f7745a2?impolicy=wcms_crop_resize&cropH=2525&cropW=4489&xPos=511&yPos=803&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "Kids and adults climb the fence alongside the camel racetrack at the White Cliffs Camel Cup",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bfc7ce64374a1e8ad48e63f8c6c3c2c?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Kids and adults climb the fence alongside the camel racetrack at the White Cliffs Camel Cup",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bfc7ce64374a1e8ad48e63f8c6c3c2c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "Two competitors race camels on the red dirt.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/183b5c22186464a9292fc5ab6bbfaed3?impolicy=wcms_crop_resize&cropH=3173&cropW=4759&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Two competitors race camels on the red dirt.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/183b5c22186464a9292fc5ab6bbfaed3?impolicy=wcms_crop_resize&cropH=2677&cropW=4759&xPos=0&yPos=496&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
         "tags": [
           {
-            "text": "Em Jensen",
-            "title": "By Em Jensen",
-            "link": "https://www.abc.net.au/news/em-jensen/106997936",
-            "avatar": {
-              "alt": "A black-and-white photo of a woman wearing a hat with a camera around her neck.",
-              "fallbackLetter": "E",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cba816877760bb5826f13afee4fad332?impolicy=wcms_crop_resize&cropH=606&cropW=606&xPos=149&yPos=245&width=160&height=160"
-            },
-            "type": "author",
+            "title": "Community and Cultural Events",
+            "link": "/news/topic/community-and-cultural-events",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
-          },
-          {
-            "title": "ABC Broken Hill",
-            "link": "https://www.abc.net.au/brokenhill/",
-            "type": "infoSource",
-            "key": "Tag2"
           }
         ],
-        "readTime": 5,
-        "hasLoadPriority": false
+        "mediaIndicator": null,
+        "dates": null
       }
     ],
     "stateRail": {
