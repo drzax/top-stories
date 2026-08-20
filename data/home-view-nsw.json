@@ -9,6 +9,52 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "generic",
+        "id": "107057526",
+        "contentUri": "coremedia://article/107057526",
+        "label": null,
+        "link": "/news/2026-08-21/logging-forestry-corporation-nsw-road-maintenance/107057526",
+        "title": "Loggers avoid environmental laws by labelling operations 'road maintenance'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Forestry Corporation of NSW avoids strict environmental protection for threatened species by calling a logging operation \"road maintenance\"."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A tractor pulls a trailor filled with felled trees and a pile of logs sits on the side of the road.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fcc8a6df969e053fa0e5b19ff9318e96?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Environment",
+            "link": "/news/topic/environment",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
         "type": "rich",
         "id": "107061128",
         "targetId": "107058364",
@@ -140,52 +186,6 @@
       },
       {
         "type": "generic",
-        "id": "107060154",
-        "contentUri": "coremedia://article/107060154",
-        "label": null,
-        "link": "/news/2026-08-20/albanese-swans-afl-allegations-melons-and-zomi-frankcom/107060154",
-        "title": "'Completely unacceptable': Albanese lashes AFL over response to Swans scandal",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The Prime Minister has called on the AFL to \"do better\" in response to the Sydney Swans scandal engulfing the league."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Prime Minister Anthony Albanese wearing a suit and standing in a TV studio.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/760fb019e2c6cc7dab6cb466e30b10f1?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=390&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Federal Government",
-            "link": "/news/topic/federal-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "107059156",
         "contentUri": "coremedia://article/107059156",
         "label": null,
@@ -222,6 +222,52 @@
           {
             "title": "Police",
             "link": "/news/topic/police",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107060154",
+        "contentUri": "coremedia://article/107060154",
+        "label": null,
+        "link": "/news/2026-08-20/albanese-swans-afl-allegations-melons-and-zomi-frankcom/107060154",
+        "title": "'Completely unacceptable': Albanese lashes AFL over response to Swans scandal",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The Prime Minister has called on the AFL to \"do better\" in response to the Sydney Swans scandal engulfing the league."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Prime Minister Anthony Albanese wearing a suit and standing in a TV studio.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/760fb019e2c6cc7dab6cb466e30b10f1?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=390&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Federal Government",
+            "link": "/news/topic/federal-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -458,7 +504,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107048936",
@@ -504,19 +562,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107060788",
