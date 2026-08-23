@@ -13,10 +13,8 @@
         "id": "107068426",
         "targetId": "107068380",
         "contentUri": "coremedia://teaser/107068426",
-        "label": {
-          "variant": "breaking"
-        },
-        "title": "Australia records its first bird flu case in a mammal",
+        "label": null,
+        "title": "Australia records its first bird flu case in a mammal, minister says",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -39,14 +37,134 @@
         },
         "dates": {
           "firstPublished": "2026-08-23T00:36:50+00:00",
-          "lastUpdated": "2026-08-23T00:55:11+00:00"
+          "lastUpdated": "2026-08-23T01:09:58+00:00"
         },
         "link": "/news/2026-08-23/australias-first-bird-flu-case-in-mammal-confirmed-in-sa/107068380",
         "related": {
           "title": null,
           "videos": [],
           "audio": [],
-          "articles": []
+          "articles": [
+            {
+              "id": "107024944",
+              "contentUri": "coremedia://article/107024944",
+              "theme": "sand",
+              "label": null,
+              "link": "/news/science/2026-08-22/when-hundreds-of-animals-die-what-happens-next/107024944",
+              "title": "When hundreds of animals die from bird flu, what happens next?",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Despite their scale, we know surprisingly little about mass death events — from bird flu and other triggers — and their longer-term ecological consequences."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A dead bird on a beach.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d626d2653797ca3a0efabee7c621b102?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=97&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [
+                {
+                  "title": "Explainer",
+                  "type": "genre",
+                  "screenReader": "Topic",
+                  "key": "Tag1"
+                }
+              ],
+              "mediaIndicator": null,
+              "dates": null
+            },
+            {
+              "id": "107058878",
+              "contentUri": "coremedia://article/107058878",
+              "label": null,
+              "link": "/news/2026-08-20/1000-bird-deaths-linked-to-h5n1-flu-and-three-mass-mortalities/107058878",
+              "title": "Bird flu suspected as 1,000 birds found dead in three mass mortality events",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Three mass bird mortality events believed to be linked to the H5N1 avian flu strain have been recorded on islands off SA. In a separate event, more than two dozen penguins have been found dead in Tasmania, with testing now underway. "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A dead greater crested tern in the grass.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a182b1c79dec4291f2d02830e1cf4ac9?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=779&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            },
+            {
+              "id": "107062734",
+              "contentUri": "coremedia://article/107062734",
+              "label": null,
+              "link": "/news/2026-08-21/bird-flu-mass-deaths-prompt-kangaroo-island-apprehension/107062734",
+              "title": "As bird flu ravages stocks, Kangaroo Island is 'sick of bloody disasters' ",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Fears about bird flu's potentially devastating impact on South Australia's penguins have fuelled calls for the creatures to be vaccinated against the virus, with Kangaroo Island's mayor saying the local population has \"taken a hammering\" in recent years."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "A little penguin in a burrow under a rock",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e28dedb7d0ad76c0b82feddc85c81b47?impolicy=wcms_crop_resize&cropH=2279&cropW=3039&xPos=0&yPos=1461&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
         },
         "gallery": [
           {
@@ -93,7 +211,7 @@
             "key": "Tag2"
           }
         ],
-        "readTime": 1,
+        "readTime": 2,
         "hasLoadPriority": false
       },
       {
@@ -455,7 +573,19 @@
         "theme": "lilac",
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107064832",
@@ -501,19 +631,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107062048",
@@ -559,220 +677,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107065100",
-        "targetId": "107062734",
-        "contentUri": "coremedia://teaser/107065100",
-        "label": null,
-        "title": "As bird flu ravages stocks, Kangaroo Island is 'sick of bloody disasters' ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Fears about bird flu's potentially devastating impact on South Australia's penguins have fuelled calls for the creatures to be vaccinated against the virus, with Kangaroo Island's mayor saying the local population has \"taken a hammering\" in recent years."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-21T05:43:26+00:00",
-          "lastUpdated": "2026-08-21T05:43:26+00:00"
-        },
-        "link": "/news/2026-08-21/bird-flu-mass-deaths-prompt-kangaroo-island-apprehension/107062734",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": [
-            {
-              "id": "107024944",
-              "contentUri": "coremedia://article/107024944",
-              "theme": "sand",
-              "label": null,
-              "link": "/news/science/2026-08-22/when-hundreds-of-animals-die-what-happens-next/107024944",
-              "title": "When hundreds of animals die from bird flu, what happens next?",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Despite their scale, we know surprisingly little about mass death events — from bird flu and other triggers — and their longer-term ecological consequences."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A dead bird on a beach.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d626d2653797ca3a0efabee7c621b102?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=97&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [
-                {
-                  "title": "Explainer",
-                  "type": "genre",
-                  "screenReader": "Topic",
-                  "key": "Tag1"
-                }
-              ],
-              "mediaIndicator": null,
-              "dates": null
-            },
-            {
-              "id": "107060022",
-              "contentUri": "coremedia://article/107060022",
-              "theme": "sand",
-              "label": null,
-              "link": "/news/2026-08-21/wildlife-advocates-issue-bird-flu-warning/107060022",
-              "title": "Wildlife experts warn bird flu mass deaths are 'the start of the mayhem'",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Wildlife experts are warning the escalation of the nation's H5 bird flu outbreak is a sign of what's to come after South Australia detected three mass mortality events believed to be linked to the infection."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A dead bird washed ashore.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8433729cfe843e581a4698d068b3910b?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=363&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [
-                {
-                  "title": "Explainer",
-                  "type": "genre",
-                  "screenReader": "Topic",
-                  "key": "Tag1"
-                }
-              ],
-              "mediaIndicator": null,
-              "dates": null
-            },
-            {
-              "id": "107058878",
-              "contentUri": "coremedia://article/107058878",
-              "label": null,
-              "link": "/news/2026-08-20/1000-bird-deaths-linked-to-h5n1-flu-and-three-mass-mortalities/107058878",
-              "title": "Bird flu suspected as 1,000 birds found dead in three mass mortality events",
-              "content": {
-                "descriptor": {
-                  "type": "tagname",
-                  "key": "div",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "tagname",
-                      "key": "@@standfirst",
-                      "props": {},
-                      "children": [
-                        {
-                          "type": "text",
-                          "content": "Three mass bird mortality events believed to be linked to the H5N1 avian flu strain have been recorded on islands off SA. In a separate event, more than two dozen penguins have been found dead in Tasmania, with testing now underway. "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "image": {
-                "altText": "A dead greater crested tern in the grass.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a182b1c79dec4291f2d02830e1cf4ac9?impolicy=wcms_crop_resize&cropH=4672&cropW=6229&xPos=779&yPos=0&width=160&height=120",
-                "imgRatio": "4x3",
-                "width": "160",
-                "height": "120"
-              },
-              "tags": [],
-              "mediaIndicator": null,
-              "dates": null
-            }
-          ]
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A little penguin in a burrow under a rock",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e28dedb7d0ad76c0b82feddc85c81b47?impolicy=wcms_crop_resize&cropH=3039&cropW=3039&xPos=0&yPos=979&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A little penguin in a burrow under a rock",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e28dedb7d0ad76c0b82feddc85c81b47?impolicy=wcms_crop_resize&cropH=2026&cropW=3039&xPos=0&yPos=1612&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A little penguin in a burrow under a rock",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e28dedb7d0ad76c0b82feddc85c81b47?impolicy=wcms_crop_resize&cropH=1709&cropW=3039&xPos=0&yPos=1600&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "Avian Influenza",
-            "link": "/news/topic/avian-influenza",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          },
-          {
-            "title": "Birds",
-            "link": "/news/topic/birds",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 4,
-        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -878,6 +782,123 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "107068232",
+        "targetId": "107048494",
+        "contentUri": "coremedia://teaser/107068232",
+        "label": null,
+        "title": "The Canadian province set to vote on becoming a breakaway country",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Alberta's separatist movement is exposing deep fractures inside one of the world's most stable federations and shares striking similarities with WA's historical secession attempts. An upcoming referendum will test its support."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-22T19:09:06+00:00",
+          "lastUpdated": "2026-08-22T19:54:27+00:00"
+        },
+        "link": "/news/2026-08-23/alberta-canada-to-vote-on-separatist-secession-proposal/107048494",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": [
+            {
+              "id": "107067920",
+              "contentUri": "coremedia://article/107067920",
+              "label": null,
+              "link": "/news/2026-08-23/canada-to-impose-retaliatory-tariffs-on-us-goods/107067920",
+              "title": "Canada will impose retaliatory tariffs on US, prime minister says",
+              "content": {
+                "descriptor": {
+                  "type": "tagname",
+                  "key": "div",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "tagname",
+                      "key": "@@standfirst",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Negotiations over the United States' newly announced tariffs on Canada have fallen apart, as Canadian Prime Minister Mark Carney says the countries won't \"return to our old relationship\"."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "image": {
+                "altText": "Mark Carney speaks at a podium, with Canadian flags behind him.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3e508911d2b3d2a18ec38b48fda4dadc?impolicy=wcms_crop_resize&cropH=3334&cropW=4445&xPos=277&yPos=0&width=160&height=120",
+                "imgRatio": "4x3",
+                "width": "160",
+                "height": "120"
+              },
+              "tags": [],
+              "mediaIndicator": null,
+              "dates": null
+            }
+          ]
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Chris Scott stands by a bus that has been painted with flames.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/915f7fdf3b5b3a11e7a75610492edbec?impolicy=wcms_crop_resize&cropH=2832&cropW=2832&xPos=1019&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Chris Scott stands by a bus that has been painted with flames.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/915f7fdf3b5b3a11e7a75610492edbec?impolicy=wcms_crop_resize&cropH=2827&cropW=4240&xPos=0&yPos=3&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Chris Scott stands by a bus that has been painted with flames.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/915f7fdf3b5b3a11e7a75610492edbec?impolicy=wcms_crop_resize&cropH=2385&cropW=4240&xPos=0&yPos=93&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "title": "World Politics",
+            "link": "/news/topic/world-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "readTime": 8,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "107054444",
         "contentUri": "coremedia://article/107054444",
@@ -924,98 +945,12 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "107068160",
-        "targetId": "106898670",
-        "contentUri": "coremedia://teaser/107068160",
-        "label": null,
-        "title": "'King rat': Inside Barnaby Joyce's defection to One Nation",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Barnaby Joyce has survived bruising battles, personal crises and public ridicule. Is his latest move to One Nation masterful, or a fatal miscalculation? "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-08-22T18:43:52+00:00",
-          "lastUpdated": "2026-08-22T18:46:47+00:00"
-        },
-        "link": "/news/2026-08-23/barnaby-joyce-one-nation-nationals-wife-vikki-campion/106898670",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Barnaby Joyce mustering cattle at his property in Woolbrook",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68af5658a3fa1d4a9c3af48cb2389c06?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Barnaby Joyce mustering cattle at his property in Woolbrook",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68af5658a3fa1d4a9c3af48cb2389c06?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Barnaby Joyce mustering cattle at his property in Woolbrook",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/68af5658a3fa1d4a9c3af48cb2389c06?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "Australian Story",
-            "link": "https://www.abc.net.au/news/programs/austory/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Federal Government",
-            "link": "/news/topic/federal-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 11,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
-        "id": "107049498",
-        "contentUri": "coremedia://article/107049498",
-        "theme": "sand",
+        "id": "107066804",
+        "contentUri": "coremedia://article/107066804",
         "label": null,
-        "link": "/news/2026-08-23/independent-assessment-tool-four-corners-mark-butler-aged-care/107049498",
-        "title": "Why people are 'giving up' rather than fighting the aged care algorithm",
+        "link": "/news/2026-08-23/swans-fans-grapple-with-scandal-ahead-of-double-header/107066804",
+        "title": "Sydney Swans fans grapple with scandal ahead of double-header",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1029,7 +964,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "If the government wants a true indication of the level of feeling in the community, perhaps it should read the thousands of comments on Facebook where discussions about the algorithm, long waitlists, and people dying are growing by the day."
+                    "content": "Sydney Swans fans are grappling with an emotional week of developments ahead of a historic double-header, as a scandal continues to engulf the team."
                   }
                 ]
               }
@@ -1037,23 +972,18 @@
           }
         },
         "image": {
-          "altText": "middle aged white man with greying hair speaks in front of blue curtain and the australian flag, he wears a blue suit purple tie",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/386fc51378805e036ae1e25aae5328a7?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=200&yPos=0&width=160&height=120",
+          "altText": "A Sydney Swans player runs on the pitch towards a grandstand of cheering fans.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fc87e4e465cefc06064664c2ea2526a0?impolicy=wcms_crop_resize&cropH=2959&cropW=3945&xPos=247&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "text": "Anne Connolly",
-            "title": "Analysis by Anne Connolly",
-            "link": "https://www.abc.net.au/news/anne-connolly/10254422",
-            "avatar": {
-              "alt": "A woman in a suit poses for a photo in a building, looking into camera with a neutral expression.",
-              "fallbackLetter": "A",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9d082450b5f353fe937f02b681a9ad8e?impolicy=wcms_crop_resize&cropH=1946&cropW=1946&xPos=407&yPos=687&width=160&height=160"
-            },
-            "type": "combined",
+            "title": "AFL",
+            "link": "/news/topic/afl",
+            "type": "subject",
+            "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
@@ -1062,11 +992,11 @@
       },
       {
         "type": "generic",
-        "id": "107067634",
-        "contentUri": "coremedia://article/107067634",
+        "id": "107059142",
+        "contentUri": "coremedia://article/107059142",
         "label": null,
-        "link": "/news/2026-08-23/two-police-officers-among-seven-killed-in-uk-collision/107067634",
-        "title": "Seven killed in head-on collision with police car in UK",
+        "link": "/news/2026-08-23/dog-rabbit-fox-fur-found-in-toys-and-key-rings-sold-in-australia/107059142",
+        "title": "Dog, rabbit and fox fur found in toys and key rings sold in markets and online",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1080,7 +1010,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Seven people, including two police officers, have died in a head-on collision in the north-east of England following a pursuit."
+                    "content": "Laboratory testing of seven fluffy toys and key rings sold online and at markets in NSW has found every product contained real animal fur despite some being marketed as fake fur, raising concerns about what consumers are buying."
                   }
                 ]
               }
@@ -1088,16 +1018,264 @@
           }
         },
         "image": {
-          "altText": "emergency vehicles line a stretch of road with tarp covering an overturned vehicle",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ae0e6f11110acd7303017fd3cb2039ea?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "A pile of small soft flufft toys on a well-lit light-coloured backdrop.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/57a72802ccdc2df6631c3bf93245ff9f?impolicy=wcms_crop_resize&cropH=2000&cropW=2667&xPos=167&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Road Accidents and Incidents",
-            "link": "/news/topic/road-accidents-and-incidents",
+            "title": "Consumer Protection",
+            "link": "/news/topic/consumer-protection",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107051660",
+        "contentUri": "coremedia://article/107051660",
+        "label": null,
+        "link": "/news/2026-08-23/us-forcing-some-pacific-visitors-to-pay-up-to-27k-bond/107051660",
+        "title": "US imposes visa bonds of up to $27k for several Pacific countries",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Travellers in several Pacific countries will now need to pay a bond of up to $27,000 to travel to the US as that government cracks down on overstayers."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A person holds a cancelled passport",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c9988bfa45c88cbc35002ef33d3a1952?impolicy=wcms_crop_resize&cropH=2449&cropW=3265&xPos=117&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Travel and Tourism",
+            "link": "/news/topic/travel-and-tourism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "live",
+        "id": "107068344",
+        "targetId": "107065186",
+        "images": [
+          {
+            "desktop": {
+              "altText": "Two cricketers smile and high five in celebration of a wicket",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1dfd51696a57a12821112ab0d2bd4809?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            }
+          },
+          {
+            "desktop": {
+              "altText": "A group of cricketers in white high-five and celebrate a wicket",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bfbed0dcd7c7896f4b9908556af246f1?impolicy=wcms_crop_resize&cropH=3332&cropW=4998&xPos=1&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            }
+          },
+          {
+            "desktop": {
+              "altText": "Cameron Green on his knees",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/71da04cfa1d014488f150962db1b6265?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            }
+          }
+        ],
+        "label": {
+          "variant": "live",
+          "status": "live"
+        },
+        "link": "/news/2026-08-23/australia-vs-bangladesh-live-updates-second-test-day-two/107065186",
+        "related": {
+          "title": null,
+          "articles": [],
+          "videos": [],
+          "cta": null
+        },
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Mitchell Starc takes wickets with back-to-back balls after Australia takes a commanding 146-run lead into the second innings in Mackay. Follow live."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "tags": [
+          {
+            "title": "Cricket",
+            "link": "/news/topic/cricket",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          },
+          {
+            "title": "Sport",
+            "link": "/news/topic/sport",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "title": "Starc with more new-ball magic after Australia bowled out for 210",
+        "theme": "live",
+        "updates": [
+          {
+            "title": "LUNCH: Bangladesh 3-39, trail by 107 (Mushfiqur 4, Shanto 23)",
+            "id": "333262",
+            "link": "https://www.abc.net.au/news/2026-08-23/australia-vs-bangladesh-live-updates-second-test-day-two/107065186#live-blog-post-333262",
+            "dates": {
+              "firstPublished": "2026-08-23T02:02:20.000Z"
+            }
+          },
+          {
+            "title": "TANZID THROWS HIS WICKET AWAY!",
+            "id": "333253",
+            "link": "https://www.abc.net.au/news/2026-08-23/australia-vs-bangladesh-live-updates-second-test-day-two/107065186#live-blog-post-333253",
+            "dates": {
+              "firstPublished": "2026-08-23T01:45:44.000Z"
+            }
+          },
+          {
+            "title": "BOWLED HIM! STARC HAS TWO IN TWO!",
+            "id": "333243",
+            "link": "https://www.abc.net.au/news/2026-08-23/australia-vs-bangladesh-live-updates-second-test-day-two/107065186#live-blog-post-333243",
+            "dates": {
+              "firstPublished": "2026-08-23T01:18:16.000Z"
+            }
+          }
+        ],
+        "uri": "coremedia://teaser/107068344"
+      },
+      {
+        "type": "generic",
+        "id": "107062824",
+        "contentUri": "coremedia://article/107062824",
+        "label": null,
+        "link": "/news/2026-08-23/teachers-describe-rise-of-the-manosphere-in-classrooms/107062824",
+        "title": "Nazi salutes, Epstein jokes: How the 'manosphere' is affecting classrooms",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Female teachers are speaking out about how the \"manosphere\" is affecting classrooms, with some saying they have noticed a rise in misogynistic attitudes among students."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman photographed from behind who is writing on a whiteboard.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ef6f2ecc611746bfe7b5f6c1808ef560?impolicy=wcms_crop_resize&cropH=6336&cropW=8448&xPos=528&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Children",
+            "link": "/news/topic/children",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107068238",
+        "contentUri": "coremedia://article/107068238",
+        "label": null,
+        "link": "/news/2026-08-23/man-driving-stolen-vehicle-killed-in-collision-east-melbourne/107068238",
+        "title": "Man driving stolen vehicle killed in head-on crash",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A 46-year-old Melton man has died after the stolen car he was driving collided head-on with two other vehicles."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A scene of a car crash with two crashed vehicles and police tape.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b8f6e06bf0639bc70818b36d4d381a3?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=480&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1112,7 +1290,7 @@
         "targetId": "107062998",
         "contentUri": "coremedia://teaser/107068164",
         "label": null,
-        "title": "In comedy clubs, Chinese women are having the last laugh",
+        "title": "The women making China laugh by turning expectations into punchlines",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1135,7 +1313,7 @@
         },
         "dates": {
           "firstPublished": "2026-08-22T18:30:00+00:00",
-          "lastUpdated": "2026-08-22T18:30:00+00:00"
+          "lastUpdated": "2026-08-23T02:23:15+00:00"
         },
         "link": "/news/2026-08-23/comedian-stand-up-china-women-comedy-feminism-freedom/107062998",
         "related": {
@@ -1193,11 +1371,11 @@
       },
       {
         "type": "generic",
-        "id": "107067556",
-        "contentUri": "coremedia://article/107067556",
+        "id": "107065912",
+        "contentUri": "coremedia://article/107065912",
         "label": null,
-        "link": "/news/2026-08-22/civilians-killed-in-ukrainian-drone-strikes-over-russia-/107067556",
-        "title": "Ukraine's deadly strikes on Russia open 'Pandora's Box', Putin says",
+        "link": "/news/2026-08-23/victoria-energy-supply-labor-coalition-election/107065912",
+        "title": "Election fight heats up over proposed $7.6 billion powerline through Victoria",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1211,7 +1389,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Ukrainian drones kill at least 10 people in attacks across Russia and Russian-occupied areas of Ukraine, after a Russian strike on a Ukrainian shopping centre killed 16."
+                    "content": "A key issue shaping up for this November's state election is Victoria's power supply. The Labor government has signed a deal for $7.6 billion powerline, while the Coalition has hardened its stance to block the project."
                   }
                 ]
               }
@@ -1219,16 +1397,16 @@
           }
         },
         "image": {
-          "altText": "A warehouse smoulders as smoke rises against and orange blue-sky ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25731a0de17743a467bbdab5507dcc6d?impolicy=wcms_crop_resize&cropH=946&cropW=1262&xPos=0&yPos=1085&width=160&height=120",
+          "altText": "A  large power plant blowing smoke with green rolling hills in the foreground.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55347ac1248d67e784957fb5483cdff7?impolicy=wcms_crop_resize&cropH=1503&cropW=2010&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
+            "title": "Energy Policy",
+            "link": "/news/topic/energy-policy",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1239,11 +1417,11 @@
       },
       {
         "type": "generic",
-        "id": "107067524",
-        "contentUri": "coremedia://article/107067524",
+        "id": "107054854",
+        "contentUri": "coremedia://article/107054854",
         "label": null,
-        "link": "/news/2026-08-22/south-africas-former-world-boxing-champion-zolani-tete-shot-dead/107067524",
-        "title": "World boxing champion shot dead outside his home in South Africa",
+        "link": "/news/2026-08-23/khaled-sabsabi-coffee-between-suns/107054854",
+        "title": "How artist Khaled Sabsabi remains optimistic after weathering recent storms",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1257,7 +1435,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Former world boxing champion Zolani \"Last Born\" Tete has been shot dead outside his home in South Africa's Eastern Cape province."
+                    "content": "The award-winning artist is shaking off the Venice Biennale with a strong cup of coffee and his new exhibition, Between Suns."
                   }
                 ]
               }
@@ -1265,16 +1443,193 @@
           }
         },
         "image": {
-          "altText": "Zolani Tete holding the victor's belt on stage.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/34cf26f14dd713ec602951c90065ac6f?impolicy=wcms_crop_resize&cropH=3264&cropW=4352&xPos=308&yPos=0&width=160&height=120",
+          "altText": "Khaled Sabsabi stands in front of his artwork",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d89a20e4a14c6cc8b369c33fc24233da?impolicy=wcms_crop_resize&cropH=1184&cropW=1579&xPos=111&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Crime",
-            "link": "/news/topic/crime",
+            "title": "Installation Art",
+            "link": "/news/topic/installation-art",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107068286",
+        "targetId": "107057106",
+        "contentUri": "coremedia://teaser/107068286",
+        "label": null,
+        "title": "I gave birth to my brother's baby and saved his life in the process",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Twins Adam Braitberg and Ellie Freeman grew up in what they describe as a loving and close-knit family in suburban Melbourne/Naarm. That bond has only grown stronger since Ellie and eldest sister Jess helped Adam and his husband Omer bring daughter Gali into the world."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-22T23:00:00+00:00",
+          "lastUpdated": "2026-08-22T23:00:00+00:00"
+        },
+        "link": "/news/2026-08-23/love-story-how-ellie-helped-brother-adam-surrogacy-baby-gali/107057106",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Elliot Freeman, Ellie Freeman, Adam Braitberg and Omer Kuchman with Gali",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c17e833825d419fc7e63905074b6e37?impolicy=wcms_crop_resize&cropH=960&cropW=960&xPos=0&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Elliot Freeman, Ellie Freeman, Adam Braitberg and Omer Kuchman with Gali",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c17e833825d419fc7e63905074b6e37?impolicy=wcms_crop_resize&cropH=640&cropW=960&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Elliot Freeman, Ellie Freeman, Adam Braitberg and Omer Kuchman with Gali",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5c17e833825d419fc7e63905074b6e37?impolicy=wcms_crop_resize&cropH=540&cropW=960&xPos=0&yPos=23&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "title": "Perspective",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Lifestyle",
+            "link": "https://www.abc.net.au/news/lifestyle/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "theme": "green",
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "106962874",
+        "contentUri": "coremedia://article/106962874",
+        "label": null,
+        "link": "/news/2026-08-23/five-great-brisbane-songs-queensland-music-industry/106962874",
+        "title": "Five songs that show what the Brisbane music scene is made of",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Brisbane punches above its weight among the country's music scenes. Here's five songs that get to the heart of what Brisbane has to offer."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Graphic image featuring the Brisbane skyline, Ball Park Music, Thelma Plum, and the Veronicas.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9fa90560bf3a7d7edac69ec576cfb39c?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Music",
+            "link": "/news/topic/music",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107068276",
+        "contentUri": "coremedia://article/107068276",
+        "label": null,
+        "link": "/news/2026-08-23/father-leaves-son-behind-on-mount-fuji-climb/107068276",
+        "title": "Father leaves 7yo son behind on Mount Fuji to continue climb",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Japanese police say they gave the man a stern warning about leaving his child at the sixth station of the mountain climb."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "The conical volcano Mount Fuji with green at its base and brown exposed rock further up.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89673044a37af16455fdef58d64e5741?impolicy=wcms_crop_resize&cropH=3006&cropW=4008&xPos=452&yPos=201&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Mountain Climbing",
+            "link": "/news/topic/mountain-climbing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1376,6 +1731,247 @@
       },
       {
         "type": "generic",
+        "id": "107061162",
+        "contentUri": "coremedia://article/107061162",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-08-23/wa-by-election-puts-one-nation-growing-appeal-to-the-test/107061162",
+        "title": "WA by-election puts One Nation's growing appeal to the test",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "One Nation's popularity is skyrocketing in opinion polls across the east coast. But next Saturday's Secret Harbour by-election will be the first clear test of whether that momentum is extending across the Nullarbor."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "More than a dozen placards featuring the Labor, Liberal and One Nation candidates on the side of a road ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8822b8b6a5984e999394d4d1cca3ad72?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Keane Bourke",
+            "title": "Analysis by Keane Bourke",
+            "link": "https://www.abc.net.au/news/keane-bourke/12799768",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "K",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4c9d7a95ada3a54e2b1dfbfb16ee407d?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=946&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107065740",
+        "contentUri": "coremedia://article/107065740",
+        "theme": "sand",
+        "label": null,
+        "link": "/news/2026-08-23/nsw-drug-testing-limits-questioned-as-police-stay-silent/107065740",
+        "title": "Drug testing limits police don't want drivers to know under scrutiny",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The exact concentration of cannabis in a driver's saliva that produces a positive drug test has long been guarded closely by New South Wales Police."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "a nsw police officer holds a drug testing device as he explians to a driver at a roadside test the process",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bcaaa3bb7e2cc0b197bf714b4805fd17?impolicy=wcms_crop_resize&cropH=533&cropW=711&xPos=348&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "text": "Alexander Lewis",
+            "title": "Analysis by Alexander Lewis",
+            "link": "https://www.abc.net.au/news/alexander-lewis/13887110",
+            "avatar": {
+              "alt": "Profile picture ABC reporter Alex Lewis",
+              "fallbackLetter": "A",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a43fa7a14312b3724297b6af23ad06a1?impolicy=wcms_crop_resize&cropH=3326&cropW=3326&xPos=0&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107068298",
+        "targetId": "107064186",
+        "contentUri": "coremedia://teaser/107068298",
+        "label": null,
+        "title": "Hundreds march to mark 60th anniversary of the historic Wave Hill Walk-Off",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "On the 60th anniversary of the Wave Hill Walk-Off, more than 1,000 people have marched from Kalkarindji to the banks of the Victoria River to retrace the steps taken by hundreds of stockmen, workers and their families in a pivotal moment for Aboriginal land rights."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-22T23:14:35+00:00",
+          "lastUpdated": "2026-08-22T23:14:35+00:00"
+        },
+        "link": "/news/2026-08-23/hundreds-march-in-freedom-festival-wave-hill-walk-off-60-years/107064186",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A crowd of people marching, holding colourful blue and pink flags.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ddae2642788510c8b5c3792379dc6d4b?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=377&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A crowd of people marching, holding colourful blue and pink flags.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ddae2642788510c8b5c3792379dc6d4b?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A crowd of people marching, holding colourful blue and pink flags.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ddae2642788510c8b5c3792379dc6d4b?impolicy=wcms_crop_resize&cropH=2810&cropW=4995&xPos=0&yPos=523&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "James Elton",
+            "title": "By James Elton",
+            "link": "https://www.abc.net.au/news/james-elton/10787000",
+            "avatar": {
+              "alt": "A journalist wears a button-up shirt and serious facial expression.",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/61dc643ef2f4090f3935e8008a8bc255?impolicy=wcms_crop_resize&cropH=957&cropW=957&xPos=470&yPos=41&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Land Rights",
+            "link": "/news/topic/land-rights",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107057636",
+        "contentUri": "coremedia://article/107057636",
+        "label": null,
+        "link": "/news/2026-08-23/qld-planning-laws-relaxed-taller-buildings-smaller-lots/107057636",
+        "title": "Driveway block's sale for $850k could be a sign of Brisbane's zoning future",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The council is expecting the changes to clear the way for terrace-style housing and townhouse developments on blocks, which can be as small as 120 square metres."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A driveway with fence and trees in the background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cc7850681c0be98529cc404fd0e0f6e3?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Urban Development and Planning",
+            "link": "/news/topic/urban-development-and-planning",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107063232",
         "contentUri": "coremedia://article/107063232",
         "label": null,
@@ -1421,58 +2017,12 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107065912",
-        "contentUri": "coremedia://article/107065912",
-        "label": null,
-        "link": "/news/2026-08-23/victoria-energy-supply-labor-coalition-election/107065912",
-        "title": "Election fight heats up over proposed $7.6 billion powerline through Victoria",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A key issue shaping up for this November's state election is Victoria's power supply. The Labor government has signed a deal for $7.6 billion powerline, while the Coalition has hardened its stance to block the project."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A  large power plant blowing smoke with green rolling hills in the foreground.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/55347ac1248d67e784957fb5483cdff7?impolicy=wcms_crop_resize&cropH=1503&cropW=2010&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Energy Policy",
-            "link": "/news/topic/energy-policy",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
-        "id": "107068162",
-        "targetId": "107054854",
-        "contentUri": "coremedia://teaser/107068162",
+        "id": "107068178",
+        "targetId": "107056632",
+        "contentUri": "coremedia://teaser/107068178",
         "label": null,
-        "title": "How artist Khaled Sabsabi remains optimistic after weathering recent storms",
+        "title": "Mansion in My Brilliant Career reboot brings buzz to rural town",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1486,7 +2036,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The award-winning artist is shaking off the Venice Biennale with a strong cup of coffee and his new exhibition, Between Suns."
+                    "content": "Owners of the historic homestead used as the backdrop for the Netflix adaptation of My Brilliant Career hope to see local tourism benefit from the global release."
                   }
                 ]
               }
@@ -1494,10 +2044,10 @@
           }
         },
         "dates": {
-          "firstPublished": "2026-08-22T18:43:52+00:00",
-          "lastUpdated": "2026-08-22T18:43:52+00:00"
+          "firstPublished": "2026-08-22T20:31:30+00:00",
+          "lastUpdated": "2026-08-22T20:31:30+00:00"
         },
-        "link": "/news/2026-08-23/khaled-sabsabi-coffee-between-suns/107054854",
+        "link": "/news/2026-08-23/yallum-park-my-brilliant-career-penola/107056632",
         "related": {
           "title": null,
           "videos": [],
@@ -1507,24 +2057,24 @@
         "gallery": [
           {
             "desktop": {
-              "altText": "Khaled Sabsabi stands in front of his artwork",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d89a20e4a14c6cc8b369c33fc24233da?impolicy=wcms_crop_resize&cropH=1184&cropW=1184&xPos=309&yPos=0&width=862&height=862"
+              "altText": "A woman dressed in 1900s clothing stands at the grand entrance of a mansion. ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97113e5515e08393a794458394d25668?impolicy=wcms_crop_resize&cropH=3335&cropW=3335&xPos=832&yPos=0&width=862&height=862"
             }
           }
         ],
         "thumbnail": [
           {
             "desktop": {
-              "altText": "Khaled Sabsabi stands in front of his artwork",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d89a20e4a14c6cc8b369c33fc24233da?impolicy=wcms_crop_resize&cropH=1184&cropW=1776&xPos=0&yPos=0&width=862&height=575",
+              "altText": "A woman dressed in 1900s clothing stands at the grand entrance of a mansion. ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97113e5515e08393a794458394d25668?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=1&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
               "height": "575"
             },
             "sources": [
               {
-                "altText": "Khaled Sabsabi stands in front of his artwork",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d89a20e4a14c6cc8b369c33fc24233da?impolicy=wcms_crop_resize&cropH=999&cropW=1776&xPos=0&yPos=26&width=862&height=485",
+                "altText": "A woman dressed in 1900s clothing stands at the grand entrance of a mansion. ",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/97113e5515e08393a794458394d25668?impolicy=wcms_crop_resize&cropH=2812&cropW=5000&xPos=0&yPos=261&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
                 "height": "485",
@@ -1535,25 +2085,207 @@
         ],
         "tags": [
           {
-            "text": "Jade Barker",
-            "title": "By Jade Barker",
-            "link": "https://www.abc.net.au/news/jade-barker/13936750",
+            "text": "Aiden McNamara",
+            "title": "By Aiden McNamara",
+            "link": "https://www.abc.net.au/news/aiden-mcnamara/106961626",
             "avatar": {
-              "alt": "",
-              "fallbackLetter": "J",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/61dab872d975a24a8a373ea46bc8aa9b?impolicy=wcms_crop_resize&cropH=1125&cropW=1125&xPos=672&yPos=0&width=160&height=160"
+              "alt": "A man in a colourful shirt in a park",
+              "fallbackLetter": "A",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4438f8e069dbb407b52c062ca1a48c7a?impolicy=wcms_crop_resize&cropH=824&cropW=824&xPos=4&yPos=0&width=160&height=160"
             },
             "type": "author",
             "key": "Tag1"
           },
           {
-            "title": "ABC Arts",
-            "link": "http://www.abc.net.au/arts/",
+            "title": "ABC South East SA",
+            "link": "https://www.abc.net.au/southeastsa/",
             "type": "infoSource",
             "key": "Tag2"
           }
         ],
-        "readTime": 6,
+        "readTime": 4,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107068182",
+        "contentUri": "coremedia://article/107068182",
+        "label": null,
+        "link": "/news/2026-08-23/man-charged-murder-womans-death-ferntree-gully-melbourne/107068182",
+        "title": "Man charged with murder over woman's death in Melbourne home",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A 45-year-old man has been charged with murder and remanded in custody after a 30-year-old woman was allegedly killed in her Ferntree Gully home."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Police tape and cars outside a home in Ferntree Gully.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe27fb63d1854cd3fcb25f3a96876bd0?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107059672",
+        "contentUri": "coremedia://article/107059672",
+        "label": null,
+        "link": "/news/2026-08-23/avocado-packing-shed-manjimup-robotic-upgrade/107059672",
+        "title": "$20m avocado packing shed upgrade halves workforce with robots ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Robots replace half the casual workforce and double the output capacity at one of Australia's largest avocado packing sheds."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Close-up of avocadoes in Manjimup.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b62990a395c6b84c148440a56473fe11?impolicy=wcms_crop_resize&cropH=1333&cropW=1777&xPos=111&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Agricultural Technology",
+            "link": "/news/topic/agricultural-technology",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107068208",
+        "targetId": "106922438",
+        "contentUri": "coremedia://teaser/107068208",
+        "label": null,
+        "title": "The archer who shoots a target he cannot see",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "After losing his sight, James Griffiths has found a new purpose through vision-impaired archery, using touch, sound and determination to chase a place on the world stage. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-08-22T21:27:04+00:00",
+          "lastUpdated": "2026-08-22T22:06:16+00:00"
+        },
+        "link": "/news/2026-08-23/story-vision-impaired-gippsland-archer-world-championships/106922438",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A side angled photo of a man with a beard, aiming a compound bow with an arrow loaded, at an archery range",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dcedb67ea9acf22cf52103a501bb983?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=215&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A side angled photo of a man with a beard, aiming a compound bow with an arrow loaded, at an archery range",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dcedb67ea9acf22cf52103a501bb983?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A side angled photo of a man with a beard, aiming a compound bow with an arrow loaded, at an archery range",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4dcedb67ea9acf22cf52103a501bb983?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Jack Colantuono",
+            "title": "By Jack Colantuono",
+            "link": "https://www.abc.net.au/news/jack-colantuono/105491822",
+            "avatar": {
+              "alt": "Profile of a man.",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b7fdaa393fa4ce5916cdee48866f100?impolicy=wcms_crop_resize&cropH=969&cropW=969&xPos=4&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Gippsland",
+            "link": "https://www.abc.net.au/gippsland/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
         "hasLoadPriority": false
       }
     ]
