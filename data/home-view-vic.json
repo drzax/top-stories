@@ -14,7 +14,7 @@
         "targetId": "107074230",
         "contentUri": "coremedia://teaser/107075782",
         "label": null,
-        "title": "Ralph Carr sentenced to six years in jail for rape",
+        "title": "Ralph Carr sobs as he is sentenced to six years in jail for rape",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -100,12 +100,58 @@
         "hasLoadPriority": false
       },
       {
+        "type": "medium",
+        "id": "107076810",
+        "contentUri": "coremedia://teaser/107076810",
+        "label": null,
+        "link": "/news/2026-08-25/woman-stabbed-boy-assaulted-in-melbourne-cbd-attack/107076598",
+        "title": "Woman repeatedly stabbed, child punched in random Melbourne CBD attack",
+        "image": {
+          "altText": "A woman waits at a CBD street corner near a sign that says \"Police\".",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ebbf2482c9282d3a905aa5f5d8858c59?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The incident unfolded near the Victoria Police headquarters at lunchtime. Nearby officers arrested a 27-year-old Sunshine West man and seized a pair of scissors."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "107074570",
         "contentUri": "coremedia://article/107074570",
         "label": null,
         "link": "/news/2026-08-25/jacobus-john-bakkum-missing-man-harrietville-omeo-mitta/107074570",
-        "title": "85yo man who went missing while driving home from dinner found alive",
+        "title": "85yo found in crashed car days after leaving dinner with wife",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -505,7 +551,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107074282",
@@ -551,19 +609,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107071380",
@@ -1959,52 +2005,6 @@
           {
             "title": "State and Territory Government",
             "link": "/news/topic/state-and-territory-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "106928064",
-        "contentUri": "coremedia://article/106928064",
-        "label": null,
-        "link": "/news/2026-08-22/the-world-of-miniature-railways-and-the-folk-who-build-them/106928064",
-        "title": "The world of model railways and the folk who build them",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "With 50 model railway layouts on display, the upcoming Goulburn Model Expo is something railroaders look forward to, especially for those who focus on what lies either side of the train tracks rather than what's on them. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman and man hold miniature trains in the palm of their hands",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/24ab5faaf2b0b28aa644b22f01dcff42?impolicy=wcms_crop_resize&cropH=1154&cropW=1539&xPos=327&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Hobbies",
-            "link": "/news/topic/hobbies",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
