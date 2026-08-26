@@ -94,30 +94,59 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "107078876",
-        "contentUri": "coremedia://teaser/107078876",
+        "type": "generic",
+        "id": "106885150",
+        "contentUri": "coremedia://article/106885150",
         "label": null,
-        "link": "/news/2026-08-26/backyard-laying-hen-demand-h5n1-bird-flu/107064314",
-        "title": "Backyard hen boom on the cards amid bird flu fears, seller says",
+        "link": "/news/2026-08-26/qld-police-wanding-statistics-show-who-searched/106885150",
+        "title": "One in 10 people searched for weapons in Qld identified as First Nations",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "In Queensland, police have the power to randomly stop and search people for weapons. Statistics show who they have wanded."
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "image": {
-          "altText": "A pair of fluffy chicks perch together on a rock.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9f001fc18d08669f6ed3f4c0ee182e5?impolicy=wcms_crop_resize&cropH=872&cropW=1163&xPos=337&yPos=309&width=862&height=647",
+          "altText": "Police searching a man whose hands are up.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/64a86e16b1d75c74a9ec45ae2f1d5fbb?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=176&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
+          "width": "160",
+          "height": "120"
         },
         "tags": [
           {
-            "title": "Avian Influenza",
-            "link": "/news/topic/avian-influenza",
+            "title": "Police",
+            "link": "/news/topic/police",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
         ],
         "mediaIndicator": null,
-        "synopsis": {
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107064314",
+        "contentUri": "coremedia://article/107064314",
+        "label": null,
+        "link": "/news/2026-08-26/backyard-laying-hen-demand-h5n1-bird-flu/107064314",
+        "title": "Backyard hen boom on the cards amid bird flu fears, seller says",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -137,6 +166,23 @@
             ]
           }
         },
+        "image": {
+          "altText": "A pair of fluffy chicks perch together on a rock.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e9f001fc18d08669f6ed3f4c0ee182e5?impolicy=wcms_crop_resize&cropH=872&cropW=1163&xPos=337&yPos=281&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Avian Influenza",
+            "link": "/news/topic/avian-influenza",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -320,7 +366,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107074232",
@@ -412,19 +470,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107075996",
