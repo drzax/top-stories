@@ -77,11 +77,23 @@
         ],
         "tags": [
           {
+            "text": "Antonia O'Flaherty",
+            "title": "By Antonia O'Flaherty",
+            "link": "https://www.abc.net.au/news/antonia-oflaherty/13099594",
+            "avatar": {
+              "alt": "A woman with blonde hair holding a microphone.",
+              "fallbackLetter": "A",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/adc1750f9fb407f4175f42536661fc7c?impolicy=wcms_crop_resize&cropH=2646&cropW=2646&xPos=318&yPos=318&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
             "title": "Women's Health",
             "link": "/news/topic/womens-health",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
         "readTime": 4,
@@ -135,11 +147,12 @@
       },
       {
         "type": "generic",
-        "id": "107095560",
-        "contentUri": "coremedia://article/107095560",
+        "id": "106745850",
+        "contentUri": "coremedia://article/106745850",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-08-31/australian-oscar-jenkins-first-interview-russia-conviction-13-yr/107095560",
-        "title": "Oscar Jenkins gives first interview from Russian prison since sentencing",
+        "link": "/news/2026-08-31/offshore-wind-explainer-renewable-energy-australia/106745850",
+        "title": "Victoria is about to host Australia's first offshore wind auction. But what is it?",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -153,7 +166,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Oscar Jenkins has given his first interview since he was sentenced to 13 years' imprisonment by Russian authorities for participating as \"a mercenary in an armed conflict\". "
+                    "content": "Offshore wind developers will now bid for Victorian government support to help deliver their projects. "
                   }
                 ]
               }
@@ -161,17 +174,16 @@
           }
         },
         "image": {
-          "altText": "A white man with a shave head, thin, sitting at a wooden table in a green uniform with a picture badge on his chest.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d7db96f6c4148baa5522a8a56027f3f?impolicy=wcms_crop_resize&cropH=385&cropW=513&xPos=0&yPos=259&width=160&height=120",
+          "altText": "offshore wind turbines in the ocean",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a126638261203007f45e2dd743a1fad7?impolicy=wcms_crop_resize&cropH=3239&cropW=4319&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
-            "type": "subject",
+            "title": "Explainer",
+            "type": "genre",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -267,6 +279,52 @@
       },
       {
         "type": "generic",
+        "id": "107095560",
+        "contentUri": "coremedia://article/107095560",
+        "label": null,
+        "link": "/news/2026-08-31/australian-oscar-jenkins-first-interview-russia-conviction-13-yr/107095560",
+        "title": "Oscar Jenkins gives first interview from Russian prison since sentencing",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Oscar Jenkins has given his first interview since he was sentenced to 13 years' imprisonment by Russian authorities for participating as \"a mercenary in an armed conflict\". "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A white man with a shave head, thin, sitting at a wooden table in a green uniform with a picture badge on his chest.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3d7db96f6c4148baa5522a8a56027f3f?impolicy=wcms_crop_resize&cropH=385&cropW=513&xPos=0&yPos=259&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Unrest, Conflict and War",
+            "link": "/news/topic/unrest-conflict-and-war",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107083218",
         "contentUri": "coremedia://article/107083218",
         "label": null,
@@ -310,7 +368,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107095536",
@@ -356,19 +426,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107093746",
@@ -407,52 +465,6 @@
           {
             "title": "AFL",
             "link": "/news/topic/afl",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107094714",
-        "contentUri": "coremedia://article/107094714",
-        "label": null,
-        "link": "/news/2026-08-30/vic-government-pothole-announcement/107094714",
-        "title": "Victorian roads 'not good enough', premier says amid pothole pledge",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Victorian Premier Ben Carroll says the government will double the number of potholes it fixes this year to 500,000, at a cost of $352 million."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A road with potholes filled with water.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8276275ee6686e5d77c302e20ec33499?impolicy=wcms_crop_resize&cropH=2268&cropW=3024&xPos=504&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Roads",
-            "link": "/news/topic/roads",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -548,6 +560,52 @@
       },
       {
         "type": "generic",
+        "id": "107094714",
+        "contentUri": "coremedia://article/107094714",
+        "label": null,
+        "link": "/news/2026-08-30/vic-government-pothole-announcement/107094714",
+        "title": "Victorian roads 'not good enough', premier says amid pothole pledge",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Victorian Premier Ben Carroll says the government will double the number of potholes it fixes this year to 500,000, at a cost of $352 million."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A road with potholes filled with water.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8276275ee6686e5d77c302e20ec33499?impolicy=wcms_crop_resize&cropH=2268&cropW=3024&xPos=504&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Roads",
+            "link": "/news/topic/roads",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107094846",
         "contentUri": "coremedia://article/107094846",
         "label": null,
@@ -584,52 +642,6 @@
           {
             "title": "State and Territory Elections",
             "link": "/news/topic/state-and-territory-elections",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107093502",
-        "contentUri": "coremedia://article/107093502",
-        "label": null,
-        "link": "/news/2026-08-29/three-teenagers-arrested-over-alleged-burglary-spree-melbourne/107093502",
-        "title": "Three teenagers arrested over alleged burglary spree in Melbourne",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Three teenage boys are arrested following an alleged crime spree in Melbourne’s north-eastern suburbs."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A metal sign on a wall reads \"children's court\"",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c47afce182810adcc78d27e11be78b45?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Burglary",
-            "link": "/news/topic/burglary",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -723,6 +735,52 @@
         ],
         "readTime": 5,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107093502",
+        "contentUri": "coremedia://article/107093502",
+        "label": null,
+        "link": "/news/2026-08-29/three-teenagers-arrested-over-alleged-burglary-spree-melbourne/107093502",
+        "title": "Three teenagers arrested over alleged burglary spree in Melbourne",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Three teenage boys are arrested following an alleged crime spree in Melbourne’s north-eastern suburbs."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A metal sign on a wall reads \"children's court\"",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c47afce182810adcc78d27e11be78b45?impolicy=wcms_crop_resize&cropH=3024&cropW=4032&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Burglary",
+            "link": "/news/topic/burglary",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -869,52 +927,6 @@
           {
             "title": "Invasive Species",
             "link": "/news/topic/invasive-species",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107089074",
-        "contentUri": "coremedia://article/107089074",
-        "label": null,
-        "link": "/news/2026-08-28/mother-stabbed-in-melbourne-cbd-releases-statement/107089074",
-        "title": "Mother stabbed in Melbourne's CBD says no words can describe family's fear",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Cherie Holt has spoken about \"one of the worst moments\" of her family's lives after the alleged unprovoked attack on her and her sick son."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A woman in a neck brace.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5dbee30d52b83c965222b82256fd9302?impolicy=wcms_crop_resize&cropH=270&cropW=360&xPos=0&yPos=123&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Crime",
-            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1096,6 +1108,52 @@
       },
       {
         "type": "generic",
+        "id": "107089074",
+        "contentUri": "coremedia://article/107089074",
+        "label": null,
+        "link": "/news/2026-08-28/mother-stabbed-in-melbourne-cbd-releases-statement/107089074",
+        "title": "Mother stabbed in Melbourne's CBD says no words can describe family's fear",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Cherie Holt has spoken about \"one of the worst moments\" of her family's lives after the alleged unprovoked attack on her and her sick son."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman in a neck brace.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5dbee30d52b83c965222b82256fd9302?impolicy=wcms_crop_resize&cropH=270&cropW=360&xPos=0&yPos=123&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Crime",
+            "link": "/news/topic/crime",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107093262",
         "contentUri": "coremedia://article/107093262",
         "label": null,
@@ -1233,52 +1291,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107084794",
-        "contentUri": "coremedia://article/107084794",
-        "label": null,
-        "link": "/news/2026-08-28/second-war-memorial-vandalised-in-western-victoria/107084794",
-        "title": "Country towns 'devastated' as two war memorials vandalised",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "War memorials in two neighbouring western Victorian towns have been defaced in a little over a month."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Red spray paint on a war memorial. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e59167b4fad36fe12030b6c0fc3b610?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Vandalism",
-            "link": "/news/topic/vandalism",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "107092342",
         "targetId": "107076582",
@@ -1371,6 +1383,52 @@
       },
       {
         "type": "generic",
+        "id": "107084794",
+        "contentUri": "coremedia://article/107084794",
+        "label": null,
+        "link": "/news/2026-08-28/second-war-memorial-vandalised-in-western-victoria/107084794",
+        "title": "Country towns 'devastated' as two war memorials vandalised",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "War memorials in two neighbouring western Victorian towns have been defaced in a little over a month."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Red spray paint on a war memorial. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1e59167b4fad36fe12030b6c0fc3b610?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Vandalism",
+            "link": "/news/topic/vandalism",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107083820",
         "contentUri": "coremedia://article/107083820",
         "label": null,
@@ -1407,52 +1465,6 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107092352",
-        "contentUri": "coremedia://article/107092352",
-        "label": null,
-        "link": "/news/2026-08-28/season-over-for-kangaroos-aflw-star-after-spinal-fusion-surgery/107092352",
-        "title": "Season over for Kangaroos AFLW star after spinal fusion surgery",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "AFLW premiership midfielder Mia King of the Kangaroos undergoes season-ending spinal fusion surgery after feeling neck pain after a match in Brisbane."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A North Melbourne AFLW player bends over as she handballs the ball away as she is grabbed by a Geelong player.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f60fa1f20db3a90e8b4ac57b6373b5a3?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "AFL Women’s",
-            "link": "/news/topic/afl-womens",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1545,6 +1557,52 @@
         ],
         "readTime": 2,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107092352",
+        "contentUri": "coremedia://article/107092352",
+        "label": null,
+        "link": "/news/2026-08-28/season-over-for-kangaroos-aflw-star-after-spinal-fusion-surgery/107092352",
+        "title": "Season over for Kangaroos AFLW star after spinal fusion surgery",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "AFLW premiership midfielder Mia King of the Kangaroos undergoes season-ending spinal fusion surgery after feeling neck pain after a match in Brisbane."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A North Melbourne AFLW player bends over as she handballs the ball away as she is grabbed by a Geelong player.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f60fa1f20db3a90e8b4ac57b6373b5a3?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL Women’s",
+            "link": "/news/topic/afl-womens",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -1685,52 +1743,6 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107084630",
-        "contentUri": "coremedia://article/107084630",
-        "label": null,
-        "link": "/news/2026-08-27/geelong-overdose-deaths-rise-prompting-calls-for-a-supervised-in/107084630",
-        "title": "Rising heroin deaths in Geelong prompt calls for safe injecting room ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A Victorian coroner says an injecting room in Geelong could have provided care for a woman who died of a drug overdose in the city last year."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Geelong waterfront",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a965641ec6985089f9d0bd7c51a9841e?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Heroin",
-            "link": "/news/topic/heroin",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
         "type": "rich",
         "id": "107084156",
         "targetId": "107083426",
@@ -1820,6 +1832,52 @@
         ],
         "readTime": 3,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107084630",
+        "contentUri": "coremedia://article/107084630",
+        "label": null,
+        "link": "/news/2026-08-27/geelong-overdose-deaths-rise-prompting-calls-for-a-supervised-in/107084630",
+        "title": "Rising heroin deaths in Geelong prompt calls for safe injecting room ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A Victorian coroner says an injecting room in Geelong could have provided care for a woman who died of a drug overdose in the city last year."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Geelong waterfront",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a965641ec6985089f9d0bd7c51a9841e?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Heroin",
+            "link": "/news/topic/heroin",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -1953,52 +2011,6 @@
             "title": "AFL",
             "link": "/news/topic/afl",
             "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107084318",
-        "contentUri": "coremedia://article/107084318",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-08-27/aflw-carlton-blues-proving-maturity-analysis/107084318",
-        "title": "The numbers behind Carlton's transition from AFLW darling to contender",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "After a breakout AFLW season last year, Carlton is using some subtle tweaks to take the difficult next step of challenging for the premiership."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A group of Carlton AFLW players stand in a circle and sing loudly after winning a game.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b69f120e8d163bcaa5863b92be663d51?impolicy=wcms_crop_resize&cropH=3332&cropW=4443&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Analysis",
-            "type": "genre",
             "screenReader": "Topic",
             "key": "Tag1"
           }
