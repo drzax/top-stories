@@ -14,7 +14,7 @@
         "targetId": "107134514",
         "contentUri": "coremedia://teaser/107149234",
         "label": null,
-        "title": "Tomahawks and wine: How long was Gold Coast mayor's 'dinner' with Trump?",
+        "title": "White House issues conflicting account of Aussie mayor’s Trump dinner",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -95,30 +95,13 @@
         "hasLoadPriority": false
       },
       {
-        "type": "medium",
-        "id": "107149238",
-        "contentUri": "coremedia://teaser/107149238",
+        "type": "generic",
+        "id": "107115082",
+        "contentUri": "coremedia://article/107115082",
         "label": null,
-        "link": "/news/2026-09-13/paralysed-queensland-woman-loses-ndis-funding/107130472",
-        "title": "NDIS slashes Brisbane woman's physical therapy hours, citing 'value for money'",
-        "image": {
-          "altText": "A young woman sits in a wheelchair, looking into the camera. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c14d6f243b260e28227cca0042a4326c?impolicy=wcms_crop_resize&cropH=2683&cropW=3577&xPos=57&yPos=0&width=862&height=647",
-          "imgRatio": "4x3",
-          "width": "862",
-          "height": "647"
-        },
-        "tags": [
-          {
-            "title": "People With Disability",
-            "link": "/news/topic/people-with-disability",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "synopsis": {
+        "link": "/news/2026-09-14/western-downs-digital-park-data-centre-energy-queensland/107115082",
+        "title": "Hyper-scale data centre could draw quarter of Queensland's power usage",
+        "content": {
           "descriptor": {
             "type": "tagname",
             "key": "div",
@@ -131,13 +114,30 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A bleed on April Coulson's spinal cord left her paralysed. Funding for her NDIS plan has been slashed."
+                    "content": "The proposed $30 billion data centre in Queensland has a peak capacity comparable to the average power requirements of 1.5 million households. "
                   }
                 ]
               }
             ]
           }
         },
+        "image": {
+          "altText": "a man points to a paddock",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bdbc628e6491e16096e9f20abeaa5ee?impolicy=wcms_crop_resize&cropH=3750&cropW=5000&xPos=0&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Data Centres",
+            "link": "/news/topic/data-centres",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
         "dates": null
       },
       {
@@ -178,6 +178,52 @@
           {
             "title": "Accidents and Emergency Incidents",
             "link": "/news/topic/accidents-and-emergency-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107130472",
+        "contentUri": "coremedia://article/107130472",
+        "label": null,
+        "link": "/news/2026-09-13/paralysed-queensland-woman-loses-ndis-funding/107130472",
+        "title": "NDIS slashes Brisbane woman's physical therapy hours, citing 'value for money'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A bleed on April Coulson's spinal cord left her paralysed. Funding for her NDIS plan has been slashed."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A young woman sits in a wheelchair, looking into the camera. ",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c14d6f243b260e28227cca0042a4326c?impolicy=wcms_crop_resize&cropH=2575&cropW=3434&xPos=137&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "People With Disability",
+            "link": "/news/topic/people-with-disability",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -231,7 +277,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107142350",
@@ -323,19 +381,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107146368",
