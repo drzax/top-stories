@@ -9,12 +9,12 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "rich",
-        "id": "107152138",
-        "targetId": "107150896",
-        "contentUri": "coremedia://teaser/107152138",
+        "type": "generic",
+        "id": "106891470",
+        "contentUri": "coremedia://article/106891470",
         "label": null,
-        "title": "Major caravan manufacturer shuts leaving customers in the dark",
+        "link": "/news/2026-09-15/autistic-queensland-man-human-rights-complaint-driving-standards/106891470",
+        "title": "Human rights complaint lodged over 'ableist' driving standards",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -28,70 +28,31 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Sunshine Coast's Australian Off Road campers ceased operating late last week, with customers saying they have been unable to make contact with the company."
+                    "content": "Casey Archbald says there is no \"evidence\" to support including autism in the national medical standards that determine whether a person can drive safely."
                   }
                 ]
               }
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-09-14T06:44:01+00:00",
-          "lastUpdated": "2026-09-14T06:44:01+00:00"
+        "image": {
+          "altText": "A man wearing a hat holding a book with lots of sticky notes",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/592cd4c71ecd61f25bd98fa7137c2f40?impolicy=wcms_crop_resize&cropH=2503&cropW=3337&xPos=375&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-09-14/australian-off-road-caravan-company-shuts-its-gates/107150896",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Elderly couple looking through fence",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=770&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Elderly couple looking through fence",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=1002&cropW=1503&xPos=417&yPos=78&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Elderly couple looking through fence",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=993&cropW=1765&xPos=115&yPos=87&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
         "tags": [
           {
-            "title": "ABC Sunshine Coast",
-            "link": "https://www.abc.net.au/sunshine/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Company News",
-            "link": "/news/topic/company-news",
+            "title": "Autism Spectrum Disorder",
+            "link": "/news/topic/autism-spectrum-disorder",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag2"
+            "key": "Tag1"
           }
         ],
-        "readTime": 3,
-        "hasLoadPriority": false
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -131,6 +92,52 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107150896",
+        "contentUri": "coremedia://article/107150896",
+        "label": null,
+        "link": "/news/2026-09-14/australian-off-road-caravan-company-shuts-its-gates/107150896",
+        "title": "Major caravan manufacturer shuts leaving customers in the dark",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Sunshine Coast's Australian Off Road campers have ceased operations, and customers say they have been unable to contact the company."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Elderly couple looking through fence",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=765&cropW=1020&xPos=816&yPos=87&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Company News",
+            "link": "/news/topic/company-news",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -367,7 +374,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107138656",
@@ -459,19 +478,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107147704",
