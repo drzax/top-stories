@@ -56,6 +56,52 @@
       },
       {
         "type": "generic",
+        "id": "107154384",
+        "contentUri": "coremedia://article/107154384",
+        "label": null,
+        "link": "/news/2026-09-15/qld-logan-morris-contract-brisbane-lions/107154384",
+        "title": "Young Brisbane Lions star Logan Morris re-signs with reigning premiers",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The 21-year-old, who earned his first all Australian blazer this year, was set to be one of the biggest names on the market at the end of next season. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Logan Morris celebrates in front of the Brisbane Lions AFL crowd.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/5d68f7ebe1d38a76829221f0650e85a4?impolicy=wcms_crop_resize&cropH=1001&cropW=1335&xPos=1454&yPos=431&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "AFL",
+            "link": "/news/topic/afl",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107133790",
         "contentUri": "coremedia://article/107133790",
         "label": null,
@@ -147,11 +193,11 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107150896",
-        "contentUri": "coremedia://article/107150896",
+        "type": "rich",
+        "id": "107154530",
+        "targetId": "107150896",
+        "contentUri": "coremedia://teaser/107154530",
         "label": null,
-        "link": "/news/2026-09-14/australian-off-road-caravan-company-shuts-its-gates/107150896",
         "title": "Major caravan manufacturer shuts leaving customers in the dark",
         "content": {
           "descriptor": {
@@ -173,25 +219,76 @@
             ]
           }
         },
-        "image": {
-          "altText": "Elderly couple looking through fence",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=765&cropW=1020&xPos=816&yPos=87&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-09-14T06:44:01+00:00",
+          "lastUpdated": "2026-09-14T06:44:01+00:00"
         },
+        "link": "/news/2026-09-14/australian-off-road-caravan-company-shuts-its-gates/107150896",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Elderly couple looking through fence",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=770&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Elderly couple looking through fence",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=1002&cropW=1503&xPos=417&yPos=78&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Elderly couple looking through fence",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89f3fa473fa3d6e8f6e6b529d8b14aac?impolicy=wcms_crop_resize&cropH=993&cropW=1765&xPos=115&yPos=87&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
+          {
+            "title": "ABC Sunshine Coast",
+            "link": "https://www.abc.net.au/sunshine/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
           {
             "title": "Company News",
             "link": "/news/topic/company-news",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
-      },
+        "readTime": 3,
+        "hasLoadPriority": false
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "107151710",
@@ -374,19 +471,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107153592",
@@ -656,183 +741,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107144424",
-        "contentUri": "coremedia://article/107144424",
-        "label": null,
-        "link": "/news/2026-09-13/middle-percy-island-invites-caretakers-rent-free/107144424",
-        "title": "Tropical island needs caretakers to live in barely inhabited 'paradise'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Managers of a near-deserted tropical island are looking for live-in volunteer caretakers to live rent- free in exchange for help maintaining the pristine environment."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Ralph Ender sites with his dog, Amigo, in the iconic Middle Percy A-frame.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/89ba5539dc81c51f002993e00ea9b38a?impolicy=wcms_crop_resize&cropH=1200&cropW=1600&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Sustainable Living",
-            "link": "/news/topic/sustainable-living",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107142350",
-        "contentUri": "coremedia://article/107142350",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-09-12/what-does-a-downgraded-credit-rating-mean-for-queensland/107142350",
-        "title": "What does a credit rating downgrade mean for Queenslanders?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Queensland's credit rating has been downgraded for the first time in 17 years. Here's what that could mean for the people in the state."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A street picture showing people walking. ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f46be79f02e6fa1245d5d09e5b1a9962?impolicy=wcms_crop_resize&cropH=1944&cropW=2592&xPos=494&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Explainer",
-            "type": "genre",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107146368",
-        "targetId": "107063462",
-        "contentUri": "coremedia://teaser/107146368",
-        "label": null,
-        "title": "Couple elopes to island paradise amid trend for simple micro weddings",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As soon as Jackie and Hayden Nuttall exchanged marriage vows, they pulled on their wetsuits for a blissful snorkel in paradise, as small, no-fuss weddings gain popularity."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-09-11T18:30:00+00:00",
-          "lastUpdated": "2026-09-11T18:30:00+00:00"
-        },
-        "link": "/news/2026-09-12/couple-elopes-to-lady-elliot-island-amid-micro-weddings-trend/107063462",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "A young couple in wetsuits and flippers lying in shallow water and smiling.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/221cf79cf7f0cc47e459d6fd33850402?impolicy=wcms_crop_resize&cropH=2441&cropW=2441&xPos=611&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "A young couple in wetsuits and flippers lying in shallow water and smiling.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/221cf79cf7f0cc47e459d6fd33850402?impolicy=wcms_crop_resize&cropH=1292&cropW=1938&xPos=936&yPos=561&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "A young couple in wetsuits and flippers lying in shallow water and smiling.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/221cf79cf7f0cc47e459d6fd33850402?impolicy=wcms_crop_resize&cropH=1372&cropW=2439&xPos=606&yPos=463&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "ABC Wide Bay",
-            "link": "https://www.abc.net.au/widebay/",
-            "type": "infoSource",
-            "key": "Tag1"
-          },
-          {
-            "title": "Weddings",
-            "link": "/news/topic/weddings",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
       }
     ]
   }
