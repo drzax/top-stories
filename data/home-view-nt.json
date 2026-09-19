@@ -473,27 +473,41 @@
     "moduleLabel": "More News",
     "items": [
       {
-        "type": "live",
+        "type": "rich",
         "id": "107172592",
         "targetId": "107165006",
-        "images": [
-          {
-            "desktop": {
-              "altText": "An AFL player in red and blue is on the turf with hands over head, teammates surrounding him",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/88aa6758b4ff97845e3944e23bed459f?impolicy=wcms_crop_resize&cropH=2163&cropW=3245&xPos=0&yPos=92&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            }
+        "contentUri": "coremedia://teaser/107172592",
+        "label": null,
+        "title": "Hawks fans throw bottles at umpires after 'bravest decision' in prelim",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Hawthorn fans are condemned for their behaviour after the siren following a heart-stopping preliminary final against the Brisbane Lions at the MCG."
+                  }
+                ]
+              }
+            ]
           }
-        ],
-        "label": {
-          "variant": "live",
-          "status": "live"
+        },
+        "dates": {
+          "firstPublished": "2026-09-19T05:59:51+00:00",
+          "lastUpdated": "2026-09-19T11:42:34+00:00"
         },
         "link": "/news/2026-09-19/afl-prelim-final-hawthorn-hawks-brisbane-lions-live-blog/107165006",
         "related": {
           "title": null,
+          "videos": [],
+          "audio": [],
           "articles": [
             {
               "id": "107170948",
@@ -583,31 +597,87 @@
               "mediaIndicator": null,
               "dates": null
             }
-          ],
-          "videos": [],
-          "cta": null,
-          "embed": null
+          ]
         },
-        "synopsis": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A can is seen hurtling towards AFL umpires after the Hawks' AFL final loss to Brisbane.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d45fd08bab80c30b8613b128d1bf1cae?impolicy=wcms_crop_resize&cropH=2943&cropW=2943&xPos=204&yPos=0&width=862&height=862"
+            }
+          },
+          {
+            "desktop": {
+              "altText": "A group of AFL players in yellow and black celebrate a goal",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2888d4de63859c78756414731361b899?impolicy=wcms_crop_resize&cropH=3069&cropW=3069&xPos=795&yPos=0&width=862&height=862"
+            }
+          },
+          {
+            "desktop": {
+              "altText": "An AFL player in red and blue is on the turf with hands over head, teammates surrounding him",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/88aa6758b4ff97845e3944e23bed459f?impolicy=wcms_crop_resize&cropH=2297&cropW=2297&xPos=402&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A can is seen hurtling towards AFL umpires after the Hawks' AFL final loss to Brisbane.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d45fd08bab80c30b8613b128d1bf1cae?impolicy=wcms_crop_resize&cropH=2942&cropW=4413&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
               {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Hawthorn hosts dual reigning premiers Brisbane at the MCG in the preliminary final as both sides look to join Fremantle in next week's AFL grand final. Follow live."
-                  }
-                ]
+                "altText": "A can is seen hurtling towards AFL umpires after the Hawks' AFL final loss to Brisbane.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/d45fd08bab80c30b8613b128d1bf1cae?impolicy=wcms_crop_resize&cropH=2482&cropW=4413&xPos=0&yPos=172&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          },
+          {
+            "desktop": {
+              "altText": "A group of AFL players in yellow and black celebrate a goal",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2888d4de63859c78756414731361b899?impolicy=wcms_crop_resize&cropH=2799&cropW=4198&xPos=0&yPos=135&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A group of AFL players in yellow and black celebrate a goal",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2888d4de63859c78756414731361b899?impolicy=wcms_crop_resize&cropH=2361&cropW=4198&xPos=0&yPos=101&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          },
+          {
+            "desktop": {
+              "altText": "An AFL player in red and blue is on the turf with hands over head, teammates surrounding him",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/88aa6758b4ff97845e3944e23bed459f?impolicy=wcms_crop_resize&cropH=2163&cropW=3245&xPos=0&yPos=92&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "An AFL player in red and blue is on the turf with hands over head, teammates surrounding him",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/88aa6758b4ff97845e3944e23bed459f?impolicy=wcms_crop_resize&cropH=1825&cropW=3245&xPos=0&yPos=469&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
               }
             ]
           }
-        },
+        ],
         "tags": [
           {
             "text": "Chris De Silva",
@@ -629,35 +699,8 @@
             "key": "Tag2"
           }
         ],
-        "title": "Neale flattened at first bounce in explosive start to Lions-Hawks prelim",
-        "theme": "live",
-        "updates": [
-          {
-            "title": "No concussion test for Neale",
-            "id": "341762",
-            "link": "https://www.abc.net.au/news/2026-09-19/afl-prelim-final-hawthorn-hawks-brisbane-lions-live-blog/107165006#live-blog-post-341762",
-            "dates": {
-              "firstPublished": "2026-09-19T07:23:59.000Z"
-            }
-          },
-          {
-            "title": "Neale flattened at the first bounce!",
-            "id": "341755",
-            "link": "https://www.abc.net.au/news/2026-09-19/afl-prelim-final-hawthorn-hawks-brisbane-lions-live-blog/107165006#live-blog-post-341755",
-            "dates": {
-              "firstPublished": "2026-09-19T07:17:16.000Z"
-            }
-          },
-          {
-            "title": "Play is underway in the second preliminary final!",
-            "id": "341754",
-            "link": "https://www.abc.net.au/news/2026-09-19/afl-prelim-final-hawthorn-hawks-brisbane-lions-live-blog/107165006#live-blog-post-341754",
-            "dates": {
-              "firstPublished": "2026-09-19T07:16:09.000Z"
-            }
-          }
-        ],
-        "uri": "coremedia://teaser/107172592"
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -872,7 +915,7 @@
         },
         "dates": {
           "firstPublished": "2026-09-19T06:04:45+00:00",
-          "lastUpdated": "2026-09-19T06:04:45+00:00"
+          "lastUpdated": "2026-09-19T11:46:22+00:00"
         },
         "link": "/news/2026-09-19/qld-yacht-rescue-whitsundays-elizabeth-reef/107172452",
         "related": {
@@ -971,7 +1014,7 @@
             "key": "Tag2"
           }
         ],
-        "readTime": 1,
+        "readTime": 2,
         "hasLoadPriority": false
       },
       {
