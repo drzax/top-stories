@@ -10,6 +10,52 @@
     "items": [
       {
         "type": "generic",
+        "id": "107175120",
+        "contentUri": "coremedia://article/107175120",
+        "label": null,
+        "link": "/news/2026-09-21/woman-suspect-in-dv-blue-mountains-child-death-and-stabbings/107175120",
+        "title": "Mother confirmed a suspect in domestic violence stabbings",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The death of a five-year-old boy and the stabbing of two other children in the Blue Mountains is being treated as a domestic violence incident, police have confirmed."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "police officers and emergency cars at a scene of a stabbing in the blue mountains",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ac979df8e368e49b97dd40235157ecd7?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=153&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Domestic Violence",
+            "link": "/news/topic/domestic-violence",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107162870",
         "contentUri": "coremedia://article/107162870",
         "label": null,
@@ -46,52 +92,6 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107173904",
-        "contentUri": "coremedia://article/107173904",
-        "label": null,
-        "link": "/news/2026-09-20/stabbing-child-dead-two-injured-woman-hospital-blue-mountains/107173904",
-        "title": "5yo dead, two children and woman critical in Blue Mountains stabbing",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "NSW Police say all the children are under the age of five and the woman is in her 40s."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "a forensic officer at the scene of a stabbing in the  blue mountains",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ca706a7312ed7845c79e780abd8be918?impolicy=wcms_crop_resize&cropH=985&cropW=1314&xPos=142&yPos=4&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Crime",
-            "link": "/news/topic/crime",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -148,11 +148,11 @@
       },
       {
         "type": "generic",
-        "id": "107155146",
-        "contentUri": "coremedia://article/107155146",
+        "id": "107175336",
+        "contentUri": "coremedia://article/107175336",
         "label": null,
-        "link": "/news/2026-09-20/nrl-finals-live-warriors-knights-eden-park/107155146",
-        "title": "Ugly scenes as refs have projectiles hurled at them after NRL semifinal",
+        "link": "/news/2026-09-21/quad-bike-fatal-osborne-regional-nsw-oval/107175336",
+        "title": "Man dies after being towed by quad bike in regional NSW",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -166,7 +166,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Projectiles have been thrown at the NRL refereeing crew following Newcastle's upset semifinal win over the New Zealand Warriors."
+                    "content": "Bystanders provided first aid before emergency services arrived, but the man died at the scene."
                   }
                 ]
               }
@@ -174,16 +174,16 @@
           }
         },
         "image": {
-          "altText": "An NRL referee and player are talking to each other on the field during a match",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/27d309a79d2f30a6be2651778b669bd7?impolicy=wcms_crop_resize&cropH=2000&cropW=2667&xPos=167&yPos=0&width=160&height=120",
+          "altText": "Car surround a football oval, farms in the background.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/abda1996c03055017cb257c7c2bc52cf?impolicy=wcms_crop_resize&cropH=485&cropW=646&xPos=0&yPos=163&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "NRL",
-            "link": "/news/topic/nrl",
+            "title": "Police",
+            "link": "/news/topic/police",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -399,7 +399,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5555986",
+    "uri": "coremedia://collection/5555986",
+    "title": "NSW Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "107175104",
@@ -485,19 +497,99 @@
         ],
         "readTime": 18,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5555986",
-    "uri": "coremedia://collection/5555986",
-    "title": "NSW Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
+      {
+        "type": "generic",
+        "id": "107149316",
+        "contentUri": "coremedia://article/107149316",
+        "theme": "lilac",
+        "label": null,
+        "link": "/news/2026-09-20/loving-one-another-through-childlessness/107149316",
+        "title": "Infertility was incredibly hard. Loving one another got us through",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "When IVF didn't work, Susanne and Mike Armour had to face the difficult decision to stop trying for a baby. The couple say their love for one another got them through."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Mike and Susanne Armour hugging one another.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ecc6c1d38dce31ff0dc8a97efa4f0e6?impolicy=wcms_crop_resize&cropH=1273&cropW=1697&xPos=22&yPos=263&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Perspective",
+            "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107172068",
+        "contentUri": "coremedia://article/107172068",
+        "label": null,
+        "link": "/news/2026-09-19/nsw-liberal-party-gun-buyback-proposal-state-election/107172068",
+        "title": "NSW Liberals pledge to scrap gun buyback amid election countdown",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The New South Wales Liberals have pledged to freeze the state's buyback of guns and scrap ownership limits for farmers, if elected next year."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Various firearms are laid out on a table.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2ecefadbecadafd29ecb102f999ae44?impolicy=wcms_crop_resize&cropH=1073&cropW=1430&xPos=85&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Government and Politics",
+            "link": "/news/topic/government-and-politics",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
       {
         "type": "rich",
         "id": "107174034",
@@ -591,12 +683,11 @@
       },
       {
         "type": "generic",
-        "id": "107149316",
-        "contentUri": "coremedia://article/107149316",
-        "theme": "lilac",
+        "id": "107168974",
+        "contentUri": "coremedia://article/107168974",
         "label": null,
-        "link": "/news/2026-09-20/loving-one-another-through-childlessness/107149316",
-        "title": "Infertility was incredibly hard. Loving one another got us through",
+        "link": "/news/2026-09-19/owners-sydney-defect-toplace-units-fear-what-icac-can-achieve/107168974",
+        "title": "'Hell on earth' for owners of units of collapsed developer at heart of ICAC",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -610,7 +701,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "When IVF didn't work, Susanne and Mike Armour had to face the difficult decision to stop trying for a baby. The couple say their love for one another got them through."
+                    "content": "As fugitive property developer Jean Nassif defended his collapsed empire at the corruption watchdog, the 'real victims' are still picking up the pieces."
                   }
                 ]
               }
@@ -618,16 +709,17 @@
           }
         },
         "image": {
-          "altText": "Mike and Susanne Armour hugging one another.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3ecc6c1d38dce31ff0dc8a97efa4f0e6?impolicy=wcms_crop_resize&cropH=1273&cropW=1697&xPos=22&yPos=263&width=160&height=120",
+          "altText": "Family outside building",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7d34a6a350a91f9229b74d4457e9e2b6?impolicy=wcms_crop_resize&cropH=2377&cropW=3169&xPos=751&yPos=341&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Perspective",
-            "type": "genre",
+            "title": "Corruption",
+            "link": "/news/topic/corruption",
+            "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -637,11 +729,11 @@
       },
       {
         "type": "generic",
-        "id": "107172068",
-        "contentUri": "coremedia://article/107172068",
+        "id": "107151422",
+        "contentUri": "coremedia://article/107151422",
         "label": null,
-        "link": "/news/2026-09-19/nsw-liberal-party-gun-buyback-proposal-state-election/107172068",
-        "title": "NSW Liberals pledge to scrap gun buyback amid election countdown",
+        "link": "/news/2026-09-19/community-hit-hard-by-job-losses-at-sunrice-mill/107151422",
+        "title": "The rice industry is the 'backbone' of this small town, but it's struggling ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -655,7 +747,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The New South Wales Liberals have pledged to freeze the state's buyback of guns and scrap ownership limits for farmers, if elected next year."
+                    "content": "It's just over a month since Australia's largest rice processor, SunRice, laid-off nearly 80 workers in southern NSW and already some people are struggling to pay rent."
                   }
                 ]
               }
@@ -663,16 +755,16 @@
           }
         },
         "image": {
-          "altText": "Various firearms are laid out on a table.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b2ecefadbecadafd29ecb102f999ae44?impolicy=wcms_crop_resize&cropH=1073&cropW=1430&xPos=85&yPos=0&width=160&height=120",
+          "altText": "An aerial view of the Deniliquin rice mill showing industrial buildings and storage sheds",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2287be7876321b4ef71981284b1252ff?impolicy=wcms_crop_resize&cropH=2541&cropW=3388&xPos=567&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Government and Politics",
-            "link": "/news/topic/government-and-politics",
+            "title": "Rice Growing",
+            "link": "/news/topic/rice-growing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -814,183 +906,6 @@
           }
         ],
         "readTime": 4,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107168974",
-        "contentUri": "coremedia://article/107168974",
-        "label": null,
-        "link": "/news/2026-09-19/owners-sydney-defect-toplace-units-fear-what-icac-can-achieve/107168974",
-        "title": "'Hell on earth' for owners of units of collapsed developer at heart of ICAC",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As fugitive property developer Jean Nassif defended his collapsed empire at the corruption watchdog, the 'real victims' are still picking up the pieces."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Family outside building",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7d34a6a350a91f9229b74d4457e9e2b6?impolicy=wcms_crop_resize&cropH=2377&cropW=3169&xPos=751&yPos=341&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Corruption",
-            "link": "/news/topic/corruption",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107151422",
-        "contentUri": "coremedia://article/107151422",
-        "label": null,
-        "link": "/news/2026-09-19/community-hit-hard-by-job-losses-at-sunrice-mill/107151422",
-        "title": "The rice industry is the 'backbone' of this small town, but it's struggling ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "It's just over a month since Australia's largest rice processor, SunRice, laid-off nearly 80 workers in southern NSW and already some people are struggling to pay rent."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An aerial view of the Deniliquin rice mill showing industrial buildings and storage sheds",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2287be7876321b4ef71981284b1252ff?impolicy=wcms_crop_resize&cropH=2541&cropW=3388&xPos=567&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Rice Growing",
-            "link": "/news/topic/rice-growing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107172338",
-        "targetId": "107169308",
-        "contentUri": "coremedia://teaser/107172338",
-        "label": null,
-        "title": "How can I help a friend through domestic violence situation?",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Molly Ticehurst's friends didn't think domestic, family and sexual violence could impact them. Here's what they wished they'd known before their best friend was murdered."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-09-19T02:10:48+00:00",
-          "lastUpdated": "2026-09-19T02:10:48+00:00"
-        },
-        "link": "/news/2026-09-19/how-to-help-a-friend-through-domestic-violence/107169308",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Two girls with long red hair stare out into the distance with their arms around each other",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ee2e8f3d462bcac2040d14283bbdb11?impolicy=wcms_crop_resize&cropH=3368&cropW=3368&xPos=2&yPos=844&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Two girls with long red hair stare out into the distance with their arms around each other",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ee2e8f3d462bcac2040d14283bbdb11?impolicy=wcms_crop_resize&cropH=2247&cropW=3370&xPos=0&yPos=1860&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Two girls with long red hair stare out into the distance with their arms around each other",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9ee2e8f3d462bcac2040d14283bbdb11?impolicy=wcms_crop_resize&cropH=1896&cropW=3370&xPos=0&yPos=1922&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Shalailah Medhora",
-            "title": "By Shalailah Medhora",
-            "link": "https://www.abc.net.au/news/shalailah-medhora/103739692",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "triple j Hack",
-            "link": "https://www.abc.net.au/triplej/programs/hack/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 5,
         "hasLoadPriority": false
       },
       {
