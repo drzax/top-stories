@@ -37,7 +37,7 @@
         },
         "dates": {
           "firstPublished": "2026-09-21T19:14:39+00:00",
-          "lastUpdated": "2026-09-21T23:01:15+00:00"
+          "lastUpdated": "2026-09-22T00:50:41+00:00"
         },
         "link": "/news/2026-09-22/victorian-data-centres-policy-renewable-energy-mandates/107178138",
         "related": {
@@ -96,52 +96,6 @@
       },
       {
         "type": "generic",
-        "id": "107176136",
-        "contentUri": "coremedia://article/107176136",
-        "label": null,
-        "link": "/news/2026-09-22/wet-winter-increases-risk-of-active-hayfever-season-in-victoria/107176136",
-        "title": "Wet winter increases risk of active hayfever season in Victoria",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Grass growth after the wet winter could see more extreme grass pollen days in much of Victoria this spring."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A girl sneezing holding flowers in her hand",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/90d147eee24dd748d171503c91bc5072?impolicy=wcms_crop_resize&cropH=180&cropW=240&xPos=96&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Allergies",
-            "link": "/news/topic/allergies",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "107163130",
         "contentUri": "coremedia://article/107163130",
         "label": null,
@@ -178,6 +132,52 @@
           {
             "title": "Nature",
             "link": "/news/topic/nature",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107176136",
+        "contentUri": "coremedia://article/107176136",
+        "label": null,
+        "link": "/news/2026-09-22/wet-winter-increases-risk-of-active-hayfever-season-in-victoria/107176136",
+        "title": "Bad hayfever season likely after Victoria's warm, wet winter",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Experts warn Victorians to start preparing for extreme grass pollen days and thunderstorm asthma after Victoria's wettest winter in a decade."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A girl sneezing holding flowers in her hand",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/90d147eee24dd748d171503c91bc5072?impolicy=wcms_crop_resize&cropH=180&cropW=240&xPos=96&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Allergies",
+            "link": "/news/topic/allergies",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -529,7 +529,19 @@
         "theme": "sand",
         "readTime": 5,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "5470430",
+    "uri": "coremedia://collection/5470430",
+    "title": "Vic Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107176642",
@@ -713,19 +725,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "5470430",
-    "uri": "coremedia://collection/5470430",
-    "title": "Vic Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "rich",
         "id": "107176110",
