@@ -9,11 +9,11 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
-        "type": "generic",
-        "id": "107225262",
-        "contentUri": "coremedia://article/107225262",
+        "type": "rich",
+        "id": "107225422",
+        "targetId": "107225262",
+        "contentUri": "coremedia://teaser/107225422",
         "label": null,
-        "link": "/news/2026-10-03/tornado-tears-through-ulladulla-in-nsw-south-coast/107225262",
         "title": "Tornado rips through NSW south coast, causing damage around Ulladulla",
         "content": {
           "descriptor": {
@@ -35,24 +35,94 @@
             ]
           }
         },
-        "image": {
-          "altText": "a tornado in the distance in ulladulla",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/146e3cb1b34f9ee5d8c777c6f5a88395?impolicy=wcms_crop_resize&cropH=600&cropW=800&xPos=0&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-10-03T07:44:58+00:00",
+          "lastUpdated": "2026-10-03T09:31:58+00:00"
         },
+        "link": "/news/2026-10-03/tornado-tears-through-ulladulla-in-nsw-south-coast/107225262",
+        "related": {
+          "title": null,
+          "videos": [
+            {
+              "id": "107225338",
+              "canonicalURL": "https://www.abc.net.au/news/2026-10-03/tornado-sweeps-through-ulladulla/107225338",
+              "uri": "coremedia://video/107225338",
+              "duration": 0,
+              "sources": [
+                {
+                  "file": "https://mediacore-live-production.akamaized.net/video/02/p3/Z/mg.mp4",
+                  "type": "video/mp4",
+                  "fileSize": 3928023,
+                  "bitrate": 668,
+                  "label": "668 kbps"
+                }
+              ],
+              "tracks": [],
+              "ratio": "3x2",
+              "image": {
+                "altText": "Tornado sweeps through Ulladulla",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b90f60e002b00f4f2877f771bb76d31f?impolicy=wcms_crop_resize&cropH=380&cropW=570&xPos=0&yPos=322&width=862&height=575",
+                "width": "862",
+                "height": "575"
+              },
+              "isVerticalVideo": false
+            }
+          ],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "a tornado in the distance in ulladulla",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/146e3cb1b34f9ee5d8c777c6f5a88395?impolicy=wcms_crop_resize&cropH=600&cropW=600&xPos=100&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "a tornado in the distance in ulladulla",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/146e3cb1b34f9ee5d8c777c6f5a88395?impolicy=wcms_crop_resize&cropH=533&cropW=800&xPos=0&yPos=43&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "a tornado in the distance in ulladulla",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/146e3cb1b34f9ee5d8c777c6f5a88395?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=85&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
         "tags": [
+          {
+            "text": "Digby Werthmuller",
+            "title": "By Digby Werthmuller",
+            "link": "https://www.abc.net.au/news/digby-werthmuller/104377048",
+            "avatar": {
+              "alt": "Digby Werthmuller",
+              "fallbackLetter": "D",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f79585e103d224c83c3aae6079c60f31?impolicy=wcms_crop_resize&cropH=1716&cropW=1716&xPos=429&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
           {
             "title": "Weather Phenomena",
             "link": "/news/topic/weather-phenomena",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
+            "key": "Tag2"
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "readTime": 2,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -83,7 +153,7 @@
           }
         },
         "image": {
-          "altText": "Brown car stationery, fire truck and emergency officers standing behind it",
+          "altText": "Brown car stationary, fire truck and emergency officers standing behind it.",
           "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b96eae105d12bb6da5d13d00135db60?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
@@ -93,6 +163,52 @@
           {
             "title": "Explainer",
             "type": "genre",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107211670",
+        "contentUri": "coremedia://article/107211670",
+        "label": null,
+        "link": "/news/2026-10-03/graziers-to-help-fix-damaged-roads-in-remote-nsw-sa/107211670",
+        "title": "Graziers step in to fix damaged roads after incomes 'decimated'",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Transport for NSW will hire graziers to fix roads damaged by months of heavy rain in the remote Far West. But some graziers say red tape is slowing down progress and repairs."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Sam Maiden of Mt Gipps Station sits in a large pothole on the road",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/274f3cbe5f4584de7d5dbaa841713154?impolicy=wcms_crop_resize&cropH=852&cropW=1136&xPos=2455&yPos=303&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Roads",
+            "link": "/news/topic/roads",
+            "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
           }
@@ -129,7 +245,7 @@
         },
         "dates": {
           "firstPublished": "2026-10-03T00:23:10+00:00",
-          "lastUpdated": "2026-10-03T09:09:50+00:00"
+          "lastUpdated": "2026-10-03T12:50:27+00:00"
         },
         "link": "/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
         "related": {
@@ -165,7 +281,7 @@
                 }
               },
               "image": {
-                "altText": "Brown car stationery, fire truck and emergency officers standing behind it",
+                "altText": "Brown car stationary, fire truck and emergency officers standing behind it.",
                 "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b96eae105d12bb6da5d13d00135db60?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
                 "imgRatio": "4x3",
                 "width": "160",
@@ -193,7 +309,7 @@
           },
           {
             "desktop": {
-              "altText": "Brown car stationery, fire truck and emergency officers standing behind it",
+              "altText": "Brown car stationary, fire truck and emergency officers standing behind it.",
               "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b96eae105d12bb6da5d13d00135db60?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
             }
           }
@@ -220,7 +336,7 @@
           },
           {
             "desktop": {
-              "altText": "Brown car stationery, fire truck and emergency officers standing behind it",
+              "altText": "Brown car stationary, fire truck and emergency officers standing behind it.",
               "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b96eae105d12bb6da5d13d00135db60?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
               "imgRatio": "3x2",
               "width": "862",
@@ -228,7 +344,7 @@
             },
             "sources": [
               {
-                "altText": "Brown car stationery, fire truck and emergency officers standing behind it",
+                "altText": "Brown car stationary, fire truck and emergency officers standing behind it.",
                 "imgSrc": "https://live-production.wcms.abc-cdn.net.au/9b96eae105d12bb6da5d13d00135db60?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
                 "imgRatio": "16x9",
                 "width": "862",
