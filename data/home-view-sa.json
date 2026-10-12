@@ -14,7 +14,7 @@
         "targetId": "107254548",
         "contentUri": "coremedia://teaser/107255042",
         "label": null,
-        "title": "Trees down, hail fell across Adelaide during storm",
+        "title": "Severe storm with hail brings trees down across Adelaide",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -84,8 +84,8 @@
             "key": "Tag1"
           },
           {
-            "title": "Disasters, Accidents and Emergency Incidents",
-            "link": "/news/topic/disasters-accidents-and-emergency-incidents",
+            "title": "Weather",
+            "link": "/news/topic/weather",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
@@ -93,6 +93,52 @@
         ],
         "readTime": 2,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107254730",
+        "contentUri": "coremedia://article/107254730",
+        "label": null,
+        "link": "/news/2026-10-12/national-trust-sa-inquiry-resumes-today-as-ceo-resigns/107254730",
+        "title": "National Trust SA inquiry resumes today as CEO resigns",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A parliamentary inquiry into the National Trust of South Australia resumes as its chief executive resigns. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A woman wearing a purple top and glasses sits at a wooden table, with another woman in a black jacket in the background",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14803206fb46085030e3ec85110df0cd?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Community Organisations",
+            "link": "/news/topic/community-organisations",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -132,52 +178,6 @@
           {
             "title": "Environmental Impacts",
             "link": "/news/topic/environmental-impacts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107216338",
-        "contentUri": "coremedia://article/107216338",
-        "label": null,
-        "link": "/news/2026-10-12/birdsville-track-closure-outback-roads-businesses/107216338",
-        "title": "Ongoing Birdsville Track closure hits outback businesses",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The outback road has been closed for the majority of the past two years, leaving some outback businesses with no choice but to pause operations. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "An aerial shot of a road covered in brown water, with the top of shrubs sticking out of the water around the road",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3a67874f3a56434c421efe42a5d59a17?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=256&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Road Transport Industry",
-            "link": "/news/topic/road-transport-industry",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -275,6 +275,52 @@
       },
       {
         "type": "generic",
+        "id": "107216338",
+        "contentUri": "coremedia://article/107216338",
+        "label": null,
+        "link": "/news/2026-10-12/birdsville-track-closure-outback-roads-businesses/107216338",
+        "title": "Ongoing Birdsville Track closure hits outback businesses",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The outback road has been closed for the majority of the past two years, leaving some outback businesses with no choice but to pause operations. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "An aerial shot of a road covered in brown water, with the top of shrubs sticking out of the water around the road",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/3a67874f3a56434c421efe42a5d59a17?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=256&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Transport Industry",
+            "link": "/news/topic/road-transport-industry",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107220428",
         "contentUri": "coremedia://article/107220428",
         "label": null,
@@ -320,13 +366,104 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "107255752",
+        "targetId": "107254696",
+        "contentUri": "coremedia://teaser/107255752",
+        "label": null,
+        "title": "Izzi Batt-Doyle smashes Australian marathon record with run in Chicago",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Another Australian athletics record falls, with Olympian Batt-Doyle taking more than two minutes off her personal best to break the women's marathon mark in Chicago."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-10-12T00:06:30+00:00",
+          "lastUpdated": "2026-10-12T00:06:30+00:00"
+        },
+        "link": "/news/2026-10-12/izzi-batt-doyle-breaks-australian-women-marathon-mark-chicago/107254696",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Izzi Batt-Doyle finishes the Chicago Marathon",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fa24db01a6701c6fd42bfb16dbb9b353?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=0&yPos=1095&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Izzi Batt-Doyle finishes the Chicago Marathon",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fa24db01a6701c6fd42bfb16dbb9b353?impolicy=wcms_crop_resize&cropH=2222&cropW=3333&xPos=0&yPos=1533&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Izzi Batt-Doyle finishes the Chicago Marathon",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fa24db01a6701c6fd42bfb16dbb9b353?impolicy=wcms_crop_resize&cropH=1875&cropW=3333&xPos=0&yPos=1563&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "James Coventry",
+            "title": "By James Coventry",
+            "link": "https://www.abc.net.au/news/james-coventry/6383846",
+            "avatar": {
+              "alt": "James Coventry",
+              "fallbackLetter": "J",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2892ddb9967d2a382a6c5f5c35436225?impolicy=wcms_crop_resize&cropH=269&cropW=269&xPos=99&yPos=74&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Marathon",
+            "link": "/news/topic/marathon",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "107253646",
         "contentUri": "coremedia://article/107253646",
         "theme": "lilac",
         "label": null,
         "link": "/news/2026-10-12/powderfinger-australian-tour-2027-tickets-dates/107253646",
-        "title": "Powderfinger reveal massive 18-date Australian tour",
+        "title": "Powderfinger will play 18 shows across six Australian cities in 2027",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -367,12 +504,12 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "107253610",
-        "targetId": "107253530",
-        "contentUri": "coremedia://teaser/107253610",
+        "type": "generic",
+        "id": "107253530",
+        "contentUri": "coremedia://article/107253530",
         "label": null,
-        "title": "Owners fear rare days-old lamb worth up to $25k stolen ",
+        "link": "/news/2026-10-11/lost-lamb-worth-25k-in-adelaide-hills/107253530",
+        "title": "Owners fear rare lamb worth up to $25k stolen ",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -393,46 +530,13 @@
             ]
           }
         },
-        "dates": {
-          "firstPublished": "2026-10-11T06:32:41+00:00",
-          "lastUpdated": "2026-10-11T06:32:41+00:00"
+        "image": {
+          "altText": "lamb and maddy",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/847aa0de5b99cb566335d6454de34020?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=64&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
         },
-        "link": "/news/2026-10-11/lost-lamb-worth-25k-in-adelaide-hills/107253530",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "lamb and maddy",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/847aa0de5b99cb566335d6454de34020?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=244&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "lamb and maddy",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/847aa0de5b99cb566335d6454de34020?impolicy=wcms_crop_resize&cropH=1045&cropW=1568&xPos=0&yPos=17&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "lamb and maddy",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/847aa0de5b99cb566335d6454de34020?impolicy=wcms_crop_resize&cropH=882&cropW=1568&xPos=0&yPos=99&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
         "tags": [
           {
             "title": "Sheep Farming",
@@ -440,17 +544,10 @@
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
-          },
-          {
-            "title": "Livestock Farming",
-            "link": "/news/topic/livestock-farming",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
           }
         ],
-        "readTime": 2,
-        "hasLoadPriority": false
+        "mediaIndicator": null,
+        "dates": null
       }
     ],
     "stateRail": {
@@ -981,7 +1078,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Industry players say draft gas reservation plans are full of carve-outs that will let a venture many blame for rising prices off the hook. "
+                    "content": "Industry players say draft gas reservation plans are full of carve-outs that will let a venture many blame for rising prices off the hook.  "
                   }
                 ]
               }
@@ -1302,7 +1399,7 @@
         },
         "image": {
           "altText": "Pope Leo giving an address from the Apostolic Palace in the Vatican.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4febc9f2cc9aac3a7f2994c71cf7bf3b?impolicy=wcms_crop_resize&cropH=2264&cropW=3019&xPos=881&yPos=581&width=160&height=120",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4febc9f2cc9aac3a7f2994c71cf7bf3b?impolicy=wcms_crop_resize&cropH=1896&cropW=2528&xPos=1131&yPos=668&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -1455,7 +1552,7 @@
         },
         "dates": {
           "firstPublished": "2026-10-11T12:44:09+00:00",
-          "lastUpdated": "2026-10-11T22:10:28+00:00"
+          "lastUpdated": "2026-10-12T00:11:29+00:00"
         },
         "link": "/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
         "related": {
@@ -1491,7 +1588,7 @@
               },
               "image": {
                 "altText": "Pope Leo giving an address from the Apostolic Palace in the Vatican.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4febc9f2cc9aac3a7f2994c71cf7bf3b?impolicy=wcms_crop_resize&cropH=2264&cropW=3019&xPos=881&yPos=581&width=160&height=120",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/4febc9f2cc9aac3a7f2994c71cf7bf3b?impolicy=wcms_crop_resize&cropH=1896&cropW=2528&xPos=1131&yPos=668&width=160&height=120",
                 "imgRatio": "4x3",
                 "width": "160",
                 "height": "120"
@@ -1763,52 +1860,6 @@
       },
       {
         "type": "generic",
-        "id": "107251862",
-        "contentUri": "coremedia://article/107251862",
-        "label": null,
-        "link": "/news/2026-10-11/pro-palestinian-rallies-across-australia-global-day-for-gaza/107251862",
-        "title": "Palestinian supporters mark Global Day for Gaza",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "As part of the Global Day for Gaza, protesters are gathering in capital cities and various regional locations across Australia."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "pro-palestinian rally in hobart",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e2b154c23ad42398b9e7fcb499076e52?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=442&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Demonstrations",
-            "link": "/news/topic/demonstrations",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
         "id": "107247350",
         "contentUri": "coremedia://article/107247350",
         "label": null,
@@ -2070,7 +2121,7 @@
         },
         "image": {
           "altText": "A street view of the new Flinders Street Community Health hub ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/bbd14d096b1902d20a34543053e8cb9d?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=480&yPos=0&width=160&height=120",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c857b925a58da54cb0f81db77d98d528?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=0&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
@@ -2302,52 +2353,6 @@
           {
             "title": "Road Accidents and Incidents",
             "link": "/news/topic/road-accidents-and-incidents",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107252724",
-        "contentUri": "coremedia://article/107252724",
-        "label": null,
-        "link": "/news/2026-10-11/angus-taylor-would-welcome-return-of-josh-frydenberg-to-politics/107252724",
-        "title": "Taylor says he would welcome return of Frydenberg to politics",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Opposition Leader Angus Taylor says former Liberal treasurer Josh Frydenberg has a \"role to play\" and should be mobilised at the next election."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Angus Taylor, in a navy suit jacket and blue shirt, with dark hair, speaks as he points up with his right finger.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/e0fbb8ecaa8806338f3304a02c091ecd?impolicy=wcms_crop_resize&cropH=900&cropW=1200&xPos=193&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Federal Government",
-            "link": "/news/topic/federal-government",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
