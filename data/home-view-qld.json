@@ -101,11 +101,11 @@
       },
       {
         "type": "generic",
-        "id": "107302040",
-        "contentUri": "coremedia://article/107302040",
+        "id": "107300824",
+        "contentUri": "coremedia://article/107300824",
         "label": null,
-        "link": "/news/2026-10-24/watch-floodwaters-swallow-four-wheel-drive-in-six-minutes/107302040",
-        "title": "It took less than six minutes for this 4WD to sink out of sight",
+        "link": "/news/2026-10-24/fishing-competition-restricted-by-tides-at-port-hinchinbrook/107300824",
+        "title": "Barra Bonanza organisers eager for channel works after 15 years of silt",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -119,7 +119,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "For the first few seconds, it doesn't look like a life-and-death situation. But within minutes, the four-wheel drive is under water."
+                    "content": "Some anglers competing in a major fishing competition at Cardwell are frustrated by limited access to a port that never recovered from cyclone damage in 2011."
                   }
                 ]
               }
@@ -127,16 +127,16 @@
           }
         },
         "image": {
-          "altText": "A graphic showing a storyboard of a car driving into floodwaters, sinking and then being rescued by a bystander and ABC reporter",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0f23f99505c5e5ee78808b61dffa12?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "altText": "Two men in blue fishing shirts holding fishing trophy with crowd behind them",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a33395304217063ec5df5b4aeaaefb75?impolicy=wcms_crop_resize&cropH=800&cropW=1067&xPos=87&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Floods",
-            "link": "/news/topic/floods",
+            "title": "Recreational Fishing",
+            "link": "/news/topic/recreational-fishing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -190,6 +190,91 @@
         ],
         "mediaIndicator": null,
         "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107304402",
+        "targetId": "107302040",
+        "contentUri": "coremedia://teaser/107304402",
+        "label": null,
+        "title": "It took less than six minutes for this 4WD to sink out of sight",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "For the first few seconds, it doesn't look like a life-and-death situation. But within minutes, the four-wheel drive is under water."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-10-23T19:38:51+00:00",
+          "lastUpdated": "2026-10-23T20:12:16+00:00"
+        },
+        "link": "/news/2026-10-24/watch-floodwaters-swallow-four-wheel-drive-in-six-minutes/107302040",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "A graphic showing a storyboard of a car driving into floodwaters, sinking and then being rescued by a bystander and ABC reporter",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0f23f99505c5e5ee78808b61dffa12?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "A graphic showing a storyboard of a car driving into floodwaters, sinking and then being rescued by a bystander and ABC reporter",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0f23f99505c5e5ee78808b61dffa12?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "A graphic showing a storyboard of a car driving into floodwaters, sinking and then being rescued by a bystander and ABC reporter",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0f0f23f99505c5e5ee78808b61dffa12?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "title": "Story Lab",
+            "link": "https://www.abc.net.au/news/interactives/",
+            "type": "infoSource",
+            "key": "Tag1"
+          },
+          {
+            "title": "Floods",
+            "link": "/news/topic/floods",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -282,7 +367,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 4
+    }
+  },
+  "moreNews": {
+    "id": "5555988",
+    "uri": "coremedia://collection/5555988",
+    "title": "Qld Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "rich",
         "id": "107303472",
@@ -372,19 +469,7 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      }
-    ],
-    "stateRail": {
-      "limit": 4
-    }
-  },
-  "moreNews": {
-    "id": "5555988",
-    "uri": "coremedia://collection/5555988",
-    "title": "Qld Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107298790",
@@ -476,85 +561,6 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107304330",
-        "targetId": "107299642",
-        "contentUri": "coremedia://teaser/107304330",
-        "label": null,
-        "title": "Amanda Camm steps down as Qld child safety and domestic violence minister ",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "The ABC understands Ms Camm's resignation will trigger a mini reshuffle in the Queensland cabinet, the first movement in the frontbench since David Crisafulli came to power in 2024."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-10-22T22:03:10+00:00",
-          "lastUpdated": "2026-10-23T00:54:30+00:00"
-        },
-        "link": "/news/2026-10-23/qld-government-amanda-camm-steps-down/107299642",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "a woman in black speaking behind a lectern ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "a woman in black speaking behind a lectern ",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "a woman in black speaking behind a lectern ",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "title": "State and Territory Government",
-            "link": "/news/topic/state-and-territory-government",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "readTime": 5,
-        "hasLoadPriority": false
       },
       {
         "type": "generic",
@@ -649,6 +655,85 @@
         "dates": null
       },
       {
+        "type": "rich",
+        "id": "107304330",
+        "targetId": "107299642",
+        "contentUri": "coremedia://teaser/107304330",
+        "label": null,
+        "title": "Amanda Camm steps down as Qld child safety and domestic violence minister ",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The ABC understands Ms Camm's resignation will trigger a mini reshuffle in the Queensland cabinet, the first movement in the frontbench since David Crisafulli came to power in 2024."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-10-22T22:03:10+00:00",
+          "lastUpdated": "2026-10-23T00:54:30+00:00"
+        },
+        "link": "/news/2026-10-23/qld-government-amanda-camm-steps-down/107299642",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "a woman in black speaking behind a lectern ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1080&xPos=420&yPos=0&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "a woman in black speaking behind a lectern ",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1620&xPos=150&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "a woman in black speaking behind a lectern ",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2bf5e50ee78fc7be1a28cf2f0c5c46b7?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "title": "State and Territory Government",
+            "link": "/news/topic/state-and-territory-government",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "readTime": 5,
+        "hasLoadPriority": false
+      },
+      {
         "type": "generic",
         "id": "107296858",
         "contentUri": "coremedia://article/107296858",
@@ -741,91 +826,6 @@
         "dates": null
       },
       {
-        "type": "rich",
-        "id": "107299746",
-        "targetId": "107286084",
-        "contentUri": "coremedia://teaser/107299746",
-        "label": null,
-        "title": "Outback giant yabby Australia's latest 'big thing'",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Windorah's new sculpture is a nod to the town's love for yabbying and its annual yabby races, aimed at encouraging more tourists to stop in town."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-10-21T23:38:31+00:00",
-          "lastUpdated": "2026-10-21T23:38:31+00:00"
-        },
-        "link": "/news/2026-10-22/big-yabby-statue-windorah-outback-queensland/107286084",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "a large metal yabby erected on a lawn median strip",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a7c8e9259be7ece3563c68cace6bafe?impolicy=wcms_crop_resize&cropH=1536&cropW=1536&xPos=0&yPos=256&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "a large metal yabby erected on a lawn median strip",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a7c8e9259be7ece3563c68cace6bafe?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=448&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "a large metal yabby erected on a lawn median strip",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2a7c8e9259be7ece3563c68cace6bafe?impolicy=wcms_crop_resize&cropH=864&cropW=1536&xPos=0&yPos=538&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Jay Carstens",
-            "title": "By Jay Carstens",
-            "link": "https://www.abc.net.au/news/jay-carstens/105685124",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "ABC Western Qld",
-            "link": "https://www.abc.net.au/westqld/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
-      },
-      {
         "type": "generic",
         "id": "107295988",
         "contentUri": "coremedia://article/107295988",
@@ -909,98 +909,6 @@
           {
             "title": "Health",
             "link": "/news/topic/health",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107288902",
-        "contentUri": "coremedia://article/107288902",
-        "label": null,
-        "link": "/news/2026-10-22/australian-workers-criticise-ato-unpaid-superannuation-recovery/107288902",
-        "title": "ATO criticised for 'not going in to bat' for millions of Australians underpaid super",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "One in four Australian workers have been underpaid their super. Many of them, along with industry experts, are calling on the tax office to be more proactive in addressing the billions that go unrecovered each year."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Pauline Devin and Angela Noack in patterned dressed sit side by side one another with serious facial expressions.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/ce033f74c9da1461eca359efc2738372?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=88&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Superannuation",
-            "link": "/news/topic/superannuation",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107291072",
-        "contentUri": "coremedia://article/107291072",
-        "label": null,
-        "link": "/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
-        "title": "Snail shell rings could hold prehistoric cyclone information",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Snail growth could be linked to extreme weather rather than annual patterns, enabling researchers to determine past cyclones."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Fingers holding a snail shell with bushland in the background",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8d4f3e3818a22b9671f8b72abfc0a0cd?impolicy=wcms_crop_resize&cropH=1310&cropW=1746&xPos=631&yPos=1839&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Weather",
-            "link": "/news/topic/weather",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
