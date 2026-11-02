@@ -101,6 +101,52 @@
       },
       {
         "type": "generic",
+        "id": "107338198",
+        "contentUri": "coremedia://article/107338198",
+        "label": null,
+        "link": "/news/2026-11-02/charity-puddle-jumpers-warehouse-pre-christmas-toy-theft/107338198",
+        "title": "Charity 'heartbroken' by theft of Christmas toys, shoes",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Puddle Jumpers says thieves have targeted their Adelaide storage facility, stealing more than $20,000 worth of goods, including toys and shoes destined for vulnerable families."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A storage site at Brompton used by children's charity Puddle Jumpers.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/822a1d0fabab45ce176d0c71dfbf8959?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=135&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Charities",
+            "link": "/news/topic/charities",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
         "id": "107307682",
         "contentUri": "coremedia://article/107307682",
         "label": null,
@@ -137,52 +183,6 @@
           {
             "title": "Courts",
             "link": "/news/topic/courts",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107333956",
-        "contentUri": "coremedia://article/107333956",
-        "label": null,
-        "link": "/news/2026-11-01/salisbury-north-fatal-pedestrian/107333956",
-        "title": "Driver charged after pedestrian's death in Adelaide's north",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "SA Police said the pedestrian died at the scene of the crash at Salisbury North at about 10am on Sunday. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A police officer kneels down taking photos of a car that has front damage",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14082e2ae95a57d0d6060bc525cd7bb6?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Road Accidents and Incidents",
-            "link": "/news/topic/road-accidents-and-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -276,6 +276,52 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107333956",
+        "contentUri": "coremedia://article/107333956",
+        "label": null,
+        "link": "/news/2026-11-01/salisbury-north-fatal-pedestrian/107333956",
+        "title": "Driver charged after pedestrian's death in Adelaide's north",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "SA Police said the pedestrian died at the scene of the crash at Salisbury North at about 10am on Sunday. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A police officer kneels down taking photos of a car that has front damage",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14082e2ae95a57d0d6060bc525cd7bb6?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Road Accidents and Incidents",
+            "link": "/news/topic/road-accidents-and-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
       },
       {
         "type": "generic",
@@ -414,7 +460,19 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 3
+    }
+  },
+  "moreNews": {
+    "id": "5633084",
+    "uri": "coremedia://collection/5633084",
+    "title": "SA Top Stories",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107333744",
@@ -460,19 +518,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 3
-    }
-  },
-  "moreNews": {
-    "id": "5633084",
-    "uri": "coremedia://collection/5633084",
-    "title": "SA Top Stories",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107330168",
@@ -520,11 +566,11 @@
         "dates": null
       },
       {
-        "type": "generic",
-        "id": "107300944",
-        "contentUri": "coremedia://article/107300944",
+        "type": "rich",
+        "id": "107338672",
+        "targetId": "107300944",
+        "contentUri": "coremedia://teaser/107338672",
         "label": null,
-        "link": "/news/2026-11-01/show-rides-cost-challenges/107300944",
         "title": "Sideshow operators offer cash discounts for rides amid soaring costs",
         "content": {
           "descriptor": {
@@ -546,32 +592,72 @@
             ]
           }
         },
-        "image": {
-          "altText": "Man dressed in bright orange with hat in front of bright show ride",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe90da3b662fe7591903d7c0899a7341?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=97&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
+        "dates": {
+          "firstPublished": "2026-10-31T22:01:03+00:00",
+          "lastUpdated": "2026-10-31T22:01:03+00:00"
         },
-        "tags": [
+        "link": "/news/2026-11-01/show-rides-cost-challenges/107300944",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
           {
-            "title": "Agricultural Shows",
-            "link": "/news/topic/agricultural-shows",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
+            "desktop": {
+              "altText": "Man dressed in bright orange with hat in front of bright show ride",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe90da3b662fe7591903d7c0899a7341?impolicy=wcms_crop_resize&cropH=3333&cropW=3333&xPos=834&yPos=0&width=862&height=862"
+            }
           }
         ],
-        "mediaIndicator": null,
-        "dates": null
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Man dressed in bright orange with hat in front of bright show ride",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe90da3b662fe7591903d7c0899a7341?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Man dressed in bright orange with hat in front of bright show ride",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe90da3b662fe7591903d7c0899a7341?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Liz Rymill",
+            "title": "By Liz Rymill",
+            "link": "https://www.abc.net.au/news/liz-rymill/10238608",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC South East SA",
+            "link": "https://www.abc.net.au/southeastsa/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
       },
       {
         "type": "generic",
-        "id": "107334912",
-        "contentUri": "coremedia://article/107334912",
+        "id": "107301460",
+        "contentUri": "coremedia://article/107301460",
+        "theme": "sand",
         "label": null,
-        "link": "/news/2026-11-02/federal-politics-live-blog-albanese-chogm-nov-2/107334912",
-        "title": "Government dismisses calls to means-test EV and battery schemes — as it happened",
+        "link": "/news/2026-11-02/matt-canavan-capricornia-one-nation-casey-briggs/107301460",
+        "title": "Canavan's seat switch might backfire, but does he have a better option?",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -585,7 +671,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The government is pushing back on suggestion it should means-test EV and home battery schemes in a bid to cut back on spending. "
+                    "content": "Matt Canavan is seeking pre-selection to run for the lower house seat of Capricornia at the next election, potentially setting up a high-profile showdown with One Nation."
                   }
                 ]
               }
@@ -593,18 +679,23 @@
           }
         },
         "image": {
-          "altText": "Electric vehicle plugged into a charger on a tree-lined city street.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/14cb6880d1d18ef2f953bb5e9c39f41d?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=0&yPos=0&width=160&height=120",
+          "altText": "Matt Canavan in a suit and patterned tie looking serious in the halls of parliament",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6e51f142e969d9f90d04f2c3ba37b8a9?impolicy=wcms_crop_resize&cropH=3512&cropW=4682&xPos=779&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Government and Politics",
-            "link": "/news/topic/government-and-politics",
-            "type": "subject",
-            "screenReader": "Topic",
+            "text": "Casey Briggs",
+            "title": "Analysis by Casey Briggs",
+            "link": "https://www.abc.net.au/news/casey-briggs/7300030",
+            "avatar": {
+              "alt": "Profile of a man.",
+              "fallbackLetter": "C",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/684c3c6a196bf205eee6708cbffd32ef?impolicy=wcms_crop_resize&cropH=1869&cropW=1869&xPos=511&yPos=0&width=160&height=160"
+            },
+            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -613,11 +704,11 @@
       },
       {
         "type": "generic",
-        "id": "107337552",
-        "contentUri": "coremedia://article/107337552",
+        "id": "107333664",
+        "contentUri": "coremedia://article/107333664",
         "label": null,
-        "link": "/news/2026-11-02/australia-in-better-position-after-south-africa-defeat/107337552",
-        "title": "Australian batting 'stronger' despite repeat South Africa collapses",
+        "link": "/news/2026-11-02/melbourne-cup-time-how-to-watch-weather-forecast/107333664",
+        "title": "What time is the Melbourne Cup? How to watch and the weather forecast",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -631,7 +722,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "Australia's batting flopped in the final two Tests in South Africa, but coach Andrew McDonald says the output from new faces means it is in a better spot."
+                    "content": "A strong field of Australian hopefuls and international raiders is preparing for the race that stops the nation on Tuesday.  "
                   }
                 ]
               }
@@ -639,16 +730,16 @@
           }
         },
         "image": {
-          "altText": "Australian Test batter Matt Renshaw eyes the ball as he goes down on one knee to hit a reverse sweep.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c34a18830f902bc20c3453da19cc72cd?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Two race horses battle for the win with the rest of the field behind them",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b31cff5027ee87ab55807cb2b1df563e?impolicy=wcms_crop_resize&cropH=2020&cropW=2693&xPos=168&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Cricket",
-            "link": "/news/topic/cricket",
+            "title": "Horse Racing",
+            "link": "/news/topic/horse-racing",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -659,11 +750,11 @@
       },
       {
         "type": "generic",
-        "id": "107334212",
-        "contentUri": "coremedia://article/107334212",
+        "id": "107336062",
+        "contentUri": "coremedia://article/107336062",
         "label": null,
-        "link": "/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
-        "title": "Westpac reports $6.8 billion profit, ASX slides ahead of RBA meeting, banks slash economic forecasts — as it happened",
+        "link": "/news/2026-11-02/ukraine-air-force-public-air-raid-alert-app-hacked-false-warning/107336062",
+        "title": "Ukrainian air raid alert app sends false warnings after being hacked",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -677,7 +768,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The ASX 200 shed 0.6 per cent, dragged down by miners and the banks ahead of tomorrow's expected RBA rate hike."
+                    "content": "The app sends Ukrainians false warnings that some areas of the country face nuclear and chemical threats. "
                   }
                 ]
               }
@@ -685,16 +776,16 @@
           }
         },
         "image": {
-          "altText": "A woman walks past an illuminated logo for Australia's Westpac Bank in Sydney",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/debfed2e0044be4282a2ce2fb167a21b?impolicy=wcms_crop_resize&cropH=532&cropW=711&xPos=43&yPos=0&width=160&height=120",
+          "altText": "People sleeping in a train station",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78d57b7cab484e35da125e7c1f203c03?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Stock Market",
-            "link": "/news/topic/stock-market",
+            "title": "Unrest, Conflict and War",
+            "link": "/news/topic/unrest-conflict-and-war",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -705,11 +796,11 @@
       },
       {
         "type": "generic",
-        "id": "107334486",
-        "contentUri": "coremedia://article/107334486",
+        "id": "107338162",
+        "contentUri": "coremedia://article/107338162",
         "label": null,
-        "link": "/news/2026-11-02/five-rescued-after-three-months-adrift-at-sea/107334486",
-        "title": "Group lost at sea for months found after drifting thousands of kilometres",
+        "link": "/news/2026-11-02/western-sydney-wanderers-chair-slams-police-over-fan-treatment/107338162",
+        "title": "Wanderers' chair calls out 'totally unacceptable' fan treatment by police",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -723,7 +814,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The group set off on a one-hour journey in the Federated States of Micronesia on July 30 then were caught in a storm."
+                    "content": "Western Sydney fans have lashed over-policing at their A-League Men's games, and now chairman Paul Lederer has had his say."
                   }
                 ]
               }
@@ -731,16 +822,16 @@
           }
         },
         "image": {
-          "altText": "Three men and two boys sit under a wooden roof looking forlorn.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb5d388d62f07dd0ac604d74a9a829ae?impolicy=wcms_crop_resize&cropH=1152&cropW=1536&xPos=0&yPos=561&width=160&height=120",
+          "altText": "Western Sydney Wanderers fans hold a banner that says Stand up for fans not police demands",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/1ecca6fe332f1ff88b9be1f0791cb6e0?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=73&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Marine Incidents",
-            "link": "/news/topic/marine-incidents",
+            "title": "A-League Men",
+            "link": "/news/topic/a-league-men",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -892,11 +983,11 @@
       },
       {
         "type": "generic",
-        "id": "107337482",
-        "contentUri": "coremedia://article/107337482",
+        "id": "107338498",
+        "contentUri": "coremedia://article/107338498",
         "label": null,
-        "link": "/news/2026-11-02/ella-roberts-aflw-west-coast-eagles-acl-injury/107337482",
-        "title": "West Coast Eagles star suffers brutal injury news",
+        "link": "/news/2026-11-02/child-dies-collie-wa-house-fire/107338498",
+        "title": "One-year-old dies in house fire south of Perth",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -910,7 +1001,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "West Coast have received confirmation of a horror injury to young superstar Ella Roberts."
+                    "content": "The child was found dead after the fire at a home in Collie, in WA's South West, on Sunday afternoon."
                   }
                 ]
               }
@@ -918,16 +1009,16 @@
           }
         },
         "image": {
-          "altText": "Ella Robers is helped off the field",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/2345c00d8bbb654cdaf422503d996fd5?impolicy=wcms_crop_resize&cropH=934&cropW=1245&xPos=238&yPos=161&width=160&height=120",
+          "altText": "Floral tributes laid at a house.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fdbb979fb02579577f86bd1325502ecb?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=625&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "AFL Women’s",
-            "link": "/news/topic/afl-womens",
+            "title": "House Fires",
+            "link": "/news/topic/house-fires",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -938,11 +1029,11 @@
       },
       {
         "type": "generic",
-        "id": "107333664",
-        "contentUri": "coremedia://article/107333664",
+        "id": "107336684",
+        "contentUri": "coremedia://article/107336684",
         "label": null,
-        "link": "/news/2026-11-02/melbourne-cup-time-how-to-watch-weather-forecast/107333664",
-        "title": "What time is the Melbourne Cup? How to watch and the weather forecast",
+        "link": "/news/2026-11-02/greenslopes-hospital-nurse-charged-rape-elderly-women-court/107336684",
+        "title": "Male nurse charged with raping three elderly women faces court",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -956,7 +1047,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "A strong field of Australian hopefuls and international raiders is preparing for the race that stops the nation on Tuesday.  "
+                    "content": "Jeremy David Pearce is accused of raping three women in his care between 2020 and 2024."
                   }
                 ]
               }
@@ -964,16 +1055,396 @@
           }
         },
         "image": {
-          "altText": "Two race horses battle for the win with the rest of the field behind them",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b31cff5027ee87ab55807cb2b1df563e?impolicy=wcms_crop_resize&cropH=2020&cropW=2693&xPos=168&yPos=0&width=160&height=120",
+          "altText": "A man in a black hoodie and mask walking through doors.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/c88f99a639d2560c06491f86b9bb5629?impolicy=wcms_crop_resize&cropH=1080&cropW=1440&xPos=240&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Horse Racing",
-            "link": "/news/topic/horse-racing",
+            "title": "Courts",
+            "link": "/news/topic/courts",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107338644",
+        "targetId": "107334486",
+        "contentUri": "coremedia://teaser/107338644",
+        "label": null,
+        "title": "Group lost at sea for months found after drifting thousands of kilometres",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The group set off on a one-hour journey in the Federated States of Micronesia on July 30 then were caught in a storm."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-11-01T23:45:15+00:00",
+          "lastUpdated": "2026-11-01T23:45:15+00:00"
+        },
+        "link": "/news/2026-11-02/five-rescued-after-three-months-adrift-at-sea/107334486",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Three men and two boys sit under a wooden roof looking forlorn.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb5d388d62f07dd0ac604d74a9a829ae?impolicy=wcms_crop_resize&cropH=1536&cropW=1536&xPos=0&yPos=508&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Three men and two boys sit under a wooden roof looking forlorn.",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb5d388d62f07dd0ac604d74a9a829ae?impolicy=wcms_crop_resize&cropH=1024&cropW=1536&xPos=0&yPos=576&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Three men and two boys sit under a wooden roof looking forlorn.",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cb5d388d62f07dd0ac604d74a9a829ae?impolicy=wcms_crop_resize&cropH=864&cropW=1536&xPos=0&yPos=568&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Evan Wasuka",
+            "title": "By Evan Wasuka",
+            "link": "https://www.abc.net.au/news/evan-wasuka/10282292",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "Marine Incidents",
+            "link": "/news/topic/marine-incidents",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 3,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107336428",
+        "contentUri": "coremedia://article/107336428",
+        "label": null,
+        "link": "/news/2026-11-02/university-of-tas-cancels-queer-artist-exhibition-hobiennale/107336428",
+        "title": "University cancels show by queer Aboriginal artist following complaint",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An exhibition has been abruptly shuttered by the University of Tasmania after one day, following a complaint made during its installation."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A sign reading 'content warning' is taped to piece of glass with a pink curtain behind it",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/f6cf1162becc41071ddcd0ae3993666e?impolicy=wcms_crop_resize&cropH=2250&cropW=3000&xPos=0&yPos=496&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Censorship",
+            "link": "/news/topic/censorship",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107337948",
+        "contentUri": "coremedia://article/107337948",
+        "label": null,
+        "link": "/news/2026-11-02/woman-indecently-assaulted-geraldton/107337948",
+        "title": "Woman feared for life during indecent assault in Geraldton",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A 29-year-old woman says she was \"absolutely terrified\" when she was attacked early on Sunday morning while walking home in Geraldton."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A young woman in a high-vis shirt stands in full sun, in suburbia, wears gold hoop earrings.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/888830e9cae29456088c4519628aacfc?impolicy=wcms_crop_resize&cropH=1901&cropW=2535&xPos=1499&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Sexual Offences",
+            "link": "/news/topic/sexual-offences",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "rich",
+        "id": "107337128",
+        "targetId": "107335974",
+        "contentUri": "coremedia://teaser/107337128",
+        "label": null,
+        "title": "Melbourne club dismayed by suspected e-bike vandalism of cricket pitch",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "A local cricket club in the south-western suburbs has expressed dismay after its turf pitch was destroyed by suspected vandals on e-bikes. "
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-11-02T02:27:57+00:00",
+          "lastUpdated": "2026-11-02T02:27:57+00:00"
+        },
+        "link": "/news/2026-11-02/williamstown-cricket-pitch-destroyed-by-e-bikes/107335974",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "Black tyre marks skid across a grass cricket pitch and oval",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=900&cropW=900&xPos=0&yPos=317&width=862&height=862"
+            }
+          },
+          {
+            "desktop": {
+              "altText": "Black tyre marks make their way across a grass cricket pitch",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=900&cropW=900&xPos=0&yPos=452&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "Black tyre marks skid across a grass cricket pitch and oval",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=600&cropW=900&xPos=0&yPos=467&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Black tyre marks skid across a grass cricket pitch and oval",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=514&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          },
+          {
+            "desktop": {
+              "altText": "Black tyre marks make their way across a grass cricket pitch",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=600&cropW=900&xPos=0&yPos=602&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "Black tyre marks make their way across a grass cricket pitch",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=649&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Ethan White",
+            "title": "By Ethan White",
+            "link": "https://www.abc.net.au/news/ethan-white/106535342",
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "774 ABC Melbourne",
+            "link": "https://www.abc.net.au/melbourne/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 2,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "generic",
+        "id": "107338030",
+        "contentUri": "coremedia://article/107338030",
+        "label": null,
+        "link": "/news/2026-11-02/tyre-waste-disposal-scam-syndicate-tasmania-epa/107338030",
+        "title": "Bogus tyre disposal operation nets $50k in 10 days",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An interstate group has made around $50,000 in 10 days after posing as a licensed disposal operation for old tyres, Tasmanian authorities say."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "Open shipping container full of tyres.",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8ceb76d9052644fd637a614e6c394817?impolicy=wcms_crop_resize&cropH=1104&cropW=1472&xPos=0&yPos=429&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Scams and Fraud",
+            "link": "/news/topic/scams-and-fraud",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "dates": null
+      },
+      {
+        "type": "generic",
+        "id": "107338456",
+        "contentUri": "coremedia://article/107338456",
+        "label": null,
+        "link": "/news/2026-11-02/cairns-man-dies-while-fossicking-cape-york/107338456",
+        "title": "Man crushed beneath boulder while fossicking",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "Emergency services were called to a remote track near a Far North Queensland goldfield but the 44-year-old died at the scene."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image": {
+          "altText": "A white helicopter landing among trees",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/8c6efbaae32f35ae2e060d463037f82d?impolicy=wcms_crop_resize&cropH=2813&cropW=3751&xPos=625&yPos=0&width=160&height=120",
+          "imgRatio": "4x3",
+          "width": "160",
+          "height": "120"
+        },
+        "tags": [
+          {
+            "title": "Accidents and Emergency Incidents",
+            "link": "/news/topic/accidents-and-emergency-incidents",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag1"
@@ -1120,11 +1591,11 @@
       },
       {
         "type": "generic",
-        "id": "107336062",
-        "contentUri": "coremedia://article/107336062",
+        "id": "107338600",
+        "contentUri": "coremedia://article/107338600",
         "label": null,
-        "link": "/news/2026-11-02/ukraine-air-force-public-air-raid-alert-app-hacked-false-warning/107336062",
-        "title": "Ukrainian air raid alert app sends false warnings after being hacked",
+        "link": "/news/2026-11-02/geelong-cats-surge-into-aflw-finals-contention-no-accident/107338600",
+        "title": "Cats' rise well overdue as AFLW finals loom",
         "content": {
           "descriptor": {
             "type": "tagname",
@@ -1138,7 +1609,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "content": "The app sends Ukrainians false warnings that some areas of the country face nuclear and chemical threats. "
+                    "content": "Geelong has been one of the stories of the AFLW season in storming to a top-two finish and co-captain Nina Morrison believes it is well overdue."
                   }
                 ]
               }
@@ -1146,226 +1617,18 @@
           }
         },
         "image": {
-          "altText": "People sleeping in a train station",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/78d57b7cab484e35da125e7c1f203c03?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
+          "altText": "Nina Morrison holds up her hands",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/17bed3cc2e5a66e9a79bbbf7722dd5d4?impolicy=wcms_crop_resize&cropH=1608&cropW=2144&xPos=703&yPos=0&width=160&height=120",
           "imgRatio": "4x3",
           "width": "160",
           "height": "120"
         },
         "tags": [
           {
-            "title": "Unrest, Conflict and War",
-            "link": "/news/topic/unrest-conflict-and-war",
+            "title": "AFL Women’s",
+            "link": "/news/topic/afl-womens",
             "type": "subject",
             "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107337128",
-        "targetId": "107335974",
-        "contentUri": "coremedia://teaser/107337128",
-        "label": null,
-        "title": "Melbourne club dismayed by suspected e-bike vandalism of cricket pitch",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A local cricket club in the south-western suburbs has expressed dismay after its turf pitch was destroyed by suspected vandals on e-bikes. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-11-02T02:27:57+00:00",
-          "lastUpdated": "2026-11-02T02:27:57+00:00"
-        },
-        "link": "/news/2026-11-02/williamstown-cricket-pitch-destroyed-by-e-bikes/107335974",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Black tyre marks skid across a grass cricket pitch and oval",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=900&cropW=900&xPos=0&yPos=317&width=862&height=862"
-            }
-          },
-          {
-            "desktop": {
-              "altText": "Black tyre marks make their way across a grass cricket pitch",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=900&cropW=900&xPos=0&yPos=452&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Black tyre marks skid across a grass cricket pitch and oval",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=600&cropW=900&xPos=0&yPos=467&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Black tyre marks skid across a grass cricket pitch and oval",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/b7f95d58568afb122110c45213c40ad5?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=514&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          },
-          {
-            "desktop": {
-              "altText": "Black tyre marks make their way across a grass cricket pitch",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=600&cropW=900&xPos=0&yPos=602&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Black tyre marks make their way across a grass cricket pitch",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0de9a3389a000ac223781ffdecfac2a3?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=649&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Ethan White",
-            "title": "By Ethan White",
-            "link": "https://www.abc.net.au/news/ethan-white/106535342",
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "774 ABC Melbourne",
-            "link": "https://www.abc.net.au/melbourne/",
-            "type": "infoSource",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 2,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107334602",
-        "contentUri": "coremedia://article/107334602",
-        "label": null,
-        "link": "/news/2026-11-02/israel-president-isaac-herzog-calls-for-calm-in-election/107334602",
-        "title": "Israeli president calls for calm ahead of election talks",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Israel's political rivals are set for talks in an attempt to cobble together a new government after an election result that failed to provide a working majority."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Masked protester holding doll in right hand and Israeli flag in left",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/fe7c90472b684242b63dae4b192dac45?impolicy=wcms_crop_resize&cropH=3333&cropW=4444&xPos=278&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "World Politics",
-            "link": "/news/topic/world-politics",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107333830",
-        "contentUri": "coremedia://article/107333830",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-11-02/disunity-federal-government-blame-game-analysis/107333830",
-        "title": "Chalmers's criticism of Morrison coming back to bite him",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "With interest rates tipped to rise on Tuesday, the federal government needs to scramble to assure disgruntled voters it is a united party with a solid plan. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Two men in suits in parliament, one with his hand to his chin.",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/504d767b114299f99988a71109b5f099?impolicy=wcms_crop_resize&cropH=1576&cropW=2101&xPos=1205&yPos=72&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Patricia Karvelas",
-            "title": "Analysis by Patricia Karvelas",
-            "link": "https://www.abc.net.au/news/patricia-karvelas/6086082",
-            "avatar": {
-              "alt": "Patricia Karvelas portrait",
-              "fallbackLetter": "P",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0c29888fc11b4ee6d443de17027d61e0?impolicy=wcms_crop_resize&cropH=749&cropW=749&xPos=1064&yPos=35&width=160&height=160"
-            },
-            "type": "combined",
             "key": "Tag1"
           }
         ],
@@ -1450,195 +1713,6 @@
           {
             "title": "Boxing",
             "link": "/news/topic/boxing",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag2"
-          }
-        ],
-        "readTime": 3,
-        "hasLoadPriority": false
-      },
-      {
-        "type": "generic",
-        "id": "107333262",
-        "contentUri": "coremedia://article/107333262",
-        "theme": "sand",
-        "label": null,
-        "link": "/news/2026-11-02/brutal-redistribution-rba-interest-rate-policy/107333262",
-        "title": "The brutal redistribution at the heart of the RBA's interest rate policy",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "RBA officials argue the hit to borrowers' income isn't the main way rate rises lower inflation. But they often omit a key fact."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "A graphic of a red percentage symbol where the line is an up arrow, set against a photo of houses",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/31e19e597febcdca6055bc2f1d91c68d?impolicy=wcms_crop_resize&cropH=800&cropW=1067&xPos=87&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "text": "Michael Janda",
-            "title": "Analysis by Michael Janda",
-            "link": "https://www.abc.net.au/news/michael-janda/166854",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "M",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/25799e9e421dafe0c5c163d7c2546c54?impolicy=wcms_crop_resize&cropH=349&cropW=349&xPos=74&yPos=45&width=160&height=160"
-            },
-            "type": "combined",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "generic",
-        "id": "107295686",
-        "contentUri": "coremedia://article/107295686",
-        "label": null,
-        "link": "/news/2026-11-02/financial-abuse-via-services-australias-child-support/107295686",
-        "title": "Mother exposes ways her DV abuser dodges paying child support",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "A mother who says she can't afford to feed her kids has again disputed an assessment by Services Australia that she must pay child support to her abuser."
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "image": {
-          "altText": "Graphics image of anon DFV victim-survivor ",
-          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/a24e9aad6f01a0cb04b9e3d674330dd7?impolicy=wcms_crop_resize&cropH=575&cropW=767&xPos=48&yPos=0&width=160&height=120",
-          "imgRatio": "4x3",
-          "width": "160",
-          "height": "120"
-        },
-        "tags": [
-          {
-            "title": "Domestic Violence",
-            "link": "/news/topic/domestic-violence",
-            "type": "subject",
-            "screenReader": "Topic",
-            "key": "Tag1"
-          }
-        ],
-        "mediaIndicator": null,
-        "dates": null
-      },
-      {
-        "type": "rich",
-        "id": "107337628",
-        "targetId": "107331590",
-        "contentUri": "coremedia://teaser/107337628",
-        "label": null,
-        "title": "Crocodile climbs onto NT fisherman's boat",
-        "content": {
-          "descriptor": {
-            "type": "tagname",
-            "key": "div",
-            "props": {},
-            "children": [
-              {
-                "type": "tagname",
-                "key": "@@standfirst",
-                "props": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "content": "Crocodiles tend to be more territorial and active in Top End waters this time of year, with experts warning breeding season comes with greater risks — especially for fishers. "
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "dates": {
-          "firstPublished": "2026-11-01T21:24:59+00:00",
-          "lastUpdated": "2026-11-01T21:24:59+00:00"
-        },
-        "link": "/news/2026-11-02/experts-warn-crocodiles-territorial-hot-weather-breeding-season/107331590",
-        "related": {
-          "title": null,
-          "videos": [],
-          "audio": [],
-          "articles": []
-        },
-        "gallery": [
-          {
-            "desktop": {
-              "altText": "Claw marks have been scratched into the side of a small boat, with the lines exposing grey metal under the white paintjob.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6631037f8c4463c25189ec7d8e737a07?impolicy=wcms_crop_resize&cropH=688&cropW=688&xPos=80&yPos=183&width=862&height=862"
-            }
-          }
-        ],
-        "thumbnail": [
-          {
-            "desktop": {
-              "altText": "Claw marks have been scratched into the side of a small boat, with the lines exposing grey metal under the white paintjob.",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6631037f8c4463c25189ec7d8e737a07?impolicy=wcms_crop_resize&cropH=512&cropW=768&xPos=0&yPos=306&width=862&height=575",
-              "imgRatio": "3x2",
-              "width": "862",
-              "height": "575"
-            },
-            "sources": [
-              {
-                "altText": "Claw marks have been scratched into the side of a small boat, with the lines exposing grey metal under the white paintjob.",
-                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/6631037f8c4463c25189ec7d8e737a07?impolicy=wcms_crop_resize&cropH=413&cropW=734&xPos=34&yPos=336&width=862&height=485",
-                "imgRatio": "16x9",
-                "width": "862",
-                "height": "485",
-                "media": "(max-width:767px)"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "text": "Tilda Colling",
-            "title": "By Tilda Colling",
-            "link": "https://www.abc.net.au/news/tilda-colling/104927126",
-            "avatar": {
-              "alt": "",
-              "fallbackLetter": "T",
-              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cf596aacc892224977684a90afc9787d?impolicy=wcms_crop_resize&cropH=481&cropW=481&xPos=674&yPos=91&width=160&height=160"
-            },
-            "type": "author",
-            "key": "Tag1"
-          },
-          {
-            "title": "Crocodile Attacks",
-            "link": "/news/topic/crocodile-attacks",
             "type": "subject",
             "screenReader": "Topic",
             "key": "Tag2"
