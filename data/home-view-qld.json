@@ -9,6 +9,142 @@
     "moduleLabel": "Top Stories",
     "items": [
       {
+        "type": "rich",
+        "id": "107437690",
+        "targetId": "107433500",
+        "contentUri": "coremedia://teaser/107437690",
+        "label": null,
+        "title": "Schoolies week marred by alleged 'pack mentality' bashing of 15yo",
+        "content": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "An alleged act of \"gratuitous violence\" has left a 15-year-old boy on life support with a broken jaw, fractured skull and brain bleed."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": {
+          "firstPublished": "2026-11-27T21:00:15+00:00",
+          "lastUpdated": "2026-11-27T21:00:15+00:00"
+        },
+        "link": "/news/2026-11-28/schoolies-alleged-assault-gold-coast/107433500",
+        "related": {
+          "title": null,
+          "videos": [],
+          "audio": [],
+          "articles": []
+        },
+        "gallery": [
+          {
+            "desktop": {
+              "altText": "boy in hospital bed with face blurred",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cff8a28394dfef973dfa630b132e5c07?impolicy=wcms_crop_resize&cropH=1180&cropW=1180&xPos=0&yPos=196&width=862&height=862"
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "desktop": {
+              "altText": "boy in hospital bed with face blurred",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cff8a28394dfef973dfa630b132e5c07?impolicy=wcms_crop_resize&cropH=787&cropW=1180&xPos=0&yPos=150&width=862&height=575",
+              "imgRatio": "3x2",
+              "width": "862",
+              "height": "575"
+            },
+            "sources": [
+              {
+                "altText": "boy in hospital bed with face blurred",
+                "imgSrc": "https://live-production.wcms.abc-cdn.net.au/cff8a28394dfef973dfa630b132e5c07?impolicy=wcms_crop_resize&cropH=664&cropW=1180&xPos=0&yPos=197&width=862&height=485",
+                "imgRatio": "16x9",
+                "width": "862",
+                "height": "485",
+                "media": "(max-width:767px)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "Charmayne Allison",
+            "title": "By Charmayne Allison",
+            "link": "https://www.abc.net.au/news/charmayne-allison/13382416",
+            "avatar": {
+              "alt": "",
+              "fallbackLetter": "C",
+              "imgSrc": "https://live-production.wcms.abc-cdn.net.au/0eb00a9790b219c576fec145404f4052?impolicy=wcms_crop_resize&cropH=2282&cropW=2282&xPos=1491&yPos=0&width=160&height=160"
+            },
+            "type": "author",
+            "key": "Tag1"
+          },
+          {
+            "title": "ABC Gold Coast",
+            "link": "https://www.abc.net.au/goldcoast/",
+            "type": "infoSource",
+            "key": "Tag2"
+          }
+        ],
+        "readTime": 4,
+        "hasLoadPriority": false
+      },
+      {
+        "type": "medium",
+        "id": "107437894",
+        "contentUri": "coremedia://teaser/107437894",
+        "label": null,
+        "link": "/news/2026-11-28/qld-cfmeu-inquiry-whistleblower-dark-secrets/107428420",
+        "title": "'Play the game': Whistleblower details building sector's dark underbelly",
+        "image": {
+          "altText": "A graphic of a silhouette of a person against a crane background with a cfmeu flag hanging off it",
+          "imgSrc": "https://live-production.wcms.abc-cdn.net.au/7f0f6f9f734eb35ef4be2708b0c3c94c?impolicy=wcms_crop_resize&cropH=840&cropW=1120&xPos=140&yPos=0&width=862&height=647",
+          "imgRatio": "4x3",
+          "width": "862",
+          "height": "647"
+        },
+        "tags": [
+          {
+            "title": "Unions",
+            "link": "/news/topic/unions",
+            "type": "subject",
+            "screenReader": "Topic",
+            "key": "Tag1"
+          }
+        ],
+        "mediaIndicator": null,
+        "synopsis": {
+          "descriptor": {
+            "type": "tagname",
+            "key": "div",
+            "props": {},
+            "children": [
+              {
+                "type": "tagname",
+                "key": "@@standfirst",
+                "props": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "content": "The industry veteran, testifying under the pseudonym Ian Doyle, said businesses considered it \"easier\" to \"go along with\" alleged criminal conduct than to \"resist it\"."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dates": null
+      },
+      {
         "type": "generic",
         "id": "107436214",
         "contentUri": "coremedia://article/107436214",
@@ -293,7 +429,19 @@
         ],
         "readTime": 4,
         "hasLoadPriority": false
-      },
+      }
+    ],
+    "stateRail": {
+      "limit": 5
+    }
+  },
+  "moreNews": {
+    "id": "107080840",
+    "uri": "coremedia://dynamiccollection/107080840",
+    "title": "QLD",
+    "moduleKey": "app://module/news-homepage-more-news",
+    "moduleLabel": "More News",
+    "items": [
       {
         "type": "generic",
         "id": "107431186",
@@ -385,19 +533,7 @@
         ],
         "mediaIndicator": null,
         "dates": null
-      }
-    ],
-    "stateRail": {
-      "limit": 5
-    }
-  },
-  "moreNews": {
-    "id": "107080840",
-    "uri": "coremedia://dynamiccollection/107080840",
-    "title": "QLD",
-    "moduleKey": "app://module/news-homepage-more-news",
-    "moduleLabel": "More News",
-    "items": [
+      },
       {
         "type": "generic",
         "id": "107426012",
